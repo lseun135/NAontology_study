@@ -7,3 +7,60 @@
 <https://lseun135.github.io/NAontology_study/m1-record> a owl:Ontology ;
   owl:imports <https://www.ica.org/standards/RiC/ontology/1.1> .
 
+
+
+# individuals
+
+nam1:A rdf:type owl:NamedIndividual ,
+                rico:RecordSet ;
+       rico:includesOrIncluded nam1:A-SRG01 ,
+                               nam1:A-SRG02 ;
+       rico:classification "A" ;
+       rico:generalDescription "국회 대수(代數)별로 생산되는 회의록·의안기록물"@ko ;
+       rico:name "국회 회의록·의안기록물"@ko ;
+       rdfs:label "[A] 국회 회의록·의안기록물"@ko .
+
+
+nam1:A-SRG01 rdf:type owl:NamedIndividual ,
+                      rico:RecordSet ;
+             rico:name "국회 회의록"@ko ;
+             rdfs:label "[A-SRG01] 국회 회의록"@ko .
+
+
+nam1:A-SRG02 rdf:type owl:NamedIndividual ,
+                      rico:RecordSet ;
+             rico:name "의안기록물"@ko ;
+             rdfs:label "[A-SRG02] 의안기록물"@ko .
+
+
+
+nam1:B rdf:type owl:NamedIndividual ,
+                rico:RecordSet ;
+       rico:classification "B" ;
+       rico:generalDescription "연도별 국회 조직(소속기관 등) 생산 기록물"@ko ;
+       rico:name "생산·이관기록물"@ko ;
+       rdfs:label "[B] 생산·이관기록물"@ko .
+
+
+
+nam1:C rdf:type owl:NamedIndividual ,
+                rico:RecordSet ;
+       rico:includesOrIncluded nam1:C-SRG01 ,
+                               nam1:C-SRG02 ;
+       rico:classification "C" ;
+       rico:generalDescription "개인(의원), 단체(정당) 등으로부터 수집한 기록물"@ko ;
+       rico:name "수집기록물"@ko ;
+       rdfs:label "[C] 수집기록물"@ko .
+
+
+nam1:C-SRG01 rdf:type owl:NamedIndividual ,
+                      rico:RecordSet ;
+             rico:name "의원기록"@ko ;
+             rdfs:label "[C-SRG01] 의원 기록"@ko .
+
+
+nam1:C-SRG02 rdf:type owl:NamedIndividual ,
+                      rico:RecordSet ;
+             rico:name "정당기록"@ko ;
+             rdfs:label "[C-SRG02] 정당 기록"@ko .
+
