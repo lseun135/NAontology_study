@@ -1,15 +1,22 @@
 @prefix nam1: <https://lseun135.github.io/NAontology_study/m1-record#> .
-@base    <https://lseun135.github.io/NAontology_study/m1-record> .
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+
+@base    <https://lseun135.github.io/NAontology_study/m1-record> .
 
 
 <https://lseun135.github.io/NAontology_study/m1-record> a owl:Ontology ;
-  owl:imports <https://www.ica.org/standards/RiC/ontology/1.1> .
+        owl:imports <https://www.ica.org/standards/RiC/ontology/1.1> .
 
 
 
 # individuals
+
+## A 분류체계: 국회 회의록·의안기록물
 
 nam1:A rdf:type owl:NamedIndividual ,
                 rico:RecordSet ;
@@ -34,6 +41,8 @@ nam1:A-SRG02 rdf:type owl:NamedIndividual ,
 
 
 
+## B 분류체계: 생산·이관기록물
+
 nam1:B rdf:type owl:NamedIndividual ,
                 rico:RecordSet ;
        rico:classification "B" ;
@@ -42,6 +51,8 @@ nam1:B rdf:type owl:NamedIndividual ,
        rdfs:label "[B] 생산·이관기록물"@ko .
 
 
+
+## C 분류체계: 수집기록물
 
 nam1:C rdf:type owl:NamedIndividual ,
                 rico:RecordSet ;
