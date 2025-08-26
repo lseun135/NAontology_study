@@ -1,6 +1,172 @@
-@prefix nam2: <https://lseun135.github.io/NAontology_study/m2-person#> .
-@base    <https://lseun135.github.io/NAontology_study/m2-person> .
-@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix nam2:   <https://lseun135.github.io/NAontology_study/m2-person#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms:<http://purl.org/dc/terms/> .
+@prefix schema: <https://schema.org/> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix org:    <http://www.w3.org/ns/org#> .
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> .
+@prefix gn:     <https://www.geonames.org/ontology#> .
+
+@base <https://lseun135.github.io/NAontology_study/m2-person> .
+
+<https://lseun135.github.io/NAontology_study/m2-person>
+    a owl:Ontology ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> ,
+                <http://www.w3.org/ns/org> .
 
 
-<https://lseun135.github.io/NAontology_study/m2-person> a owl:Ontology .
+
+# Object Properties
+
+dcterms:temporal a owl:ObjectProperty ;
+    rdfs:range dcterms:PeriodOfTime .
+
+
+# Datatype Properties
+
+dcterms:identifier a owl:DatatypeProperty ;
+    rdfs:range rdfs:Literal .
+
+foaf:gender a owl:DatatypeProperty ;
+    rdfs:range [
+        a rdfs:Datatype ;
+        owl:oneOf (
+            "female"^^xsd:token
+            "male"^^xsd:token
+        )
+    ] .
+
+foaf:name a owl:DatatypeProperty .
+
+nam2:assistantName a owl:DatatypeProperty ;
+    rdfs:domain org:Membership , foaf:Person ;
+    rdfs:range rdf:langString ;
+    rdfs:comment "보좌관 이름(여러 값 허용)"@ko ;
+    rdfs:label "보좌관"@ko .
+
+nam2:calendarType a owl:DatatypeProperty ;
+    rdfs:range [
+        a rdfs:Datatype ;
+        owl:oneOf (
+            "lunar"^^xsd:token
+            "solar"^^xsd:token
+        )
+    ] .
+
+nam2:lunarBirthText a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+nam2:secretaryName a owl:DatatypeProperty ;
+    rdfs:domain org:Membership , foaf:Person ;
+    rdfs:range rdf:langString ;
+    rdfs:comment "비서관 이름(여러 값 허용)"@ko ;
+    rdfs:label "비서관"@ko .
+
+nam2:seniorSecretaryName a owl:DatatypeProperty ;
+    rdfs:domain org:Membership , foaf:Person ;
+    rdfs:range rdf:langString ;
+    rdfs:comment "선임비서관 이름(여러 값 허용)"@ko ;
+    rdfs:label "선임비서관"@ko .
+
+schema:endDate a owl:DatatypeProperty .
+schema:startDate a owl:DatatypeProperty .
+schema:telephone a owl:DatatypeProperty .
+gn:name a owl:DatatypeProperty .
+
+
+
+# Classes (분리 IRI: *Class)
+
+dcterms:LocationPeriodOrJurisdiction a owl:Class .
+
+dcterms:PeriodOfTime a owl:Class ;
+    rdfs:subClassOf dcterms:LocationPeriodOrJurisdiction .
+
+gn:Feature a owl:Class .
+
+
+
+# 위원회 클래스 계층 (호환성 위해 SKOS 개념과 IRI 분리)
+
+nam2:CommitteeClass a owl:Class ;
+    rdfs:label "위원회(클래스)"@ko .
+
+nam2:SpecialCommitteeClass a owl:Class ;
+    rdfs:subClassOf nam2:CommitteeClass ;
+    rdfs:label "특별위원회(클래스)"@ko .
+
+nam2:StandingCommitteeClass a owl:Class ;
+    rdfs:subClassOf nam2:CommitteeClass ;
+    rdfs:label "상임위원회(클래스)"@ko .
+
+nam2:SubCommitteeClass a owl:Class ;
+    rdfs:subClassOf nam2:SpecialCommitteeClass , nam2:StandingCommitteeClass ;
+    rdfs:label "소위원회(클래스)"@ko .
+
+
+
+# SKOS Concept Schemes & Concepts (개체층)
+
+## Concept Schemes
+nam2:OrgTypes a skos:ConceptScheme ;
+    rdfs:label "조직 유형"@ko .
+
+nam2:MeetingTypes a skos:ConceptScheme ;
+    rdfs:label "국회 회의 유형"@ko .
+
+
+## OrgTypes 내 콘셉트 (기존 IRI 유지)
+nam2:Committee a skos:Concept ;
+    skos:inScheme nam2:OrgTypes ;
+    skos:prefLabel "위원회"@ko ;
+    skos:exactMatch nam2:CommitteeClass .
+
+nam2:Institution a skos:Concept ;
+    skos:inScheme nam2:OrgTypes ;
+    skos:prefLabel "기관"@ko .
+
+nam2:Party a skos:Concept ;
+    skos:inScheme nam2:OrgTypes ;
+    skos:prefLabel "정당"@ko .
+
+nam2:SpecialCommittee a skos:Concept ;
+    skos:inScheme nam2:OrgTypes ;
+    skos:broader nam2:Committee ;
+    skos:prefLabel "특별위원회"@ko ;
+    skos:exactMatch nam2:SpecialCommitteeClass .
+
+nam2:StandingCommittee a skos:Concept ;
+    skos:inScheme nam2:OrgTypes ;
+    skos:broader nam2:Committee ;
+    skos:prefLabel "상임위원회"@ko ;
+    skos:exactMatch nam2:StandingCommitteeClass .
+
+nam2:SubCommittee a skos:Concept ;
+    skos:broader nam2:SpecialCommittee , nam2:StandingCommittee ;
+    skos:prefLabel "소위원회"@ko ;
+    skos:exactMatch nam2:SubCommitteeClass .
+
+# MeetingTypes 내 콘셉트
+nam2:PlenarySession a skos:Concept ;
+    skos:inScheme nam2:MeetingTypes ;
+    skos:prefLabel "국회본회의"@ko ;
+    rdfs:label "본회의"@ko .
+
+nam2:SpecialCommitteeMeeting a skos:Concept ;
+    skos:inScheme nam2:MeetingTypes ;
+    skos:narrower nam2:SubCommitteeMeeting ;
+    skos:prefLabel "Special Committee Meeting"@en ,
+                   "특별위원회 회의"@ko .
+
+nam2:StandingCommitteeMeeting a skos:Concept ;
+    skos:inScheme nam2:MeetingTypes ;
+    skos:narrower nam2:SubCommitteeMeeting ;
+    rdfs:label "상임위원회 회의"@ko .
+
+nam2:SubCommitteeMeeting a skos:Concept ;
+    skos:prefLabel "Subcommittee Meeting"@en ,
+                   "소위원회 회의"@ko ;
+    rdfs:label "소위원회 회의"@ko .
