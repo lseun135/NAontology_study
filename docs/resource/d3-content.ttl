@@ -1,0 +1,5 @@
+@prefix nadat3: <https://lseun135.github.io/NAontology_study/resource/d3-content#> .
+@base    <https://lseun135.github.io/NAontology_study/resource/d3-content> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+
+<https://lseun135.github.io/NAontology_study/resource/d3-content> a owl:Ontology .
