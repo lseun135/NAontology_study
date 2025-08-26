@@ -1,0 +1,6 @@
+@prefix : <https://lseun135.github.io/NAontology_study/m2-person#> .
+@base    <https://lseun135.github.io/NAontology_study/m2-person> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+
+
+<https://lseun135.github.io/NAontology_study/m2-person> a owl:Ontology .
