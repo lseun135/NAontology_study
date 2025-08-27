@@ -94,7 +94,7 @@ sdat1:F100021414 rdf:type rico:RecordSet ;
                 rdfs:label "[F100021414] 21대 414회 국회" ;
                 rico:name "제414회국회"@ko .
 
-sdat1:S100021 rdf:type rico:RecordSet> ;
+sdat1:S100021 rdf:type rico:RecordSet ;
                 rico:includesOrIncluded sdat1:F100021414 ;
                 rico:name "제21대"@ko ;
                 rdfs:label "[S100021] 제21대" .
