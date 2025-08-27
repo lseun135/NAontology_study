@@ -7,15 +7,14 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
 
-@base   <https://lseun135.github.io/NAontology_study/resource/d1-record-sample5> .
-
-
-<https://lseun135.github.io/NAontology_study/resource/d1-record-sample5> rdf:type owl:Ontology ;
-                owl:imports <https://lseun135.github.io/NAontology_study/m1-record> ;
-                rdfs:comment "제21대 국회 회의록 중 가장 최근 5개의 본회의를 중심으로 구축한 샘플 온톨로지" .
+@base <https://lseun135.github.io/NAontology_study/resource/d1-record-sample5/> .
 
 
 
+<https://lseun135.github.io/NAontology_study/resource/d1-record-sample5/>
+    a owl:Ontology ;
+    owl:imports <https://lseun135.github.io/NAontology_study/m1-record> ;
+    rdfs:comment "제21대 국회 회의록 중 가장 최근 5개의 본회의를 중심으로 구축한 샘플 온톨로지"@ko .
 
 
 
