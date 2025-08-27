@@ -9,3 +9,4 @@
 
 <https://lseun135.github.io/NAontology_study/resource/d2-person> rdf:type owl:Ontology ;
                 owl:imports <https://lseun135.github.io/NAontology_study/m2-person> .
+
