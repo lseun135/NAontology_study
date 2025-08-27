@@ -17,6 +17,8 @@
 
 
 
+
+
 # Individuals
 
 sdat1:PER-STF-001 rdf:type rico:Person ;
