@@ -1,15 +1,170 @@
 @prefix sdat1: <https://lseun135.github.io/NAontology_study/resource/d1-record-sample5#> .
+@prefix nam1: <https://lseun135.github.io/NAontology_study/m1-record#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
 
 @base   <https://lseun135.github.io/NAontology_study/resource/d1-record-sample5> .
 
 
 <https://lseun135.github.io/NAontology_study/resource/d1-record-sample5> rdf:type owl:Ontology ;
-                                                  owl:imports <https://lseun135.github.io/NAontology_study/m1-record> ;
-                                                  rdfs:comment "제21대 국회 회의록 중 가장 최근 5개의 본회의를 중심으로 구축한 샘플 온톨로지" .
+                owl:imports <https://lseun135.github.io/NAontology_study/m1-record> ;
+                rdfs:comment "제21대 국회 회의록 중 가장 최근 5개의 본회의를 중심으로 구축한 샘플 온톨로지" .
+
+
+
+
+# Individuals
+
+nam1:A-SRG01 rico:includesOrIncluded sdat1:S100021 .
+
+sdat1:F100021414 rdf:type owl:NamedIndividual ,
+                          rico:RecordSet ;
+                 rico:includesOrIncluded sdat1:R100021414002 ;
+                 rdfs:label "[F100021414] 21대 414회 국회" ;
+                 rico:name "제414회국회"@ko .
+
+sdat1:ACT-M-53844 rdf:type owl:NamedIndividual ,
+                           rico:Activity ;
+                  rdfs:comment "활동-회의-회의번호 순 임의의 식별코드 사용 /  추후 해당 회의의 부록과 연결될 가능성" ;
+                  rdfs:label "[ACT-M-53844] 21대 국회 본회의 414회 2차" .
+
+
+
+
+
+###  https://example.org/resource/d1-record-sample5#INS-001
+sdat1:INS-001 rdf:type owl:NamedIndividual ,
+                       rico:CorporateBody ;
+              rico:hasOrHadMember sdat1:PER-001 ;
+              rdfs:comment "국회사무처에 부여한 임의의 번호" ;
+              rdfs:label "[INS-001] 국회사무처" .
+
+
+###  https://example.org/resource/d1-record-sample5#P100021414002001
+sdat1:P100021414002001 rdf:type owl:NamedIndividual ,
+                                rico:RecordPart ;
+                       rico:isOrWasConstituentOf sdat1:R100021414002 ;
+                       rdfs:label "1. 순직 해병 수사 방해 및 사건 은폐 등의 진상규명을 위한 특별검사의 임명 등에 관한 법률안 재의의 건(대통령 제출)" .
+
+
+###  https://example.org/resource/d1-record-sample5#P100021414002002
+sdat1:P100021414002002 rdf:type owl:NamedIndividual ,
+                                rico:RecordPart ;
+                       rico:isOrWasConstituentOf sdat1:R100021414002 ;
+                       rdfs:label "2. 전세사기피해자 지원 및 주거안정에 관한 특별법 일부개정법률안(대안)(국토교통위원장 제출)(의안번호 2126666)" .
+
+
+###  https://example.org/resource/d1-record-sample5#P100021414002003
+sdat1:P100021414002003 rdf:type owl:NamedIndividual ,
+                                rico:RecordPart ;
+                       rico:isOrWasConstituentOf sdat1:R100021414002 ;
+                       rdfs:label "3. 2023년도 국정감사 결과보고서 채택의 건(환경노동위원장 제출)(의안번호 2126669)" .
+
+
+###  https://example.org/resource/d1-record-sample5#P100021414002004
+sdat1:P100021414002004 rdf:type owl:NamedIndividual ,
+                                rico:RecordPart ;
+                       rico:isOrWasConstituentOf sdat1:R100021414002 ;
+                       rdfs:comment "csv에 4~10번 안건이 통합되어 있음. 코드 사용 시, 분리방법 생각" ;
+                       rdfs:label "4. 가맹사업거래의 공정화에 관한 법률 일부개정법률안(대안) 본회의 부의의 건" .
+
+
+###  https://example.org/resource/d1-record-sample5#P100021414002005
+sdat1:P100021414002005 rdf:type owl:NamedIndividual ,
+                                rico:RecordPart ;
+                       rico:isOrWasConstituentOf sdat1:R100021414002 ;
+                       rdfs:label "5. 민주유공자 예우에 관한 법률안(대안) 본회의 부의의 건" .
+
+
+###  https://example.org/resource/d1-record-sample5#P100021414002006
+sdat1:P100021414002006 rdf:type owl:NamedIndividual ,
+                                rico:RecordPart ;
+                       rico:isOrWasConstituentOf sdat1:R100021414002 ;
+                       rdfs:label "6. 양곡관리법 일부개정법률안(대안) 본회의 부의의 건" .
+
+
+###  https://example.org/resource/d1-record-sample5#P100021414002007
+sdat1:P100021414002007 rdf:type owl:NamedIndividual ,
+                                rico:RecordPart ;
+                       rico:isOrWasConstituentOf sdat1:R100021414002 ;
+                       rdfs:label "7. 농수산물 유통 및 가격안정에 관한 법률 일부개정법률안(대안) 본회의 부의의 건" .
+
+
+###  https://example.org/resource/d1-record-sample5#P100021414002008
+sdat1:P100021414002008 rdf:type owl:NamedIndividual ,
+                                rico:RecordPart ;
+                       rico:isOrWasConstituentOf sdat1:R100021414002 ;
+                       rdfs:label "8. 농어업회의소법안(대안) 본회의 부의의 건" .
+
+
+###  https://example.org/resource/d1-record-sample5#P100021414002009
+sdat1:P100021414002009 rdf:type owl:NamedIndividual ,
+                                rico:RecordPart ;
+                       rico:isOrWasConstituentOf sdat1:R100021414002 ;
+                       rdfs:label "9. 지속가능한 한우산업을 위한 지원법안(대안) 본회의 부의의 건" .
+
+
+###  https://example.org/resource/d1-record-sample5#P100021414002010
+sdat1:P100021414002010 rdf:type owl:NamedIndividual ,
+                                rico:RecordPart ;
+                       rico:isOrWasConstituentOf sdat1:R100021414002 ;
+                       rdfs:label "10. 4․16세월호참사 피해구제 및 지원 등을 위한 특별법 일부개정법률안(고영인 의원 대표발의)(의안번호 2120837) 본회의 부의의 건" .
+
+
+###  https://example.org/resource/d1-record-sample5#P100021414002011
+sdat1:P100021414002011 rdf:type owl:NamedIndividual ,
+                                rico:RecordPart ;
+                       rico:isOrWasConstituentOf sdat1:R100021414002 ;
+                       rdfs:comment "csv에 11~13번 안건이 통합되어 있음. 4~10과 동일하게 코드 사용 시, 분리방법 생각" ;
+                       rdfs:label "11. 농어업회의소법안(대안)(농림축산식품해양수산위원장 제출)(의안번호 2126699)" .
+
+
+###  https://example.org/resource/d1-record-sample5#P100021414002012
+sdat1:P100021414002012 rdf:type owl:NamedIndividual ,
+                                rico:RecordPart ;
+                       rico:isOrWasConstituentOf sdat1:R100021414002 ;
+                       rdfs:label "12. 지속가능한 한우산업을 위한 지원법안(대안)(농림축산식품해양수산위원장 제출)(의안번호 2126700)" .
+
+
+###  https://example.org/resource/d1-record-sample5#P100021414002013
+sdat1:P100021414002013 rdf:type owl:NamedIndividual ,
+                                rico:RecordPart ;
+                       rico:isOrWasConstituentOf sdat1:R100021414002 ;
+                       rdfs:label "13. 4․16세월호참사 피해구제 및 지원 등을 위한 특별법 일부개정법률안(고영인 의원 대표발의)(의안번호 2120837)" .
+
+
+###  https://example.org/resource/d1-record-sample5#P100021414002014
+sdat1:P100021414002014 rdf:type owl:NamedIndividual ,
+                                rico:RecordPart ;
+                       rico:isOrWasConstituentOf sdat1:R100021414002 ;
+                       rdfs:label "14. 민주유공자 예우에 관한 법률안(대안)(정무위원장 제출)(의안번호 2126698)" .
+
+
+###  https://example.org/resource/d1-record-sample5#PER-001
+sdat1:PER-001 rdf:type owl:NamedIndividual ,
+                       rico:Person ;
+              rdfs:label "회의록을 작성한 임의의 직원 1" .
+
+
+###  https://example.org/resource/d1-record-sample5#R100021414002
+sdat1:R100021414002 rdf:type owl:NamedIndividual ,
+                             rico:Record ;
+                    rico:documents sdat1:ACT-M-53844 ;
+                    rico:hasCreator sdat1:PER-001 ;
+                    rdfs:label "[R100021414002] 21대 414회 제2차 회의록" .
+
+
+###  https://example.org/resource/d1-record-sample5#S100021
+sdat1:S100021 rdf:type owl:NamedIndividual ,
+                       rico:RecordSet ;
+              rico:includesOrIncluded sdat1:F100021414 ;
+              rdfs:label "[S100021] 제21대" ;
+              rico:name "제21대"@ko .
+
+
 
 
