@@ -103,17 +103,17 @@ Popolo project의 <a href="https://www.popoloproject.com/specs/person.html" targ
 <h4>조직 분류</h4>
 <img src="https://i.imgur.com/Io7t8ID.png" width=500>
 <ul>
-	<li>국회 내부의 조직을 분류하기 위해 `nam2:OrgType` 클래스 생성</li>
-	<li>`nam2:OrgType` 하위에 3가지 하위 클래스 생성</li>
+	<li>국회 내부의 조직을 분류하기 위해 <code>nam2:OrgType</code> 클래스 생성</li>
+	<li><code>nam2:OrgType</code> 하위에 3가지 하위 클래스 생성</li>
     <ul>
-		<li>기관 `nam2:Institution`,</li>
-    	<li>정당 `nam2:Party`,</li>
-    	<li>위원회 `nam2:Committee`</li>
+		<li>기관 <code>nam2:Institution</code>,</li>
+    	<li>정당 <code>nam2:Party</code>,</li>
+    	<li>위원회 <code>nam2:Committee</code></li>
 	</ul><br>
 	<li>nam2:Committee 하위에 위원회 종류 클래스생성</li>
  	<ul>
-		<li>상임위원회 `nam2:StandingCommittee`</li>
-		<li>특별위원회 `nam2:SpecialCommittee`</li>
+		<li>상임위원회 <code>nam2:StandingCommittee</code></li>
+		<li>특별위원회 <code>nam2:SpecialCommittee</code></li>
 	</ul>
 </ul><br>
 <blockquote>
@@ -122,10 +122,10 @@ Popolo project의 <a href="https://www.popoloproject.com/specs/person.html" targ
 </blockquote><br>
 
 <ul>
-	<li>각 위원회(상임위, 특별위)의 하위에 소위원회`nam2:Subcommittee` 클래스 생성</li>
+	<li>각 위원회(상임위, 특별위)의 하위에 소위원회<code>nam2:Subcommittee</code> 클래스 생성</li>
 	<ul>
-		<li>`rdfs:subClassOf` `nam2:StandingCommittee`</li>
-		<li>`rdfs:subClassOf` `nam2:SpecialCommittee`</li>
+		<li><font color=blue><code>rdfs:subClassOf</code></font> <code>nam2:StandingCommittee</code></li>
+		<li><font color=blue><code>rdfs:subClassOf</code></font> <code>nam2:SpecialCommittee</code></li>
 	</ul>
 </ul><br>
 <blockquote>
