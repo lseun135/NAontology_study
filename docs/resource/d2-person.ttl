@@ -790,7 +790,7 @@ nadat2:MEM-04T3751T_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 송파구병"@ko ;
                          rdfs:label "남인순: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김봉겸" ,
                                             "김은경" ;
                          nam2:secretaryName "강성현" ,
@@ -806,7 +806,7 @@ nadat2:MEM-04T3751T_DPK rdf:type org:Membership ;
                       org:member nadat2:PER-LM-04T3751T ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "남인순: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 nadat2:MEM-0R68099X_100021 rdf:type org:Membership ;
                          dcterms:temporal nadat2:LegSession-21 ;
@@ -814,7 +814,7 @@ nadat2:MEM-0R68099X_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 성남시중원구"@ko ;
                          rdfs:label "이수진: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "변철환" ,
                                             "홍은광" ;
                          nam2:secretaryName "김강영" ,
@@ -830,7 +830,7 @@ nadat2:MEM-0R68099X_DPK rdf:type org:Membership ;
                       org:member nadat2:PER-LM-0R68099X ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "이수진: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 nadat2:MEM-0VU8517U_100021 rdf:type org:Membership ;
                          dcterms:temporal nadat2:LegSession-21 ;
@@ -838,7 +838,7 @@ nadat2:MEM-0VU8517U_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 양천구갑"@ko ;
                          rdfs:label "황희: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "나성채" ,
                                             "조주연" ;
                          nam2:secretaryName "김용대" ,
@@ -853,7 +853,7 @@ nadat2:MEM-0VU8517U_DPK rdf:type org:Membership ;
                       org:member nadat2:PER-LM-0VU8517U ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "황희: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 nadat2:MEM-0YT3774N_100021 rdf:type org:Membership ;
                          dcterms:temporal nadat2:LegSession-21 ;
@@ -861,7 +861,7 @@ nadat2:MEM-0YT3774N_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "비례대표"@ko ;
                          rdfs:label "황운하: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "심대철" ,
                                             "유승준" ;
                          nam2:secretaryName "고진혁" ,
@@ -880,7 +880,7 @@ nadat2:MEM-0YT3774N_RKP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-0YT3774N ;
                       org:organization nadat2:RebuildingKoreaParty ;
                       rdfs:label "황운하: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-1WE5693J_100021
@@ -891,7 +891,7 @@ nadat2:MEM-1WE5693J_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 성남시수정구"@ko ;
                          rdfs:label "김태년: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "강경훈" ,
                                             "황현진" ;
                          nam2:secretaryName "고이화" ,
@@ -908,7 +908,7 @@ nadat2:MEM-1WE5693J_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-1WE5693J ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "김태년: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-1Y73132H_100021
@@ -919,7 +919,7 @@ nadat2:MEM-1Y73132H_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "대구 서구"@ko ;
                          rdfs:label "김상훈: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "서태은" ,
                                             "최병용" ;
                          nam2:secretaryName "권기림" ,
@@ -938,7 +938,7 @@ nadat2:MEM-1Y73132H_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-1Y73132H ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "김상훈: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-2385336L_100021
@@ -949,7 +949,7 @@ nadat2:MEM-2385336L_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 마포구을"@ko ;
                          rdfs:label "정청래: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김수경" ;
                          nam2:secretaryName "손병준" ,
                                             "안준모" ,
@@ -966,7 +966,7 @@ nadat2:MEM-2385336L_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-2385336L ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "정청래: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-2NV6751W_100021
@@ -977,7 +977,7 @@ nadat2:MEM-2NV6751W_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "대전 동구"@ko ;
                          rdfs:label "장철민: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "오병현" ,
                                             "황두영" ;
                          nam2:secretaryName "권도경" ,
@@ -996,7 +996,7 @@ nadat2:MEM-2NV6751W_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-2NV6751W ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "장철민: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-3249208I_100021
@@ -1007,7 +1007,7 @@ nadat2:MEM-3249208I_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 화성시갑"@ko ;
                          rdfs:label "송옥주: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김선홍" ,
                                             "백승재" ;
                          nam2:secretaryName "김민겸" ,
@@ -1026,7 +1026,7 @@ nadat2:MEM-3249208I_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-3249208I ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "송옥주: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-3BC6890E_100021
@@ -1037,7 +1037,7 @@ nadat2:MEM-3BC6890E_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "부산 해운대구을"@ko ;
                          rdfs:label "김미애: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "신영훈" ,
                                             "원우혁" ;
                          nam2:secretaryName "강민경" ,
@@ -1055,7 +1055,7 @@ nadat2:MEM-3BC6890E_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-3BC6890E ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "김미애: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-3C23171A_100021
@@ -1066,7 +1066,7 @@ nadat2:MEM-3C23171A_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 강서구을"@ko ;
                          rdfs:label "진성준: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김승현" ,
                                             "최완" ;
                          nam2:secretaryName "김광운" ,
@@ -1085,7 +1085,7 @@ nadat2:MEM-3C23171A_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-3C23171A ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "진성준: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-3ZR4438W_100021
@@ -1096,7 +1096,7 @@ nadat2:MEM-3ZR4438W_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 구로구갑"@ko ;
                          rdfs:label "이인영: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "노창식" ,
                                             "유병문" ;
                          nam2:secretaryName "성정미" ,
@@ -1114,7 +1114,7 @@ nadat2:MEM-3ZR4438W_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-3ZR4438W ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "이인영: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-4019850M_100021
@@ -1125,7 +1125,7 @@ nadat2:MEM-4019850M_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 파주시을"@ko ;
                          rdfs:label "박정: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "서정민" ,
                                             "홍창훈" ;
                          nam2:secretaryName "기건희" ,
@@ -1144,7 +1144,7 @@ nadat2:MEM-4019850M_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-4019850M ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "박정: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-4L695580_100021
@@ -1155,7 +1155,7 @@ nadat2:MEM-4L695580_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "전남 목포시"@ko ;
                          rdfs:label "김원이: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김동현" ,
                                             "양기호" ;
                          nam2:secretaryName "기영기" ,
@@ -1174,7 +1174,7 @@ nadat2:MEM-4L695580_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-4L695580 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "김원이: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-4T026790_100021
@@ -1185,7 +1185,7 @@ nadat2:MEM-4T026790_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 광명시갑"@ko ;
                          rdfs:label "임오경: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김영민" ,
                                             "정용준" ;
                          nam2:secretaryName "김동연" ,
@@ -1204,7 +1204,7 @@ nadat2:MEM-4T026790_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-4T026790 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "임오경: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-4U29186R_100021
@@ -1215,7 +1215,7 @@ nadat2:MEM-4U29186R_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "충남 천안시갑"@ko ;
                          rdfs:label "문진석: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "이승원" ,
                                             "한세효" ;
                          nam2:secretaryName "김보은" ,
@@ -1234,7 +1234,7 @@ nadat2:MEM-4U29186R_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-4U29186R ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "문진석: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-4X525582_100021
@@ -1245,7 +1245,7 @@ nadat2:MEM-4X525582_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 송파구을"@ko ;
                          rdfs:label "배현진: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "나경범" ,
                                             "최영목" ;
                          nam2:secretaryName "김민지" ,
@@ -1264,7 +1264,7 @@ nadat2:MEM-4X525582_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-4X525582 ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "배현진: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-5765663F_100021
@@ -1275,7 +1275,7 @@ nadat2:MEM-5765663F_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 수원시병"@ko ;
                          rdfs:label "김영진: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "최찬민" ,
                                             "최호연" ;
                          nam2:secretaryName "구병훈" ,
@@ -1294,7 +1294,7 @@ nadat2:MEM-5765663F_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-5765663F ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "김영진: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-5K93695T_100021
@@ -1305,7 +1305,7 @@ nadat2:MEM-5K93695T_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "대구 북구을"@ko ;
                          rdfs:label "김승수: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김준호" ,
                                             "우기송" ,
                                             "임현" ;
@@ -1324,7 +1324,7 @@ nadat2:MEM-5K93695T_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-5K93695T ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "김승수: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-5KV82250_100021
@@ -1335,7 +1335,7 @@ nadat2:MEM-5KV82250_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "부산 사하구을"@ko ;
                          rdfs:label "조경태: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "이동영" ,
                                             "조용택" ;
                          nam2:secretaryName "김영우" ,
@@ -1354,7 +1354,7 @@ nadat2:MEM-5KV82250_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-5KV82250 ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "조경태: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-5KV96424_100021
@@ -1365,7 +1365,7 @@ nadat2:MEM-5KV96424_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "세종특별자치시을"@ko ;
                          rdfs:label "강준현: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김모영" ,
                                             "송재무" ;
                          nam2:secretaryName "김미소" ,
@@ -1384,7 +1384,7 @@ nadat2:MEM-5KV96424_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-5KV96424 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "강준현: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-5MD4184K_100021
@@ -1395,7 +1395,7 @@ nadat2:MEM-5MD4184K_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 평택시갑"@ko ;
                          rdfs:label "홍기원: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김정선" ,
                                             "주남석" ;
                          nam2:secretaryName "김예준" ,
@@ -1414,7 +1414,7 @@ nadat2:MEM-5MD4184K_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-5MD4184K ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "홍기원: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-68P7228G_100021
@@ -1425,7 +1425,7 @@ nadat2:MEM-68P7228G_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 강동구갑"@ko ;
                          rdfs:label "진선미: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김종무" ,
                                             "장동혁" ;
                          nam2:secretaryName "강현구" ,
@@ -1444,7 +1444,7 @@ nadat2:MEM-68P7228G_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-68P7228G ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "진선미: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-6AU2417B_100021
@@ -1455,7 +1455,7 @@ nadat2:MEM-6AU2417B_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 은평구갑"@ko ;
                          rdfs:label "박주민: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김인아" ,
                                             "김준호" ;
                          nam2:secretaryName "김영진" ,
@@ -1474,7 +1474,7 @@ nadat2:MEM-6AU2417B_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-6AU2417B ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "박주민: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-6EN68926_100021
@@ -1485,7 +1485,7 @@ nadat2:MEM-6EN68926_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경북 김천시"@ko ;
                          rdfs:label "송언석: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "양창열" ,
                                             "황현성" ;
                          nam2:secretaryName "박규동" ,
@@ -1504,7 +1504,7 @@ nadat2:MEM-6EN68926_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-6EN68926 ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "송언석: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-6RD62559_100021
@@ -1515,7 +1515,7 @@ nadat2:MEM-6RD62559_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "강원 원주시갑"@ko ;
                          rdfs:label "박정하: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "성기웅" ,
                                             "최성일" ;
                          nam2:secretaryName "김래선" ,
@@ -1533,7 +1533,7 @@ nadat2:MEM-6RD62559_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-6RD62559 ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "박정하: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-6U243644_100021
@@ -1544,7 +1544,7 @@ nadat2:MEM-6U243644_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경북 의성군청송군영덕군울진군"@ko ;
                          rdfs:label "박형수: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김상현" ,
                                             "박민구" ;
                          nam2:secretaryName "김다연" ,
@@ -1563,7 +1563,7 @@ nadat2:MEM-6U243644_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-6U243644 ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "박형수: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-7469929V_100021
@@ -1574,7 +1574,7 @@ nadat2:MEM-7469929V_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경북 구미시갑"@ko ;
                          rdfs:label "구자근: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "이창현" ,
                                             "정준용" ;
                          nam2:secretaryName "문영수" ,
@@ -1593,7 +1593,7 @@ nadat2:MEM-7469929V_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-7469929V ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "구자근: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-7BM2933Y_100021
@@ -1604,7 +1604,7 @@ nadat2:MEM-7BM2933Y_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 서대문구을"@ko ;
                          rdfs:label "김영호: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김병운" ,
                                             "김종학" ;
                          nam2:secretaryName "김정현" ,
@@ -1623,7 +1623,7 @@ nadat2:MEM-7BM2933Y_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-7BM2933Y ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "김영호: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-7R156073_100021
@@ -1634,7 +1634,7 @@ nadat2:MEM-7R156073_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "대전 서구을"@ko ;
                          rdfs:label "박범계: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "문병남" ,
                                             "윤종우" ;
                          nam2:secretaryName "김기중" ,
@@ -1653,7 +1653,7 @@ nadat2:MEM-7R156073_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-7R156073 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "박범계: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-7XY7109I_100021
@@ -1664,7 +1664,7 @@ nadat2:MEM-7XY7109I_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "충남 서산시태안군"@ko ;
                          rdfs:label "성일종: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "박정호" ,
                                             "이용기" ;
                          nam2:secretaryName "권혁" ,
@@ -1683,7 +1683,7 @@ nadat2:MEM-7XY7109I_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-7XY7109I ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "성일종: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-8348421R_100021
@@ -1694,7 +1694,7 @@ nadat2:MEM-8348421R_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "충북 제천시단양군"@ko ;
                          rdfs:label "엄태영: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김기석" ,
                                             "윤경순" ;
                          nam2:secretaryName "김진우" ,
@@ -1712,7 +1712,7 @@ nadat2:MEM-8348421R_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-8348421R ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "엄태영: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-8FB1535Y_100021
@@ -1723,7 +1723,7 @@ nadat2:MEM-8FB1535Y_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "충남 당진시"@ko ;
                          rdfs:label "어기구: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "박영화" ,
                                             "최은석" ;
                          nam2:secretaryName "김진영" ,
@@ -1742,7 +1742,7 @@ nadat2:MEM-8FB1535Y_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-8FB1535Y ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "어기구: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-8P37634C_100021
@@ -1753,7 +1753,7 @@ nadat2:MEM-8P37634C_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 안양시만안구"@ko ;
                          rdfs:label "강득구: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "윤재우" ,
                                             "정진태" ;
                          nam2:secretaryName "김창용" ,
@@ -1771,7 +1771,7 @@ nadat2:MEM-8P37634C_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-8P37634C ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "강득구: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-8Q88373R_100021
@@ -1782,7 +1782,7 @@ nadat2:MEM-8Q88373R_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 동작구갑"@ko ;
                          rdfs:label "김병기: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김정겸" ,
                                             "오용운" ;
                          nam2:secretaryName "김경희" ,
@@ -1799,7 +1799,7 @@ nadat2:MEM-8Q88373R_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-8Q88373R ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "김병기: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-8SV6917G_100021
@@ -1810,7 +1810,7 @@ nadat2:MEM-8SV6917G_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "대구 수성구갑"@ko ;
                          rdfs:label "주호영: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김나원" ,
                                             "남길호" ;
                          nam2:secretaryName "곽민" ,
@@ -1828,7 +1828,7 @@ nadat2:MEM-8SV6917G_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-8SV6917G ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "주호영: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-8X15119P_100021
@@ -1839,7 +1839,7 @@ nadat2:MEM-8X15119P_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경남 창원시마산회원구"@ko ;
                          rdfs:label "윤한홍: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김형수" ,
                                             "이윤상" ;
                          nam2:secretaryName "강선정" ,
@@ -1858,7 +1858,7 @@ nadat2:MEM-8X15119P_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-8X15119P ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "윤한홍: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-9D939735_100021
@@ -1869,7 +1869,7 @@ nadat2:MEM-9D939735_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 동두천시양주시연천군을"@ko ;
                          rdfs:label "김성원: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김준표" ,
                                             "정성전" ;
                          nam2:secretaryName "강조원" ,
@@ -1887,7 +1887,7 @@ nadat2:MEM-9D939735_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-9D939735 ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "김성원: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-9JF4562W_100021
@@ -1898,7 +1898,7 @@ nadat2:MEM-9JF4562W_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 양천구을"@ko ;
                          rdfs:label "이용선: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "곽병관" ,
                                             "백종운" ;
                          nam2:secretaryName "국승현" ,
@@ -1917,7 +1917,7 @@ nadat2:MEM-9JF4562W_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-9JF4562W ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "이용선: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-9LD2641Q_100021
@@ -1928,7 +1928,7 @@ nadat2:MEM-9LD2641Q_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경남 김해시을"@ko ;
                          rdfs:label "김정호: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "곽상민" ,
                                             "손낙구" ;
                          nam2:secretaryName "김동우" ,
@@ -1947,7 +1947,7 @@ nadat2:MEM-9LD2641Q_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-9LD2641Q ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "김정호: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-9VR65006_100021
@@ -1958,7 +1958,7 @@ nadat2:MEM-9VR65006_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경남 양산시갑"@ko ;
                          rdfs:label "윤영석: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김정일" ,
                                             "장준명" ;
                          nam2:secretaryName "김원준" ,
@@ -1975,7 +1975,7 @@ nadat2:MEM-9VR65006_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-9VR65006 ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "윤영석: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-9YO73104_100021
@@ -1986,7 +1986,7 @@ nadat2:MEM-9YO73104_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "부산 북구갑"@ko ;
                          rdfs:label "전재수: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김소연" ,
                                             "선용규" ;
                          nam2:secretaryName "권수민" ,
@@ -2004,7 +2004,7 @@ nadat2:MEM-9YO73104_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-9YO73104 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "전재수: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-A0P4646G_100021
@@ -2015,7 +2015,7 @@ nadat2:MEM-A0P4646G_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경남 창원시마산합포구"@ko ;
                          rdfs:label "최형두: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "박재성" ,
                                             "최석우" ;
                          nam2:secretaryName "김봉준" ,
@@ -2035,7 +2035,7 @@ nadat2:MEM-A0P4646G_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-A0P4646G ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "최형두: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-A494529E_100021
@@ -2046,7 +2046,7 @@ nadat2:MEM-A494529E_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 강북구갑"@ko ;
                          rdfs:label "천준호: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김계환" ,
                                             "김명진" ;
                          nam2:secretaryName "고영웅" ,
@@ -2065,7 +2065,7 @@ nadat2:MEM-A494529E_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-A494529E ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "천준호: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-AFH96856_100021
@@ -2076,7 +2076,7 @@ nadat2:MEM-AFH96856_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "전북 군산시김제시부안군갑"@ko ;
                          rdfs:label "신영대: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "선학수" ,
                                             "심권택" ;
                          nam2:secretaryName "김경훈" ,
@@ -2095,7 +2095,7 @@ nadat2:MEM-AFH96856_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-AFH96856 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "신영대: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-ATB59635_100021
@@ -2106,7 +2106,7 @@ nadat2:MEM-ATB59635_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 수원시갑"@ko ;
                          rdfs:label "김승원: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "강래원" ,
                                             "권종민" ;
                          nam2:secretaryName "방준영" ,
@@ -2125,7 +2125,7 @@ nadat2:MEM-ATB59635_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-ATB59635 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "김승원: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-B7D7534L_100021
@@ -2136,7 +2136,7 @@ nadat2:MEM-B7D7534L_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 성북구갑"@ko ;
                          rdfs:label "김영배: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "목소영" ,
                                             "하동욱" ;
                          nam2:secretaryName "구서로" ,
@@ -2155,7 +2155,7 @@ nadat2:MEM-B7D7534L_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-B7D7534L ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "김영배: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-BCQ55105_100021
@@ -2166,7 +2166,7 @@ nadat2:MEM-BCQ55105_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 고양시을"@ko ;
                          rdfs:label "한준호: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "윤나리" ,
                                             "정연일" ;
                          nam2:secretaryName "박보미" ,
@@ -2185,7 +2185,7 @@ nadat2:MEM-BCQ55105_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-BCQ55105 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "한준호: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-BT62420K_100021
@@ -2196,7 +2196,7 @@ nadat2:MEM-BT62420K_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "인천 연수구갑"@ko ;
                          rdfs:label "박찬대: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "유명상" ,
                                             "전기은" ;
                          nam2:secretaryName "권수아" ,
@@ -2212,7 +2212,7 @@ nadat2:MEM-BT62420K_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-BT62420K ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "박찬대: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-C7E79345_100021
@@ -2223,7 +2223,7 @@ nadat2:MEM-C7E79345_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 화성시병"@ko ;
                          rdfs:label "권칠승: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김도근" ,
                                             "김혜규" ;
                          nam2:secretaryName "김민혁" ,
@@ -2242,7 +2242,7 @@ nadat2:MEM-C7E79345_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-C7E79345 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "권칠승: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-CAA7713A_100021
@@ -2253,7 +2253,7 @@ nadat2:MEM-CAA7713A_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "부산 금정구"@ko ;
                          rdfs:label "백종헌: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김영상" ,
                                             "오정석" ;
                          nam2:secretaryName "박수향" ,
@@ -2272,7 +2272,7 @@ nadat2:MEM-CAA7713A_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-CAA7713A ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "백종헌: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-CCU1009B_100021
@@ -2283,7 +2283,7 @@ nadat2:MEM-CCU1009B_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 강동구을"@ko ;
                          rdfs:label "이해식: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "박광운" ,
                                             "성시웅" ;
                          nam2:secretaryName "김정향" ,
@@ -2300,7 +2300,7 @@ nadat2:MEM-CCU1009B_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-CCU1009B ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "이해식: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-CNW5754J_100021
@@ -2311,7 +2311,7 @@ nadat2:MEM-CNW5754J_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 이천시"@ko ;
                          rdfs:label "송석준: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "류명현" ,
                                             "박범영" ;
                          nam2:secretaryName "김서연" ,
@@ -2330,7 +2330,7 @@ nadat2:MEM-CNW5754J_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-CNW5754J ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "송석준: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-CNZ51556_100021
@@ -2341,7 +2341,7 @@ nadat2:MEM-CNZ51556_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "비례대표"@ko ;
                          rdfs:label "김예지: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "이가연" ,
                                             "황동연" ;
                          nam2:secretaryName "김지현" ,
@@ -2359,7 +2359,7 @@ nadat2:MEM-CNZ51556_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-CNZ51556 ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "김예지: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-D6U6678O_100021
@@ -2370,7 +2370,7 @@ nadat2:MEM-D6U6678O_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 김포시갑"@ko ;
                          rdfs:label "김주영: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "이경호" ,
                                             "이은영" ;
                          nam2:secretaryName "김지우" ,
@@ -2389,7 +2389,7 @@ nadat2:MEM-D6U6678O_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-D6U6678O ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "김주영: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-DAV7257X_100021
@@ -2400,7 +2400,7 @@ nadat2:MEM-DAV7257X_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "전북 군산시김제시부안군을"@ko ;
                          rdfs:label "이원택: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "이창무" ,
                                             "이해규" ;
                          nam2:secretaryName "강형진" ,
@@ -2419,7 +2419,7 @@ nadat2:MEM-DAV7257X_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-DAV7257X ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "이원택: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-DAY6557K_100021
@@ -2430,7 +2430,7 @@ nadat2:MEM-DAY6557K_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "부산 기장군"@ko ;
                          rdfs:label "정동만: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "박현영" ,
                                             "정명식" ;
                          nam2:secretaryName "김민정" ,
@@ -2449,7 +2449,7 @@ nadat2:MEM-DAY6557K_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-DAY6557K ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "정동만: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-DWK26447_100021
@@ -2460,7 +2460,7 @@ nadat2:MEM-DWK26447_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "대구 수성구을"@ko ;
                          rdfs:label "이인선: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "임효권" ,
                                             "조병수" ;
                          nam2:secretaryName "금나윤" ,
@@ -2479,7 +2479,7 @@ nadat2:MEM-DWK26447_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-DWK26447 ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "이인선: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-E1J8836Y_100021
@@ -2490,7 +2490,7 @@ nadat2:MEM-E1J8836Y_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경북 포항시북구"@ko ;
                          rdfs:label "김정재: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김재원" ,
                                             "이상신" ;
                          nam2:secretaryName "김기완" ,
@@ -2509,7 +2509,7 @@ nadat2:MEM-E1J8836Y_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-E1J8836Y ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "김정재: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-EH27538E_100021
@@ -2520,7 +2520,7 @@ nadat2:MEM-EH27538E_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경북 상주시문경시"@ko ;
                          rdfs:label "임이자: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "문주현" ,
                                             "안재민" ;
                          nam2:secretaryName "곽동열" ,
@@ -2539,7 +2539,7 @@ nadat2:MEM-EH27538E_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-EH27538E ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "임이자: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-EVH1507C_100021
@@ -2550,7 +2550,7 @@ nadat2:MEM-EVH1507C_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "부산 부산진구을"@ko ;
                          rdfs:label "이헌승: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김병하" ,
                                             "김창수" ;
                          nam2:secretaryName "이병찬" ,
@@ -2569,7 +2569,7 @@ nadat2:MEM-EVH1507C_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-EVH1507C ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "이헌승: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-FH777496_100021
@@ -2580,7 +2580,7 @@ nadat2:MEM-FH777496_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "충북 증평군진천군음성군"@ko ;
                          rdfs:label "임호선: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          schema:address "서울특별시 영등포구 의사당대로 1, 의원회관 429호" .
 
 
@@ -2590,7 +2590,7 @@ nadat2:MEM-FH777496_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-FH777496 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "임호선: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-FJK3396E_100021
@@ -2601,7 +2601,7 @@ nadat2:MEM-FJK3396E_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "인천 남동구갑"@ko ;
                          rdfs:label "맹성규: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "이택준" ,
                                             "하정철" ;
                          nam2:secretaryName "나선영" ,
@@ -2620,7 +2620,7 @@ nadat2:MEM-FJK3396E_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-FJK3396E ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "맹성규: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-FOK3459D_100021
@@ -2631,7 +2631,7 @@ nadat2:MEM-FOK3459D_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "전남 영암군무안군신안군"@ko ;
                          rdfs:label "서삼석: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "이경윤" ,
                                             "조경숙" ;
                          nam2:secretaryName "서영현" ,
@@ -2648,7 +2648,7 @@ nadat2:MEM-FOK3459D_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-FOK3459D ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "서삼석: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-FU53642G_100021
@@ -2659,7 +2659,7 @@ nadat2:MEM-FU53642G_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "강원 춘천시철원군화천군양구군갑"@ko ;
                          rdfs:label "허영: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "고건민" ,
                                             "김용철" ;
                          nam2:secretaryName "김미나" ,
@@ -2678,7 +2678,7 @@ nadat2:MEM-FU53642G_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-FU53642G ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "허영: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-FU87526G_100021
@@ -2689,7 +2689,7 @@ nadat2:MEM-FU87526G_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "부산 남구"@ko ;
                          rdfs:label "박수영: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "장상택" ,
                                             "정세영" ;
                          nam2:secretaryName "김다연" ,
@@ -2708,7 +2708,7 @@ nadat2:MEM-FU87526G_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-FU87526G ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "박수영: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-FYI20317_100021
@@ -2719,7 +2719,7 @@ nadat2:MEM-FYI20317_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "대전 유성구갑"@ko ;
                          rdfs:label "조승래: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "정아름" ,
                                             "최종길" ;
                          nam2:secretaryName "김현중" ,
@@ -2738,7 +2738,7 @@ nadat2:MEM-FYI20317_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-FYI20317 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "조승래: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-G152611B_100021
@@ -2749,7 +2749,7 @@ nadat2:MEM-G152611B_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "대구 달성군"@ko ;
                          rdfs:label "추경호: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "이은정" ,
                                             "한동엽" ;
                          nam2:secretaryName "김선영" ,
@@ -2768,7 +2768,7 @@ nadat2:MEM-G152611B_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-G152611B ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "추경호: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-GDG1847Z_100021
@@ -2779,7 +2779,7 @@ nadat2:MEM-GDG1847Z_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "강원 강릉시"@ko ;
                          rdfs:label "권성동: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "윤희진" ,
                                             "최영철" ;
                          nam2:secretaryName "김근희" ,
@@ -2798,7 +2798,7 @@ nadat2:MEM-GDG1847Z_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-GDG1847Z ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "권성동: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-GE71932C_100021
@@ -2809,7 +2809,7 @@ nadat2:MEM-GE71932C_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "비례대표"@ko ;
                          rdfs:label "용혜인: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김영길" ,
                                             "장흥배" ;
                          nam2:secretaryName "금동운" ,
@@ -2828,7 +2828,7 @@ nadat2:MEM-GE71932C_BIP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-GE71932C ;
                       org:organization nadat2:BasicIncomeParty ;
                       rdfs:label "용혜인: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-GF286398_100021
@@ -2839,7 +2839,7 @@ nadat2:MEM-GF286398_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 남양주시을"@ko ;
                          rdfs:label "김병주: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "조성만" ,
                                             "최문희" ;
                          nam2:secretaryName "고선정" ,
@@ -2858,7 +2858,7 @@ nadat2:MEM-GF286398_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-GF286398 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "김병주: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-GOC54665_100021
@@ -2869,7 +2869,7 @@ nadat2:MEM-GOC54665_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 시흥시갑"@ko ;
                          rdfs:label "문정복: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "신희성" ,
                                             "최동식" ;
                          nam2:secretaryName "김재현" ,
@@ -2888,7 +2888,7 @@ nadat2:MEM-GOC54665_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-GOC54665 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "문정복: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-GP07421U_100021
@@ -2899,7 +2899,7 @@ nadat2:MEM-GP07421U_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 구로구을"@ko ;
                          rdfs:label "윤건영: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "권기혁" ,
                                             "여정민" ;
                          nam2:secretaryName "김충일" ,
@@ -2917,7 +2917,7 @@ nadat2:MEM-GP07421U_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-GP07421U ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "윤건영: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-GX22581L_100021
@@ -2928,7 +2928,7 @@ nadat2:MEM-GX22581L_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경남 진주시을"@ko ;
                          rdfs:label "강민국: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "문현곤" ,
                                             "정경섭" ;
                          nam2:secretaryName "김가은" ,
@@ -2946,7 +2946,7 @@ nadat2:MEM-GX22581L_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-GX22581L ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "강민국: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-GX38539O_100021
@@ -2957,7 +2957,7 @@ nadat2:MEM-GX38539O_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "인천 계양구갑"@ko ;
                          rdfs:label "유동수: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김기석" ,
                                             "손민호" ;
                          nam2:secretaryName "나규미" ,
@@ -2976,7 +2976,7 @@ nadat2:MEM-GX38539O_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-GX38539O ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "유동수: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-H5476989_100021
@@ -2987,7 +2987,7 @@ nadat2:MEM-H5476989_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "전북 익산시을"@ko ;
                          rdfs:label "한병도: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "기영서" ,
                                             "박재현" ;
                          nam2:secretaryName "강형구" ,
@@ -3006,7 +3006,7 @@ nadat2:MEM-H5476989_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-H5476989 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "한병도: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-HSS7466Y_100021
@@ -3017,7 +3017,7 @@ nadat2:MEM-HSS7466Y_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 수원시을"@ko ;
                          rdfs:label "백혜련: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "이현주" ,
                                             "전용두" ;
                          nam2:secretaryName "구범수" ,
@@ -3036,7 +3036,7 @@ nadat2:MEM-HSS7466Y_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-HSS7466Y ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "백혜련: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-HSW1214Q_100021
@@ -3047,7 +3047,7 @@ nadat2:MEM-HSW1214Q_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "충북 충주시"@ko ;
                          rdfs:label "이종배: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "임순묵" ,
                                             "조용석" ;
                          nam2:secretaryName "강효영" ,
@@ -3066,7 +3066,7 @@ nadat2:MEM-HSW1214Q_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-HSW1214Q ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "이종배: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-HXT76735_100021
@@ -3077,7 +3077,7 @@ nadat2:MEM-HXT76735_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 김포시을"@ko ;
                          rdfs:label "박상혁: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김철환" ,
                                             "이교영" ;
                          nam2:secretaryName "김재상" ,
@@ -3095,7 +3095,7 @@ nadat2:MEM-HXT76735_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-HXT76735 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "박상혁: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-I5I2468R_100021
@@ -3106,7 +3106,7 @@ nadat2:MEM-I5I2468R_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 금천구"@ko ;
                          rdfs:label "최기상: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "박희정" ,
                                             "홍기돈" ;
                          nam2:secretaryName "김하영" ,
@@ -3125,7 +3125,7 @@ nadat2:MEM-I5I2468R_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-I5I2468R ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "최기상: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-I7R13867_100021
@@ -3136,7 +3136,7 @@ nadat2:MEM-I7R13867_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "전남 담양군함평군영광군장성군"@ko ;
                          rdfs:label "이개호: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김용환" ,
                                             "황인기" ;
                          nam2:secretaryName "구본준" ,
@@ -3155,7 +3155,7 @@ nadat2:MEM-I7R13867_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-I7R13867 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "이개호: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-IL74008M_100021
@@ -3166,7 +3166,7 @@ nadat2:MEM-IL74008M_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 중구성동구을"@ko ;
                          rdfs:label "박성준: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "심인철" ,
                                             "이동현" ;
                          nam2:secretaryName "김기웅" ,
@@ -3185,7 +3185,7 @@ nadat2:MEM-IL74008M_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-IL74008M ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "박성준: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-IN328264_100021
@@ -3196,7 +3196,7 @@ nadat2:MEM-IN328264_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 시흥시을"@ko ;
                          rdfs:label "조정식: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "도수만" ,
                                             "한인환" ;
                          nam2:secretaryName "김동욱" ,
@@ -3215,7 +3215,7 @@ nadat2:MEM-IN328264_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-IN328264 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "조정식: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-JC14718Q_100021
@@ -3226,7 +3226,7 @@ nadat2:MEM-JC14718Q_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "전북 정읍시고창군"@ko ;
                          rdfs:label "윤준병: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "이로문" ;
                          nam2:secretaryName "신기철" ,
                                             "정예지" ,
@@ -3242,7 +3242,7 @@ nadat2:MEM-JC14718Q_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-JC14718Q ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "윤준병: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-JEZ3130Q_100021
@@ -3253,7 +3253,7 @@ nadat2:MEM-JEZ3130Q_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경북 안동시예천군"@ko ;
                          rdfs:label "김형동: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김동학" ,
                                             "오효택" ;
                          nam2:secretaryName "김형우" ,
@@ -3272,7 +3272,7 @@ nadat2:MEM-JEZ3130Q_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-JEZ3130Q ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "김형동: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-JNL7001A_100021
@@ -3283,7 +3283,7 @@ nadat2:MEM-JNL7001A_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 여주시양평군"@ko ;
                          rdfs:label "김선교: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "문병진" ,
                                             "홍순기" ;
                          nam2:secretaryName "박인선" ,
@@ -3302,7 +3302,7 @@ nadat2:MEM-JNL7001A_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-JNL7001A ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "김선교: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-JQA21112_100021
@@ -3313,7 +3313,7 @@ nadat2:MEM-JQA21112_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "강원 춘천시철원군화천군양구군을"@ko ;
                          rdfs:label "한기호: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김민찬" ,
                                             "조재숙" ;
                          nam2:secretaryName "김주원" ,
@@ -3331,7 +3331,7 @@ nadat2:MEM-JQA21112_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-JQA21112 ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "한기호: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-JZY9937U_100021
@@ -3342,7 +3342,7 @@ nadat2:MEM-JZY9937U_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "전북 전주시갑"@ko ;
                          rdfs:label "김윤덕: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "천진심" ,
                                             "홍성진" ;
                          nam2:secretaryName "강수빈" ,
@@ -3360,7 +3360,7 @@ nadat2:MEM-JZY9937U_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-JZY9937U ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "김윤덕: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-K5F2023J_100021
@@ -3371,7 +3371,7 @@ nadat2:MEM-K5F2023J_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 군포시"@ko ;
                          rdfs:label "이학영: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김주희" ,
                                             "박하늘" ;
                          nam2:secretaryName "김민수" ,
@@ -3390,7 +3390,7 @@ nadat2:MEM-K5F2023J_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-K5F2023J ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "이학영: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-KFM1081G_100021
@@ -3401,7 +3401,7 @@ nadat2:MEM-KFM1081G_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "충남 보령시서천군"@ko ;
                          rdfs:label "장동혁: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "이승구" ,
                                             "한상필" ;
                          nam2:secretaryName "김홍범" ,
@@ -3420,7 +3420,7 @@ nadat2:MEM-KFM1081G_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-KFM1081G ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "장동혁: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-L2I9861C_100021
@@ -3431,7 +3431,7 @@ nadat2:MEM-L2I9861C_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "대구 동구군위군을"@ko ;
                          rdfs:label "강대식: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "박홍규" ,
                                             "유진영" ;
                          nam2:secretaryName "김현정" ,
@@ -3450,7 +3450,7 @@ nadat2:MEM-L2I9861C_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-L2I9861C ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "강대식: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-L5P27909_100021
@@ -3461,7 +3461,7 @@ nadat2:MEM-L5P27909_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 성남시분당구을"@ko ;
                          rdfs:label "김은혜: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "박기녕" ,
                                             "이영현" ;
                          nam2:secretaryName "백진규" ,
@@ -3480,7 +3480,7 @@ nadat2:MEM-L5P27909_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-L5P27909 ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "김은혜: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-L7J93733_100021
@@ -3491,7 +3491,7 @@ nadat2:MEM-L7J93733_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "울산 울주군"@ko ;
                          rdfs:label "서범수: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "임지홍" ,
                                             "진성오" ;
                          nam2:secretaryName "김민진" ,
@@ -3509,7 +3509,7 @@ nadat2:MEM-L7J93733_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-L7J93733 ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "서범수: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-LG63087O_100021
@@ -3520,7 +3520,7 @@ nadat2:MEM-LG63087O_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 용산구"@ko ;
                          rdfs:label "권영세: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "류희태" ,
                                             "이정훈" ;
                          nam2:secretaryName "강보람" ,
@@ -3537,7 +3537,7 @@ nadat2:MEM-LG63087O_PPP rdf:type org:Membership ;
                       org:member nadat2:PER-LM-LG63087O ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "권영세: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 nadat2:MEM-LH97552Q_100021 rdf:type org:Membership ;
                          dcterms:temporal nadat2:LegSession-21 ;
@@ -3545,7 +3545,7 @@ nadat2:MEM-LH97552Q_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "부산 강서구"@ko ;
                          rdfs:label "김도읍: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "이종환" ,
                                             "최성준" ;
                          nam2:secretaryName "김민지" ,
@@ -3562,7 +3562,7 @@ nadat2:MEM-LH97552Q_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-LH97552Q ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "김도읍: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 nadat2:MEM-LJK4960Z_100021 rdf:type org:Membership ;
                          dcterms:temporal nadat2:LegSession-21 ;
@@ -3570,7 +3570,7 @@ nadat2:MEM-LJK4960Z_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경남 통영시고성군"@ko ;
                          rdfs:label "정점식: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "임지학" ,
                                             "최재호" ;
                          nam2:secretaryName "공민서" ,
@@ -3586,7 +3586,7 @@ nadat2:MEM-LJK4960Z_PPP rdf:type org:Membership ;
                       org:member nadat2:PER-LM-LJK4960Z ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "정점식: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 nadat2:MEM-LT72093S_100021 rdf:type org:Membership ;
                          dcterms:temporal nadat2:LegSession-21 ;
@@ -3594,7 +3594,7 @@ nadat2:MEM-LT72093S_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "인천 연수구을"@ko ;
                          rdfs:label "정일영: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김희철" ,
                                             "정채훈" ;
                          nam2:secretaryName "김찬영" ,
@@ -3610,7 +3610,7 @@ nadat2:MEM-LT72093S_DPK rdf:type org:Membership ;
                       org:member nadat2:PER-LM-LT72093S ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "정일영: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 nadat2:MEM-M0A1658U_100021 rdf:type org:Membership ;
                          dcterms:temporal nadat2:LegSession-21 ;
@@ -3618,7 +3618,7 @@ nadat2:MEM-M0A1658U_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 구리시"@ko ;
                          rdfs:label "윤호중: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "박석윤" ,
                                             "이슬기" ;
                          nam2:secretaryName "김회중" ,
@@ -3632,7 +3632,7 @@ nadat2:MEM-M0A1658U_DPK rdf:type org:Membership ;
                       org:member nadat2:PER-LM-M0A1658U ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "윤호중: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 nadat2:MEM-M2Q9024I_100021 rdf:type org:Membership ;
                          dcterms:temporal nadat2:LegSession-21 ;
@@ -3640,7 +3640,7 @@ nadat2:MEM-M2Q9024I_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "세종특별자치시갑"@ko ;
                          rdfs:label "김종민: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "이동영" ,
                                             "정운몽" ;
                          nam2:secretaryName "김나래" ,
@@ -3658,7 +3658,7 @@ nadat2:MEM-M7O7878U_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "전남 나주시화순군"@ko ;
                          rdfs:label "신정훈: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "오기철" ,
                                             "최용길" ;
                          nam2:secretaryName "김두연" ,
@@ -3674,7 +3674,7 @@ nadat2:MEM-M7O7878U_DPK rdf:type org:Membership ;
                       org:member nadat2:PER-LM-M7O7878U ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "신정훈: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 nadat2:MEM-MLH1404S_100021 rdf:type org:Membership ;
                          dcterms:temporal nadat2:LegSession-21 ;
@@ -3682,7 +3682,7 @@ nadat2:MEM-MLH1404S_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 영등포구을"@ko ;
                          rdfs:label "김민석: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "서정도" ,
                                             "이은혜" ;
                          nam2:secretaryName "김민하" ,
@@ -3696,7 +3696,7 @@ nadat2:MEM-MLH1404S_DPK rdf:type org:Membership ;
                       org:member nadat2:PER-LM-MLH1404S ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "김민석: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 nadat2:MEM-MNZ4401T_100021 rdf:type org:Membership ;
                          dcterms:temporal nadat2:LegSession-21 ;
@@ -3704,7 +3704,7 @@ nadat2:MEM-MNZ4401T_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 강서구갑"@ko ;
                          rdfs:label "강선우: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "한경달" ;
                          nam2:secretaryName "양명선" ,
                                             "오병주" ,
@@ -3718,7 +3718,7 @@ nadat2:MEM-MNZ4401T_DPK rdf:type org:Membership ;
                       org:member nadat2:PER-LM-MNZ4401T ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "강선우: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 nadat2:MEM-MQU41854_100021 rdf:type org:Membership ;
                          dcterms:temporal nadat2:LegSession-21 ;
@@ -3726,7 +3726,7 @@ nadat2:MEM-MQU41854_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 서초구갑"@ko ;
                          rdfs:label "조은희: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "장상원" ,
                                             "지욱현" ;
                          nam2:secretaryName "권동현" ,
@@ -3741,7 +3741,7 @@ nadat2:MEM-MQU41854_PPP rdf:type org:Membership ;
                       org:member nadat2:PER-LM-MQU41854 ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "조은희: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 nadat2:MEM-MR210505_100021 rdf:type org:Membership ;
                          dcterms:temporal nadat2:LegSession-21 ;
@@ -3749,7 +3749,7 @@ nadat2:MEM-MR210505_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경남 거제시"@ko ;
                          rdfs:label "서일준: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "박용안" ,
                                             "이상민" ;
                          nam2:secretaryName "박경호" ,
@@ -3766,7 +3766,7 @@ nadat2:MEM-MR210505_PPP rdf:type org:Membership ;
                       org:member nadat2:PER-LM-MR210505 ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "서일준: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 nadat2:MEM-MSY7784L_100021 rdf:type org:Membership ;
                          dcterms:temporal nadat2:LegSession-21 ;
@@ -3774,7 +3774,7 @@ nadat2:MEM-MSY7784L_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "인천 동구미추홀구을"@ko ;
                          rdfs:label "윤상현: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "박상배" ,
                                             "안정민" ,
                                             "이수봉" ;
@@ -3791,7 +3791,7 @@ nadat2:MEM-MSY7784L_PPP rdf:type org:Membership ;
                       org:member nadat2:PER-LM-MSY7784L ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "윤상현: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 nadat2:MEM-MU69217P_100021 rdf:type org:Membership ;
                          dcterms:temporal nadat2:LegSession-21 ;
@@ -3799,7 +3799,7 @@ nadat2:MEM-MU69217P_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "강원 홍천군횡성군영월군평창군"@ko ;
                          rdfs:label "유상범: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김원호" ,
                                             "최영수" ;
                          nam2:secretaryName "도영훈" ,
@@ -3815,7 +3815,7 @@ nadat2:MEM-MU69217P_PPP rdf:type org:Membership ;
                       org:member nadat2:PER-LM-MU69217P ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "유상범: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 nadat2:MEM-N4R2421C_100021 rdf:type org:Membership ;
                          dcterms:temporal nadat2:LegSession-21 ;
@@ -3823,7 +3823,7 @@ nadat2:MEM-N4R2421C_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "충북 보은군옥천군영동군괴산군"@ko ;
                          rdfs:label "박덕흠: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "사정아" ,
                                             "전상인" ;
                          nam2:secretaryName "곽지현" ,
@@ -3840,7 +3840,7 @@ nadat2:MEM-N4R2421C_PPP rdf:type org:Membership ;
                       org:member nadat2:PER-LM-N4R2421C ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "박덕흠: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 nadat2:MEM-NUB4941Z_100021 rdf:type org:Membership ;
                          dcterms:temporal nadat2:LegSession-21 ;
@@ -3848,7 +3848,7 @@ nadat2:MEM-NUB4941Z_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "제주 제주시을"@ko ;
                          rdfs:label "김한규: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "오영진" ,
                                             "황종섭" ;
                          nam2:secretaryName "김명환" ,
@@ -3866,7 +3866,7 @@ nadat2:MEM-NUB4941Z_DPK rdf:type org:Membership ;
                       org:member nadat2:PER-LM-NUB4941Z ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "김한규: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 nadat2:MEM-O0I2045I_100021 rdf:type org:Membership ;
                          dcterms:temporal nadat2:LegSession-21 ;
@@ -3874,7 +3874,7 @@ nadat2:MEM-O0I2045I_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "충남 천안시병"@ko ;
                          rdfs:label "이정문: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "이영구" ,
                                             "조기호" ;
                          nam2:secretaryName "김세환" ,
@@ -3890,7 +3890,7 @@ nadat2:MEM-O0I2045I_DPK rdf:type org:Membership ;
                       org:member nadat2:PER-LM-O0I2045I ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "이정문: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 nadat2:MEM-O6D8329R_100021 rdf:type org:Membership ;
@@ -3899,7 +3899,7 @@ nadat2:MEM-O6D8329R_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경남 김해시갑"@ko ;
                          rdfs:label "민홍철: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김대승" ,
                                             "한주연" ;
                          nam2:secretaryName "노은주" ,
@@ -3917,7 +3917,7 @@ nadat2:MEM-O6D8329R_DPK rdf:type org:Membership ;
                       org:member nadat2:PER-LM-O6D8329R ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "민홍철: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 nadat2:MEM-O7R5461J_100021 rdf:type org:Membership ;
                          dcterms:temporal nadat2:LegSession-21 ;
@@ -3925,7 +3925,7 @@ nadat2:MEM-O7R5461J_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 파주시갑"@ko ;
                          rdfs:label "윤후덕: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김영동" ;
                          nam2:secretaryName "강지영" ,
                                             "김국희" ,
@@ -3943,7 +3943,7 @@ nadat2:MEM-O7R5461J_DPK rdf:type org:Membership ;
                       org:member nadat2:PER-LM-O7R5461J ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "윤후덕: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 nadat2:MEM-OFE45081_100021 rdf:type org:Membership ;
                          dcterms:temporal nadat2:LegSession-21 ;
@@ -3951,7 +3951,7 @@ nadat2:MEM-OFE45081_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 남양주시병"@ko ;
                          rdfs:label "김용민: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김명진" ,
                                             "박준수" ;
                          nam2:secretaryName "강유정" ,
@@ -3967,7 +3967,7 @@ nadat2:MEM-OFE45081_DPK rdf:type org:Membership ;
                       org:member nadat2:PER-LM-OFE45081 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "김용민: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 nadat2:MEM-OIA3741M_100021 rdf:type org:Membership ;
                          dcterms:temporal nadat2:LegSession-21 ;
@@ -3975,7 +3975,7 @@ nadat2:MEM-OIA3741M_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 도봉구을"@ko ;
                          rdfs:label "오기형: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "권태준" ,
                                             "홍성우" ;
                          nam2:secretaryName "김동석" ,
@@ -3990,7 +3990,7 @@ nadat2:MEM-OIA3741M_DPK rdf:type org:Membership ;
                       org:member nadat2:PER-LM-OIA3741M ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "오기형: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 nadat2:MEM-OSV9142K_100021 rdf:type org:Membership ;
                          dcterms:temporal nadat2:LegSession-21 ;
@@ -3998,7 +3998,7 @@ nadat2:MEM-OSV9142K_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경북 영천시청도군"@ko ;
                          rdfs:label "이만희: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "강성우" ,
                                             "김수용" ;
                          nam2:secretaryName "김준수" ,
@@ -4016,7 +4016,7 @@ nadat2:MEM-OSV9142K_PPP rdf:type org:Membership ;
                       org:member nadat2:PER-LM-OSV9142K ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "이만희: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 nadat2:MEM-P0F1530P_100021 rdf:type org:Membership ;
                          dcterms:temporal nadat2:LegSession-21 ;
@@ -4024,7 +4024,7 @@ nadat2:MEM-P0F1530P_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경남 양산시을"@ko ;
                          rdfs:label "김태호: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김경수" ,
                                             "이창진" ;
                          nam2:secretaryName "권용태" ,
@@ -4041,7 +4041,7 @@ nadat2:MEM-P0F1530P_PPP rdf:type org:Membership ;
                       org:member nadat2:PER-LM-P0F1530P ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "김태호: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 nadat2:MEM-PFG2137X_100021 rdf:type org:Membership ;
@@ -4050,7 +4050,7 @@ nadat2:MEM-PFG2137X_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경북 고령군성주군칠곡군"@ko ;
                          rdfs:label "정희용: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "윤다솜" ;
                          nam2:secretaryName "김영석" ,
                                             "김희우" ,
@@ -4068,7 +4068,7 @@ nadat2:MEM-PFG2137X_PPP rdf:type org:Membership ;
                       org:member nadat2:PER-LM-PFG2137X ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "정희용: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 nadat2:MEM-QQP4727N_100021 rdf:type org:Membership ;
@@ -4077,7 +4077,7 @@ nadat2:MEM-QQP4727N_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "인천 중구강화군옹진군"@ko ;
                          rdfs:label "배준영: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김태호" ,
                                             "서현석" ;
                          nam2:secretaryName "김기정" ,
@@ -4095,7 +4095,7 @@ nadat2:MEM-QQP4727N_PPP rdf:type org:Membership ;
                       org:member nadat2:PER-LM-QQP4727N ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "배준영: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 nadat2:MEM-RPN2293B_100021 rdf:type org:Membership ;
                          dcterms:temporal nadat2:LegSession-21 ;
@@ -4103,7 +4103,7 @@ nadat2:MEM-RPN2293B_100021 rdf:type org:Membership ;
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 동대문구을"@ko ;
                          rdfs:label "장경태: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김상혁" ,
                                             "이경수" ;
                          nam2:secretaryName "김윤호" ,
@@ -4122,7 +4122,7 @@ nadat2:MEM-RPN2293B_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-RPN2293B ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "장경태: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-RQQ3807K_100021
@@ -4133,7 +4133,7 @@ nadat2:MEM-RQQ3807K_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "제주 서귀포시"@ko ;
                          rdfs:label "위성곤: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "권민철" ,
                                             "이준석" ;
                          nam2:secretaryName "김수빈" ,
@@ -4152,7 +4152,7 @@ nadat2:MEM-RQQ3807K_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-RQQ3807K ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "위성곤: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-S824682L_100021
@@ -4163,7 +4163,7 @@ nadat2:MEM-S824682L_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 중랑구을"@ko ;
                          rdfs:label "박홍근: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "나바다" ,
                                             "서윤기" ;
                          nam2:secretaryName "김수진" ,
@@ -4182,7 +4182,7 @@ nadat2:MEM-S824682L_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-S824682L ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "박홍근: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-S9U45255_100021
@@ -4193,7 +4193,7 @@ nadat2:MEM-S9U45255_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "강원 속초시인제군고성군양양군"@ko ;
                          rdfs:label "이양수: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "길재철" ,
                                             "김진호" ;
                          nam2:secretaryName "김건호" ,
@@ -4212,7 +4212,7 @@ nadat2:MEM-S9U45255_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-S9U45255 ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "이양수: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-SQ36001H_100021
@@ -4223,7 +4223,7 @@ nadat2:MEM-SQ36001H_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "강원 원주시을"@ko ;
                          rdfs:label "송기헌: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "신수철" ,
                                             "홍현표" ;
                          nam2:secretaryName "김남균" ,
@@ -4242,7 +4242,7 @@ nadat2:MEM-SQ36001H_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-SQ36001H ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "송기헌: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-T465023H_100021
@@ -4253,7 +4253,7 @@ nadat2:MEM-T465023H_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "전남 여수시갑"@ko ;
                          rdfs:label "주철현: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김재민" ,
                                             "유무성" ;
                          nam2:secretaryName "김유남" ,
@@ -4270,7 +4270,7 @@ nadat2:MEM-T465023H_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-T465023H ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "주철현: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-TJW93720_100021
@@ -4281,7 +4281,7 @@ nadat2:MEM-TJW93720_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 화성시정"@ko ;
                          rdfs:label "전용기: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "두경서" ,
                                             "오진웅" ;
                          nam2:secretaryName "김성준" ,
@@ -4300,7 +4300,7 @@ nadat2:MEM-TJW93720_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-TJW93720 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "전용기: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-TKJ4800F_100021
@@ -4311,7 +4311,7 @@ nadat2:MEM-TKJ4800F_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 중랑구갑"@ko ;
                          rdfs:label "서영교: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "문경희" ,
                                             "안재형" ;
                          nam2:secretaryName "김지은" ,
@@ -4329,7 +4329,7 @@ nadat2:MEM-TKJ4800F_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-TKJ4800F ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "서영교: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-TST4507I_100021
@@ -4340,7 +4340,7 @@ nadat2:MEM-TST4507I_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 동대문구갑"@ko ;
                          rdfs:label "안규백: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "성영준" ,
                                             "이정수" ;
                          nam2:secretaryName "길창룡" ,
@@ -4360,7 +4360,7 @@ nadat2:MEM-TST4507I_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-TST4507I ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "안규백: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-TZ228122_100021
@@ -4371,7 +4371,7 @@ nadat2:MEM-TZ228122_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 안양시동안구갑"@ko ;
                          rdfs:label "민병덕: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김대경" ,
                                             "김병섭" ;
                          nam2:secretaryName "김아란" ,
@@ -4390,7 +4390,7 @@ nadat2:MEM-TZ228122_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-TZ228122 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "민병덕: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-TZP9391O_100021
@@ -4401,7 +4401,7 @@ nadat2:MEM-TZP9391O_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "강원 동해시태백시삼척시정선군"@ko ;
                          rdfs:label "이철규: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김완기" ,
                                             "이재용" ;
                          nam2:secretaryName "김순희" ,
@@ -4420,7 +4420,7 @@ nadat2:MEM-TZP9391O_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-TZP9391O ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "이철규: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-UHB5553T_100021
@@ -4431,7 +4431,7 @@ nadat2:MEM-UHB5553T_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 관악구을"@ko ;
                          rdfs:label "정태호: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김준하" ,
                                             "최기원" ;
                          nam2:secretaryName "권서현" ,
@@ -4450,7 +4450,7 @@ nadat2:MEM-UHB5553T_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-UHB5553T ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "정태호: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-UQ282145_100021
@@ -4461,7 +4461,7 @@ nadat2:MEM-UQ282145_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 안양시동안구을"@ko ;
                          rdfs:label "이재정: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "송지홍" ,
                                             "이성용" ;
                          nam2:secretaryName "고나형" ,
@@ -4480,7 +4480,7 @@ nadat2:MEM-UQ282145_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-UQ282145 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "이재정: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-V429892C_100021
@@ -4491,7 +4491,7 @@ nadat2:MEM-V429892C_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 동두천시양주시연천군갑"@ko ;
                          rdfs:label "정성호: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "권기완" ,
                                             "안중언" ;
                          nam2:secretaryName "김선진" ,
@@ -4506,7 +4506,7 @@ nadat2:MEM-V429892C_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-V429892C ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "정성호: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-VCP96419_100021
@@ -4517,7 +4517,7 @@ nadat2:MEM-VCP96419_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "인천 동구미추홀구갑"@ko ;
                          rdfs:label "허종식: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김창문" ,
                                             "정창규" ;
                          nam2:secretaryName "손정애" ,
@@ -4536,7 +4536,7 @@ nadat2:MEM-VCP96419_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-VCP96419 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "허종식: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-VRY5522V_100021
@@ -4547,7 +4547,7 @@ nadat2:MEM-VRY5522V_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "광주 광산구을"@ko ;
                          rdfs:label "민형배: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "박수미" ,
                                             "정호윤" ;
                          nam2:secretaryName "김예준" ,
@@ -4566,7 +4566,7 @@ nadat2:MEM-VRY5522V_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-VRY5522V ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "민형배: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-W4X85128_100021
@@ -4577,7 +4577,7 @@ nadat2:MEM-W4X85128_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경남 진주시갑"@ko ;
                          rdfs:label "박대출: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "배시열" ,
                                             "최두식" ;
                          nam2:secretaryName "강성중" ,
@@ -4596,7 +4596,7 @@ nadat2:MEM-W4X85128_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-W4X85128 ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "박대출: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-WCD5518S_100021
@@ -4607,7 +4607,7 @@ nadat2:MEM-WCD5518S_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 광진구을"@ko ;
                          rdfs:label "고민정: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "이상엽" ,
                                             "정웅재" ;
                          nam2:secretaryName "김덕훈" ,
@@ -4626,7 +4626,7 @@ nadat2:MEM-WCD5518S_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-WCD5518S ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "고민정: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-WJL30106_100021
@@ -4637,7 +4637,7 @@ nadat2:MEM-WJL30106_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 마포구갑"@ko ;
                          rdfs:label "조정훈: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "서기정" ,
                                             "최병현" ;
                          nam2:secretaryName "김수현" ,
@@ -4656,7 +4656,7 @@ nadat2:MEM-WJL30106_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-WJL30106 ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "조정훈: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-WTR5885Y_100021
@@ -4667,7 +4667,7 @@ nadat2:MEM-WTR5885Y_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 의왕시과천시"@ko ;
                          rdfs:label "이소영: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "오진수" ,
                                             "오철재" ;
                          nam2:secretaryName "김선영" ,
@@ -4686,7 +4686,7 @@ nadat2:MEM-WTR5885Y_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-WTR5885Y ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "이소영: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-X1K3667J_100021
@@ -4697,7 +4697,7 @@ nadat2:MEM-X1K3667J_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "인천 서구갑"@ko ;
                          rdfs:label "김교흥: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김정현" ,
                                             "유해용" ;
                          nam2:secretaryName "김성주" ,
@@ -4717,7 +4717,7 @@ nadat2:MEM-X1K3667J_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-X1K3667J ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "김교흥: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-X3170462_100021
@@ -4728,7 +4728,7 @@ nadat2:MEM-X3170462_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "울산 중구"@ko ;
                          rdfs:label "박성민: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김승원" ,
                                             "안재태" ;
                          nam2:secretaryName "김제민" ,
@@ -4747,7 +4747,7 @@ nadat2:MEM-X3170462_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-X3170462 ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "박성민: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-X7I4680R_100021
@@ -4758,7 +4758,7 @@ nadat2:MEM-X7I4680R_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "울산 남구을"@ko ;
                          rdfs:label "김기현: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김용환" ,
                                             "황규환" ;
                          nam2:secretaryName "류고운" ,
@@ -4777,7 +4777,7 @@ nadat2:MEM-X7I4680R_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-X7I4680R ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "김기현: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-XBT9550Q_100021
@@ -4788,7 +4788,7 @@ nadat2:MEM-XBT9550Q_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 노원구갑"@ko ;
                          rdfs:label "우원식: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김복식" ,
                                             "서영준" ;
                          nam2:secretaryName "김윤상" ,
@@ -4809,7 +4809,7 @@ nadat2:MEM-XEF29171_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "전북 완주군진안군무주군"@ko ;
                          rdfs:label "안호영: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김미애" ,
                                             "박진범" ;
                          nam2:secretaryName "강우상" ,
@@ -4829,7 +4829,7 @@ nadat2:MEM-XEF29171_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-XEF29171 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "안호영: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-XPP2564T_100021
@@ -4840,7 +4840,7 @@ nadat2:MEM-XPP2564T_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 강서구병"@ko ;
                          rdfs:label "한정애: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김영수" ,
                                             "박철우" ;
                          nam2:secretaryName "강희정" ,
@@ -4859,7 +4859,7 @@ nadat2:MEM-XPP2564T_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-XPP2564T ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "한정애: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-XR24352K_100021
@@ -4870,7 +4870,7 @@ nadat2:MEM-XR24352K_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 부천시갑"@ko ;
                          rdfs:label "서영석: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "김형준" ,
                                             "최형규" ;
                          nam2:secretaryName "김민지" ,
@@ -4889,7 +4889,7 @@ nadat2:MEM-XR24352K_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-XR24352K ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "서영석: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-XSP20229_100021
@@ -4900,7 +4900,7 @@ nadat2:MEM-XSP20229_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "서울 노원구을"@ko ;
                          rdfs:label "김성환: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "서학선" ,
                                             "이규철" ;
                          nam2:secretaryName "공경남" ,
@@ -4919,7 +4919,7 @@ nadat2:MEM-XSP20229_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-XSP20229 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "김성환: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-YOG1280B_100021
@@ -4930,7 +4930,7 @@ nadat2:MEM-YOG1280B_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 성남시분당구갑"@ko ;
                          rdfs:label "안철수: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "신대경" ,
                                             "홍지웅" ;
                          nam2:secretaryName "김건우" ,
@@ -4949,7 +4949,7 @@ nadat2:MEM-YOG1280B_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-YOG1280B ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "안철수: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-ZDR63255_100021
@@ -4960,7 +4960,7 @@ nadat2:MEM-ZDR63255_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경기 광주시갑"@ko ;
                          rdfs:label "소병훈: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "박정선" ,
                                             "소준원" ;
                          nam2:secretaryName "김중명" ,
@@ -4980,7 +4980,7 @@ nadat2:MEM-ZDR63255_DPK rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-ZDR63255 ;
                       org:organization nadat2:DemocraticPartyofKorea ;
                       rdfs:label "소병훈: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-ZRF3039U_100021
@@ -4991,7 +4991,7 @@ nadat2:MEM-ZRF3039U_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "대구 달서구을"@ko ;
                          rdfs:label "윤재옥: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "노병근" ,
                                             "이고운" ;
                          nam2:secretaryName "김도영" ,
@@ -5010,7 +5010,7 @@ nadat2:MEM-ZRF3039U_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-ZRF3039U ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "윤재옥: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#MEM-ZYP7962W_100021
@@ -5021,7 +5021,7 @@ nadat2:MEM-ZYP7962W_100021 rdf:type owl:NamedIndividual ,
                          org:organization nadat2:NationalAssembly ;
                          dcterms:coverage "경북 경주시"@ko ;
                          rdfs:label "김석기: 제21대 국회 membership"@ko ;
-                         org:role "제21대 국회의원"@ko ;
+                         org:role nadat2:RL-LM21 ;
                          nam2:assistantName "신창해" ,
                                             "이준호" ;
                          nam2:secretaryName "김기홍" ,
@@ -5039,7 +5039,7 @@ nadat2:MEM-ZYP7962W_PPP rdf:type owl:NamedIndividual ,
                       org:member nadat2:PER-LM-ZYP7962W ;
                       org:organization nadat2:PeoplePowerParty ;
                       rdfs:label "김석기: 정당 membership"@ko ;
-                      org:role "정당소속"@ko .
+                      org:role nadat2:RL-PA .
 
 
 ###  https://example.org/resource/d2-person#PER-LM-04T3751T
