@@ -30,6 +30,15 @@ nadat2:LegSession-21 rdf:type owl:NamedIndividual ;
                 rdfs:label "제21대 입법회기"@ko .
 
 
+nadat2:RL-LM21 rdf:type org:Role ;
+  skos:prefLabel "제21대 국회의원"@ko ;
+  skos:prefLabel "Member of the 21st National Assembly"@en .
+
+nadat2:RL-PA rdf:type org:Role ;
+  skos:prefLabel "정당소속"@ko ;
+  skos:prefLabel "Party affiliation"@en .
+
+
 
 nadat2:NationalAssembly rdf:type org:Organization , nam2:Institution ;
                 rdfs:label "국회" ;
