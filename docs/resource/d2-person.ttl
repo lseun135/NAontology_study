@@ -65,7 +65,7 @@ nadat2:NAFuturesInstitute rdf:type org:OrganizationalUnit , nam2:Institution ;
                 org:subOrganizationOf nadat2:NationalAssembly ;
                 rdfs:label "국회미래연구원" ;
                 rdfs:seeAlso "https://www.nafi.re.kr"^^xsd:anyURI ;
-                rdfs:comment "국회 조직도엔 존재하지 않는데(별도?) 소관기관목록에는 존재 →수정 필요할지 재확인 필요"
+                rdfs:comment "국회 조직도엔 존재하지 않는데(별도?) 소관기관목록에는 존재 →수정 필요할지 재확인 필요" ;
                 skos:altLabel "NAFI"@en ;
                 skos:prefLabel "National Assembly Futures Institute"@en ,
                                "국회미래연구원"@ko .
