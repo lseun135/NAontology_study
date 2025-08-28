@@ -1,4 +1,4 @@
-@prefix nadat2: <https://lseun135.github.io/NAontology_study/resource/d2-person> .
+@prefix nadat2: <https://lseun135.github.io/NAontology_study/resource/d2-person#> .
 @prefix bio: <http://purl.org/vocab/bio/0.1/> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -13,7 +13,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @base <https://lseun135.github.io/NAontology_study/resource/d2-person> .
 
-<https://lseun135.github.io/NAontology_study/resource/d2-person/> rdf:type owl:Ontology ;
+<https://lseun135.github.io/NAontology_study/resource/d2-person.ttl> rdf:type owl:Ontology ;
                 owl:imports <https://lseun135.github.io/NAontology_study/m2-person.ttl> .
 
 
