@@ -5031,8 +5031,7 @@ nadat2:MEM-ZYP7962W_PPP rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-04T3751T
-nadat2:PER-LM-04T3751T rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-04T3751T rdf:type foaf:Person ;
                   foaf:name "NAM INSOON"@en ,
                             "南仁順"@ko-hani ,
                             "남인순"@ko ;
@@ -5067,8 +5066,7 @@ nadat2:PER-LM-04T3751T rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-0R68099X
-nadat2:PER-LM-0R68099X rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-0R68099X rdf:type foaf:Person ;
                   foaf:name "LEE SOOJIN"@en ,
                             "이수진"@ko ,
                             "李壽珍"@ko-hani ;
@@ -5100,8 +5098,7 @@ nadat2:PER-LM-0R68099X rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-0VU8517U
-nadat2:PER-LM-0VU8517U rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-0VU8517U rdf:type foaf:Person ;
                   foaf:name "HWANG HEE"@en ,
                             "黃熙"@ko-hani ,
                             "황희"@ko ;
@@ -5146,8 +5143,7 @@ nadat2:PER-LM-0VU8517U rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-0YT3774N
-nadat2:PER-LM-0YT3774N rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-0YT3774N rdf:type foaf:Person ;
                   foaf:name "HWANG UNHA"@en ,
                             "黃雲夏"@ko-hani ,
                             "황운하"@ko ;
@@ -5186,8 +5182,7 @@ nadat2:PER-LM-0YT3774N rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-1WE5693J
-nadat2:PER-LM-1WE5693J rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-1WE5693J rdf:type foaf:Person ;
                   foaf:name "KIM TAENYEON"@en ,
                             "金太年"@ko-hani ,
                             "김태년"@ko ;
@@ -5217,8 +5212,7 @@ nadat2:PER-LM-1WE5693J rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-1Y73132H
-nadat2:PER-LM-1Y73132H rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-1Y73132H rdf:type foaf:Person ;
                   foaf:name "KIM SANGHOON"@en ,
                             "金相勳"@ko-hani ,
                             "김상훈"@ko ;
@@ -5253,8 +5247,7 @@ nadat2:PER-LM-1Y73132H rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-2385336L
-nadat2:PER-LM-2385336L rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-2385336L rdf:type foaf:Person ;
                   foaf:name "JUNG CHUNGRAE"@en ,
                             "鄭淸來"@ko-hani ,
                             "정청래"@ko ;
@@ -5311,8 +5304,7 @@ nadat2:PER-LM-2385336L rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-2NV6751W
-nadat2:PER-LM-2NV6751W rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-2NV6751W rdf:type foaf:Person ;
                   foaf:name "JANG CHULMIN"@en ,
                             "張喆敏"@ko-hani ,
                             "장철민"@ko ;
@@ -5336,8 +5328,7 @@ nadat2:PER-LM-2NV6751W rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-3249208I
-nadat2:PER-LM-3249208I rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-3249208I rdf:type foaf:Person ;
                   foaf:name "SONG OKJOO"@en ,
                             "宋玉珠"@ko-hani ,
                             "송옥주"@ko ;
@@ -5362,8 +5353,7 @@ nadat2:PER-LM-3249208I rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-3BC6890E
-nadat2:PER-LM-3BC6890E rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-3BC6890E rdf:type foaf:Person ;
                   foaf:name "KIM MIAE"@en ,
                             "金美愛"@ko-hani ,
                             "김미애"@ko ;
@@ -5389,8 +5379,7 @@ nadat2:PER-LM-3BC6890E rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-3C23171A
-nadat2:PER-LM-3C23171A rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-3C23171A rdf:type foaf:Person ;
                   foaf:name "JIN SUNGJOON"@en ,
                             "陳聲準"@ko-hani ,
                             "진성준"@ko ;
@@ -5421,8 +5410,7 @@ nadat2:PER-LM-3C23171A rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-3ZR4438W
-nadat2:PER-LM-3ZR4438W rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-3ZR4438W rdf:type foaf:Person ;
                   foaf:name "LEE INYOUNG"@en ,
                             "이인영"@ko ,
                             "李仁榮"@ko-hani ;
@@ -5451,8 +5439,7 @@ nadat2:PER-LM-3ZR4438W rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-4019850M
-nadat2:PER-LM-4019850M rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-4019850M rdf:type foaf:Person ;
                   foaf:name "PARK JEUNG"@en ,
                             "朴釘"@ko-hani ,
                             "박정"@ko ;
@@ -5515,8 +5502,7 @@ nadat2:PER-LM-4019850M rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-4L695580
-nadat2:PER-LM-4L695580 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-4L695580 rdf:type foaf:Person ;
                   foaf:name "KIM WONI"@en ,
                             "金元二"@ko-hani ,
                             "김원이"@ko ;
@@ -5551,8 +5537,7 @@ nadat2:PER-LM-4L695580 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-4T026790
-nadat2:PER-LM-4T026790 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-4T026790 rdf:type foaf:Person ;
                   foaf:name "LIM OKYEONG"@en ,
                             "임오경"@ko ,
                             "林五卿"@ko-hani ;
@@ -5665,8 +5650,7 @@ nadat2:PER-LM-4T026790 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-4U29186R
-nadat2:PER-LM-4U29186R rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-4U29186R rdf:type foaf:Person ;
                   foaf:name "MOON JINSEOG"@en ,
                             "文振碩"@ko-hani ,
                             "문진석"@ko ;
@@ -5701,8 +5685,7 @@ nadat2:PER-LM-4U29186R rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-4X525582
-nadat2:PER-LM-4X525582 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-4X525582 rdf:type foaf:Person ;
                   foaf:name "BAE HYUNJIN"@en ,
                             "裵賢鎭"@ko-hani ,
                             "배현진"@ko ;
@@ -5753,8 +5736,7 @@ nadat2:PER-LM-4X525582 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-5765663F
-nadat2:PER-LM-5765663F rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-5765663F rdf:type foaf:Person ;
                   foaf:name "KIM YOUNGJIN"@en ,
                             "金榮鎭"@ko-hani ,
                             "김영진"@ko ;
@@ -5787,8 +5769,7 @@ nadat2:PER-LM-5765663F rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-5K93695T
-nadat2:PER-LM-5K93695T rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-5K93695T rdf:type foaf:Person ;
                   foaf:name "KIM SEUNGSU"@en ,
                             "金承洙"@ko-hani ,
                             "김승수"@ko ;
@@ -5834,8 +5815,7 @@ nadat2:PER-LM-5K93695T rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-5KV82250
-nadat2:PER-LM-5KV82250 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-5KV82250 rdf:type foaf:Person ;
                   foaf:name "CHO KYOUNGTAE"@en ,
                             "趙慶泰"@ko-hani ,
                             "조경태"@ko ;
@@ -5856,8 +5836,7 @@ nadat2:PER-LM-5KV82250 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-5KV96424
-nadat2:PER-LM-5KV96424 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-5KV96424 rdf:type foaf:Person ;
                   foaf:name "KANG JUNHYEON"@en ,
                             "康準鉉"@ko-hani ,
                             "강준현"@ko ;
@@ -5887,8 +5866,7 @@ nadat2:PER-LM-5KV96424 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-5MD4184K
-nadat2:PER-LM-5MD4184K rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-5MD4184K rdf:type foaf:Person ;
                   foaf:name "HONG KEEWON"@en ,
                             "洪起元"@ko-hani ,
                             "홍기원"@ko ;
@@ -5934,8 +5912,7 @@ nadat2:PER-LM-5MD4184K rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-68P7228G
-nadat2:PER-LM-68P7228G rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-68P7228G rdf:type foaf:Person ;
                   foaf:name "JIN SUNMEE"@en ,
                             "陳善美"@ko-hani ,
                             "진선미"@ko ;
@@ -5968,8 +5945,7 @@ nadat2:PER-LM-68P7228G rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-6AU2417B
-nadat2:PER-LM-6AU2417B rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-6AU2417B rdf:type foaf:Person ;
                   foaf:name "PARK JUMIN"@en ,
                             "朴柱民"@ko-hani ,
                             "박주민"@ko ;
@@ -6026,8 +6002,7 @@ nadat2:PER-LM-6AU2417B rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-6EN68926
-nadat2:PER-LM-6EN68926 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-6EN68926 rdf:type foaf:Person ;
                   foaf:name "SONG EONSEOG"@en ,
                             "宋彦錫"@ko-hani ,
                             "송언석"@ko ;
@@ -6067,8 +6042,7 @@ nadat2:PER-LM-6EN68926 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-6RD62559
-nadat2:PER-LM-6RD62559 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-6RD62559 rdf:type foaf:Person ;
                   foaf:name "PARK JEONGHA"@en ,
                             "朴正河"@ko-hani ,
                             "박정하"@ko ;
@@ -6103,8 +6077,7 @@ nadat2:PER-LM-6RD62559 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-6U243644
-nadat2:PER-LM-6U243644 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-6U243644 rdf:type foaf:Person ;
                   foaf:name "PARK HYEUNGSOO"@en ,
                             "朴亨修"@ko-hani ,
                             "박형수"@ko ;
@@ -6144,8 +6117,7 @@ nadat2:PER-LM-6U243644 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-7469929V
-nadat2:PER-LM-7469929V rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-7469929V rdf:type foaf:Person ;
                   foaf:name "KOO JAKEUN"@en ,
                             "具滋根"@ko-hani ,
                             "구자근"@ko ;
@@ -6180,8 +6152,7 @@ nadat2:PER-LM-7469929V rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-7BM2933Y
-nadat2:PER-LM-7BM2933Y rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-7BM2933Y rdf:type foaf:Person ;
                   foaf:name "KIM YOUNGHO"@en ,
                             "金映豪"@ko-hani ,
                             "김영호"@ko ;
@@ -6258,8 +6229,7 @@ nadat2:PER-LM-7BM2933Y rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-7R156073
-nadat2:PER-LM-7R156073 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-7R156073 rdf:type foaf:Person ;
                   foaf:name "PARK BEOMKYE"@en ,
                             "朴範界"@ko-hani ,
                             "박범계"@ko ;
@@ -6317,8 +6287,7 @@ nadat2:PER-LM-7R156073 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-7XY7109I
-nadat2:PER-LM-7XY7109I rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-7XY7109I rdf:type foaf:Person ;
                   foaf:name "SUNG ILJONG"@en ,
                             "成一鍾"@ko-hani ,
                             "성일종"@ko ;
@@ -6396,8 +6365,7 @@ Seoul Sucess Award상[서울신문]
 
 
 ###  https://example.org/resource/d2-person#PER-LM-8348421R
-nadat2:PER-LM-8348421R rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-8348421R rdf:type foaf:Person ;
                   foaf:name "EOM TAEYOUNG"@en ,
                             "嚴泰永"@ko-hani ,
                             "엄태영"@ko ;
@@ -6456,8 +6424,7 @@ nadat2:PER-LM-8348421R rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-8FB1535Y
-nadat2:PER-LM-8FB1535Y rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-8FB1535Y rdf:type foaf:Person ;
                   foaf:name "EOH KIYKU"@en ,
                             "魚基龜"@ko-hani ,
                             "어기구"@ko ;
@@ -6542,8 +6509,7 @@ nadat2:PER-LM-8FB1535Y rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-8P37634C
-nadat2:PER-LM-8P37634C rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-8P37634C rdf:type foaf:Person ;
                   foaf:name "KANG DEUKGU"@en ,
                             "姜得求"@ko-hani ,
                             "강득구"@ko ;
@@ -6575,8 +6541,7 @@ nadat2:PER-LM-8P37634C rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-8Q88373R
-nadat2:PER-LM-8Q88373R rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-8Q88373R rdf:type foaf:Person ;
                   foaf:name "KIM BYUNGKEE"@en ,
                             "金炳基"@ko-hani ,
                             "김병기"@ko ;
@@ -6613,8 +6578,7 @@ nadat2:PER-LM-8Q88373R rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-8SV6917G
-nadat2:PER-LM-8SV6917G rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-8SV6917G rdf:type foaf:Person ;
                   foaf:name "JOO HOYOUNG"@en ,
                             "朱豪英"@ko-hani ,
                             "주호영"@ko ;
@@ -6667,8 +6631,7 @@ nadat2:PER-LM-8SV6917G rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-8X15119P
-nadat2:PER-LM-8X15119P rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-8X15119P rdf:type foaf:Person ;
                   foaf:name "YOON HANHONG"@en ,
                             "尹漢洪"@ko-hani ,
                             "윤한홍"@ko ;
@@ -6698,8 +6661,7 @@ nadat2:PER-LM-8X15119P rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-9D939735
-nadat2:PER-LM-9D939735 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-9D939735 rdf:type foaf:Person ;
                   foaf:name "KIM SUNGWON"@en ,
                             "金成願"@ko-hani ,
                             "김성원"@ko ;
@@ -6763,8 +6725,7 @@ nadat2:PER-LM-9D939735 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-9JF4562W
-nadat2:PER-LM-9JF4562W rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-9JF4562W rdf:type foaf:Person ;
                   foaf:name "LEE YONGSUN"@en ,
                             "이용선"@ko ,
                             "李庸瑄"@ko-hani ;
@@ -6809,8 +6770,7 @@ nadat2:PER-LM-9JF4562W rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-9LD2641Q
-nadat2:PER-LM-9LD2641Q rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-9LD2641Q rdf:type foaf:Person ;
                   foaf:name "KIM JUNGHO"@en ,
                             "金禎鎬"@ko-hani ,
                             "김정호"@ko ;
@@ -6846,8 +6806,7 @@ nadat2:PER-LM-9LD2641Q rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-9VR65006
-nadat2:PER-LM-9VR65006 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-9VR65006 rdf:type foaf:Person ;
                   foaf:name "YOON YOUNGSEOK"@en ,
                             "尹永碩"@ko-hani ,
                             "윤영석"@ko ;
@@ -6868,8 +6827,7 @@ nadat2:PER-LM-9VR65006 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-9YO73104
-nadat2:PER-LM-9YO73104 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-9YO73104 rdf:type foaf:Person ;
                   foaf:name "CHUN JAESOO"@en ,
                             "田載秀"@ko-hani ,
                             "전재수"@ko ;
@@ -6918,8 +6876,7 @@ nadat2:PER-LM-9YO73104 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-A0P4646G
-nadat2:PER-LM-A0P4646G rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-A0P4646G rdf:type foaf:Person ;
                   foaf:name "CHOI HYUNGDU"@en ,
                             "崔炯斗"@ko-hani ,
                             "최형두"@ko ;
@@ -6948,8 +6905,7 @@ nadat2:PER-LM-A0P4646G rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-A494529E
-nadat2:PER-LM-A494529E rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-A494529E rdf:type foaf:Person ;
                   foaf:name "CHEON JUNHO"@en ,
                             "千俊鎬"@ko-hani ,
                             "천준호"@ko ;
@@ -6975,8 +6931,7 @@ nadat2:PER-LM-A494529E rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-AFH96856
-nadat2:PER-LM-AFH96856 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-AFH96856 rdf:type foaf:Person ;
                   foaf:name "SHIN YEONGDAE"@en ,
                             "申榮大"@ko-hani ,
                             "신영대"@ko ;
@@ -7001,8 +6956,7 @@ nadat2:PER-LM-AFH96856 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-ATB59635
-nadat2:PER-LM-ATB59635 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-ATB59635 rdf:type foaf:Person ;
                   foaf:name "KIM SEUNGWON"@en ,
                             "金勝源"@ko-hani ,
                             "김승원"@ko ;
@@ -7042,8 +6996,7 @@ nadat2:PER-LM-ATB59635 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-B7D7534L
-nadat2:PER-LM-B7D7534L rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-B7D7534L rdf:type foaf:Person ;
                   foaf:name "KIM YOUNGBAE"@en ,
                             "金永培"@ko-hani ,
                             "김영배"@ko ;
@@ -7085,8 +7038,7 @@ nadat2:PER-LM-B7D7534L rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-BCQ55105
-nadat2:PER-LM-BCQ55105 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-BCQ55105 rdf:type foaf:Person ;
                   foaf:name "HAN JUNHO"@en ,
                             "韓俊鎬"@ko-hani ,
                             "한준호"@ko ;
@@ -7128,8 +7080,7 @@ nadat2:PER-LM-BCQ55105 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-BT62420K
-nadat2:PER-LM-BT62420K rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-BT62420K rdf:type foaf:Person ;
                   foaf:name "PARK CHANDAE"@en ,
                             "朴贊大"@ko-hani ,
                             "박찬대"@ko ;
@@ -7156,8 +7107,7 @@ nadat2:PER-LM-BT62420K rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-C7E79345
-nadat2:PER-LM-C7E79345 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-C7E79345 rdf:type foaf:Person ;
                   foaf:name "KWON CHILSEUNG"@en ,
                             "權七勝"@ko-hani ,
                             "권칠승"@ko ;
@@ -7192,8 +7142,7 @@ nadat2:PER-LM-C7E79345 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-CAA7713A
-nadat2:PER-LM-CAA7713A rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-CAA7713A rdf:type foaf:Person ;
                   foaf:name "BAEK JONGHEAN"@en ,
                             "白宗憲"@ko-hani ,
                             "백종헌"@ko ;
@@ -7233,8 +7182,7 @@ nadat2:PER-LM-CAA7713A rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-CCU1009B
-nadat2:PER-LM-CCU1009B rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-CCU1009B rdf:type foaf:Person ;
                   foaf:name "LEE HAESIK"@en ,
                             "이해식"@ko ,
                             "李海植"@ko-hani ;
@@ -7271,8 +7219,7 @@ nadat2:PER-LM-CCU1009B rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-CNW5754J
-nadat2:PER-LM-CNW5754J rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-CNW5754J rdf:type foaf:Person ;
                   foaf:name "SONG SEOGJUN"@en ,
                             "宋錫俊"@ko-hani ,
                             "송석준"@ko ;
@@ -7317,8 +7264,7 @@ nadat2:PER-LM-CNW5754J rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-CNZ51556
-nadat2:PER-LM-CNZ51556 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-CNZ51556 rdf:type foaf:Person ;
                   foaf:name "KIM YEAJI"@en ,
                             "金睿智"@ko-hani ,
                             "김예지"@ko ;
@@ -7383,8 +7329,7 @@ nadat2:PER-LM-CNZ51556 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-D6U6678O
-nadat2:PER-LM-D6U6678O rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-D6U6678O rdf:type foaf:Person ;
                   foaf:name "KIM JUYOUNG"@en ,
                             "金周暎"@ko-hani ,
                             "김주영"@ko ;
@@ -7418,8 +7363,7 @@ nadat2:PER-LM-D6U6678O rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-DAV7257X
-nadat2:PER-LM-DAV7257X rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-DAV7257X rdf:type foaf:Person ;
                   foaf:name "LEE WONTAEG"@en ,
                             "이원택"@ko ,
                             "李源澤"@ko-hani ;
@@ -7457,8 +7401,7 @@ nadat2:PER-LM-DAV7257X rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-DAY6557K
-nadat2:PER-LM-DAY6557K rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-DAY6557K rdf:type foaf:Person ;
                   foaf:name "JEONG DONGMAN"@en ,
                             "鄭東萬"@ko-hani ,
                             "정동만"@ko ;
@@ -7495,8 +7438,7 @@ nadat2:PER-LM-DAY6557K rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-DWK26447
-nadat2:PER-LM-DWK26447 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-DWK26447 rdf:type foaf:Person ;
                   foaf:name "LEE INSEON"@en ,
                             "이인선"@ko ,
                             "李仁善"@ko-hani ;
@@ -7528,8 +7470,7 @@ nadat2:PER-LM-DWK26447 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-E1J8836Y
-nadat2:PER-LM-E1J8836Y rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-E1J8836Y rdf:type foaf:Person ;
                   foaf:name "KIM JUNGJAE"@en ,
                             "金汀才"@ko-hani ,
                             "김정재"@ko ;
@@ -7578,8 +7519,7 @@ NGO 모니터단 선정 국정감사 우수의원(2016~2024)
 
 
 ###  https://example.org/resource/d2-person#PER-LM-EH27538E
-nadat2:PER-LM-EH27538E rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-EH27538E rdf:type foaf:Person ;
                   foaf:name "LIM LEEJA"@en ,
                             "임이자"@ko ,
                             "林利子"@ko-hani ;
@@ -7600,8 +7540,7 @@ nadat2:PER-LM-EH27538E rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-EVH1507C
-nadat2:PER-LM-EVH1507C rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-EVH1507C rdf:type foaf:Person ;
                   foaf:name "LEE HUNSEUNG"@en ,
                             "이헌승"@ko ,
                             "李憲昇"@ko-hani ;
@@ -7642,8 +7581,7 @@ nadat2:PER-LM-EVH1507C rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-FH777496
-nadat2:PER-LM-FH777496 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-FH777496 rdf:type foaf:Person ;
                   foaf:name "LIM HOSEON"@en ,
                             "임호선"@ko ,
                             "林昊宣"@ko-hani ;
@@ -7673,8 +7611,7 @@ nadat2:PER-LM-FH777496 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-FJK3396E
-nadat2:PER-LM-FJK3396E rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-FJK3396E rdf:type foaf:Person ;
                   foaf:name "MAENG SUNGKYU"@en ,
                             "孟聖奎"@ko-hani ,
                             "맹성규"@ko ;
@@ -7718,8 +7655,7 @@ nadat2:PER-LM-FJK3396E rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-FOK3459D
-nadat2:PER-LM-FOK3459D rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-FOK3459D rdf:type foaf:Person ;
                   foaf:name "SEO SAMSEOK"@en ,
                             "徐參錫"@ko-hani ,
                             "서삼석"@ko ;
@@ -7754,8 +7690,7 @@ nadat2:PER-LM-FOK3459D rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-FU53642G
-nadat2:PER-LM-FU53642G rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-FU53642G rdf:type foaf:Person ;
                   foaf:name "HUH YOUNG"@en ,
                             "許榮"@ko-hani ,
                             "허영"@ko ;
@@ -7785,8 +7720,7 @@ nadat2:PER-LM-FU53642G rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-FU87526G
-nadat2:PER-LM-FU87526G rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-FU87526G rdf:type foaf:Person ;
                   foaf:name "PARK SOOYOUNG"@en ,
                             "朴洙瑩"@ko-hani ,
                             "박수영"@ko ;
@@ -7828,8 +7762,7 @@ nadat2:PER-LM-FU87526G rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-FYI20317
-nadat2:PER-LM-FYI20317 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-FYI20317 rdf:type foaf:Person ;
                   foaf:name "JO SEOUNGLAE"@en ,
                             "趙承來"@ko-hani ,
                             "조승래"@ko ;
@@ -7881,8 +7814,7 @@ nadat2:PER-LM-FYI20317 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-G152611B
-nadat2:PER-LM-G152611B rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-G152611B rdf:type foaf:Person ;
                   foaf:name "CHOO KYUNGHO"@en ,
                             "秋慶鎬"@ko-hani ,
                             "추경호"@ko ;
@@ -7923,8 +7855,7 @@ nadat2:PER-LM-G152611B rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-GDG1847Z
-nadat2:PER-LM-GDG1847Z rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-GDG1847Z rdf:type foaf:Person ;
                   foaf:name "KWEON SEONGDONG"@en ,
                             "權性東"@ko-hani ,
                             "권성동"@ko ;
@@ -7956,8 +7887,7 @@ nadat2:PER-LM-GDG1847Z rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-GE71932C
-nadat2:PER-LM-GE71932C rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-GE71932C rdf:type foaf:Person ;
                   foaf:name "YONG HYEIN"@en ,
                             "용혜인"@ko ,
                             "龍慧仁"@ko-hani ;
@@ -7985,8 +7915,7 @@ nadat2:PER-LM-GE71932C rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-GF286398
-nadat2:PER-LM-GF286398 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-GF286398 rdf:type foaf:Person ;
                   foaf:name "KIM BYUNGJOO"@en ,
                             "金柄周"@ko-hani ,
                             "김병주"@ko ;
@@ -8034,8 +7963,7 @@ nadat2:PER-LM-GF286398 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-GOC54665
-nadat2:PER-LM-GOC54665 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-GOC54665 rdf:type foaf:Person ;
                   foaf:name "MOON JEONGBOG"@en ,
                             "文貞福"@ko-hani ,
                             "문정복"@ko ;
@@ -8065,8 +7993,7 @@ nadat2:PER-LM-GOC54665 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-GP07421U
-nadat2:PER-LM-GP07421U rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-GP07421U rdf:type foaf:Person ;
                   foaf:name "YOUN KUNYOUNG"@en ,
                             "尹建永"@ko-hani ,
                             "윤건영"@ko ;
@@ -8087,8 +8014,7 @@ nadat2:PER-LM-GP07421U rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-GX22581L
-nadat2:PER-LM-GX22581L rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-GX22581L rdf:type foaf:Person ;
                   foaf:name "KANG MINKUK"@en ,
                             "姜旻局"@ko-hani ,
                             "강민국"@ko ;
@@ -8128,8 +8054,7 @@ nadat2:PER-LM-GX22581L rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-GX38539O
-nadat2:PER-LM-GX38539O rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-GX38539O rdf:type foaf:Person ;
                   foaf:name "YOO DONGSOO"@en ,
                             "유동수"@ko ,
                             "柳東秀"@ko-hani ;
@@ -8163,8 +8088,7 @@ nadat2:PER-LM-GX38539O rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-H5476989
-nadat2:PER-LM-H5476989 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-H5476989 rdf:type foaf:Person ;
                   foaf:name "HAN BYUNGDO"@en ,
                             "韓秉道"@ko-hani ,
                             "한병도"@ko ;
@@ -8204,8 +8128,7 @@ nadat2:PER-LM-H5476989 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-HSS7466Y
-nadat2:PER-LM-HSS7466Y rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-HSS7466Y rdf:type foaf:Person ;
                   foaf:name "BACK HYERYUN"@en ,
                             "白惠蓮"@ko-hani ,
                             "백혜련"@ko ;
@@ -8230,8 +8153,7 @@ nadat2:PER-LM-HSS7466Y rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-HSW1214Q
-nadat2:PER-LM-HSW1214Q rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-HSW1214Q rdf:type foaf:Person ;
                   foaf:name "LEE JONGBAE"@en ,
                             "이종배"@ko ,
                             "李鍾培"@ko-hani ;
@@ -8256,8 +8178,7 @@ nadat2:PER-LM-HSW1214Q rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-HXT76735
-nadat2:PER-LM-HXT76735 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-HXT76735 rdf:type foaf:Person ;
                   foaf:name "PARK SANGHYUK"@en ,
                             "朴商赫"@ko-hani ,
                             "박상혁"@ko ;
@@ -8300,8 +8221,7 @@ nadat2:PER-LM-HXT76735 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-I5I2468R
-nadat2:PER-LM-I5I2468R rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-I5I2468R rdf:type foaf:Person ;
                   foaf:name "CHOI KISANG"@en ,
                             "崔基相"@ko-hani ,
                             "최기상"@ko ;
@@ -8365,8 +8285,7 @@ nadat2:PER-LM-I5I2468R rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-I7R13867
-nadat2:PER-LM-I7R13867 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-I7R13867 rdf:type foaf:Person ;
                   foaf:name "LEE KAIHO"@en ,
                             "이개호"@ko ,
                             "李介昊"@ko-hani ;
@@ -8404,8 +8323,7 @@ nadat2:PER-LM-I7R13867 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-IL74008M
-nadat2:PER-LM-IL74008M rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-IL74008M rdf:type foaf:Person ;
                   foaf:name "PARK SUNGJOON"@en ,
                             "朴省俊"@ko-hani ,
                             "박성준"@ko ;
@@ -8443,8 +8361,7 @@ nadat2:PER-LM-IL74008M rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-IN328264
-nadat2:PER-LM-IN328264 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-IN328264 rdf:type foaf:Person ;
                   foaf:name "CHO JEONGSIK"@en ,
                             "趙正湜"@ko-hani ,
                             "조정식"@ko ;
@@ -8480,8 +8397,7 @@ nadat2:PER-LM-IN328264 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-JC14718Q
-nadat2:PER-LM-JC14718Q rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-JC14718Q rdf:type foaf:Person ;
                   foaf:name "YOON JOONBYEONG"@en ,
                             "尹準炳"@ko-hani ,
                             "윤준병"@ko ;
@@ -8523,8 +8439,7 @@ nadat2:PER-LM-JC14718Q rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-JEZ3130Q
-nadat2:PER-LM-JEZ3130Q rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-JEZ3130Q rdf:type foaf:Person ;
                   foaf:name "KIM HYUNGDONG"@en ,
                             "金亨東"@ko-hani ,
                             "김형동"@ko ;
@@ -8559,8 +8474,7 @@ nadat2:PER-LM-JEZ3130Q rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-JNL7001A
-nadat2:PER-LM-JNL7001A rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-JNL7001A rdf:type foaf:Person ;
                   foaf:name "KIM SUNGYO"@en ,
                             "金善敎"@ko-hani ,
                             "김선교"@ko ;
@@ -8586,8 +8500,7 @@ nadat2:PER-LM-JNL7001A rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-JQA21112
-nadat2:PER-LM-JQA21112 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-JQA21112 rdf:type foaf:Person ;
                   foaf:name "HAN KIHO"@en ,
                             "韓起鎬"@ko-hani ,
                             "한기호"@ko ;
@@ -8611,8 +8524,7 @@ nadat2:PER-LM-JQA21112 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-JZY9937U
-nadat2:PER-LM-JZY9937U rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-JZY9937U rdf:type foaf:Person ;
                   foaf:name "KIM YUNDUK"@en ,
                             "金潤德"@ko-hani ,
                             "김윤덕"@ko ;
@@ -8634,8 +8546,7 @@ nadat2:PER-LM-JZY9937U rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-K5F2023J
-nadat2:PER-LM-K5F2023J rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-K5F2023J rdf:type foaf:Person ;
                   foaf:name "LEE HACKYOUNG"@en ,
                             "이학영"@ko ,
                             "李學永"@ko-hani ;
@@ -8677,8 +8588,7 @@ nadat2:PER-LM-K5F2023J rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-KFM1081G
-nadat2:PER-LM-KFM1081G rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-KFM1081G rdf:type foaf:Person ;
                   foaf:name "JANG DONGHYEOK"@en ,
                             "張東赫"@ko-hani ,
                             "장동혁"@ko ;
@@ -8718,8 +8628,7 @@ nadat2:PER-LM-KFM1081G rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-L2I9861C
-nadat2:PER-LM-L2I9861C rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-L2I9861C rdf:type foaf:Person ;
                   foaf:name "KANG DAESIK"@en ,
                             "姜大植"@ko-hani ,
                             "강대식"@ko ;
@@ -8766,8 +8675,7 @@ nadat2:PER-LM-L2I9861C rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-L5P27909
-nadat2:PER-LM-L5P27909 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-L5P27909 rdf:type foaf:Person ;
                   foaf:name "KIM EUNHYE"@en ,
                             "金恩慧"@ko-hani ,
                             "김은혜"@ko ;
@@ -8801,8 +8709,7 @@ nadat2:PER-LM-L5P27909 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-L7J93733
-nadat2:PER-LM-L7J93733 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-L7J93733 rdf:type foaf:Person ;
                   foaf:name "SUH BUMSOO"@en ,
                             "徐範洙"@ko-hani ,
                             "서범수"@ko ;
@@ -8837,8 +8744,7 @@ nadat2:PER-LM-L7J93733 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-LG63087O
-nadat2:PER-LM-LG63087O rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-LG63087O rdf:type foaf:Person ;
                   foaf:name "KWON YOUNGSE"@en ,
                             "權寧世"@ko-hani ,
                             "권영세"@ko ;
@@ -8862,8 +8768,7 @@ nadat2:PER-LM-LG63087O rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-LH97552Q
-nadat2:PER-LM-LH97552Q rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-LH97552Q rdf:type foaf:Person ;
                   foaf:name "KIM DOEUP"@en ,
                             "金度邑"@ko-hani ,
                             "김도읍"@ko ;
@@ -8938,8 +8843,7 @@ nadat2:PER-LM-LH97552Q rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-LJK4960Z
-nadat2:PER-LM-LJK4960Z rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-LJK4960Z rdf:type foaf:Person ;
                   foaf:name "JEONG JEOMSIG"@en ,
                             "鄭点植"@ko-hani ,
                             "정점식"@ko ;
@@ -8974,8 +8878,7 @@ nadat2:PER-LM-LJK4960Z rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-LT72093S
-nadat2:PER-LM-LT72093S rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-LT72093S rdf:type foaf:Person ;
                   foaf:name "CHUNG ILYOUNG"@en ,
                             "鄭日永"@ko-hani ,
                             "정일영"@ko ;
@@ -9008,8 +8911,7 @@ nadat2:PER-LM-LT72093S rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-M0A1658U
-nadat2:PER-LM-M0A1658U rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-M0A1658U rdf:type foaf:Person ;
                   foaf:name "YUN HOJUNG"@en ,
                             "尹昊重"@ko-hani ,
                             "윤호중"@ko ;
@@ -9055,8 +8957,7 @@ nadat2:PER-LM-M0A1658U rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-M2Q9024I
-nadat2:PER-LM-M2Q9024I rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-M2Q9024I rdf:type foaf:Person ;
                   foaf:name "KIM JONGMIN"@en ,
                             "金鍾民"@ko-hani ,
                             "김종민"@ko ;
@@ -9101,8 +9002,7 @@ nadat2:PER-LM-M2Q9024I rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-M7O7878U
-nadat2:PER-LM-M7O7878U rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-M7O7878U rdf:type foaf:Person ;
                   foaf:name "SHIN JEONGHOON"@en ,
                             "辛正勳"@ko-hani ,
                             "신정훈"@ko ;
@@ -9127,8 +9027,7 @@ nadat2:PER-LM-M7O7878U rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-MLH1404S
-nadat2:PER-LM-MLH1404S rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-MLH1404S rdf:type foaf:Person ;
                   foaf:name "KIM MINSEOK"@en ,
                             "金民錫"@ko-hani ,
                             "김민석"@ko ;
@@ -9165,8 +9064,7 @@ nadat2:PER-LM-MLH1404S rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-MNZ4401T
-nadat2:PER-LM-MNZ4401T rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-MNZ4401T rdf:type foaf:Person ;
                   foaf:name "KANG SUNWOO"@en ,
                             "姜仙祐"@ko-hani ,
                             "강선우"@ko ;
@@ -9214,8 +9112,7 @@ T: 02-2604-2300 / F:02-2604-2309""" ;
 
 
 ###  https://example.org/resource/d2-person#PER-LM-MQU41854
-nadat2:PER-LM-MQU41854 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-MQU41854 rdf:type foaf:Person ;
                   foaf:name "CHO EUNHEE"@en ,
                             "趙恩禧"@ko-hani ,
                             "조은희"@ko ;
@@ -9237,8 +9134,7 @@ nadat2:PER-LM-MQU41854 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-MR210505
-nadat2:PER-LM-MR210505 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-MR210505 rdf:type foaf:Person ;
                   foaf:name "SEO ILJUN"@en ,
                             "徐一俊"@ko-hani ,
                             "서일준"@ko ;
@@ -9276,8 +9172,7 @@ nadat2:PER-LM-MR210505 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-MSY7784L
-nadat2:PER-LM-MSY7784L rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-MSY7784L rdf:type foaf:Person ;
                   foaf:name "YOON SANGHYUN"@en ,
                             "尹相現"@ko-hani ,
                             "윤상현"@ko ;
@@ -9322,8 +9217,7 @@ nadat2:PER-LM-MSY7784L rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-MU69217P
-nadat2:PER-LM-MU69217P rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-MU69217P rdf:type foaf:Person ;
                   foaf:name "YOO SANGBUM"@en ,
                             "유상범"@ko ,
                             "劉相凡"@ko-hani ;
@@ -9368,8 +9262,7 @@ nadat2:PER-LM-MU69217P rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-N4R2421C
-nadat2:PER-LM-N4R2421C rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-N4R2421C rdf:type foaf:Person ;
                   foaf:name "PARK DUKHYUM"@en ,
                             "朴德欽"@ko-hani ,
                             "박덕흠"@ko ;
@@ -9404,8 +9297,7 @@ nadat2:PER-LM-N4R2421C rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-NUB4941Z
-nadat2:PER-LM-NUB4941Z rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-NUB4941Z rdf:type foaf:Person ;
                   foaf:name "KIM HANKYU"@en ,
                             "金翰奎"@ko-hani ,
                             "김한규"@ko ;
@@ -9430,8 +9322,7 @@ nadat2:PER-LM-NUB4941Z rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-O0I2045I
-nadat2:PER-LM-O0I2045I rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-O0I2045I rdf:type foaf:Person ;
                   foaf:name "LEE JUNGMUN"@en ,
                             "이정문"@ko ,
                             "李楨文"@ko-hani ;
@@ -9474,8 +9365,7 @@ nadat2:PER-LM-O0I2045I rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-O6D8329R
-nadat2:PER-LM-O6D8329R rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-O6D8329R rdf:type foaf:Person ;
                   foaf:name "MIN HONGCHUL"@en ,
                             "閔洪喆"@ko-hani ,
                             "민홍철"@ko ;
@@ -9527,8 +9417,7 @@ nadat2:PER-LM-O6D8329R rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-O7R5461J
-nadat2:PER-LM-O7R5461J rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-O7R5461J rdf:type foaf:Person ;
                   foaf:name "YOON HUDUK"@en ,
                             "尹厚德"@ko-hani ,
                             "윤후덕"@ko ;
@@ -9566,8 +9455,7 @@ nadat2:PER-LM-O7R5461J rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-OFE45081
-nadat2:PER-LM-OFE45081 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-OFE45081 rdf:type foaf:Person ;
                   foaf:name "KIM YONGMIN"@en ,
                             "金容民"@ko-hani ,
                             "김용민"@ko ;
@@ -9598,8 +9486,7 @@ nadat2:PER-LM-OFE45081 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-OIA3741M
-nadat2:PER-LM-OIA3741M rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-OIA3741M rdf:type foaf:Person ;
                   foaf:name "OH GIHYOUNG"@en ,
                             "吳奇炯"@ko-hani ,
                             "오기형"@ko ;
@@ -9627,8 +9514,7 @@ nadat2:PER-LM-OIA3741M rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-OSV9142K
-nadat2:PER-LM-OSV9142K rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-OSV9142K rdf:type foaf:Person ;
                   foaf:name "LEE MANHEE"@en ,
                             "이만희"@ko ,
                             "李晩熙"@ko-hani ;
@@ -9653,8 +9539,7 @@ nadat2:PER-LM-OSV9142K rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-P0F1530P
-nadat2:PER-LM-P0F1530P rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-P0F1530P rdf:type foaf:Person ;
                   foaf:name "KIM TAEHO"@en ,
                             "金台鎬"@ko-hani ,
                             "김태호"@ko ;
@@ -9678,8 +9563,7 @@ nadat2:PER-LM-P0F1530P rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-PFG2137X
-nadat2:PER-LM-PFG2137X rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-PFG2137X rdf:type foaf:Person ;
                   foaf:name "JUNG HEEYONG"@en ,
                             "鄭熙溶"@ko-hani ,
                             "정희용"@ko ;
@@ -9723,8 +9607,7 @@ nadat2:PER-LM-PFG2137X rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-QQP4727N
-nadat2:PER-LM-QQP4727N rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-QQP4727N rdf:type foaf:Person ;
                   foaf:name "BAE JUNEYOUNG"@en ,
                             "裵俊英"@ko-hani ,
                             "배준영"@ko ;
@@ -9763,9 +9646,7 @@ nadat2:PER-LM-QQP4727N rdf:type owl:NamedIndividual ,
                   schema:telephone "02-784-5087" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-RPN2293B
-nadat2:PER-LM-RPN2293B rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-RPN2293B rdf:type foaf:Person ;
                   foaf:name "JANG KYUNGTAE"@en ,
                             "張耿態"@ko-hani ,
                             "장경태"@ko ;
@@ -9803,9 +9684,8 @@ nadat2:PER-LM-RPN2293B rdf:type owl:NamedIndividual ,
                   schema:telephone "02-784-3106" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-RQQ3807K
-nadat2:PER-LM-RQQ3807K rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+
+nadat2:PER-LM-RQQ3807K rdf:type foaf:Person ;
                   foaf:name "WI SEONGGON"@en ,
                             "魏聖坤"@ko-hani ,
                             "위성곤"@ko ;
@@ -9832,9 +9712,8 @@ nadat2:PER-LM-RQQ3807K rdf:type owl:NamedIndividual ,
                   schema:telephone "02-784-6450" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-S824682L
-nadat2:PER-LM-S824682L rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+
+nadat2:PER-LM-S824682L rdf:type foaf:Person ;
                   foaf:name "PARK HONGKEUN"@en ,
                             "朴洪根"@ko-hani ,
                             "박홍근"@ko ;
@@ -9862,9 +9741,8 @@ nadat2:PER-LM-S824682L rdf:type owl:NamedIndividual ,
                   schema:telephone "02-784-8370" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-S9U45255
-nadat2:PER-LM-S9U45255 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+
+nadat2:PER-LM-S9U45255 rdf:type foaf:Person ;
                   foaf:name "LEE YANGSOO"@en ,
                             "이양수"@ko ,
                             "李亮壽"@ko-hani ;
@@ -9955,9 +9833,8 @@ nadat2:PER-LM-S9U45255 rdf:type owl:NamedIndividual ,
                   schema:telephone "02-784-8150" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-SQ36001H
-nadat2:PER-LM-SQ36001H rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+
+nadat2:PER-LM-SQ36001H rdf:type foaf:Person ;
                   foaf:name "SONG KIHUN"@en ,
                             "宋基憲"@ko-hani ,
                             "송기헌"@ko ;
@@ -10002,8 +9879,7 @@ nadat2:PER-LM-SQ36001H rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-T465023H
-nadat2:PER-LM-T465023H rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-T465023H rdf:type foaf:Person ;
                   foaf:name "JU CHULHYUN"@en ,
                             "朱哲鉉"@ko-hani ,
                             "주철현"@ko ;
@@ -10029,9 +9905,8 @@ nadat2:PER-LM-T465023H rdf:type owl:NamedIndividual ,
                   schema:telephone "02-784-6341~3" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-TJW93720
-nadat2:PER-LM-TJW93720 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+
+nadat2:PER-LM-TJW93720 rdf:type foaf:Person ;
                   foaf:name "JEON YONGGI"@en ,
                             "田溶冀"@ko-hani ,
                             "전용기"@ko ;
@@ -10067,9 +9942,8 @@ nadat2:PER-LM-TJW93720 rdf:type owl:NamedIndividual ,
                   schema:telephone "02-784-2843" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-TKJ4800F
-nadat2:PER-LM-TKJ4800F rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+
+nadat2:PER-LM-TKJ4800F rdf:type foaf:Person ;
                   foaf:name "SEO YOUNGKYO"@en ,
                             "徐瑛敎"@ko-hani ,
                             "서영교"@ko ;
@@ -10098,9 +9972,7 @@ nadat2:PER-LM-TKJ4800F rdf:type owl:NamedIndividual ,
                   schema:telephone "02-784-8490" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-TST4507I
-nadat2:PER-LM-TST4507I rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-TST4507I rdf:type foaf:Person ;
                   foaf:name "AHN GYUBACK"@en ,
                             "安圭伯"@ko-hani ,
                             "안규백"@ko ;
@@ -10175,9 +10047,7 @@ nadat2:PER-LM-TST4507I rdf:type owl:NamedIndividual ,
                   schema:telephone "02-784-4180" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-TZ228122
-nadat2:PER-LM-TZ228122 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-TZ228122 rdf:type foaf:Person ;
                   foaf:name "MIN BYOUNGDUG"@en ,
                             "閔炳德"@ko-hani ,
                             "민병덕"@ko ;
@@ -10224,8 +10094,7 @@ nadat2:PER-LM-TZ228122 rdf:type owl:NamedIndividual ,
 
 
 ###  https://example.org/resource/d2-person#PER-LM-TZP9391O
-nadat2:PER-LM-TZP9391O rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-TZP9391O rdf:type foaf:Person ;
                   foaf:name "LEE CHULGYU"@en ,
                             "이철규"@ko ,
                             "李喆圭"@ko-hani ;
@@ -10265,9 +10134,7 @@ nadat2:PER-LM-TZP9391O rdf:type owl:NamedIndividual ,
                   schema:telephone "02-784-9811" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-UHB5553T
-nadat2:PER-LM-UHB5553T rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-UHB5553T rdf:type foaf:Person ;
                   foaf:name "JUNG TAEHO"@en ,
                             "鄭泰浩"@ko-hani ,
                             "정태호"@ko ;
@@ -10304,9 +10171,7 @@ MPA 1999.9~2000.12 뉴욕주립대학교 대학원 행정학 석사
                   schema:telephone "02-784-5073" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-UQ282145
-nadat2:PER-LM-UQ282145 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-UQ282145 rdf:type foaf:Person ;
                   foaf:name "LEE JAE JUNG"@en ,
                             "이재정"@ko ,
                             "李在汀"@ko-hani ;
@@ -10342,10 +10207,7 @@ nadat2:PER-LM-UQ282145 rdf:type owl:NamedIndividual ,
                   schema:email "leejjlaw@gmail.com" ;
                   schema:telephone "02-784-2677" .
 
-
-###  https://example.org/resource/d2-person#PER-LM-V429892C
-nadat2:PER-LM-V429892C rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-V429892C rdf:type foaf:Person ;
                   foaf:name "JUNG SUNGHO"@en ,
                             "鄭成湖"@ko-hani ,
                             "정성호"@ko ;
@@ -10376,9 +10238,7 @@ nadat2:PER-LM-V429892C rdf:type owl:NamedIndividual ,
                   schema:telephone "02-784-8991" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-VCP96419
-nadat2:PER-LM-VCP96419 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-VCP96419 rdf:type foaf:Person ;
                   foaf:name "HEO JONGSIK"@en ,
                             "許琮植"@ko-hani ,
                             "허종식"@ko ;
@@ -10400,9 +10260,7 @@ nadat2:PER-LM-VCP96419 rdf:type owl:NamedIndividual ,
                   schema:telephone "02-784-8870" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-VRY5522V
-nadat2:PER-LM-VRY5522V rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-VRY5522V rdf:type foaf:Person ;
                   foaf:name "MIN HYUNGBAE"@en ,
                             "민형배"@ko ;
                   dcterms:description "재선" ;
@@ -10449,9 +10307,7 @@ nadat2:PER-LM-VRY5522V rdf:type owl:NamedIndividual ,
                   schema:telephone "02-6788-6426" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-W4X85128
-nadat2:PER-LM-W4X85128 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-W4X85128 rdf:type foaf:Person ;
                   foaf:name "PARK DAECHUL"@en ,
                             "朴大出"@ko-hani ,
                             "박대출"@ko ;
@@ -10482,9 +10338,7 @@ nadat2:PER-LM-W4X85128 rdf:type owl:NamedIndividual ,
                   schema:telephone "02-784-6750" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-WCD5518S
-nadat2:PER-LM-WCD5518S rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-WCD5518S rdf:type foaf:Person ;
                   foaf:name "KO MINJUNG"@en ,
                             "高旼廷"@ko-hani ,
                             "고민정"@ko ;
@@ -10523,9 +10377,7 @@ T: 02-455-0629 / F: 02-446-0629""" ;
                   schema:telephone "02-784-4630" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-WJL30106
-nadat2:PER-LM-WJL30106 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-WJL30106 rdf:type foaf:Person ;
                   foaf:name "CHO JUNGHUN"@en ,
                             "趙廷訓"@ko-hani ,
                             "조정훈"@ko ;
@@ -10559,9 +10411,7 @@ nadat2:PER-LM-WJL30106 rdf:type owl:NamedIndividual ,
                   schema:telephone "02-784-2181" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-WTR5885Y
-nadat2:PER-LM-WTR5885Y rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-WTR5885Y rdf:type foaf:Person ;
                   foaf:name "LEE SOYOUNG"@en ,
                             "이소영"@ko ,
                             "李素永"@ko-hani ;
@@ -10600,9 +10450,7 @@ nadat2:PER-LM-WTR5885Y rdf:type owl:NamedIndividual ,
                   schema:telephone "02-784-1051" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-X1K3667J
-nadat2:PER-LM-X1K3667J rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-X1K3667J rdf:type foaf:Person ;
                   foaf:name "KIM KYOHEUNG"@en ,
                             "金敎興"@ko-hani ,
                             "김교흥"@ko ;
@@ -10627,9 +10475,7 @@ nadat2:PER-LM-X1K3667J rdf:type owl:NamedIndividual ,
                   schema:telephone "02-784-1366 / 032-565-0806" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-X3170462
-nadat2:PER-LM-X3170462 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-X3170462 rdf:type foaf:Person ;
                   foaf:name "PARK SUNGMIN"@en ,
                             "朴成敏"@ko-hani ,
                             "박성민"@ko ;
@@ -10669,10 +10515,7 @@ nadat2:PER-LM-X3170462 rdf:type owl:NamedIndividual ,
                   schema:email "smpark3340@naver.com" ;
                   schema:telephone "02-784-1258" .
 
-
-###  https://example.org/resource/d2-person#PER-LM-X7I4680R
-nadat2:PER-LM-X7I4680R rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-X7I4680R rdf:type foaf:Person ;
                   foaf:name "KIM GIHYEON"@en ,
                             "金起炫"@ko-hani ,
                             "김기현"@ko ;
@@ -10700,9 +10543,8 @@ nadat2:PER-LM-X7I4680R rdf:type owl:NamedIndividual ,
                   schema:telephone "02-784-3874" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-XBT9550Q
-nadat2:PER-LM-XBT9550Q rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+
+nadat2:PER-LM-XBT9550Q rdf:type foaf:Person ;
                   foaf:name "WOO WONSHIK"@en ,
                             "禹元植"@ko-hani ,
                             "우원식"@ko ;
@@ -10776,9 +10618,7 @@ nadat2:PER-LM-XBT9550Q rdf:type owl:NamedIndividual ,
                   schema:telephone "02-784-3601~3" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-XEF29171
-nadat2:PER-LM-XEF29171 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-XEF29171 rdf:type foaf:Person ;
                   foaf:name "AN HOYOUNG"@en ,
                             "安浩永"@ko-hani ,
                             "안호영"@ko ;
@@ -10826,9 +10666,7 @@ nadat2:PER-LM-XEF29171 rdf:type owl:NamedIndividual ,
                   schema:telephone "02-784-0937" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-XPP2564T
-nadat2:PER-LM-XPP2564T rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-XPP2564T rdf:type foaf:Person ;
                   foaf:name "HAN JEOUNGAE"@en ,
                             "韓貞愛"@ko-hani ,
                             "한정애"@ko ;
@@ -10888,9 +10726,7 @@ nadat2:PER-LM-XPP2564T rdf:type owl:NamedIndividual ,
                   schema:telephone "02-784-3051" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-XR24352K
-nadat2:PER-LM-XR24352K rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-XR24352K rdf:type foaf:Person ;
                   foaf:name "SEO YOUNGSEOK"@en ,
                             "徐暎錫"@ko-hani ,
                             "서영석"@ko ;
@@ -10937,10 +10773,7 @@ nadat2:PER-LM-XR24352K rdf:type owl:NamedIndividual ,
                   schema:email "guseng@hanmail.net" ;
                   schema:telephone "02-784-9671" .
 
-
-###  https://example.org/resource/d2-person#PER-LM-XSP20229
-nadat2:PER-LM-XSP20229 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-XSP20229 rdf:type foaf:Person ;
                   foaf:name "KIM SUNGWHAN"@en ,
                             "金星煥"@ko-hani ,
                             "김성환"@ko ;
@@ -10964,9 +10797,8 @@ nadat2:PER-LM-XSP20229 rdf:type owl:NamedIndividual ,
                   schema:telephone "02-784-6271" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-YOG1280B
-nadat2:PER-LM-YOG1280B rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+
+nadat2:PER-LM-YOG1280B rdf:type foaf:Person ;
                   foaf:name "AHN CHEOLSOO"@en ,
                             "安哲秀"@ko-hani ,
                             "안철수"@ko ;
@@ -10991,9 +10823,8 @@ nadat2:PER-LM-YOG1280B rdf:type owl:NamedIndividual ,
                   schema:telephone "02-6788-6296" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-ZDR63255
-nadat2:PER-LM-ZDR63255 rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+
+nadat2:PER-LM-ZDR63255 rdf:type foaf:Person ;
                   foaf:name "SO BYUNGHOON"@en ,
                             "蘇秉勳"@ko-hani ,
                             "소병훈"@ko ;
@@ -11028,9 +10859,8 @@ nadat2:PER-LM-ZDR63255 rdf:type owl:NamedIndividual ,
                   schema:telephone "02-784-5020" .
 
 
-###  https://example.org/resource/d2-person#PER-LM-ZRF3039U
-nadat2:PER-LM-ZRF3039U rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+
+nadat2:PER-LM-ZRF3039U rdf:type foaf:Person ;
                   foaf:name "YUN JAEOK"@en ,
                             "尹在玉"@ko-hani ,
                             "윤재옥"@ko ;
@@ -11059,10 +10889,7 @@ nadat2:PER-LM-ZRF3039U rdf:type owl:NamedIndividual ,
                   schema:email "7882579@naver.com" ;
                   schema:telephone "02-784-4871" .
 
-
-###  https://example.org/resource/d2-person#PER-LM-ZYP7962W
-nadat2:PER-LM-ZYP7962W rdf:type owl:NamedIndividual ,
-                           foaf:Person ;
+nadat2:PER-LM-ZYP7962W rdf:type foaf:Person ;
                   foaf:name "KIM SEOKKI"@en ,
                             "金碩基"@ko-hani ,
                             "김석기"@ko ;
