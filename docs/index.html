@@ -4,198 +4,35 @@
   <meta charset="utf-8">
   <title>NAontology</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <meta name="description" content="National Assembly ontology — 개인 연구용 페이지">
+  <!-- 외부 CSS 파일 링크 -->
+  <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-light">
-  <div class="container my-5">
+<body>
+  <header>
+    <h1>National Assembly ontology</h1>
+    <p>본 페이지는 개인 연구용 페이지입니다.</p>
+  </header>
 
-    <!-- Header -->
-    <header class="text-center mb-5">
-      <h1 class="display-5 fw-bold">National Assembly Ontology</h1>
-      <p class="text-muted">본 페이지는 개인 연구용 페이지입니다.</p>
-    </header>
-
-    <!-- 1. 초기 계획 -->
-    <section class="mb-5">
-      <h2 class="h4 mb-3">1. 초기 계획</h2>
-      <ul class="list-group mb-3">
-        <li class="list-group-item">대상: 외부 이용자</li>
-        <li class="list-group-item">
-          범위: 제 21대 국회 회의록 (본회의, 상임위원회)
-          <ul class="ms-3">
+  <main id="content">
+    <!-- 본문 내용 (앞서 정리해드린 구조화된 HTML 내용 그대로) -->
+    <section aria-labelledby="plan-heading">
+      <h2 id="plan-heading">1. 초기 계획</h2>
+      <ul>
+        <li>대상: 외부 이용자</li>
+        <li>범위: 제21대 국회 회의록 (본회의, 상임위원회)
+          <ul>
             <li>379회(2020.06.05) ~ 414회(2024.05.29)</li>
           </ul>
         </li>
-        <li class="list-group-item">
-          RiC-O 사용 + 외부 온톨로지 부분적 재사용 → 
-          <span class="text-primary fw-semibold">직접 재사용</span>
-        </li>
+        <li>RiC-O 사용 및 외부 온톨로지 <strong>직접 재사용</strong> (Partial Reuse)</li>
       </ul>
-
-      <!-- 1.1 CQ -->
-      <h3 class="h5 mt-4">1.1 역량 질의(CQs)</h3>
-      <div class="table-responsive">
-        <table class="table table-bordered align-middle">
-          <thead class="table-dark">
-            <tr>
-              <th>항목</th>
-              <th>Competency Questions (CQ) 예시</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>회의록 중심 검색</td>
-              <td>
-                <ul>
-                  <li>특정 날짜 또는 회기에서 열린 회의록을 찾을 수 있는가?</li>
-                  <li>특정 기간 동안 개최된 모든 회의록을 일괄 조회할 수 있는가?</li>
-                  <li>특정 키워드(주제어)가 언급된 회의록을 찾을 수 있는가?</li>
-                  <li>특정 법령 조항이 인용되거나 참조된 회의록을 찾을 수 있는가?</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>의원 중심 탐색</td>
-              <td>
-                <ul>
-                  <li>특정 국회의원의 발언이 포함된 회의록을 찾을 수 있는가?</li>
-                  <li>특정 국회의원의 직책에 따른 발언을 구분하여 찾을 수 있는가?</li>
-                  <li>특정 의원이 발의한 안건 목록을 확인할 수 있는가?</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>법률안/안건 중심 탐색</td>
-              <td>
-                <ul>
-                  <li>특정 법률안/안건이 논의된 회의록을 찾을 수 있는가?</li>
-                  <li>특정 법률안/안건이 어느 상임위원회에서 심의되었는지 확인할 수 있는가?</li>
-                  <li>특정 법률안의 심의 경과를 추적할 수 있는가?</li>
-                  <li>본회의 및 상임위 회의록을 연결하여 찾을 수 있는가?</li>
-                  <li>안건의 심의 진행 단계를 확인할 수 있는가?</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>회의 유형 및 절차 탐색</td>
-              <td>
-                <ul>
-                  <li>본회의 또는 상임위원회 등 회의 종류에 따라 회의록을 구분하여 조회할 수 있는가?</li>
-                  <li>특정 상임위원회 소속 회의록을 찾을 수 있는가?</li>
-                </ul>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      <!-- 이하 생략... -->
     </section>
+  </main>
 
-    <!-- 2. 개요 -->
-    <section class="mb-5">
-      <h2 class="h4 mb-3">2. 개요</h2>
-      <h3 class="h5">IRI 설정</h3>
-      <div class="table-responsive mb-3">
-        <table class="table table-hover">
-          <thead class="table-light">
-            <tr>
-              <th>범주</th>
-              <th>Prefix</th>
-              <th>IRI</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>m1-record (core)</td>
-              <td><code>nam1</code></td>
-              <td><a href="https://lseun135.github.io/NAontology_study/m1-record" target="_blank" rel="noopener">https://lseun135.github.io/NAontology_study/m1-record#</a></td>
-            </tr>
-            <tr>
-              <td>m2-person</td>
-              <td><code>nam2</code></td>
-              <td><a href="https://lseun135.github.io/NAontology_study/m2-person.ttl" target="_blank" rel="noopener">https://lseun135.github.io/NAontology_study/m2-person#</a></td>
-            </tr>
-            <tr>
-              <td>m3-content</td>
-              <td><code>nam3</code></td>
-              <td><a href="https://lseun135.github.io/NAontology_study/m3-content.ttl" target="_blank" rel="noopener">https://lseun135.github.io/NAontology_study/m3-content#</a></td>
-            </tr>
-            <tr>
-              <td>d1-record</td>
-              <td><code>nadat1</code></td>
-              <td><a href="https://lseun135.github.io/NAontology_study/resource/d1-record.ttl" target="_blank" rel="noopener">https://lseun135.github.io/NAontology_study/resource/d1-record#</a></td>
-            </tr>
-            <tr>
-              <td>d2-person</td>
-              <td><code>nadat2</code></td>
-              <td><a href="https://lseun135.github.io/NAontology_study/resource/d2-person.ttl" target="_blank" rel="noopener">https://lseun135.github.io/NAontology_study/resource/d2-person#</a></td>
-            </tr>
-            <tr>
-              <td>d3-content</td>
-              <td><code>nadat3</code></td>
-              <td><a href="https://lseun135.github.io/NAontology_study/resource/d3-content.ttl" target="_blank" rel="noopener">https://lseun135.github.io/NAontology_study/resource/d3-content#</a></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <ul>
-        <li>샘플 데이터 (본회의 최신순 5차수)
-          <ul>
-            <li>prefix: <code>sdat1</code></li>
-            <li>IRI: <a href="https://lseun135.github.io/NAontology_study/resource/d1-record-sample5.ttl" target="_blank" rel="noopener">https://lseun135.github.io/NAontology_study/resource/d1-record-sample5/</a></li>
-          </ul>
-        </li>
-      </ul>
-    </section>
-
-    <!-- Record -->
-    <section class="mb-5">
-      <h2 class="h4">Record</h2>
-      <h3 class="h5">m1-record</h3>
-      <p>메인이 되는 모듈. RiC 온톨로지의 구조를 사용하되, 국회 보존기록물의 기본적인 세 가지 분류체계를 스키마로 추가</p>
-      <p class="small text-muted">참고: 국회도서관 국회기록보존소. (2021). 국회 보존기록물 정리·기술 지침</p>
-      <figure class="text-center">
-        <img src="https://i.imgur.com/OFzWHle.png" class="img-fluid rounded shadow-sm" alt="국회 보존기록물 분류체계 다이어그램">
-        <figcaption class="mt-2 text-muted">국회 보존기록물 기본 분류체계</figcaption>
-      </figure>
-    </section>
-
-    <!-- Person -->
-    <section class="mb-5">
-      <h2 class="h4">Person</h2>
-      <h3 class="h5">m1-person</h3>
-      <p>인물, 조직 표현. Popolo project의 <a href="https://www.popoloproject.com/specs/person.html" target="_blank">Person</a>,
-         <a href="https://www.popoloproject.com/specs/organization.html" target="_blank">Organization</a>,
-         <a href="https://www.popoloproject.com/specs/membership.html" target="_blank">Membership</a>,
-         <a href="https://www.popoloproject.com/specs/area.html" target="_blank">Area</a> 클래스 참고</p>
-
-      <h4 class="h6 mt-3">조직 분류</h4>
-      <figure class="text-center">
-        <img src="https://i.imgur.com/Io7t8ID.png" class="img-fluid rounded" alt="조직 분류 다이어그램">
-        <figcaption class="mt-2 text-muted">국회 조직 분류</figcaption>
-      </figure>
-
-      <ul class="list-group my-3">
-        <li class="list-group-item">국회 내부 조직 분류를 위해 <code>nam2:OrgType</code> 클래스 생성</li>
-        <li class="list-group-item">하위 클래스: Institution, Party, Committee</li>
-        <li class="list-group-item">Committee 하위에 StandingCommittee, SpecialCommittee</li>
-      </ul>
-
-      <blockquote class="blockquote">
-        <p class="mb-0"><strong>국회법 제35조</strong>: 국회의 위원회는 상임위원회와 특별위원회 두 종류로 한다.</p>
-        <footer class="blockquote-footer">법률 제19563호, 2023년 7월 18일 개정</footer>
-      </blockquote>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center mt-5">
-      <p class="text-muted small">&copy; 개인 연구용 페이지</p>
-    </footer>
-
-  </div>
+  <footer>
+    <p>&copy; 개인 연구용 페이지</p>
+  </footer>
 </body>
 </html>
