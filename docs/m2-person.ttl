@@ -13,10 +13,11 @@
 @base <https://lseun135.github.io/NAontology_study/m2-person> .
 
 
-<https://lseun135.github.io/NAontology_study/m2-person>
-    a owl:Ontology ;
-    owl:imports <http://www.w3.org/2004/02/skos/core> ,
-                <http://www.w3.org/ns/org> .
+
+<https://lseun135.github.io/NAontology_study/m2-person> rdf:type owl:Ontology ;
+                owl:imports <http://www.w3.org/2004/02/skos/core> ,
+                            <http://www.w3.org/ns/org#> .
+
 
 
 
