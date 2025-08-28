@@ -8,6 +8,7 @@
 @prefix schema: <https://schema.org/> .
 @prefix dcterms:<http://purl.org/dc/terms/> .
 @prefix org:    <http://www.w3.org/ns/org#> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
 
 @base <https://lseun135.github.io/NAontology_study/resource/d2-person> .
 
