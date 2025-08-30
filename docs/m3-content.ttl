@@ -7,12 +7,15 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bf: <https://id.loc.gov/ontologies/bibframe/> .
 
 @base    <https://lseun135.github.io/NAontology_study/m3-content> .
 
 
 <https://lseun135.github.io/NAontology_study/m3-content.ttl> rdf:type owl:Ontology ;
-                owl:imports <http://www.cidoc-crm.org/cidoc-crm/7.1.3/> .
+                owl:imports <http://www.cidoc-crm.org/cidoc-crm/7.1.3/> .  # 추후 변경
+
 
 
 
@@ -21,11 +24,43 @@
 schema:CreativeWork rdf:type owl:Class .
 
 nam3:ContentUnit rdf:type owl:Class ;
-             rdfs:subClassOf schema:CreativeWork ,
-                             crm:E33_Linguistic_Object .
+                rdfs:subClassOf schema:CreativeWork ,
+                                crm:E33_Linguistic_Object ;
+                rdfs:comment "회의록 이외의 기록물 내용을 포괄하기 위해 추가한 클래스"@ko .
 
 nam3:Speech rdf:type owl:Class ;
-        rdfs:subClassOf :ContentUnit .
+        rdfs:subClassOf nam3:ContentUnit ;
+        rdfs:comment "A speech, a scene, a narrative, or another part of a transcript"@en ,
+                     """연설, 장면, 서술 또는 기록물(transcript)의 다른 일부  (Popolo 참조)
+→schema:Speech와 다른 개념"""@ko .
 
 
 
+
+
+# Object Properties
+
+bf:event rdf:type owl:ObjectProperty .        # 발언이 이루어진 사건
+
+schema:creator rdf:type owl:ObjectProperty .  # 발화를 한 사람
+
+schema:video rdf:type owl:ObjectProperty .    # 발언의 비디오 기록. range: schema:VideoObject / URL  (추후 삭제)
+
+schema:audio rdf:type owl:ObjectProperty .    # 발언의 오디오 기록. range: AudioObject / URL (추후 삭제)
+
+
+
+
+# Data properties
+
+nam3:role rdf:type owl:DatatypeProperty ;
+      rdfs:comment "The speaker's role while speaking"@en ,
+                   """발화 당시 발화자의 역할  (Popolo 참조)
+• 값: 구현에서는 ‘chair(의장)’, ‘speaker(발언자)’ 외의 값을 사용할 수도 있음"""@ko .
+
+schema:text rdf:type owl:DatatypeProperty ;        # 발언의 원문 또는 기록 텍스트
+            rdfs:domain schema:CreativeWork .
+
+schema:position rdf:type owl:DatatypeProperty .    # 기록물 내에서 발언의 위치
+
+dcterms:date rdf:type owl:DatatypeProperty .       # 발언이 이루어진 시점
