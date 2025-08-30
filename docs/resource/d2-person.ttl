@@ -214,7 +214,6 @@ nadat2:PlatformParty rdf:type org:Organization , nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/21cfba29-a1af-5ff9-84b3-6f7d5f44b609"^^rdfs:Literal ;
 				schema:foundingDate "2020-03-08"^^xsd:date
 				schema:dissolutionDate "2020-05-13"^^xsd:date
-                skos:altLabel "TPP" ;
                 skos:prefLabel "Platform Party"@en ,
                                "더불어시민당"@ko .
 
@@ -223,7 +222,6 @@ nadat2:PeoplePowerParty rdf:type org:Organization , nam2:Party ;
 				rdfs:seeAlso "https://www.peoplepowerparty.kr"^^xsd:anyURI ;
 				schema:foundingDate "2020-02-17"^^xsd:date
 				nam2:formerName "미래통합당"@ko , "United Future Party"@en ;
-				skos:hiddenLabel "미래통합당"@ko , "United Future Party"@en ;
                 skos:altLabel "PPP"@en ;
                 skos:prefLabel "People Power Party"@en , "국민의힘"@ko ;
 				owl:sameAs nadat2:UnitedFutureParty .
@@ -278,12 +276,10 @@ nadat2:ReformParty rdf:type org:Organization , nam2:Party ;
                 skos:prefLabel "Reform Party"@en ,
                                "개혁신당"@ko .
 
-
 nadat2:PeoplesParty rdf:type org:Organization , nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/a3ed0eaf-b574-5c31-8f6f-b4592e3d9ea6"^^rdfs:Literal ;
 				schema:foundingDate "2020-02-23"^^xsd:date ;
 				schema:dissolutionDate "2022-05-03"^^xsd:date ;
-                skos:altLabel "PSP" ;
                 skos:prefLabel "The People's Party"@en ,
                                "국민의당"@ko .
 
@@ -291,7 +287,6 @@ nadat2:OpenDemocraticParty rdf:type org:Organization , nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/0f2458e3-7a5b-570b-9e3f-16f2d50ea7f3"^^rdfs:Literal ;
 				schema:foundingDate "2020-03-08"^^xsd:date ;
 				schema:dissolutionDate "2022-01-18"^^xsd:date ;
-                skos:altLabel "ODP" ;
                 skos:prefLabel "Open Democratic Party"@en ,
                                "열린민주당"@ko .
 
@@ -13385,6 +13380,2233 @@ nadat2:MEM-ZYP7962W-100022 a org:Membership ;
 
 
 
+
+
+nadat2:MEM-04T3751T-14DPK a org:Membership ;
+    rdfs:label "남인순: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-04T3751T ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-0767470D-14DPK a org:Membership ;
+    rdfs:label "이낙연: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-0767470D ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-0827740Q-14DPK a org:Membership ;
+    rdfs:label "노웅래: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-0827740Q ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-09I2323E-14DPK a org:Membership ;
+    rdfs:label "김한정: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-09I2323E ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-0PK7354M-14DPK a org:Membership ;
+    rdfs:label "서동용: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-0PK7354M ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-0R68099X-14DPK a org:Membership ;
+    rdfs:label "이수진: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-0R68099X ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-0R68099X-20PFP a org:Membership ;
+    rdfs:label "이수진: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-0R68099X ;
+    org:organization nadat2:PlatformParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-0VU8517U-14DPK a org:Membership ;
+    rdfs:label "황희: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-0VU8517U ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-0W194007-14DPK a org:Membership ;
+    rdfs:label "김영주: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-0W194007 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-0WL9321T-20PFP a org:Membership ;
+    rdfs:label "유정주: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-0WL9321T ;
+    org:organization nadat2:PlatformParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-0YT3774N-14DPK a org:Membership ;
+    rdfs:label "황운하: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-0YT3774N ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-0YT3774N-24RKP a org:Membership ;
+    rdfs:label "황운하: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-0YT3774N ;
+    org:organization nadat2:RebuildingKoreaParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-14M56632-20UFP a org:Membership ;
+    rdfs:label "강기윤: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-14M56632 ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-16D7652C-14DPK a org:Membership ;
+    rdfs:label "이원욱: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-16D7652C ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-17M85910-14DPK a org:Membership ;
+    rdfs:label "소병철: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-17M85910 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-1BX7234U-20PFP a org:Membership ;
+    rdfs:label "김경만: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-1BX7234U ;
+    org:organization nadat2:PlatformParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-1MU99298-14DPK a org:Membership ;
+    rdfs:label "김철민: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-1MU99298 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-1WE5693J-14DPK a org:Membership ;
+    rdfs:label "김태년: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-1WE5693J ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-1X376850-20FKP a org:Membership ;
+    rdfs:label "이영: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-1X376850 ;
+    org:organization nadat2:FutureKoreaParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-1Y73132H-20PPP a org:Membership ;
+    rdfs:label "김상훈: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-1Y73132H ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-1Y73132H-20UFP a org:Membership ;
+    rdfs:label "김상훈: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-1Y73132H ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-21N57758-14DPK a org:Membership ;
+    rdfs:label "오영훈: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-21N57758 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-2385336L-14DPK a org:Membership ;
+    rdfs:label "정청래: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-2385336L ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-25I8709Q-14DPK a org:Membership ;
+    rdfs:label "조오섭: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-25I8709Q ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-2N793392-14DPK a org:Membership ;
+    rdfs:label "홍성국: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-2N793392 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-2NV6751W-14DPK a org:Membership ;
+    rdfs:label "장철민: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-2NV6751W ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-2UD1340H-14DPK a org:Membership ;
+    rdfs:label "김성주: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-2UD1340H ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-3249208I-14DPK a org:Membership ;
+    rdfs:label "송옥주: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-3249208I ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-3425169D-20PFP a org:Membership ;
+    rdfs:label "정필모: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-3425169D ;
+    org:organization nadat2:PlatformParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-3BC6890E-20PPP a org:Membership ;
+    rdfs:label "김미애: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-3BC6890E ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-3BC6890E-20UFP a org:Membership ;
+    rdfs:label "김미애: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-3BC6890E ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-3C23171A-14DPK a org:Membership ;
+    rdfs:label "진성준: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-3C23171A ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-3DK8989T-20UFP a org:Membership ;
+    rdfs:label "최춘식: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-3DK8989T ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-3RW63706-20UFP a org:Membership ;
+    rdfs:label "이주환: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-3RW63706 ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-3TO11703-20PFP a org:Membership ;
+    rdfs:label "권인숙: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-3TO11703 ;
+    org:organization nadat2:PlatformParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-3ZR4438W-14DPK a org:Membership ;
+    rdfs:label "이인영: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-3ZR4438W ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-4019850M-14DPK a org:Membership ;
+    rdfs:label "박정: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-4019850M ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-40E3739H-20FKP a org:Membership ;
+    rdfs:label "윤창현: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-40E3739H ;
+    org:organization nadat2:FutureKoreaParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-40S1959J-14DPK a org:Membership ;
+    rdfs:label "박영순: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-40S1959J ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-4A067125-14DPK a org:Membership ;
+    rdfs:label "이광재: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-4A067125 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-4L695580-14DPK a org:Membership ;
+    rdfs:label "김원이: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-4L695580 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-4T026790-14DPK a org:Membership ;
+    rdfs:label "임오경: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-4T026790 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-4U29186R-14DPK a org:Membership ;
+    rdfs:label "문진석: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-4U29186R ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-4X525582-20PPP a org:Membership ;
+    rdfs:label "배현진: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-4X525582 ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-4X525582-20UFP a org:Membership ;
+    rdfs:label "배현진: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-4X525582 ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-4XG1439M-14DPK a org:Membership ;
+    rdfs:label "고영인: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-4XG1439M ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-52P3934K-20UFP a org:Membership ;
+    rdfs:label "김희곤: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-52P3934K ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-5765663F-14DPK a org:Membership ;
+    rdfs:label "김영진: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-5765663F ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-5K93695T-20PPP a org:Membership ;
+    rdfs:label "김승수: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-5K93695T ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-5K93695T-20UFP a org:Membership ;
+    rdfs:label "김승수: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-5K93695T ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-5KV82250-20PPP a org:Membership ;
+    rdfs:label "조경태: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-5KV82250 ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-5KV82250-20UFP a org:Membership ;
+    rdfs:label "조경태: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-5KV82250 ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-5KV96424-14DPK a org:Membership ;
+    rdfs:label "강준현: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-5KV96424 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-5MD4184K-14DPK a org:Membership ;
+    rdfs:label "홍기원: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-5MD4184K ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-5UN9725L-20FKP a org:Membership ;
+    rdfs:label "이용: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-5UN9725L ;
+    org:organization nadat2:FutureKoreaParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-60490713-14DPK a org:Membership ;
+    rdfs:label "강병원: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-60490713 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-6399076T-14DPK a org:Membership ;
+    rdfs:label "김민철: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-6399076T ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-66W6739S-20FKP a org:Membership ;
+    rdfs:label "허은아: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-66W6739S ;
+    org:organization nadat2:FutureKoreaParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-68P7228G-14DPK a org:Membership ;
+    rdfs:label "진선미: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-68P7228G ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-6AR6743G-20UFP a org:Membership ;
+    rdfs:label "김희국: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-6AR6743G ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-6AU2417B-14DPK a org:Membership ;
+    rdfs:label "박주민: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-6AU2417B ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-6EN68926-20PPP a org:Membership ;
+    rdfs:label "송언석: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-6EN68926 ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-6EN68926-20UFP a org:Membership ;
+    rdfs:label "송언석: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-6EN68926 ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-6FS10566-17PGP a org:Membership ;
+    rdfs:label "강성희: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-6FS10566 ;
+    org:organization nadat2:ProgressiveParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-6MO8786S-20UFP a org:Membership ;
+    rdfs:label "안병길: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-6MO8786S ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-6RD62559-20PPP a org:Membership ;
+    rdfs:label "박정하: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-6RD62559 ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-6RM29022-20PPP a org:Membership ;
+    rdfs:label "최재형: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-6RM29022 ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-6U243644-20PPP a org:Membership ;
+    rdfs:label "박형수: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-6U243644 ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-6U243644-20UFP a org:Membership ;
+    rdfs:label "박형수: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-6U243644 ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-6V37131U-14DPK a org:Membership ;
+    rdfs:label "고용진: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-6V37131U ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-6YT83269-20UFP a org:Membership ;
+    rdfs:label "이명수: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-6YT83269 ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-71J2365L-20FKP a org:Membership ;
+    rdfs:label "전주혜: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-71J2365L ;
+    org:organization nadat2:FutureKoreaParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-7469929V-20PPP a org:Membership ;
+    rdfs:label "구자근: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-7469929V ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-7469929V-20UFP a org:Membership ;
+    rdfs:label "구자근: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-7469929V ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-7BM2933Y-14DPK a org:Membership ;
+    rdfs:label "김영호: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-7BM2933Y ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-7I09543O-14DPK a org:Membership ;
+    rdfs:label "이장섭: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-7I09543O ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-7JC3239L-20UFP a org:Membership ;
+    rdfs:label "윤두현: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-7JC3239L ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-7O71647Z-20PFP a org:Membership ;
+    rdfs:label "양이원영: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-7O71647Z ;
+    org:organization nadat2:PlatformParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-7R156073-14DPK a org:Membership ;
+    rdfs:label "박범계: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-7R156073 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-7XY7109I-20PPP a org:Membership ;
+    rdfs:label "성일종: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-7XY7109I ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-7XY7109I-20UFP a org:Membership ;
+    rdfs:label "성일종: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-7XY7109I ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-8348421R-20PPP a org:Membership ;
+    rdfs:label "엄태영: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-8348421R ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-8348421R-20UFP a org:Membership ;
+    rdfs:label "엄태영: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-8348421R ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-8FB1535Y-14DPK a org:Membership ;
+    rdfs:label "어기구: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-8FB1535Y ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-8FC9697X-14DPK a org:Membership ;
+    rdfs:label "유기홍: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-8FC9697X ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-8KF7223D-14DPK a org:Membership ;
+    rdfs:label "이성만: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-8KF7223D ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-8P37634C-14DPK a org:Membership ;
+    rdfs:label "강득구: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-8P37634C ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-8Q88373R-14DPK a org:Membership ;
+    rdfs:label "김병기: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-8Q88373R ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-8SV6917G-20PPP a org:Membership ;
+    rdfs:label "주호영: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-8SV6917G ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-8SV6917G-20UFP a org:Membership ;
+    rdfs:label "주호영: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-8SV6917G ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-8VJ8533R-20PSP a org:Membership ;
+    rdfs:label "최연숙: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-8VJ8533R ;
+    org:organization nadat2:PeoplesParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-8VY63414-20UFP a org:Membership ;
+    rdfs:label "류성걸: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-8VY63414 ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-8X15119P-20PPP a org:Membership ;
+    rdfs:label "윤한홍: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-8X15119P ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-8X15119P-20UFP a org:Membership ;
+    rdfs:label "윤한홍: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-8X15119P ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-9D939735-20PPP a org:Membership ;
+    rdfs:label "김성원: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-9D939735 ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-9D939735-20UFP a org:Membership ;
+    rdfs:label "김성원: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-9D939735 ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-9JF4562W-14DPK a org:Membership ;
+    rdfs:label "이용선: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-9JF4562W ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-9L57027L-20UFP a org:Membership ;
+    rdfs:label "유경준: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-9L57027L ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-9LD2641Q-14DPK a org:Membership ;
+    rdfs:label "김정호: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-9LD2641Q ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-9S151177-14DPK a org:Membership ;
+    rdfs:label "이탄희: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-9S151177 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-9V18755A-20PFP a org:Membership ;
+    rdfs:label "양경숙: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-9V18755A ;
+    org:organization nadat2:PlatformParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-9VR65006-20PPP a org:Membership ;
+    rdfs:label "윤영석: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-9VR65006 ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-9VR65006-20UFP a org:Membership ;
+    rdfs:label "윤영석: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-9VR65006 ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-9YO73104-14DPK a org:Membership ;
+    rdfs:label "전재수: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-9YO73104 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-A0P4646G-20PPP a org:Membership ;
+    rdfs:label "최형두: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-A0P4646G ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-A0P4646G-20UFP a org:Membership ;
+    rdfs:label "최형두: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-A0P4646G ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-A2V51235-12JTP a org:Membership ;
+    rdfs:label "배진교: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-A2V51235 ;
+    org:organization nadat2:JusticeParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-A3H7195R-14DPK a org:Membership ;
+    rdfs:label "박완주: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-A3H7195R ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-A494529E-14DPK a org:Membership ;
+    rdfs:label "천준호: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-A494529E ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-AE685067-14DPK a org:Membership ;
+    rdfs:label "이규민: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-AE685067 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-AFH96856-14DPK a org:Membership ;
+    rdfs:label "신영대: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-AFH96856 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-ATB59635-14DPK a org:Membership ;
+    rdfs:label "김승원: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-ATB59635 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-B7D7534L-14DPK a org:Membership ;
+    rdfs:label "김영배: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-B7D7534L ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-B7H6207C-20FKP a org:Membership ;
+    rdfs:label "박대수: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-B7H6207C ;
+    org:organization nadat2:FutureKoreaParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-B7R2742J-14DPK a org:Membership ;
+    rdfs:label "기동민: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-B7R2742J ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-BCQ55105-14DPK a org:Membership ;
+    rdfs:label "한준호: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-BCQ55105 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-BLC8630L-14DPK a org:Membership ;
+    rdfs:label "박병석: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-BLC8630L ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-BM63269Y-14DPK a org:Membership ;
+    rdfs:label "전해철: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-BM63269Y ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-BT62420K-14DPK a org:Membership ;
+    rdfs:label "박찬대: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-BT62420K ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-C7E79345-14DPK a org:Membership ;
+    rdfs:label "권칠승: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-C7E79345 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-C835799S-20PPP a org:Membership ;
+    rdfs:label "김근태: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-C835799S ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-CAA7713A-20PPP a org:Membership ;
+    rdfs:label "백종헌: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-CAA7713A ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-CAA7713A-20UFP a org:Membership ;
+    rdfs:label "백종헌: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-CAA7713A ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-CCU1009B-14DPK a org:Membership ;
+    rdfs:label "이해식: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-CCU1009B ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-CDL93608-14DPK a org:Membership ;
+    rdfs:label "조응천: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-CDL93608 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-CFE3998F-14DPK a org:Membership ;
+    rdfs:label "이상직: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-CFE3998F ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-CI15627C-14DPK a org:Membership ;
+    rdfs:label "김두관: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-CI15627C ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-CNW5754J-20PPP a org:Membership ;
+    rdfs:label "송석준: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-CNW5754J ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-CNW5754J-20UFP a org:Membership ;
+    rdfs:label "송석준: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-CNW5754J ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-CNZ51556-20FKP a org:Membership ;
+    rdfs:label "김예지: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-CNZ51556 ;
+    org:organization nadat2:FutureKoreaParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-CT85313K-20UFP a org:Membership ;
+    rdfs:label "서병수: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-CT85313K ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-CZB4125D-20UFP a org:Membership ;
+    rdfs:label "장제원: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-CZB4125D ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-D0C85236-20UFP a org:Membership ;
+    rdfs:label "박완수: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-D0C85236 ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-D4L60530-14DPK a org:Membership ;
+    rdfs:label "이수진: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-D4L60530 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-D6U6678O-14DPK a org:Membership ;
+    rdfs:label "김주영: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-D6U6678O ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-DAN6731C-20UFP a org:Membership ;
+    rdfs:label "박성중: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-DAN6731C ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-DAV7257X-14DPK a org:Membership ;
+    rdfs:label "이원택: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-DAV7257X ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-DAY6557K-20PPP a org:Membership ;
+    rdfs:label "정동만: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-DAY6557K ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-DAY6557K-20UFP a org:Membership ;
+    rdfs:label "정동만: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-DAY6557K ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-DBA1057Z-20PSP a org:Membership ;
+    rdfs:label "이용호: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-DBA1057Z ;
+    org:organization nadat2:PeoplesParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-DPZ7685X-20UFP a org:Membership ;
+    rdfs:label "전봉민: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-DPZ7685X ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-DV77269P-12JTP a org:Membership ;
+    rdfs:label "양경규: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-DV77269P ;
+    org:organization nadat2:JusticeParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-DWK26447-20PPP a org:Membership ;
+    rdfs:label "이인선: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-DWK26447 ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-E1J8836Y-20PPP a org:Membership ;
+    rdfs:label "김정재: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-E1J8836Y ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-E1J8836Y-20UFP a org:Membership ;
+    rdfs:label "김정재: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-E1J8836Y ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-E6U4345C-14DPK a org:Membership ;
+    rdfs:label "임종성: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-E6U4345C ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-E9R4507P-20UFP a org:Membership ;
+    rdfs:label "권명호: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-E9R4507P ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-EH27538E-20PPP a org:Membership ;
+    rdfs:label "임이자: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-EH27538E ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-EH27538E-20UFP a org:Membership ;
+    rdfs:label "임이자: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-EH27538E ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-EMC8812P-20UFP a org:Membership ;
+    rdfs:label "홍석준: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-EMC8812P ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-EVH1507C-20PPP a org:Membership ;
+    rdfs:label "이헌승: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-EVH1507C ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-EVH1507C-20UFP a org:Membership ;
+    rdfs:label "이헌승: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-EVH1507C ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-F0I5053J-20PPP a org:Membership ;
+    rdfs:label "우신구: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-F0I5053J ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-F5U2979W-20PPP a org:Membership ;
+    rdfs:label "김학용: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-F5U2979W ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-F5Y4026Q-20PFP a org:Membership ;
+    rdfs:label "신현영: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-F5Y4026Q ;
+    org:organization nadat2:PlatformParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-FDC3144T-20FKP a org:Membership ;
+    rdfs:label "이종성: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-FDC3144T ;
+    org:organization nadat2:FutureKoreaParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-FGI27280-20UFP a org:Membership ;
+    rdfs:label "하영제: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-FGI27280 ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-FH777496-14DPK a org:Membership ;
+    rdfs:label "임호선: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-FH777496 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-FIC9046Z-20ODP a org:Membership ;
+    rdfs:label "김의겸: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-FIC9046Z ;
+    org:organization nadat2:OpenDemocraticParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-FJK3396E-14DPK a org:Membership ;
+    rdfs:label "맹성규: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-FJK3396E ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-FOK3459D-14DPK a org:Membership ;
+    rdfs:label "서삼석: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-FOK3459D ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-FRN1867O-14DPK a org:Membership ;
+    rdfs:label "홍익표: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-FRN1867O ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-FU53642G-14DPK a org:Membership ;
+    rdfs:label "허영: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-FU53642G ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-FU87526G-20PPP a org:Membership ;
+    rdfs:label "박수영: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-FU87526G ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-FU87526G-20UFP a org:Membership ;
+    rdfs:label "박수영: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-FU87526G ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-FYI20317-14DPK a org:Membership ;
+    rdfs:label "조승래: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-FYI20317 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-G152611B-20PPP a org:Membership ;
+    rdfs:label "추경호: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-G152611B ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-G152611B-20UFP a org:Membership ;
+    rdfs:label "추경호: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-G152611B ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-G1570880-14DPK a org:Membership ;
+    rdfs:label "신동근: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-G1570880 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-G7512472-14DPK a org:Membership ;
+    rdfs:label "이용우: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-G7512472 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-GAV6441G-12JTP a org:Membership ;
+    rdfs:label "장혜영: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-GAV6441G ;
+    org:organization nadat2:JusticeParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-GD131760-20UFP a org:Membership ;
+    rdfs:label "홍문표: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-GD131760 ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-GDG1847Z-20PPP a org:Membership ;
+    rdfs:label "권성동: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-GDG1847Z ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-GE71932C-20BIP a org:Membership ;
+    rdfs:label "용혜인: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-GE71932C ;
+    org:organization nadat2:BasicIncomeParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-GF286398-14DPK a org:Membership ;
+    rdfs:label "김병주: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-GF286398 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-GF286398-20PFP a org:Membership ;
+    rdfs:label "김병주: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-GF286398 ;
+    org:organization nadat2:PlatformParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-GFF1986K-14DPK a org:Membership ;
+    rdfs:label "김병욱: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-GFF1986K ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-GKD32201-14DPK a org:Membership ;
+    rdfs:label "이용빈: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-GKD32201 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-GOC54665-14DPK a org:Membership ;
+    rdfs:label "문정복: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-GOC54665 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-GP07421U-14DPK a org:Membership ;
+    rdfs:label "윤건영: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-GP07421U ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-GX22581L-20PPP a org:Membership ;
+    rdfs:label "강민국: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-GX22581L ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-GX22581L-20UFP a org:Membership ;
+    rdfs:label "강민국: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-GX22581L ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-GX38539O-14DPK a org:Membership ;
+    rdfs:label "유동수: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-GX38539O ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-H5476989-14DPK a org:Membership ;
+    rdfs:label "한병도: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-H5476989 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-HKJ99607-14DPK a org:Membership ;
+    rdfs:label "이병훈: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-HKJ99607 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-HSS7466Y-14DPK a org:Membership ;
+    rdfs:label "백혜련: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-HSS7466Y ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-HSW1214Q-20PPP a org:Membership ;
+    rdfs:label "이종배: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-HSW1214Q ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-HSW1214Q-20UFP a org:Membership ;
+    rdfs:label "이종배: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-HSW1214Q ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-HXT76735-14DPK a org:Membership ;
+    rdfs:label "박상혁: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-HXT76735 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-I0S53762-20UFP a org:Membership ;
+    rdfs:label "하태경: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-I0S53762 ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-I434361W-20FKP a org:Membership ;
+    rdfs:label "조태용: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-I434361W ;
+    org:organization nadat2:FutureKoreaParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-I5I2468R-14DPK a org:Membership ;
+    rdfs:label "최기상: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-I5I2468R ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-I7R13867-14DPK a org:Membership ;
+    rdfs:label "이개호: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-I7R13867 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-ICH23251-20ODP a org:Membership ;
+    rdfs:label "최강욱: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-ICH23251 ;
+    org:organization nadat2:OpenDemocraticParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-IL74008M-14DPK a org:Membership ;
+    rdfs:label "박성준: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-IL74008M ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-IN328264-14DPK a org:Membership ;
+    rdfs:label "조정식: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-IN328264 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-IOW1101J-20UFP a org:Membership ;
+    rdfs:label "김영식: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-IOW1101J ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-IOW8224X-14DPK a org:Membership ;
+    rdfs:label "이형석: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-IOW8224X ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-IUD9392R-14DPK a org:Membership ;
+    rdfs:label "이재명: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-IUD9392R ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-IUL4848V-20UFP a org:Membership ;
+    rdfs:label "윤희숙: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-IUL4848V ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-J2O8643H-14DPK a org:Membership ;
+    rdfs:label "도종환: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-J2O8643H ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-J9S37905-20UFP a org:Membership ;
+    rdfs:label "황보승희: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-J9S37905 ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-JC14718Q-14DPK a org:Membership ;
+    rdfs:label "윤준병: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-JC14718Q ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-JEZ3130Q-20PPP a org:Membership ;
+    rdfs:label "김형동: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-JEZ3130Q ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-JEZ3130Q-20UFP a org:Membership ;
+    rdfs:label "김형동: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-JEZ3130Q ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-JMY9959W-14DPK a org:Membership ;
+    rdfs:label "윤관석: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-JMY9959W ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-JNL7001A-20PPP a org:Membership ;
+    rdfs:label "김선교: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-JNL7001A ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-JNL7001A-20UFP a org:Membership ;
+    rdfs:label "김선교: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-JNL7001A ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-JQA21112-20PPP a org:Membership ;
+    rdfs:label "한기호: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-JQA21112 ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-JQA21112-20UFP a org:Membership ;
+    rdfs:label "한기호: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-JQA21112 ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-JVB6983V-20PPP a org:Membership ;
+    rdfs:label "노용호: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-JVB6983V ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-JZY9937U-14DPK a org:Membership ;
+    rdfs:label "김윤덕: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-JZY9937U ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-K3W33496-14DPK a org:Membership ;
+    rdfs:label "박광온: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-K3W33496 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-K5F2023J-14DPK a org:Membership ;
+    rdfs:label "이학영: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-K5F2023J ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-KB04377U-20UFP a org:Membership ;
+    rdfs:label "김병욱: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-KB04377U ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-KFM1081G-20PPP a org:Membership ;
+    rdfs:label "장동혁: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-KFM1081G ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-KFS1358P-14DPK a org:Membership ;
+    rdfs:label "윤영덕: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-KFS1358P ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-KNM3215T-20PFP a org:Membership ;
+    rdfs:label "윤미향: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-KNM3215T ;
+    org:organization nadat2:PlatformParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-KR14136C-14DPK a org:Membership ;
+    rdfs:label "홍영표: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-KR14136C ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-KUO3574J-14DPK a org:Membership ;
+    rdfs:label "양기대: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-KUO3574J ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-L2I9861C-20PPP a org:Membership ;
+    rdfs:label "강대식: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-L2I9861C ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-L2I9861C-20UFP a org:Membership ;
+    rdfs:label "강대식: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-L2I9861C ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-L5P27909-20PPP a org:Membership ;
+    rdfs:label "김은혜: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-L5P27909 ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-L5P27909-20UFP a org:Membership ;
+    rdfs:label "김은혜: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-L5P27909 ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-L7J93733-20PPP a org:Membership ;
+    rdfs:label "서범수: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-L7J93733 ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-L7J93733-20UFP a org:Membership ;
+    rdfs:label "서범수: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-L7J93733 ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-L7T64271-14DPK a org:Membership ;
+    rdfs:label "김수흥: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-L7T64271 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-LBC8144B-20PPP a org:Membership ;
+    rdfs:label "김영선: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-LBC8144B ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-LG63087O-20PPP a org:Membership ;
+    rdfs:label "권영세: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-LG63087O ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-LG63087O-20UFP a org:Membership ;
+    rdfs:label "권영세: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-LG63087O ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-LH97552Q-20PPP a org:Membership ;
+    rdfs:label "김도읍: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-LH97552Q ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-LH97552Q-20UFP a org:Membership ;
+    rdfs:label "김도읍: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-LH97552Q ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-LJK4960Z-20PPP a org:Membership ;
+    rdfs:label "정점식: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-LJK4960Z ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-LJK4960Z-20UFP a org:Membership ;
+    rdfs:label "정점식: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-LJK4960Z ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-LM13674V-14DPK a org:Membership ;
+    rdfs:label "송재호: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-LM13674V ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-LNR7932L-20ODP a org:Membership ;
+    rdfs:label "김진애: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-LNR7932L ;
+    org:organization nadat2:OpenDemocraticParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-LPB30152-14DPK a org:Membership ;
+    rdfs:label "최인호: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-LPB30152 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-LQW3652K-20UFP a org:Membership ;
+    rdfs:label "김웅: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-LQW3652K ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-LT72093S-14DPK a org:Membership ;
+    rdfs:label "정일영: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-LT72093S ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-M0A1658U-14DPK a org:Membership ;
+    rdfs:label "윤호중: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-M0A1658U ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-M2Q9024I-14DPK a org:Membership ;
+    rdfs:label "김종민: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-M2Q9024I ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-M6H1705E-14DPK a org:Membership ;
+    rdfs:label "김회재: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-M6H1705E ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-M7O7878U-14DPK a org:Membership ;
+    rdfs:label "신정훈: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-M7O7878U ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-M7T9712V-20FKP a org:Membership ;
+    rdfs:label "최승재: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-M7T9712V ;
+    org:organization nadat2:FutureKoreaParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-MD083627-14DPK a org:Membership ;
+    rdfs:label "정춘숙: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-MD083627 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-MHK9919B-20UFP a org:Membership ;
+    rdfs:label "곽상도: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-MHK9919B ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-MLH1404S-14DPK a org:Membership ;
+    rdfs:label "김민석: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-MLH1404S ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-MNZ4401T-14DPK a org:Membership ;
+    rdfs:label "강선우: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-MNZ4401T ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-MO52543L-14DPK a org:Membership ;
+    rdfs:label "변재일: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-MO52543L ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-MQU41854-20PPP a org:Membership ;
+    rdfs:label "조은희: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-MQU41854 ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-MR210505-20PPP a org:Membership ;
+    rdfs:label "서일준: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-MR210505 ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-MR210505-20UFP a org:Membership ;
+    rdfs:label "서일준: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-MR210505 ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-MRK4871S-20UFP a org:Membership ;
+    rdfs:label "유의동: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-MRK4871S ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-MSO2590I-20PPP a org:Membership ;
+    rdfs:label "김은희: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-MSO2590I ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-MSY7784L-20PPP a org:Membership ;
+    rdfs:label "윤상현: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-MSY7784L ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-MU69217P-20PPP a org:Membership ;
+    rdfs:label "유상범: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-MU69217P ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-MU69217P-20UFP a org:Membership ;
+    rdfs:label "유상범: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-MU69217P ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-MY318392-14DPK a org:Membership ;
+    rdfs:label "오영환: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-MY318392 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-N4R2421C-20PPP a org:Membership ;
+    rdfs:label "박덕흠: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-N4R2421C ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-N4R2421C-20UFP a org:Membership ;
+    rdfs:label "박덕흠: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-N4R2421C ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-N9X9673B-14DPK a org:Membership ;
+    rdfs:label "전혜숙: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-N9X9673B ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-NCO99988-14DPK a org:Membership ;
+    rdfs:label "허숙정: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-NCO99988 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-NCP9875N-12JTP a org:Membership ;
+    rdfs:label "류호정: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-NCP9875N ;
+    org:organization nadat2:JusticeParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-NQR1206Q-20UFP a org:Membership ;
+    rdfs:label "정진석: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-NQR1206Q ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-NTT8182Q-14DPK a org:Membership ;
+    rdfs:label "김민기: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-NTT8182Q ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-NUB4941Z-14DPK a org:Membership ;
+    rdfs:label "김한규: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-NUB4941Z ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-NZF1659U-20UFP a org:Membership ;
+    rdfs:label "정운천: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-NZF1659U ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-O0I2045I-14DPK a org:Membership ;
+    rdfs:label "이정문: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-O0I2045I ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-O6D8329R-14DPK a org:Membership ;
+    rdfs:label "민홍철: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-O6D8329R ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-O7R5461J-14DPK a org:Membership ;
+    rdfs:label "윤후덕: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-O7R5461J ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-OFE45081-14DPK a org:Membership ;
+    rdfs:label "김용민: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-OFE45081 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-OIA3741M-14DPK a org:Membership ;
+    rdfs:label "오기형: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-OIA3741M ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-OSV9142K-20PPP a org:Membership ;
+    rdfs:label "이만희: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-OSV9142K ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-OSV9142K-20UFP a org:Membership ;
+    rdfs:label "이만희: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-OSV9142K ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-OW53107J-14DPK a org:Membership ;
+    rdfs:label "설훈: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-OW53107J ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-P0F1530P-20PPP a org:Membership ;
+    rdfs:label "김태호: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-P0F1530P ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-P2N4585G-14DPK a org:Membership ;
+    rdfs:label "김승남: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-P2N4585G ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-P2N50879-20ODP a org:Membership ;
+    rdfs:label "강민정: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-P2N50879 ;
+    org:organization nadat2:OpenDemocraticParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-PAO22428-14DPK a org:Membership ;
+    rdfs:label "송영길: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-PAO22428 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-PEP6922S-14DPK a org:Membership ;
+    rdfs:label "박용진: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-PEP6922S ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-PFG2137X-20PPP a org:Membership ;
+    rdfs:label "정희용: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-PFG2137X ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-PFG2137X-20UFP a org:Membership ;
+    rdfs:label "정희용: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-PFG2137X ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-PO64874I-20PFP a org:Membership ;
+    rdfs:label "김홍걸: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-PO64874I ;
+    org:organization nadat2:PlatformParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-Q9H5708M-14DPK a org:Membership ;
+    rdfs:label "김진표: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-Q9H5708M ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-QD25323M-20PFP a org:Membership ;
+    rdfs:label "최혜영: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-QD25323M ;
+    org:organization nadat2:PlatformParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-QHL3248U-14DPK a org:Membership ;
+    rdfs:label "김남국: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-QHL3248U ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-QKO6165V-20UFP a org:Membership ;
+    rdfs:label "박진: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-QKO6165V ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-QQP4727N-20PPP a org:Membership ;
+    rdfs:label "배준영: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-QQP4727N ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-QQP4727N-20UFP a org:Membership ;
+    rdfs:label "배준영: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-QQP4727N ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-QTW6852F-20PSP a org:Membership ;
+    rdfs:label "이태규: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-QTW6852F ;
+    org:organization nadat2:PeoplesParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-QUM8288K-20UFP a org:Membership ;
+    rdfs:label "이달곤: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-QUM8288K ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-QUO78839-14DPK a org:Membership ;
+    rdfs:label "박재호: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-QUO78839 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-RD42006Y-14DPK a org:Membership ;
+    rdfs:label "송갑석: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-RD42006Y ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-RO593601-20PFP a org:Membership ;
+    rdfs:label "이동주: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-RO593601 ;
+    org:organization nadat2:PlatformParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-RPN2293B-14DPK a org:Membership ;
+    rdfs:label "장경태: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-RPN2293B ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-RQQ3807K-14DPK a org:Membership ;
+    rdfs:label "위성곤: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-RQQ3807K ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-S741317G-20FKP a org:Membership ;
+    rdfs:label "조명희: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-S741317G ;
+    org:organization nadat2:FutureKoreaParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-S824682L-14DPK a org:Membership ;
+    rdfs:label "박홍근: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-S824682L ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-S9U45255-20PPP a org:Membership ;
+    rdfs:label "이양수: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-S9U45255 ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-S9U45255-20UFP a org:Membership ;
+    rdfs:label "이양수: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-S9U45255 ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-SBK1544B-20UFP a org:Membership ;
+    rdfs:label "정찬민: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-SBK1544B ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-SE233396-14DPK a org:Membership ;
+    rdfs:label "윤재갑: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-SE233396 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-SQ36001H-14DPK a org:Membership ;
+    rdfs:label "송기헌: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-SQ36001H ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-SRP7336N-20FKP a org:Membership ;
+    rdfs:label "신원식: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-SRP7336N ;
+    org:organization nadat2:FutureKoreaParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-SU53086M-12JTP a org:Membership ;
+    rdfs:label "심상정: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-SU53086M ;
+    org:organization nadat2:JusticeParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-SVH3899R-20UFP a org:Membership ;
+    rdfs:label "김용판: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-SVH3899R ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-SZ51175J-12JTP a org:Membership ;
+    rdfs:label "이자스민: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-SZ51175J ;
+    org:organization nadat2:JusticeParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-T465023H-14DPK a org:Membership ;
+    rdfs:label "주철현: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-T465023H ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-TJW93720-14DPK a org:Membership ;
+    rdfs:label "전용기: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-TJW93720 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-TJW93720-20PFP a org:Membership ;
+    rdfs:label "전용기: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-TJW93720 ;
+    org:organization nadat2:PlatformParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-TKJ4800F-14DPK a org:Membership ;
+    rdfs:label "서영교: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-TKJ4800F ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-TP066860-14DPK a org:Membership ;
+    rdfs:label "정정순: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-TP066860 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-TRE2429O-14DPK a org:Membership ;
+    rdfs:label "강훈식: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-TRE2429O ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-TST4507I-14DPK a org:Membership ;
+    rdfs:label "안규백: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-TST4507I ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-TVF3669B-20UFP a org:Membership ;
+    rdfs:label "김태흠: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-TVF3669B ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-TZ228122-14DPK a org:Membership ;
+    rdfs:label "민병덕: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-TZ228122 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-TZP9391O-20PPP a org:Membership ;
+    rdfs:label "이철규: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-TZP9391O ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-TZP9391O-20UFP a org:Membership ;
+    rdfs:label "이철규: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-TZP9391O ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-UB114374-20FKP a org:Membership ;
+    rdfs:label "한무경: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-UB114374 ;
+    org:organization nadat2:FutureKoreaParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-UGH6481E-14DPK a org:Membership ;
+    rdfs:label "김상희: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-UGH6481E ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-UHB5553T-14DPK a org:Membership ;
+    rdfs:label "정태호: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-UHB5553T ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-UM51067K-14DPK a org:Membership ;
+    rdfs:label "인재근: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-UM51067K ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-UQ282145-14DPK a org:Membership ;
+    rdfs:label "이재정: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-UQ282145 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-USR7059P-20FKP a org:Membership ;
+    rdfs:label "정경희: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-USR7059P ;
+    org:organization nadat2:FutureKoreaParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-V0O5343U-14DPK a org:Membership ;
+    rdfs:label "우상호: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-V0O5343U ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-V429892C-14DPK a org:Membership ;
+    rdfs:label "정성호: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-V429892C ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-VCP96419-14DPK a org:Membership ;
+    rdfs:label "허종식: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-VCP96419 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-VG24001G-20UFP a org:Membership ;
+    rdfs:label "양금희: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-VG24001G ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-VHK3402G-20PPP a org:Membership ;
+    rdfs:label "정우택: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-VHK3402G ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-VRY5522V-14DPK a org:Membership ;
+    rdfs:label "민형배: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-VRY5522V ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-W1Q6753M-12JTP a org:Membership ;
+    rdfs:label "이은주: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-W1Q6753M ;
+    org:organization nadat2:JusticeParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-W4X85128-20PPP a org:Membership ;
+    rdfs:label "박대출: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-W4X85128 ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-W4X85128-20UFP a org:Membership ;
+    rdfs:label "박대출: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-W4X85128 ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-WCD5518S-14DPK a org:Membership ;
+    rdfs:label "고민정: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-WCD5518S ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-WDS6044S-20UFP a org:Membership ;
+    rdfs:label "이채익: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-WDS6044S ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-WFU14784-20FKP a org:Membership ;
+    rdfs:label "서정숙: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-WFU14784 ;
+    org:organization nadat2:FutureKoreaParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-WHV3448W-14DPK a org:Membership ;
+    rdfs:label "양향자: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-WHV3448W ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-WJL30106-20PPP a org:Membership ;
+    rdfs:label "조정훈: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-WJL30106 ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-WMG57662-12JTP a org:Membership ;
+    rdfs:label "강은미: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-WMG57662 ;
+    org:organization nadat2:JusticeParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-WTR5885Y-14DPK a org:Membership ;
+    rdfs:label "이소영: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-WTR5885Y ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-WVU2479T-14DPK a org:Membership ;
+    rdfs:label "이상헌: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-WVU2479T ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-X1K3667J-14DPK a org:Membership ;
+    rdfs:label "김교흥: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-X1K3667J ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-X3170462-20PPP a org:Membership ;
+    rdfs:label "박성민: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-X3170462 ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-X3170462-20UFP a org:Membership ;
+    rdfs:label "박성민: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-X3170462 ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-X7I4680R-20PPP a org:Membership ;
+    rdfs:label "김기현: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-X7I4680R ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-X7I4680R-20UFP a org:Membership ;
+    rdfs:label "김기현: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-X7I4680R ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-XA42275R-14DPK a org:Membership ;
+    rdfs:label "홍정민: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-XA42275R ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-XBT9550Q-14DPK a org:Membership ;
+    rdfs:label "우원식: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-XBT9550Q ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-XEF29171-14DPK a org:Membership ;
+    rdfs:label "안호영: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-XEF29171 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-XJC13432-20UFP a org:Membership ;
+    rdfs:label "태영호: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-XJC13432 ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-XPP2564T-14DPK a org:Membership ;
+    rdfs:label "한정애: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-XPP2564T ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-XR24352K-14DPK a org:Membership ;
+    rdfs:label "서영석: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-XR24352K ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-XSP20229-14DPK a org:Membership ;
+    rdfs:label "김성환: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-XSP20229 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-XWX1513T-14DPK a org:Membership ;
+    rdfs:label "윤영찬: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-XWX1513T ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-Y7K5946R-20FKP a org:Membership ;
+    rdfs:label "지성호: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-Y7K5946R ;
+    org:organization nadat2:FutureKoreaParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-YKW37422-20PSP a org:Membership ;
+    rdfs:label "권은희: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-YKW37422 ;
+    org:organization nadat2:PeoplesParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-YLS4431M-20FKP a org:Membership ;
+    rdfs:label "조수진: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-YLS4431M ;
+    org:organization nadat2:FutureKoreaParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-YOG1280B-20PPP a org:Membership ;
+    rdfs:label "안철수: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-YOG1280B ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-YOG1280B-20PSP a org:Membership ;
+    rdfs:label "안철수: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-YOG1280B ;
+    org:organization nadat2:PeoplesParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-YTA7297R-20PPP a org:Membership ;
+    rdfs:label "최영희: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-YTA7297R ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-Z6R3959C-20UFP a org:Membership ;
+    rdfs:label "조해진: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-Z6R3959C ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-Z7Y7827F-14DPK a org:Membership ;
+    rdfs:label "최종윤: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-Z7Y7827F ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-ZA54991S-14DPK a org:Membership ;
+    rdfs:label "안민석: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-ZA54991S ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-ZDP5704Q-20FKP a org:Membership ;
+    rdfs:label "윤주경: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-ZDP5704Q ;
+    org:organization nadat2:FutureKoreaParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-ZDR63255-14DPK a org:Membership ;
+    rdfs:label "소병훈: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-ZDR63255 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-ZKU88693-14DPK a org:Membership ;
+    rdfs:label "김경협: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-ZKU88693 ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-ZRF3039U-20PPP a org:Membership ;
+    rdfs:label "윤재옥: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-ZRF3039U ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-ZRF3039U-20UFP a org:Membership ;
+    rdfs:label "윤재옥: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-ZRF3039U ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-ZYH1940A-14DPK a org:Membership ;
+    rdfs:label "이상민: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-ZYH1940A ;
+    org:organization nadat2:DemocraticPartyofKorea ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-ZYP7962W-20PPP a org:Membership ;
+    rdfs:label "김석기: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-ZYP7962W ;
+    org:organization nadat2:PeoplePowerParty ;
+    org:role nadat2:RL-PA .
+
+nadat2:MEM-ZYP7962W-20UFP a org:Membership ;
+    rdfs:label "김석기: 정당 membership"@ko ;
+    org:member nadat2:PER-LM-ZYP7962W ;
+    org:organization nadat2:UnitedFutureParty ;
+    org:role nadat2:RL-PA .
 
 
 
