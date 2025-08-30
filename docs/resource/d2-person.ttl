@@ -265,6 +265,7 @@ nadat2:JusticeParty rdf:type org:Organization , nam2:Party ;
 nadat2:RebuildingKoreaParty rdf:type org:Organization , nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/76440f8c-9249-5bc7-aa9e-ff1f294750c8"^^rdfs:Literal ;
                 rdfs:seeAlso "https://rebuildingkoreaparty.kr"^^xsd:anyURI ;
+				schema:foundingDate "2024-03-07"^^xsd:date ;
                 skos:altLabel "RKP"@en ;
                 skos:prefLabel "Rebuilding Korea Party"@en ,
                                "조국혁신당"@ko .
@@ -272,22 +273,28 @@ nadat2:RebuildingKoreaParty rdf:type org:Organization , nam2:Party ;
 nadat2:ReformParty rdf:type org:Organization , nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/f69532b6-26e7-5560-88e2-ed222e2b048d"^^rdfs:Literal ;
                 rdfs:seeAlso "https://www.reformparty.kr"^^xsd:anyURI ;
+				schema:foundingDate "2024-01-25"^^xsd:date ;
                 skos:altLabel "RP"@en ;
                 skos:prefLabel "Reform Party"@en ,
                                "개혁신당"@ko .
 
-nadat2:SocialDemocraticParty rdf:type org:Organization , nam2:Party ;
-                dcterms:identifier "ocd-organization/country:kr/64cfddde-a786-58c5-b2ca-0771ff726a00"^^rdfs:Literal ;
-                rdfs:seeAlso "https://samindang.kr"^^xsd:anyURI ;
-                skos:altLabel "SDP"@en ;
-                skos:prefLabel "Social Democratic Party"@en ,
-                               "사회민주당"@ko .
 
-nadat2:SocialDemocraticParty rdf:type org:Organization , nam2:Party ;
-                dcterms:identifier "ocd-organization/country:kr/64cfddde-a786-58c5-b2ca-0771ff726a00"^^rdfs:Literal ;
+nadat2:PeoplesParty rdf:type org:Organization , nam2:Party ;
+                dcterms:identifier "ocd-organization/country:kr/a3ed0eaf-b574-5c31-8f6f-b4592e3d9ea6"^^rdfs:Literal ;
+				schema:foundingDate "2020-02-23"^^xsd:date ;
+				schema:dissolutionDate "2022-05-03"^^xsd:date ;
                 skos:altLabel "PSP" ;
                 skos:prefLabel "The People's Party"@en ,
                                "국민의당"@ko .
+
+nadat2:OpenDemocraticParty rdf:type org:Organization , nam2:Party ;
+                dcterms:identifier "ocd-organization/country:kr/0f2458e3-7a5b-570b-9e3f-16f2d50ea7f3"^^rdfs:Literal ;
+				schema:foundingDate "2020-03-08"^^xsd:date ;
+				schema:dissolutionDate "2022-01-18"^^xsd:date ;
+                skos:altLabel "ODP" ;
+                skos:prefLabel "Open Democratic Party"@en ,
+                               "열린민주당"@ko .
+
 
 
 ## Committee
