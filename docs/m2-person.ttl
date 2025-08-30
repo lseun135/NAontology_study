@@ -46,6 +46,8 @@ foaf:gender rdf:type owl:DatatypeProperty ;
 
 foaf:name rdf:type owl:DatatypeProperty .
 
+nam2:formerLabel rdf:type owl:DatatypeProperty ;
+                rdfs:comment "이전 이름" .
 
 nam2:lunarBirthText rdf:type owl:DatatypeProperty ;
                     rdfs:range xsd:string .
