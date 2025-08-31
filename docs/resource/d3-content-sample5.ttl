@@ -19,9 +19,27 @@
 
 @base    <https://lseun135.github.io/NAontology_study/resource/d3-content-sample5> .
 
+
+
 <https://lseun135.github.io/NAontology_study/resource/d3-content-sample5.ttl> rdf:type owl:Ontology ;
         owl:imports <https://lseun135.github.io/NAontology_study/m3-content.ttl>,
                     <https://lseun135.github.io/NAontology_study/resource/d1-record-sample5.ttl> ;
         rdfs:comment "d1-record-sample5에 연동되는 샘플 온톨로지"@ko .
+
+
+
+
+# Individuals
+
+sdat3:SPH-P100021414002001-0001 rdf:type nam3:Speech ;
+                dcterms:source sdat1:P100021414002001 ;
+                schema:creator nadat2:PER-LM-Q9H5708M ;
+                nam3:recordRole "의장"@ko ;
+                schema:position 2 ;
+                schema:text "의사일정 제1항 순직 해병 수사 방해 및 사건 은폐 등의 진상규명을 위한 특별검사의 임명 등에 관한 법률안 재의의 건을 상정합니다.  지난 5월 2일 본회의에서 의결하여 5월 7일 정부로 이송한 순직 해병 수사 방해 및 사건 은폐 등의 진상규명을 위한 특별검사의 임명 등에 관한 법률안에 대해 5월 21일 헌법 제53조제2항에 따라 대통령으로부터 재의 요구가 있었습니다.  오늘 불출석한 국무총리를 대신하여 법무부장관이 재의 요구 이유를 설명하도록 하겠습니다.  그러면 박성재 법무부장관 나오셔서 재의 요구 이유를 설명해 주시기 바랍니다." .
+
+
+
+
 
 
