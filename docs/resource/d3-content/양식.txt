@@ -1,0 +1,9 @@
+
+### 발언 양식
+
+sdat3:SPH-P100021414002001-000ㅇ rdf:type nam3:Speech ;
+                dcterms:source sdat1:P100021414002001 ;
+                schema:creator  ;
+                nam3:recordRole "의장"@ko ;
+                schema:position ㅇ ;
+                schema:text "" .
