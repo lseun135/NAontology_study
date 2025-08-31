@@ -5834,14 +5834,17 @@ nadat2:PER-LM-IN328264 a foaf:Person ;
 
 
 
-## 임시 개체 
+## 임시개체 
 
 nadat2:PER-TMP-00001 a foaf:Person ;
 				rdfs:label "박성재"@ko ;
 				foaf:name "박성재"@ko ;
 				nam2:isInAStateOf nam2:Provisional .
 
-
+nadat2:PER-TMP-00002 a foaf:Person ;
+				rdfs:label "정명호"@ko ;
+				foaf:name "정명호"@ko ;
+				nam2:isInAStateOf nam2:Provisional .
 
 
 
