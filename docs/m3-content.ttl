@@ -48,6 +48,7 @@ schema:video rdf:type owl:ObjectProperty .    # 발언의 비디오 기록. rang
 
 schema:audio rdf:type owl:ObjectProperty .    # 발언의 오디오 기록. range: AudioObject / URL (추후 삭제)
 
+dcterms:source rdf:type rdf:Property .        # 발언과 기록 연결 (엄밀히 말하면 ObjectProperty는 아니지만, 실무적으로는 ObjectProperty 사용)
 
 
 
@@ -61,9 +62,12 @@ nam3:recordRole rdf:type owl:DatatypeProperty ;
    발화 상황에 국한하지 않고 해당 기록에서 그 인물이 수행한 역할명(직책)을 구현하도록 임의 설정"""@ko .
 
 
-schema:text rdf:type owl:DatatypeProperty ;        # 발언의 원문 또는 기록 텍스트
-            rdfs:domain schema:CreativeWork .
+schema:text rdf:type owl:DatatypeProperty ;        # 회의록의 경우, 발언의 원문 또는 기록 텍스트
+                rdfs:domain schema:CreativeWork 
+                rdfs:comment "원문 또는 기록 텍스트"@ko .
 
-schema:position rdf:type owl:DatatypeProperty .    # 기록물 내에서 발언의 위치
+schema:position rdf:type owl:DatatypeProperty ;
+                rdfs:comment "전체 기록물 내에서 해당 내용의 위치(순서)"@ko .  # (혼동주의) 기록최소단위 내에서의 위치는 식별코드로
 
-dcterms:date rdf:type owl:DatatypeProperty .       # 발언이 이루어진 시점
+dcterms:date rdf:type owl:DatatypeProperty ;       # 발언이 이루어진 시점
+                rdfs:comment "해당 내용이 작성되거나 발언이 이루어진 시점"@ko .
