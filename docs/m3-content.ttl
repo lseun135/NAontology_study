@@ -63,7 +63,7 @@ nam3:recordRole rdf:type owl:DatatypeProperty ;
 
 
 schema:text rdf:type owl:DatatypeProperty ;        # 회의록의 경우, 발언의 원문 또는 기록 텍스트
-                rdfs:domain schema:CreativeWork 
+                rdfs:domain schema:CreativeWork ;
                 rdfs:comment "원문 또는 기록 텍스트"@ko .
 
 schema:position rdf:type owl:DatatypeProperty ;
