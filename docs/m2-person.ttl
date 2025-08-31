@@ -1,4 +1,5 @@
 @prefix nam2:   <https://lseun135.github.io/NAontology_study/m2-person#> .
+
 @prefix owl:    <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,6 +10,7 @@
 @prefix org:    <http://www.w3.org/ns/org#> .
 @prefix foaf:   <http://xmlns.com/foaf/0.1/> .
 @prefix gn:     <https://www.geonames.org/ontology#> .
+@prefix adms: <http://www.w3.org/ns/adms#>
 
 @base <https://lseun135.github.io/NAontology_study/m2-person> .
 
@@ -169,6 +171,26 @@ nam2:SubCommitteeMeeting rdf:type owl:NamedIndividual ,
                          rdfs:label "소위원회 회의" ;
                          skos:prefLabel "Subcommittee Meeting"@en ,
                                         "소위원회 회의"@ko .
+
+
+### 임시 생성 여부 설정
+
+nam2:isInAStateOf rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf adms:status ;
+                rdfs:range skos:Concept ;
+                rdfs:label "entity status"@en ;
+                rdfs:comment "추가한 개체의 임시생성 여부 표기"@ko .
+
+nam2:State rdf:type skos:ConceptScheme ;
+                skos:prefLabel "상태"@ko ;
+                rdfs:comment "개체의 상태표기" .
+
+nam2:Provisional rdf:type skos:Concept ;
+                skos:inScheme nam2:State ;
+                skos:prefLabel "Provisional"@en ; 
+                skos:prefLabel "임시"@ko .
+
+
 
 
 
