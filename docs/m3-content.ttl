@@ -53,10 +53,13 @@ schema:audio rdf:type owl:ObjectProperty .    # 발언의 오디오 기록. rang
 
 # Data properties
 
-nam3:role rdf:type owl:DatatypeProperty ;
-      rdfs:comment "The speaker's role while speaking"@en ,
-                   """발화 당시 발화자의 역할  (Popolo 참조)
-• 값: 구현에서는 ‘chair(의장)’, ‘speaker(발언자)’ 외의 값을 사용할 수도 있음"""@ko .
+nam3:recordRole rdf:type owl:DatatypeProperty ;
+                rdfs:comment "Popolo: The speaker's role while speaking"@en ,
+                             """• 발화 당시 발화자의 역할  (Popolo 참조) 
+   값: 구현에서는 ‘chair(의장)’, ‘speaker(발언자)’ 외의 값을 사용할 수도 있음
+• Popolo에선 :role을 사용하지만 org:role과 혼동 우려로 인해 이름 변경. 
+   발화 상황에 국한하지 않고 해당 기록에서 그 인물이 수행한 역할명(직책)을 구현하도록 임의 설정"""@ko .
+
 
 schema:text rdf:type owl:DatatypeProperty ;        # 발언의 원문 또는 기록 텍스트
             rdfs:domain schema:CreativeWork .
