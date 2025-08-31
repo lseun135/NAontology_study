@@ -197,7 +197,7 @@ nadat2:NASecretariat rdf:type org:OrganizationalUnit , nam2:Institution ;
 nadat2:BasicIncomeParty rdf:type org:Organization , nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/16867da3-e0f7-5eda-94b3-7e3f0c50e698"^^rdfs:Literal ;
                 rdfs:seeAlso "https://www.basicincomeparty.kr"^^xsd:anyURI ;
-				schema:foundingDate "2020-01-19"^^xsd:date
+				schema:foundingDate "2020-01-19"^^xsd:date ;
                 skos:altLabel "BIP"@en ;
                 skos:prefLabel "Basic Income Party"@en ,
                                "기본소득당"@ko .
@@ -205,22 +205,22 @@ nadat2:BasicIncomeParty rdf:type org:Organization , nam2:Party ;
 nadat2:DemocraticPartyofKorea rdf:type org:Organization , nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/a99b2275-dfed-5fbe-bcd6-e4932ed0d463"^^rdfs:Literal ;
                 rdfs:seeAlso "https://theminjoo.kr"^^xsd:anyURI ;
-				schema:foundingDate "2014-03-26"^^xsd:date
+				schema:foundingDate "2014-03-26"^^xsd:date ;
                 skos:altLabel "DPK"@en ;
                 skos:prefLabel "Democratic Party of Korea"@en ,
                                "더불어민주당"@ko .
 
 nadat2:PlatformParty rdf:type org:Organization , nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/21cfba29-a1af-5ff9-84b3-6f7d5f44b609"^^rdfs:Literal ;
-				schema:foundingDate "2020-03-08"^^xsd:date
-				schema:dissolutionDate "2020-05-13"^^xsd:date
+				schema:foundingDate "2020-03-08"^^xsd:date ;
+				schema:dissolutionDate "2020-05-13"^^xsd:date ;
                 skos:prefLabel "Platform Party"@en ,
                                "더불어시민당"@ko .
 
 nadat2:PeoplePowerParty rdf:type org:Organization , nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/0f2e881a-d760-55a9-afa8-c3fe5954593d"^^rdfs:Literal ;
 				rdfs:seeAlso "https://www.peoplepowerparty.kr"^^xsd:anyURI ;
-				schema:foundingDate "2020-02-17"^^xsd:date
+				schema:foundingDate "2020-02-17"^^xsd:date ;
 				nam2:formerName "미래통합당"@ko , "United Future Party"@en ;
                 skos:altLabel "PPP"@en ;
                 skos:prefLabel "People Power Party"@en , "국민의힘"@ko ;
