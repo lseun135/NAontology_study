@@ -10,7 +10,7 @@
 @prefix org:    <http://www.w3.org/ns/org#> .
 @prefix foaf:   <http://xmlns.com/foaf/0.1/> .
 @prefix gn:     <https://www.geonames.org/ontology#> .
-@prefix adms: <http://www.w3.org/ns/adms#>
+@prefix adms: <http://www.w3.org/ns/adms#> .
 
 @base <https://lseun135.github.io/NAontology_study/m2-person> .
 
