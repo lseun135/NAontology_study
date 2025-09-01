@@ -31,6 +31,58 @@
 
 # Individuals
 
+sdat3:P100021414002001 rdf:type skos:Concept, crm:E89_Propositional_Object ;
+                rdfs:label "1. 순직 해병 수사 방해 및 사건 은폐 등의 진상규명을 위한 특별검사의 임명 등에 관한 법률안 재의의 건(대통령 제출)" .
+
+sdat3:P100021414002002 rdf:type skos:Concept, crm:E89_Propositional_Object ;
+                rdfs:label "2. 전세사기피해자 지원 및 주거안정에 관한 특별법 일부개정법률안(대안)(국토교통위원장 제출)(의안번호 2126666)" .
+
+sdat3:P100021414002003 rdf:type skos:Concept, crm:E89_Propositional_Object ;
+                rdfs:label "3. 2023년도 국정감사 결과보고서 채택의 건(환경노동위원장 제출)(의안번호 2126669)" .
+
+sdat3:P100021414002004 rdf:type skos:Concept, crm:E89_Propositional_Object ;
+                rdfs:label "o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126688)o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126689)o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126690)o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126691)o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126692)o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126693)o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126694)" .
+
+sdat3:P100021414002005 rdf:type skos:Concept, crm:E89_Propositional_Object ;
+                rdfs:comment "csv에 4~10번 안건이 통합되어 있음. 코드 사용 시, 분리방법 생각" ;
+                rdfs:label "4. 가맹사업거래의 공정화에 관한 법률 일부개정법률안(대안) 본회의 부의의 건" .
+
+sdat3:P100021414002006 rdf:type skos:Concept, crm:E89_Propositional_Object ;
+                rdfs:label "5. 민주유공자 예우에 관한 법률안(대안) 본회의 부의의 건" .
+
+sdat3:P100021414002007 rdf:type skos:Concept, crm:E89_Propositional_Object ;
+                rdfs:label "6. 양곡관리법 일부개정법률안(대안) 본회의 부의의 건" .
+
+sdat3:P100021414002008 rdf:type skos:Concept, crm:E89_Propositional_Object ;
+                rdfs:label "7. 농수산물 유통 및 가격안정에 관한 법률 일부개정법률안(대안) 본회의 부의의 건" .
+
+sdat3:P100021414002009 rdf:type skos:Concept, crm:E89_Propositional_Object ;
+                rdfs:label "8. 농어업회의소법안(대안) 본회의 부의의 건" .
+
+sdat3:P100021414002010 rdf:type skos:Concept, crm:E89_Propositional_Object ;
+                rdfs:label "9. 지속가능한 한우산업을 위한 지원법안(대안) 본회의 부의의 건" .
+
+sdat3:P100021414002011 rdf:type skos:Concept, crm:E89_Propositional_Object ;
+                rdfs:label "10. 4․16세월호참사 피해구제 및 지원 등을 위한 특별법 일부개정법률안(고영인 의원 대표발의)(의안번호 2120837) 본회의 부의의 건" .
+
+sdat3:P100021414002012 rdf:type skos:Concept, crm:E89_Propositional_Object ;
+                rdfs:label "o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126701)o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126702)o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126703)o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126704)" .
+
+sdat3:P100021414002013 rdf:type skos:Concept, crm:E89_Propositional_Object ;
+                rdfs:comment "csv에 11~13번 안건이 통합되어 있음. 4~10과 동일하게 코드 사용 시, 분리방법 생각" ;
+                rdfs:label "11. 농어업회의소법안(대안)(농림축산식품해양수산위원장 제출)(의안번호 2126699)" .
+
+sdat3:P100021414002014 rdf:type skos:Concept, crm:E89_Propositional_Object ;
+                rdfs:label "12. 지속가능한 한우산업을 위한 지원법안(대안)(농림축산식품해양수산위원장 제출)(의안번호 2126700)" .
+
+sdat1:P100021414002015 rdf:type skos:Concept, crm:E89_Propositional_Object ;
+                rdfs:label "13. 4․16세월호참사 피해구제 및 지원 등을 위한 특별법 일부개정법률안(고영인 의원 대표발의)(의안번호 2120837)" .
+
+sdat1:P100021414002016 rdf:type skos:Concept, crm:E89_Propositional_Object ;
+                rdfs:label "14. 민주유공자 예우에 관한 법률안(대안)(정무위원장 제출)(의안번호 2126698)" .
+
+
+
 sdat3:SPH-R100021414002-0001 rdf:type nam3:Speech ;
                 dcterms:source sdat1:P100021414002001 ;
                 schema:creator nadat2:PER-LM-Q9H5708M ;
