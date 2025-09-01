@@ -1,9 +1,10 @@
 
 ### 발언 양식
 
-sdat3:SPH-P100021414002001-000ㅇ rdf:type nam3:Speech ;
-                dcterms:source sdat1:P100021414002001 ;
-                schema:creator  ;
+sdat3:SPH-R100021414002-000ㅇ rdf:type nam3:Speech ;
+                dcterms:source sdat1:R100021414002 ;
+                dcterms:subject sdat3:AGD-10002141400200n ;
+                schema:creator nadat2:PER-LM-Q9H5708M ;
                 nam3:recordRole "의장"@ko ;
                 schema:position ㅇ ;
-                schema:text "" .
+                schema:text "의석을 정돈해 주시기 바랍니다." .
