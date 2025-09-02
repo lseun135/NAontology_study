@@ -32,6 +32,14 @@ nadat1:text a rico:ContentType, skos:Concept ;
                 skos:inScheme nadat1:contentTypeScheme .
 
 
+nadat1:legalStatusScheme a skos:ConceptScheme ;
+                skos:prefLabel "Legal Status controlled list"@en , "법적지위 통제어휘"@ko .
+
+nadat1:public a rico:LegalStatus, skos:Concept ;
+                skos:prefLabel "public record"@en, "공공기록"@ko ;
+                skos:inScheme nadat1:legalStatusScheme .
+
+
 
 
 ## 직원, 기관 등 ->d2랑 연결
