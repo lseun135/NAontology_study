@@ -40,6 +40,15 @@ nadat1:public a rico:LegalStatus, skos:Concept ;
                 skos:inScheme nadat1:legalStatusScheme .
 
 
+nadat1:languageTypeScheme a skos:ConceptScheme ;
+                skos:prefLabel "language Type"@en , "언어 유형"@ko .
+
+nadat1:lang-kor a rico:LanguageType, skos:Concept ;
+                skos:prefLabel "Korean"@en , "한국어"@ko ;
+                skos:notation "kor" ;
+                skos:exactMatch <http://id.loc.gov/vocabulary/iso639-2/kor> ;
+                skos:inScheme nadat1:languageTypeScheme .
+
 
 
 ## 직원, 기관 등 ->d2랑 연결
