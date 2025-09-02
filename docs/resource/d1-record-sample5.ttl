@@ -22,6 +22,20 @@
 
 # Individuals
 
+## ContentType
+
+nadat1:contentTypeScheme a skos:ConceptScheme ;
+                skos:prefLabel "Content Type (local controlled list)"@en , "콘텐츠 유형 (내부 통제어휘)"@ko .
+
+nadat1:text a rico:ContentType, skos:Concept ;
+                skos:prefLabel "text"@en , "텍스트"@ko ;
+                skos:inScheme nadat1:contentTypeScheme .
+
+
+
+
+## 직원, 기관 등 ->d2랑 연결
+
 sdat1:PER-STF-001 rdf:type rico:Person ;
               rdfs:label "회의록을 작성한 임의의 직원 1" .
 
@@ -30,11 +44,18 @@ sdat1:INS-001 rdf:type rico:CorporateBody ;
               rdfs:comment "국회사무처에 부여한 임의의 번호" ;
               rdfs:label "[INS-001] 국회사무처" .
 
+
+
+
+## 활동
+
 sdat1:ACT-M-53844 rdf:type rico:Activity ;
                 rdfs:comment "활동-회의-회의번호 순 임의의 식별코드 사용 /  추후 해당 회의의 부록과 연결될 가능성" ;
                 rdfs:label "[ACT-M-53844] 21대 국회 본회의 414회 2차" .
 
 
+
+## 기록
 
 sdat1:R100021414002 rdf:type rico:Record ;
                 rico:documents sdat1:ACT-M-53844 ;
