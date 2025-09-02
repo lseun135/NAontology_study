@@ -74,13 +74,13 @@ sdat1:ACT-M-53844 rdf:type rico:Activity ;
 
 ## 기록
 
-sdat1:R100021414002 rdf:type rico:Record ;
+sdat1:R1000210414002 rdf:type rico:Record ;
                 rico:documents sdat1:ACT-M-53844 ;
                 rico:hasCreator sdat1:PER-STF-001 ;
                 rdfs:label "[R100021414002] 21대 414회 제2차 회의록" .
 
 
-sdat1:F100021414 rdf:type rico:RecordSet ;
+sdat1:F1000210414 rdf:type rico:RecordSet ;
                 rico:includesOrIncluded sdat1:R100021414002 ;
                 rdfs:label "[F100021414] 21대 414회 국회" ;
                 rico:name "제414회국회"@ko .
