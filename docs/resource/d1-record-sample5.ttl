@@ -24,30 +24,30 @@
 
 ## ContentType
 
-nadat1:contentTypeScheme a skos:ConceptScheme ;
+sdat1:contentTypeScheme a skos:ConceptScheme ;
                 skos:prefLabel "Content Type (local controlled list)"@en , "콘텐츠 유형 (내부 통제어휘)"@ko .
 
-nadat1:text a rico:ContentType, skos:Concept ;
+sdat1:text a rico:ContentType, skos:Concept ;
                 skos:prefLabel "text"@en , "텍스트"@ko ;
-                skos:inScheme nadat1:contentTypeScheme .
+                skos:inScheme sdat1:contentTypeScheme .
 
 
-nadat1:legalStatusScheme a skos:ConceptScheme ;
+sdat1:legalStatusScheme a skos:ConceptScheme ;
                 skos:prefLabel "Legal Status controlled list"@en , "법적지위 통제어휘"@ko .
 
-nadat1:public a rico:LegalStatus, skos:Concept ;
+sdat1:public a rico:LegalStatus, skos:Concept ;
                 skos:prefLabel "public record"@en, "공공기록"@ko ;
-                skos:inScheme nadat1:legalStatusScheme .
+                skos:inScheme sdat1:legalStatusScheme .
 
 
-nadat1:languageTypeScheme a skos:ConceptScheme ;
+sdat1:languageTypeScheme a skos:ConceptScheme ;
                 skos:prefLabel "language Type"@en , "언어 유형"@ko .
 
-nadat1:lang-kor a rico:LanguageType, skos:Concept ;
+sdat1:lang-kor a rico:LanguageType, skos:Concept ;
                 skos:prefLabel "Korean"@en , "한국어"@ko ;
                 skos:notation "kor" ;
                 skos:exactMatch <http://id.loc.gov/vocabulary/iso639-2/kor> ;
-                skos:inScheme nadat1:languageTypeScheme .
+                skos:inScheme sdat1:languageTypeScheme .
 
 
 
