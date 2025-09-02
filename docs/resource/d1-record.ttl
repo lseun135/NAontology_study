@@ -11,9 +11,18 @@
 
 
 
+
 nadat1:contentTypeScheme a skos:ConceptScheme ;
-                skos:prefLabel "Content Type (local controlled list)"@en ;
-                skos:prefLabel "콘텐츠 유형 (내부 통제어휘)"@ko .
+                skos:prefLabel "Content Type (local controlled list)"@en , "콘텐츠 유형 (내부 통제어휘)"@ko .
 
 nadat1:text a rico:ContentType, skos:Concept ;
+                skos:prefLabel "text"@en , "텍스트"@ko ;
                 skos:inScheme nadat1:contentTypeScheme .
+
+
+nadat1:legalStatusScheme a skos:ConceptScheme ;
+                skos:prefLabel "Legal Status controlled list"@en , "법적지위 통제어휘"@ko .
+
+nadat1:public a rico:LegalStatus, skos:Concept ;
+                skos:prefLabel "public record"@en, "공공기록"@ko ;
+                skos:inScheme nadat1:legalStatusScheme .
