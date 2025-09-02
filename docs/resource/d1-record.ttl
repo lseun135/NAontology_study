@@ -1,5 +1,19 @@
 @prefix nadat1: <https://lseun135.github.io/NAontology_study/resource/d1-record#> .
-@base    <https://lseun135.github.io/NAontology_study/resource/d1-record> .
-@prefix owl:  <http://www.w3.org/2002/07/owl#> .
 
-<https://lseun135.github.io/NAontology_study/resource/d1-record> a owl:Ontology .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+
+@base    <https://lseun135.github.io/NAontology_study/resource/d1-record> .
+
+
+
+<https://lseun135.github.io/NAontology_study/resource/d1-record.ttl> a owl:Ontology .
+
+
+
+nadat1:contentTypeScheme a skos:ConceptScheme ;
+                skos:prefLabel "Content Type (local controlled list)"@en ;
+                skos:prefLabel "콘텐츠 유형 (내부 통제어휘)"@ko .
+
+nadat1:text a rico:ContentType, skos:Concept ;
+                skos:inScheme nadat1:contentTypeScheme .
