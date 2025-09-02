@@ -26,3 +26,17 @@ nadat1:legalStatusScheme a skos:ConceptScheme ;
 nadat1:public a rico:LegalStatus, skos:Concept ;
                 skos:prefLabel "public record"@en, "공공기록"@ko ;
                 skos:inScheme nadat1:legalStatusScheme .
+
+
+nadat1:languageTypeScheme a skos:ConceptScheme ;
+                skos:prefLabel "language Type"@en , "언어 유형"@ko .
+
+nadat1:lang-kor a rico:LanguageType, skos:Concept ;
+                skos:prefLabel "Korean"@en , "한국어"@ko ;
+                skos:notation "kor" ;
+                skos:exactMatch <http://id.loc.gov/vocabulary/iso639-2/kor> ;
+                skos:inScheme nadat1:languageTypeScheme .
+
+
+
+
