@@ -11,7 +11,7 @@
 
 
 
-
+## ContentType
 nadat1:contentTypeScheme a skos:ConceptScheme ;
                 skos:prefLabel "Content Type (local controlled list)"@en , "콘텐츠 유형 (내부 통제어휘)"@ko .
 
@@ -20,6 +20,7 @@ nadat1:text a rico:ContentType, skos:Concept ;
                 skos:inScheme nadat1:contentTypeScheme .
 
 
+## LegalStatus
 nadat1:legalStatusScheme a skos:ConceptScheme ;
                 skos:prefLabel "Legal Status controlled list"@en , "법적지위 통제어휘"@ko .
 
@@ -28,6 +29,7 @@ nadat1:public a rico:LegalStatus, skos:Concept ;
                 skos:inScheme nadat1:legalStatusScheme .
 
 
+## LanguageType
 nadat1:languageTypeScheme a skos:ConceptScheme ;
                 skos:prefLabel "language Type"@en , "언어 유형"@ko .
 
@@ -39,7 +41,6 @@ nadat1:lang-kor a rico:LanguageType, skos:Concept ;
 
 
 ## ActivityType
-
 nadat1:NAActivityType rdf:type skos:ConceptScheme ;
                 skos:prefLabel "National Assembly Activity Types"@en , "국회 활동 유형"@ko .
 
