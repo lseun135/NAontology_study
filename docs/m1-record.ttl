@@ -77,26 +77,35 @@ nam1:C-SRG02 rdf:type owl:NamedIndividual ,
 
 
 
-nam1:Proceeding rdf:type rico:ActivityType , skos:ConceptScheme ;
-                rdfs:label "회의" .
+## ActivityType
+
+nam1:NAActivityType rdf:type skos:ConceptScheme ;
+                skos:prefLabel "National Assembly Activity Types"@en , "국회 활동 유형"@ko .
+
+nam1:Proceeding rdf:type rico:ActivityType , skos:Concept ;
+                skos:inScheme  nam1:NAActivityType ;
+                skos:topConceptOf nam1:NAActivityType .  # 나중에 구조 변경될 경우 삭제
+                skos:prefLabel "회의"@ko, "Proceeding"@en .
 
 nam1:PlenarySession rdf:type rico:ActivityType , skos:Concept ;
-                skos:inScheme nam1:Proceeding ;
-                rdfs:label "본회의" ;
-                skos:prefLabel "국회본회의"@ko .
-
-nam1:SpecialCommitteeMeeting rdf:type rico:ActivityType , skos:Concept ;
-                skos:inScheme nam1:Proceeding ;
-                skos:narrower nam1:SubCommitteeMeeting ;
-                rdfs:label "특별위원회 회의" ;
-                skos:prefLabel "Special Committee Meeting"@en , "특별위원회 회의"@ko .
+                skos:inScheme nam1:NAActivityType ;
+                skos:broader   nam1:Proceeding ;
+                skos:prefLabel "본회의"@ko , "Plenary session"@en ; 
+                skos:altLabel  "국회 본회의"@ko .
 
 nam1:StandingCommitteeMeeting rdf:type rico:ActivityType , skos:Concept ;
-                skos:inScheme nam1:Proceeding ;
+                skos:inScheme nam1:NAActivityType ;
+                skos:broader   nam1:Proceeding ;
                 skos:narrower nam1:SubCommitteeMeeting ;
-                rdfs:label "상임위원회 회의" ;
-                skos:prefLabel "Standing Committee Meeting"@en , "상임위원회 회의"@ko .
+                skos:prefLabel "상임위원회 회의"@ko , "Standing committee meeting"@en .
+
+nam1:SpecialCommitteeMeeting rdf:type rico:ActivityType , skos:Concept ;
+                skos:inScheme nam1:NAActivityType ;
+                skos:broader nam1:Proceeding ;
+                skos:narrower nam1:SubCommitteeMeeting ;
+                skos:prefLabel "특별위원회 회의"@ko , "Special committee meeting"@en .
 
 nam1:SubCommitteeMeeting rdf:type rico:ActivityType , skos:Concept ;
-                rdfs:label "소위원회 회의" ;
-                skos:prefLabel "Subcommittee Meeting"@en , "소위원회 회의"@ko .
+                skos:inScheme nam1:NAActivityType ;
+                skos:broader   nam1:StandingCommitteeMeeting , nam1:SpecialCommitteeMeeting ;
+                skos:prefLabel "소위원회 회의"@ko , "Subcommittee meeting"@en .
