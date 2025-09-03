@@ -75,3 +75,28 @@ nam1:C-SRG02 rdf:type owl:NamedIndividual ,
              rico:name "정당기록"@ko ;
              rdfs:label "[C-SRG02] 정당 기록"@ko .
 
+
+
+nam1:Proceeding rdf:type rico:ActivityType , skos:ConceptScheme ;
+                rdfs:label "회의" .
+
+nam1:PlenarySession rdf:type rico:ActivityType , skos:Concept ;
+                skos:inScheme nam1:Proceeding ;
+                rdfs:label "본회의" ;
+                skos:prefLabel "국회본회의"@ko .
+
+nam1:SpecialCommitteeMeeting rdf:type rico:ActivityType , skos:Concept ;
+                skos:inScheme nam1:Proceeding ;
+                skos:narrower nam1:SubCommitteeMeeting ;
+                rdfs:label "특별위원회 회의" ;
+                skos:prefLabel "Special Committee Meeting"@en , "특별위원회 회의"@ko .
+
+nam1:StandingCommitteeMeeting rdf:type rico:ActivityType , skos:Concept ;
+                skos:inScheme nam1:Proceeding ;
+                skos:narrower nam1:SubCommitteeMeeting ;
+                rdfs:label "상임위원회 회의" ;
+                skos:prefLabel "Standing Committee Meeting"@en , "상임위원회 회의"@ko .
+
+nam1:SubCommitteeMeeting rdf:type rico:ActivityType , skos:Concept ;
+                rdfs:label "소위원회 회의" ;
+                skos:prefLabel "Subcommittee Meeting"@en , "소위원회 회의"@ko .
