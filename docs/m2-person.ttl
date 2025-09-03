@@ -140,41 +140,7 @@ gn:Feature rdf:type owl:Class .
 
 #    Individuals
 
-nam2:MeetingTypes rdf:type owl:NamedIndividual ,
-                           skos:ConceptScheme ;
-                  rdfs:label "국회 회의 유형" .
-
-nam2:PlenarySession rdf:type owl:NamedIndividual ,
-                             skos:Concept ;
-                    skos:inScheme nam2:MeetingTypes ;
-                    rdfs:label "본회의" ;
-                    skos:prefLabel "국회본회의"@ko .
-
-nam2:SpecialCommitteeMeeting rdf:type owl:NamedIndividual ,
-                                      skos:Concept ;
-                             skos:inScheme nam2:MeetingTypes ;
-                             skos:narrower nam2:SubCommitteeMeeting ;
-                             rdfs:label "특별위원회 회의" ;
-                             skos:prefLabel "Special Committee Meeting"@en ,
-                                            "특별위원회 회의"@ko .
-
-nam2:StandingCommitteeMeeting rdf:type owl:NamedIndividual ,
-                                        skos:Concept ;
-                            skos:inScheme nam2:MeetingTypes ;
-                            skos:narrower nam2:SubCommitteeMeeting ;
-                            rdfs:label "상임위원회 회의" ;
-                            skos:prefLabel "Standing Committee Meeting"@en ,
-                                           "상임위원회 회의"@ko .
-
-nam2:SubCommitteeMeeting rdf:type owl:NamedIndividual ,
-                                  skos:Concept ;
-                         rdfs:label "소위원회 회의" ;
-                         skos:prefLabel "Subcommittee Meeting"@en ,
-                                        "소위원회 회의"@ko .
-
-
 ### 임시 생성 여부 설정
-
 nam2:isInAStateOf rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf adms:status ;
                 rdfs:range skos:Concept ;
