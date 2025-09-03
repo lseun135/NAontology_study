@@ -51,6 +51,43 @@ sdat1:lang-kor a rico:LanguageType, skos:Concept ;
 
 
 
+### ActivityType
+
+sdat1:NAActivityType rdf:type skos:ConceptScheme ;
+                skos:prefLabel "National Assembly Activity Types"@en , "국회 활동 유형"@ko .
+
+sdat1:Proceeding rdf:type rico:ActivityType , skos:Concept ;
+                skos:inScheme  sdat1:NAActivityType ;
+                skos:topConceptOf sdat1:NAActivityType ;  # 나중에 구조 변경될 경우 삭제
+                skos:prefLabel "회의"@ko, "Proceeding"@en .
+
+sdat1:PlenarySession rdf:type rico:ActivityType , skos:Concept ;
+                skos:inScheme sdat1:NAActivityType ;
+                skos:broader  sdat1:Proceeding ;
+                skos:prefLabel "본회의"@ko , "Plenary session"@en ; 
+                skos:altLabel  "국회 본회의"@ko .
+
+sdat1:SubCommitteeMeeting rdf:type rico:ActivityType , skos:Concept ;
+                skos:inScheme sdat1:NAActivityType ;
+                skos:broader  sdat1:StandingCommitteeMeeting , sdat1:SpecialCommitteeMeeting ;
+                skos:prefLabel "소위원회 회의"@ko , "Subcommittee meeting"@en .
+
+sdat1:StandingCommitteeMeeting rdf:type rico:ActivityType , skos:Concept ;
+                skos:inScheme sdat1:NAActivityType ;
+                skos:broader  sdat1:Proceeding ;
+                skos:narrower sdat1:SubCommitteeMeeting ;
+                skos:prefLabel "상임위원회 회의"@ko , "Standing committee meeting"@en .
+
+sdat1:SpecialCommitteeMeeting rdf:type rico:ActivityType , skos:Concept ;
+                skos:inScheme sdat1:NAActivityType ;
+                skos:broader sdat1:Proceeding ;
+                skos:narrower sdat1:SubCommitteeMeeting ;
+                skos:prefLabel "특별위원회 회의"@ko , "Special committee meeting"@en .
+
+
+
+
+
 ## 직원, 기관 등 ->d2랑 연결
 
 sdat1:PER-STF-001 rdf:type rico:Person ;
