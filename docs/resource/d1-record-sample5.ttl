@@ -149,3 +149,247 @@ nam1:A-SRG01 rico:includesOrIncluded sdat1:S100021 .
 
 
 
+
+
+
+sdat1:ACT-M-53804 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53804] 21대 국회 본회의 제413회 제4차"@ko ;
+    rico:hasActivityType sdat1:PlenarySession ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
+        nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-CI15627C,
+        nadat2:PER-LM-F0I5053J,
+        nadat2:PER-LM-HXT76735,
+        nadat2:PER-LM-M2Q9024I,
+        nadat2:PER-LM-MSO2590I,
+        nadat2:PER-LM-MSY7784L,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-RD42006Y,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-SU53086M,
+        nadat2:PER-LM-TJW93720,
+        nadat2:PER-LM-VHK3402G,
+        nadat2:PER-LM-VRY5522V,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-TMP-00001 ;
+    rico:identifier "ACT-M-53804" .
+
+sdat1:ACT-M-53808 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53808] 21대 국회 본회의 제413회 제5차"@ko ;
+    rico:hasActivityType sdat1:PlenarySession ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
+        nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-2N793392,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-A0P4646G,
+        nadat2:PER-LM-C835799S,
+        nadat2:PER-LM-DV77269P,
+        nadat2:PER-LM-GX22581L,
+        nadat2:PER-LM-GX38539O,
+        nadat2:PER-LM-OIA3741M,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-VHK3402G,
+        nadat2:PER-LM-ZKU88693 ;
+    rico:identifier "ACT-M-53808" .
+
+sdat1:ACT-M-53815 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53815] 21대 국회 본회의 제413회 제6차"@ko ;
+    rico:hasActivityType sdat1:PlenarySession ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-0W194007,
+        nadat2:PER-LM-17M85910,
+        nadat2:PER-LM-1Y73132H,
+        nadat2:PER-LM-3TO11703,
+        nadat2:PER-LM-5K93695T,
+        nadat2:PER-LM-6FS10566,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9LD2641Q,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-E1J8836Y,
+        nadat2:PER-LM-EH27538E,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-M7O7878U,
+        nadat2:PER-LM-MQU41854,
+        nadat2:PER-LM-MU69217P,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-PFG2137X,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-RO593601,
+        nadat2:PER-LM-SZ51175J,
+        nadat2:PER-LM-TZ228122,
+        nadat2:PER-LM-USR7059P,
+        nadat2:PER-LM-VHK3402G,
+        nadat2:PER-LM-W4X85128,
+        nadat2:PER-LM-WMG57662,
+        nadat2:PER-LM-XWX1513T,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-TMP-00001,
+        nadat2:PER-TMP-00002 ;
+    rico:identifier "ACT-M-53815" .
+
+sdat1:ACT-M-53832 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53832] 21대 국회 본회의 제414회 제1차"@ko ;
+    rico:hasActivityType sdat1:PlenarySession ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6AU2417B,
+        nadat2:PER-LM-DV77269P,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-X1K3667J,
+        nadat2:PER-TMP-00002 ;
+    rico:identifier "ACT-M-53832" .
+
+sdat1:ACT-M-53844 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53844] 21대 국회 본회의 제414회 제2차"@ko ;
+    rico:hasActivityType sdat1:PlenarySession ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6AU2417B,
+        nadat2:PER-LM-8FB1535Y,
+        nadat2:PER-LM-EH27538E,
+        nadat2:PER-LM-HSS7466Y,
+        nadat2:PER-LM-IL74008M,
+        nadat2:PER-LM-LPB30152,
+        nadat2:PER-LM-MU69217P,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-TZ228122,
+        nadat2:PER-LM-WMG57662,
+        nadat2:PER-LM-ZDR63255,
+        nadat2:PER-TMP-00001,
+        nadat2:PER-TMP-00002 ;
+    rico:identifier "ACT-M-53844" .
+
+sdat1:S100021 a rico:RecordSet ;
+    skos:prefLabel "[S100021] 21대 국회 본회의"@ko ;
+    rico:classification "A" ;
+    rico:identifier "S100021" ;
+    rico:includesOrIncluded sdat1:F1000210413,
+        sdat1:F1000210414 .
+
+sdat1:F1000210413 a rico:RecordSet ;
+    skos:prefLabel "[F0413] 21대 본회의 제413회"@ko ;
+    rico:classification "A" ;
+    rico:conditionsOfAccess "Open"@en,
+        "공개"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasContentOfType sdat1:text ;
+    rico:hasOrHadLegalStatus sdat1:public ;
+    rico:identifier "F1000210413" ;
+    rico:includesOrIncluded sdat1:R1000210413004,
+        sdat1:R1000210413005,
+        sdat1:R1000210413006 .
+
+sdat1:F1000210414 a rico:RecordSet ;
+    skos:prefLabel "[F0414] 21대 본회의 제414회"@ko ;
+    rico:classification "A" ;
+    rico:conditionsOfAccess "Open"@en,
+        "공개"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasContentOfType sdat1:text ;
+    rico:hasOrHadLegalStatus sdat1:public ;
+    rico:identifier "F1000210414" ;
+    rico:includesOrIncluded sdat1:R1000210414001,
+        sdat1:R1000210414002 .
+
+sdat1:R1000210413004 a rico:Record ;
+    skos:prefLabel "[R1000210413004] 21대 제413회 제4차 회의록"@ko ;
+    rico:classification "A" ;
+    rico:conditionsOfAccess "Open"@en,
+        "공개"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasContentOfType sdat1:text ;
+    rico:hasCreationDate sdat1:date-2024_02_22 ;
+    rico:hasOrHadLanguage sdat1:lang-kor ;
+    rico:hasOrHadLegalStatus sdat1:public ;
+    rico:identifier "R1000210413004" ;
+    rico:title "제413회국회 국회본회의회의록 제 4 호"@ko .
+
+sdat1:R1000210413005 a rico:Record ;
+    skos:prefLabel "[R1000210413005] 21대 제413회 제5차 회의록"@ko ;
+    rico:classification "A" ;
+    rico:conditionsOfAccess "Open"@en,
+        "공개"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasContentOfType sdat1:text ;
+    rico:hasCreationDate sdat1:date-2024_02_23 ;
+    rico:hasOrHadLanguage sdat1:lang-kor ;
+    rico:hasOrHadLegalStatus sdat1:public ;
+    rico:identifier "R1000210413005" ;
+    rico:title "제413회국회 국회본회의회의록 제 5 호"@ko .
+
+sdat1:R1000210413006 a rico:Record ;
+    skos:prefLabel "[R1000210413006] 21대 제413회 제6차 회의록"@ko ;
+    rico:classification "A" ;
+    rico:conditionsOfAccess "Open"@en,
+        "공개"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasContentOfType sdat1:text ;
+    rico:hasCreationDate sdat1:date-2024_02_29 ;
+    rico:hasOrHadLanguage sdat1:lang-kor ;
+    rico:hasOrHadLegalStatus sdat1:public ;
+    rico:identifier "R1000210413006" ;
+    rico:title "제413회국회 국회본회의회의록 제 6 호"@ko .
+
+sdat1:R1000210414001 a rico:Record ;
+    skos:prefLabel "[R1000210414001] 21대 제414회 제1차 회의록"@ko ;
+    rico:classification "A" ;
+    rico:conditionsOfAccess "Open"@en,
+        "공개"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasContentOfType sdat1:text ;
+    rico:hasCreationDate sdat1:date-2024_05_02 ;
+    rico:hasOrHadLanguage sdat1:lang-kor ;
+    rico:hasOrHadLegalStatus sdat1:public ;
+    rico:identifier "R1000210414001" ;
+    rico:title "제414회국회 국회본회의회의록 제 1 호"@ko .
+
+sdat1:R1000210414002 a rico:Record ;
+    skos:prefLabel "[R1000210414002] 21대 제414회 제2차 회의록"@ko ;
+    rico:classification "A" ;
+    rico:conditionsOfAccess "Open"@en,
+        "공개"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasContentOfType sdat1:text ;
+    rico:hasCreationDate sdat1:date-2024_05_28 ;
+    rico:hasOrHadLanguage sdat1:lang-kor ;
+    rico:hasOrHadLegalStatus sdat1:public ;
+    rico:identifier "R1000210414002" ;
+    rico:title "제414회국회 국회본회의회의록 제 2 호"@ko .
+
+sdat1:date-2024_02_22 a rico:Date ;
+    rico:expressedDate "2024년2월22일(목)"@ko ;
+    rico:hasDateType sdat1:singleDate ;
+    rico:identifier "date-2024_02_22" ;
+    rico:name "date-2024_02_22" ;
+    rico:normalizedDateValue "2024-02-22"^^xsd:date .
+
+sdat1:date-2024_02_23 a rico:Date ;
+    rico:expressedDate "2024년2월23일(금)"@ko ;
+    rico:hasDateType sdat1:singleDate ;
+    rico:identifier "date-2024_02_23" ;
+    rico:name "date-2024_02_23" ;
+    rico:normalizedDateValue "2024-02-23"^^xsd:date .
+
+sdat1:date-2024_02_29 a rico:Date ;
+    rico:expressedDate "2024년2월29일(목)"@ko ;
+    rico:hasDateType sdat1:singleDate ;
+    rico:identifier "date-2024_02_29" ;
+    rico:name "date-2024_02_29" ;
+    rico:normalizedDateValue "2024-02-29"^^xsd:date .
+
+sdat1:date-2024_05_02 a rico:Date ;
+    rico:expressedDate "2024년5월2일(목)"@ko ;
+    rico:hasDateType sdat1:singleDate ;
+    rico:identifier "date-2024_05_02" ;
+    rico:name "date-2024_05_02" ;
+    rico:normalizedDateValue "2024-05-02"^^xsd:date .
+
+sdat1:date-2024_05_28 a rico:Date ;
+    rico:expressedDate "2024년5월28일(화)"@ko ;
+    rico:hasDateType sdat1:singleDate ;
+    rico:identifier "date-2024_05_28" ;
+    rico:name "date-2024_05_28" ;
+    rico:normalizedDateValue "2024-05-28"^^xsd:date .
+
+
+
