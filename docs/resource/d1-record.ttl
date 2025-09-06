@@ -11,6 +11,8 @@
 
 
 
+# Individuals
+
 ## DateType
 nadat1:dateTypeScheme a skos:ConceptScheme ;
                 skos:prefLabel "Date Type"@en , "날짜 유형"@ko .
