@@ -69,7 +69,7 @@ sdat1:lang-kor a rico:LanguageType, skos:Concept ;
 
 
 
-### ActivityType
+## ActivityType
 sdat1:NAActivityType rdf:type skos:ConceptScheme ;
                 skos:prefLabel "National Assembly Activity Types"@en , "국회 활동 유형"@ko .
 
