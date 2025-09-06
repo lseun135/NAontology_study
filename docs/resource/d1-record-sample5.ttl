@@ -118,39 +118,6 @@ sdat1:INS-001 rdf:type rico:CorporateBody ;
 
 
 
-## 활동
-
-sdat1:ACT-M-53844 rdf:type rico:Activity ;
-                rdfs:comment "활동-회의-회의번호 순 임의의 식별코드 사용 /  추후 해당 회의의 부록과 연결될 가능성" ;
-                rdfs:label "[ACT-M-53844] 21대 국회 본회의 414회 2차" .
-
-
-
-## 기록
-
-sdat1:R1000210414002 rdf:type rico:Record ;
-                rico:documents sdat1:ACT-M-53844 ;
-                rico:hasCreator sdat1:PER-STF-001 ;
-                rdfs:label "[R100021414002] 21대 414회 제2차 회의록" .
-
-
-sdat1:F1000210414 rdf:type rico:RecordSet ;
-                rico:includesOrIncluded sdat1:R100021414002 ;
-                rdfs:label "[F100021414] 21대 414회 국회" ;
-                rico:name "제414회국회"@ko .
-
-sdat1:S100021 rdf:type rico:RecordSet ;
-                rico:includesOrIncluded sdat1:F100021414 ;
-                rico:name "제21대"@ko ;
-                rdfs:label "[S100021] 제21대" .
-
-
-nam1:A-SRG01 rico:includesOrIncluded sdat1:S100021 .
-
-
-
-
-
 
 sdat1:ACT-M-53804 a rico:Activity ;
     skos:prefLabel "[ACT-M-53804] 21대 국회 본회의 제413회 제4차"@ko ;
@@ -258,6 +225,9 @@ sdat1:ACT-M-53844 a rico:Activity ;
         nadat2:PER-TMP-00001,
         nadat2:PER-TMP-00002 ;
     rico:identifier "ACT-M-53844" .
+
+
+nam1:A-SRG01 rico:includesOrIncluded sdat1:S100021 .
 
 sdat1:S100021 a rico:RecordSet ;
     skos:prefLabel "[S100021] 21대 국회 본회의"@ko ;
