@@ -11,6 +11,28 @@
 
 
 
+## DateType
+nadat1:dateTypeScheme a skos:ConceptScheme ;
+                skos:prefLabel "Date Type"@en , "날짜 유형"@ko .
+
+nadat1:singleDate a rico:ContentType, skos:Concept ;
+                skos:prefLabel "Single Date"@en, "단일 날짜"@ko ;
+                skos:inScheme nadat1:dateTypeScheme .
+
+nadat1:dateRange a rico:ContentType, skos:Concept ;
+                skos:prefLabel "Date Range"@en, "날짜 범위"@ko ;
+                skos:inScheme nadat1:dateTypeScheme .
+
+nadat1:dateSet a rico:ContentType, skos:Concept ;
+                skos:prefLabel "Date Set"@en, "날짜 집합"@ko ;
+                skos:inScheme nadat1:dateTypeScheme .
+
+nadat1:year a rico:ContentType, skos:Concept ;
+                skos:prefLabel "Year"@en, "연도"@ko ;
+                skos:inScheme nadat1:dateTypeScheme .
+
+
+
 ## ContentType
 nadat1:contentTypeScheme a skos:ConceptScheme ;
                 skos:prefLabel "Content Type (local controlled list)"@en , "콘텐츠 유형 (내부 통제어휘)"@ko .
