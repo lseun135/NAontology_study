@@ -1,5 +1,6 @@
 @prefix nam3: <https://lseun135.github.io/NAontology_study/m3-content#> .
 
+@prefix opengov: <http://www.w3.org/ns/opengov#> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -44,13 +45,19 @@ schema:Legislation rdf:type owl:Class ;
                 rdfs:subClassOf schema:CreativeWork ;
                 skos:prefLabel "법률안"@ko .
 
-
 nam3:Motion rdf:type owl:Class ;
-                rdfs:subClassOf schema:CreativeWork
-                skos:prefLabel "발의안"@ko ;
+                owl:equivalentClass opengov:Motion ;
+                rdfs:subClassOf schema:CreativeWork ;
+                skos:prefLabel "절차"@ko ;
                 rdfs:comment "조직(organization)이 심의하도록 사안을 공식적으로 제안하는 절차"@ko .
 
+nam3:VoteEvent rdf:type owl:Class ;
+                owl:equivalentClass opengov:VoteEvent ;
+                skos:prefLabel "투표"@ko .
 
+nam3:Count rdf:type owl:Class ;
+                owl:equivalentClass opengov:Count ;
+                skos:prefLabel "득표수"@ko .
 
 
 
@@ -68,9 +75,15 @@ schema:audio rdf:type owl:ObjectProperty .    # 발언의 오디오 기록. rang
 schema:publisher rdf:type owl:ObjectProperty ;
                 rdfs:comment "발의안(motion)이 제안된 조직(organization)"@ko .
 
+schema:superEvent rdf:type owl:ObjectProperty . 
+
 dcterms:source rdf:type rdf:Property .        # 발언과 기록 연결 (엄밀히 말하면 ObjectProperty는 아니지만, 실무적으로는 ObjectProperty 사용)
 
 dcterms:subject rdfs:subPropertyOf schema:about .
+
+nam3:motion rdf:type owl:ObjectProperty ;
+                rdfs:comment "Motion클래스와 연결"@ko .
+
 
 
 
@@ -82,6 +95,9 @@ nam3:recordRole rdf:type owl:DatatypeProperty ;
    값: 구현에서는 ‘chair(의장)’, ‘speaker(발언자)’ 외의 값을 사용할 수도 있음
 • Popolo에선 :role을 사용하지만 org:role과 혼동 우려로 인해 이름 변경. 
    발화 상황에 국한하지 않고 해당 기록에서 그 인물이 수행한 역할명(직책)을 구현하도록 임의 설정"""@ko .
+
+nam3:count rdf:type owl:DatatypeProperty ;
+                rdfs:comment "득표수 표현, Count 클래스와 연결"@ko .
 
 
 schema:text rdf:type owl:DatatypeProperty ;        # 회의록의 경우, 발언의 원문 또는 기록 텍스트
