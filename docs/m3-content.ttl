@@ -61,11 +61,12 @@ schema:video rdf:type owl:ObjectProperty .    # 발언의 비디오 기록. rang
 
 schema:audio rdf:type owl:ObjectProperty .    # 발언의 오디오 기록. range: AudioObject / URL (추후 삭제)
 
-dcterms:source rdf:type rdf:Property .        # 발언과 기록 연결 (엄밀히 말하면 ObjectProperty는 아니지만, 실무적으로는 ObjectProperty 사용)
-
 schema:publisher rdf:type owl:ObjectProperty ;
                 rdfs:comment "발의안(motion)이 제안된 조직(organization)"@ko .
 
+dcterms:source rdf:type rdf:Property .        # 발언과 기록 연결 (엄밀히 말하면 ObjectProperty는 아니지만, 실무적으로는 ObjectProperty 사용)
+
+dcterms:subject rdfs:subPropertyOf schema:about .
 
 
 
