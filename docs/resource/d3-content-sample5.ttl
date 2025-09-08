@@ -6,6 +6,7 @@
 @prefix nam3: <https://lseun135.github.io/NAontology_study/m3-content#> .
 @prefix nadat2: <https://lseun135.github.io/NAontology_study/resource/d2-person#> .
 
+@prefix opengov: <http://www.w3.org/ns/opengov#> .
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
