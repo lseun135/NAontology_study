@@ -111,4 +111,3 @@ schema:position rdf:type owl:DatatypeProperty ;
 dcterms:date rdf:type owl:DatatypeProperty ;       # 발언이 이루어진 시점
                 rdfs:comment "해당 내용이 작성되거나 발언이 이루어진 시점"@ko .
 
-dcterms:identifier owl:DatatypeProperty .
