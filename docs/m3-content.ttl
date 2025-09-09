@@ -111,3 +111,93 @@ schema:position rdf:type owl:DatatypeProperty ;
 dcterms:date rdf:type owl:DatatypeProperty ;       # 발언이 이루어진 시점
                 rdfs:comment "해당 내용이 작성되거나 발언이 이루어진 시점"@ko .
 
+
+
+
+nam3:AdditionalTypeScheme a skos:ConceptScheme ;
+  dcterms:title   "Additional Type (Legislative Procedure) Vocabulary"@en ;
+  dcterms:title   "입법 절차 additionalType 통제어"@ko ;
+  dcterms:created "2025-09-09"^^xsd:date ;
+  rdfs:comment    "의안 심사 절차를 표현하기 위한 additionalType 통제어 목록"@ko .
+
+# ───── 일반 상임위원회 ─────
+nam3:committee_referral a skos:Concept ;
+  skos:inScheme nam3:AdditionalTypeScheme ;
+  skos:prefLabel "committee referral"@en ;
+  skos:prefLabel "상임위 회부"@ko ;
+  skos:notation  "committee_referral" .
+
+nam3:committee_agenda_placement a skos:Concept ;
+  skos:inScheme nam3:AdditionalTypeScheme ;
+  skos:prefLabel "committee agenda placement"@en ;
+  skos:prefLabel "상임위 상정"@ko ;
+  skos:notation  "committee_agenda_placement" .
+
+nam3:committee_review a skos:Concept ;
+  skos:inScheme nam3:AdditionalTypeScheme ;
+  skos:prefLabel "committee review"@en ;
+  skos:prefLabel "상임위 심사"@ko ;
+  skos:notation  "committee_review" .
+
+# ───── 법제사법위원회 ─────
+nam3:ljc_agenda_placement a skos:Concept ;
+  skos:inScheme nam3:AdditionalTypeScheme ;
+  skos:prefLabel "LJC agenda placement"@en ;
+  skos:prefLabel "법제사법위원회 상정"@ko ;
+  skos:notation  "ljc_agenda_placement" .
+
+nam3:ljc_review a skos:Concept ;
+  skos:inScheme nam3:AdditionalTypeScheme ;
+  skos:prefLabel "LJC review"@en ;
+  skos:prefLabel "법제사법위원회 심사(체계·자구)"@ko ;
+  skos:notation  "ljc_review" .
+
+# ───── 본회의/정부/공포 ─────
+nam3:plenary_agenda_placement a skos:Concept ;
+  skos:inScheme nam3:AdditionalTypeScheme ;
+  skos:prefLabel "plenary agenda placement"@en ;
+  skos:prefLabel "본회의 상정"@ko ;
+  skos:notation  "plenary_agenda_placement" .
+
+nam3:plenary_deliberation a skos:Concept ;
+  skos:inScheme nam3:AdditionalTypeScheme ;
+  skos:prefLabel "plenary deliberation"@en ;
+  skos:prefLabel "본회의 심의"@ko ;
+  skos:notation  "plenary_deliberation" .
+
+nam3:government_transmittal a skos:Concept ;
+  skos:inScheme nam3:AdditionalTypeScheme ;
+  skos:prefLabel "government transmittal"@en ;
+  skos:prefLabel "정부 이송"@ko ;
+  skos:notation  "government_transmittal" .
+
+nam3:promulgation a skos:Concept ;
+  skos:inScheme nam3:AdditionalTypeScheme ;
+  skos:prefLabel "promulgation"@en ;
+  skos:prefLabel "공포"@ko ;
+  skos:notation  "promulgation" .
+
+# ───── 예외 ─────
+nam3:reconsideration_request a skos:Concept ;
+  skos:inScheme nam3:AdditionalTypeScheme ;
+  skos:prefLabel "reconsideration request"@en ;
+  skos:prefLabel "재의요구(거부권)"@ko ;
+  skos:notation  "reconsideration_request" .
+
+nam3:reconsideration_vote a skos:Concept ;
+  skos:inScheme nam3:AdditionalTypeScheme ;
+  skos:prefLabel "reconsideration vote"@en ;
+  skos:prefLabel "재의 표결"@ko ;
+  skos:notation  "reconsideration_vote" .
+
+nam3:veto_override a skos:Concept ;
+  skos:inScheme nam3:AdditionalTypeScheme ;
+  skos:prefLabel "veto override"@en ;
+  skos:prefLabel "재의 가결"@ko ;
+  skos:notation  "veto_override" .
+
+nam3:alternative_bill_submission a skos:Concept ;
+  skos:inScheme nam3:AdditionalTypeScheme ;
+  skos:prefLabel "alternative bill submission"@en ;
+  skos:prefLabel "대안 발의"@ko ;
+  skos:notation  "alternative_bill_submission" .
