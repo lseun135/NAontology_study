@@ -82,9 +82,9 @@ dcterms:source rdf:type rdf:Property .        # 발언과 기록 연결 (엄밀�
 
 dcterms:subject rdfs:subPropertyOf schema:about .
 
-nam3:motion rdf:type owl:ObjectProperty ;
-                rdfs:comment "Motion클래스와 연결"@ko .
-
+nam3:voteEvent rdf:type owl:ObjectProperty ;
+               rdfs:domain nam3:Motion ;
+               rdfs:range  nam3:VoteEvent .
 
 
 
