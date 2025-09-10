@@ -215,11 +215,11 @@ nam3:alternative_bill_submission a skos:Concept ;
 nam3:ResultScheme a skos:ConceptScheme ;
                 skos:prefLabel "Result Scheme"@en , "결과 스키마"@ko .
 
-nam3:resultPassed a nam3:Result, skos:Concept ;
+nam3:resultAdopted a nam3:Result, skos:Concept ;
                 skos:inScheme nam3:ResultScheme ;
-                skos:prefLabel "Passed"@en , "가결"@ko ;
-                skos:altLabel  "Adopted"@en , "Passage"@en , "통과"@ko ;
-                skos:definition "The motion/bill is passed by the assembly (adopted)."@en .
+                skos:prefLabel "Adopted"@en , "가결"@ko ;
+                skos:altLabel  "Passed"@en , "Passage"@en , "통과"@ko ;
+                skos:definition "The motion/bill is adopted by the assembly (passed)."@en .
 
 nam3:resultAdoptedOriginal a skos:Concept ;
                 skos:broader nam3:resultAdopted ;
@@ -231,7 +231,7 @@ nam3:resultAdoptedAmended a skos:Concept ;
                 skos:prefLabel "Adopted (as amended)"@en , "수정가결"@ko ;
                 skos:altLabel  "Passed with amendments"@en .
 
-nam3:resultRejected a opengov:Result, skos:Concept ;
+nam3:resultRejected a skos:Concept ;
                 skos:inScheme nam3:ResultScheme ;
                 skos:prefLabel "Rejected"@en , "부결"@ko ;
                 skos:altLabel  "Defeated"@en ;
