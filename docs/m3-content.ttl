@@ -67,8 +67,6 @@ nam3:Result rdf:type owl:Class ;
 
 # Object Properties
 
-bf:event rdf:type owl:ObjectProperty .        # 발언이 이루어진 사건
-
 schema:creator rdf:type owl:ObjectProperty ; 
                 rdfs:comment "발화(speech)를 한 사람 / 동의안(motion)을 제안한 사람"@ko .
 
@@ -158,11 +156,11 @@ nam3:ljc_review a skos:Concept ;
   skos:notation  "ljc_review" .
 
 # 본회의/정부/공포
-nam3:plenary_agenda_placement a skos:Concept ;
+nam3:plenary_agenda_placement a skos:Concept ;   # 생략
   skos:inScheme nam3:AdditionalTypeScheme ;
   skos:prefLabel "plenary agenda placement"@en ;
   skos:prefLabel "본회의 상정"@ko ;
-  skos:notation  "plenary_agenda_placement" .
+  skos:notation  "plenary_agenda_placement" .    
 
 nam3:plenary_deliberation a skos:Concept ;
   skos:inScheme nam3:AdditionalTypeScheme ;
@@ -210,10 +208,21 @@ nam3:alternative_bill_submission a skos:Concept ;
 
 # nam3:ResultScheme: 결과 
 nam3:ResultScheme a skos:ConceptScheme ;
+                skos:hasTopConcept nam3:pass, nam3:fail
                 skos:prefLabel "Result Scheme"@en , "결과 스키마"@ko .
+
+nam3:pass a nam3:Result, skos:Concept ;
+                skos:inScheme nam3:ResultScheme ;
+                skos:altLabel  "Passed"@en , "Passage"@en , "통과"@ko .
+
+nam3:fail a nam3:Result, skos:Concept ;
+                skos:inScheme nam3:ResultScheme ;
+                skos:altLabel  "Failed"@en , "실패"@ko .
+
 
 nam3:resultAdopted a nam3:Result, skos:Concept ;
                 skos:inScheme nam3:ResultScheme ;
+                skos:broader nam3:pass ;
                 skos:prefLabel "Adopted"@en , "가결"@ko ;
                 skos:altLabel  "Passed"@en , "Passage"@en , "통과"@ko ;
                 skos:definition "The motion/bill is adopted by the assembly (passed)."@en .
@@ -230,6 +239,7 @@ nam3:resultAdoptedAmended a skos:Concept ;
 
 nam3:resultRejected a skos:Concept ;
                 skos:inScheme nam3:ResultScheme ;
+                skos:broader nam3:fail ;
                 skos:prefLabel "Rejected"@en , "부결"@ko ;
                 skos:altLabel  "Defeated"@en ;
                 skos:definition "The motion/bill is not adopted (defeated/rejected)."@en .
