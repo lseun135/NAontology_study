@@ -61,6 +61,8 @@ nam3:Count rdf:type owl:Class ;
                 owl:equivalentClass opengov:Count ;
                 skos:prefLabel "득표수"@ko .
 
+nam3:Result rdf:type owl:Class ;
+                skos:prefLabel "결과"@ko .
 
 
 # Object Properties
@@ -126,7 +128,7 @@ nam3:AdditionalTypeScheme a skos:ConceptScheme ;
   dcterms:created "2025-09-09"^^xsd:date ;
   rdfs:comment    "의안 심사 절차를 표현하기 위한 additionalType 통제어 목록"@ko .
 
-# ───── 일반 상임위원회 ─────
+# 일반 상임위원회
 nam3:committee_referral a skos:Concept ;
   skos:inScheme nam3:AdditionalTypeScheme ;
   skos:prefLabel "committee referral"@en ;
@@ -145,7 +147,7 @@ nam3:committee_review a skos:Concept ;
   skos:prefLabel "상임위 심사"@ko ;
   skos:notation  "committee_review" .
 
-# ───── 법제사법위원회 ─────
+# 법제사법위원회
 nam3:ljc_agenda_placement a skos:Concept ;
   skos:inScheme nam3:AdditionalTypeScheme ;
   skos:prefLabel "LJC agenda placement"@en ;
@@ -158,7 +160,7 @@ nam3:ljc_review a skos:Concept ;
   skos:prefLabel "법제사법위원회 심사(체계·자구)"@ko ;
   skos:notation  "ljc_review" .
 
-# ───── 본회의/정부/공포 ─────
+# 본회의/정부/공포
 nam3:plenary_agenda_placement a skos:Concept ;
   skos:inScheme nam3:AdditionalTypeScheme ;
   skos:prefLabel "plenary agenda placement"@en ;
@@ -183,7 +185,7 @@ nam3:promulgation a skos:Concept ;
   skos:prefLabel "공포"@ko ;
   skos:notation  "promulgation" .
 
-# ───── 예외 ─────
+# 예외
 nam3:reconsideration_request a skos:Concept ;
   skos:inScheme nam3:AdditionalTypeScheme ;
   skos:prefLabel "reconsideration request"@en ;
@@ -207,3 +209,33 @@ nam3:alternative_bill_submission a skos:Concept ;
   skos:prefLabel "alternative bill submission"@en ;
   skos:prefLabel "대안 발의"@ko ;
   skos:notation  "alternative_bill_submission" .
+
+
+# nam3:ResultScheme: 결과 
+nam3:ResultScheme a skos:ConceptScheme ;
+                skos:prefLabel "Result Scheme"@en , "결과 스키마"@ko .
+
+nam3:resultPassed a nam3:Result, skos:Concept ;
+                skos:inScheme nam3:ResultScheme ;
+                skos:prefLabel "Passed"@en , "가결"@ko ;
+                skos:altLabel  "Adopted"@en , "Passage"@en , "통과"@ko ;
+                skos:definition "The motion/bill is passed by the assembly (adopted)."@en .
+
+nam3:resultAdoptedOriginal a skos:Concept ;
+                skos:broader nam3:resultAdopted ;
+                skos:prefLabel "Adopted (as introduced)"@en , "원안가결"@ko ;
+                skos:altLabel  "Passed as introduced"@en .
+
+nam3:resultAdoptedAmended a skos:Concept ;
+                skos:broader nam3:resultAdopted ;
+                skos:prefLabel "Adopted (as amended)"@en , "수정가결"@ko ;
+                skos:altLabel  "Passed with amendments"@en .
+
+nam3:resultRejected a opengov:Result, skos:Concept ;
+                skos:inScheme nam3:ResultScheme ;
+                skos:prefLabel "Rejected"@en , "부결"@ko ;
+                skos:altLabel  "Defeated"@en ;
+                skos:definition "The motion/bill is not adopted (defeated/rejected)."@en .
+
+
+
