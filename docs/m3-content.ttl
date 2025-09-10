@@ -58,7 +58,6 @@ nam3:VoteEvent rdf:type owl:Class ;
                 skos:prefLabel "투표"@ko .
 
 nam3:Count rdf:type owl:Class ;
-                owl:equivalentClass opengov:Count ;
                 skos:prefLabel "득표수"@ko .
 
 nam3:Result rdf:type owl:Class ;
