@@ -54,6 +54,7 @@ nam3:Motion rdf:type owl:Class ;
 
 nam3:VoteEvent rdf:type owl:Class ;
                 owl:equivalentClass opengov:VoteEvent ;
+                rdfs:subClassOf schema:Event ;
                 skos:prefLabel "투표"@ko .
 
 nam3:Count rdf:type owl:Class ;
@@ -85,6 +86,11 @@ dcterms:subject rdfs:subPropertyOf schema:about .
 nam3:voteEvent rdf:type owl:ObjectProperty ;
                rdfs:domain nam3:Motion ;
                rdfs:range  nam3:VoteEvent .
+
+nam3:count a owl:ObjectProperty ;
+                rdfs:domain nam3:VoteEvent ;
+                rdfs:range  nam3:Count ;
+                rdfs:comment "득표수를 나타내는 Count 블랭크 노드와 연결"@ko .
 
 
 
