@@ -136,13 +136,13 @@ nadat2:Period-240530-280529 rdf:type owl:NamedIndividual ,
 
 ## Institution
 
-nadat2:NationalAssembly rdf:type org:Organization , nam2:Institution ;
+nadat2:NationalAssembly rdf:type org:FormalOrganization , nam2:Institution ;
                 rdfs:label "국회" ;
                 rdfs:seeAlso "https://www.assembly.go.kr"^^xsd:anyURI ;
                 skos:altLabel "국회"@ko ;
                 skos:prefLabel "대한민국 국회"@ko .
 
-nadat2:NABudgetOffice rdf:type org:OrganizationalUnit , nam2:Institution ;
+nadat2:NABudgetOffice rdf:type org:FormalOrganization , nam2:Institution ;
                 org:subOrganizationOf nadat2:NationalAssembly ;
                 rdfs:label "국회예산정책처"@ko ;
                 rdfs:seeAlso "https://www.nabo.go.kr"^^xsd:anyURI ;
@@ -150,12 +150,11 @@ nadat2:NABudgetOffice rdf:type org:OrganizationalUnit , nam2:Institution ;
                 skos:prefLabel "National Assembly Budget Office"@en ,
                                "국회예산정책처"@ko .
 
-nadat2:NALibrary rdf:type org:OrganizationalUnit , nam2:Institution ;
+nadat2:NALibrary rdf:type org:FormalOrganization , nam2:Institution ;
                 org:subOrganizationOf nadat2:NationalAssembly ;
                 rdfs:label "국회도서관"@ko ;
                 rdfs:seeAlso "https://www.nanet.go.kr"^^xsd:anyURI ;
-                skos:prefLabel "National Assembly Library"@en ,
-                               "국회도서관"@ko .
+                skos:prefLabel "National Assembly Library"@en , "국회도서관"@ko .
 
 nadat2:NAArchives rdf:type org:OrganizationalUnit , nam2:Institution ;
                 org:subOrganizationOf nadat2:NALibrary ;
@@ -165,16 +164,16 @@ nadat2:NAArchives rdf:type org:OrganizationalUnit , nam2:Institution ;
                 skos:prefLabel "National Assembly Archives"@en ,
                                "국회기록보존소"@ko .
 
-nadat2:NAFuturesInstitute rdf:type org:OrganizationalUnit , nam2:Institution ;
-                org:subOrganizationOf nadat2:NationalAssembly ;
-                rdfs:label "국회미래연구원" ;
-                rdfs:seeAlso "https://www.nafi.re.kr"^^xsd:anyURI ;
-                rdfs:comment "국회 조직도엔 존재하지 않는데(별도?) 소관기관목록에는 존재 →수정 필요할지 재확인 필요" ;
-                skos:altLabel "NAFI"@en ;
-                skos:prefLabel "National Assembly Futures Institute"@en ,
-                               "국회미래연구원"@ko .
+# nadat2:NAFuturesInstitute rdf:type org:OrganizationalUnit , nam2:Institution ;
+#                org:subOrganizationOf nadat2:NationalAssembly ;
+#                rdfs:label "국회미래연구원" ;
+#                rdfs:seeAlso "https://www.nafi.re.kr"^^xsd:anyURI ;
+#                rdfs:comment "국회 조직도엔 존재하지 않는데(별도?) 소관기관목록에는 존재 →수정 필요할지 재확인 필요" ;
+#                skos:altLabel "NAFI"@en ;
+#                skos:prefLabel "National Assembly Futures Institute"@en ,
+#                               "국회미래연구원"@ko .
 
-nadat2:NAResearchService rdf:type org:OrganizationalUnit , nam2:Institution ;
+nadat2:NAResearchService rdf:type org:FormalOrganization , nam2:Institution ;
                 org:subOrganizationOf nadat2:NationalAssembly ;
                 rdfs:label "국회입법조사처"@ko ;
                 rdfs:seeAlso "https://www.nars.go.kr"^^xsd:anyURI ;
