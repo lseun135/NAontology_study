@@ -24,7 +24,6 @@
 
 
 
-
 nadat1:ACT-M-50024 a rico:Activity ;
     skos:prefLabel "[ACT-M-50024] 21대 국회 본회의 제379회 제1차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
@@ -35,13 +34,15 @@ nadat1:ACT-M-50024 a rico:Activity ;
         nadat2:PER-LM-UGH6481E,
         nadat2:PER-TMP-00001,
         nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-50024" .
+    rico:identifier "ACT-M-50024" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50025 a rico:Activity ;
     skos:prefLabel "[ACT-M-50025] 21대 국회 본회의 제379회 제2차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L ;
-    rico:identifier "ACT-M-50025" .
+    rico:identifier "ACT-M-50025" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50026 a rico:Activity ;
     skos:prefLabel "[ACT-M-50026] 21대 국회 본회의 제379회 제4차"@ko ;
@@ -49,14 +50,16 @@ nadat1:ACT-M-50026 a rico:Activity ;
     rico:hasOrHadParticipant nadat2:PER-LM-5765663F,
         nadat2:PER-LM-9D939735,
         nadat2:PER-LM-BLC8630L ;
-    rico:identifier "ACT-M-50026" .
+    rico:identifier "ACT-M-50026" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50027 a rico:Activity ;
     skos:prefLabel "[ACT-M-50027] 21대 국회 본회의 제379회 제3차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-5765663F,
         nadat2:PER-LM-BLC8630L ;
-    rico:identifier "ACT-M-50027" .
+    rico:identifier "ACT-M-50027" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50028 a rico:Activity ;
     skos:prefLabel "[ACT-M-50028] 21대 국회 본회의 제379회 제5차"@ko ;
@@ -71,7 +74,8 @@ nadat1:ACT-M-50028 a rico:Activity ;
         nadat2:PER-LM-XA42275R,
         nadat2:PER-LM-XPP2564T,
         nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-50028" .
+    rico:identifier "ACT-M-50028" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50029 a rico:Activity ;
     skos:prefLabel "[ACT-M-50029] 21대 국회 본회의 제379회 제6차"@ko ;
@@ -91,7 +95,8 @@ nadat1:ACT-M-50029 a rico:Activity ;
         nadat2:PER-TMP-00002,
         nadat2:PER-TMP-00003,
         nadat2:PER-TMP-00004 ;
-    rico:identifier "ACT-M-50029" .
+    rico:identifier "ACT-M-50029" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50051 a rico:Activity ;
     skos:prefLabel "[ACT-M-50051] 21대 국회 본회의 제379회 제7차"@ko ;
@@ -103,7 +108,8 @@ nadat1:ACT-M-50051 a rico:Activity ;
         nadat2:PER-LM-V429892C,
         nadat2:PER-TMP-00004,
         nadat2:PER-TMP-00005 ;
-    rico:identifier "ACT-M-50051" .
+    rico:identifier "ACT-M-50051" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50057 a rico:Activity ;
     skos:prefLabel "[ACT-M-50057] 21대 국회 본회의 제380회 제1차"@ko ;
@@ -111,7 +117,8 @@ nadat1:ACT-M-50057 a rico:Activity ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-LM-BM63269Y,
         nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-50057" .
+    rico:identifier "ACT-M-50057" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50058 a rico:Activity ;
     skos:prefLabel "[ACT-M-50058] 21대 국회 본회의 제380회 제0차"@ko ;
@@ -119,7 +126,8 @@ nadat1:ACT-M-50058 a rico:Activity ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-TMP-00006,
         nadat2:PER-TMP-00007 ;
-    rico:identifier "ACT-M-50058" .
+    rico:identifier "ACT-M-50058" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50060 a rico:Activity ;
     skos:prefLabel "[ACT-M-50060] 21대 국회 본회의 제380회 제2차"@ko ;
@@ -127,7 +135,8 @@ nadat1:ACT-M-50060 a rico:Activity ;
     rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
         nadat2:PER-LM-5765663F,
         nadat2:PER-LM-BLC8630L ;
-    rico:identifier "ACT-M-50060" .
+    rico:identifier "ACT-M-50060" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50063 a rico:Activity ;
     skos:prefLabel "[ACT-M-50063] 21대 국회 본회의 제380회 제3차"@ko ;
@@ -135,7 +144,8 @@ nadat1:ACT-M-50063 a rico:Activity ;
     rico:hasOrHadParticipant nadat2:PER-LM-8SV6917G,
         nadat2:PER-LM-BLC8630L,
         nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-50063" .
+    rico:identifier "ACT-M-50063" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50065 a rico:Activity ;
     skos:prefLabel "[ACT-M-50065] 21대 국회 본회의 제380회 제4차"@ko ;
@@ -160,7 +170,8 @@ nadat1:ACT-M-50065 a rico:Activity ;
         nadat2:PER-TMP-00010,
         nadat2:PER-TMP-00011,
         nadat2:PER-TMP-00012 ;
-    rico:identifier "ACT-M-50065" .
+    rico:identifier "ACT-M-50065" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50067 a rico:Activity ;
     skos:prefLabel "[ACT-M-50067] 21대 국회 본회의 제380회 제5차"@ko ;
@@ -186,7 +197,8 @@ nadat1:ACT-M-50067 a rico:Activity ;
         nadat2:PER-TMP-00014,
         nadat2:PER-TMP-00015,
         nadat2:PER-TMP-00016 ;
-    rico:identifier "ACT-M-50067" .
+    rico:identifier "ACT-M-50067" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50070 a rico:Activity ;
     skos:prefLabel "[ACT-M-50070] 21대 국회 본회의 제380회 제6차"@ko ;
@@ -213,7 +225,8 @@ nadat1:ACT-M-50070 a rico:Activity ;
         nadat2:PER-TMP-00021,
         nadat2:PER-TMP-00022,
         nadat2:PER-TMP-00023 ;
-    rico:identifier "ACT-M-50070" .
+    rico:identifier "ACT-M-50070" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50081 a rico:Activity ;
     skos:prefLabel "[ACT-M-50081] 21대 국회 본회의 제380회 제7차"@ko ;
@@ -226,7 +239,8 @@ nadat1:ACT-M-50081 a rico:Activity ;
         nadat2:PER-LM-WMG57662,
         nadat2:PER-LM-YLS4431M,
         nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-50081" .
+    rico:identifier "ACT-M-50081" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50098 a rico:Activity ;
     skos:prefLabel "[ACT-M-50098] 21대 국회 본회의 제380회 제8차"@ko ;
@@ -259,21 +273,24 @@ nadat1:ACT-M-50098 a rico:Activity ;
         nadat2:PER-LM-UGH6481E,
         nadat2:PER-LM-ZDR63255,
         nadat2:PER-LM-ZKU88693 ;
-    rico:identifier "ACT-M-50098" .
+    rico:identifier "ACT-M-50098" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50130 a rico:Activity ;
     skos:prefLabel "[ACT-M-50130] 21대 국회 본회의 제382회 제1차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-9D939735,
         nadat2:PER-LM-BLC8630L ;
-    rico:identifier "ACT-M-50130" .
+    rico:identifier "ACT-M-50130" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50131 a rico:Activity ;
     skos:prefLabel "[ACT-M-50131] 21대 국회 본회의 제382회 제0차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-50131" .
+    rico:identifier "ACT-M-50131" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50157 a rico:Activity ;
     skos:prefLabel "[ACT-M-50157] 21대 국회 본회의 제382회 제2차"@ko ;
@@ -283,14 +300,16 @@ nadat1:ACT-M-50157 a rico:Activity ;
         nadat2:PER-LM-HSS7466Y,
         nadat2:PER-LM-XEF29171,
         nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-50157" .
+    rico:identifier "ACT-M-50157" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50166 a rico:Activity ;
     skos:prefLabel "[ACT-M-50166] 21대 국회 본회의 제382회 제3차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-8SV6917G,
         nadat2:PER-LM-BLC8630L ;
-    rico:identifier "ACT-M-50166" .
+    rico:identifier "ACT-M-50166" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50185 a rico:Activity ;
     skos:prefLabel "[ACT-M-50185] 21대 국회 본회의 제382회 제4차"@ko ;
@@ -311,7 +330,8 @@ nadat1:ACT-M-50185 a rico:Activity ;
         nadat2:PER-TMP-00004,
         nadat2:PER-TMP-00010,
         nadat2:PER-TMP-00012 ;
-    rico:identifier "ACT-M-50185" .
+    rico:identifier "ACT-M-50185" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50187 a rico:Activity ;
     skos:prefLabel "[ACT-M-50187] 21대 국회 본회의 제382회 제5차"@ko ;
@@ -334,7 +354,8 @@ nadat1:ACT-M-50187 a rico:Activity ;
         nadat2:PER-TMP-00004,
         nadat2:PER-TMP-00008,
         nadat2:PER-TMP-00011 ;
-    rico:identifier "ACT-M-50187" .
+    rico:identifier "ACT-M-50187" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50196 a rico:Activity ;
     skos:prefLabel "[ACT-M-50196] 21대 국회 본회의 제382회 제6차"@ko ;
@@ -361,7 +382,8 @@ nadat1:ACT-M-50196 a rico:Activity ;
         nadat2:PER-TMP-00024,
         nadat2:PER-TMP-00025,
         nadat2:PER-TMP-00026 ;
-    rico:identifier "ACT-M-50196" .
+    rico:identifier "ACT-M-50196" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50202 a rico:Activity ;
     skos:prefLabel "[ACT-M-50202] 21대 국회 본회의 제382회 제7차"@ko ;
@@ -384,7 +406,8 @@ nadat1:ACT-M-50202 a rico:Activity ;
         nadat2:PER-TMP-00021,
         nadat2:PER-TMP-00027,
         nadat2:PER-TMP-00028 ;
-    rico:identifier "ACT-M-50202" .
+    rico:identifier "ACT-M-50202" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50228 a rico:Activity ;
     skos:prefLabel "[ACT-M-50228] 21대 국회 본회의 제382회 제8차"@ko ;
@@ -396,7 +419,8 @@ nadat1:ACT-M-50228 a rico:Activity ;
         nadat2:PER-LM-V429892C,
         nadat2:PER-TMP-00002,
         nadat2:PER-TMP-00005 ;
-    rico:identifier "ACT-M-50228" .
+    rico:identifier "ACT-M-50228" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50246 a rico:Activity ;
     skos:prefLabel "[ACT-M-50246] 21대 국회 본회의 제382회 제9차"@ko ;
@@ -424,7 +448,8 @@ nadat1:ACT-M-50246 a rico:Activity ;
         nadat2:PER-LM-TZP9391O,
         nadat2:PER-LM-UGH6481E,
         nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-50246" .
+    rico:identifier "ACT-M-50246" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50326 a rico:Activity ;
     skos:prefLabel "[ACT-M-50326] 21대 국회 본회의 제382회 제10차"@ko ;
@@ -432,7 +457,8 @@ nadat1:ACT-M-50326 a rico:Activity ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-TMP-00002,
         nadat2:PER-TMP-00007 ;
-    rico:identifier "ACT-M-50326" .
+    rico:identifier "ACT-M-50326" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50331 a rico:Activity ;
     skos:prefLabel "[ACT-M-50331] 21대 국회 본회의 제382회 제11차"@ko ;
@@ -442,7 +468,8 @@ nadat1:ACT-M-50331 a rico:Activity ;
         nadat2:PER-TMP-00002,
         nadat2:PER-TMP-00010,
         nadat2:PER-TMP-00029 ;
-    rico:identifier "ACT-M-50331" .
+    rico:identifier "ACT-M-50331" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50480 a rico:Activity ;
     skos:prefLabel "[ACT-M-50480] 21대 국회 본회의 제382회 제12차"@ko ;
@@ -470,7 +497,8 @@ nadat1:ACT-M-50480 a rico:Activity ;
         nadat2:PER-LM-XEF29171,
         nadat2:PER-TMP-00002,
         nadat2:PER-TMP-00027 ;
-    rico:identifier "ACT-M-50480" .
+    rico:identifier "ACT-M-50480" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50574 a rico:Activity ;
     skos:prefLabel "[ACT-M-50574] 21대 국회 본회의 제382회 제13차"@ko ;
@@ -488,7 +516,8 @@ nadat1:ACT-M-50574 a rico:Activity ;
         nadat2:PER-LM-TKJ4800F,
         nadat2:PER-LM-WCD5518S,
         nadat2:PER-LM-X1K3667J ;
-    rico:identifier "ACT-M-50574" .
+    rico:identifier "ACT-M-50574" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50596 a rico:Activity ;
     skos:prefLabel "[ACT-M-50596] 21대 국회 본회의 제382회 제14차"@ko ;
@@ -518,7 +547,8 @@ nadat1:ACT-M-50596 a rico:Activity ;
         nadat2:PER-LM-ZYP7962W,
         nadat2:PER-TMP-00004,
         nadat2:PER-TMP-00005 ;
-    rico:identifier "ACT-M-50596" .
+    rico:identifier "ACT-M-50596" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50655 a rico:Activity ;
     skos:prefLabel "[ACT-M-50655] 21대 국회 본회의 제382회 제15차"@ko ;
@@ -554,7 +584,8 @@ nadat1:ACT-M-50655 a rico:Activity ;
         nadat2:PER-LM-X7I4680R,
         nadat2:PER-LM-XEF29171,
         nadat2:PER-TMP-00028 ;
-    rico:identifier "ACT-M-50655" .
+    rico:identifier "ACT-M-50655" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50660 a rico:Activity ;
     skos:prefLabel "[ACT-M-50660] 21대 국회 본회의 제383회 제1차"@ko ;
@@ -588,7 +619,8 @@ nadat1:ACT-M-50660 a rico:Activity ;
         nadat2:PER-LM-XJC13432,
         nadat2:PER-LM-ZKU88693,
         nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-50660" .
+    rico:identifier "ACT-M-50660" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50719 a rico:Activity ;
     skos:prefLabel "[ACT-M-50719] 21대 국회 본회의 제383회 제2차"@ko ;
@@ -627,14 +659,16 @@ nadat1:ACT-M-50719 a rico:Activity ;
         nadat2:PER-TMP-00032,
         nadat2:PER-TMP-00033,
         nadat2:PER-TMP-00034 ;
-    rico:identifier "ACT-M-50719" .
+    rico:identifier "ACT-M-50719" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50743 a rico:Activity ;
     skos:prefLabel "[ACT-M-50743] 21대 국회 본회의 제384회 제0차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-50743" .
+    rico:identifier "ACT-M-50743" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50744 a rico:Activity ;
     skos:prefLabel "[ACT-M-50744] 21대 국회 본회의 제384회 제1차"@ko ;
@@ -643,7 +677,8 @@ nadat1:ACT-M-50744 a rico:Activity ;
         nadat2:PER-LM-7R156073,
         nadat2:PER-LM-BLC8630L,
         nadat2:PER-LM-XPP2564T ;
-    rico:identifier "ACT-M-50744" .
+    rico:identifier "ACT-M-50744" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50745 a rico:Activity ;
     skos:prefLabel "[ACT-M-50745] 21대 국회 본회의 제384회 제2차"@ko ;
@@ -651,14 +686,16 @@ nadat1:ACT-M-50745 a rico:Activity ;
     rico:hasOrHadParticipant nadat2:PER-LM-0767470D,
         nadat2:PER-LM-BLC8630L,
         nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-50745" .
+    rico:identifier "ACT-M-50745" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50747 a rico:Activity ;
     skos:prefLabel "[ACT-M-50747] 21대 국회 본회의 제384회 제3차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-8SV6917G,
         nadat2:PER-LM-BLC8630L ;
-    rico:identifier "ACT-M-50747" .
+    rico:identifier "ACT-M-50747" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50752 a rico:Activity ;
     skos:prefLabel "[ACT-M-50752] 21대 국회 본회의 제384회 제4차"@ko ;
@@ -687,7 +724,8 @@ nadat1:ACT-M-50752 a rico:Activity ;
         nadat2:PER-TMP-00004,
         nadat2:PER-TMP-00008,
         nadat2:PER-TMP-00029 ;
-    rico:identifier "ACT-M-50752" .
+    rico:identifier "ACT-M-50752" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50755 a rico:Activity ;
     skos:prefLabel "[ACT-M-50755] 21대 국회 본회의 제384회 제5차"@ko ;
@@ -711,7 +749,8 @@ nadat1:ACT-M-50755 a rico:Activity ;
         nadat2:PER-TMP-00015,
         nadat2:PER-TMP-00027,
         nadat2:PER-TMP-00032 ;
-    rico:identifier "ACT-M-50755" .
+    rico:identifier "ACT-M-50755" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50757 a rico:Activity ;
     skos:prefLabel "[ACT-M-50757] 21대 국회 본회의 제384회 제6차"@ko ;
@@ -736,7 +775,8 @@ nadat1:ACT-M-50757 a rico:Activity ;
         nadat2:PER-TMP-00017,
         nadat2:PER-TMP-00021,
         nadat2:PER-TMP-00035 ;
-    rico:identifier "ACT-M-50757" .
+    rico:identifier "ACT-M-50757" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50831 a rico:Activity ;
     skos:prefLabel "[ACT-M-50831] 21대 국회 본회의 제384회 제7차"@ko ;
@@ -777,14 +817,16 @@ nadat1:ACT-M-50831 a rico:Activity ;
         nadat2:PER-LM-XA42275R,
         nadat2:PER-TMP-00002,
         nadat2:PER-TMP-00036 ;
-    rico:identifier "ACT-M-50831" .
+    rico:identifier "ACT-M-50831" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50855 a rico:Activity ;
     skos:prefLabel "[ACT-M-50855] 21대 국회 본회의 제385회 제1차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-TMP-00004 ;
-    rico:identifier "ACT-M-50855" .
+    rico:identifier "ACT-M-50855" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50924 a rico:Activity ;
     skos:prefLabel "[ACT-M-50924] 21대 국회 본회의 제385회 제2차"@ko ;
@@ -812,7 +854,8 @@ nadat1:ACT-M-50924 a rico:Activity ;
         nadat2:PER-LM-VRY5522V,
         nadat2:PER-TMP-00002,
         nadat2:PER-TMP-00028 ;
-    rico:identifier "ACT-M-50924" .
+    rico:identifier "ACT-M-50924" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50930 a rico:Activity ;
     skos:prefLabel "[ACT-M-50930] 21대 국회 본회의 제385회 제3차"@ko ;
@@ -823,7 +866,8 @@ nadat1:ACT-M-50930 a rico:Activity ;
         nadat2:PER-LM-V429892C,
         nadat2:PER-TMP-00004,
         nadat2:PER-TMP-00005 ;
-    rico:identifier "ACT-M-50930" .
+    rico:identifier "ACT-M-50930" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50951 a rico:Activity ;
     skos:prefLabel "[ACT-M-50951] 21대 국회 본회의 제386회 제1차"@ko ;
@@ -847,7 +891,8 @@ nadat1:ACT-M-50951 a rico:Activity ;
         nadat2:PER-TMP-00005,
         nadat2:PER-TMP-00029,
         nadat2:PER-TMP-00036 ;
-    rico:identifier "ACT-M-50951" .
+    rico:identifier "ACT-M-50951" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50952 a rico:Activity ;
     skos:prefLabel "[ACT-M-50952] 21대 국회 본회의 제386회 제2차"@ko ;
@@ -867,7 +912,8 @@ nadat1:ACT-M-50952 a rico:Activity ;
         nadat2:PER-TMP-00005,
         nadat2:PER-TMP-00015,
         nadat2:PER-TMP-00026 ;
-    rico:identifier "ACT-M-50952" .
+    rico:identifier "ACT-M-50952" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-50958 a rico:Activity ;
     skos:prefLabel "[ACT-M-50958] 21대 국회 본회의 제386회 제3차"@ko ;
@@ -889,7 +935,8 @@ nadat1:ACT-M-50958 a rico:Activity ;
         nadat2:PER-TMP-00005,
         nadat2:PER-TMP-00021,
         nadat2:PER-TMP-00030 ;
-    rico:identifier "ACT-M-50958" .
+    rico:identifier "ACT-M-50958" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51003 a rico:Activity ;
     skos:prefLabel "[ACT-M-51003] 21대 국회 본회의 제386회 제4차"@ko ;
@@ -911,7 +958,8 @@ nadat1:ACT-M-51003 a rico:Activity ;
         nadat2:PER-LM-ZDP5704Q,
         nadat2:PER-TMP-00002,
         nadat2:PER-TMP-00028 ;
-    rico:identifier "ACT-M-51003" .
+    rico:identifier "ACT-M-51003" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51024 a rico:Activity ;
     skos:prefLabel "[ACT-M-51024] 21대 국회 본회의 제387회 제1차"@ko ;
@@ -921,7 +969,8 @@ nadat1:ACT-M-51024 a rico:Activity ;
         nadat2:PER-LM-G152611B,
         nadat2:PER-LM-H5476989,
         nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-51024" .
+    rico:identifier "ACT-M-51024" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51032 a rico:Activity ;
     skos:prefLabel "[ACT-M-51032] 21대 국회 본회의 제387회 제2차"@ko ;
@@ -952,7 +1001,8 @@ nadat1:ACT-M-51032 a rico:Activity ;
         nadat2:PER-TMP-00038,
         nadat2:PER-TMP-00039,
         nadat2:PER-TMP-00040 ;
-    rico:identifier "ACT-M-51032" .
+    rico:identifier "ACT-M-51032" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51059 a rico:Activity ;
     skos:prefLabel "[ACT-M-51059] 21대 국회 본회의 제388회 제1차"@ko ;
@@ -960,14 +1010,16 @@ nadat1:ACT-M-51059 a rico:Activity ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-LM-H5476989,
         nadat2:PER-LM-PAO22428 ;
-    rico:identifier "ACT-M-51059" .
+    rico:identifier "ACT-M-51059" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51062 a rico:Activity ;
     skos:prefLabel "[ACT-M-51062] 21대 국회 본회의 제388회 제2차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-LM-X7I4680R ;
-    rico:identifier "ACT-M-51062" .
+    rico:identifier "ACT-M-51062" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51074 a rico:Activity ;
     skos:prefLabel "[ACT-M-51074] 21대 국회 본회의 제388회 제3차"@ko ;
@@ -992,7 +1044,8 @@ nadat1:ACT-M-51074 a rico:Activity ;
         nadat2:PER-TMP-00029,
         nadat2:PER-TMP-00037,
         nadat2:PER-TMP-00041 ;
-    rico:identifier "ACT-M-51074" .
+    rico:identifier "ACT-M-51074" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51081 a rico:Activity ;
     skos:prefLabel "[ACT-M-51081] 21대 국회 본회의 제388회 제4차"@ko ;
@@ -1017,7 +1070,8 @@ nadat1:ACT-M-51081 a rico:Activity ;
         nadat2:PER-TMP-00038,
         nadat2:PER-TMP-00040,
         nadat2:PER-TMP-00042 ;
-    rico:identifier "ACT-M-51081" .
+    rico:identifier "ACT-M-51081" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51087 a rico:Activity ;
     skos:prefLabel "[ACT-M-51087] 21대 국회 본회의 제388회 제5차"@ko ;
@@ -1039,7 +1093,8 @@ nadat1:ACT-M-51087 a rico:Activity ;
         nadat2:PER-TMP-00028,
         nadat2:PER-TMP-00037,
         nadat2:PER-TMP-00043 ;
-    rico:identifier "ACT-M-51087" .
+    rico:identifier "ACT-M-51087" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51105 a rico:Activity ;
     skos:prefLabel "[ACT-M-51105] 21대 국회 본회의 제388회 제6차"@ko ;
@@ -1073,7 +1128,8 @@ nadat1:ACT-M-51105 a rico:Activity ;
         nadat2:PER-LM-WMG57662,
         nadat2:PER-LM-WVU2479T,
         nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-51105" .
+    rico:identifier "ACT-M-51105" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51117 a rico:Activity ;
     skos:prefLabel "[ACT-M-51117] 21대 국회 본회의 제388회 제7차"@ko ;
@@ -1095,7 +1151,8 @@ nadat1:ACT-M-51117 a rico:Activity ;
         nadat2:PER-LM-USR7059P,
         nadat2:PER-LM-W1Q6753M,
         nadat2:PER-LM-WJL30106 ;
-    rico:identifier "ACT-M-51117" .
+    rico:identifier "ACT-M-51117" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51123 a rico:Activity ;
     skos:prefLabel "[ACT-M-51123] 21대 국회 본회의 제389회 제1차"@ko ;
@@ -1104,7 +1161,8 @@ nadat1:ACT-M-51123 a rico:Activity ;
         nadat2:PER-LM-UGH6481E,
         nadat2:PER-TMP-00002,
         nadat2:PER-TMP-00037 ;
-    rico:identifier "ACT-M-51123" .
+    rico:identifier "ACT-M-51123" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51165 a rico:Activity ;
     skos:prefLabel "[ACT-M-51165] 21대 국회 본회의 제389회 제2차"@ko ;
@@ -1124,7 +1182,8 @@ nadat1:ACT-M-51165 a rico:Activity ;
         nadat2:PER-LM-XR24352K,
         nadat2:PER-LM-Y7K5946R,
         nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-51165" .
+    rico:identifier "ACT-M-51165" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51166 a rico:Activity ;
     skos:prefLabel "[ACT-M-51166] 21대 국회 본회의 제389회 제3차"@ko ;
@@ -1141,7 +1200,8 @@ nadat1:ACT-M-51166 a rico:Activity ;
         nadat2:PER-LM-WMG57662,
         nadat2:PER-TMP-00005,
         nadat2:PER-TMP-00037 ;
-    rico:identifier "ACT-M-51166" .
+    rico:identifier "ACT-M-51166" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51235 a rico:Activity ;
     skos:prefLabel "[ACT-M-51235] 21대 국회 본회의 제390회 제1차"@ko ;
@@ -1188,35 +1248,40 @@ nadat1:ACT-M-51235 a rico:Activity ;
         nadat2:PER-LM-ZRF3039U,
         nadat2:PER-TMP-00002,
         nadat2:PER-TMP-00027 ;
-    rico:identifier "ACT-M-51235" .
+    rico:identifier "ACT-M-51235" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51237 a rico:Activity ;
     skos:prefLabel "[ACT-M-51237] 21대 국회 본회의 제391회 제0차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-51237" .
+    rico:identifier "ACT-M-51237" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51238 a rico:Activity ;
     skos:prefLabel "[ACT-M-51238] 21대 국회 본회의 제391회 제1차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-LM-G152611B ;
-    rico:identifier "ACT-M-51238" .
+    rico:identifier "ACT-M-51238" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51244 a rico:Activity ;
     skos:prefLabel "[ACT-M-51244] 21대 국회 본회의 제391회 제2차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-M0A1658U,
         nadat2:PER-LM-UGH6481E ;
-    rico:identifier "ACT-M-51244" .
+    rico:identifier "ACT-M-51244" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51252 a rico:Activity ;
     skos:prefLabel "[ACT-M-51252] 21대 국회 본회의 제391회 제3차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-NQR1206Q,
         nadat2:PER-LM-X7I4680R ;
-    rico:identifier "ACT-M-51252" .
+    rico:identifier "ACT-M-51252" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51270 a rico:Activity ;
     skos:prefLabel "[ACT-M-51270] 21대 국회 본회의 제391회 제4차"@ko ;
@@ -1242,7 +1307,8 @@ nadat1:ACT-M-51270 a rico:Activity ;
         nadat2:PER-LM-Z6R3959C,
         nadat2:PER-TMP-00002,
         nadat2:PER-TMP-00037 ;
-    rico:identifier "ACT-M-51270" .
+    rico:identifier "ACT-M-51270" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51275 a rico:Activity ;
     skos:prefLabel "[ACT-M-51275] 21대 국회 본회의 제391회 제5차"@ko ;
@@ -1265,7 +1331,8 @@ nadat1:ACT-M-51275 a rico:Activity ;
         nadat2:PER-TMP-00029,
         nadat2:PER-TMP-00036,
         nadat2:PER-TMP-00037 ;
-    rico:identifier "ACT-M-51275" .
+    rico:identifier "ACT-M-51275" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51285 a rico:Activity ;
     skos:prefLabel "[ACT-M-51285] 21대 국회 본회의 제391회 제6차"@ko ;
@@ -1293,7 +1360,8 @@ nadat1:ACT-M-51285 a rico:Activity ;
         nadat2:PER-TMP-00042,
         nadat2:PER-TMP-00044,
         nadat2:PER-TMP-00045 ;
-    rico:identifier "ACT-M-51285" .
+    rico:identifier "ACT-M-51285" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51293 a rico:Activity ;
     skos:prefLabel "[ACT-M-51293] 21대 국회 본회의 제391회 제7차"@ko ;
@@ -1322,7 +1390,8 @@ nadat1:ACT-M-51293 a rico:Activity ;
         nadat2:PER-TMP-00021,
         nadat2:PER-TMP-00031,
         nadat2:PER-TMP-00037 ;
-    rico:identifier "ACT-M-51293" .
+    rico:identifier "ACT-M-51293" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51313 a rico:Activity ;
     skos:prefLabel "[ACT-M-51313] 21대 국회 본회의 제391회 제8차"@ko ;
@@ -1340,7 +1409,8 @@ nadat1:ACT-M-51313 a rico:Activity ;
         nadat2:PER-LM-UQ282145,
         nadat2:PER-TMP-00002,
         nadat2:PER-TMP-00027 ;
-    rico:identifier "ACT-M-51313" .
+    rico:identifier "ACT-M-51313" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51321 a rico:Activity ;
     skos:prefLabel "[ACT-M-51321] 21대 국회 본회의 제391회 제9차"@ko ;
@@ -1350,7 +1420,8 @@ nadat1:ACT-M-51321 a rico:Activity ;
         nadat2:PER-LM-BLC8630L,
         nadat2:PER-LM-SBK1544B,
         nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-51321" .
+    rico:identifier "ACT-M-51321" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51374 a rico:Activity ;
     skos:prefLabel "[ACT-M-51374] 21대 국회 본회의 제391회 제10차"@ko ;
@@ -1358,7 +1429,8 @@ nadat1:ACT-M-51374 a rico:Activity ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-TMP-00002,
         nadat2:PER-TMP-00007 ;
-    rico:identifier "ACT-M-51374" .
+    rico:identifier "ACT-M-51374" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51437 a rico:Activity ;
     skos:prefLabel "[ACT-M-51437] 21대 국회 본회의 제391회 제11차"@ko ;
@@ -1389,7 +1461,8 @@ nadat1:ACT-M-51437 a rico:Activity ;
         nadat2:PER-LM-WFU14784,
         nadat2:PER-TMP-00002,
         nadat2:PER-TMP-00028 ;
-    rico:identifier "ACT-M-51437" .
+    rico:identifier "ACT-M-51437" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51623 a rico:Activity ;
     skos:prefLabel "[ACT-M-51623] 21대 국회 본회의 제391회 제12차"@ko ;
@@ -1414,7 +1487,8 @@ nadat1:ACT-M-51623 a rico:Activity ;
         nadat2:PER-LM-XJC13432,
         nadat2:PER-LM-XSP20229,
         nadat2:PER-LM-Z7Y7827F ;
-    rico:identifier "ACT-M-51623" .
+    rico:identifier "ACT-M-51623" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51625 a rico:Activity ;
     skos:prefLabel "[ACT-M-51625] 21대 국회 본회의 제391회 제13차"@ko ;
@@ -1429,7 +1503,8 @@ nadat1:ACT-M-51625 a rico:Activity ;
         nadat2:PER-LM-WMG57662,
         nadat2:PER-TMP-00005,
         nadat2:PER-TMP-00037 ;
-    rico:identifier "ACT-M-51625" .
+    rico:identifier "ACT-M-51625" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51657 a rico:Activity ;
     skos:prefLabel "[ACT-M-51657] 21대 국회 본회의 제391회 제14차"@ko ;
@@ -1463,7 +1538,8 @@ nadat1:ACT-M-51657 a rico:Activity ;
         nadat2:PER-TMP-00002,
         nadat2:PER-TMP-00027,
         nadat2:PER-TMP-00028 ;
-    rico:identifier "ACT-M-51657" .
+    rico:identifier "ACT-M-51657" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51710 a rico:Activity ;
     skos:prefLabel "[ACT-M-51710] 21대 국회 본회의 제392회 제1차"@ko ;
@@ -1474,7 +1550,8 @@ nadat1:ACT-M-51710 a rico:Activity ;
         nadat2:PER-LM-CNW5754J,
         nadat2:PER-LM-Z6R3959C,
         nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-51710" .
+    rico:identifier "ACT-M-51710" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51735 a rico:Activity ;
     skos:prefLabel "[ACT-M-51735] 21대 국회 본회의 제392회 제2차"@ko ;
@@ -1494,21 +1571,24 @@ nadat1:ACT-M-51735 a rico:Activity ;
         nadat2:PER-LM-RO593601,
         nadat2:PER-LM-WCD5518S,
         nadat2:PER-TMP-00046 ;
-    rico:identifier "ACT-M-51735" .
+    rico:identifier "ACT-M-51735" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51741 a rico:Activity ;
     skos:prefLabel "[ACT-M-51741] 21대 국회 본회의 제393회 제0차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-TMP-00046 ;
-    rico:identifier "ACT-M-51741" .
+    rico:identifier "ACT-M-51741" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51742 a rico:Activity ;
     skos:prefLabel "[ACT-M-51742] 21대 국회 본회의 제393회 제1차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-TMP-00037 ;
-    rico:identifier "ACT-M-51742" .
+    rico:identifier "ACT-M-51742" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51768 a rico:Activity ;
     skos:prefLabel "[ACT-M-51768] 21대 국회 본회의 제393회 제2차"@ko ;
@@ -1517,7 +1597,8 @@ nadat1:ACT-M-51768 a rico:Activity ;
         nadat2:PER-LM-RPN2293B,
         nadat2:PER-LM-WDS6044S,
         nadat2:PER-TMP-00046 ;
-    rico:identifier "ACT-M-51768" .
+    rico:identifier "ACT-M-51768" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51773 a rico:Activity ;
     skos:prefLabel "[ACT-M-51773] 21대 국회 본회의 제393회 제3차"@ko ;
@@ -1527,7 +1608,8 @@ nadat1:ACT-M-51773 a rico:Activity ;
         nadat2:PER-LM-WMG57662,
         nadat2:PER-TMP-00005,
         nadat2:PER-TMP-00037 ;
-    rico:identifier "ACT-M-51773" .
+    rico:identifier "ACT-M-51773" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51791 a rico:Activity ;
     skos:prefLabel "[ACT-M-51791] 21대 국회 본회의 제394회 제1차"@ko ;
@@ -1542,7 +1624,8 @@ nadat1:ACT-M-51791 a rico:Activity ;
         nadat2:PER-LM-S824682L,
         nadat2:PER-LM-VHK3402G,
         nadat2:PER-TMP-00046 ;
-    rico:identifier "ACT-M-51791" .
+    rico:identifier "ACT-M-51791" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51808 a rico:Activity ;
     skos:prefLabel "[ACT-M-51808] 21대 국회 본회의 제395회 제1차"@ko ;
@@ -1556,7 +1639,8 @@ nadat1:ACT-M-51808 a rico:Activity ;
         nadat2:PER-LM-OSV9142K,
         nadat2:PER-LM-W1Q6753M,
         nadat2:PER-TMP-00046 ;
-    rico:identifier "ACT-M-51808" .
+    rico:identifier "ACT-M-51808" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51836 a rico:Activity ;
     skos:prefLabel "[ACT-M-51836] 21대 국회 본회의 제395회 제2차"@ko ;
@@ -1568,7 +1652,8 @@ nadat1:ACT-M-51836 a rico:Activity ;
         nadat2:PER-LM-M2Q9024I,
         nadat2:PER-LM-UGH6481E,
         nadat2:PER-LM-ZA54991S ;
-    rico:identifier "ACT-M-51836" .
+    rico:identifier "ACT-M-51836" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51848 a rico:Activity ;
     skos:prefLabel "[ACT-M-51848] 21대 국회 본회의 제396회 제1차"@ko ;
@@ -1587,7 +1672,8 @@ nadat1:ACT-M-51848 a rico:Activity ;
         nadat2:PER-LM-UGH6481E,
         nadat2:PER-TMP-00028,
         nadat2:PER-TMP-00047 ;
-    rico:identifier "ACT-M-51848" .
+    rico:identifier "ACT-M-51848" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51859 a rico:Activity ;
     skos:prefLabel "[ACT-M-51859] 21대 국회 본회의 제397회 제1차"@ko ;
@@ -1595,7 +1681,8 @@ nadat1:ACT-M-51859 a rico:Activity ;
     rico:hasOrHadParticipant nadat2:PER-LM-3C23171A,
         nadat2:PER-LM-6EN68926,
         nadat2:PER-LM-BLC8630L ;
-    rico:identifier "ACT-M-51859" .
+    rico:identifier "ACT-M-51859" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51894 a rico:Activity ;
     skos:prefLabel "[ACT-M-51894] 21대 국회 본회의 제397회 제2차"@ko ;
@@ -1603,7 +1690,8 @@ nadat1:ACT-M-51894 a rico:Activity ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-TMP-00046,
         nadat2:PER-TMP-00048 ;
-    rico:identifier "ACT-M-51894" .
+    rico:identifier "ACT-M-51894" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51930 a rico:Activity ;
     skos:prefLabel "[ACT-M-51930] 21대 국회 본회의 제397회 제3차"@ko ;
@@ -1615,7 +1703,8 @@ nadat1:ACT-M-51930 a rico:Activity ;
         nadat2:PER-LM-TJW93720,
         nadat2:PER-LM-X7I4680R,
         nadat2:PER-TMP-00046 ;
-    rico:identifier "ACT-M-51930" .
+    rico:identifier "ACT-M-51930" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51954 a rico:Activity ;
     skos:prefLabel "[ACT-M-51954] 21대 국회 본회의 제397회 제4차"@ko ;
@@ -1655,7 +1744,8 @@ nadat1:ACT-M-51954 a rico:Activity ;
         nadat2:PER-TMP-00058,
         nadat2:PER-TMP-00059,
         nadat2:PER-TMP-00060 ;
-    rico:identifier "ACT-M-51954" .
+    rico:identifier "ACT-M-51954" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51975 a rico:Activity ;
     skos:prefLabel "[ACT-M-51975] 21대 국회 본회의 제398회 제1차"@ko ;
@@ -1673,7 +1763,8 @@ nadat1:ACT-M-51975 a rico:Activity ;
         nadat2:PER-LM-YOG1280B,
         nadat2:PER-LM-YTA7297R,
         nadat2:PER-TMP-00046 ;
-    rico:identifier "ACT-M-51975" .
+    rico:identifier "ACT-M-51975" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51979 a rico:Activity ;
     skos:prefLabel "[ACT-M-51979] 21대 국회 본회의 제398회 제2차"@ko ;
@@ -1681,14 +1772,16 @@ nadat1:ACT-M-51979 a rico:Activity ;
     rico:hasOrHadParticipant nadat2:PER-LM-3C23171A,
         nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-S824682L ;
-    rico:identifier "ACT-M-51979" .
+    rico:identifier "ACT-M-51979" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51983 a rico:Activity ;
     skos:prefLabel "[ACT-M-51983] 21대 국회 본회의 제398회 제3차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-GDG1847Z,
         nadat2:PER-LM-Q9H5708M ;
-    rico:identifier "ACT-M-51983" .
+    rico:identifier "ACT-M-51983" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51984 a rico:Activity ;
     skos:prefLabel "[ACT-M-51984] 21대 국회 본회의 제398회 제4차"@ko ;
@@ -1712,7 +1805,8 @@ nadat1:ACT-M-51984 a rico:Activity ;
         nadat2:PER-LM-ZDR63255,
         nadat2:PER-LM-ZRF3039U,
         nadat2:PER-TMP-00046 ;
-    rico:identifier "ACT-M-51984" .
+    rico:identifier "ACT-M-51984" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51986 a rico:Activity ;
     skos:prefLabel "[ACT-M-51986] 21대 국회 본회의 제398회 제5차"@ko ;
@@ -1738,7 +1832,8 @@ nadat1:ACT-M-51986 a rico:Activity ;
         nadat2:PER-TMP-00049,
         nadat2:PER-TMP-00051,
         nadat2:PER-TMP-00052 ;
-    rico:identifier "ACT-M-51986" .
+    rico:identifier "ACT-M-51986" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51989 a rico:Activity ;
     skos:prefLabel "[ACT-M-51989] 21대 국회 본회의 제398회 제6차"@ko ;
@@ -1764,7 +1859,8 @@ nadat1:ACT-M-51989 a rico:Activity ;
         nadat2:PER-TMP-00055,
         nadat2:PER-TMP-00059,
         nadat2:PER-TMP-00061 ;
-    rico:identifier "ACT-M-51989" .
+    rico:identifier "ACT-M-51989" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-51995 a rico:Activity ;
     skos:prefLabel "[ACT-M-51995] 21대 국회 본회의 제398회 제7차"@ko ;
@@ -1791,7 +1887,8 @@ nadat1:ACT-M-51995 a rico:Activity ;
         nadat2:PER-TMP-00058,
         nadat2:PER-TMP-00062,
         nadat2:PER-TMP-00063 ;
-    rico:identifier "ACT-M-51995" .
+    rico:identifier "ACT-M-51995" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52011 a rico:Activity ;
     skos:prefLabel "[ACT-M-52011] 21대 국회 본회의 제398회 제8차"@ko ;
@@ -1803,14 +1900,16 @@ nadat1:ACT-M-52011 a rico:Activity ;
         nadat2:PER-LM-NCP9875N,
         nadat2:PER-LM-Q9H5708M,
         nadat2:PER-TMP-00046 ;
-    rico:identifier "ACT-M-52011" .
+    rico:identifier "ACT-M-52011" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52101 a rico:Activity ;
     skos:prefLabel "[ACT-M-52101] 21대 국회 본회의 제400회 제0차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-Q9H5708M,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-52101" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52101" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52102 a rico:Activity ;
     skos:prefLabel "[ACT-M-52102] 21대 국회 본회의 제400회 제1차"@ko ;
@@ -1821,8 +1920,9 @@ nadat1:ACT-M-52102 a rico:Activity ;
         nadat2:PER-LM-LJK4960Z,
         nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-ZRF3039U,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-52102" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52102" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52115 a rico:Activity ;
     skos:prefLabel "[ACT-M-52115] 21대 국회 본회의 제400회 제2차"@ko ;
@@ -1836,8 +1936,9 @@ nadat1:ACT-M-52115 a rico:Activity ;
         nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-RQQ3807K,
         nadat2:PER-LM-WMG57662,
-        nadat2:PER-TMP-00064 ;
-    rico:identifier "ACT-M-52115" .
+        nadat2:PER-TMP-00065 ;
+    rico:identifier "ACT-M-52115" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52135 a rico:Activity ;
     skos:prefLabel "[ACT-M-52135] 21대 국회 본회의 제400회 제3차"@ko ;
@@ -1858,8 +1959,9 @@ nadat1:ACT-M-52135 a rico:Activity ;
         nadat2:PER-LM-TKJ4800F,
         nadat2:PER-TMP-00049,
         nadat2:PER-TMP-00051,
-        nadat2:PER-TMP-00065 ;
-    rico:identifier "ACT-M-52135" .
+        nadat2:PER-TMP-00066 ;
+    rico:identifier "ACT-M-52135" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52139 a rico:Activity ;
     skos:prefLabel "[ACT-M-52139] 21대 국회 본회의 제400회 제4차"@ko ;
@@ -1880,8 +1982,9 @@ nadat1:ACT-M-52139 a rico:Activity ;
         nadat2:PER-LM-XJC13432,
         nadat2:PER-TMP-00049,
         nadat2:PER-TMP-00052,
-        nadat2:PER-TMP-00066 ;
-    rico:identifier "ACT-M-52139" .
+        nadat2:PER-TMP-00067 ;
+    rico:identifier "ACT-M-52139" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52147 a rico:Activity ;
     skos:prefLabel "[ACT-M-52147] 21대 국회 본회의 제400회 제5차"@ko ;
@@ -1904,9 +2007,10 @@ nadat1:ACT-M-52147 a rico:Activity ;
         nadat2:PER-TMP-00054,
         nadat2:PER-TMP-00059,
         nadat2:PER-TMP-00061,
-        nadat2:PER-TMP-00067,
-        nadat2:PER-TMP-00068 ;
-    rico:identifier "ACT-M-52147" .
+        nadat2:PER-TMP-00068,
+        nadat2:PER-TMP-00069 ;
+    rico:identifier "ACT-M-52147" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52156 a rico:Activity ;
     skos:prefLabel "[ACT-M-52156] 21대 국회 본회의 제400회 제6차"@ko ;
@@ -1931,7 +2035,8 @@ nadat1:ACT-M-52156 a rico:Activity ;
         nadat2:PER-TMP-00056,
         nadat2:PER-TMP-00057,
         nadat2:PER-TMP-00063 ;
-    rico:identifier "ACT-M-52156" .
+    rico:identifier "ACT-M-52156" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52174 a rico:Activity ;
     skos:prefLabel "[ACT-M-52174] 21대 국회 본회의 제400회 제7차"@ko ;
@@ -1954,15 +2059,17 @@ nadat1:ACT-M-52174 a rico:Activity ;
         nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-RPN2293B,
         nadat2:PER-LM-RQQ3807K,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-52174" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52174" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52178 a rico:Activity ;
     skos:prefLabel "[ACT-M-52178] 21대 국회 본회의 제400회 제8차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-IUD9392R,
         nadat2:PER-LM-Q9H5708M ;
-    rico:identifier "ACT-M-52178" .
+    rico:identifier "ACT-M-52178" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52182 a rico:Activity ;
     skos:prefLabel "[ACT-M-52182] 21대 국회 본회의 제400회 제9차"@ko ;
@@ -1973,16 +2080,18 @@ nadat1:ACT-M-52182 a rico:Activity ;
         nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-RQQ3807K,
         nadat2:PER-LM-TJW93720,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-52182" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52182" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52246 a rico:Activity ;
     skos:prefLabel "[ACT-M-52246] 21대 국회 본회의 제400회 제10차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-Q9H5708M,
-        nadat2:PER-TMP-00002,
-        nadat2:PER-TMP-00048 ;
-    rico:identifier "ACT-M-52246" .
+        nadat2:PER-TMP-00048,
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52246" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52260 a rico:Activity ;
     skos:prefLabel "[ACT-M-52260] 21대 국회 본회의 제400회 제11차"@ko ;
@@ -1999,8 +2108,9 @@ nadat1:ACT-M-52260 a rico:Activity ;
         nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-T465023H,
         nadat2:PER-LM-W1Q6753M,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-52260" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52260" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52334 a rico:Activity ;
     skos:prefLabel "[ACT-M-52334] 21대 국회 본회의 제400회 제12차"@ko ;
@@ -2020,10 +2130,11 @@ nadat1:ACT-M-52334 a rico:Activity ;
         nadat2:PER-LM-VHK3402G,
         nadat2:PER-LM-VRY5522V,
         nadat2:PER-LM-W1Q6753M,
-        nadat2:PER-TMP-00002,
-        nadat2:PER-TMP-00069,
-        nadat2:PER-TMP-00070 ;
-    rico:identifier "ACT-M-52334" .
+        nadat2:PER-TMP-00064,
+        nadat2:PER-TMP-00070,
+        nadat2:PER-TMP-00071 ;
+    rico:identifier "ACT-M-52334" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52477 a rico:Activity ;
     skos:prefLabel "[ACT-M-52477] 21대 국회 본회의 제400회 제13차"@ko ;
@@ -2045,9 +2156,10 @@ nadat1:ACT-M-52477 a rico:Activity ;
         nadat2:PER-LM-WCD5518S,
         nadat2:PER-LM-WJL30106,
         nadat2:PER-LM-XEF29171,
-        nadat2:PER-TMP-00002,
-        nadat2:PER-TMP-00028 ;
-    rico:identifier "ACT-M-52477" .
+        nadat2:PER-TMP-00028,
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52477" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52588 a rico:Activity ;
     skos:prefLabel "[ACT-M-52588] 21대 국회 본회의 제400회 제14차"@ko ;
@@ -2078,9 +2190,10 @@ nadat1:ACT-M-52588 a rico:Activity ;
         nadat2:PER-LM-X1K3667J,
         nadat2:PER-LM-XJC13432,
         nadat2:PER-LM-ZDP5704Q,
-        nadat2:PER-TMP-00002,
-        nadat2:PER-TMP-00028 ;
-    rico:identifier "ACT-M-52588" .
+        nadat2:PER-TMP-00028,
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52588" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52605 a rico:Activity ;
     skos:prefLabel "[ACT-M-52605] 21대 국회 본회의 제401회 제1차"@ko ;
@@ -2088,8 +2201,9 @@ nadat1:ACT-M-52605 a rico:Activity ;
     rico:hasOrHadParticipant nadat2:PER-LM-3C23171A,
         nadat2:PER-LM-6EN68926,
         nadat2:PER-LM-Q9H5708M,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-52605" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52605" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52626 a rico:Activity ;
     skos:prefLabel "[ACT-M-52626] 21대 국회 본회의 제401회 제2차"@ko ;
@@ -2115,8 +2229,9 @@ nadat1:ACT-M-52626 a rico:Activity ;
         nadat2:PER-LM-WMG57662,
         nadat2:PER-LM-Z6R3959C,
         nadat2:PER-LM-ZKU88693,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-52626" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52626" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52627 a rico:Activity ;
     skos:prefLabel "[ACT-M-52627] 21대 국회 본회의 제401회 제3차"@ko ;
@@ -2135,7 +2250,8 @@ nadat1:ACT-M-52627 a rico:Activity ;
         nadat2:PER-LM-XBT9550Q,
         nadat2:PER-TMP-00027,
         nadat2:PER-TMP-00049 ;
-    rico:identifier "ACT-M-52627" .
+    rico:identifier "ACT-M-52627" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52637 a rico:Activity ;
     skos:prefLabel "[ACT-M-52637] 21대 국회 본회의 제401회 제4차"@ko ;
@@ -2165,9 +2281,10 @@ nadat1:ACT-M-52637 a rico:Activity ;
         nadat2:PER-LM-VHK3402G,
         nadat2:PER-LM-X1K3667J,
         nadat2:PER-LM-Z7Y7827F,
-        nadat2:PER-TMP-00002,
-        nadat2:PER-TMP-00051 ;
-    rico:identifier "ACT-M-52637" .
+        nadat2:PER-TMP-00051,
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52637" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52645 a rico:Activity ;
     skos:prefLabel "[ACT-M-52645] 21대 국회 본회의 제401회 제5차"@ko ;
@@ -2177,8 +2294,9 @@ nadat1:ACT-M-52645 a rico:Activity ;
         nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-RQQ3807K,
         nadat2:PER-LM-V0O5343U,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-52645" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52645" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52659 a rico:Activity ;
     skos:prefLabel "[ACT-M-52659] 21대 국회 본회의 제402회 제1차"@ko ;
@@ -2200,23 +2318,26 @@ nadat1:ACT-M-52659 a rico:Activity ;
         nadat2:PER-LM-V0O5343U,
         nadat2:PER-LM-VG24001G,
         nadat2:PER-LM-Y7K5946R,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-52659" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52659" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52667 a rico:Activity ;
     skos:prefLabel "[ACT-M-52667] 21대 국회 본회의 제403회 제0차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-Q9H5708M,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-52667" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52667" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52668 a rico:Activity ;
     skos:prefLabel "[ACT-M-52668] 21대 국회 본회의 제403회 제1차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-3C23171A,
         nadat2:PER-LM-Q9H5708M,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-52668" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52668" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52669 a rico:Activity ;
     skos:prefLabel "[ACT-M-52669] 21대 국회 본회의 제403회 제2차"@ko ;
@@ -2238,11 +2359,12 @@ nadat1:ACT-M-52669 a rico:Activity ;
         nadat2:PER-LM-WCD5518S,
         nadat2:PER-LM-XJC13432,
         nadat2:PER-LM-ZYH1940A,
-        nadat2:PER-TMP-00002,
         nadat2:PER-TMP-00049,
         nadat2:PER-TMP-00051,
-        nadat2:PER-TMP-00052 ;
-    rico:identifier "ACT-M-52669" .
+        nadat2:PER-TMP-00052,
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52669" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52671 a rico:Activity ;
     skos:prefLabel "[ACT-M-52671] 21대 국회 본회의 제403회 제3차"@ko ;
@@ -2266,8 +2388,9 @@ nadat1:ACT-M-52671 a rico:Activity ;
         nadat2:PER-TMP-00054,
         nadat2:PER-TMP-00055,
         nadat2:PER-TMP-00059,
-        nadat2:PER-TMP-00071 ;
-    rico:identifier "ACT-M-52671" .
+        nadat2:PER-TMP-00072 ;
+    rico:identifier "ACT-M-52671" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52672 a rico:Activity ;
     skos:prefLabel "[ACT-M-52672] 21대 국회 본회의 제403회 제4차"@ko ;
@@ -2289,21 +2412,23 @@ nadat1:ACT-M-52672 a rico:Activity ;
         nadat2:PER-LM-QHL3248U,
         nadat2:PER-LM-RPN2293B,
         nadat2:PER-LM-VHK3402G,
-        nadat2:PER-TMP-00002,
         nadat2:PER-TMP-00043,
         nadat2:PER-TMP-00049,
         nadat2:PER-TMP-00051,
         nadat2:PER-TMP-00057,
         nadat2:PER-TMP-00058,
-        nadat2:PER-TMP-00070 ;
-    rico:identifier "ACT-M-52672" .
+        nadat2:PER-TMP-00064,
+        nadat2:PER-TMP-00071 ;
+    rico:identifier "ACT-M-52672" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52676 a rico:Activity ;
     skos:prefLabel "[ACT-M-52676] 21대 국회 본회의 제403회 제5차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-S824682L ;
-    rico:identifier "ACT-M-52676" .
+    rico:identifier "ACT-M-52676" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52684 a rico:Activity ;
     skos:prefLabel "[ACT-M-52684] 21대 국회 본회의 제403회 제6차"@ko ;
@@ -2311,7 +2436,8 @@ nadat1:ACT-M-52684 a rico:Activity ;
     rico:hasOrHadParticipant nadat2:PER-LM-8SV6917G,
         nadat2:PER-LM-P0F1530P,
         nadat2:PER-LM-Q9H5708M ;
-    rico:identifier "ACT-M-52684" .
+    rico:identifier "ACT-M-52684" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52743 a rico:Activity ;
     skos:prefLabel "[ACT-M-52743] 21대 국회 본회의 제403회 제7차"@ko ;
@@ -2321,8 +2447,9 @@ nadat1:ACT-M-52743 a rico:Activity ;
         nadat2:PER-LM-P0F1530P,
         nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-W1Q6753M,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-52743" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52743" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52751 a rico:Activity ;
     skos:prefLabel "[ACT-M-52751] 21대 국회 본회의 제403회 제8차"@ko ;
@@ -2351,9 +2478,10 @@ nadat1:ACT-M-52751 a rico:Activity ;
         nadat2:PER-LM-TJW93720,
         nadat2:PER-LM-VHK3402G,
         nadat2:PER-LM-WMG57662,
-        nadat2:PER-TMP-00002,
-        nadat2:PER-TMP-00051 ;
-    rico:identifier "ACT-M-52751" .
+        nadat2:PER-TMP-00051,
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52751" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52800 a rico:Activity ;
     skos:prefLabel "[ACT-M-52800] 21대 국회 본회의 제404회 제1차"@ko ;
@@ -2382,8 +2510,9 @@ nadat1:ACT-M-52800 a rico:Activity ;
         nadat2:PER-LM-XSP20229,
         nadat2:PER-LM-ZDR63255,
         nadat2:PER-LM-ZYP7962W,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-52800" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52800" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52823 a rico:Activity ;
     skos:prefLabel "[ACT-M-52823] 21대 국회 본회의 제404회 제2차"@ko ;
@@ -2408,10 +2537,11 @@ nadat1:ACT-M-52823 a rico:Activity ;
         nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-WCD5518S,
         nadat2:PER-LM-XA42275R,
-        nadat2:PER-TMP-00002,
         nadat2:PER-TMP-00028,
-        nadat2:PER-TMP-00051 ;
-    rico:identifier "ACT-M-52823" .
+        nadat2:PER-TMP-00051,
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52823" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52838 a rico:Activity ;
     skos:prefLabel "[ACT-M-52838] 21대 국회 본회의 제405회 제1차"@ko ;
@@ -2437,9 +2567,10 @@ nadat1:ACT-M-52838 a rico:Activity ;
         nadat2:PER-TMP-00049,
         nadat2:PER-TMP-00051,
         nadat2:PER-TMP-00052,
-        nadat2:PER-TMP-00065,
-        nadat2:PER-TMP-00066 ;
-    rico:identifier "ACT-M-52838" .
+        nadat2:PER-TMP-00066,
+        nadat2:PER-TMP-00067 ;
+    rico:identifier "ACT-M-52838" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52843 a rico:Activity ;
     skos:prefLabel "[ACT-M-52843] 21대 국회 본회의 제405회 제2차"@ko ;
@@ -2465,7 +2596,8 @@ nadat1:ACT-M-52843 a rico:Activity ;
         nadat2:PER-TMP-00059,
         nadat2:PER-TMP-00060,
         nadat2:PER-TMP-00061 ;
-    rico:identifier "ACT-M-52843" .
+    rico:identifier "ACT-M-52843" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52845 a rico:Activity ;
     skos:prefLabel "[ACT-M-52845] 21대 국회 본회의 제405회 제3차"@ko ;
@@ -2487,9 +2619,10 @@ nadat1:ACT-M-52845 a rico:Activity ;
         nadat2:PER-TMP-00049,
         nadat2:PER-TMP-00051,
         nadat2:PER-TMP-00057,
-        nadat2:PER-TMP-00069,
-        nadat2:PER-TMP-00070 ;
-    rico:identifier "ACT-M-52845" .
+        nadat2:PER-TMP-00070,
+        nadat2:PER-TMP-00071 ;
+    rico:identifier "ACT-M-52845" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52863 a rico:Activity ;
     skos:prefLabel "[ACT-M-52863] 21대 국회 본회의 제405회 제4차"@ko ;
@@ -2511,8 +2644,9 @@ nadat1:ACT-M-52863 a rico:Activity ;
         nadat2:PER-LM-RQQ3807K,
         nadat2:PER-LM-TRE2429O,
         nadat2:PER-LM-ZRF3039U,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-52863" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52863" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52897 a rico:Activity ;
     skos:prefLabel "[ACT-M-52897] 21대 국회 본회의 제405회 제5차"@ko ;
@@ -2552,9 +2686,10 @@ nadat1:ACT-M-52897 a rico:Activity ;
         nadat2:PER-LM-WMG57662,
         nadat2:PER-LM-X1K3667J,
         nadat2:PER-LM-ZYP7962W,
-        nadat2:PER-TMP-00002,
-        nadat2:PER-TMP-00027 ;
-    rico:identifier "ACT-M-52897" .
+        nadat2:PER-TMP-00027,
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52897" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52945 a rico:Activity ;
     skos:prefLabel "[ACT-M-52945] 21대 국회 본회의 제406회 제1차"@ko ;
@@ -2594,8 +2729,9 @@ nadat1:ACT-M-52945 a rico:Activity ;
         nadat2:PER-LM-X1K3667J,
         nadat2:PER-LM-XSP20229,
         nadat2:PER-LM-YTA7297R,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-52945" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52945" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52962 a rico:Activity ;
     skos:prefLabel "[ACT-M-52962] 21대 국회 본회의 제406회 제2차"@ko ;
@@ -2609,8 +2745,9 @@ nadat1:ACT-M-52962 a rico:Activity ;
         nadat2:PER-LM-WJL30106,
         nadat2:PER-LM-WMG57662,
         nadat2:PER-LM-XR24352K,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-52962" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52962" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52974 a rico:Activity ;
     skos:prefLabel "[ACT-M-52974] 21대 국회 본회의 제407회 제1차"@ko ;
@@ -2633,12 +2770,13 @@ nadat1:ACT-M-52974 a rico:Activity ;
         nadat2:PER-LM-TJW93720,
         nadat2:PER-LM-VHK3402G,
         nadat2:PER-LM-ZYP7962W,
-        nadat2:PER-TMP-00002,
         nadat2:PER-TMP-00049,
         nadat2:PER-TMP-00051,
         nadat2:PER-TMP-00052,
-        nadat2:PER-TMP-00065 ;
-    rico:identifier "ACT-M-52974" .
+        nadat2:PER-TMP-00064,
+        nadat2:PER-TMP-00066 ;
+    rico:identifier "ACT-M-52974" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52975 a rico:Activity ;
     skos:prefLabel "[ACT-M-52975] 21대 국회 본회의 제407회 제2차"@ko ;
@@ -2663,8 +2801,9 @@ nadat1:ACT-M-52975 a rico:Activity ;
         nadat2:PER-TMP-00055,
         nadat2:PER-TMP-00059,
         nadat2:PER-TMP-00060,
-        nadat2:PER-TMP-00072 ;
-    rico:identifier "ACT-M-52975" .
+        nadat2:PER-TMP-00073 ;
+    rico:identifier "ACT-M-52975" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52978 a rico:Activity ;
     skos:prefLabel "[ACT-M-52978] 21대 국회 본회의 제407회 제3차"@ko ;
@@ -2687,32 +2826,35 @@ nadat1:ACT-M-52978 a rico:Activity ;
         nadat2:PER-LM-WCD5518S,
         nadat2:PER-LM-X1K3667J,
         nadat2:PER-LM-ZDP5704Q,
-        nadat2:PER-TMP-00002,
         nadat2:PER-TMP-00028,
         nadat2:PER-TMP-00049,
         nadat2:PER-TMP-00051,
         nadat2:PER-TMP-00053,
         nadat2:PER-TMP-00057,
         nadat2:PER-TMP-00058,
-        nadat2:PER-TMP-00065,
-        nadat2:PER-TMP-00069,
+        nadat2:PER-TMP-00064,
+        nadat2:PER-TMP-00066,
         nadat2:PER-TMP-00070,
-        nadat2:PER-TMP-00073 ;
-    rico:identifier "ACT-M-52978" .
+        nadat2:PER-TMP-00071,
+        nadat2:PER-TMP-00074 ;
+    rico:identifier "ACT-M-52978" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52985 a rico:Activity ;
     skos:prefLabel "[ACT-M-52985] 21대 국회 본회의 제407회 제4차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-IUD9392R,
         nadat2:PER-LM-Q9H5708M ;
-    rico:identifier "ACT-M-52985" .
+    rico:identifier "ACT-M-52985" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52988 a rico:Activity ;
     skos:prefLabel "[ACT-M-52988] 21대 국회 본회의 제407회 제5차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-X7I4680R ;
-    rico:identifier "ACT-M-52988" .
+    rico:identifier "ACT-M-52988" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-52991 a rico:Activity ;
     skos:prefLabel "[ACT-M-52991] 21대 국회 본회의 제407회 제6차"@ko ;
@@ -2733,8 +2875,9 @@ nadat1:ACT-M-52991 a rico:Activity ;
         nadat2:PER-LM-SRP7336N,
         nadat2:PER-LM-W1Q6753M,
         nadat2:PER-LM-XR24352K,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-52991" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-52991" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53046 a rico:Activity ;
     skos:prefLabel "[ACT-M-53046] 21대 국회 본회의 제407회 제7차"@ko ;
@@ -2773,9 +2916,10 @@ nadat1:ACT-M-53046 a rico:Activity ;
         nadat2:PER-LM-W1Q6753M,
         nadat2:PER-LM-WMG57662,
         nadat2:PER-LM-ZDR63255,
-        nadat2:PER-TMP-00002,
-        nadat2:PER-TMP-00028 ;
-    rico:identifier "ACT-M-53046" .
+        nadat2:PER-TMP-00028,
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-53046" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53077 a rico:Activity ;
     skos:prefLabel "[ACT-M-53077] 21대 국회 본회의 제408회 제1차"@ko ;
@@ -2794,8 +2938,9 @@ nadat1:ACT-M-53077 a rico:Activity ;
         nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-SVH3899R,
         nadat2:PER-LM-TST4507I,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-53077" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-53077" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53084 a rico:Activity ;
     skos:prefLabel "[ACT-M-53084] 21대 국회 본회의 제408회 제2차"@ko ;
@@ -2819,8 +2964,9 @@ nadat1:ACT-M-53084 a rico:Activity ;
         nadat2:PER-LM-VHK3402G,
         nadat2:PER-LM-WCD5518S,
         nadat2:PER-LM-XJC13432,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-53084" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-53084" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53131 a rico:Activity ;
     skos:prefLabel "[ACT-M-53131] 21대 국회 본회의 제409회 제1차"@ko ;
@@ -2846,8 +2992,9 @@ nadat1:ACT-M-53131 a rico:Activity ;
         nadat2:PER-LM-SQ36001H,
         nadat2:PER-LM-VHK3402G,
         nadat2:PER-LM-XEF29171,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-53131" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-53131" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53168 a rico:Activity ;
     skos:prefLabel "[ACT-M-53168] 21대 국회 본회의 제410회 제1차"@ko ;
@@ -2856,15 +3003,17 @@ nadat1:ACT-M-53168 a rico:Activity ;
         nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-S9U45255,
         nadat2:PER-LM-SQ36001H,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-53168" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-53168" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53169 a rico:Activity ;
     skos:prefLabel "[ACT-M-53169] 21대 국회 본회의 제410회 제0차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-Q9H5708M,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-53169" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-53169" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53184 a rico:Activity ;
     skos:prefLabel "[ACT-M-53184] 21대 국회 본회의 제410회 제2차"@ko ;
@@ -2887,7 +3036,8 @@ nadat1:ACT-M-53184 a rico:Activity ;
         nadat2:PER-LM-ZYH1940A,
         nadat2:PER-TMP-00049,
         nadat2:PER-TMP-00051 ;
-    rico:identifier "ACT-M-53184" .
+    rico:identifier "ACT-M-53184" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53194 a rico:Activity ;
     skos:prefLabel "[ACT-M-53194] 21대 국회 본회의 제410회 제3차"@ko ;
@@ -2909,9 +3059,10 @@ nadat1:ACT-M-53194 a rico:Activity ;
         nadat2:PER-LM-ZKU88693,
         nadat2:PER-TMP-00049,
         nadat2:PER-TMP-00052,
-        nadat2:PER-TMP-00074,
-        nadat2:PER-TMP-00075 ;
-    rico:identifier "ACT-M-53194" .
+        nadat2:PER-TMP-00075,
+        nadat2:PER-TMP-00076 ;
+    rico:identifier "ACT-M-53194" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53201 a rico:Activity ;
     skos:prefLabel "[ACT-M-53201] 21대 국회 본회의 제410회 제4차"@ko ;
@@ -2932,9 +3083,10 @@ nadat1:ACT-M-53201 a rico:Activity ;
         nadat2:PER-TMP-00049,
         nadat2:PER-TMP-00059,
         nadat2:PER-TMP-00060,
-        nadat2:PER-TMP-00076,
-        nadat2:PER-TMP-00077 ;
-    rico:identifier "ACT-M-53201" .
+        nadat2:PER-TMP-00077,
+        nadat2:PER-TMP-00078 ;
+    rico:identifier "ACT-M-53201" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53206 a rico:Activity ;
     skos:prefLabel "[ACT-M-53206] 21대 국회 본회의 제410회 제5차"@ko ;
@@ -2957,25 +3109,28 @@ nadat1:ACT-M-53206 a rico:Activity ;
         nadat2:PER-TMP-00051,
         nadat2:PER-TMP-00056,
         nadat2:PER-TMP-00058,
-        nadat2:PER-TMP-00069,
         nadat2:PER-TMP-00070,
-        nadat2:PER-TMP-00078 ;
-    rico:identifier "ACT-M-53206" .
+        nadat2:PER-TMP-00071,
+        nadat2:PER-TMP-00079 ;
+    rico:identifier "ACT-M-53206" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53224 a rico:Activity ;
     skos:prefLabel "[ACT-M-53224] 21대 국회 본회의 제410회 제6차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-K3W33496,
         nadat2:PER-LM-Q9H5708M ;
-    rico:identifier "ACT-M-53224" .
+    rico:identifier "ACT-M-53224" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53233 a rico:Activity ;
     skos:prefLabel "[ACT-M-53233] 21대 국회 본회의 제410회 제7차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-ZRF3039U,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-53233" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-53233" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53247 a rico:Activity ;
     skos:prefLabel "[ACT-M-53247] 21대 국회 본회의 제410회 제8차"@ko ;
@@ -2989,9 +3144,10 @@ nadat1:ACT-M-53247 a rico:Activity ;
         nadat2:PER-LM-QD25323M,
         nadat2:PER-LM-S9U45255,
         nadat2:PER-LM-SQ36001H,
-        nadat2:PER-TMP-00002,
-        nadat2:PER-TMP-00051 ;
-    rico:identifier "ACT-M-53247" .
+        nadat2:PER-TMP-00051,
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-53247" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53287 a rico:Activity ;
     skos:prefLabel "[ACT-M-53287] 21대 국회 본회의 제410회 제9차"@ko ;
@@ -3022,8 +3178,9 @@ nadat1:ACT-M-53287 a rico:Activity ;
         nadat2:PER-LM-WMG57662,
         nadat2:PER-LM-WVU2479T,
         nadat2:PER-LM-ZA54991S,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-53287" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-53287" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53341 a rico:Activity ;
     skos:prefLabel "[ACT-M-53341] 21대 국회 본회의 제410회 제10차"@ko ;
@@ -3031,8 +3188,9 @@ nadat1:ACT-M-53341 a rico:Activity ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-Q9H5708M,
         nadat2:PER-TMP-00048,
-        nadat2:PER-TMP-00079 ;
-    rico:identifier "ACT-M-53341" .
+        nadat2:PER-TMP-00080 ;
+    rico:identifier "ACT-M-53341" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53391 a rico:Activity ;
     skos:prefLabel "[ACT-M-53391] 21대 국회 본회의 제410회 제11차"@ko ;
@@ -3047,10 +3205,11 @@ nadat1:ACT-M-53391 a rico:Activity ;
         nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-SRP7336N,
         nadat2:PER-LM-UGH6481E,
-        nadat2:PER-TMP-00002,
-        nadat2:PER-TMP-00080,
-        nadat2:PER-TMP-00081 ;
-    rico:identifier "ACT-M-53391" .
+        nadat2:PER-TMP-00064,
+        nadat2:PER-TMP-00081,
+        nadat2:PER-TMP-00082 ;
+    rico:identifier "ACT-M-53391" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53561 a rico:Activity ;
     skos:prefLabel "[ACT-M-53561] 21대 국회 본회의 제410회 제12차"@ko ;
@@ -3064,16 +3223,18 @@ nadat1:ACT-M-53561 a rico:Activity ;
         nadat2:PER-LM-SQ36001H,
         nadat2:PER-LM-XJC13432,
         nadat2:PER-LM-ZA54991S,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-53561" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-53561" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53577 a rico:Activity ;
     skos:prefLabel "[ACT-M-53577] 21대 국회 본회의 제410회 제13차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-T465023H,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-53577" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-53577" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53628 a rico:Activity ;
     skos:prefLabel "[ACT-M-53628] 21대 국회 본회의 제410회 제14차"@ko ;
@@ -3109,13 +3270,14 @@ nadat1:ACT-M-53628 a rico:Activity ;
         nadat2:PER-LM-VHK3402G,
         nadat2:PER-LM-XJC13432,
         nadat2:PER-LM-XPP2564T,
-        nadat2:PER-TMP-00002,
         nadat2:PER-TMP-00027,
         nadat2:PER-TMP-00028,
         nadat2:PER-TMP-00057,
-        nadat2:PER-TMP-00082,
-        nadat2:PER-TMP-00083 ;
-    rico:identifier "ACT-M-53628" .
+        nadat2:PER-TMP-00064,
+        nadat2:PER-TMP-00083,
+        nadat2:PER-TMP-00084 ;
+    rico:identifier "ACT-M-53628" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53696 a rico:Activity ;
     skos:prefLabel "[ACT-M-53696] 21대 국회 본회의 제411회 제1차"@ko ;
@@ -3145,9 +3307,10 @@ nadat1:ACT-M-53696 a rico:Activity ;
         nadat2:PER-LM-VRY5522V,
         nadat2:PER-LM-XJC13432,
         nadat2:PER-LM-YTA7297R,
-        nadat2:PER-TMP-00002,
-        nadat2:PER-TMP-00084 ;
-    rico:identifier "ACT-M-53696" .
+        nadat2:PER-TMP-00064,
+        nadat2:PER-TMP-00085 ;
+    rico:identifier "ACT-M-53696" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53763 a rico:Activity ;
     skos:prefLabel "[ACT-M-53763] 21대 국회 본회의 제411회 제4차"@ko ;
@@ -3181,13 +3344,14 @@ nadat1:ACT-M-53763 a rico:Activity ;
         nadat2:PER-LM-X1K3667J,
         nadat2:PER-LM-XA42275R,
         nadat2:PER-LM-XWX1513T,
-        nadat2:PER-TMP-00002,
-        nadat2:PER-TMP-00085,
+        nadat2:PER-TMP-00064,
         nadat2:PER-TMP-00086,
         nadat2:PER-TMP-00087,
         nadat2:PER-TMP-00088,
-        nadat2:PER-TMP-00089 ;
-    rico:identifier "ACT-M-53763" .
+        nadat2:PER-TMP-00089,
+        nadat2:PER-TMP-00090 ;
+    rico:identifier "ACT-M-53763" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53779 a rico:Activity ;
     skos:prefLabel "[ACT-M-53779] 21대 국회 본회의 제412회 제1차"@ko ;
@@ -3214,9 +3378,10 @@ nadat1:ACT-M-53779 a rico:Activity ;
         nadat2:PER-LM-W1Q6753M,
         nadat2:PER-LM-XJC13432,
         nadat2:PER-LM-ZDP5704Q,
-        nadat2:PER-TMP-00002,
-        nadat2:PER-TMP-00090 ;
-    rico:identifier "ACT-M-53779" .
+        nadat2:PER-TMP-00064,
+        nadat2:PER-TMP-00091 ;
+    rico:identifier "ACT-M-53779" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53785 a rico:Activity ;
     skos:prefLabel "[ACT-M-53785] 21대 국회 본회의 제412회 제2차"@ko ;
@@ -3239,37 +3404,42 @@ nadat1:ACT-M-53785 a rico:Activity ;
         nadat2:PER-LM-S741317G,
         nadat2:PER-LM-SZ51175J,
         nadat2:PER-LM-WFU14784,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-53785" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-53785" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53795 a rico:Activity ;
     skos:prefLabel "[ACT-M-53795] 21대 국회 본회의 제413회 제0차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-Q9H5708M,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-53795" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-53795" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53796 a rico:Activity ;
     skos:prefLabel "[ACT-M-53796] 21대 국회 본회의 제413회 제1차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-6AU2417B,
         nadat2:PER-LM-Q9H5708M,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-53796" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-53796" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53797 a rico:Activity ;
     skos:prefLabel "[ACT-M-53797] 21대 국회 본회의 제413회 제2차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-FRN1867O,
         nadat2:PER-LM-Q9H5708M ;
-    rico:identifier "ACT-M-53797" .
+    rico:identifier "ACT-M-53797" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53800 a rico:Activity ;
     skos:prefLabel "[ACT-M-53800] 21대 국회 본회의 제413회 제3차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-ZRF3039U ;
-    rico:identifier "ACT-M-53800" .
+    rico:identifier "ACT-M-53800" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53804 a rico:Activity ;
     skos:prefLabel "[ACT-M-53804] 21대 국회 본회의 제413회 제4차"@ko ;
@@ -3291,14 +3461,15 @@ nadat1:ACT-M-53804 a rico:Activity ;
         nadat2:PER-LM-VHK3402G,
         nadat2:PER-LM-VRY5522V,
         nadat2:PER-LM-ZYH1940A,
-        nadat2:PER-TMP-00001,
         nadat2:PER-TMP-00027,
         nadat2:PER-TMP-00049,
-        nadat2:PER-TMP-00069,
         nadat2:PER-TMP-00070,
-        nadat2:PER-TMP-00080,
-        nadat2:PER-TMP-00091 ;
-    rico:identifier "ACT-M-53804" .
+        nadat2:PER-TMP-00071,
+        nadat2:PER-TMP-00081,
+        nadat2:PER-TMP-00092,
+        nadat2:PER-TMP-00093 ;
+    rico:identifier "ACT-M-53804" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53808 a rico:Activity ;
     skos:prefLabel "[ACT-M-53808] 21대 국회 본회의 제413회 제5차"@ko ;
@@ -3320,10 +3491,11 @@ nadat1:ACT-M-53808 a rico:Activity ;
         nadat2:PER-TMP-00049,
         nadat2:PER-TMP-00050,
         nadat2:PER-TMP-00061,
-        nadat2:PER-TMP-00085,
-        nadat2:PER-TMP-00087,
-        nadat2:PER-TMP-00092 ;
-    rico:identifier "ACT-M-53808" .
+        nadat2:PER-TMP-00086,
+        nadat2:PER-TMP-00088,
+        nadat2:PER-TMP-00094 ;
+    rico:identifier "ACT-M-53808" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53815 a rico:Activity ;
     skos:prefLabel "[ACT-M-53815] 21대 국회 본회의 제413회 제6차"@ko ;
@@ -3357,9 +3529,10 @@ nadat1:ACT-M-53815 a rico:Activity ;
         nadat2:PER-LM-WMG57662,
         nadat2:PER-LM-XWX1513T,
         nadat2:PER-LM-ZKU88693,
-        nadat2:PER-TMP-00001,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-53815" .
+        nadat2:PER-TMP-00064,
+        nadat2:PER-TMP-00092 ;
+    rico:identifier "ACT-M-53815" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53832 a rico:Activity ;
     skos:prefLabel "[ACT-M-53832] 21대 국회 본회의 제414회 제1차"@ko ;
@@ -3370,65 +3543,67 @@ nadat1:ACT-M-53832 a rico:Activity ;
         nadat2:PER-LM-NTT8182Q,
         nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-X1K3667J,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-53832" .
+        nadat2:PER-TMP-00064 ;
+    rico:identifier "ACT-M-53832" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:ACT-M-53844 a rico:Activity ;
-                skos:prefLabel "[ACT-M-53844] 21대 국회 본회의 제414회 제2차"@ko ;
-                rico:hasActivityType nam1:PlenarySession ;
-                rico:hasOrHadParticipant nadat2:PER-LM-6AU2417B,
-                    nadat2:PER-LM-8FB1535Y,
-                    nadat2:PER-LM-EH27538E,
-                    nadat2:PER-LM-HSS7466Y,
-                    nadat2:PER-LM-IL74008M,
-                    nadat2:PER-LM-LPB30152,
-                    nadat2:PER-LM-MU69217P,
-                    nadat2:PER-LM-Q9H5708M,
-                    nadat2:PER-LM-TZ228122,
-                    nadat2:PER-LM-WMG57662,
-                    nadat2:PER-LM-ZDR63255,
-                    nadat2:PER-TMP-00001,
-                    nadat2:PER-TMP-00002 ;
-                rico:identifier "ACT-M-53844" .
+    skos:prefLabel "[ACT-M-53844] 21대 국회 본회의 제414회 제2차"@ko ;
+    rico:hasActivityType nam1:PlenarySession ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6AU2417B,
+        nadat2:PER-LM-8FB1535Y,
+        nadat2:PER-LM-EH27538E,
+        nadat2:PER-LM-HSS7466Y,
+        nadat2:PER-LM-IL74008M,
+        nadat2:PER-LM-LPB30152,
+        nadat2:PER-LM-MU69217P,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-TZ228122,
+        nadat2:PER-LM-WMG57662,
+        nadat2:PER-LM-ZDR63255,
+        nadat2:PER-TMP-00064,
+        nadat2:PER-TMP-00092 ;
+    rico:identifier "ACT-M-53844" ;
+    rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:S100021 a rico:RecordSet ;
-                skos:prefLabel "[S100021] 21대 국회 본회의"@ko ;
-                rico:classification "A" ;
-                rico:identifier "S100021" ;
-                rico:includesOrIncluded nadat1:F1000210379,
-                    nadat1:F1000210380,
-                    nadat1:F1000210382,
-                    nadat1:F1000210383,
-                    nadat1:F1000210384,
-                    nadat1:F1000210385,
-                    nadat1:F1000210386,
-                    nadat1:F1000210387,
-                    nadat1:F1000210388,
-                    nadat1:F1000210389,
-                    nadat1:F1000210390,
-                    nadat1:F1000210391,
-                    nadat1:F1000210392,
-                    nadat1:F1000210393,
-                    nadat1:F1000210394,
-                    nadat1:F1000210395,
-                    nadat1:F1000210396,
-                    nadat1:F1000210397,
-                    nadat1:F1000210398,
-                    nadat1:F1000210400,
-                    nadat1:F1000210401,
-                    nadat1:F1000210402,
-                    nadat1:F1000210403,
-                    nadat1:F1000210404,
-                    nadat1:F1000210405,
-                    nadat1:F1000210406,
-                    nadat1:F1000210407,
-                    nadat1:F1000210408,
-                    nadat1:F1000210409,
-                    nadat1:F1000210410,
-                    nadat1:F1000210411,
-                    nadat1:F1000210412,
-                    nadat1:F1000210413,
-                    nadat1:F1000210414 .
+    skos:prefLabel "[S100021] 21대 국회 본회의"@ko ;
+    rico:classification "A" ;
+    rico:identifier "S100021" ;
+    rico:includesOrIncluded nadat1:F1000210379,
+        nadat1:F1000210380,
+        nadat1:F1000210382,
+        nadat1:F1000210383,
+        nadat1:F1000210384,
+        nadat1:F1000210385,
+        nadat1:F1000210386,
+        nadat1:F1000210387,
+        nadat1:F1000210388,
+        nadat1:F1000210389,
+        nadat1:F1000210390,
+        nadat1:F1000210391,
+        nadat1:F1000210392,
+        nadat1:F1000210393,
+        nadat1:F1000210394,
+        nadat1:F1000210395,
+        nadat1:F1000210396,
+        nadat1:F1000210397,
+        nadat1:F1000210398,
+        nadat1:F1000210400,
+        nadat1:F1000210401,
+        nadat1:F1000210402,
+        nadat1:F1000210403,
+        nadat1:F1000210404,
+        nadat1:F1000210405,
+        nadat1:F1000210406,
+        nadat1:F1000210407,
+        nadat1:F1000210408,
+        nadat1:F1000210409,
+        nadat1:F1000210410,
+        nadat1:F1000210411,
+        nadat1:F1000210412,
+        nadat1:F1000210413,
+        nadat1:F1000210414 .
 
 nadat1:F1000210379 a rico:RecordSet ;
     skos:prefLabel "[F0379] 21대 본회의 제379회"@ko ;
@@ -7402,6 +7577,8 @@ nadat1:date-2024_02_19 a rico:Date ;
     rico:identifier "date-2024_02_19" ;
     rico:name "date-2024_02_19" ;
     rico:normalizedDateValue "2024-02-19"^^xsd:date .
+
+
 
 
 
