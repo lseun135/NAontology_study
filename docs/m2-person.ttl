@@ -100,12 +100,6 @@ gn:name rdf:type owl:DatatypeProperty .
 
 #    Classes
 
-rico:Person rdf:type owl:Class ;
-                rdfs:subClassOf foaf:Person .
-
-rico:CorporateBody rdf:type owl:Class ;
-                rdfs:subClassOf org:Organization .
-
 dcterms:LocationPeriodOrJurisdiction rdf:type owl:Class .
 
 dcterms:PeriodOfTime rdf:type owl:Class ;
