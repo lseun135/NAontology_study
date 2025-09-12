@@ -7,6 +7,8 @@ from typing import Dict, Optional, Tuple, List
 from rdflib import Graph, Literal, URIRef, Namespace
 from rdflib.namespace import RDF, RDFS, SKOS, DCTERMS, XSD, FOAF, OWL
 
+
+
 CSV_PATH       = r"D:/연구/국회회의록/21대_상임위_최종병합.csv"             # 입력 CSV 파일
 OUT_TTL        = r"m1_records_add_SC.txt"                                    # d1: 출력 TTL
 PEOPLE_TTL     = r"https://lseun135.github.io/NAontology_study/resource/d2-person.ttl"
