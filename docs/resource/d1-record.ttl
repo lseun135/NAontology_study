@@ -17,7 +17,9 @@
 
 
 
-<https://lseun135.github.io/NAontology_study/resource/d1-record.ttl> a owl:Ontology .
+<https://lseun135.github.io/NAontology_study/resource/d1-record.ttl> a owl:Ontology ;
+                owl:imports <https://lseun135.github.io/NAontology_study/m1-record.ttl> ,
+                    <https://lseun135.github.io/NAontology_study/resource/d2-person.ttl> .
 
 
 
