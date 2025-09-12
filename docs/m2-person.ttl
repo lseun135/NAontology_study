@@ -11,9 +11,9 @@
 @prefix foaf:   <http://xmlns.com/foaf/0.1/> .
 @prefix gn:     <https://www.geonames.org/ontology#> .
 @prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
 
 @base <https://lseun135.github.io/NAontology_study/m2-person> .
-
 
 
 <https://lseun135.github.io/NAontology_study/m2-person.ttl> rdf:type owl:Ontology ;
@@ -99,6 +99,12 @@ gn:name rdf:type owl:DatatypeProperty .
 
 
 #    Classes
+
+rico:Person rdf:type owl:Class ;
+                rdfs:subClassOf foaf:Person .
+
+rico:CorporateBody rdf:type owl:Class ;
+                rdfs:subClassOf org:Organization .
 
 dcterms:LocationPeriodOrJurisdiction rdf:type owl:Class .
 
