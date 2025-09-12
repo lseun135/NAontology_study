@@ -1,7 +1,13 @@
 @prefix nadat1: <https://lseun135.github.io/NAontology_study/resource/d1-record#> .
+@prefix nadat2: <https://lseun135.github.io/NAontology_study/resource/d2-person#> .
+
+@prefix nam1: <https://lseun135.github.io/NAontology_study/m1-record#> .
+@prefix nam2: <https://lseun135.github.io/NAontology_study/m2-person#> .
+@prefix nam3: <https://lseun135.github.io/NAontology_study/m3-content#> .
 
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
 @prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
 
 @base    <https://lseun135.github.io/NAontology_study/resource/d1-record> .
 
@@ -3362,61 +3368,61 @@ nadat1:ACT-M-53832 a rico:Activity ;
     rico:identifier "ACT-M-53832" .
 
 nadat1:ACT-M-53844 a rico:Activity ;
-    skos:prefLabel "[ACT-M-53844] 21대 국회 본회의 제414회 제2차"@ko ;
-    rico:hasActivityType nam1:PlenarySession ;
-    rico:hasOrHadParticipant nadat2:PER-LM-6AU2417B,
-        nadat2:PER-LM-8FB1535Y,
-        nadat2:PER-LM-EH27538E,
-        nadat2:PER-LM-HSS7466Y,
-        nadat2:PER-LM-IL74008M,
-        nadat2:PER-LM-LPB30152,
-        nadat2:PER-LM-MU69217P,
-        nadat2:PER-LM-Q9H5708M,
-        nadat2:PER-LM-TZ228122,
-        nadat2:PER-LM-WMG57662,
-        nadat2:PER-LM-ZDR63255,
-        nadat2:PER-TMP-00001,
-        nadat2:PER-TMP-00002 ;
-    rico:identifier "ACT-M-53844" .
+                skos:prefLabel "[ACT-M-53844] 21대 국회 본회의 제414회 제2차"@ko ;
+                rico:hasActivityType nam1:PlenarySession ;
+                rico:hasOrHadParticipant nadat2:PER-LM-6AU2417B,
+                    nadat2:PER-LM-8FB1535Y,
+                    nadat2:PER-LM-EH27538E,
+                    nadat2:PER-LM-HSS7466Y,
+                    nadat2:PER-LM-IL74008M,
+                    nadat2:PER-LM-LPB30152,
+                    nadat2:PER-LM-MU69217P,
+                    nadat2:PER-LM-Q9H5708M,
+                    nadat2:PER-LM-TZ228122,
+                    nadat2:PER-LM-WMG57662,
+                    nadat2:PER-LM-ZDR63255,
+                    nadat2:PER-TMP-00001,
+                    nadat2:PER-TMP-00002 ;
+                rico:identifier "ACT-M-53844" .
 
 nadat1:S100021 a rico:RecordSet ;
-    skos:prefLabel "[S100021] 21대 국회 본회의"@ko ;
-    rico:classification "A" ;
-    rico:identifier "S100021" ;
-    rico:includesOrIncluded nadat1:F1000210379,
-        nadat1:F1000210380,
-        nadat1:F1000210382,
-        nadat1:F1000210383,
-        nadat1:F1000210384,
-        nadat1:F1000210385,
-        nadat1:F1000210386,
-        nadat1:F1000210387,
-        nadat1:F1000210388,
-        nadat1:F1000210389,
-        nadat1:F1000210390,
-        nadat1:F1000210391,
-        nadat1:F1000210392,
-        nadat1:F1000210393,
-        nadat1:F1000210394,
-        nadat1:F1000210395,
-        nadat1:F1000210396,
-        nadat1:F1000210397,
-        nadat1:F1000210398,
-        nadat1:F1000210400,
-        nadat1:F1000210401,
-        nadat1:F1000210402,
-        nadat1:F1000210403,
-        nadat1:F1000210404,
-        nadat1:F1000210405,
-        nadat1:F1000210406,
-        nadat1:F1000210407,
-        nadat1:F1000210408,
-        nadat1:F1000210409,
-        nadat1:F1000210410,
-        nadat1:F1000210411,
-        nadat1:F1000210412,
-        nadat1:F1000210413,
-        nadat1:F1000210414 .
+                skos:prefLabel "[S100021] 21대 국회 본회의"@ko ;
+                rico:classification "A" ;
+                rico:identifier "S100021" ;
+                rico:includesOrIncluded nadat1:F1000210379,
+                    nadat1:F1000210380,
+                    nadat1:F1000210382,
+                    nadat1:F1000210383,
+                    nadat1:F1000210384,
+                    nadat1:F1000210385,
+                    nadat1:F1000210386,
+                    nadat1:F1000210387,
+                    nadat1:F1000210388,
+                    nadat1:F1000210389,
+                    nadat1:F1000210390,
+                    nadat1:F1000210391,
+                    nadat1:F1000210392,
+                    nadat1:F1000210393,
+                    nadat1:F1000210394,
+                    nadat1:F1000210395,
+                    nadat1:F1000210396,
+                    nadat1:F1000210397,
+                    nadat1:F1000210398,
+                    nadat1:F1000210400,
+                    nadat1:F1000210401,
+                    nadat1:F1000210402,
+                    nadat1:F1000210403,
+                    nadat1:F1000210404,
+                    nadat1:F1000210405,
+                    nadat1:F1000210406,
+                    nadat1:F1000210407,
+                    nadat1:F1000210408,
+                    nadat1:F1000210409,
+                    nadat1:F1000210410,
+                    nadat1:F1000210411,
+                    nadat1:F1000210412,
+                    nadat1:F1000210413,
+                    nadat1:F1000210414 .
 
 nadat1:F1000210379 a rico:RecordSet ;
     skos:prefLabel "[F0379] 21대 본회의 제379회"@ko ;
