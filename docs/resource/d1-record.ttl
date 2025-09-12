@@ -24,6 +24,9 @@
 
 
 
+
+nadat2:NationalAssembly rdf:type rico:CorporateBody . 
+
 nadat1:ACT-M-50024 a rico:Activity ;
     skos:prefLabel "[ACT-M-50024] 21대 국회 본회의 제379회 제1차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
