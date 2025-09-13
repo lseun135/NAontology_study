@@ -13,9 +13,9 @@ from rdflib.namespace import RDF, RDFS, SKOS, DCTERMS, XSD, FOAF, OWL
 
 # ========================= CONFIG =========================
 CSV_PATH       = r"D:/연구/국회회의록/21대_상임위_최종병합.csv"      # 입력 CSV 파일
-OUT_TTL        = r"m1_records_add_SC.txt"                          # d1: 출력 TTL
+OUT_TTL        = r"d1_records_add_SC.txt"                          # d1: 출력 TTL
 PEOPLE_TTL     = r"https://lseun135.github.io/NAontology_study/resource/d2-person.ttl"
-OUT_TMP_PEOPLE = r"m2_persons_tmp_add_2.txt"                       # (신규) 임시 Person TTL(txt)
+OUT_TMP_PEOPLE = r"d2_persons_tmp_add_2.txt"                       # (신규) 임시 Person TTL(txt)
 CSV_ENCODING   = "utf-8-sig"
 
 # DATE-DEDUP: 기존 d1에서 날짜 개체 인덱스 사전 적재
