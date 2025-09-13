@@ -24,7 +24,6 @@ PRELOAD_D1_TTLS: List[str] = [r"https://lseun135.github.io/NAontology_study/reso
 # 디버그: 상세 로그 출력 여부
 DEBUG_DATE_INDEX = True
 
-
 # ======================= NAMESPACES ========================
 NAM1   = Namespace("https://lseun135.github.io/NAontology_study/m1-record#")
 NAM2   = Namespace("https://lseun135.github.io/NAontology_study/m2-person#")
@@ -37,7 +36,6 @@ NADAT3 = Namespace("https://lseun135.github.io/NAontology_study/resource/d3-cont
 RICO   = Namespace("https://www.ica.org/standards/RiC/ontology#")
 ORG    = Namespace("http://www.w3.org/ns/org#")
 SCHEMA = Namespace("https://schema.org/")
-
 
 # ======================= 숫자/날짜 유틸 =======================
 def digits_only(s):
@@ -57,7 +55,6 @@ def parse_date_simple(s):
             return y, m, d
     return None
 
-
 # ======================== RDF 헬퍼 ==========================
 def add_lit(g, s, p, value, lang=None, dt=None):
     if value is None or (isinstance(value, float) and pd.isna(value)): return
@@ -66,7 +63,6 @@ def add_lit(g, s, p, value, lang=None, dt=None):
 def add_res(g, s, p, iri_str):
     if not iri_str: return
     g.add((s, p, URIRef(iri_str)))
-
 
 # =================== d2-person.ttl → 인덱스 =================
 def build_person_index_from_ttl(people_ttl_url):
@@ -128,7 +124,6 @@ def derive_committee_suffix_from_identifier(ident: Optional[str]) -> Optional[st
         return None
     s = ident.replace("CMIT", "").replace("-", "").strip()
     return s or None
-
 
 # ===================== 발언자 파서 유틸 =====================
 _BRACKETS = [r"\(.*?\)", r"\[.*?\]", r"【.*?】", r"〈.*?〉", r"《.*?》", r"「.*?」", r"『.*?』"]
@@ -198,7 +193,6 @@ def extract_name_only_from_speaker(raw_text: str) -> Optional[str]:
         return sorted(alt, key=len)[0]
     return personish[-1] if personish else (tokens[-1] if tokens else None)
 
-
 # ===================== 임시 Person 관리자 ====================
 class ProvisionalPersonManager:
     def __init__(self, start_from: int = 0):
@@ -246,16 +240,13 @@ class ProvisionalPersonManager:
         out_file.write_text("\n".join(lines), encoding="utf-8")
         print(f"[write] provisional persons txt: {out_file} (count={len(self.entries)})")
 
-
 # ================= 날짜 인덱스 적재 & 해결/생성 =================
-
 def _local_name(iri: str) -> str:
     if "#" in iri:
         return iri.rsplit("#", 1)[-1]
     iri2 = iri.rstrip("/")
     return iri2.rsplit("/", 1)[-1]
 
-# URL/파일을 읽어서 dcterms 프리픽스가 없으면 보강한 후 파싱
 def _load_graph_from_source(src: str) -> Graph:
     g = Graph()
     raw_text = None
@@ -264,7 +255,6 @@ def _load_graph_from_source(src: str) -> Graph:
             with urllib.request.urlopen(src) as resp:
                 raw_text = resp.read().decode("utf-8")
         else:
-            # 로컬 파일
             p = Path(src)
             raw_text = p.read_text(encoding="utf-8")
     except Exception as e:
@@ -274,21 +264,13 @@ def _load_graph_from_source(src: str) -> Graph:
 
     if raw_text is not None:
         if "@prefix dcterms:" not in raw_text:
-            raw_text = "@prefix dcterms: <http://purl.org/dc/terms/> .\n" + raw_text  # ★ FIX
+            raw_text = "@prefix dcterms: <http://purl.org/dc/terms/> .\n" + raw_text
         g.parse(data=raw_text, format="turtle")
     else:
-        # 마지막 시도로 rdflib에 URL/경로를 직접 넘김
         g.parse(src, format="turtle")
     return g
 
-# 네임스페이스 필터 제거하고 파일 내 rico:Date 전부 수집 → 로컬명 패턴/normalized로 제한
 def preload_existing_date_index(sources: List[str], nadat1_base: Namespace):
-    """
-    d1에 선언된 rico:Date 개체를 인덱싱(네임스페이스 제한 없음):
-      - existing_date_iris: Set[str]            # IRI 집합(로컬명이 date-... 인 것만)
-      - normalized_to_iris: Dict[str, Set[str]] # 'YYYY-MM-DD' -> {IRI, ...}
-      - iri_to_normalized: Dict[str, str]       # IRI -> 'YYYY-MM-DD'
-    """
     existing_date_iris: Set[str] = set()
     normalized_to_iris: Dict[str, Set[str]] = defaultdict(set)
     iri_to_normalized: Dict[str, str] = {}
@@ -336,26 +318,17 @@ def resolve_or_create_date_iri(
     iri_to_normalized: Dict[str, str],
     created_date_iris: Set[str]
 ) -> Tuple[str, bool]:
-    """
-    리턴: (iri_to_use, was_created)
-      - 같은 IRI가 있으면 그대로 사용 (created=False)
-      - IRI는 없지만 normalized(YYYY-MM-DD)가 같은 기존 날짜가 있으면 그 IRI 사용 (created=False)
-      - 둘 다 없으면 새로 생성하고 그 IRI 리턴 (created=True)
-    """
     local = f"date-{y:04d}_{m:02d}_{d:02d}"
     canonical_iri = str(NADAT1[local])
     normalized = date(y, m, d).isoformat()
 
-    # 동일 IRI 존재
     if canonical_iri in existing_date_iris or canonical_iri in created_date_iris:
         return canonical_iri, False
 
-    # normalized 중복 존재 → 그 IRI 재사용
     if normalized in normalized_to_iris and normalized_to_iris[normalized]:
         use_iri = sorted(normalized_to_iris[normalized])[0]
         return use_iri, False
 
-    # 새로 생성
     d_node = URIRef(canonical_iri)
     g.add((d_node, RDF.type, RICO.Date))
     add_lit(g, d_node, RICO.identifier, local)
@@ -365,14 +338,11 @@ def resolve_or_create_date_iri(
         add_lit(g, d_node, RICO.expressedDate, expressed.strip(), lang="ko")
     add_res(g, d_node, RICO.hasDateType, str(NAM1["singleDate"]))
 
-    # 인덱스 갱신
     created_date_iris.add(canonical_iri)
     existing_date_iris.add(canonical_iri)
     normalized_to_iris.setdefault(normalized, set()).add(canonical_iri)
     iri_to_normalized[canonical_iri] = normalized
-
     return canonical_iri, True
-
 
 # ===================== 메인 변환 =========================
 def convert(csv_path, out_path, tmp_people_out_path,
@@ -380,21 +350,18 @@ def convert(csv_path, out_path, tmp_people_out_path,
     df = pd.read_csv(csv_path, encoding=encoding)
 
     g = Graph()
-    # prefix 바인딩
     g.bind("rdf", RDF); g.bind("rdfs", RDFS); g.bind("skos", SKOS)
     g.bind("dcterms", DCTERMS); g.bind("xsd", XSD); g.bind("foaf", FOAF); g.bind("owl", OWL)
     g.bind("rico", RICO); g.bind("org", ORG); g.bind("schema", SCHEMA)
     g.bind("nam1", NAM1); g.bind("nam2", NAM2); g.bind("nam3", NAM3)
     g.bind("nadat1", NADAT1); g.bind("nadat2", NADAT2); g.bind("nadat3", NADAT3)
 
-    # 사람/조직 인덱스
     idx_exact, idx_nospace = build_person_index_from_ttl(people_ttl_url) if people_ttl_url else ({}, {})
     org_idx = build_org_index_from_ttl(people_ttl_url) if people_ttl_url else {}
     ou_label_to_iri, ou_label_to_ident = build_orgunit_maps(people_ttl_url) if people_ttl_url else ({}, {})
     print(f"[info] persons exact={len(idx_exact)}, nospace={len(idx_nospace)}; "
           f"orgs={len(org_idx)}; orgUnits={len(ou_label_to_ident)}")
 
-    # d2를 스캔해 기존 PER-TMP-xxxxx 최댓값을 읽어온다
     start_from = 0
     if people_ttl_url:
         try:
@@ -413,13 +380,11 @@ def convert(csv_path, out_path, tmp_people_out_path,
     print(f"[info] provisional start_from={start_from}")
     prov_mgr = ProvisionalPersonManager(start_from=start_from)
 
-    # 날짜 인덱스 적재
     existing_date_iris, normalized_to_iris, iri_to_normalized = preload_existing_date_index(
         PRELOAD_D1_TTLS, NADAT1
     )
     created_date_iris: Set[str] = set()
 
-    # 통계
     seen_participants: Dict[str, set] = {}
     total_rows = 0
     linked_count = 0
@@ -464,6 +429,7 @@ def convert(csv_path, out_path, tmp_people_out_path,
         if session_raw and str(session_raw).strip(): label_act += f" {str(session_raw).strip()}"
         if round_raw and str(round_raw).strip():     label_act += f" {str(round_raw).strip()}"
         add_lit(g, act, SKOS.prefLabel, label_act, lang="ko")
+        add_lit(g, act, RICO.name, f"제{generation}대 {rec_type} {committee} {session_raw} {round_raw}", lang="ko")
         add_lit(g, act, DCTERMS.identifier, f"{mtg_no}")
         add_res(g, act, RICO.hasActivityType, str(NAM1["StandingCommitteeMeeting"]))
 
@@ -473,6 +439,10 @@ def convert(csv_path, out_path, tmp_people_out_path,
             ou_iri = ou_label_to_iri.get(clabel)
             if ou_iri:
                 add_res(g, act, RICO.isOrWasPerformedBy, ou_iri)
+                # performer 주체를 rico:Group으로 보장(중복X)
+                u = URIRef(ou_iri)
+                if (u, RDF.type, RICO.Group) not in g:
+                    g.add((u, RDF.type, RICO.Group))
             else:
                 ident = ou_label_to_ident.get(clabel)
                 local = (ident if ident else re.sub(r"[^A-Za-z0-9._\-]", "", clabel.replace(" ", "_"))) or f"OU_{abs(hash(clabel))}"
@@ -494,10 +464,12 @@ def convert(csv_path, out_path, tmp_people_out_path,
             if committee:  s_label += f" {committee}"
             add_lit(g, s_node, SKOS.prefLabel, s_label, lang="ko")
             add_lit(g, s_node, RICO.classification, "A")
+            add_lit(g, s_node, RICO.name, f"제{generation}대 {rec_type} {committee}", lang="ko")
 
         # 3) RecordSet F(회수)
         f_node = None
         if generation is not None and session4 is not None:
+            session_str = str(session_raw).strip() if session_raw else ""   # ★ 미정의 방지
             f_node = URIRef(NADAT1[f"F1000{generation}{session4}{suffix}"])
             g.add((f_node, RDF.type, RICO.RecordSet))
             add_lit(g, f_node, RICO.identifier, f"F1000{generation}{session4}{suffix}")
@@ -506,6 +478,7 @@ def convert(csv_path, out_path, tmp_people_out_path,
             if committee:             f_label += f" {committee}"
             if session_raw and str(session_raw).strip(): f_label += f" {str(session_raw).strip()}"
             add_lit(g, f_node, SKOS.prefLabel, f_label, lang="ko")
+            add_lit(g, f_node, RICO.name, f"제{generation}대 {rec_type} {committee} {session_str}", lang="ko")
             add_lit(g, f_node, RICO.classification, "A")
             add_lit(g, f_node, RICO.conditionsOfAccess, "공개", lang="ko")
             add_lit(g, f_node, RICO.conditionsOfAccess, "Open", lang="en")
@@ -536,7 +509,7 @@ def convert(csv_path, out_path, tmp_people_out_path,
 
             add_lit(g, r_node, RICO.classification, "A")
 
-            # Record → Activity 연결
+            # Record → Activity
             g.add((r_node, RICO.documents, act))
 
             if f_node is not None:
@@ -550,7 +523,7 @@ def convert(csv_path, out_path, tmp_people_out_path,
             add_res(g, r_node, RICO.hasOrHadLegalStatus, str(NAM1["public"]))
             add_res(g, r_node, RICO.hasOrHadLanguage, str(NAM1["lang-kor"]))
 
-            # 4-1) DATE-DEDUP: 날짜 IRI 해결/생성 후 연결
+            # 4-1) DATE-DEDUP
             ymd = parse_date_simple(date_raw)
             if ymd:
                 y, m, d = ymd
@@ -562,13 +535,11 @@ def convert(csv_path, out_path, tmp_people_out_path,
                     iri_to_normalized=iri_to_normalized,
                     created_date_iris=created_date_iris
                 )
-                # Record → Date
                 add_res(g, r_node, RICO.hasCreationDate, iri_to_use)
 
-                # Date → Activity(Event) (도메인: Date, 레인지: Activity)
+                # (주의) 업로드 TTL과 완전 동일성을 원하면 아래 줄은 제거
                 g.add((URIRef(iri_to_use), RICO.isDateOfOccurrenceOf, act))
 
-                # 통계
                 if was_created:
                     stats["created"] += 1
                 else:
@@ -579,9 +550,8 @@ def convert(csv_path, out_path, tmp_people_out_path,
                     else:
                         stats["linked_existing_by_normalized"] += 1
 
-        # 5) Participants (발언자 → ACT) + 임시개체 처리
+        # 5) Participants
         name, iri, role, original_speaker = parse_speaker_name(row.get("발언자"), idx_exact, idx_nospace)
-
         if iri:
             key = f"ACT-M-{mtg_no}"
             seen_participants.setdefault(key, set())
@@ -611,7 +581,7 @@ def convert(csv_path, out_path, tmp_people_out_path,
     # 저장(임시 Person TTL txt, d2 보완용)
     prov_mgr.write_ttl_txt(tmp_people_out_path)
 
-
 # ========================= 실행 ==========================
 if __name__ == "__main__":
     convert(CSV_PATH, OUT_TTL, OUT_TMP_PEOPLE, encoding=CSV_ENCODING, people_ttl_url=PEOPLE_TTL)
+
