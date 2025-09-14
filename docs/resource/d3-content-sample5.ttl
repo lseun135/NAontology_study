@@ -33,84 +33,99 @@
 nadat3:AGD-R100021041300453804-001 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53804 ;
     dcterms:source nadat1:R100021041300453804 ;
+    dcterms:title "개의"@ko ;
     skos:prefLabel "[AGD-R100021041300453804-001] 개의"@ko .
 
 nadat3:AGD-R100021041300453804-002 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53804 ;
     dcterms:source nadat1:R100021041300453804 ;
+    dcterms:title "o 비교섭단체(녹색정의당) 대표발언"@ko ;
     skos:prefLabel "[AGD-R100021041300453804-002] o 비교섭단체(녹색정의당) 대표발언"@ko .
 
 nadat3:AGD-R100021041300453804-003 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53804 ;
     dcterms:source nadat1:R100021041300453804 ;
+    dcterms:title "o 국무위원(법무 박성재) 인사"@ko ;
     skos:prefLabel "[AGD-R100021041300453804-003] o 국무위원(법무 박성재) 인사"@ko .
 
 nadat3:AGD-R100021041300453804-004 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53804 ;
     dcterms:source nadat1:R100021041300453804 ;
+    dcterms:title "1. 정치․외교․통일․안보․교육․사회․문화에 관한 질문"@ko ;
     skos:prefLabel "[AGD-R100021041300453804-004] 1. 정치․외교․통일․안보․교육․사회․문화에 관한 질문"@ko .
 
 nadat3:AGD-R100021041300553808-001 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53808 ;
     dcterms:source nadat1:R100021041300553808 ;
+    dcterms:title "개의"@ko ;
     skos:prefLabel "[AGD-R100021041300553808-001] 개의"@ko .
 
 nadat3:AGD-R100021041300553808-002 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53808 ;
     dcterms:source nadat1:R100021041300553808 ;
+    dcterms:title "1. 경제에 관한 질문"@ko ;
     skos:prefLabel "[AGD-R100021041300553808-002] 1. 경제에 관한 질문"@ko .
 
 nadat3:AGD-R100021041300653815-001 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
+    dcterms:title "개의"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-001] 개의"@ko .
 
 nadat3:AGD-R100021041300653815-002 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2126515 ;
+    dcterms:title "1. 대법관(신숙희) 임명동의안(의안번호 2126515)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-002] 1. 대법관(신숙희) 임명동의안(의안번호 2126515)"@ko .
 
 nadat3:AGD-R100021041300653815-003 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2126516 ;
+    dcterms:title "2. 대법관(엄상필) 임명동의안(의안번호 2126516)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-003] 2. 대법관(엄상필) 임명동의안(의안번호 2126516)"@ko .
 
 nadat3:AGD-R100021041300653815-004 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2126571 ;
+    dcterms:title "3. 주식백지신탁 심사위원회 위원(김지현) 추천안(의장 제의)(의안번호 2126571)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-004] 3. 주식백지신탁 심사위원회 위원(김지현) 추천안(의장 제의)(의안번호 2126571)"@ko .
 
 nadat3:AGD-R100021041300653815-005 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2126572 ;
+    dcterms:title "4. 주식백지신탁 심사위원회 위원(최경수) 추천안(의장 제의)(의안번호 2126572)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-005] 4. 주식백지신탁 심사위원회 위원(최경수) 추천안(의장 제의)(의안번호 2126572)"@ko .
 
 nadat3:AGD-R100021041300653815-006 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2126573 ;
+    dcterms:title "5. 주식백지신탁 심사위원회 위원(허환준) 추천안(의장 제의)(의안번호 2126573)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-006] 5. 주식백지신탁 심사위원회 위원(허환준) 추천안(의장 제의)(의안번호 2126573)"@ko .
 
 nadat3:AGD-R100021041300653815-007 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2119747 ;
+    dcterms:title "6. 공공재정 부정청구 금지 및 부정이익 환수 등에 관한 법률 일부개정법률안(정부 제출)(의안번호 2119747)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-007] 6. 공공재정 부정청구 금지 및 부정이익 환수 등에 관한 법률 일부개정법률안(정부 제출)(의안번호 2119747)"@ko .
 
 nadat3:AGD-R100021041300653815-008 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2118192 ;
+    dcterms:title "7. 국유재산특례제한법 일부개정법률안(서일준 의원 대표발의)(의안번호 2118192)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-008] 7. 국유재산특례제한법 일부개정법률안(서일준 의원 대표발의)(의안번호 2118192)"@ko .
 
 nadat3:AGD-R100021041300653815-009 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126577 ;
+    dcterms:title "8. 공공기관의 운영에 관한 법률 일부개정법률안(대안)(기획재정위원장 제출)(의안번호 2126577)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-009] 8. 공공기관의 운영에 관한 법률 일부개정법률안(대안)(기획재정위원장 제출)(의안번호 2126577)"@ko .
 
@@ -118,6 +133,7 @@ nadat3:AGD-R100021041300653815-010 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126575 ;
+    dcterms:title "9. 통계법 일부개정법률안(대안)(기획재정위원장 제출)(의안번호 2126575)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-010] 9. 통계법 일부개정법률안(대안)(기획재정위원장 제출)(의안번호 2126575)"@ko .
 
@@ -125,6 +141,7 @@ nadat3:AGD-R100021041300653815-011 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126578 ;
+    dcterms:title "10. 한국수출입은행법 일부개정법률안(대안)(기획재정위원장 제출)(의안번호 2126578)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-011] 10. 한국수출입은행법 일부개정법률안(대안)(기획재정위원장 제출)(의안번호 2126578)"@ko .
 
@@ -132,30 +149,35 @@ nadat3:AGD-R100021041300653815-012 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2124304 ;
+    dcterms:title "11. 국가회계법 일부개정법률안(정부 제출)(의안번호 2124304)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-012] 11. 국가회계법 일부개정법률안(정부 제출)(의안번호 2124304)"@ko .
 
 nadat3:AGD-R100021041300653815-013 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2121306 ;
+    dcterms:title "12. 복권 및 복권기금법 일부개정법률안(류성걸 의원 대표발의)(의안번호 2121306)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-013] 12. 복권 및 복권기금법 일부개정법률안(류성걸 의원 대표발의)(의안번호 2121306)"@ko .
 
 nadat3:AGD-R100021041300653815-014 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2119559 ;
+    dcterms:title "13. 엽연초생산협동조합법 일부개정법률안(정부 제출)(의안번호 2119559)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-014] 13. 엽연초생산협동조합법 일부개정법률안(정부 제출)(의안번호 2119559)"@ko .
 
 nadat3:AGD-R100021041300653815-015 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2119826 ;
+    dcterms:title "14. 행정법제 혁신을 위한 물가안정에 관한 법률 등 3개 법률의 일부개정에 관한 법률안(김영선 의원 대표발의)(의안번호 2119826)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-015] 14. 행정법제 혁신을 위한 물가안정에 관한 법률 등 3개 법률의 일부개정에 관한 법률안(김영선 의원 대표발의)(의안번호 2119826)"@ko .
 
 nadat3:AGD-R100021041300653815-016 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126576 ;
+    dcterms:title "15. 국가를 당사자로 하는 계약에 관한 법률 일부개정법률안(대안)(기획재정위원장 제출)(의안번호 2126576)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-016] 15. 국가를 당사자로 하는 계약에 관한 법률 일부개정법률안(대안)(기획재정위원장 제출)(의안번호 2126576)"@ko .
 
@@ -163,18 +185,21 @@ nadat3:AGD-R100021041300653815-017 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2122345 ;
+    dcterms:title "16. 물가안정에 관한 법률 일부개정법률안(정부 제출)(의안번호 2122345)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-017] 16. 물가안정에 관한 법률 일부개정법률안(정부 제출)(의안번호 2122345)"@ko .
 
 nadat3:AGD-R100021041300653815-018 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2125197 ;
+    dcterms:title "17. 조달사업에 관한 법률 일부개정법률안(류성걸 의원 대표발의)(의안번호 2125197)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-018] 17. 조달사업에 관한 법률 일부개정법률안(류성걸 의원 대표발의)(의안번호 2125197)"@ko .
 
 nadat3:AGD-R100021041300653815-019 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126567 ;
+    dcterms:title "18. 지능정보화 기본법 일부개정법률안(대안)(과학기술정보방송통신위원장 제출)(의안번호 2126567)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-019] 18. 지능정보화 기본법 일부개정법률안(대안)(과학기술정보방송통신위원장 제출)(의안번호 2126567)"@ko .
 
@@ -182,6 +207,7 @@ nadat3:AGD-R100021041300653815-020 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126455 ;
+    dcterms:title "19. 지방공무원법 일부개정법률안(대안)(행정안전위원장 제출)(의안번호 2126455)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-020] 19. 지방공무원법 일부개정법률안(대안)(행정안전위원장 제출)(의안번호 2126455)"@ko .
 
@@ -189,18 +215,21 @@ nadat3:AGD-R100021041300653815-021 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2116475 ;
+    dcterms:title "20. 재난 및 안전관리 기본법 일부개정법률안(이명수 의원 대표발의)(의안번호 2116475)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-021] 20. 재난 및 안전관리 기본법 일부개정법률안(이명수 의원 대표발의)(의안번호 2116475)"@ko .
 
 nadat3:AGD-R100021041300653815-022 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2123592 ;
+    dcterms:title "21. 풍수해보험법 일부개정법률안(정태호 의원 대표발의)(의안번호 2123592)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-022] 21. 풍수해보험법 일부개정법률안(정태호 의원 대표발의)(의안번호 2123592)"@ko .
 
 nadat3:AGD-R100021041300653815-023 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126460 ;
+    dcterms:title "22. 공무원 재해보상법 일부개정법률안(대안)(행정안전위원장 제출)(의안번호 2126460)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-023] 22. 공무원 재해보상법 일부개정법률안(대안)(행정안전위원장 제출)(의안번호 2126460)"@ko .
 
@@ -208,6 +237,7 @@ nadat3:AGD-R100021041300653815-024 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126445 ;
+    dcterms:title "23. 도로교통법 일부개정법률안(대안)(행정안전위원장 제출)(의안번호 2126445)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-024] 23. 도로교통법 일부개정법률안(대안)(행정안전위원장 제출)(의안번호 2126445)"@ko .
 
@@ -215,24 +245,28 @@ nadat3:AGD-R100021041300653815-025 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2123255 ;
+    dcterms:title "24. 경찰관 직무집행법 일부개정법률안(이만희 의원 대표발의)(의안번호 2123255)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-025] 24. 경찰관 직무집행법 일부개정법률안(이만희 의원 대표발의)(의안번호 2123255)"@ko .
 
 nadat3:AGD-R100021041300653815-026 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2108738 ;
+    dcterms:title "25. 실종아동등의 보호 및 지원에 관한 법률 일부개정법률안(임호선 의원 대표발의)(의안번호 2108738)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-026] 25. 실종아동등의 보호 및 지원에 관한 법률 일부개정법률안(임호선 의원 대표발의)(의안번호 2108738)"@ko .
 
 nadat3:AGD-R100021041300653815-027 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2113192 ;
+    dcterms:title "26. 소방공무원법 일부개정법률안(임호선 의원 대표발의)(의안번호 2113192)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-027] 26. 소방공무원법 일부개정법률안(임호선 의원 대표발의)(의안번호 2113192)"@ko .
 
 nadat3:AGD-R100021041300653815-028 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126566 ;
+    dcterms:title "27. 국민체육진흥법 일부개정법률안(대안)(문화체육관광위원장 제출)(의안번호 2126566)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-028] 27. 국민체육진흥법 일부개정법률안(대안)(문화체육관광위원장 제출)(의안번호 2126566)"@ko .
 
@@ -240,12 +274,14 @@ nadat3:AGD-R100021041300653815-029 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2122930 ;
+    dcterms:title "28. 농어업경영체 육성 및 지원에 관한 법률 일부개정법률안(신정훈 의원 대표발의)(의안번호 2122930)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-029] 28. 농어업경영체 육성 및 지원에 관한 법률 일부개정법률안(신정훈 의원 대표발의)(의안번호 2122930)"@ko .
 
 nadat3:AGD-R100021041300653815-030 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126450 ;
+    dcterms:title "29. 벤처기업육성에 관한 특별조치법 일부개정법률안(대안)(산업통상자원중소벤처기업위원장 제출)(의안번호 2126450)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-030] 29. 벤처기업육성에 관한 특별조치법 일부개정법률안(대안)(산업통상자원중소벤처기업위원장 제출)(의안번호 2126450)"@ko .
 
@@ -253,24 +289,28 @@ nadat3:AGD-R100021041300653815-031 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2121568 ;
+    dcterms:title "30. 경영지도사 및 기술지도사에 관한 법률 일부개정법률안(김도읍 의원 대표발의)(의안번호 2121568)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-031] 30. 경영지도사 및 기술지도사에 관한 법률 일부개정법률안(김도읍 의원 대표발의)(의안번호 2121568)"@ko .
 
 nadat3:AGD-R100021041300653815-032 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2101833 ;
+    dcterms:title "31. 인체조직안전 및 관리 등에 관한 법률 일부개정법률안(정부 제출)(의안번호 2101833)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-032] 31. 인체조직안전 및 관리 등에 관한 법률 일부개정법률안(정부 제출)(의안번호 2101833)"@ko .
 
 nadat3:AGD-R100021041300653815-033 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2114191 ;
+    dcterms:title "32. 암관리법 일부개정법률안(전봉민 의원 대표발의)(의안번호 2114191)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-033] 32. 암관리법 일부개정법률안(전봉민 의원 대표발의)(의안번호 2114191)"@ko .
 
 nadat3:AGD-R100021041300653815-034 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126565 ;
+    dcterms:title "33. 의료․요양 등 지역 돌봄의 통합지원에 관한 법률안(대안)(보건복지위원장 제출)(의안번호 2126565)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-034] 33. 의료․요양 등 지역 돌봄의 통합지원에 관한 법률안(대안)(보건복지위원장 제출)(의안번호 2126565)"@ko .
 
@@ -278,12 +318,14 @@ nadat3:AGD-R100021041300653815-035 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2114506 ;
+    dcterms:title "34. 영유아보육법 일부개정법률안(배현진 의원 대표발의)(의안번호 2114506)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-035] 34. 영유아보육법 일부개정법률안(배현진 의원 대표발의)(의안번호 2114506)"@ko .
 
 nadat3:AGD-R100021041300653815-036 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126464 ;
+    dcterms:title "35. 환경분쟁 조정법 전부개정법률안(대안)(환경노동위원장 제출)(의안번호 2126464)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-036] 35. 환경분쟁 조정법 전부개정법률안(대안)(환경노동위원장 제출)(의안번호 2126464)"@ko .
 
@@ -291,12 +333,14 @@ nadat3:AGD-R100021041300653815-037 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2123950 ;
+    dcterms:title "36. 환경정책기본법 일부개정법률안(김영진 의원 대표발의)(의안번호 2123950)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-037] 36. 환경정책기본법 일부개정법률안(김영진 의원 대표발의)(의안번호 2123950)"@ko .
 
 nadat3:AGD-R100021041300653815-038 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126462 ;
+    dcterms:title "37. 생활화학제품 및 살생물제의 안전관리에 관한 법률 일부개정법률안(대안)(환경노동위원장 제출)(의안번호 2126462)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-038] 37. 생활화학제품 및 살생물제의 안전관리에 관한 법률 일부개정법률안(대안)(환경노동위원장 제출)(의안번호 2126462)"@ko .
 
@@ -304,6 +348,7 @@ nadat3:AGD-R100021041300653815-039 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126457 ;
+    dcterms:title "38. 석면피해구제법 일부개정법률안(대안)(환경노동위원장 제출)(의안번호 2126457)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-039] 38. 석면피해구제법 일부개정법률안(대안)(환경노동위원장 제출)(의안번호 2126457)"@ko .
 
@@ -311,6 +356,7 @@ nadat3:AGD-R100021041300653815-040 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126465 ;
+    dcterms:title "39. 환경보건법 일부개정법률안(대안)(환경노동위원장 제출)(의안번호 2126465)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-040] 39. 환경보건법 일부개정법률안(대안)(환경노동위원장 제출)(의안번호 2126465)"@ko .
 
@@ -318,6 +364,7 @@ nadat3:AGD-R100021041300653815-041 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126461 ;
+    dcterms:title "40. 환경오염피해 배상책임 및 구제에 관한 법률 일부개정법률안(대안)(환경노동위원장 제출)(의안번호 2126461)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-041] 40. 환경오염피해 배상책임 및 구제에 관한 법률 일부개정법률안(대안)(환경노동위원장 제출)(의안번호 2126461)"@ko .
 
@@ -325,24 +372,28 @@ nadat3:AGD-R100021041300653815-042 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2117286 ;
+    dcterms:title "41. 공간정보의 구축 및 관리 등에 관한 법률 일부개정법률안(강기윤 의원 대표발의)(의안번호 2117286)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-042] 41. 공간정보의 구축 및 관리 등에 관한 법률 일부개정법률안(강기윤 의원 대표발의)(의안번호 2117286)"@ko .
 
 nadat3:AGD-R100021041300653815-043 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2123336 ;
+    dcterms:title "42. 국가공간정보 기본법 일부개정법률안(맹성규 의원 대표발의)(의안번호 2123336)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-043] 42. 국가공간정보 기본법 일부개정법률안(맹성규 의원 대표발의)(의안번호 2123336)"@ko .
 
 nadat3:AGD-R100021041300653815-044 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2123371 ;
+    dcterms:title "43. 지적재조사에 관한 특별법 일부개정법률안(서일준 의원 대표발의)(의안번호 2123371)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-044] 43. 지적재조사에 관한 특별법 일부개정법률안(서일준 의원 대표발의)(의안번호 2123371)"@ko .
 
 nadat3:AGD-R100021041300653815-045 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126437 ;
+    dcterms:title "44. 지역 개발 및 지원에 관한 법률 일부개정법률안(대안)(국토교통위원장 제출)(의안번호 2126437)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-045] 44. 지역 개발 및 지원에 관한 법률 일부개정법률안(대안)(국토교통위원장 제출)(의안번호 2126437)"@ko .
 
@@ -350,24 +401,28 @@ nadat3:AGD-R100021041300653815-046 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2122935 ;
+    dcterms:title "45. 공항소음 방지 및 소음대책지역 지원에 관한 법률 일부개정법률안(배준영 의원 대표발의)(의안번호 2122935)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-046] 45. 공항소음 방지 및 소음대책지역 지원에 관한 법률 일부개정법률안(배준영 의원 대표발의)(의안번호 2122935)"@ko .
 
 nadat3:AGD-R100021041300653815-047 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2121894 ;
+    dcterms:title "46. 자율주행자동차 상용화 촉진 및 지원에 관한 법률 일부개정법률안(민홍철 의원 대표발의)(의안번호 2121894)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-047] 46. 자율주행자동차 상용화 촉진 및 지원에 관한 법률 일부개정법률안(민홍철 의원 대표발의)(의안번호 2121894)"@ko .
 
 nadat3:AGD-R100021041300653815-048 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2121378 ;
+    dcterms:title "47. 주차장법 일부개정법률안(맹성규 의원 대표발의)(의안번호 2121378)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-048] 47. 주차장법 일부개정법률안(맹성규 의원 대표발의)(의안번호 2121378)"@ko .
 
 nadat3:AGD-R100021041300653815-049 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126459 ;
+    dcterms:title "48. 항공안전법 일부개정법률안(대안)(국토교통위원장 제출)(의안번호 2126459)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-049] 48. 항공안전법 일부개정법률안(대안)(국토교통위원장 제출)(의안번호 2126459)"@ko .
 
@@ -375,6 +430,7 @@ nadat3:AGD-R100021041300653815-050 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126570 ;
+    dcterms:title "49. 주택법 일부개정법률안(대안)(국토교통위원장 제출)(의안번호 2126570)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-050] 49. 주택법 일부개정법률안(대안)(국토교통위원장 제출)(의안번호 2126570)"@ko .
 
@@ -382,6 +438,7 @@ nadat3:AGD-R100021041300653815-051 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126568 ;
+    dcterms:title "50. 건축법 일부개정법률안(대안)(국토교통위원장 제출)(의안번호 2126568)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-051] 50. 건축법 일부개정법률안(대안)(국토교통위원장 제출)(의안번호 2126568)"@ko .
 
@@ -389,6 +446,7 @@ nadat3:AGD-R100021041300653815-052 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126569 ;
+    dcterms:title "51. 철도안전법 일부개정법률안(대안)(국토교통위원장 제출)(의안번호 2126569)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-052] 51. 철도안전법 일부개정법률안(대안)(국토교통위원장 제출)(의안번호 2126569)"@ko .
 
@@ -396,24 +454,28 @@ nadat3:AGD-R100021041300653815-053 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2122572 ;
+    dcterms:title "52. 만 나이로의 통일을 위한 성폭력방지 및 피해자보호 등에 관한 법률 등 2개 법률의 일부개정에 관한 법률안(유상범 의원 대표발의)(의안번호 2122572)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-053] 52. 만 나이로의 통일을 위한 성폭력방지 및 피해자보호 등에 관한 법률 등 2개 법률의 일부개정에 관한 법률안(유상범 의원 대표발의)(의안번호 2122572)"@ko .
 
 nadat3:AGD-R100021041300653815-054 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2118452 ;
+    dcterms:title "53. 청소년 기본법 일부개정법률안(윤준병 의원 대표발의)(의안번호 2118452)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-054] 53. 청소년 기본법 일부개정법률안(윤준병 의원 대표발의)(의안번호 2118452)"@ko .
 
 nadat3:AGD-R100021041300653815-055 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2119105 ;
+    dcterms:title "54. 행정법제 혁신을 위한 양육비 이행확보 및 지원에 관한 법률 등 3개 법률의 일부개정에 관한 법률안(조은희 의원 대표발의)(의안번호 2119105)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-055] 54. 행정법제 혁신을 위한 양육비 이행확보 및 지원에 관한 법률 등 3개 법률의 일부개정에 관한 법률안(조은희 의원 대표발의)(의안번호 2119105)"@ko .
 
 nadat3:AGD-R100021041300653815-056 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126583 ;
+    dcterms:title "55. 양육비 이행확보 및 지원에 관한 법률 일부개정법률안(대안)(여성가족위원장 제출)(의안번호 2126583)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-056] 55. 양육비 이행확보 및 지원에 관한 법률 일부개정법률안(대안)(여성가족위원장 제출)(의안번호 2126583)"@ko .
 
@@ -421,6 +483,7 @@ nadat3:AGD-R100021041300653815-057 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126581 ;
+    dcterms:title "56. 여성의 경제활동 촉진과 경력단절 예방법 일부개정법률안(대안)(여성가족위원장 제출)(의안번호 2126581)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-057] 56. 여성의 경제활동 촉진과 경력단절 예방법 일부개정법률안(대안)(여성가족위원장 제출)(의안번호 2126581)"@ko .
 
@@ -428,6 +491,7 @@ nadat3:AGD-R100021041300653815-058 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126580 ;
+    dcterms:title "57. 여성폭력방지기본법 일부개정법률안(대안)(여성가족위원장 제출)(의안번호 2126580)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-058] 57. 여성폭력방지기본법 일부개정법률안(대안)(여성가족위원장 제출)(의안번호 2126580)"@ko .
 
@@ -435,6 +499,7 @@ nadat3:AGD-R100021041300653815-059 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-ALT-2126582 ;
+    dcterms:title "58. 학교 밖 청소년 지원에 관한 법률 일부개정법률안(대안)(여성가족위원장 제출)(의안번호 2126582)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-059] 58. 학교 밖 청소년 지원에 관한 법률 일부개정법률안(대안)(여성가족위원장 제출)(의안번호 2126582)"@ko .
 
@@ -442,83 +507,98 @@ nadat3:AGD-R100021041300653815-060 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2125346 ;
+    dcterms:title "59. 청소년활동 진흥법 일부개정법률안(정부 제출)(의안번호 2125346)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-060] 59. 청소년활동 진흥법 일부개정법률안(정부 제출)(의안번호 2125346)"@ko .
 
 nadat3:AGD-R100021041300653815-061 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2126423 ;
+    dcterms:title "60. 2024년도에 발행하는 공급망안정화기금채권에 대한 국가보증동의안(의안번호 2126423)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-061] 60. 2024년도에 발행하는 공급망안정화기금채권에 대한 국가보증동의안(의안번호 2126423)"@ko .
 
 nadat3:AGD-R100021041300653815-062 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
+    dcterms:title "61. 2023년도 국정감사 결과보고서 채택의 건(2건)(국토교통․여성가족위원장 제출)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-062] 61. 2023년도 국정감사 결과보고서 채택의 건(2건)(국토교통․여성가족위원장 제출)"@ko .
 
 nadat3:AGD-R100021041300653815-063 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
+    dcterms:title "o 의사일정 변경의 건"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-063] o 의사일정 변경의 건"@ko .
 
 nadat3:AGD-R100021041300653815-064 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2126586 ;
+    dcterms:title "62. 제413회국회(임시회) 회기결정의 건(의장 제의)(의안번호 2126586)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-064] 62. 제413회국회(임시회) 회기결정의 건(의장 제의)(의안번호 2126586)"@ko .
 
 nadat3:AGD-R100021041300653815-065 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2126588 ;
+    dcterms:title "63. 공직선거법 일부개정법률안(정치개혁특별위원장 제출)(의안번호 2126588)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-065] 63. 공직선거법 일부개정법률안(정치개혁특별위원장 제출)(의안번호 2126588)"@ko .
 
 nadat3:AGD-R100021041300653815-066 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2126589 ;
+    dcterms:title "64. 정치자금법 일부개정법률안(정치개혁특별위원장 제출)(의안번호 2126589)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-066] 64. 정치자금법 일부개정법률안(정치개혁특별위원장 제출)(의안번호 2126589)"@ko .
 
 nadat3:AGD-R100021041300653815-067 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
     dcterms:subject nadat3:BILL-2126587 ;
+    dcterms:title "65. 국회법 일부개정법률안(정치개혁특별위원장 제출)(의안번호 2126587)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-067] 65. 국회법 일부개정법률안(정치개혁특별위원장 제출)(의안번호 2126587)"@ko .
 
 nadat3:AGD-R100021041300653815-068 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
+    dcterms:title "66. 화천대유 ‘50억 클럽’ 뇌물 의혹 사건의 진상규명을 위한 특별검사의 임명 등에 관한 법률안 재의의 건(대통령 제출)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-068] 66. 화천대유 ‘50억 클럽’ 뇌물 의혹 사건의 진상규명을 위한 특별검사의 임명 등에 관한 법률안 재의의 건(대통령 제출)"@ko .
 
 nadat3:AGD-R100021041300653815-069 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53815 ;
     dcterms:source nadat1:R100021041300653815 ;
+    dcterms:title "67. 대통령 배우자 김건희의 도이치모터스 주가조작 의혹 진상규명을 위한 특별검사 임명 등에 관한 법률안 재의의 건(대통령 제출)"@ko ;
     skos:prefLabel "[AGD-R100021041300653815-069] 67. 대통령 배우자 김건희의 도이치모터스 주가조작 의혹 진상규명을 위한 특별검사 임명 등에 관한 법률안 재의의 건(대통령 제출)"@ko .
 
 nadat3:AGD-R100021041400153832-001 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53832 ;
     dcterms:source nadat1:R100021041400153832 ;
+    dcterms:title "개의"@ko ;
     skos:prefLabel "[AGD-R100021041400153832-001] 개의"@ko .
 
 nadat3:AGD-R100021041400153832-002 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53832 ;
     dcterms:source nadat1:R100021041400153832 ;
     dcterms:subject nadat3:BILL-2126596 ;
+    dcterms:title "1. 국회부의장(김영주) 사임의 건(의안번호 2126596)"@ko ;
     skos:prefLabel "[AGD-R100021041400153832-002] 1. 국회부의장(김영주) 사임의 건(의안번호 2126596)"@ko .
 
 nadat3:AGD-R100021041400153832-003 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53832 ;
     dcterms:source nadat1:R100021041400153832 ;
     dcterms:subject nadat3:BILL-2126661 ;
+    dcterms:title "2. 10․29이태원참사 피해자 권리보장과 진상규명 및 재발방지를 위한 특별법안(윤재옥 의원․홍익표 의원 대표발의)(의안번호 2126661)"@ko ;
     skos:prefLabel "[AGD-R100021041400153832-003] 2. 10․29이태원참사 피해자 권리보장과 진상규명 및 재발방지를 위한 특별법안(윤재옥 의원․홍익표 의원 대표발의)(의안번호 2126661)"@ko .
 
 nadat3:AGD-R100021041400153832-004 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53832 ;
     dcterms:source nadat1:R100021041400153832 ;
+    dcterms:title "3. 2023년도 국정감사 결과보고서 채택의 건(2건)(정무․행정안전위원장 제출)"@ko ;
     skos:prefLabel "[AGD-R100021041400153832-004] 3. 2023년도 국정감사 결과보고서 채택의 건(2건)(정무․행정안전위원장 제출)"@ko .
 
 nadat3:AGD-R100021041400153832-005 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53832 ;
     dcterms:source nadat1:R100021041400153832 ;
+    dcterms:title "4. 전세사기피해자 지원 및 주거안정에 관한 특별법 일부개정법률안(대안) 본회의 부의의 건"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041400153832-005] 4. 전세사기피해자 지원 및 주거안정에 관한 특별법 일부개정법률안(대안) 본회의 부의의 건"@ko .
 
@@ -526,33 +606,39 @@ nadat3:AGD-R100021041400153832-006 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53832 ;
     dcterms:source nadat1:R100021041400153832 ;
     dcterms:subject nadat3:BILL-2126663 ;
+    dcterms:title "o 의사일정 변경동의의 건(박주민 의원 등 142인 서면동의)(의안번호 2126663)"@ko ;
     skos:prefLabel "[AGD-R100021041400153832-006] o 의사일정 변경동의의 건(박주민 의원 등 142인 서면동의)(의안번호 2126663)"@ko .
 
 nadat3:AGD-R100021041400153832-007 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53832 ;
     dcterms:source nadat1:R100021041400153832 ;
     dcterms:subject nadat3:BILL-2124295 ;
+    dcterms:title "5. 순직 해병 수사 방해 및 사건 은폐 등의 진상규명을 위한 특별검사의 임명 등에 관한 법률안(박주민 의원 대표발의)(의안번호 2124295)"@ko ;
     skos:prefLabel "[AGD-R100021041400153832-007] 5. 순직 해병 수사 방해 및 사건 은폐 등의 진상규명을 위한 특별검사의 임명 등에 관한 법률안(박주민 의원 대표발의)(의안번호 2124295)"@ko .
 
 nadat3:AGD-R100021041400153832-008 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53832 ;
     dcterms:source nadat1:R100021041400153832 ;
+    dcterms:title "o 5분자유발언"@ko ;
     skos:prefLabel "[AGD-R100021041400153832-008] o 5분자유발언"@ko .
 
 nadat3:AGD-R100021041400253844-001 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
+    dcterms:title "개의"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-001] 개의"@ko .
 
 nadat3:AGD-R100021041400253844-002 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
+    dcterms:title "1. 순직 해병 수사 방해 및 사건 은폐 등의 진상규명을 위한 특별검사의 임명 등에 관한 법률안 재의의 건(대통령 제출)"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-002] 1. 순직 해병 수사 방해 및 사건 은폐 등의 진상규명을 위한 특별검사의 임명 등에 관한 법률안 재의의 건(대통령 제출)"@ko .
 
 nadat3:AGD-R100021041400253844-003 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
     dcterms:subject nadat3:BILL-ALT-2126666 ;
+    dcterms:title "2. 전세사기피해자 지원 및 주거안정에 관한 특별법 일부개정법률안(대안)(국토교통위원장 제출)(의안번호 2126666)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-003] 2. 전세사기피해자 지원 및 주거안정에 관한 특별법 일부개정법률안(대안)(국토교통위원장 제출)(의안번호 2126666)"@ko .
 
@@ -560,83 +646,97 @@ nadat3:AGD-R100021041400253844-004 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
     dcterms:subject nadat3:BILL-2126669 ;
+    dcterms:title "3. 2023년도 국정감사 결과보고서 채택의 건(환경노동위원장 제출)(의안번호 2126669)"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-004] 3. 2023년도 국정감사 결과보고서 채택의 건(환경노동위원장 제출)(의안번호 2126669)"@ko .
 
 nadat3:AGD-R100021041400253844-005 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
     dcterms:subject nadat3:BILL-2126688 ;
+    dcterms:title "o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126688)"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-005] o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126688)"@ko .
 
 nadat3:AGD-R100021041400253844-006 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
     dcterms:subject nadat3:BILL-2126689 ;
+    dcterms:title "o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126689)"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-006] o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126689)"@ko .
 
 nadat3:AGD-R100021041400253844-007 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
     dcterms:subject nadat3:BILL-2126690 ;
+    dcterms:title "o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126690)"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-007] o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126690)"@ko .
 
 nadat3:AGD-R100021041400253844-008 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
     dcterms:subject nadat3:BILL-2126691 ;
+    dcterms:title "o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126691)"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-008] o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126691)"@ko .
 
 nadat3:AGD-R100021041400253844-009 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
     dcterms:subject nadat3:BILL-2126692 ;
+    dcterms:title "o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126692)"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-009] o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126692)"@ko .
 
 nadat3:AGD-R100021041400253844-010 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
     dcterms:subject nadat3:BILL-2126693 ;
+    dcterms:title "o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126693)"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-010] o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126693)"@ko .
 
 nadat3:AGD-R100021041400253844-011 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
     dcterms:subject nadat3:BILL-2126694 ;
+    dcterms:title "o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126694)"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-011] o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126694)"@ko .
 
 nadat3:AGD-R100021041400253844-012 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
+    dcterms:title "4. 가맹사업거래의 공정화에 관한 법률 일부개정법률안(대안) 본회의 부의의 건"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-012] 4. 가맹사업거래의 공정화에 관한 법률 일부개정법률안(대안) 본회의 부의의 건"@ko .
 
 nadat3:AGD-R100021041400253844-013 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
+    dcterms:title "5. 민주유공자 예우에 관한 법률안(대안) 본회의 부의의 건"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-013] 5. 민주유공자 예우에 관한 법률안(대안) 본회의 부의의 건"@ko .
 
 nadat3:AGD-R100021041400253844-014 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
+    dcterms:title "6. 양곡관리법 일부개정법률안(대안) 본회의 부의의 건"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-014] 6. 양곡관리법 일부개정법률안(대안) 본회의 부의의 건"@ko .
 
 nadat3:AGD-R100021041400253844-015 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
+    dcterms:title "7. 농수산물 유통 및 가격안정에 관한 법률 일부개정법률안(대안) 본회의 부의의 건"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-015] 7. 농수산물 유통 및 가격안정에 관한 법률 일부개정법률안(대안) 본회의 부의의 건"@ko .
 
 nadat3:AGD-R100021041400253844-016 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
+    dcterms:title "8. 농어업회의소법안(대안) 본회의 부의의 건"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-016] 8. 농어업회의소법안(대안) 본회의 부의의 건"@ko .
 
 nadat3:AGD-R100021041400253844-017 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
+    dcterms:title "9. 지속가능한 한우산업을 위한 지원법안(대안) 본회의 부의의 건"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-017] 9. 지속가능한 한우산업을 위한 지원법안(대안) 본회의 부의의 건"@ko .
 
@@ -644,36 +744,42 @@ nadat3:AGD-R100021041400253844-018 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
     dcterms:subject nadat3:BILL-2120837 ;
+    dcterms:title "10. 4․16세월호참사 피해구제 및 지원 등을 위한 특별법 일부개정법률안(고영인 의원 대표발의)(의안번호 2120837) 본회의 부의의 건"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-018] 10. 4․16세월호참사 피해구제 및 지원 등을 위한 특별법 일부개정법률안(고영인 의원 대표발의)(의안번호 2120837) 본회의 부의의 건"@ko .
 
 nadat3:AGD-R100021041400253844-019 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
     dcterms:subject nadat3:BILL-2126701 ;
+    dcterms:title "o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126701)"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-019] o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126701)"@ko .
 
 nadat3:AGD-R100021041400253844-020 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
     dcterms:subject nadat3:BILL-2126702 ;
+    dcterms:title "o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126702)"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-020] o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126702)"@ko .
 
 nadat3:AGD-R100021041400253844-021 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
     dcterms:subject nadat3:BILL-2126703 ;
+    dcterms:title "o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126703)"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-021] o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126703)"@ko .
 
 nadat3:AGD-R100021041400253844-022 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
     dcterms:subject nadat3:BILL-2126704 ;
+    dcterms:title "o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126704)"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-022] o 의사일정 변경동의의 건(박성준 의원 등 155인 서면동의)(의안번호 2126704)"@ko .
 
 nadat3:AGD-R100021041400253844-023 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
     dcterms:subject nadat3:BILL-ALT-2126699 ;
+    dcterms:title "11. 농어업회의소법안(대안)(농림축산식품해양수산위원장 제출)(의안번호 2126699)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-023] 11. 농어업회의소법안(대안)(농림축산식품해양수산위원장 제출)(의안번호 2126699)"@ko .
 
@@ -681,6 +787,7 @@ nadat3:AGD-R100021041400253844-024 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
     dcterms:subject nadat3:BILL-ALT-2126700 ;
+    dcterms:title "12. 지속가능한 한우산업을 위한 지원법안(대안)(농림축산식품해양수산위원장 제출)(의안번호 2126700)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-024] 12. 지속가능한 한우산업을 위한 지원법안(대안)(농림축산식품해양수산위원장 제출)(의안번호 2126700)"@ko .
 
@@ -688,12 +795,14 @@ nadat3:AGD-R100021041400253844-025 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
     dcterms:subject nadat3:BILL-2120837 ;
+    dcterms:title "13. 4․16세월호참사 피해구제 및 지원 등을 위한 특별법 일부개정법률안(고영인 의원 대표발의)(의안번호 2120837)"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-025] 13. 4․16세월호참사 피해구제 및 지원 등을 위한 특별법 일부개정법률안(고영인 의원 대표발의)(의안번호 2120837)"@ko .
 
 nadat3:AGD-R100021041400253844-026 a nam3:AgendaItem ;
     dcterms:isPartOf nadat1:ACT-M-53844 ;
     dcterms:source nadat1:R100021041400253844 ;
     dcterms:subject nadat3:BILL-ALT-2126698 ;
+    dcterms:title "14. 민주유공자 예우에 관한 법률안(대안)(정무위원장 제출)(의안번호 2126698)"@ko ;
     rdfs:comment "대안"@ko ;
     skos:prefLabel "[AGD-R100021041400253844-026] 14. 민주유공자 예우에 관한 법률안(대안)(정무위원장 제출)(의안번호 2126698)"@ko .
 
@@ -1074,7 +1183,4 @@ nadat3:BILL-2120837 a nam3:Bill ;
     dcterms:identifier "2120837" ;
     schema:creator nadat2:PER-LM-4XG1439M ;
     schema:identifier "BILL-2120837" .
-
-
-
 
