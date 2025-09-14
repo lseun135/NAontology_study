@@ -1,0 +1,319 @@
+import re
+import pandas as pd
+from pathlib import Path
+from typing import Optional, List, Dict, Tuple
+from rdflib import Graph, Literal, URIRef, Namespace
+from rdflib.namespace import RDF, RDFS, SKOS, DCTERMS, FOAF, XSD
+
+# ========================= CONFIG =========================
+CSV_PATH          = r"C:/Users/LSE/Desktop/논문주제뭐하지/ontology/본회의1차수샘플.csv"
+CSV_ENCODING      = "utf-8-sig"
+
+# (필수) 기존 AgendaItem/Bill이 들어있는 TTL: 안건 라벨 → AGD IRI 매핑용
+PRELOADED_D3_TTL  = r"https://lseun135.github.io/NAontology_study/resource/d3-content.ttl"   # 직전에 만든 파일
+
+# 출력
+OUT_TTL_SPEECH    = r"d3_speech_add_1.txt"     # Speech 본문 TTL
+OUT_TMP_PEOPLE    = r"d2_person_tmp_add_4.txt"
+
+# (이름 확인)
+PEOPLE_TTL        = r"https://lseun135.github.io/NAontology_study/resource/d2-person.ttl"
+
+# ========================= NAMESPACES =========================
+NAM3   = Namespace("https://lseun135.github.io/NAontology_study/m3-content#")
+NADAT1 = Namespace("https://lseun135.github.io/NAontology_study/resource/d1-record#")
+NADAT2 = Namespace("https://lseun135.github.io/NAontology_study/resource/d2-person#")
+NADAT3 = Namespace("https://lseun135.github.io/NAontology_study/resource/d3-content#")
+RICO   = Namespace("https://www.ica.org/standards/RiC/ontology#")
+SCHEMA = Namespace("https://schema.org/")
+
+# ========================= 유틸 =========================
+def digits_only(s) -> Optional[int]:
+    if s is None or (isinstance(s, float) and pd.isna(s)): return None
+    m = re.findall(r"\d+", str(s))
+    return int("".join(m)) if m else None
+
+def pad(n: Optional[int], width: int) -> Optional[str]:
+    return f"{n:0{width}d}" if n is not None else None
+
+def to_r_id(gen: int, session4: str, round3: str, meeting_no: int) -> str:
+    # 예: R100021041400253844
+    return f"R1000{gen}{session4}{round3}{meeting_no}"
+
+def to_speech_base(gen: int, session4: str, round3: str, meeting_no: int) -> str:
+    # 예: SPH-R100021041400253844
+    return f"SPH-R1000{gen}{session4}{round3}{meeting_no}"
+
+# ---------- 안건 분리 (Agenda 때와 동일 규칙) ----------
+_BULLET_OR_O_RE = re.compile(r'(?<!\d)(\d+)\.\s*|[o○]\s+', re.MULTILINE)
+def split_agenda_cell(cell: str) -> List[str]:
+    if cell is None or (isinstance(cell, float) and pd.isna(cell)):
+        return []
+    text = str(cell).strip()
+    if not text: return []
+    starts = [m.start() for m in _BULLET_OR_O_RE.finditer(text)]
+    if not starts: return [text]
+    if starts[0] != 0: starts = [0] + starts
+    parts = []
+    for i, s in enumerate(starts):
+        e = starts[i+1] if i+1 < len(starts) else len(text)
+        seg = text[s:e].strip()
+        if seg: parts.append(seg)
+    return parts
+
+# ---------- 라벨 정규화 ----------
+def normalize_label_for_match(text: str) -> str:
+    # d3의 skos:prefLabel에서 우리가 붙인 "[AGD-...]" 접두를 제거 후 공백 정규화
+    t = re.sub(r"^\[[^\]]+\]\s*", "", str(text or ""))
+    t = re.sub(r"\s+", " ", t).strip()
+    return t
+
+# ---------- 발언자 이름/직책 분리 ----------
+ROLE_WORDS = {"의장","부의장","의원","장관","차관","위원장","간사","대변인","검사","총장","위원"}
+
+def split_role_name(cell_val: Optional[str]) -> Tuple[Optional[str], Optional[str]]:
+    """
+    입력(예): '의장 김진표' / '법무부장관 박성재' / '유상범 의원' / '김진표'
+    반환: (이름, 직책)  # 둘 다 없을 수 있음
+    """
+    if not cell_val or (isinstance(cell_val, float) and pd.isna(cell_val)):
+        return None, None
+    s = re.sub(r"\s+", " ", str(cell_val)).strip()
+    # '이름 + 직책' 패턴
+    m = re.match(r"([가-힣]{2,4})\s*(의장|부의장|의원|장관|차관)$", s)
+    if m: return m.group(1), m.group(2)
+    # '직책 + 이름' 패턴(부처명 포함 허용)
+    m = re.match(r"(?:[가-힣A-Za-z·]+)?(의장|부의장|장관|차관)\s*([가-힣]{2,4})$", s)
+    if m: return m.group(2), m.group(1)
+    # 단일 이름
+    m = re.match(r"^([가-힣]{2,4})$", s)
+    if m: return m.group(1), None
+    # 기타: 토큰 스캔
+    toks = s.split()
+    name, role = None, None
+    for t in toks:
+        if t in ROLE_WORDS: role = t
+        elif re.fullmatch(r"[가-힣]{2,4}", t): name = t
+    return name, role
+
+# ---------- nadat2 인물 인덱스 & 임시 생성 ----------
+def build_person_index_by_rdfs_label(people_ttl: Optional[str]) -> Dict[str, str]:
+    idx = {}
+    if not people_ttl: return idx
+    g = Graph()
+    try: g.parse(people_ttl, format="turtle")
+    except Exception: return idx
+    for s in set(g.subjects(RDF.type, FOAF.Person)):
+        for o in g.objects(s, RDFS.label):
+            if isinstance(o, Literal):
+                lab = str(o).strip()
+                if lab: idx[lab] = str(s)
+    return idx
+
+def get_existing_prov_start(people_ttl: Optional[str]) -> int:
+    if not people_ttl: return 0
+    try:
+        g = Graph(); g.parse(people_ttl, format="turtle")
+        pat = re.compile(r"(?:/|#)PER\-TMP\-(\d{5})$")
+        mx = 0
+        for s in g.subjects():
+            if isinstance(s, URIRef):
+                m = pat.search(str(s))
+                if m: mx = max(mx, int(m.group(1)))
+        return mx
+    except Exception:
+        return 0
+
+class ProvisionalPeople:
+    def __init__(self, start_from: int = 0):
+        self.counter = start_from
+        self.created: List[Tuple[str,str]] = []   # (local_id, label)
+        self._label2iri: Dict[str,str] = {}
+
+    def mint(self, label_ko: str) -> str:
+        key = (label_ko or "").strip()
+        if not key: raise ValueError("empty label for provisional person")
+        if key in self._label2iri: return self._label2iri[key]
+        self.counter += 1
+        local = f"PER-TMP-{self.counter:05d}"
+        iri = str(NADAT2[local])
+        self.created.append((local, key))
+        self._label2iri[key] = iri
+        return iri
+
+    def write_ttl(self, path: str):
+        out = Path(path); out.parent.mkdir(parents=True, exist_ok=True)
+        lines = []
+        lines.append('@prefix foaf:  <http://xmlns.com/foaf/0.1/> .')
+        lines.append('@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .')
+        lines.append('@prefix nam2:  <https://lseun135.github.io/NAontology_study/m2-person#> .')
+        lines.append('@prefix nadat2: <https://lseun135.github.io/NAontology_study/resource/d2-person#> .')
+        lines.append('')
+        lines.append('## 임시 개체 (발언자 이름 확인 시에만 생성)')
+        lines.append('')
+        for local, label in self.created:
+            lines.append(f"nadat2:{local} a foaf:Person ;")
+            lines.append(f'\trdfs:label "{label}"@ko ;')
+            lines.append(f'\tfoaf:name "{label}"@ko ;')
+            lines.append(f"\tnam2:isInAStateOf nam2:Provisional .")
+            lines.append('')
+        out.write_text("\n".join(lines), encoding="utf-8")
+
+# ---------- AgendaItem 사전 (라벨 → IRI) ----------
+def load_agenda_label_index_from_d3(d3_ttl_path: str) -> Dict[str, str]:
+    """
+    d3_content_add_AB.txt에서 AgendaItem의 skos:prefLabel을 읽어
+    순수 라벨(접두 [AGD-...] 제거) → AGD IRI 매핑을 만든다.
+    """
+    g = Graph(); g.parse(d3_ttl_path, format="turtle")
+    idx: Dict[str,str] = {}
+    for s in set(g.subjects(RDF.type, NAM3.AgendaItem)):
+        for o in g.objects(s, SKOS.prefLabel):
+            if isinstance(o, Literal):
+                pure = normalize_label_for_match(str(o))
+                if pure and isinstance(s, URIRef):
+                    idx[pure] = str(s)
+    return idx
+
+# ================= 메인 변환 =================
+def convert(csv_path: str,
+            preloaded_d3_ttl: str,
+            out_ttl_speech: str,
+            out_tmp_people: str,
+            encoding: str = "utf-8-sig",
+            people_ttl: Optional[str] = None):
+
+    # --- CSV (고정 헤더) ---
+    df = pd.read_csv(csv_path, encoding=encoding)
+
+    # --- 그래프 ---
+    g = Graph()
+    for pfx, ns in [("rdf", RDFS), ("rdfs", RDFS), ("skos", SKOS), ("dcterms", DCTERMS),
+                    ("foaf", FOAF), ("xsd", XSD), ("rico", RICO), ("schema", SCHEMA),
+                    ("nam3", NAM3), ("nadat1", NADAT1), ("nadat2", NADAT2), ("nadat3", NADAT3)]:
+        g.bind(pfx, ns)
+
+    # --- 인물 인덱스 & 임시 시작값 ---
+    person_idx = build_person_index_by_rdfs_label(people_ttl)
+    prov_start = get_existing_prov_start(people_ttl)
+    prov = ProvisionalPeople(start_from=prov_start)
+
+    # --- 안건 라벨 → IRI 인덱스 (필수) ---
+    agd_label_idx = load_agenda_label_index_from_d3(preloaded_d3_ttl)
+
+    # --- R별 Speech 시퀀스 (4자리) ---
+    seq_map: Dict[str,int] = {}
+
+    # 고정 헤더 이름
+    COL_AGENDA   = "안건"
+    COL_SPEAKER  = "발언자(이름)"
+    COL_ROLE     = "발언자(직책)"
+    COL_POS      = "발언순번"
+    COL_TEXT     = "발언내용"
+    COL_ID       = "의원ID"
+    COL_GEN      = "대수"
+    COL_SES      = "회수"
+    COL_ROUND    = "차수"
+    COL_MEETNO   = "회의번호"
+
+    for _, row in df.iterrows():
+        try:
+            gen        = int(row[COL_GEN]) if not pd.isna(row[COL_GEN]) else None
+            session4   = pad(digits_only(row[COL_SES]), 4)
+            round3     = pad(digits_only(row[COL_ROUND]), 3)
+            meeting_no = int(row[COL_MEETNO]) if not pd.isna(row[COL_MEETNO]) else None
+            if not (gen and session4 and round3 and meeting_no):
+                continue
+
+            r_local = to_r_id(gen, session4, round3, meeting_no)
+            r_iri   = str(NADAT1[r_local])
+
+            # Speech 시퀀스 증가
+            if r_local not in seq_map: seq_map[r_local] = 0
+            seq_map[r_local] += 1
+            sph_local = f"{to_speech_base(gen, session4, round3, meeting_no)}-{seq_map[r_local]:04d}"
+            sph_iri   = URIRef(NADAT3[sph_local])
+
+            # 발언자 이름/직책
+            name_val = row[COL_SPEAKER] if not pd.isna(row[COL_SPEAKER]) else None
+            role_val = row[COL_ROLE]    if not pd.isna(row[COL_ROLE]) else None
+
+            if isinstance(name_val, str):
+                name_val = name_val.strip()
+            else:
+                name_val = None
+            if isinstance(role_val, str):
+                role_val = role_val.strip()
+            else:
+                role_val = None
+
+            # creator IRI: d2에서 먼저 찾고, 없고 의원ID 공란이면 임시 생성
+            creator_iri = None
+            if name_val:
+                creator_iri = person_idx.get(name_val)
+                if not creator_iri:
+                    mem_id = row[COL_ID] if COL_ID in row else None
+                    blank_id = (mem_id is None) or (isinstance(mem_id, float) and pd.isna(mem_id)) or (str(mem_id).strip() == "")
+                    if blank_id:
+                        creator_iri = prov.mint(name_val)
+
+            # --- Speech 본문 ---
+            g.add((sph_iri, RDF.type, NAM3.Speech))
+            g.add((sph_iri, DCTERMS.source, URIRef(r_iri)))
+
+            # 안건(subject): CSV의 "안건"을 분리→라벨정규화→IRI 매핑
+            agenda_items = split_agenda_cell(row[COL_AGENDA])
+            matched = []
+            for item in agenda_items:
+                pure = normalize_label_for_match(item)
+                iri  = agd_label_idx.get(pure)
+                if iri:
+                    matched.append(URIRef(iri))
+            for agd in matched:
+                g.add((sph_iri, DCTERMS.subject, agd))
+
+            if creator_iri:
+                g.add((sph_iri, SCHEMA.creator, URIRef(creator_iri)))
+
+            if role_val:
+                g.add((sph_iri, URIRef(str(NAM3) + "recordRole"), Literal(role_val, lang="ko")))
+
+            pos = row[COL_POS]
+            if pos is not None and not (isinstance(pos, float) and pd.isna(pos)):
+                try:
+                    g.add((sph_iri, SCHEMA.position, Literal(int(pos))))
+                except Exception:
+                    pass
+
+            txt = row[COL_TEXT]
+            if txt is not None and not (isinstance(txt, float) and pd.isna(txt)):
+                g.add((sph_iri, SCHEMA.text, Literal(str(txt), lang="ko")))
+
+        except Exception as e:
+            print(f"[WARN] row skipped due to error: {e}")
+
+    # 저장
+    out_main = Path(OUT_TTL_SPEECH); out_main.parent.mkdir(parents=True, exist_ok=True)
+    g.serialize(destination=out_main.as_posix(), format="turtle")
+    print(f"[write] Speech TTL: {out_main}")
+
+    # 임시 인물 저장
+    if prov.created:
+        Path(OUT_TMP_PEOPLE).parent.mkdir(parents=True, exist_ok=True)
+        prov.write_ttl(OUT_TMP_PEOPLE)
+        print(f"[write] Provisional persons TTL: {OUT_TMP_PEOPLE}")
+    else:
+        Path(OUT_TMP_PEOPLE).write_text("# No provisional persons were created.\n", encoding="utf-8")
+        print(f"[write] No provisional persons. Wrote a placeholder: {OUT_TMP_PEOPLE}")
+
+if __name__ == "__main__":
+    convert(
+        CSV_PATH,
+        PRELOADED_D3_TTL,
+        OUT_TTL_SPEECH,
+        OUT_TMP_PEOPLE,
+        encoding=CSV_ENCODING,
+        people_ttl=PEOPLE_TTL
+    )
+
+
