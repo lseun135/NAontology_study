@@ -1,7 +1,7 @@
 import re
 import pandas as pd
 from pathlib import Path
-from typing import Optional, List, Dict, Tuple
+from typing import Optional, List, Dict, Tuple, Set
 from rdflib import Graph, Literal, URIRef, Namespace
 from rdflib.namespace import RDF, RDFS, SKOS, DCTERMS, FOAF, XSD
 
@@ -9,8 +9,8 @@ from rdflib.namespace import RDF, RDFS, SKOS, DCTERMS, FOAF, XSD
 CSV_PATH          = r"C:/Users/LSE/Desktop/논문주제뭐하지/ontology/본회의1차수샘플.csv"
 CSV_ENCODING      = "utf-8-sig"
 
-# (필수) 기존 AgendaItem/Bill이 들어있는 TTL: 안건 라벨 → AGD IRI 매핑용
-PRELOADED_D3_TTL  = r"https://lseun135.github.io/NAontology_study/resource/d3-content.ttl"   # 직전에 만든 파일
+# (필수) 기존 AgendaItem/Bill이 들어있는 TTL: dcterms:title & dcterms:source 기반 매핑
+PRELOADED_D3_TTL  = r"https://lseun135.github.io/NAontology_study/resource/d3-content.ttl"
 
 # 출력
 OUT_TTL_SPEECH    = r"d3_speech_add_1.txt"     # Speech 본문 TTL
@@ -61,40 +61,10 @@ def split_agenda_cell(cell: str) -> List[str]:
         if seg: parts.append(seg)
     return parts
 
-# ---------- 라벨 정규화 ----------
-def normalize_label_for_match(text: str) -> str:
-    # d3의 skos:prefLabel에서 우리가 붙인 "[AGD-...]" 접두를 제거 후 공백 정규화
-    t = re.sub(r"^\[[^\]]+\]\s*", "", str(text or ""))
-    t = re.sub(r"\s+", " ", t).strip()
-    return t
-
-# ---------- 발언자 이름/직책 분리 ----------
-ROLE_WORDS = {"의장","부의장","의원","장관","차관","위원장","간사","대변인","검사","총장","위원"}
-
-def split_role_name(cell_val: Optional[str]) -> Tuple[Optional[str], Optional[str]]:
-    """
-    입력(예): '의장 김진표' / '법무부장관 박성재' / '유상범 의원' / '김진표'
-    반환: (이름, 직책)  # 둘 다 없을 수 있음
-    """
-    if not cell_val or (isinstance(cell_val, float) and pd.isna(cell_val)):
-        return None, None
-    s = re.sub(r"\s+", " ", str(cell_val)).strip()
-    # '이름 + 직책' 패턴
-    m = re.match(r"([가-힣]{2,4})\s*(의장|부의장|의원|장관|차관)$", s)
-    if m: return m.group(1), m.group(2)
-    # '직책 + 이름' 패턴(부처명 포함 허용)
-    m = re.match(r"(?:[가-힣A-Za-z·]+)?(의장|부의장|장관|차관)\s*([가-힣]{2,4})$", s)
-    if m: return m.group(2), m.group(1)
-    # 단일 이름
-    m = re.match(r"^([가-힣]{2,4})$", s)
-    if m: return m.group(1), None
-    # 기타: 토큰 스캔
-    toks = s.split()
-    name, role = None, None
-    for t in toks:
-        if t in ROLE_WORDS: role = t
-        elif re.fullmatch(r"[가-힣]{2,4}", t): name = t
-    return name, role
+# ---------- 타이틀 정규화(공백만) ----------
+def normalize_title(s: str) -> str:
+    # 번호/기호(o/○) 포함 원문을 유지 — 공백만 정규화
+    return re.sub(r"\s+", " ", str(s or "")).strip()
 
 # ---------- nadat2 인물 인덱스 & 임시 생성 ----------
 def build_person_index_by_rdfs_label(people_ttl: Optional[str]) -> Dict[str, str]:
@@ -124,16 +94,20 @@ def get_existing_prov_start(people_ttl: Optional[str]) -> int:
     except Exception:
         return 0
 
+STOPWORDS_NONPERSON = {"정부","국회","정부위원"}  # 비인명 필터
+
 class ProvisionalPeople:
     def __init__(self, start_from: int = 0):
         self.counter = start_from
         self.created: List[Tuple[str,str]] = []   # (local_id, label)
         self._label2iri: Dict[str,str] = {}
 
-    def mint(self, label_ko: str) -> str:
+    def mint(self, label_ko: str) -> Optional[str]:
         key = (label_ko or "").strip()
-        if not key: raise ValueError("empty label for provisional person")
-        if key in self._label2iri: return self._label2iri[key]
+        if not key or key in STOPWORDS_NONPERSON:
+            return None
+        if key in self._label2iri:
+            return self._label2iri[key]
         self.counter += 1
         local = f"PER-TMP-{self.counter:05d}"
         iri = str(NADAT2[local])
@@ -159,21 +133,65 @@ class ProvisionalPeople:
             lines.append('')
         out.write_text("\n".join(lines), encoding="utf-8")
 
-# ---------- AgendaItem 사전 (라벨 → IRI) ----------
-def load_agenda_label_index_from_d3(d3_ttl_path: str) -> Dict[str, str]:
+# ---------- (R IRI, dcterms:title) → AGD IRI 인덱스 ----------
+def build_agenda_title_index_from_d3(d3_ttl_path: str) -> Dict[Tuple[str,str], str]:
     """
-    d3_content_add_AB.txt에서 AgendaItem의 skos:prefLabel을 읽어
-    순수 라벨(접두 [AGD-...] 제거) → AGD IRI 매핑을 만든다.
+    d3_content_add_AB_x.txt에서:
+      - dcterms:source (R IRI)
+      - dcterms:title  (CSV 원문 안건, 번호/기호 포함)
+    를 키로 하여 AgendaItem IRI를 찾는 인덱스를 만든다.
     """
     g = Graph(); g.parse(d3_ttl_path, format="turtle")
-    idx: Dict[str,str] = {}
-    for s in set(g.subjects(RDF.type, NAM3.AgendaItem)):
-        for o in g.objects(s, SKOS.prefLabel):
+    idx: Dict[Tuple[str,str], str] = {}
+    for agd in set(g.subjects(RDF.type, NAM3.AgendaItem)):
+        r_iri = None
+        for o in g.objects(agd, DCTERMS.source):
+            if isinstance(o, URIRef):
+                r_iri = str(o); break
+        if not r_iri:
+            continue
+        for o in g.objects(agd, DCTERMS.title):
             if isinstance(o, Literal):
-                pure = normalize_label_for_match(str(o))
-                if pure and isinstance(s, URIRef):
-                    idx[pure] = str(s)
+                title = normalize_title(str(o))
+                if title:
+                    idx[(r_iri, title)] = str(agd)
     return idx
+
+# ---------- 합쳐진 "발언자" 문자열에서 이름/직책 분리 ----------
+ROLE_WORDS = {"의장","부의장","의원","장관","차관","위원장","간사","대변인","검사","총장","위원"}
+def split_role_name_combined(cell_val: Optional[str]) -> Tuple[Optional[str], Optional[str]]:
+    """
+    입력 예: '의장 김진표' / '법무부장관 박성재' / '유상범 의원' / '김진표' / '정부위원 이모씨'
+    반환: (이름, 직책)  # 둘 다 없을 수 있음
+    """
+    if not cell_val or (isinstance(cell_val, float) and pd.isna(cell_val)):
+        return None, None
+    s = re.sub(r"\s+", " ", str(cell_val)).strip()
+
+    # 패턴1: '이름 직책' (이름 뒤에 역할)
+    m = re.match(r"^([가-힣]{2,4})\s*(의장|부의장|의원|장관|차관|위원장|간사|대변인|검사|총장|위원)$", s)
+    if m: return m.group(1), m.group(2)
+
+    # 패턴2: '직책(부처 포함) 이름'
+    m = re.match(r"^(.*?(의장|부의장|장관|차관|위원장|간사|대변인|검사|총장|위원))\s*([가-힣]{2,4})$", s)
+    if m:
+        role = m.group(1).strip()
+        name = m.group(3).strip()
+        return name, role
+
+    # 패턴3: '이름'만
+    m = re.match(r"^([가-힣]{2,4})$", s)
+    if m: return m.group(1), None
+
+    # 패턴4: 토큰 스캔
+    toks = s.split()
+    name, role = None, None
+    for t in toks:
+        if t in ROLE_WORDS or t.endswith("장") or t.endswith("의원") or t.endswith("위원"):
+            role = role or t
+        elif re.fullmatch(r"[가-힣]{2,4}", t):
+            name = name or t
+    return name, role
 
 # ================= 메인 변환 =================
 def convert(csv_path: str,
@@ -183,12 +201,12 @@ def convert(csv_path: str,
             encoding: str = "utf-8-sig",
             people_ttl: Optional[str] = None):
 
-    # --- CSV (고정 헤더) ---
+    # --- CSV ---
     df = pd.read_csv(csv_path, encoding=encoding)
 
     # --- 그래프 ---
     g = Graph()
-    for pfx, ns in [("rdf", RDFS), ("rdfs", RDFS), ("skos", SKOS), ("dcterms", DCTERMS),
+    for pfx, ns in [("rdf", RDF), ("rdfs", RDFS), ("skos", SKOS), ("dcterms", DCTERMS),
                     ("foaf", FOAF), ("xsd", XSD), ("rico", RICO), ("schema", SCHEMA),
                     ("nam3", NAM3), ("nadat1", NADAT1), ("nadat2", NADAT2), ("nadat3", NADAT3)]:
         g.bind(pfx, ns)
@@ -198,16 +216,20 @@ def convert(csv_path: str,
     prov_start = get_existing_prov_start(people_ttl)
     prov = ProvisionalPeople(start_from=prov_start)
 
-    # --- 안건 라벨 → IRI 인덱스 (필수) ---
-    agd_label_idx = load_agenda_label_index_from_d3(preloaded_d3_ttl)
+    # --- (R IRI, title) → AGD IRI 인덱스 (필수) ---
+    agd_title_idx = build_agenda_title_index_from_d3(preloaded_d3_ttl)
 
-    # --- R별 Speech 시퀀스 (4자리) ---
+    # --- R별 Speech 시퀀스 (4자리, 발언순번이 없을 때만 사용) ---
     seq_map: Dict[str,int] = {}
 
-    # 고정 헤더 이름
+    # 고정(또는 탐색) 헤더
     COL_AGENDA   = "안건"
-    COL_SPEAKER  = "발언자(이름)"
-    COL_ROLE     = "발언자(직책)"
+    # 이름/직책이 분리돼 있는 경우도 대비
+    COL_SPEAKER_NAME = "발언자(이름)"
+    COL_SPEAKER_ROLE = "발언자(직책)"
+    # 합쳐진 원본이 들어오는 경우의 후보 헤더명(있으면 사용)
+    COMBINED_CANDIDATES = ["발언자", "발언자(이름)"]
+
     COL_POS      = "발언순번"
     COL_TEXT     = "발언내용"
     COL_ID       = "의원ID"
@@ -215,6 +237,15 @@ def convert(csv_path: str,
     COL_SES      = "회수"
     COL_ROUND    = "차수"
     COL_MEETNO   = "회의번호"
+
+    # CSV에 어떤 스피커 컬럼이 있는지 확인
+    has_split = (COL_SPEAKER_NAME in df.columns) and (COL_SPEAKER_ROLE in df.columns)
+    combined_col = None
+    if not has_split:
+        for c in COMBINED_CANDIDATES:
+            if c in df.columns:
+                combined_col = c
+                break
 
     for _, row in df.iterrows():
         try:
@@ -228,28 +259,49 @@ def convert(csv_path: str,
             r_local = to_r_id(gen, session4, round3, meeting_no)
             r_iri   = str(NADAT1[r_local])
 
-            # Speech 시퀀스 증가
-            if r_local not in seq_map: seq_map[r_local] = 0
-            seq_map[r_local] += 1
-            sph_local = f"{to_speech_base(gen, session4, round3, meeting_no)}-{seq_map[r_local]:04d}"
+            # 발언순번 → IRI suffix 우선 사용
+            pos_val = row[COL_POS] if COL_POS in row else None
+            pos = digits_only(pos_val)
+            if pos is None:
+                seq_map[r_local] = seq_map.get(r_local, 0) + 1
+                pos = seq_map[r_local]
+            pos4 = f"{pos:04d}"
+
+            sph_local = f"{to_speech_base(gen, session4, round3, meeting_no)}-{pos4}"
             sph_iri   = URIRef(NADAT3[sph_local])
 
-            # 발언자 이름/직책
-            name_val = row[COL_SPEAKER] if not pd.isna(row[COL_SPEAKER]) else None
-            role_val = row[COL_ROLE]    if not pd.isna(row[COL_ROLE]) else None
+            # 안건(subject): 분리 → (R IRI, title) 키로 매칭
+            agenda_items = split_agenda_cell(row[COL_AGENDA])
+            matched_iris: List[str] = []
+            for item in agenda_items:
+                key = (r_iri, normalize_title(item))
+                iri = agd_title_idx.get(key)
+                if iri:
+                    matched_iris.append(iri)
 
-            if isinstance(name_val, str):
-                name_val = name_val.strip()
-            else:
-                name_val = None
-            if isinstance(role_val, str):
-                role_val = role_val.strip()
-            else:
-                role_val = None
+            # ===== 발언자 이름/직책 추출 =====
+            name_val: Optional[str] = None
+            role_val: Optional[str] = None
 
-            # creator IRI: d2에서 먼저 찾고, 없고 의원ID 공란이면 임시 생성
+            if has_split:
+                n_raw = row[COL_SPEAKER_NAME] if not pd.isna(row[COL_SPEAKER_NAME]) else None
+                r_raw = row[COL_SPEAKER_ROLE] if not pd.isna(row[COL_SPEAKER_ROLE]) else None
+                if isinstance(n_raw, str) and isinstance(r_raw, str) and n_raw.strip()=="" and r_raw.strip()=="":
+                    n_raw = None; r_raw = None
+                if n_raw or r_raw:
+                    name_val = (str(n_raw).strip() if isinstance(n_raw, str) else None) or None
+                    role_val = (str(r_raw).strip() if isinstance(r_raw, str) else None) or None
+                else:
+                    # 분리컬럼이 있더라도 값이 없으면 combined 사용
+                    if combined_col:
+                        name_val, role_val = split_role_name_combined(row.get(combined_col))
+            else:
+                # 분리컬럼이 없으면 combined에서 파싱
+                name_val, role_val = split_role_name_combined(row.get(combined_col) if combined_col else None)
+
+            # schema:creator — 이름이 있고 d2에 없으면, 의원ID가 공란일 때만 임시 생성
             creator_iri = None
-            if name_val:
+            if name_val and name_val not in STOPWORDS_NONPERSON:
                 creator_iri = person_idx.get(name_val)
                 if not creator_iri:
                     mem_id = row[COL_ID] if COL_ID in row else None
@@ -257,20 +309,12 @@ def convert(csv_path: str,
                     if blank_id:
                         creator_iri = prov.mint(name_val)
 
-            # --- Speech 본문 ---
+            # ====== Speech 작성 ======
             g.add((sph_iri, RDF.type, NAM3.Speech))
             g.add((sph_iri, DCTERMS.source, URIRef(r_iri)))
 
-            # 안건(subject): CSV의 "안건"을 분리→라벨정규화→IRI 매핑
-            agenda_items = split_agenda_cell(row[COL_AGENDA])
-            matched = []
-            for item in agenda_items:
-                pure = normalize_label_for_match(item)
-                iri  = agd_label_idx.get(pure)
-                if iri:
-                    matched.append(URIRef(iri))
-            for agd in matched:
-                g.add((sph_iri, DCTERMS.subject, agd))
+            for agd in matched_iris:
+                g.add((sph_iri, DCTERMS.subject, URIRef(agd)))
 
             if creator_iri:
                 g.add((sph_iri, SCHEMA.creator, URIRef(creator_iri)))
@@ -278,12 +322,7 @@ def convert(csv_path: str,
             if role_val:
                 g.add((sph_iri, URIRef(str(NAM3) + "recordRole"), Literal(role_val, lang="ko")))
 
-            pos = row[COL_POS]
-            if pos is not None and not (isinstance(pos, float) and pd.isna(pos)):
-                try:
-                    g.add((sph_iri, SCHEMA.position, Literal(int(pos))))
-                except Exception:
-                    pass
+            g.add((sph_iri, SCHEMA.position, Literal(int(pos), datatype=XSD.integer)))
 
             txt = row[COL_TEXT]
             if txt is not None and not (isinstance(txt, float) and pd.isna(txt)):
@@ -315,5 +354,3 @@ if __name__ == "__main__":
         encoding=CSV_ENCODING,
         people_ttl=PEOPLE_TTL
     )
-
-
