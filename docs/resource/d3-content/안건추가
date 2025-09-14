@@ -9,8 +9,8 @@ from rdflib.namespace import RDF, RDFS, SKOS, DCTERMS, FOAF, XSD
 CSV_PATH         = r"C:/Users/LSE/Desktop/논문주제뭐하지/ontology/본회의5차수샘플.csv"
 CSV_ENCODING     = "utf-8-sig"
 
-OUT_TTL_D3       = r"d3_content_add_AB.txt"          # AgendaItem & Bill
-OUT_TTL_SUBJECT  = r"d1_record_add_subject_1.txt"    # hasOrHadSubject 전용
+OUT_TTL_D3       = r"d3_content_add_AB_1.txt"          # AgendaItem & Bill
+OUT_TTL_SUBJECT  = r"d1_record_add_subject_1.txt"      # hasOrHadSubject 전용
 OUT_TMP_PEOPLE   = r"d2_person_tmp_add_3.txt"
 
 PEOPLE_TTL       = r"https://lseun135.github.io/NAontology_study/resource/d2-person.ttl"
@@ -100,6 +100,17 @@ def starts_with_digit(text: str) -> bool:
 
 def normalize_label_for_dedup(text: str) -> str:
     return re.sub(r"\s+", " ", str(text or "")).strip()
+
+# ---------- 순수 안건명(title) 추출 ----------
+def extract_pure_agenda_title(item_text: str) -> str:
+    """
+    [예] '1. 대법관(신숙희) 임명동의안(의안번호 2126515)' -> '1. 대법관(신숙희) 임명동의안(의안번호 2126515)'
+         'o 비교섭단체(녹색정의당) 대표발언'              -> 'o 비교섭단체(녹색정의당) 대표발언'
+    즉, 번호/기호(o, ○)는 그대로 보존하고, 공백만 정규화.
+    """
+    t = str(item_text or "")
+    return re.sub(r"\s+", " ", t).strip()
+
 
 # ---------- 제출자 선택 & 이름 추출 ----------
 ROLE_STOPWORDS = {
@@ -358,12 +369,18 @@ def convert(csv_path: str,
                 if submitter_name and submitter_name not in ROLE_STOPWORDS:
                     submitter_iri = person_idx.get(submitter_name) or prov.mint(submitter_name)
 
-                # AgendaItem
+                # ===== AgendaItem 생성 =====
                 seq_map[r_local] += 1
                 agd_local = f"{to_agenda_base(gen, session4, round3, meeting_no)}-{seq_map[r_local]:03d}"
                 agd_iri = URIRef(NADAT3[agd_local])
+
                 g_main.add((agd_iri, RDF.type, NAM3.AgendaItem))
+                # 라벨(접두 포함)
                 g_main.add((agd_iri, SKOS.prefLabel, Literal(f"[{agd_local}] {main_label}", lang="ko")))
+                # 순수 안건명(title) — 번호/표식 제거
+                pure_title = extract_pure_agenda_title(raw_item)
+                g_main.add((agd_iri, DCTERMS.title, Literal(pure_title, lang="ko")))
+
                 g_main.add((agd_iri, DCTERMS.source, URIRef(r_iri)))
                 g_main.add((agd_iri, DCTERMS.isPartOf, URIRef(act_iri)))
                 if is_alt:
@@ -373,7 +390,7 @@ def convert(csv_path: str,
                 if starts_with_digit(raw_item):
                     g_subj.add((URIRef(r_iri), RICO.hasOrHadSubject, agd_iri))
 
-                # Bill & subject + Bill.creator(이름이 있을 때만)
+                # ===== Bill & subject + Bill.creator(이름이 있을 때만) =====
                 if bill_no:
                     if is_alt:
                         alt_bill_iri = ensure_alt_bill_defined(g_main, bill_no)
@@ -390,10 +407,10 @@ def convert(csv_path: str,
                             sid = f"BILL-{bill_no}"
                             if str(URIRef(submitter_iri)) not in pre_creators.get(sid, set()) and \
                                (bill_iri, SCHEMA.creator, URIRef(submitter_iri)) not in g_main:
-                                g_main.add((bill_iri, SCHEMA.creator, URIRef(submitter_iri)))
+                                    g_main.add((bill_iri, SCHEMA.creator, URIRef(submitter_iri)))
 
         except Exception as e:
-            print(f"[WARN] row skipped due to error: {e}")
+            print(f("[WARN] row skipped due to error: {e}"))
 
     # 저장
     out_main = Path(out_ttl_d3); out_main.parent.mkdir(parents=True, exist_ok=True)
