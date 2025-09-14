@@ -6,7 +6,7 @@ from rdflib import Graph, Literal, URIRef, Namespace
 from rdflib.namespace import RDF, RDFS, SKOS, DCTERMS, FOAF, XSD
 
 # ========================= CONFIG =========================
-CSV_PATH         = r"C:/Users/LSE/Desktop/논문주제뭐하지/ontology/본회의1차수샘플.csv"
+CSV_PATH         = r"C:/Users/LSE/Desktop/논문주제뭐하지/ontology/본회의5차수샘플.csv"
 CSV_ENCODING     = "utf-8-sig"
 
 OUT_TTL_D3       = r"d3_content_add_AB.txt"          # AgendaItem & Bill
@@ -67,48 +67,103 @@ def split_agenda_cell(cell: str) -> List[str]:
 # ---------- 괄호/의안번호 ----------
 _PAREN_RE = re.compile(r"\((.*?)\)")
 _BILL_NO_RE = re.compile(r"의안번호\s*([0-9]{3,})")  # "의안번호 ####"만
+
 def parse_paren_chunks(s: str) -> List[str]:
+    """본문 전체의 괄호 내용(모든 위치)을 순서대로 추출"""
     return [m.strip() for m in _PAREN_RE.findall(s or "")]
+
+def trailing_paren_chunks(s: str) -> List[str]:
+    """
+    문자열 '끝부분'에 연속으로 오는 괄호열만 추출.
+    예) '... 안건명(제출자)(의안번호 1234)' -> ['제출자', '의안번호 1234']
+        '... 대법관(신숙희) 임명동의안(의안번호 2126515)' -> ['의안번호 2126515']
+    """
+    if not s: return []
+    m = re.search(r'((?:\s*\([^)]*\))+)\s*$', str(s))
+    if not m: return []
+    suffix = m.group(1)
+    return [t.strip() for t in re.findall(r'\(([^)]*)\)', suffix)]
+
 def extract_bill_no(parens: List[str]) -> Optional[str]:
     for p in parens:
         if not p: continue
         m = _BILL_NO_RE.search(str(p))
         if m: return m.group(1)
     return None
+
 def is_alt_by_parens(parens: List[str]) -> bool:
+    # (본문 어디든) "대안"이 보이면 ALT
     return any("대안" in (p or "").strip() for p in parens)
+
 def starts_with_digit(text: str) -> bool:
     return bool(re.match(r"^\s*\d+", text or ""))
+
 def normalize_label_for_dedup(text: str) -> str:
     return re.sub(r"\s+", " ", str(text or "")).strip()
 
 # ---------- 제출자 선택 & 이름 추출 ----------
 ROLE_STOPWORDS = {
+    # 직함/기관/비인명/절차/위원회명 키워드(필요시 확장)
     "대안","대통령","국무총리","총리","부총리","장관","차관","청장","총장","국장","과장","실장","소장","원장","처장",
     "의장","부의장","위원","위원장","간사","대변인","직무대리","직무대행","위원회","제출","제의",
-    "환경노동","정무","법제사법","행정안전","교육","외교","국방","기재","농해수","산자중기","보건복지","문체","국토"
+    "환경노동","정무","법제사법","행정안전","교육","외교","국방","기재","농해수","산자중기","보건복지","문체","국토",
+    "정부","국회","정부위원","의사일정","본회의","대표발의","발의","서면동의","동의","추천","제청","제출자"
 }
 NAME_TOKEN_RE = re.compile(r"(?<![가-힣])([가-힣]{2,4})(?![가-힣])")
-def select_submitter_paren(parens: List[str], raw_text: str) -> Optional[str]:
-    if not raw_text or not str(raw_text).strip().endswith(")"): return None
-    n = len(parens or [])
-    if n == 2: return parens[0]
-    if n == 3: return parens[1]
+
+def select_submitter_paren_from_trailing(raw_text: str) -> Optional[str]:
+    """
+    맨 끝 괄호열만 대상으로, 괄호가 2개면 첫번째, 3개면 두번째를 제출자 후보로 선택.
+    그 외(1개, 4개 이상)는 제출자 없음 처리.
+    """
+    if not raw_text or not str(raw_text).strip().endswith(")"):
+        return None
+    tps = trailing_paren_chunks(raw_text)
+    n = len(tps)
+    if n == 2:
+        return tps[0]
+    if n == 3:
+        return tps[1]
     return None
+
 def extract_person_name_only(text: Optional[str]) -> Optional[str]:
-    if not text: return None
+    """괄호 텍스트에서 '이름'만 반환. 기관/직함/대안 등은 제외."""
+    if not text:
+        return None
     s = str(text).strip()
-    if not s or "대안" in s: return None
+    if not s:
+        return None
+
+    # ALT 표시는 제출자 아님
+    if "대안" in s:
+        return None
+
+    # 기관/직책 키워드가 있으면 '○○ 의원' 명시형만 통과, 아니면 None
+    if any(k in s for k in ["정부", "국회", "의장", "위원장", "장관", "차관", "위원회"]):
+        m = re.search(r"([가-힣]{2,4})\s*의원\b", s)
+        if m and m.group(1) not in ROLE_STOPWORDS:
+            return m.group(1)
+        return None
+
+    # 명시형 패턴
     m = re.search(r"([가-힣]{2,4})\s*의원\b", s)
-    if m and m.group(1) not in ROLE_STOPWORDS: return m.group(1)
+    if m and m.group(1) not in ROLE_STOPWORDS:
+        return m.group(1)
+
     m = re.search(r"([가-힣]{2,4})\s*(대표발의|발의|서면동의|동의|서명)\b", s)
-    if m and m.group(1) not in ROLE_STOPWORDS: return m.group(1)
+    if m and m.group(1) not in ROLE_STOPWORDS:
+        return m.group(1)
+
+    # fallback: 일반 토큰 스캔(더 엄격)
     for m in NAME_TOKEN_RE.finditer(s):
         cand = m.group(1)
-        if cand in ROLE_STOPWORDS: continue
+        if cand in ROLE_STOPWORDS:
+            continue
         right = s[m.end(1):]
-        if re.match(r"^(위원장|장관|차관|의장|위원회)", right): continue
+        if re.match(r"^(위원장|장관|차관|의장|위원회|정부|국회)", right):
+            continue
         return cand
+
     return None
 
 # ================= nadat2 인물 인덱스 & PER-TMP 시작값 =================
@@ -123,6 +178,7 @@ def build_person_index_by_rdfs_label(people_ttl: Optional[str]) -> Dict[str, str
             if isinstance(o, Literal) and str(o).strip():
                 idx[str(o).strip()] = str(s)
     return idx
+
 def get_existing_prov_start(people_ttl: Optional[str]) -> int:
     if not people_ttl: return 0
     try:
@@ -139,14 +195,25 @@ def get_existing_prov_start(people_ttl: Optional[str]) -> int:
         return 0
 
 class ProvisionalPeople:
+    """라벨 기준 재사용(중복 방지) + 기존 최대 번호 이어붙임"""
     def __init__(self, start_from: int = 0):
         self.counter = start_from
-        self.created = []  # (local_id, label)
+        self.created: List[Tuple[str,str]] = []     # (local_id, label)
+        self._label2iri: Dict[str, str] = {}        # label -> IRI (중복 방지)
+
     def mint(self, label_ko: str) -> str:
+        key = (label_ko or "").strip()
+        if not key:
+            raise ValueError("empty label for provisional person")
+        if key in self._label2iri:
+            return self._label2iri[key]
         self.counter += 1
         local = f"PER-TMP-{self.counter:05d}"
-        self.created.append((local, label_ko))
-        return str(NADAT2[local])
+        iri = str(NADAT2[local])
+        self.created.append((local, key))
+        self._label2iri[key] = iri
+        return iri
+
     def write_ttl(self, path: str):
         out = Path(path); out.parent.mkdir(parents=True, exist_ok=True)
         lines = []
@@ -244,9 +311,6 @@ def convert(csv_path: str,
     seq_map: Dict[str, int] = {}
     seen_labels_per_r: Dict[str, Set[str]] = {}
 
-    created_bill_cnt = 0
-    created_alt_bill_cnt = 0
-
     for _, row in df.iterrows():
         try:
             gen = int(row["대수"]) if not pd.isna(row["대수"]) else None
@@ -273,7 +337,7 @@ def convert(csv_path: str,
             if r_local not in seen_labels_per_r:  seen_labels_per_r[r_local] = set()
 
             for raw_item in agendas:
-                if not raw_item: 
+                if not raw_item:
                     continue
 
                 main_label = normalize_label_for_dedup(raw_item)
@@ -282,14 +346,16 @@ def convert(csv_path: str,
                     continue
                 seen_labels_per_r[r_local].add(main_label)
 
-                parens  = parse_paren_chunks(raw_item)
-                is_alt  = is_alt_by_parens(parens)
-                bill_no = extract_bill_no(parens)
+                # ALT/의안번호 판별은 본문 전체 괄호 기준
+                all_parens = parse_paren_chunks(raw_item)
+                is_alt  = is_alt_by_parens(all_parens)
+                bill_no = extract_bill_no(all_parens)
 
-                chosen_paren   = select_submitter_paren(parens, raw_item)
+                # 제출자 괄호는 '맨 끝 괄호열'에서만 선택
+                chosen_paren   = select_submitter_paren_from_trailing(raw_item)
                 submitter_name = extract_person_name_only(chosen_paren) if chosen_paren else None
                 submitter_iri: Optional[str] = None
-                if submitter_name:
+                if submitter_name and submitter_name not in ROLE_STOPWORDS:
                     submitter_iri = person_idx.get(submitter_name) or prov.mint(submitter_name)
 
                 # AgendaItem
@@ -311,9 +377,6 @@ def convert(csv_path: str,
                 if bill_no:
                     if is_alt:
                         alt_bill_iri = ensure_alt_bill_defined(g_main, bill_no)
-                        if (alt_bill_iri, RDF.type, NAM3.Bill) in g_main:
-                            # 새로 만들어졌으면 카운트 추정
-                            created_alt_bill_cnt += 1
                         g_main.add((agd_iri, DCTERMS.subject, alt_bill_iri))
                         if submitter_iri:
                             sid = f"BILL-ALT-{bill_no}"
@@ -322,8 +385,6 @@ def convert(csv_path: str,
                                 g_main.add((alt_bill_iri, SCHEMA.creator, URIRef(submitter_iri)))
                     else:
                         bill_iri = ensure_bill_defined(g_main, bill_no)
-                        if (bill_iri, RDF.type, NAM3.Bill) in g_main:
-                            created_bill_cnt += 1
                         g_main.add((agd_iri, DCTERMS.subject, bill_iri))
                         if submitter_iri:
                             sid = f"BILL-{bill_no}"
