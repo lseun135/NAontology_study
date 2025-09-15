@@ -6,12 +6,12 @@ from rdflib import Graph, Literal, URIRef, Namespace
 from rdflib.namespace import RDF, RDFS, SKOS, DCTERMS, FOAF, XSD
 
 # ========================= CONFIG =========================
-CSV_PATH         = r"C:/Users/LSE/Desktop/논문주제뭐하지/ontology/본회의5차수샘플.csv"
+CSV_PATH         = r"D:/연구/국회회의록/21대_본회의_new_1.csv"
 CSV_ENCODING     = "utf-8-sig"
 
-OUT_TTL_D3       = r"d3_content_add_AB_1.txt"          # AgendaItem & Bill
-OUT_TTL_SUBJECT  = r"d1_record_add_subject_1.txt"      # hasOrHadSubject 전용
-OUT_TMP_PEOPLE   = r"d2_person_tmp_add_3.txt"
+OUT_TTL_D3       = r"D:/연구/국회회의록/d3_content_add_AB_PS.txt"          # AgendaItem & Bill
+OUT_TTL_SUBJECT  = r"D:/연구/국회회의록/d1_record_add_subject_PS.txt"      # hasOrHadSubject 전용
+OUT_TMP_PEOPLE   = r"D:/연구/국회회의록/d2_person_tmp_add_3.txt"
 
 PEOPLE_TTL       = r"https://lseun135.github.io/NAontology_study/resource/d2-person.ttl"
 
@@ -48,21 +48,104 @@ def to_agenda_base(gen: int, session4: str, round3: str, meeting_no: int) -> str
     return f"AGD-R1000{gen}{session4}{round3}{meeting_no}"
 
 # ---------- 안건 분리 ----------
-_BULLET_OR_O_RE = re.compile(r'(?<!\d)(\d+)\.\s*|[o○]\s+', re.MULTILINE)
+# 상위안건: 1. 2. 3. ...
+_TOP_NUM_RE   = r'(?<!\d)(\d+)\.\s*'
+# 하위안건: 가. 나. 다. 라. 마. 바. 사. 아. 자. 차. 카. 타. 파. 하.
+_KR_SUB_LIST  = ['가','나','다','라','마','바','사','아','자','차','카','타','파','하']
+_SUB_KR_RE    = r'(?:' + '|'.join(_KR_SUB_LIST) + r')\.\s*'
+# 기호안건: o 또는 ○
+_O_BULLET_RE  = r'[o○]\s+'
+
+# 통합 마커(상위/하위/기호) 감지
+# - 그룹명: num(숫자), sub(가/나/..), o(기호)
+_BULLET_OR_O_RE = re.compile(
+    rf'(?P<num>{_TOP_NUM_RE})|(?P<sub>{_SUB_KR_RE})|(?P<o>{_O_BULLET_RE})',
+    re.MULTILINE
+)
+
+def _segment_with_markers(text: str):
+    """텍스트 내 마커들의 (start, end, kind, match_text) 리스트"""
+    segs = []
+    for m in _BULLET_OR_O_RE.finditer(text):
+        kind = 'num' if m.group('num') else ('sub' if m.group('sub') else 'o')
+        segs.append((m.start(), m.end(), kind, m.group(0)))
+    return segs
+
 def split_agenda_cell(cell: str) -> List[str]:
+    """
+    기존 호출부와의 역호환용:
+    - 상위안건(1.), 하위안건(가.), 기호(o/○) 기준으로 '평평한' 문자열 리스트를 반환
+    - 계층정보는 포함하지 않음 (필요시 아래 split_agenda_cell_with_hierarchy 사용)
+    """
     if cell is None or (isinstance(cell, float) and pd.isna(cell)):
         return []
     text = str(cell).strip()
-    if not text: return []
-    starts = [m.start() for m in _BULLET_OR_O_RE.finditer(text)]
-    if not starts: return [text]
-    if starts[0] != 0: starts = [0] + starts
+    if not text:
+        return []
+    segs = _segment_with_markers(text)
+    if not segs:
+        return [text]
+    # 맨 앞에 마커가 없으면 0부터 시작해서 첫 마커 전 구간도 포함
+    starts = [s for (s, _, _, _) in segs]
+    if starts[0] != 0:
+        segs = [(0, 0, 'txt', '')] + segs  # dummy head
     parts = []
-    for i, s in enumerate(starts):
-        e = starts[i+1] if i+1 < len(starts) else len(text)
+    # 각 마커의 시작~다음 마커 시작 전까지를 한 항목으로
+    boundaries = [s for (s, _, _, _) in segs]
+    boundaries.append(len(text))
+    for i in range(len(segs)):
+        s = boundaries[i]
+        e = boundaries[i+1]
         seg = text[s:e].strip()
-        if seg: parts.append(seg)
+        if seg:
+            parts.append(seg)
     return parts
+
+def split_agenda_cell_with_hierarchy(cell: str):
+    """
+    계층정보 포함 버전:
+    반환: List[Dict]  —  {'text': ..., 'level': 0|1, 'marker': '1.'|'가.'|'o', 'kind': 'num'|'sub'|'o'}
+    - level=0: 상위안건(숫자) 또는 기호(o/○)
+    - level=1: 하위안건(가/나/…)
+    """
+    if cell is None or (isinstance(cell, float) and pd.isna(cell)):
+        return []
+    text = str(cell).strip()
+    if not text:
+        return []
+    segs = _segment_with_markers(text)
+    if not segs:
+        # 마커가 없으면 level=0 단일 항목으로 본다
+        return [{'text': text, 'level': 0, 'marker': None, 'kind': 'txt'}]
+    # 경계 산출
+    boundaries = [s for (s, _, _, _) in segs]
+    if boundaries[0] != 0:
+        segs = [(0, 0, 'txt', '')] + segs
+        boundaries = [0] + boundaries
+    boundaries.append(len(text))
+    items = []
+    for i, (s, _, kind, marker_txt) in enumerate(segs):
+        seg = text[boundaries[i]:boundaries[i+1]].strip()
+        if not seg:
+            continue
+        # 레벨 판정
+        if kind == 'sub':
+            level = 1
+            marker_norm = marker_txt.strip()
+        elif kind in ('num', 'o'):
+            level = 0
+            marker_norm = marker_txt.strip()
+        else:
+            # dummy head 또는 일반 텍스트가 맨 앞에 있을 때: 상위로 처리
+            level = 0
+            marker_norm = None
+        items.append({
+            'text': seg,
+            'level': level,
+            'marker': marker_norm,
+            'kind': kind
+        })
+    return items
 
 # ---------- 괄호/의안번호 ----------
 _PAREN_RE = re.compile(r"\((.*?)\)")
@@ -111,14 +194,13 @@ def extract_pure_agenda_title(item_text: str) -> str:
     t = str(item_text or "")
     return re.sub(r"\s+", " ", t).strip()
 
-
 # ---------- 제출자 선택 & 이름 추출 ----------
 ROLE_STOPWORDS = {
     # 직함/기관/비인명/절차/위원회명 키워드(필요시 확장)
     "대안","대통령","국무총리","총리","부총리","장관","차관","청장","총장","국장","과장","실장","소장","원장","처장",
     "의장","부의장","위원","위원장","간사","대변인","직무대리","직무대행","위원회","제출","제의",
     "환경노동","정무","법제사법","행정안전","교육","외교","국방","기재","농해수","산자중기","보건복지","문체","국토",
-    "정부","국회","정부위원","의사일정","본회의","대표발의","발의","서면동의","동의","추천","제청","제출자"
+    "정부","국회","정부위원","의사일정","본회의","대표발의","발의","서면동의","동의","추천","제청","제출자", "의안번호"
 }
 NAME_TOKEN_RE = re.compile(r"(?<![가-힣])([가-힣]{2,4})(?![가-힣])")
 
@@ -144,27 +226,22 @@ def extract_person_name_only(text: Optional[str]) -> Optional[str]:
     s = str(text).strip()
     if not s:
         return None
-
     # ALT 표시는 제출자 아님
     if "대안" in s:
         return None
-
     # 기관/직책 키워드가 있으면 '○○ 의원' 명시형만 통과, 아니면 None
     if any(k in s for k in ["정부", "국회", "의장", "위원장", "장관", "차관", "위원회"]):
         m = re.search(r"([가-힣]{2,4})\s*의원\b", s)
         if m and m.group(1) not in ROLE_STOPWORDS:
             return m.group(1)
         return None
-
     # 명시형 패턴
     m = re.search(r"([가-힣]{2,4})\s*의원\b", s)
     if m and m.group(1) not in ROLE_STOPWORDS:
         return m.group(1)
-
     m = re.search(r"([가-힣]{2,4})\s*(대표발의|발의|서면동의|동의|서명)\b", s)
     if m and m.group(1) not in ROLE_STOPWORDS:
         return m.group(1)
-
     # fallback: 일반 토큰 스캔(더 엄격)
     for m in NAME_TOKEN_RE.finditer(s):
         cand = m.group(1)
@@ -174,7 +251,6 @@ def extract_person_name_only(text: Optional[str]) -> Optional[str]:
         if re.match(r"^(위원장|장관|차관|의장|위원회|정부|국회)", right):
             continue
         return cand
-
     return None
 
 # ================= nadat2 인물 인덱스 & PER-TMP 시작값 =================
@@ -243,7 +319,7 @@ class ProvisionalPeople:
             lines.append('')
         out.write_text("\n".join(lines), encoding="utf-8")
 
-# ========= (선택) 기존 d3의 creator만 참고 =========
+# ========= 기존 d3의 creator만 참고 =========
 def _safe_parse_into(graph: Graph, source: str):
     try:
         graph.parse(source, format="turtle")
@@ -315,7 +391,7 @@ def convert(csv_path: str,
     prov_start = get_existing_prov_start(people_ttl)
     prov = ProvisionalPeople(start_from=prov_start)
 
-    # (선택) 과거 파일의 Bill.creator만 참고
+    # 과거 파일의 Bill.creator만 참고
     pre_creators = preload_existing_creators(PRELOAD_D3_TTLS)
 
     # R별 시퀀스 & 중복 안건(라벨 기반)
@@ -340,77 +416,162 @@ def convert(csv_path: str,
             r_iri   = str(NADAT1[r_local])
             act_iri = str(NADAT1[f"ACT-M-{meeting_no}"])
 
-            agendas = split_agenda_cell(row.get("안건"))
-            if not agendas:
+            # --- 계층형 안건 분리로 교체 ---
+            hitems = split_agenda_cell_with_hierarchy(row.get("안건"))
+            if not hitems:
                 continue
 
             if r_local not in seq_map:            seq_map[r_local] = 0
             if r_local not in seen_labels_per_r:  seen_labels_per_r[r_local] = set()
 
-            for raw_item in agendas:
-                if not raw_item:
+            current_parent_local: Optional[str] = None
+            current_parent_iri: Optional[URIRef] = None
+            sub_seq_map: Dict[str, int] = {}  # 부모별 하위안건 등록순
+
+            for h in hitems:
+                raw_item = h.get('text') or ''
+                level    = h.get('level', 0)
+
+                if not raw_item.strip():
                     continue
 
                 main_label = normalize_label_for_dedup(raw_item)
-                if not main_label or main_label in seen_labels_per_r[r_local]:
-                    if main_label: seen_labels_per_r[r_local].add(main_label)
+                if main_label in seen_labels_per_r[r_local]:
                     continue
                 seen_labels_per_r[r_local].add(main_label)
 
-                # ALT/의안번호 판별은 본문 전체 괄호 기준
+                # ALT/의안번호: 본문 전체 괄호 기준
                 all_parens = parse_paren_chunks(raw_item)
-                is_alt  = is_alt_by_parens(all_parens)
-                bill_no = extract_bill_no(all_parens)
+                is_alt     = is_alt_by_parens(all_parens)
+                bill_no    = extract_bill_no(all_parens)
 
-                # 제출자 괄호는 '맨 끝 괄호열'에서만 선택
+                # 제출자: 맨 끝 괄호열만
                 chosen_paren   = select_submitter_paren_from_trailing(raw_item)
                 submitter_name = extract_person_name_only(chosen_paren) if chosen_paren else None
                 submitter_iri: Optional[str] = None
                 if submitter_name and submitter_name not in ROLE_STOPWORDS:
                     submitter_iri = person_idx.get(submitter_name) or prov.mint(submitter_name)
 
-                # ===== AgendaItem 생성 =====
-                seq_map[r_local] += 1
-                agd_local = f"{to_agenda_base(gen, session4, round3, meeting_no)}-{seq_map[r_local]:03d}"
-                agd_iri = URIRef(NADAT3[agd_local])
+                if level == 0:
+                    # ===== 상위안건 생성 =====
+                    seq_map[r_local] += 1
+                    agd_local = f"{to_agenda_base(gen, session4, round3, meeting_no)}-{seq_map[r_local]:03d}"
+                    agd_iri   = URIRef(NADAT3[agd_local])
 
-                g_main.add((agd_iri, RDF.type, NAM3.AgendaItem))
-                # 라벨(접두 포함)
-                g_main.add((agd_iri, SKOS.prefLabel, Literal(f"[{agd_local}] {main_label}", lang="ko")))
-                # 순수 안건명(title) — 번호/표식 제거
-                pure_title = extract_pure_agenda_title(raw_item)
-                g_main.add((agd_iri, DCTERMS.title, Literal(pure_title, lang="ko")))
-
-                g_main.add((agd_iri, DCTERMS.source, URIRef(r_iri)))
-                g_main.add((agd_iri, DCTERMS.isPartOf, URIRef(act_iri)))
-                if is_alt:
-                    g_main.add((agd_iri, RDFS.comment, Literal("대안", lang="ko")))
-
-                # 숫자로 시작하는 안건만 Record → hasOrHadSubject
-                if starts_with_digit(raw_item):
-                    g_subj.add((URIRef(r_iri), RICO.hasOrHadSubject, agd_iri))
-
-                # ===== Bill & subject + Bill.creator(이름이 있을 때만) =====
-                if bill_no:
+                    g_main.add((agd_iri, RDF.type, NAM3.AgendaItem))
+                    g_main.add((agd_iri, SKOS.prefLabel, Literal(f"[{agd_local}] {main_label}", lang="ko")))
+                    pure_title = extract_pure_agenda_title(raw_item)
+                    g_main.add((agd_iri, DCTERMS.title, Literal(pure_title, lang="ko")))
+                    g_main.add((agd_iri, DCTERMS.source, URIRef(r_iri)))
+                    g_main.add((agd_iri, DCTERMS.isPartOf, URIRef(act_iri)))  # 회의(Activity) 포함
                     if is_alt:
-                        alt_bill_iri = ensure_alt_bill_defined(g_main, bill_no)
-                        g_main.add((agd_iri, DCTERMS.subject, alt_bill_iri))
-                        if submitter_iri:
-                            sid = f"BILL-ALT-{bill_no}"
-                            if str(URIRef(submitter_iri)) not in pre_creators.get(sid, set()) and \
-                               (alt_bill_iri, SCHEMA.creator, URIRef(submitter_iri)) not in g_main:
-                                g_main.add((alt_bill_iri, SCHEMA.creator, URIRef(submitter_iri)))
-                    else:
-                        bill_iri = ensure_bill_defined(g_main, bill_no)
-                        g_main.add((agd_iri, DCTERMS.subject, bill_iri))
-                        if submitter_iri:
-                            sid = f"BILL-{bill_no}"
-                            if str(URIRef(submitter_iri)) not in pre_creators.get(sid, set()) and \
-                               (bill_iri, SCHEMA.creator, URIRef(submitter_iri)) not in g_main:
+                        g_main.add((agd_iri, RDFS.comment, Literal("대안", lang="ko")))
+
+                    # 숫자로 시작하는 상위안건만 Record → hasOrHadSubject
+                    if starts_with_digit(raw_item):
+                        g_subj.add((URIRef(r_iri), RICO.hasOrHadSubject, agd_iri))
+
+                    # Bill 연결(+ creator)
+                    if bill_no:
+                        if is_alt:
+                            alt_bill_iri = ensure_alt_bill_defined(g_main, bill_no)
+                            g_main.add((agd_iri, DCTERMS.subject, alt_bill_iri))
+                            if submitter_iri:
+                                sid = f"BILL-ALT-{bill_no}"
+                                if str(URIRef(submitter_iri)) not in pre_creators.get(sid, set()) and \
+                                   (alt_bill_iri, SCHEMA.creator, URIRef(submitter_iri)) not in g_main:
+                                    g_main.add((alt_bill_iri, SCHEMA.creator, URIRef(submitter_iri)))
+                        else:
+                            bill_iri = ensure_bill_defined(g_main, bill_no)
+                            g_main.add((agd_iri, DCTERMS.subject, bill_iri))
+                            if submitter_iri:
+                                sid = f"BILL-{bill_no}"
+                                if str(URIRef(submitter_iri)) not in pre_creators.get(sid, set()) and \
+                                   (bill_iri, SCHEMA.creator, URIRef(submitter_iri)) not in g_main:
+                                    g_main.add((bill_iri, SCHEMA.creator, URIRef(submitter_iri)))
+
+                    # 부모 컨텍스트 갱신
+                    current_parent_local = agd_local
+                    current_parent_iri   = agd_iri
+                    sub_seq_map.setdefault(current_parent_local, 0)
+
+                else:
+                    # ===== 하위안건 생성 =====
+                    # 부모가 없으면 안전하게 상위로 승격 처리
+                    if not current_parent_local or not current_parent_iri:
+                        seq_map[r_local] += 1
+                        agd_local = f"{to_agenda_base(gen, session4, round3, meeting_no)}-{seq_map[r_local]:03d}"
+                        agd_iri   = URIRef(NADAT3[agd_local])
+                        g_main.add((agd_iri, RDF.type, NAM3.AgendaItem))
+                        g_main.add((agd_iri, SKOS.prefLabel, Literal(f"[{agd_local}] {main_label}", lang="ko")))
+                        pure_title = extract_pure_agenda_title(raw_item)
+                        g_main.add((agd_iri, DCTERMS.title, Literal(pure_title, lang="ko")))
+                        g_main.add((agd_iri, DCTERMS.source, URIRef(r_iri)))
+                        g_main.add((agd_iri, DCTERMS.isPartOf, URIRef(act_iri)))
+                        if is_alt:
+                            g_main.add((agd_iri, RDFS.comment, Literal("대안", lang="ko")))
+                        if starts_with_digit(raw_item):
+                            g_subj.add((URIRef(r_iri), RICO.hasOrHadSubject, agd_iri))
+                        if bill_no:
+                            if is_alt:
+                                alt_bill_iri = ensure_alt_bill_defined(g_main, bill_no)
+                                g_main.add((agd_iri, DCTERMS.subject, alt_bill_iri))
+                                if submitter_iri:
+                                    sid = f"BILL-ALT-{bill_no}"
+                                    if str(URIRef(submitter_iri)) not in pre_creators.get(sid, set()) and \
+                                       (alt_bill_iri, SCHEMA.creator, URIRef(submitter_iri)) not in g_main:
+                                        g_main.add((alt_bill_iri, SCHEMA.creator, URIRef(submitter_iri)))
+                            else:
+                                bill_iri = ensure_bill_defined(g_main, bill_no)
+                                g_main.add((agd_iri, DCTERMS.subject, bill_iri))
+                                if submitter_iri:
+                                    sid = f"BILL-{bill_no}"
+                                    if str(URIRef(submitter_iri)) not in pre_creators.get(sid, set()) and \
+                                       (bill_iri, SCHEMA.creator, URIRef(submitter_iri)) not in g_main:
+                                        g_main.add((bill_iri, SCHEMA.creator, URIRef(submitter_iri)))
+                        # 새 부모로 설정 (다음 sub들을 받을 수 있게)
+                        current_parent_local = agd_local
+                        current_parent_iri   = agd_iri
+                        sub_seq_map.setdefault(current_parent_local, 0)
+                        continue
+
+                    # 정상적인 하위안건 처리
+                    sub_seq_map[current_parent_local] += 1
+                    child_local = f"{current_parent_local}-{sub_seq_map[current_parent_local]:03d}"
+                    child_iri   = URIRef(NADAT3[child_local])
+
+                    g_main.add((child_iri, RDF.type, NAM3.AgendaItem))
+                    g_main.add((child_iri, SKOS.prefLabel, Literal(f"[{child_local}] {main_label}", lang="ko")))
+                    pure_title = extract_pure_agenda_title(raw_item)
+                    g_main.add((child_iri, DCTERMS.title, Literal(pure_title, lang="ko")))
+                    g_main.add((child_iri, DCTERMS.source, URIRef(r_iri)))
+                    g_main.add((child_iri, DCTERMS.isPartOf, current_parent_iri))  # ★ 하위→상위 연결
+                    if is_alt:
+                        g_main.add((child_iri, RDFS.comment, Literal("대안", lang="ko")))
+                    # 하위안건은 보통 숫자로 시작 X → 기존 규칙 유지
+                    if starts_with_digit(raw_item):
+                        g_subj.add((URIRef(r_iri), RICO.hasOrHadSubject, child_iri))
+                    # Bill 연결(+ creator)
+                    if bill_no:
+                        if is_alt:
+                            alt_bill_iri = ensure_alt_bill_defined(g_main, bill_no)
+                            g_main.add((child_iri, DCTERMS.subject, alt_bill_iri))
+                            if submitter_iri:
+                                sid = f"BILL-ALT-{bill_no}"
+                                if str(URIRef(submitter_iri)) not in pre_creators.get(sid, set()) and \
+                                   (alt_bill_iri, SCHEMA.creator, URIRef(submitter_iri)) not in g_main:
+                                    g_main.add((alt_bill_iri, SCHEMA.creator, URIRef(submitter_iri)))
+                        else:
+                            bill_iri = ensure_bill_defined(g_main, bill_no)
+                            g_main.add((child_iri, DCTERMS.subject, bill_iri))
+                            if submitter_iri:
+                                sid = f"BILL-{bill_no}"
+                                if str(URIRef(submitter_iri)) not in pre_creators.get(sid, set()) and \
+                                   (bill_iri, SCHEMA.creator, URIRef(submitter_iri)) not in g_main:
                                     g_main.add((bill_iri, SCHEMA.creator, URIRef(submitter_iri)))
 
         except Exception as e:
-            print(f("[WARN] row skipped due to error: {e}"))
+            print(f"[WARN] row skipped due to error: {e}")
 
     # 저장
     out_main = Path(out_ttl_d3); out_main.parent.mkdir(parents=True, exist_ok=True)
@@ -438,5 +599,3 @@ if __name__ == "__main__":
         encoding=CSV_ENCODING,
         people_ttl=PEOPLE_TTL
     )
-
-      
