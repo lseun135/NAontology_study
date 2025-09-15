@@ -1,22 +1,38 @@
 import re
+import json
+import time
 import pandas as pd
 from pathlib import Path
-from typing import Optional, List, Dict, Tuple
+from typing import Optional, List, Dict, Tuple, Any
 from rdflib import Graph, Literal, URIRef, Namespace
 from rdflib.namespace import RDF, RDFS, SKOS, DCTERMS, FOAF, XSD
+
+# ========================= LLM 설정 =========================
+USE_LLM = True
+GEMINI_API_KEY = "AIzaSyAFKnyk50SDNTKlBFRzogLaOFwYezpFEx0"   # <<< 실제 키 직접 입력
+GEMINI_MODEL = "gemini-2.0-flash"
+
+_llm_model = None
+if USE_LLM:
+    try:
+        import google.generativeai as genai
+        genai.configure(api_key=GEMINI_API_KEY)
+        _llm_model = genai.GenerativeModel(GEMINI_MODEL)
+    except Exception as e:
+        print(f"[WARN] google-generativeai 초기화 실패: {e}. LLM 기능 비활성화")
+        USE_LLM = False
 
 # ========================= CONFIG =========================
 CSV_PATH         = r"C:/Users/LSE/Desktop/논문주제뭐하지/ontology/본회의1차수샘플.csv"
 CSV_ENCODING     = "utf-8-sig"
 
-OUT_TTL_SPEECH   = r"d3_content_add_Speech_1.txt"     # nam3:Speech 인스턴스
-OUT_TMP_PEOPLE   = r"d2_person_tmp_add_4.txt"         # 임시 인물(PER-TMP-*). 필요 시 변경
+OUT_TTL_SPEECH   = r"d3_content_add_Speech_llm_1.txt"   # 최종 출력 (rdflib + subject 인라인 주입)
+OUT_TMP_PEOPLE   = r"d2_person_tmp_add_4.txt"
 
-# nadat2(사람) — rdfs:label로 인덱싱
 PEOPLE_TTL       = r"https://lseun135.github.io/NAontology_study/resource/d2-person.ttl"
-
-# 기존 AgendaItem이 들어있는 TTL들(필요한 만큼 추가)
-AGENDA_TTLS: List[str] = [r"https://lseun135.github.io/NAontology_study/resource/d3-content.ttl"]
+AGENDA_TTLS: List[str] = [
+    r"https://lseun135.github.io/NAontology_study/resource/d3-content-sample5.ttl"
+]
 
 # ========================= NAMESPACES =========================
 NAM1   = Namespace("https://lseun135.github.io/NAontology_study/m1-record#")
@@ -42,11 +58,9 @@ def pad(n: Optional[int], width: int) -> Optional[str]:
 def to_r_id(gen: int, session4: str, round3: str, meeting_no: int) -> str:
     return f"R1000{gen}{session4}{round3}{meeting_no}"
 
-# ----- 안건 셀 분리 -----
 _BULLET_OR_O_RE = re.compile(r'(?<!\d)(\d+)\.\s*|[o○]\s+', re.MULTILINE)
 def split_agenda_cell(cell: str) -> List[str]:
-    if cell is None or (isinstance(cell, float) and pd.isna(cell)):
-        return []
+    if cell is None or (isinstance(cell, float) and pd.isna(cell)): return []
     text = str(cell).strip()
     if not text: return []
     starts = [m.start() for m in _BULLET_OR_O_RE.finditer(text)]
@@ -59,11 +73,15 @@ def split_agenda_cell(cell: str) -> List[str]:
         if seg: parts.append(seg)
     return parts
 
-# ----- 제목 정규화 -----
 def norm_title(s: str) -> str:
     if s is None: return ""
-    t = re.sub(r'\s+', ' ', str(s)).strip()
-    t = re.sub(r'^(?:\d+\.\s*|[o○]\s+)', '', t)
+    return re.sub(r'\s+', ' ', str(s)).strip()
+
+def ttl_quote(s: str) -> str:
+    if s is None: return ""
+    t = str(s)
+    t = t.replace('\\', '\\\\').replace('"', '\\"')
+    t = t.replace('\r', '').replace('\n', '\\n')
     return t
 
 # ========================= People 인덱스/임시 =========================
@@ -101,20 +119,15 @@ class ProvisionalPeople:
         self.counter = start_from
         self.created: List[Tuple[str,str]] = []
         self._label2iri: Dict[str, str] = {}
-
     def mint(self, label_ko: str) -> str:
         key = (label_ko or "").strip()
-        if not key:
-            raise ValueError("empty label for provisional person")
-        if key in self._label2iri:
-            return self._label2iri[key]
+        if not key: raise ValueError("empty label for provisional person")
+        if key in self._label2iri: return self._label2iri[key]
         self.counter += 1
         local = f"PER-TMP-{self.counter:05d}"
         iri = str(NADAT2[local])
-        self.created.append((local, key))
-        self._label2iri[key] = iri
+        self.created.append((local, key)); self._label2iri[key] = iri
         return iri
-
     def write_ttl(self, path: str):
         out = Path(path); out.parent.mkdir(parents=True, exist_ok=True)
         lines = []
@@ -123,10 +136,12 @@ class ProvisionalPeople:
         lines.append('@prefix nam2:  <https://lseun135.github.io/NAontology_study/m2-person#> .')
         lines.append('@prefix nadat2: <https://lseun135.github.io/NAontology_study/resource/d2-person#> .')
         lines.append('')
+        lines.append('## 임시 개체 (이름이 확인된 경우에만 생성)')
+        lines.append('')
         for local, label in self.created:
             lines.append(f"nadat2:{local} a foaf:Person ;")
-            lines.append(f'\trdfs:label "{label}"@ko ;')
-            lines.append(f'\tfoaf:name "{label}"@ko ;')
+            lines.append(f'\trdfs:label "{ttl_quote(label)}"@ko ;')
+            lines.append(f'\tfoaf:name "{ttl_quote(label)}"@ko ;')
             lines.append(f"\tnam2:isInAStateOf nam2:Provisional .")
             lines.append('')
         out.write_text("\n".join(lines), encoding="utf-8")
@@ -140,20 +155,23 @@ def _safe_parse_into(graph: Graph, source: str):
 
 def build_agenda_index(sources: List[str]) -> Dict[Tuple[str, str], str]:
     g = Graph()
-    for src in sources or []:
-        _safe_parse_into(g, src)
-
+    for src in sources or []: _safe_parse_into(g, src)
     idx: Dict[Tuple[str,str], str] = {}
     for agd in set(g.subjects(RDF.type, NAM3.AgendaItem)):
-        act_nos = set()
+        meeting_nos = set()
         for o in g.objects(agd, DCTERMS.isPartOf):
             if isinstance(o, URIRef):
                 m = re.search(r'ACT\-M\-(\d+)$', str(o))
-                if m: act_nos.add(m.group(1))
+                if m: meeting_nos.add(m.group(1))
+        for o in g.objects(agd, DCTERMS.source):
+            if isinstance(o, URIRef):
+                s = str(o)
+                m = re.search(r'R1000\d+(\d+)$', s)
+                if m: meeting_nos.add(m.group(1))
         titles = [str(o) for o in g.objects(agd, DCTERMS.title) if isinstance(o, Literal)]
-        for act_no in act_nos:
+        for mn in meeting_nos:
             for t in titles:
-                idx[(act_no, norm_title(t))] = str(agd)
+                idx[(mn, norm_title(t))] = str(agd)
     return idx
 
 # ========================= 발언자 파싱 =========================
@@ -162,18 +180,225 @@ ROLE_PATTERNS = [
     re.compile(r"^\s*(?P<name>[가-힣]{2,4})\s+(?P<role>의원|위원|의장)\s*$"),
 ]
 NAME_ONLY_RE = re.compile(r"^\s*(?P<name>[가-힣]{2,4})\s*$")
-
 def split_role_name(text: Optional[str]) -> Tuple[Optional[str], Optional[str]]:
     if not text: return (None, None)
     s = str(text).strip()
+    if not s: return (None, None)
     for pat in ROLE_PATTERNS:
         m = pat.match(s)
-        if m:
-            return (m.group("role"), m.group("name"))
+        if m: return (m.group("role"), m.group("name"))
     m = NAME_ONLY_RE.match(s)
-    if m:
-        return (None, m.group("name"))
+    if m: return (None, m.group("name"))
     return (None, s)
+
+# ========================= 규칙 기반 보정 유틸 =========================
+_RANGE_RE = re.compile(r"제\s*(\d+)\s*항\s*(?:부터)?\s*제\s*(\d+)\s*항")
+_COUNT_RE = re.compile(r"(\d+)\s*건")
+
+def infer_count_from_text(text: Optional[str]) -> Tuple[Optional[int], Optional[Tuple[int,int]]]:
+    if not text:
+        return (None, None)
+    t = str(text)
+    m = _RANGE_RE.search(t)
+    if m:
+        x, y = int(m.group(1)), int(m.group(2))
+        if x <= y:
+            return (y - x + 1, (x, y))
+    m2 = _COUNT_RE.search(t)
+    n = int(m2.group(1)) if m2 else None
+    return (n, None)
+
+def expand_soft(cands: List[str],
+                selected: List[int],
+                need_n: Optional[int],
+                prefer_tail: bool,
+                required_kw: Optional[str] = "본회의 부의의 건") -> List[int]:
+    """
+    'n건' 힌트를 '부드럽게' 적용:
+      - selected가 비어있으면 확장하지 않음.
+      - 인접/연속 확장만 고려.
+      - 추가 후보가 required_kw를 포함할 때만 채택.
+      - 최종 개수는 need_n을 넘지 않음. 그래도 불충분하면 확장 포기.
+    """
+    L = len(cands)
+    sel = sorted(set(x for x in selected if 1 <= x <= L))
+    if not need_n or need_n <= 0 or not sel:
+        return sel
+
+    # 목표치보다 이미 많으면 그대로
+    if len(sel) >= need_n:
+        return sel[:need_n]
+
+    def has_kw(i: int) -> bool:
+        if required_kw is None:
+            return True
+        try:
+            return required_kw in cands[i-1]
+        except Exception:
+            return False
+
+    # 인접 확장(선호 방향 반영)
+    start, end = sel[0], sel[-1]
+    l, r = start - 1, end + 1
+    out = list(sel)
+    while len(out) < need_n and (l >= 1 or r <= L):
+        # prefer_tail이면 오른쪽 먼저
+        if prefer_tail:
+            if r <= L and has_kw(r):
+                out.append(r); r += 1
+                continue
+            if l >= 1 and has_kw(l):
+                out.insert(0, l); l -= 1
+                continue
+            # 키워드가 안 맞으면 포기(강제 확장 안 함)
+            break
+        else:
+            if l >= 1 and has_kw(l):
+                out.insert(0, l); l -= 1
+                continue
+            if r <= L and has_kw(r):
+                out.append(r); r += 1
+                continue
+            break
+    return sorted(set(out))
+
+# ========================= LLM 복수 선택 (호출 간격/재시도 + 규칙 보정: soft) =========================
+def llm_select_agendas(meeting_no: int,
+                       speech_text: str,
+                       speaker_role: Optional[str],
+                       speaker_name: Optional[str],
+                       candidates: List[str]) -> List[int]:
+    if not USE_LLM or _llm_model is None:
+        return []
+    count_hint, range_hint = infer_count_from_text(speech_text)
+    prefer_tail = "우리 위원회" in (speech_text or "")
+
+    system_hint = (
+        "You are an assistant that selects which agenda items a given Korean parliamentary speech corresponds to. "
+        "Return ONLY a JSON array of 1-based integers (e.g., [1,3]). No text outside JSON."
+    )
+    extra_rule = ""
+    if range_hint:
+        extra_rule = f"발언에는 의사일정 제{range_hint[0]}항부터 제{range_hint[1]}항까지의 범위가 언급되었습니다. 가능한 한 이 범위를 모두 포함하도록 선택하세요.\n"
+    elif count_hint:
+        extra_rule = f"발언에는 총 {count_hint}건이 언급되었습니다. 가능하다면 그 수에 가깝게 선택하되, 확신이 없으면 적게 선택해도 됩니다.\n"
+
+    user_prompt = f"""다음은 한 국회 본회의의 발언과 해당 회의에서의 안건 후보 목록입니다.
+발언 내용과 발언자 정보를 바탕으로, 이 발언이 관련된 안건 후보의 번호(1부터 시작)를 모두 선택해 주세요.
+{extra_rule}
+정확히 해당하는 것이 없다면 빈 배열 []만 반환하세요.
+반드시 JSON 배열만 출력하세요. 예: [1,2]
+
+회의번호: {meeting_no}
+발언자 직책: {speaker_role or ""}
+발언자 이름: {speaker_name or ""}
+발언 내용:
+\"\"\"{(speech_text or '')[:4000]}\"\"\"
+
+안건 후보:
+{chr(10).join([f"{i+1}. {c}" for i, c in enumerate(candidates)])}
+"""
+    try:
+        for attempt in range(2):
+            time.sleep(1.0)
+            try:
+                chat = _llm_model.start_chat(history=[])
+                resp = chat.send_message([system_hint, user_prompt])
+                raw = (resp.text or "").strip()
+                sel = []
+                try:
+                    parsed = json.loads(raw)
+                    if isinstance(parsed, list):
+                        for v in parsed:
+                            if isinstance(v, int):
+                                sel.append(v)
+                            elif isinstance(v, str) and v.isdigit():
+                                sel.append(int(v))
+                except Exception:
+                    m = re.findall(r"\d+", raw)
+                    sel = [int(x) for x in m] if m else []
+
+                # 1) 범위 힌트는 강함: 명시되면 우선 포함
+                L = len(candidates)
+                sel = [x for x in sorted(set(sel)) if 1 <= x <= L]
+                if range_hint:
+                    x, y = range_hint
+                    if 1 <= x <= L and 1 <= y <= L:
+                        sel = sorted(set(sel).union(set(range(x, y+1))))
+
+                # 2) n건 힌트는 soft: selected가 있고, 인접/키워드 일치 시에만 보완
+                if count_hint and sel:
+                    soft_expanded = expand_soft(
+                        cands=candidates,
+                        selected=sel,
+                        need_n=count_hint,
+                        prefer_tail=prefer_tail,
+                        required_kw="본회의 부의의 건"  # 필요 없으면 None
+                    )
+                    if len(soft_expanded) > len(sel):
+                        sel = soft_expanded
+                    else:
+                        if len(sel) < count_hint:
+                            print(f"[review] count hint={count_hint}, selected={len(sel)} → 보정 보류 (확신 부족)")
+
+                return sel
+            except Exception as e:
+                msg = str(e)
+                if "429" in msg and attempt == 0:
+                    print("[INFO] 429 TooManyRequests → 5초 대기 후 1회 재시도")
+                    time.sleep(5.0)
+                    continue
+                raise
+    except Exception as e:
+        print(f"[WARN] LLM 호출 실패: {e}")
+        return []
+
+# ========================= subject 인라인 주입 유틸 =========================
+def _build_subject_line(objs: List[str]) -> str:
+    return "    dcterms:subject " + " , ".join(objs) + " ;"
+
+def inject_subjects_inline(ttl_path: str, subjects_per_speech: Dict[str, List[str]]):
+    p = Path(ttl_path)
+    txt = p.read_text(encoding="utf-8")
+
+    for sp_qname, objs in subjects_per_speech.items():
+        if not objs:
+            continue
+
+        block_re = re.compile(rf"(?ms)^({re.escape(sp_qname)}\s+.*?)(\.\s*)\n")
+        m = block_re.search(txt)
+        if not m:
+            full_iri = str(NADAT3) + sp_qname.split(":", 1)[1]
+            block_re_full = re.compile(rf"(?ms)^(<{re.escape(full_iri)}>\s+.*?)(\.\s*)\n")
+            m = block_re_full.search(txt)
+            if not m:
+                print(f"[WARN] cannot find Speech block for {sp_qname}")
+                continue
+
+        block_body = m.group(1)
+        block_tail = m.group(2)
+
+        inserted = False
+        lines = block_body.splitlines()
+        for i, line in enumerate(lines):
+            if re.search(r"\bdcterms:source\b", line):
+                lines.insert(i+1, _build_subject_line(objs))
+                inserted = True
+                break
+        if not inserted:
+            for i, line in enumerate(lines):
+                if re.search(r"\bschema:(position|text)\b", line):
+                    lines.insert(i, _build_subject_line(objs))
+                    inserted = True
+                    break
+        if not inserted:
+            lines.append(_build_subject_line(objs))
+
+        new_block_body = "\n".join(lines)
+        start, end = m.span()
+        txt = txt[:start] + new_block_body + block_tail + "\n" + txt[end:]
+
+    p.write_text(txt, encoding="utf-8")
 
 # ========================= 메인 변환 =========================
 def convert(csv_path: str,
@@ -195,11 +420,11 @@ def convert(csv_path: str,
     person_idx = build_person_index_by_rdfs_label(people_ttl)
     prov_start = get_existing_prov_start(people_ttl)
     prov = ProvisionalPeople(start_from=prov_start)
-
     agenda_idx = build_agenda_index(agenda_ttls or [])
     print(f"[debug] agenda_idx size = {len(agenda_idx)}")
 
     seq_map: Dict[str, int] = {}
+    subjects_per_speech: Dict[str, List[str]] = {}
 
     for i, row in df.iterrows():
         try:
@@ -226,11 +451,12 @@ def convert(csv_path: str,
                     g.add((sp_iri, SCHEMA.position, Literal(int(row.get("발언순번")), datatype=XSD.integer)))
                 except: pass
 
-            if not pd.isna(row.get("발언내용")):
-                text = str(row.get("발언내용")).strip()
-                if text: g.add((sp_iri, SCHEMA.text, Literal(text, lang="ko")))
+            speech_text = None if pd.isna(row.get("발언내용")) else str(row.get("발언내용")).strip()
+            if speech_text:
+                g.add((sp_iri, SCHEMA.text, Literal(speech_text, lang="ko")))
 
-            role, name = split_role_name(None if pd.isna(row.get("발언자")) else str(row.get("발언자")))
+            raw_speaker = None if pd.isna(row.get("발언자")) else str(row.get("발언자"))
+            role, name = split_role_name(raw_speaker)
             member_id_is_null = (pd.isna(row.get("의원ID")) or str(row.get("의원ID")).strip() == "")
 
             creator_iri_str: Optional[str] = None
@@ -238,40 +464,99 @@ def convert(csv_path: str,
                 creator_iri_str = person_idx.get(name)
                 if (creator_iri_str is None) and member_id_is_null:
                     creator_iri_str = prov.mint(name)
-
             if creator_iri_str:
                 g.add((sp_iri, SCHEMA.creator, URIRef(creator_iri_str)))
             if role:
                 g.add((sp_iri, NAM3.recordRole, Literal(role, lang="ko")))
 
+            sp_qname = f"nadat3:{sp_local}"
+            subjs = subjects_per_speech.setdefault(sp_qname, [])
+
             agenda_cell = None if pd.isna(row.get("안건")) else str(row.get("안건")).strip()
             if agenda_cell:
                 parts = split_agenda_cell(agenda_cell)
-                if len(parts) == 1:
+                L = len(parts)
+
+                if L == 1:
                     title_norm = norm_title(parts[0])
                     key = (str(meeting_no), title_norm)
                     agd_iri_str = agenda_idx.get(key)
                     if agd_iri_str:
-                        g.add((sp_iri, DCTERMS.subject, URIRef(agd_iri_str)))
+                        if agd_iri_str.startswith(str(NADAT3)):
+                            subjs.append("nadat3:" + agd_iri_str.split("#")[-1])
+                        else:
+                            subjs.append(f"<{agd_iri_str}>")
                     else:
                         if i < 10:
-                            print(f"[debug] no Agenda match for meeting {meeting_no}, title='{parts[0]}' -> norm='{title_norm}'")
-                elif len(parts) > 1 and i < 10:
-                    print(f"[skip] multiple agenda items for meeting {meeting_no}: {parts[:2]} ...")
+                            print(f"[debug] no Agenda match for meeting {meeting_no}, title='{parts[0]}'")
+
+                elif L > 1:
+                    sel: List[int] = []
+                    if speech_text and USE_LLM:
+                        sel = llm_select_agendas(
+                            meeting_no=meeting_no,
+                            speech_text=speech_text,
+                            speaker_role=role,
+                            speaker_name=name,
+                            candidates=parts
+                        )
+                    # 규칙만으로도 일부 보정: 범위는 강하게 적용
+                    count_hint, range_hint = infer_count_from_text(speech_text or "")
+                    if range_hint:
+                        x, y = range_hint
+                        if 1 <= x <= L and 1 <= y <= L:
+                            sel = sorted(set(sel).union(set(range(x, y+1))))
+                    # n건 힌트는 soft — LLM 선택이 있을 때만 인접/키워드 일치로 부분 보강
+                    if count_hint and sel:
+                        sel2 = expand_soft(
+                            cands=parts,
+                            selected=sel,
+                            need_n=count_hint,
+                            prefer_tail=("우리 위원회" in (speech_text or "")),
+                            required_kw="본회의 부의의 건"
+                        )
+                        if len(sel2) > len(sel):
+                            sel = sel2
+                        elif len(sel) < count_hint:
+                            print(f"[review] count hint={count_hint}, selected={len(sel)} → soft 확장 보류")
+
+                    if sel:
+                        for idx in sorted(set(sel)):
+                            title_norm = norm_title(parts[idx-1])
+                            key = (str(meeting_no), title_norm)
+                            agd_iri_str = agenda_idx.get(key)
+                            if agd_iri_str:
+                                if agd_iri_str.startswith(str(NADAT3)):
+                                    subjs.append("nadat3:" + agd_iri_str.split("#")[-1])
+                                else:
+                                    subjs.append(f"<{agd_iri_str}>")
+                            else:
+                                print(f"[debug] picked #{idx} but no Agenda match for {meeting_no} (title='{parts[idx-1]}')")
+                    else:
+                        if i < 10:
+                            print(f"[skip] multiple agenda items but no selection for meeting {meeting_no}: cnt={L}")
 
         except Exception as e:
             print(f"[WARN] row {i} skipped due to error: {e}")
 
-    out_main = Path(out_ttl_speech); out_main.parent.mkdir(parents=True, exist_ok=True)
-    g.serialize(destination=out_main.as_posix(), format="turtle")
-    print(f"[write] Speech TTL: {out_main}")
+    # 1) rdflib 직렬화 (subject 제외)
+    out_path = Path(OUT_TTL_SPEECH)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    g.serialize(destination=out_path.as_posix(), format="turtle")
+    print(f"[write] base TTL via rdflib (subjects excluded): {out_path}")
 
+    # 2) subject 인라인 주입
+    inject_subjects_inline(out_path.as_posix(), subjects_per_speech)
+    print(f"[write] injected inline dcterms:subject lines: {out_path}")
+
+    # 임시 인물 출력
     if prov.created:
-        Path(out_tmp_people).parent.mkdir(parents=True, exist_ok=True)
-        prov.write_ttl(out_tmp_people)
-        print(f"[write] Provisional persons TTL: {out_tmp_people}")
+        Path(OUT_TMP_PEOPLE).parent.mkdir(parents=True, exist_ok=True)
+        prov.write_ttl(OUT_TMP_PEOPLE)
+        print(f"[write] Provisional persons TTL: {OUT_TMP_PEOPLE}")
     else:
-        Path(out_tmp_people).write_text("# No provisional persons were created.\n", encoding="utf-8")
+        Path(OUT_TMP_PEOPLE).write_text("# No provisional persons were created.\n", encoding="utf-8")
+        print(f"[write] No provisional persons. Wrote a placeholder: {OUT_TMP_PEOPLE}")
 
 if __name__ == "__main__":
     convert(
@@ -282,5 +567,3 @@ if __name__ == "__main__":
         people_ttl=PEOPLE_TTL,
         agenda_ttls=AGENDA_TTLS
     )
-
-
