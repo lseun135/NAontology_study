@@ -6,12 +6,12 @@ from rdflib import Graph, Literal, URIRef, Namespace
 from rdflib.namespace import RDF, RDFS, SKOS, DCTERMS, FOAF, XSD
 
 # ========================= CONFIG =========================
-CSV_PATH         = r"D:/연구/국회회의록/21대_본회의_new_1.csv"
+CSV_PATH         = r"D:/연구/국회회의록/21대_상임위_최종병합.csv"
 CSV_ENCODING     = "utf-8-sig"
 
-OUT_TTL_D3       = r"D:/연구/국회회의록/d3_content_add_AB_PS.txt"          # AgendaItem & Bill
-OUT_TTL_SUBJECT  = r"D:/연구/국회회의록/d1_record_add_subject_PS.txt"      # hasOrHadSubject 전용
-OUT_TMP_PEOPLE   = r"D:/연구/국회회의록/d2_person_tmp_add_3.txt"
+OUT_TTL_D3       = r"D:/연구/국회회의록/d3_content_add_AB_SC.txt"          # AgendaItem & Bill
+OUT_TTL_SUBJECT  = r"D:/연구/국회회의록/d1_record_add_subject_SC.txt"      # hasOrHadSubject 전용
+OUT_TMP_PEOPLE   = r"D:/연구/국회회의록/d2_person_tmp_add_4.txt"
 
 PEOPLE_TTL       = r"https://lseun135.github.io/NAontology_study/resource/d2-person.ttl"
 
@@ -200,7 +200,7 @@ ROLE_STOPWORDS = {
     "대안","대통령","국무총리","총리","부총리","장관","차관","청장","총장","국장","과장","실장","소장","원장","처장",
     "의장","부의장","위원","위원장","간사","대변인","직무대리","직무대행","위원회","제출","제의",
     "환경노동","정무","법제사법","행정안전","교육","외교","국방","기재","농해수","산자중기","보건복지","문체","국토",
-    "정부","국회","정부위원","의사일정","본회의","대표발의","발의","서면동의","동의","추천","제청","제출자", "의안번호"
+    "정부","국회","정부위원","의사일정","본회의","대표발의","발의","서면동의","동의","추천","제청","제출자", "의안번호", "대표"
 }
 NAME_TOKEN_RE = re.compile(r"(?<![가-힣])([가-힣]{2,4})(?![가-힣])")
 
