@@ -6,3 +6,4 @@ sdat3:SPH-R100021414002-000ㅇ rdf:type nam3:Speech ;
                 nam3:recordRole "의장"@ko ;
                 schema:position ㅇ ;
                 schema:text "의석을 정돈해 주시기 바랍니다." .
+
