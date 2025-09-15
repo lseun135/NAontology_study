@@ -1,0 +1,442 @@
+import re
+import pandas as pd
+from pathlib import Path
+from typing import Optional, List, Dict, Set, Tuple
+from rdflib import Graph, Literal, URIRef, Namespace
+from rdflib.namespace import RDF, RDFS, SKOS, DCTERMS, FOAF, XSD
+
+# ========================= CONFIG =========================
+CSV_PATH         = r"C:/Users/LSE/Desktop/논문주제뭐하지/ontology/본회의5차수샘플.csv"
+CSV_ENCODING     = "utf-8-sig"
+
+OUT_TTL_D3       = r"d3_content_add_AB_1.txt"          # AgendaItem & Bill
+OUT_TTL_SUBJECT  = r"d1_record_add_subject_1.txt"      # hasOrHadSubject 전용
+OUT_TMP_PEOPLE   = r"d2_person_tmp_add_3.txt"
+
+PEOPLE_TTL       = r"https://lseun135.github.io/NAontology_study/resource/d2-person.ttl"
+
+# (선택) 과거 d3 파일/URL을 넣으면 그 안의 Bill creator만 보강 시 참조
+PRELOAD_D3_TTLS: List[str] = [
+    # 예: r"https://lseun135.github.io/NAontology_study/resource/d3-content.ttl",
+]
+
+# ========================= NAMESPACES =========================
+NAM1   = Namespace("https://lseun135.github.io/NAontology_study/m1-record#")
+NAM2   = Namespace("https://lseun135.github.io/NAontology_study/m2-person#")
+NAM3   = Namespace("https://lseun135.github.io/NAontology_study/m3-content#")
+
+NADAT1 = Namespace("https://lseun135.github.io/NAontology_study/resource/d1-record#")
+NADAT2 = Namespace("https://lseun135.github.io/NAontology_study/resource/d2-person#")
+NADAT3 = Namespace("https://lseun135.github.io/NAontology_study/resource/d3-content#")
+
+RICO   = Namespace("https://www.ica.org/standards/RiC/ontology#")
+SCHEMA = Namespace("https://schema.org/")
+
+# ========================= 유틸 =========================
+def digits_only(s) -> Optional[int]:
+    if s is None or (isinstance(s, float) and pd.isna(s)): return None
+    m = re.findall(r"\d+", str(s))
+    return int("".join(m)) if m else None
+
+def pad(n: Optional[int], width: int) -> Optional[str]:
+    return f"{n:0{width}d}" if n is not None else None
+
+def to_r_id(gen: int, session4: str, round3: str, meeting_no: int) -> str:
+    return f"R1000{gen}{session4}{round3}{meeting_no}"
+
+def to_agenda_base(gen: int, session4: str, round3: str, meeting_no: int) -> str:
+    return f"AGD-R1000{gen}{session4}{round3}{meeting_no}"
+
+# ---------- 안건 분리 ----------
+_BULLET_OR_O_RE = re.compile(r'(?<!\d)(\d+)\.\s*|[o○]\s+', re.MULTILINE)
+def split_agenda_cell(cell: str) -> List[str]:
+    if cell is None or (isinstance(cell, float) and pd.isna(cell)):
+        return []
+    text = str(cell).strip()
+    if not text: return []
+    starts = [m.start() for m in _BULLET_OR_O_RE.finditer(text)]
+    if not starts: return [text]
+    if starts[0] != 0: starts = [0] + starts
+    parts = []
+    for i, s in enumerate(starts):
+        e = starts[i+1] if i+1 < len(starts) else len(text)
+        seg = text[s:e].strip()
+        if seg: parts.append(seg)
+    return parts
+
+# ---------- 괄호/의안번호 ----------
+_PAREN_RE = re.compile(r"\((.*?)\)")
+_BILL_NO_RE = re.compile(r"의안번호\s*([0-9]{3,})")  # "의안번호 ####"만
+
+def parse_paren_chunks(s: str) -> List[str]:
+    """본문 전체의 괄호 내용(모든 위치)을 순서대로 추출"""
+    return [m.strip() for m in _PAREN_RE.findall(s or "")]
+
+def trailing_paren_chunks(s: str) -> List[str]:
+    """
+    문자열 '끝부분'에 연속으로 오는 괄호열만 추출.
+    예) '... 안건명(제출자)(의안번호 1234)' -> ['제출자', '의안번호 1234']
+        '... 대법관(신숙희) 임명동의안(의안번호 2126515)' -> ['의안번호 2126515']
+    """
+    if not s: return []
+    m = re.search(r'((?:\s*\([^)]*\))+)\s*$', str(s))
+    if not m: return []
+    suffix = m.group(1)
+    return [t.strip() for t in re.findall(r'\(([^)]*)\)', suffix)]
+
+def extract_bill_no(parens: List[str]) -> Optional[str]:
+    for p in parens:
+        if not p: continue
+        m = _BILL_NO_RE.search(str(p))
+        if m: return m.group(1)
+    return None
+
+def is_alt_by_parens(parens: List[str]) -> bool:
+    # (본문 어디든) "대안"이 보이면 ALT
+    return any("대안" in (p or "").strip() for p in parens)
+
+def starts_with_digit(text: str) -> bool:
+    return bool(re.match(r"^\s*\d+", text or ""))
+
+def normalize_label_for_dedup(text: str) -> str:
+    return re.sub(r"\s+", " ", str(text or "")).strip()
+
+# ---------- 순수 안건명(title) 추출 ----------
+def extract_pure_agenda_title(item_text: str) -> str:
+    """
+    [예] '1. 대법관(신숙희) 임명동의안(의안번호 2126515)' -> '1. 대법관(신숙희) 임명동의안(의안번호 2126515)'
+         'o 비교섭단체(녹색정의당) 대표발언'              -> 'o 비교섭단체(녹색정의당) 대표발언'
+    즉, 번호/기호(o, ○)는 그대로 보존하고, 공백만 정규화.
+    """
+    t = str(item_text or "")
+    return re.sub(r"\s+", " ", t).strip()
+
+
+# ---------- 제출자 선택 & 이름 추출 ----------
+ROLE_STOPWORDS = {
+    # 직함/기관/비인명/절차/위원회명 키워드(필요시 확장)
+    "대안","대통령","국무총리","총리","부총리","장관","차관","청장","총장","국장","과장","실장","소장","원장","처장",
+    "의장","부의장","위원","위원장","간사","대변인","직무대리","직무대행","위원회","제출","제의",
+    "환경노동","정무","법제사법","행정안전","교육","외교","국방","기재","농해수","산자중기","보건복지","문체","국토",
+    "정부","국회","정부위원","의사일정","본회의","대표발의","발의","서면동의","동의","추천","제청","제출자"
+}
+NAME_TOKEN_RE = re.compile(r"(?<![가-힣])([가-힣]{2,4})(?![가-힣])")
+
+def select_submitter_paren_from_trailing(raw_text: str) -> Optional[str]:
+    """
+    맨 끝 괄호열만 대상으로, 괄호가 2개면 첫번째, 3개면 두번째를 제출자 후보로 선택.
+    그 외(1개, 4개 이상)는 제출자 없음 처리.
+    """
+    if not raw_text or not str(raw_text).strip().endswith(")"):
+        return None
+    tps = trailing_paren_chunks(raw_text)
+    n = len(tps)
+    if n == 2:
+        return tps[0]
+    if n == 3:
+        return tps[1]
+    return None
+
+def extract_person_name_only(text: Optional[str]) -> Optional[str]:
+    """괄호 텍스트에서 '이름'만 반환. 기관/직함/대안 등은 제외."""
+    if not text:
+        return None
+    s = str(text).strip()
+    if not s:
+        return None
+
+    # ALT 표시는 제출자 아님
+    if "대안" in s:
+        return None
+
+    # 기관/직책 키워드가 있으면 '○○ 의원' 명시형만 통과, 아니면 None
+    if any(k in s for k in ["정부", "국회", "의장", "위원장", "장관", "차관", "위원회"]):
+        m = re.search(r"([가-힣]{2,4})\s*의원\b", s)
+        if m and m.group(1) not in ROLE_STOPWORDS:
+            return m.group(1)
+        return None
+
+    # 명시형 패턴
+    m = re.search(r"([가-힣]{2,4})\s*의원\b", s)
+    if m and m.group(1) not in ROLE_STOPWORDS:
+        return m.group(1)
+
+    m = re.search(r"([가-힣]{2,4})\s*(대표발의|발의|서면동의|동의|서명)\b", s)
+    if m and m.group(1) not in ROLE_STOPWORDS:
+        return m.group(1)
+
+    # fallback: 일반 토큰 스캔(더 엄격)
+    for m in NAME_TOKEN_RE.finditer(s):
+        cand = m.group(1)
+        if cand in ROLE_STOPWORDS:
+            continue
+        right = s[m.end(1):]
+        if re.match(r"^(위원장|장관|차관|의장|위원회|정부|국회)", right):
+            continue
+        return cand
+
+    return None
+
+# ================= nadat2 인물 인덱스 & PER-TMP 시작값 =================
+def build_person_index_by_rdfs_label(people_ttl: Optional[str]) -> Dict[str, str]:
+    if not people_ttl: return {}
+    g = Graph()
+    try: g.parse(people_ttl, format="turtle")
+    except Exception: return {}
+    idx = {}
+    for s in set(g.subjects(RDF.type, FOAF.Person)):
+        for o in g.objects(s, RDFS.label):
+            if isinstance(o, Literal) and str(o).strip():
+                idx[str(o).strip()] = str(s)
+    return idx
+
+def get_existing_prov_start(people_ttl: Optional[str]) -> int:
+    if not people_ttl: return 0
+    try:
+        g = Graph(); g.parse(people_ttl, format="turtle")
+        pat = re.compile(r"(?:/|#)PER\-TMP\-(\d{5})$")
+        mx = 0
+        for s in g.subjects():
+            if isinstance(s, URIRef):
+                m = pat.search(str(s))
+                if m:
+                    n = int(m.group(1)); mx = max(mx, n)
+        return mx
+    except Exception:
+        return 0
+
+class ProvisionalPeople:
+    """라벨 기준 재사용(중복 방지) + 기존 최대 번호 이어붙임"""
+    def __init__(self, start_from: int = 0):
+        self.counter = start_from
+        self.created: List[Tuple[str,str]] = []     # (local_id, label)
+        self._label2iri: Dict[str, str] = {}        # label -> IRI (중복 방지)
+
+    def mint(self, label_ko: str) -> str:
+        key = (label_ko or "").strip()
+        if not key:
+            raise ValueError("empty label for provisional person")
+        if key in self._label2iri:
+            return self._label2iri[key]
+        self.counter += 1
+        local = f"PER-TMP-{self.counter:05d}"
+        iri = str(NADAT2[local])
+        self.created.append((local, key))
+        self._label2iri[key] = iri
+        return iri
+
+    def write_ttl(self, path: str):
+        out = Path(path); out.parent.mkdir(parents=True, exist_ok=True)
+        lines = []
+        lines.append('@prefix foaf:  <http://xmlns.com/foaf/0.1/> .')
+        lines.append('@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .')
+        lines.append('@prefix nam2:  <https://lseun135.github.io/NAontology_study/m2-person#> .')
+        lines.append('@prefix nadat2: <https://lseun135.github.io/NAontology_study/resource/d2-person#> .')
+        lines.append('')
+        lines.append('## 임시 개체 (이름이 확인된 경우에만 생성)')
+        lines.append('')
+        for local, label in self.created:
+            lines.append(f"nadat2:{local} a foaf:Person ;")
+            lines.append(f'\trdfs:label "{label}"@ko ;')
+            lines.append(f'\tfoaf:name "{label}"@ko ;')
+            lines.append(f"\tnam2:isInAStateOf nam2:Provisional .")
+            lines.append('')
+        out.write_text("\n".join(lines), encoding="utf-8")
+
+# ========= (선택) 기존 d3의 creator만 참고 =========
+def _safe_parse_into(graph: Graph, source: str):
+    try:
+        graph.parse(source, format="turtle")
+    except Exception:
+        pass
+
+def preload_existing_creators(sources: List[str]) -> Dict[str, Set[str]]:
+    creators: Dict[str, Set[str]] = {}
+    g = Graph()
+    for src in sources or []: _safe_parse_into(g, src)
+    for s in set(g.subjects(RDF.type, NAM3.Bill)):
+        sid = None
+        for o in g.objects(s, SCHEMA.identifier):
+            if isinstance(o, Literal):
+                sid = str(o); break
+        if not sid and isinstance(s, URIRef):
+            sid = str(s).rsplit("#", 1)[-1]
+        if not sid: continue
+        for o in g.objects(s, SCHEMA.creator):
+            creators.setdefault(sid, set()).add(str(o))
+    return creators
+
+# ========= 그래프 내 존재 확인(이 실행에서만) =========
+def graph_has_bill(g: Graph, bill_iri: URIRef) -> bool:
+    return (bill_iri, RDF.type, NAM3.Bill) in g
+
+def ensure_bill_defined(g: Graph, bill_no: str) -> URIRef:
+    bill_id  = f"BILL-{bill_no}"
+    bill_iri = URIRef(NADAT3[bill_id])
+    if not graph_has_bill(g, bill_iri):
+        g.add((bill_iri, RDF.type, NAM3.Bill))
+        g.add((bill_iri, SCHEMA.identifier, Literal(bill_id)))
+        g.add((bill_iri, DCTERMS.identifier, Literal(bill_no)))
+    return bill_iri
+
+def ensure_alt_bill_defined(g: Graph, bill_no: str) -> URIRef:
+    alt_bill_id  = f"BILL-ALT-{bill_no}"
+    alt_bill_iri = URIRef(NADAT3[alt_bill_id])
+    if not graph_has_bill(g, alt_bill_iri):
+        g.add((alt_bill_iri, RDF.type, NAM3.Bill))
+        g.add((alt_bill_iri, SCHEMA.identifier, Literal(alt_bill_id)))
+        g.add((alt_bill_iri, RDFS.comment, Literal("대안", lang="ko")))
+    return alt_bill_iri
+
+# ================= 메인 변환 =================
+def convert(csv_path: str,
+            out_ttl_d3: str,
+            out_ttl_subject: str,
+            out_tmp_people: str,
+            encoding: str = "utf-8-sig",
+            people_ttl: Optional[str] = None):
+    df = pd.read_csv(csv_path, encoding=encoding)
+
+    # 본문 그래프 (AgendaItem & Bill 등)
+    g_main = Graph()
+    for pfx, ns in [("rdf", RDF), ("rdfs", RDFS), ("skos", SKOS), ("dcterms", DCTERMS),
+                    ("foaf", FOAF), ("xsd", XSD), ("rico", RICO), ("schema", SCHEMA),
+                    ("nam1", NAM1), ("nam2", NAM2), ("nam3", NAM3),
+                    ("nadat1", NADAT1), ("nadat2", NADAT2), ("nadat3", NADAT3)]:
+        g_main.bind(pfx, ns)
+
+    # subject 전용 그래프
+    g_subj = Graph()
+    for pfx, ns in [("rdf", RDF), ("rdfs", RDFS), ("rico", RICO),
+                    ("nadat1", NADAT1), ("nadat3", NADAT3)]:
+        g_subj.bind(pfx, ns)
+
+    person_idx = build_person_index_by_rdfs_label(people_ttl)
+    prov_start = get_existing_prov_start(people_ttl)
+    prov = ProvisionalPeople(start_from=prov_start)
+
+    # (선택) 과거 파일의 Bill.creator만 참고
+    pre_creators = preload_existing_creators(PRELOAD_D3_TTLS)
+
+    # R별 시퀀스 & 중복 안건(라벨 기반)
+    seq_map: Dict[str, int] = {}
+    seen_labels_per_r: Dict[str, Set[str]] = {}
+
+    for _, row in df.iterrows():
+        try:
+            gen = int(row["대수"]) if not pd.isna(row["대수"]) else None
+            session_raw = row.get("회수")
+            round_raw   = row.get("차수")
+            meeting_no  = int(row["회의번호"]) if not pd.isna(row["회의번호"]) else None
+            if gen is None or session_raw is None or round_raw is None or meeting_no is None:
+                continue
+
+            session4 = pad(digits_only(session_raw), 4)
+            round3   = pad(digits_only(round_raw), 3)
+            if session4 is None or round3 is None:
+                continue
+
+            r_local = to_r_id(gen, session4, round3, meeting_no)
+            r_iri   = str(NADAT1[r_local])
+            act_iri = str(NADAT1[f"ACT-M-{meeting_no}"])
+
+            agendas = split_agenda_cell(row.get("안건"))
+            if not agendas:
+                continue
+
+            if r_local not in seq_map:            seq_map[r_local] = 0
+            if r_local not in seen_labels_per_r:  seen_labels_per_r[r_local] = set()
+
+            for raw_item in agendas:
+                if not raw_item:
+                    continue
+
+                main_label = normalize_label_for_dedup(raw_item)
+                if not main_label or main_label in seen_labels_per_r[r_local]:
+                    if main_label: seen_labels_per_r[r_local].add(main_label)
+                    continue
+                seen_labels_per_r[r_local].add(main_label)
+
+                # ALT/의안번호 판별은 본문 전체 괄호 기준
+                all_parens = parse_paren_chunks(raw_item)
+                is_alt  = is_alt_by_parens(all_parens)
+                bill_no = extract_bill_no(all_parens)
+
+                # 제출자 괄호는 '맨 끝 괄호열'에서만 선택
+                chosen_paren   = select_submitter_paren_from_trailing(raw_item)
+                submitter_name = extract_person_name_only(chosen_paren) if chosen_paren else None
+                submitter_iri: Optional[str] = None
+                if submitter_name and submitter_name not in ROLE_STOPWORDS:
+                    submitter_iri = person_idx.get(submitter_name) or prov.mint(submitter_name)
+
+                # ===== AgendaItem 생성 =====
+                seq_map[r_local] += 1
+                agd_local = f"{to_agenda_base(gen, session4, round3, meeting_no)}-{seq_map[r_local]:03d}"
+                agd_iri = URIRef(NADAT3[agd_local])
+
+                g_main.add((agd_iri, RDF.type, NAM3.AgendaItem))
+                # 라벨(접두 포함)
+                g_main.add((agd_iri, SKOS.prefLabel, Literal(f"[{agd_local}] {main_label}", lang="ko")))
+                # 순수 안건명(title) — 번호/표식 제거
+                pure_title = extract_pure_agenda_title(raw_item)
+                g_main.add((agd_iri, DCTERMS.title, Literal(pure_title, lang="ko")))
+
+                g_main.add((agd_iri, DCTERMS.source, URIRef(r_iri)))
+                g_main.add((agd_iri, DCTERMS.isPartOf, URIRef(act_iri)))
+                if is_alt:
+                    g_main.add((agd_iri, RDFS.comment, Literal("대안", lang="ko")))
+
+                # 숫자로 시작하는 안건만 Record → hasOrHadSubject
+                if starts_with_digit(raw_item):
+                    g_subj.add((URIRef(r_iri), RICO.hasOrHadSubject, agd_iri))
+
+                # ===== Bill & subject + Bill.creator(이름이 있을 때만) =====
+                if bill_no:
+                    if is_alt:
+                        alt_bill_iri = ensure_alt_bill_defined(g_main, bill_no)
+                        g_main.add((agd_iri, DCTERMS.subject, alt_bill_iri))
+                        if submitter_iri:
+                            sid = f"BILL-ALT-{bill_no}"
+                            if str(URIRef(submitter_iri)) not in pre_creators.get(sid, set()) and \
+                               (alt_bill_iri, SCHEMA.creator, URIRef(submitter_iri)) not in g_main:
+                                g_main.add((alt_bill_iri, SCHEMA.creator, URIRef(submitter_iri)))
+                    else:
+                        bill_iri = ensure_bill_defined(g_main, bill_no)
+                        g_main.add((agd_iri, DCTERMS.subject, bill_iri))
+                        if submitter_iri:
+                            sid = f"BILL-{bill_no}"
+                            if str(URIRef(submitter_iri)) not in pre_creators.get(sid, set()) and \
+                               (bill_iri, SCHEMA.creator, URIRef(submitter_iri)) not in g_main:
+                                    g_main.add((bill_iri, SCHEMA.creator, URIRef(submitter_iri)))
+
+        except Exception as e:
+            print(f("[WARN] row skipped due to error: {e}"))
+
+    # 저장
+    out_main = Path(out_ttl_d3); out_main.parent.mkdir(parents=True, exist_ok=True)
+    g_main.serialize(destination=out_main.as_posix(), format="turtle")
+    print(f"[write] Agenda & Bill TTL: {out_main}")
+
+    out_subj = Path(out_ttl_subject); out_subj.parent.mkdir(parents=True, exist_ok=True)
+    g_subj.serialize(destination=out_subj.as_posix(), format="turtle")
+    print(f"[write] Record hasOrHadSubject TTL: {out_subj}")
+
+    if prov.created:
+        Path(out_tmp_people).parent.mkdir(parents=True, exist_ok=True)
+        prov.write_ttl(out_tmp_people)
+        print(f"[write] Provisional persons TTL: {out_tmp_people}")
+    else:
+        Path(out_tmp_people).write_text("# No provisional persons were created.\n", encoding="utf-8")
+        print(f"[write] No provisional persons. Wrote a placeholder: {out_tmp_people}")
+
+if __name__ == "__main__":
+    convert(
+        CSV_PATH,
+        OUT_TTL_D3,
+        OUT_TTL_SUBJECT,
+        OUT_TMP_PEOPLE,
+        encoding=CSV_ENCODING,
+        people_ttl=PEOPLE_TTL
+    )
+
+      
