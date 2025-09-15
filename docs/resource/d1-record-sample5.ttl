@@ -47,7 +47,7 @@ sdat1:ACT-M-53804 a rico:Activity ;
     skos:prefLabel "[ACT-M-53804] 21대 국회 본회의 제413회 제4차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:identifier "ACT-M-53804" ;
-    dcterms:identifier “53804” ;
+    dcterms:identifier "53804" ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-3ZR4438W,
         nadat2:PER-LM-7BM2933Y,
@@ -71,7 +71,7 @@ sdat1:ACT-M-53808 a rico:Activity ;
     skos:prefLabel "[ACT-M-53808] 21대 국회 본회의 제413회 제5차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:identifier "ACT-M-53808" ;
-    dcterms:identifier “53808” ;
+    dcterms:identifier "53808" ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-1WE5693J,
         nadat2:PER-LM-2N793392,
@@ -90,7 +90,7 @@ sdat1:ACT-M-53815 a rico:Activity ;
     skos:prefLabel "[ACT-M-53815] 21대 국회 본회의 제413회 제6차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:identifier "ACT-M-53815" ;
-    dcterms:identifier “53815” ;
+    dcterms:identifier "53815" ;
     rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
         nadat2:PER-LM-0W194007,
         nadat2:PER-LM-17M85910,
@@ -127,7 +127,7 @@ sdat1:ACT-M-53832 a rico:Activity ;
     skos:prefLabel "[ACT-M-53832] 21대 국회 본회의 제414회 제1차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:identifier "ACT-M-53832" ;
-    dcterms:identifier “53832” ;
+    dcterms:identifier "53832" ;
     rico:hasOrHadParticipant nadat2:PER-LM-6AU2417B,
         nadat2:PER-LM-DV77269P,
         nadat2:PER-LM-F5Y4026Q,
@@ -140,7 +140,7 @@ sdat1:ACT-M-53844 a rico:Activity ;
     skos:prefLabel "[ACT-M-53844] 21대 국회 본회의 제414회 제2차"@ko ;
     rico:hasActivityType nam1:PlenarySession ;
     rico:identifier "ACT-M-53844" ;
-    dcterms:identifier “53844” ;
+    dcterms:identifier "53844" ;
     rico:hasOrHadParticipant nadat2:PER-LM-6AU2417B,
         nadat2:PER-LM-8FB1535Y,
         nadat2:PER-LM-EH27538E,
