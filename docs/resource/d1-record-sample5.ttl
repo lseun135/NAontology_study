@@ -1,6 +1,7 @@
 @prefix sdat1: <https://lseun135.github.io/NAontology_study/resource/d1-record-sample5#> .
 @prefix nam1: <https://lseun135.github.io/NAontology_study/m1-record#> .
-
+@prefix nam2: <https://lseun135.github.io/NAontology_study/m2-person#> .
+@prefix nam3: <https://lseun135.github.io/NAontology_study/m3-content#> .
 @prefix nadat1: <https://lseun135.github.io/NAontology_study/resource/d1-record#> .
 @prefix nadat2: <https://lseun135.github.io/NAontology_study/resource/d2-person#> .
 @prefix nadat3: <https://lseun135.github.io/NAontology_study/resource/d3-content#> .
