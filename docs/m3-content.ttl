@@ -65,8 +65,8 @@ nam3:VoteEvent rdf:type owl:Class ;
 nam3:Count rdf:type owl:Class ;
                 skos:prefLabel "득표수"@ko .
 
-nam3:Result rdf:type owl:Class ;
-                skos:prefLabel "결과"@ko .
+#nam3:Result rdf:type owl:Class ;
+#                skos:prefLabel "결과"@ko .
 
 
 # Object Properties
