@@ -13,6 +13,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix schema: <https://schema.org/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
