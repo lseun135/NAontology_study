@@ -212,41 +212,109 @@ nam3:alternative_bill_submission a skos:Concept ;
 
 # nam3:ResultScheme: 결과 
 nam3:ResultScheme a skos:ConceptScheme ;
-                skos:hasTopConcept nam3:pass, nam3:fail
-                skos:prefLabel "Result Scheme"@en , "결과 스키마"@ko .
+                skos:prefLabel "결과 스키마"@ko , "Result Scheme"@en ;
+                skos:hasTopConcept nam3:pass , nam3:fail , nam3:procedural .
 
-nam3:pass a nam3:Result, skos:Concept ;
+nam3:pass a skos:Concept ;
+                skos:topConceptOf nam3:ResultScheme ;
                 skos:inScheme nam3:ResultScheme ;
-                skos:altLabel  "Passed"@en , "Passage"@en , "통과"@ko .
+                skos:prefLabel "가결/채택 계열"@ko ;
+                skos:altLabel  "통과"@ko , "Pass"@en ;
+                skos:notation  "pass" .
 
-nam3:fail a nam3:Result, skos:Concept ;
+nam3:fail a skos:Concept ;
+                skos:topConceptOf nam3:ResultScheme ;
                 skos:inScheme nam3:ResultScheme ;
-                skos:altLabel  "Failed"@en , "실패"@ko .
+                skos:prefLabel "부결/폐기 계열"@ko ;
+                skos:altLabel  "불채택"@ko , "Fail"@en ;
+                skos:notation  "fail" .
 
-
-nam3:resultAdopted a nam3:Result, skos:Concept ;
+nam3:procedural a skos:Concept ;
+                skos:topConceptOf nam3:ResultScheme ;
                 skos:inScheme nam3:ResultScheme ;
-                skos:broader nam3:pass ;
-                skos:prefLabel "Adopted"@en , "가결"@ko ;
-                skos:altLabel  "Passed"@en , "Passage"@en , "통과"@ko ;
-                skos:definition "The motion/bill is adopted by the assembly (passed)."@en .
+                skos:prefLabel "절차/중간결정"@ko ;
+                skos:notation  "procedural" .
+
+### Pass
+nam3:resultAdopted a skos:Concept ;
+                skos:inScheme nam3:ResultScheme ;
+                skos:broader  nam3:pass ;
+                skos:prefLabel "가결"@ko ;
+                skos:altLabel  "채택"@ko , "Adopted"@en ;
+                skos:notation  "adopted" .
 
 nam3:resultAdoptedOriginal a skos:Concept ;
-                skos:broader nam3:resultAdopted ;
-                skos:prefLabel "Adopted (as introduced)"@en , "원안가결"@ko ;
-                skos:altLabel  "Passed as introduced"@en .
+                skos:inScheme nam3:ResultScheme ;
+                skos:broader  nam3:resultAdopted ;
+                skos:prefLabel "원안가결"@ko ;
+                skos:altLabel  "Adopted (as introduced)"@en ;
+                skos:notation  "adopted_original" .
 
 nam3:resultAdoptedAmended a skos:Concept ;
-                skos:broader nam3:resultAdopted ;
-                skos:prefLabel "Adopted (as amended)"@en , "수정가결"@ko ;
-                skos:altLabel  "Passed with amendments"@en .
-
-nam3:resultRejected a skos:Concept ;
                 skos:inScheme nam3:ResultScheme ;
-                skos:broader nam3:fail ;
-                skos:prefLabel "Rejected"@en , "부결"@ko ;
-                skos:altLabel  "Defeated"@en ;
-                skos:definition "The motion/bill is not adopted (defeated/rejected)."@en .
+                skos:broader  nam3:resultAdopted ;
+                skos:prefLabel "수정가결"@ko ;
+                skos:altLabel  "Adopted (as amended)"@en ;
+                skos:notation  "adopted_amended" .
+
+
+### Procedural
+nam3:resultCommitteeReviewReportAdopted a skos:Concept ;
+                skos:inScheme nam3:ResultScheme ;
+                skos:broader  nam3:procedural ;
+                skos:prefLabel "심사보고서채택"@ko ;
+                skos:altLabel  "심사보고 채택"@ko , "review report adopted"@en ;
+                skos:notation  "committee_review_report_adopted" .
+
+nam3:resultCommitteeProgressReportAdopted a skos:Concept ;
+                skos:inScheme nam3:ResultScheme ;
+                skos:broader  nam3:procedural ;
+                skos:prefLabel "경과보고서채택"@ko ;
+                skos:altLabel  "경과보고 채택"@ko , "progress report adopted"@en ;
+                skos:notation  "committee_progress_report_adopted" .
+
+nam3:resultAmended a skos:Concept ;
+                skos:inScheme nam3:ResultScheme ;
+                skos:broader  nam3:procedural ;
+                skos:prefLabel "수정"@ko ;
+                skos:altLabel  "amended"@en ;
+                skos:notation  "amended" .
+
+nam3:resultAmendmentResolution a skos:Concept ;
+                skos:inScheme nam3:ResultScheme ;
+                skos:broader  nam3:procedural ;
+                skos:prefLabel "수정의결"@ko ;
+                skos:altLabel  "amendment resolution adopted"@en ;
+                skos:notation  "amendment_resolution" .
+
+### Fail
+nam3:resultWithdrawn a skos:Concept ;
+                skos:inScheme nam3:ResultScheme ;
+                skos:broader  nam3:fail ;
+                skos:prefLabel "철회"@ko ;
+                skos:altLabel  "withdrawn"@en ;
+                skos:notation  "withdrawn" .
+
+nam3:resultDisposed a skos:Concept ;
+                skos:inScheme nam3:ResultScheme ;
+                skos:broader  nam3:fail ;
+                skos:prefLabel "폐기"@ko ;
+                skos:altLabel  "discarded"@en ;
+                skos:notation  "disposed" .
+
+nam3:resultDisposedIncorporatedIntoAlternative a skos:Concept ;
+                skos:inScheme nam3:ResultScheme ;
+                skos:broader  nam3:resultDisposed ;
+                skos:prefLabel "대안반영폐기"@ko ;
+                skos:altLabel  "대안 반영 폐기"@ko , "disposed (incorporated into alternative bill)"@en ;
+                skos:notation  "disposed_alt_incorporated" .
+
+nam3:resultDisposedIncorporatedByAmendment a skos:Concept ;
+                skos:inScheme nam3:ResultScheme ;
+                skos:broader  nam3:resultDisposed ;
+                skos:prefLabel "수정안반영폐기"@ko ;
+                skos:altLabel  "수정안 반영 폐기"@ko , "disposed (incorporated by amendment)"@en ;
+                skos:notation  "disposed_amendment_incorporated" .
 
 
 
