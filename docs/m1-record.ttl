@@ -45,7 +45,9 @@ nam1:singleDate a rico:DateType, skos:Concept ;
 
 nam1:dateRange a rico:DateType, skos:Concept ;
                 skos:prefLabel "Date Range"@en, "날짜 범위"@ko ;
-                skos:inScheme nam1:dateTypeScheme .
+                skos:inScheme nam1:dateTypeScheme ;
+                skos:definition "A date that represents a continuous interval with a beginning and an end."@en, 
+                        "시작과 끝이 있는 연속 구간을 나타내는 날짜."@ko.
 
 nam1:dateSet a rico:DateType, skos:Concept ;
                 skos:prefLabel "Date Set"@en, "날짜 집합"@ko ;
