@@ -7,6 +7,7 @@
 
 @prefix adms: <http://www.w3.org/ns/adms#> .
 @prefix bf: <https://id.loc.gov/ontologies/bibframe/> .
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -22,6 +23,7 @@
 @prefix skos: <https://www.w3.org/2004/02/skos/core#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
 
 @base <https://lseun135.github.io/NAontology_study/m2-person> .
 
