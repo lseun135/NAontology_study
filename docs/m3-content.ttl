@@ -288,6 +288,12 @@ nam3:resultAmendmentResolution a skos:Concept ;
                 skos:notation  "amendment_resolution" .
 
 ### Fail
+nam3:resultRejected a skos:Concept ;
+                skos:inScheme nam3:ResultScheme ;
+                skos:broader  nam3:fail ;
+                skos:prefLabel "부결"@ko ;
+                skos:notation  "Rejected" .
+
 nam3:resultWithdrawn a skos:Concept ;
                 skos:inScheme nam3:ResultScheme ;
                 skos:broader  nam3:fail ;
@@ -301,6 +307,7 @@ nam3:resultDisposed a skos:Concept ;
                 skos:prefLabel "폐기"@ko ;
                 skos:altLabel  "discarded"@en ;
                 skos:notation  "disposed" .
+
 
 nam3:resultDisposedIncorporatedIntoAlternative a skos:Concept ;
                 skos:inScheme nam3:ResultScheme ;
