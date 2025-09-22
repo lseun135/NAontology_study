@@ -47,6 +47,7 @@ ICA-EGAD에서 제공한 [RiC-O components csv](https://github.com/ICA-EGAD/RiC-
 <br/>
 
 * 공통 온톨로지
+  
 | prefix | IRI |
 |-|-|
 | owl | http://www.w3.org/2002/07/owl# |
@@ -61,6 +62,7 @@ ICA-EGAD에서 제공한 [RiC-O components csv](https://github.com/ICA-EGAD/RiC-
 <br/>
 
 * 주요 온톨로지
+  
 | prefix | IRI |
 |-|-|
 | rico | https://www.ica.org/standards/RiC/ontology# |
@@ -69,6 +71,7 @@ ICA-EGAD에서 제공한 [RiC-O components csv](https://github.com/ICA-EGAD/RiC-
 <br/>
 
 * 기타 온톨로지
+
 | prefix | IRI |
 |-|-|
 | bf | https://id.loc.gov/ontologies/bibframe/ |
