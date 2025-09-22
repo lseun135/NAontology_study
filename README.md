@@ -1,6 +1,8 @@
 
 <br/>
+
 [https://lseun135.github.io/NAontology_study/](https://lseun135.github.io/NAontology_study/)
+
 <br/><br/>
 
 ### RiC 요소 정리
