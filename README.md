@@ -5,8 +5,7 @@
 
 ### RiC 요소 정리
 ICA-EGAD에서 제공한 [RiC-O components csv](https://github.com/ICA-EGAD/RiC-O/tree/master/ontology/current-version/CSV_lists_of_components)를 활용하여 정리 
-<br/>
-(Notion 페이지로 이동)
+<br/>(Notion 페이지로 이동)
 * [RiC-CM](https://www.notion.so/1784183a63dc807fbd58ecfdafd1225d?v=1784183a63dc8044ba19000c0911e211&source=copy_link)
 * [RiC-O](https://www.notion.so/1874183a63dc803a9f85e81012cf32cc?v=1874183a63dc80ceb73c000c1c3457ca&source=copy_link)
 <br/><br/>
@@ -17,6 +16,7 @@ ICA-EGAD에서 제공한 [RiC-O components csv](https://github.com/ICA-EGAD/RiC-
 * [m2-person](https://github.com/lseun135/NAontology_study/blob/main/docs/m2-person.ttl)
 * [m3-content](https://github.com/lseun135/NAontology_study/blob/main/docs/m3-content.ttl)
 <br/>
+
 ## A box
 현재 용량이 부족하므로 파일을 분리해서 게시할 예정 (모듈과 데이터 구조는 유지)<br/>
 →소관위원회 또는 개체별 분리를 고려하고 있음
