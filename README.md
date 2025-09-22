@@ -27,7 +27,7 @@ ICA-EGAD에서 제공한 [RiC-O components csv](https://github.com/ICA-EGAD/RiC-
 
 ## URL import시, 유의사항
 URL 뒤에 '.ttl'을 붙일 것 (오류방지)
-* 예시: https://lseun135.github.io/NAontology_study/resource/d1-record **.ttl**
+* 예시: https://lseun135<k>.github.io/NAontology_study/resource/d1-record **.ttl**
   
 <br/><br/>
 # NameSpace
@@ -41,6 +41,7 @@ URL 뒤에 '.ttl'을 붙일 것 (오류방지)
   | nadat2 | https://lseun135.github.io/NAontology_study/resource/d2-person# |
   | nadat3 | https://lseun135.github.io/NAontology_study/resource/d3-content# |
 <br/>
+
 * 공통 온톨로지
   | prefix | IRI |
   |-|-|
@@ -54,6 +55,7 @@ URL 뒤에 '.ttl'을 붙일 것 (오류방지)
   | skos | https://www.w3.org/2004/02/skos/core# |
   | prov | http://www.w3.org/ns/prov# |
 <br/>
+
 * 주요 온톨로지
   | prefix | IRI |
   |-|-|
@@ -61,6 +63,7 @@ URL 뒤에 '.ttl'을 붙일 것 (오류방지)
   | opengov | http://www.w3.org/ns/opengov# |
   | crm | http://www.cidoc-crm.org/cidoc-crm/ |
 <br/>
+
 * 기타 온톨로지
   | prefix | IRI |
   |-|-|
