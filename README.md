@@ -27,7 +27,7 @@ ICA-EGAD에서 제공한 [RiC-O components csv](https://github.com/ICA-EGAD/RiC-
 * [d3-content](https://github.com/lseun135/NAontology_study/blob/main/docs/resource/d3-content.ttl)
 <br/><br/>
 
-> **URL import시, 유의사항** <br/>
+> **URL import시, 유의사항** :<br/>
 > URL 뒤에 '.ttl'을 붙일 것 (오류방지)
 > * 예시: https:<k>//lseun135<k>.github.io/NAontology_study/resource/d1-record<k>**.ttl**
 
@@ -36,45 +36,47 @@ ICA-EGAD에서 제공한 [RiC-O components csv](https://github.com/ICA-EGAD/RiC-
 
 # NameSpace
 * 자체 온톨로지
-  | prefix | IRI |
-  |-|-|
-  | nam1 | https://lseun135.github.io/NAontology_study/m1-record# |
-  | nam2 | https://lseun135.github.io/NAontology_study/m2-person# |
-  | nam3 | https://lseun135.github.io/NAontology_study/m3-content# |
-  | nadat1 | https://lseun135.github.io/NAontology_study/resource/d1-record# |
-  | nadat2 | https://lseun135.github.io/NAontology_study/resource/d2-person# |
-  | nadat3 | https://lseun135.github.io/NAontology_study/resource/d3-content# |
+| prefix | IRI |
+|-|-|
+| nam1 | https://lseun135.github.io/NAontology_study/m1-record# |
+| nam2 | https://lseun135.github.io/NAontology_study/m2-person# |
+| nam3 | https://lseun135.github.io/NAontology_study/m3-content# |
+| nadat1 | https://lseun135.github.io/NAontology_study/resource/d1-record# |
+| nadat2 | https://lseun135.github.io/NAontology_study/resource/d2-person# |
+| nadat3 | https://lseun135.github.io/NAontology_study/resource/d3-content# |
 <br/>
 
 * 공통 온톨로지
-  | prefix | IRI |
-  |-|-|
-  | owl | http://www.w3.org/2002/07/owl# |
-  | rdf | http://www.w3.org/1999/02/22-rdf-syntax-ns# |
-  | rdfs | http://www.w3.org/2000/01/rdf-schema# |
-  | xml | http://www.w3.org/XML/1998/namespace |
-  | xsd | http://www.w3.org/2001/XMLSchema# |
-  | dcterms | http://purl.org/dc/terms/ |
-  | schema | https://schema.org/ |
-  | skos | https://www.w3.org/2004/02/skos/core# |
-  | prov | http://www.w3.org/ns/prov# |
+| prefix | IRI |
+|-|-|
+| owl | http://www.w3.org/2002/07/owl# |
+| rdf | http://www.w3.org/1999/02/22-rdf-syntax-ns# |
+| rdfs | http://www.w3.org/2000/01/rdf-schema# |
+| xml | http://www.w3.org/XML/1998/namespace |
+| xsd | http://www.w3.org/2001/XMLSchema# |
+| dcterms | http://purl.org/dc/terms/ |
+| schema | https://schema.org/ |
+| skos | https://www.w3.org/2004/02/skos/core# |
+| prov | http://www.w3.org/ns/prov# |
 <br/>
 
 * 주요 온톨로지
-  | prefix | IRI |
-  |-|-|
-  | rico | https://www.ica.org/standards/RiC/ontology# |
-  | opengov | http://www.w3.org/ns/opengov# |
-  | crm | http://www.cidoc-crm.org/cidoc-crm/ |
+| prefix | IRI |
+|-|-|
+| rico | https://www.ica.org/standards/RiC/ontology# |
+| opengov | http://www.w3.org/ns/opengov# |
+| crm | http://www.cidoc-crm.org/cidoc-crm/ |
 <br/>
 
 * 기타 온톨로지
-  | prefix | IRI |
-  |-|-|
-  | bf | https://id.loc.gov/ontologies/bibframe/ |
-  | org | http://www.w3.org/ns/org# |
-  | foaf | http://xmlns.com/foaf/0.1/ |
-  | bio | http://purl.org/vocab/bio/0.1/ |
-  | gn | https://www.geonames.org/ontology# |
+| prefix | IRI |
+|-|-|
+| bf | https://id.loc.gov/ontologies/bibframe/ |
+| org | http://www.w3.org/ns/org# |
+| foaf | http://xmlns.com/foaf/0.1/ |
+| bio | http://purl.org/vocab/bio/0.1/ |
+| gn | https://www.geonames.org/ontology# |
+
+
   | adms | http://www.w3.org/ns/adms# |
 
