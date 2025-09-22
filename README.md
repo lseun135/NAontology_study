@@ -27,12 +27,11 @@ ICA-EGAD에서 제공한 [RiC-O components csv](https://github.com/ICA-EGAD/RiC-
 * [d3-content](https://github.com/lseun135/NAontology_study/blob/main/docs/resource/d3-content.ttl)
 <br/><br/>
 
-> <br/>**URL import시, 유의사항**<br/>
+> **URL import시, 유의사항**
 > URL 뒤에 '.ttl'을 붙일 것 (오류방지)
-> * 예시: https://lseun135<k>.github.io/NAontology_study/resource/d1-record<k>**.ttl**
-> <br/>
+> * 예시: https:<k>//lseun135<k>.github.io/NAontology_study/resource/d1-record<k>**.ttl**
 
-  
+
 <br/>
 
 # NameSpace
