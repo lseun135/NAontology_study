@@ -65,6 +65,8 @@ ICA-EGAD에서 제공한 [RiC-O components csv](https://github.com/ICA-EGAD/RiC-
   |-|-|
   | rico | https://www.ica.org/standards/RiC/ontology# |
   | opengov | http://www.w3.org/ns/opengov# |
+  | org | http://www.w3.org/ns/org# |
+  | foaf | http://xmlns.com/foaf/0.1/ |
   | crm | http://www.cidoc-crm.org/cidoc-crm/ |
 <br/>
 
@@ -72,8 +74,6 @@ ICA-EGAD에서 제공한 [RiC-O components csv](https://github.com/ICA-EGAD/RiC-
   | prefix | IRI |
   |-|-|
   | bf | https://id.loc.gov/ontologies/bibframe/ |
-  | org | http://www.w3.org/ns/org# |
-  | foaf | http://xmlns.com/foaf/0.1/ |
   | bio | http://purl.org/vocab/bio/0.1/ |
   | gn | https://www.geonames.org/ontology# |
   | adms | http://www.w3.org/ns/adms# |
