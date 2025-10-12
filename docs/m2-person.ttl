@@ -32,6 +32,61 @@
                 owl:imports <http://www.w3.org/2004/02/skos/core> ,
                             <http://www.w3.org/ns/org> .
 
+#    Class
+foaf:Agent rdf:type owl:Class ;
+            skos:prefLabel "행위자"@ko, "agent"@en . 
+
+foaf:Person rdf:type owl:Class ;
+                rdfs:subClassOf foaf:Agent ;
+                skos:prefLabel "개인"@ko, "person"@en .
+
+nam2:Legislator rdf:type owl:Class ;
+                rdfs:subClassOf foaf:Person ;
+                skos:prefLabel "의원"@ko , "legislator"@en ;
+                skos:altLabel "국회의원"@ko , "member of the national assembly"@en , "national assembly member"@en , "lawmaker"@en .
+
+nam2:Staff rdf:type owl:Class ;
+                rdfs:subClassOf foaf:Person ;
+                skos:prefLabel "직원"@ko, "staff"@en ;
+                skos:altLabel "employee"@en .
+
+
+dcterms:LocationPeriodOrJurisdiction rdf:type owl:Class .
+
+dcterms:PeriodOfTime rdf:type owl:Class ;
+                     rdfs:subClassOf dcterms:LocationPeriodOrJurisdiction .
+
+
+
+nam2:Committee rdf:type owl:Class ;
+                rdfs:subClassOf org:OrganizationalUnit ;
+                skos:prefLabel "위원회"@ko , "committee"@en .
+
+nam2:SpecialCommittee rdf:type owl:Class ;
+                rdfs:subClassOf nam2:Committee ;
+                skos:prefLabel "특별위원회"@ko , "special committee"@en.
+
+nam2:StandingCommittee rdf:type owl:Class ;
+                rdfs:subClassOf nam2:Committee ;
+                skos:prefLabel "상임위원회"@ko , "standing committee"@en ;
+                skos:altLabel "상임위"@ko .
+
+nam2:SubCommittee rdf:type owl:Class ;
+                rdfs:subClassOf nam2:Committee ;
+                skos:prefLabel "소위원회"@ko , "subcommittee"@en .
+
+nam2:Institution rdf:type owl:Class ;
+                rdfs:subClassOf org:FormalOrganization ;
+                owl:disjointWith nam2:Party ;
+                skos:prefLabel "기관"@ko , "institution"@en .
+
+nam2:Party rdf:type owl:Class ;
+                rdfs:subClassOf org:FormalOrganization ;
+                skos:prefLabel "정당"@ko , "party"@en .
+
+gn:Feature rdf:type owl:Class .
+
+
 
 
 
@@ -83,21 +138,21 @@ nam2:assistantName rdf:type owl:DatatypeProperty ;
                                foaf:Person ;
                    rdfs:range rdf:langString ;
                    rdfs:comment "보좌관 이름(여러 값 허용)"@ko ;
-                   rdfs:label "보좌관"@ko .
+                   skos:prefLabel "보좌관"@ko , "assistant"@en .
 
 nam2:secretaryName rdf:type owl:DatatypeProperty ;
                    rdfs:domain org:Membership ,
                                foaf:Person ;
                    rdfs:range rdf:langString ;
                    rdfs:comment "비서관 이름(여러 값 허용)"@ko ;
-                   rdfs:label "비서관"@ko .
+                   skos:prefLabel "비서관"@ko , "secretary"@en .
 
 nam2:seniorSecretaryName rdf:type owl:DatatypeProperty ;
                          rdfs:domain org:Membership ,
                                      foaf:Person ;
                          rdfs:range rdf:langString ;
                          rdfs:comment "선임비서관 이름(여러 값 허용)"@ko ;
-                         rdfs:label "선임비서관"@ko .
+                         skos:prefLabel "선임비서관"@ko , "senior secretary"@en  .
 
 
 schema:endDate rdf:type owl:DatatypeProperty .
@@ -109,44 +164,6 @@ schema:telephone rdf:type owl:DatatypeProperty .
 gn:name rdf:type owl:DatatypeProperty .
 
 
-
-#    Classes
-
-dcterms:LocationPeriodOrJurisdiction rdf:type owl:Class .
-
-dcterms:PeriodOfTime rdf:type owl:Class ;
-                     rdfs:subClassOf dcterms:LocationPeriodOrJurisdiction .
-
-
-nam2:OrgType rdf:type owl:Class ;
-             rdfs:label "조직 유형" .
-
-nam2:Committee rdf:type owl:Class ;
-               rdfs:subClassOf nam2:OrgType ;
-               skos:prefLabel "위원회"@ko .
-
-nam2:SpecialCommittee rdf:type owl:Class ;
-                      rdfs:subClassOf nam2:Committee ;
-                      skos:prefLabel "특별위원회"@ko .
-
-nam2:StandingCommittee rdf:type owl:Class ;
-                       rdfs:subClassOf nam2:Committee ;
-                       skos:prefLabel "상임위원회"@ko .
-
-nam2:SubCommittee rdf:type owl:Class ;
-                  rdfs:subClassOf nam2:SpecialCommittee ,
-                                  nam2:StandingCommittee ;
-                  skos:prefLabel "소위원회"@ko .
-
-nam2:Institution rdf:type owl:Class ;
-                 rdfs:subClassOf nam2:OrgType ;
-                 skos:prefLabel "기관"@ko .
-
-nam2:Party rdf:type owl:Class ;
-           rdfs:subClassOf nam2:OrgType ;
-           skos:prefLabel "정당"@ko .
-
-gn:Feature rdf:type owl:Class .
 
 
 
