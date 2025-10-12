@@ -51,12 +51,12 @@ nam3:Bill rdf:type owl:Class ;
                 skos:prefLabel "의안"@ko .
 
 nam3:AgendaItem rdf:type owl:Class ;
-                rdfs:subClassOf crm:E89_Propositional_Object , skos:Concept ;
+                rdfs:subClassOf crm:E89_Propositional_Object ;
                 skos:prefLabel "안건"@ko .
 
-schema:Legislation rdf:type owl:Class ;
-                rdfs:subClassOf schema:CreativeWork ;
-                skos:prefLabel "법률안"@ko .
+#schema:Legislation rdf:type owl:Class ;
+#                rdfs:subClassOf schema:CreativeWork ;
+#                skos:prefLabel "법률안"@ko .
 
 nam3:Motion rdf:type owl:Class ;
                 owl:equivalentClass opengov:Motion ;
@@ -124,6 +124,35 @@ schema:position rdf:type owl:DatatypeProperty ;
 
 dcterms:date rdf:type owl:DatatypeProperty ;       # 발언이 이루어진 시점
                 rdfs:comment "해당 내용이 작성되거나 발언이 이루어진 시점"@ko .
+
+
+
+
+nam3:yesCount a owl:DatatypeProperty ;
+    rdfs:domain nam3:VoteEvent ; 
+    rdfs:range xsd:nonNegativeInteger ;
+    rdfs:label "찬성 수"@ko .
+
+nam3:noCount a owl:DatatypeProperty ;
+    rdfs:domain nam3:VoteEvent ; 
+    rdfs:range xsd:nonNegativeInteger ;
+    rdfs:label "반대 수"@ko .
+
+nam3:abstainCount a owl:DatatypeProperty ;
+    rdfs:domain nam3:VoteEvent ; 
+    rdfs:range xsd:nonNegativeInteger ;
+    rdfs:label "기권 수"@ko .
+
+nam3:totalVotes a owl:DatatypeProperty ;
+    rdfs:domain nam3:VoteEvent ; 
+    rdfs:range xsd:nonNegativeInteger ;
+    rdfs:label "총투표 수"@ko .
+
+nam3:eligibleMemberCount a owl:DatatypeProperty ;
+    rdfs:domain nam3:VoteEvent ;
+    rdfs:range xsd:nonNegativeInteger ;
+    rdfs:label "재적 의원 수"@ko .
+
 
 
 
