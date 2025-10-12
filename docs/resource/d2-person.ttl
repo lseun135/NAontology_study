@@ -971,7 +971,7 @@ nadat2:CMIT-AQ-C a nam2:SubCommittee ;
 
 ## Person
 
-nadat2:PER-LM-0PK7354M a foaf:Person ;
+nadat2:PER-LM-0PK7354M a nam2:Legislator ;
     rdfs:label "서동용"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:0PK7354M" ;
@@ -984,7 +984,7 @@ nadat2:PER-LM-0PK7354M a foaf:Person ;
     schema:birthDate "1964-09-02"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/0PK7354M.jpg> .
 
-nadat2:PER-LM-0WL9321T a foaf:Person ;
+nadat2:PER-LM-0WL9321T a nam2:Legislator ;
     rdfs:label "유정주"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:0WL9321T" ;
@@ -997,7 +997,7 @@ nadat2:PER-LM-0WL9321T a foaf:Person ;
     schema:birthDate "1975-12-13"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/0WL9321T.jpg> .
 
-nadat2:PER-LM-17M85910 a foaf:Person ;
+nadat2:PER-LM-17M85910 a nam2:Legislator ;
     rdfs:label "소병철"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:17M85910" ;
@@ -1010,7 +1010,7 @@ nadat2:PER-LM-17M85910 a foaf:Person ;
     nam2:lunarBirthText "1958-02-15"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/17M85910.jpg> .
 
-nadat2:PER-LM-1BX7234U a foaf:Person ;
+nadat2:PER-LM-1BX7234U a nam2:Legislator ;
     rdfs:label "김경만"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:1BX7234U" ;
@@ -1023,7 +1023,7 @@ nadat2:PER-LM-1BX7234U a foaf:Person ;
     nam2:lunarBirthText "1962-09-23"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/1BX7234U.jpg> .
 
-nadat2:PER-LM-1X376850 a foaf:Person ;
+nadat2:PER-LM-1X376850 a nam2:Legislator ;
     rdfs:label "이영"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:1X376850" ;
@@ -1036,7 +1036,7 @@ nadat2:PER-LM-1X376850 a foaf:Person ;
     nam2:lunarBirthText "1969-06-06"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/1X376850.jpg> .
 
-nadat2:PER-LM-25I8709Q a foaf:Person ;
+nadat2:PER-LM-25I8709Q a nam2:Legislator ;
     rdfs:label "조오섭"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:25I8709Q" ;
@@ -1049,7 +1049,7 @@ nadat2:PER-LM-25I8709Q a foaf:Person ;
     schema:birthDate "1968-07-19"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/25I8709Q.jpg> .
 
-nadat2:PER-LM-2N793392 a foaf:Person ;
+nadat2:PER-LM-2N793392 a nam2:Legislator ;
     rdfs:label "홍성국"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:2N793392" ;
@@ -1062,7 +1062,7 @@ nadat2:PER-LM-2N793392 a foaf:Person ;
     schema:birthDate "1963-02-24"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/2N793392.jpg> .
 
-nadat2:PER-LM-3425169D a foaf:Person ;
+nadat2:PER-LM-3425169D a nam2:Legislator ;
     rdfs:label "정필모"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:3425169D" ;
@@ -1075,7 +1075,7 @@ nadat2:PER-LM-3425169D a foaf:Person ;
     nam2:lunarBirthText "1958-06-03"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/3425169D.jpg> .
 
-nadat2:PER-LM-3DK8989T a foaf:Person ;
+nadat2:PER-LM-3DK8989T a nam2:Legislator ;
     rdfs:label "최춘식"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:3DK8989T" ;
@@ -1088,7 +1088,7 @@ nadat2:PER-LM-3DK8989T a foaf:Person ;
     schema:birthDate "1956-03-14"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/3DK8989T.jpg> .
 
-nadat2:PER-LM-3RW63706 a foaf:Person ;
+nadat2:PER-LM-3RW63706 a nam2:Legislator ;
     rdfs:label "이주환"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:3RW63706" ;
@@ -1101,7 +1101,7 @@ nadat2:PER-LM-3RW63706 a foaf:Person ;
     schema:birthDate "1967-08-20"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/3RW63706.jpg> .
 
-nadat2:PER-LM-3TO11703 a foaf:Person ;
+nadat2:PER-LM-3TO11703 a nam2:Legislator ;
     rdfs:label "권인숙"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:3TO11703" ;
@@ -1114,7 +1114,7 @@ nadat2:PER-LM-3TO11703 a foaf:Person ;
     nam2:lunarBirthText "1964-08-28"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/3TO11703.jpg> .
 
-nadat2:PER-LM-40E3739H a foaf:Person ;
+nadat2:PER-LM-40E3739H a nam2:Legislator ;
     rdfs:label "윤창현"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:40E3739H" ;
@@ -1127,7 +1127,7 @@ nadat2:PER-LM-40E3739H a foaf:Person ;
     nam2:lunarBirthText "1960-07-28"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/40E3739H.jpg> .
 
-nadat2:PER-LM-40S1959J a foaf:Person ;
+nadat2:PER-LM-40S1959J a nam2:Legislator ;
     rdfs:label "박영순"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:40S1959J" ;
@@ -1140,7 +1140,7 @@ nadat2:PER-LM-40S1959J a foaf:Person ;
     nam2:lunarBirthText "1964-12-07"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/40S1959J.jpg> .
 
-nadat2:PER-LM-4XG1439M a foaf:Person ;
+nadat2:PER-LM-4XG1439M a nam2:Legislator ;
     rdfs:label "고영인"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:4XG1439M" ;
@@ -1153,7 +1153,7 @@ nadat2:PER-LM-4XG1439M a foaf:Person ;
     nam2:lunarBirthText "1963-07-07"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/4XG1439M.jpg> .
 
-nadat2:PER-LM-52P3934K a foaf:Person ;
+nadat2:PER-LM-52P3934K a nam2:Legislator ;
     rdfs:label "김희곤"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:52P3934K" ;
@@ -1166,7 +1166,7 @@ nadat2:PER-LM-52P3934K a foaf:Person ;
     schema:birthDate "1964-12-17"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/52P3934K.jpg> .
 
-nadat2:PER-LM-5UN9725L a foaf:Person ;
+nadat2:PER-LM-5UN9725L a nam2:Legislator ;
     rdfs:label "이용"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:5UN9725L" ;
@@ -1179,7 +1179,7 @@ nadat2:PER-LM-5UN9725L a foaf:Person ;
     nam2:lunarBirthText "1978-06-23"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/5UN9725L.jpg> .
 
-nadat2:PER-LM-6399076T a foaf:Person ;
+nadat2:PER-LM-6399076T a nam2:Legislator ;
     rdfs:label "김민철"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:6399076T" ;
@@ -1192,7 +1192,7 @@ nadat2:PER-LM-6399076T a foaf:Person ;
     schema:birthDate "1967-11-18"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/6399076T.jpg> .
 
-nadat2:PER-LM-66W6739S a foaf:Person ;
+nadat2:PER-LM-66W6739S a nam2:Legislator ;
     rdfs:label "허은아"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:66W6739S" ;
@@ -1205,7 +1205,7 @@ nadat2:PER-LM-66W6739S a foaf:Person ;
     nam2:lunarBirthText "1972-05-26"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/66W6739S.jpg> .
 
-nadat2:PER-LM-6FS10566 a foaf:Person ;
+nadat2:PER-LM-6FS10566 a nam2:Legislator ;
     rdfs:label "강성희"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:6FS10566" ;
@@ -1218,7 +1218,7 @@ nadat2:PER-LM-6FS10566 a foaf:Person ;
     nam2:lunarBirthText "1972-09-07"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/6FS10566.jpg> .
 
-nadat2:PER-LM-6MO8786S a foaf:Person ;
+nadat2:PER-LM-6MO8786S a nam2:Legislator ;
     rdfs:label "안병길"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:6MO8786S" ;
@@ -1231,7 +1231,7 @@ nadat2:PER-LM-6MO8786S a foaf:Person ;
     nam2:lunarBirthText "1962-02-02"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/6MO8786S.jpg> .
 
-nadat2:PER-LM-6RM29022 a foaf:Person ;
+nadat2:PER-LM-6RM29022 a nam2:Legislator ;
     rdfs:label "최재형"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:6RM29022" ;
@@ -1244,7 +1244,7 @@ nadat2:PER-LM-6RM29022 a foaf:Person ;
     nam2:lunarBirthText "1956-09-02"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/6RM29022.jpg> .
 
-nadat2:PER-LM-71J2365L a foaf:Person ;
+nadat2:PER-LM-71J2365L a nam2:Legislator ;
     rdfs:label "전주혜"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:71J2365L" ;
@@ -1257,7 +1257,7 @@ nadat2:PER-LM-71J2365L a foaf:Person ;
     nam2:lunarBirthText "1966-07-15"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/71J2365L.jpg> .
 
-nadat2:PER-LM-7I09543O a foaf:Person ;
+nadat2:PER-LM-7I09543O a nam2:Legislator ;
     rdfs:label "이장섭"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:7I09543O" ;
@@ -1270,7 +1270,7 @@ nadat2:PER-LM-7I09543O a foaf:Person ;
     nam2:lunarBirthText "1963-05-14"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/7I09543O.jpg> .
 
-nadat2:PER-LM-7JC3239L a foaf:Person ;
+nadat2:PER-LM-7JC3239L a nam2:Legislator ;
     rdfs:label "윤두현"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:7JC3239L" ;
@@ -1283,7 +1283,7 @@ nadat2:PER-LM-7JC3239L a foaf:Person ;
     schema:birthDate "1961-05-12"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/7JC3239L.jpg> .
 
-nadat2:PER-LM-7O71647Z a foaf:Person ;
+nadat2:PER-LM-7O71647Z a nam2:Legislator ;
     rdfs:label "양이원영"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:7O71647Z" ;
@@ -1296,7 +1296,7 @@ nadat2:PER-LM-7O71647Z a foaf:Person ;
     nam2:lunarBirthText "1971-05-14"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/7O71647Z.jpg> .
 
-nadat2:PER-LM-8KF7223D a foaf:Person ;
+nadat2:PER-LM-8KF7223D a nam2:Legislator ;
     rdfs:label "이성만"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:8KF7223D" ;
@@ -1309,7 +1309,7 @@ nadat2:PER-LM-8KF7223D a foaf:Person ;
     nam2:lunarBirthText "1961-11-04"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/8KF7223D.jpg> .
 
-nadat2:PER-LM-8VJ8533R a foaf:Person ;
+nadat2:PER-LM-8VJ8533R a nam2:Legislator ;
     rdfs:label "최연숙"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:8VJ8533R" ;
@@ -1322,7 +1322,7 @@ nadat2:PER-LM-8VJ8533R a foaf:Person ;
     nam2:lunarBirthText "1960-07-25"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/8VJ8533R.jpg> .
 
-nadat2:PER-LM-9L57027L a foaf:Person ;
+nadat2:PER-LM-9L57027L a nam2:Legislator ;
     rdfs:label "유경준"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:9L57027L" ;
@@ -1335,7 +1335,7 @@ nadat2:PER-LM-9L57027L a foaf:Person ;
     nam2:lunarBirthText "1961-06-17"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/9L57027L.jpg> .
 
-nadat2:PER-LM-9S151177 a foaf:Person ;
+nadat2:PER-LM-9S151177 a nam2:Legislator ;
     rdfs:label "이탄희"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:9S151177" ;
@@ -1348,7 +1348,7 @@ nadat2:PER-LM-9S151177 a foaf:Person ;
     nam2:lunarBirthText "1978-11-03"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/9S151177.jpg> .
 
-nadat2:PER-LM-9V18755A a foaf:Person ;
+nadat2:PER-LM-9V18755A a nam2:Legislator ;
     rdfs:label "양경숙"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:9V18755A" ;
@@ -1361,7 +1361,7 @@ nadat2:PER-LM-9V18755A a foaf:Person ;
     schema:birthDate "1962-09-06"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/9V18755A.jpg> .
 
-nadat2:PER-LM-A2V51235 a foaf:Person ;
+nadat2:PER-LM-A2V51235 a nam2:Legislator ;
     rdfs:label "배진교"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:A2V51235" ;
@@ -1374,7 +1374,7 @@ nadat2:PER-LM-A2V51235 a foaf:Person ;
     nam2:lunarBirthText "1968-08-26"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/A2V51235.jpg> .
 
-nadat2:PER-LM-AE685067 a foaf:Person ;
+nadat2:PER-LM-AE685067 a nam2:Legislator ;
     rdfs:label "이규민"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:AE685067" ;
@@ -1387,7 +1387,7 @@ nadat2:PER-LM-AE685067 a foaf:Person ;
     nam2:lunarBirthText "1968-05-10"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/AE685067.jpg> .
 
-nadat2:PER-LM-B7H6207C a foaf:Person ;
+nadat2:PER-LM-B7H6207C a nam2:Legislator ;
     rdfs:label "박대수"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:B7H6207C" ;
@@ -1400,7 +1400,7 @@ nadat2:PER-LM-B7H6207C a foaf:Person ;
     schema:birthDate "1960-08-30"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/B7H6207C.jpg> .
 
-nadat2:PER-LM-C835799S a foaf:Person ;
+nadat2:PER-LM-C835799S a nam2:Legislator ;
     rdfs:label "김근태"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:C835799S" ;
@@ -1413,7 +1413,7 @@ nadat2:PER-LM-C835799S a foaf:Person ;
     nam2:lunarBirthText "1990-11-25"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/C835799S.jpg> .
 
-nadat2:PER-LM-D4L60530 a foaf:Person ;
+nadat2:PER-LM-D4L60530 a nam2:Legislator ;
     rdfs:label "이수진"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "MONA_CD:0R68099X",
@@ -1430,7 +1430,7 @@ nadat2:PER-LM-D4L60530 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/D4L60530.jpg> ;
     schema:telephone "02-784-6351" .
 
-nadat2:PER-LM-DPZ7685X a foaf:Person ;
+nadat2:PER-LM-DPZ7685X a nam2:Legislator ;
     rdfs:label "전봉민"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:DPZ7685X" ;
@@ -1443,7 +1443,7 @@ nadat2:PER-LM-DPZ7685X a foaf:Person ;
     nam2:lunarBirthText "1972-10-21"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/DPZ7685X.jpg> .
 
-nadat2:PER-LM-DV77269P a foaf:Person ;
+nadat2:PER-LM-DV77269P a nam2:Legislator ;
     rdfs:label "양경규"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:DV77269P" ;
@@ -1455,7 +1455,7 @@ nadat2:PER-LM-DV77269P a foaf:Person ;
     nam2:lunarBirthText "1959-07-09"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/DV77269P.jpg> .
 
-nadat2:PER-LM-E9R4507P a foaf:Person ;
+nadat2:PER-LM-E9R4507P a nam2:Legislator ;
     rdfs:label "권명호"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:E9R4507P" ;
@@ -1468,7 +1468,7 @@ nadat2:PER-LM-E9R4507P a foaf:Person ;
     schema:birthDate "1961-01-10"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/E9R4507P.jpg> .
 
-nadat2:PER-LM-EMC8812P a foaf:Person ;
+nadat2:PER-LM-EMC8812P a nam2:Legislator ;
     rdfs:label "홍석준"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:EMC8812P" ;
@@ -1481,7 +1481,7 @@ nadat2:PER-LM-EMC8812P a foaf:Person ;
     nam2:lunarBirthText "1966-05-17"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/EMC8812P.jpg> .
 
-nadat2:PER-LM-F0I5053J a foaf:Person ;
+nadat2:PER-LM-F0I5053J a nam2:Legislator ;
     rdfs:label "우신구"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:F0I5053J" ;
@@ -1494,7 +1494,7 @@ nadat2:PER-LM-F0I5053J a foaf:Person ;
     schema:birthDate "1950-10-01"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/F0I5053J.jpg> .
 
-nadat2:PER-LM-F5Y4026Q a foaf:Person ;
+nadat2:PER-LM-F5Y4026Q a nam2:Legislator ;
     rdfs:label "신현영"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:F5Y4026Q" ;
@@ -1507,7 +1507,7 @@ nadat2:PER-LM-F5Y4026Q a foaf:Person ;
     nam2:lunarBirthText "1980-11-17"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/F5Y4026Q.jpg> .
 
-nadat2:PER-LM-FDC3144T a foaf:Person ;
+nadat2:PER-LM-FDC3144T a nam2:Legislator ;
     rdfs:label "이종성"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:FDC3144T" ;
@@ -1520,7 +1520,7 @@ nadat2:PER-LM-FDC3144T a foaf:Person ;
     nam2:lunarBirthText "1970-02-17"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/FDC3144T.jpg> .
 
-nadat2:PER-LM-FGI27280 a foaf:Person ;
+nadat2:PER-LM-FGI27280 a nam2:Legislator ;
     rdfs:label "하영제"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:FGI27280" ;
@@ -1533,7 +1533,7 @@ nadat2:PER-LM-FGI27280 a foaf:Person ;
     nam2:lunarBirthText "1954-02-25"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/FGI27280.jpg> .
 
-nadat2:PER-LM-FIC9046Z a foaf:Person ;
+nadat2:PER-LM-FIC9046Z a nam2:Legislator ;
     rdfs:label "김의겸"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:FIC9046Z" ;
@@ -1546,7 +1546,7 @@ nadat2:PER-LM-FIC9046Z a foaf:Person ;
     nam2:lunarBirthText "1963-05-22"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/FIC9046Z.jpg> .
 
-nadat2:PER-LM-G7512472 a foaf:Person ;
+nadat2:PER-LM-G7512472 a nam2:Legislator ;
     rdfs:label "이용우"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "MONA_CD:6K79158C",
@@ -1563,7 +1563,7 @@ nadat2:PER-LM-G7512472 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/G7512472.jpg> ;
     schema:telephone "02-784-8101" .
 
-nadat2:PER-LM-GAV6441G a foaf:Person ;
+nadat2:PER-LM-GAV6441G a nam2:Legislator ;
     rdfs:label "장혜영"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:GAV6441G" ;
@@ -1576,7 +1576,7 @@ nadat2:PER-LM-GAV6441G a foaf:Person ;
     nam2:lunarBirthText "1987-04-08"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/GAV6441G.jpg> .
 
-nadat2:PER-LM-GKD32201 a foaf:Person ;
+nadat2:PER-LM-GKD32201 a nam2:Legislator ;
     rdfs:label "이용빈"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:GKD32201" ;
@@ -1589,7 +1589,7 @@ nadat2:PER-LM-GKD32201 a foaf:Person ;
     schema:birthDate "1964-12-15"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/GKD32201.jpg> .
 
-nadat2:PER-LM-HKJ99607 a foaf:Person ;
+nadat2:PER-LM-HKJ99607 a nam2:Legislator ;
     rdfs:label "이병훈"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:HKJ99607" ;
@@ -1602,7 +1602,7 @@ nadat2:PER-LM-HKJ99607 a foaf:Person ;
     nam2:lunarBirthText "1957-03-18"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/HKJ99607.jpg> .
 
-nadat2:PER-LM-I434361W a foaf:Person ;
+nadat2:PER-LM-I434361W a nam2:Legislator ;
     rdfs:label "조태용"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:I434361W" ;
@@ -1615,7 +1615,7 @@ nadat2:PER-LM-I434361W a foaf:Person ;
     nam2:lunarBirthText "1956-08-29"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/I434361W.jpg> .
 
-nadat2:PER-LM-ICH23251 a foaf:Person ;
+nadat2:PER-LM-ICH23251 a nam2:Legislator ;
     rdfs:label "최강욱"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:ICH23251" ;
@@ -1628,7 +1628,7 @@ nadat2:PER-LM-ICH23251 a foaf:Person ;
     nam2:lunarBirthText "1968-05-05"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/ICH23251.jpg> .
 
-nadat2:PER-LM-IOW1101J a foaf:Person ;
+nadat2:PER-LM-IOW1101J a nam2:Legislator ;
     rdfs:label "김영식"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:IOW1101J" ;
@@ -1641,7 +1641,7 @@ nadat2:PER-LM-IOW1101J a foaf:Person ;
     schema:birthDate "1959-07-18"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/IOW1101J.jpg> .
 
-nadat2:PER-LM-IOW8224X a foaf:Person ;
+nadat2:PER-LM-IOW8224X a nam2:Legislator ;
     rdfs:label "이형석"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:IOW8224X" ;
@@ -1654,7 +1654,7 @@ nadat2:PER-LM-IOW8224X a foaf:Person ;
     nam2:lunarBirthText "1961-10-05"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/IOW8224X.jpg> .
 
-nadat2:PER-LM-IUL4848V a foaf:Person ;
+nadat2:PER-LM-IUL4848V a nam2:Legislator ;
     rdfs:label "윤희숙"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:IUL4848V" ;
@@ -1667,7 +1667,7 @@ nadat2:PER-LM-IUL4848V a foaf:Person ;
     nam2:lunarBirthText "1970-02-07"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/IUL4848V.jpg> .
 
-nadat2:PER-LM-J9S37905 a foaf:Person ;
+nadat2:PER-LM-J9S37905 a nam2:Legislator ;
     rdfs:label "황보승희"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:J9S37905" ;
@@ -1680,7 +1680,7 @@ nadat2:PER-LM-J9S37905 a foaf:Person ;
     nam2:lunarBirthText "1976-08-05"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/J9S37905.jpg> .
 
-nadat2:PER-LM-JVB6983V a foaf:Person ;
+nadat2:PER-LM-JVB6983V a nam2:Legislator ;
     rdfs:label "노용호"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:JVB6983V" ;
@@ -1693,7 +1693,7 @@ nadat2:PER-LM-JVB6983V a foaf:Person ;
     schema:birthDate "1971-05-14"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/JVB6983V.jpg> .
 
-nadat2:PER-LM-KB04377U a foaf:Person ;
+nadat2:PER-LM-KB04377U a nam2:Legislator ;
     rdfs:label "김병욱"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:KB04377U" ;
@@ -1706,7 +1706,7 @@ nadat2:PER-LM-KB04377U a foaf:Person ;
     nam2:lunarBirthText "1977-04-30"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/KB04377U.jpg> .
 
-nadat2:PER-LM-KFS1358P a foaf:Person ;
+nadat2:PER-LM-KFS1358P a nam2:Legislator ;
     rdfs:label "윤영덕"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:KFS1358P" ;
@@ -1719,7 +1719,7 @@ nadat2:PER-LM-KFS1358P a foaf:Person ;
     schema:birthDate "1969-09-07"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/KFS1358P.jpg> .
 
-nadat2:PER-LM-KNM3215T a foaf:Person ;
+nadat2:PER-LM-KNM3215T a nam2:Legislator ;
     rdfs:label "윤미향"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:KNM3215T" ;
@@ -1732,7 +1732,7 @@ nadat2:PER-LM-KNM3215T a foaf:Person ;
     nam2:lunarBirthText "1965-02-10"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/KNM3215T.jpg> .
 
-nadat2:PER-LM-KUO3574J a foaf:Person ;
+nadat2:PER-LM-KUO3574J a nam2:Legislator ;
     rdfs:label "양기대"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:KUO3574J" ;
@@ -1745,7 +1745,7 @@ nadat2:PER-LM-KUO3574J a foaf:Person ;
     schema:birthDate "1962-10-12"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/KUO3574J.jpg> .
 
-nadat2:PER-LM-L7T64271 a foaf:Person ;
+nadat2:PER-LM-L7T64271 a nam2:Legislator ;
     rdfs:label "김수흥"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:L7T64271" ;
@@ -1758,7 +1758,7 @@ nadat2:PER-LM-L7T64271 a foaf:Person ;
     nam2:lunarBirthText "1961-04-29"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/L7T64271.jpg> .
 
-nadat2:PER-LM-LM13674V a foaf:Person ;
+nadat2:PER-LM-LM13674V a nam2:Legislator ;
     rdfs:label "송재호"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:LM13674V" ;
@@ -1771,7 +1771,7 @@ nadat2:PER-LM-LM13674V a foaf:Person ;
     nam2:lunarBirthText "1960-12-20"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/LM13674V.jpg> .
 
-nadat2:PER-LM-LQW3652K a foaf:Person ;
+nadat2:PER-LM-LQW3652K a nam2:Legislator ;
     rdfs:label "김웅"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:LQW3652K" ;
@@ -1784,7 +1784,7 @@ nadat2:PER-LM-LQW3652K a foaf:Person ;
     nam2:lunarBirthText "1970-05-05"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/LQW3652K.jpg> .
 
-nadat2:PER-LM-M6H1705E a foaf:Person ;
+nadat2:PER-LM-M6H1705E a nam2:Legislator ;
     rdfs:label "김회재"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:M6H1705E" ;
@@ -1797,7 +1797,7 @@ nadat2:PER-LM-M6H1705E a foaf:Person ;
     schema:birthDate "1962-11-24"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/M6H1705E.jpg> .
 
-nadat2:PER-LM-M7T9712V a foaf:Person ;
+nadat2:PER-LM-M7T9712V a nam2:Legislator ;
     rdfs:label "최승재"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:M7T9712V" ;
@@ -1810,7 +1810,7 @@ nadat2:PER-LM-M7T9712V a foaf:Person ;
     nam2:lunarBirthText "1967-07-11"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/M7T9712V.jpg> .
 
-nadat2:PER-LM-MSO2590I a foaf:Person ;
+nadat2:PER-LM-MSO2590I a nam2:Legislator ;
     rdfs:label "김은희"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:MSO2590I" ;
@@ -1823,7 +1823,7 @@ nadat2:PER-LM-MSO2590I a foaf:Person ;
     nam2:lunarBirthText "1991-06-10"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/MSO2590I.jpg> .
 
-nadat2:PER-LM-MY318392 a foaf:Person ;
+nadat2:PER-LM-MY318392 a nam2:Legislator ;
     rdfs:label "오영환"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:MY318392" ;
@@ -1835,7 +1835,7 @@ nadat2:PER-LM-MY318392 a foaf:Person ;
     nam2:lunarBirthText "1988-02-10"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/MY318392.jpg> .
 
-nadat2:PER-LM-NCO99988 a foaf:Person ;
+nadat2:PER-LM-NCO99988 a nam2:Legislator ;
     rdfs:label "허숙정"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:NCO99988" ;
@@ -1848,7 +1848,7 @@ nadat2:PER-LM-NCO99988 a foaf:Person ;
     nam2:lunarBirthText "1975-03-19"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/NCO99988.jpg> .
 
-nadat2:PER-LM-NCP9875N a foaf:Person ;
+nadat2:PER-LM-NCP9875N a nam2:Legislator ;
     rdfs:label "류호정"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:NCP9875N" ;
@@ -1861,7 +1861,7 @@ nadat2:PER-LM-NCP9875N a foaf:Person ;
     nam2:lunarBirthText "1992-08-09"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/NCP9875N.jpg> .
 
-nadat2:PER-LM-NLR6572J a foaf:Person ;
+nadat2:PER-LM-NLR6572J a nam2:Legislator ;
     rdfs:label "임병헌"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:NLR6572J" ;
@@ -1874,7 +1874,7 @@ nadat2:PER-LM-NLR6572J a foaf:Person ;
     nam2:lunarBirthText "1953-10-10"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/NLR6572J.jpg> .
 
-nadat2:PER-LM-P2N50879 a foaf:Person ;
+nadat2:PER-LM-P2N50879 a nam2:Legislator ;
     rdfs:label "강민정"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:P2N50879" ;
@@ -1887,7 +1887,7 @@ nadat2:PER-LM-P2N50879 a foaf:Person ;
     nam2:lunarBirthText "1961-04-26"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/P2N50879.jpg> .
 
-nadat2:PER-LM-PO64874I a foaf:Person ;
+nadat2:PER-LM-PO64874I a nam2:Legislator ;
     rdfs:label "김홍걸"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:PO64874I" ;
@@ -1900,7 +1900,7 @@ nadat2:PER-LM-PO64874I a foaf:Person ;
     nam2:lunarBirthText "1963-11-12"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/PO64874I.jpg> .
 
-nadat2:PER-LM-PZA4062H a foaf:Person ;
+nadat2:PER-LM-PZA4062H a nam2:Legislator ;
     rdfs:label "양정숙"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:PZA4062H" ;
@@ -1913,7 +1913,7 @@ nadat2:PER-LM-PZA4062H a foaf:Person ;
     nam2:lunarBirthText "1965-03-12"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/PZA4062H.jpg> .
 
-nadat2:PER-LM-QD25323M a foaf:Person ;
+nadat2:PER-LM-QD25323M a nam2:Legislator ;
     rdfs:label "최혜영"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:QD25323M" ;
@@ -1926,7 +1926,7 @@ nadat2:PER-LM-QD25323M a foaf:Person ;
     nam2:lunarBirthText "1979-06-01"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/QD25323M.jpg> .
 
-nadat2:PER-LM-QHL3248U a foaf:Person ;
+nadat2:PER-LM-QHL3248U a nam2:Legislator ;
     rdfs:label "김남국"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:QHL3248U" ;
@@ -1939,7 +1939,7 @@ nadat2:PER-LM-QHL3248U a foaf:Person ;
     nam2:lunarBirthText "1982-10-22"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/QHL3248U.jpg> .
 
-nadat2:PER-LM-RO593601 a foaf:Person ;
+nadat2:PER-LM-RO593601 a nam2:Legislator ;
     rdfs:label "이동주"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:RO593601" ;
@@ -1952,7 +1952,7 @@ nadat2:PER-LM-RO593601 a foaf:Person ;
     nam2:lunarBirthText "1972-09-04"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/RO593601.jpg> .
 
-nadat2:PER-LM-S741317G a foaf:Person ;
+nadat2:PER-LM-S741317G a nam2:Legislator ;
     rdfs:label "조명희"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:S741317G" ;
@@ -1965,7 +1965,7 @@ nadat2:PER-LM-S741317G a foaf:Person ;
     nam2:lunarBirthText "1955-09-14"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/S741317G.jpg> .
 
-nadat2:PER-LM-SBK1544B a foaf:Person ;
+nadat2:PER-LM-SBK1544B a nam2:Legislator ;
     rdfs:label "정찬민"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:SBK1544B" ;
@@ -1978,7 +1978,7 @@ nadat2:PER-LM-SBK1544B a foaf:Person ;
     schema:birthDate "1958-05-16"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/SBK1544B.jpg> .
 
-nadat2:PER-LM-SE233396 a foaf:Person ;
+nadat2:PER-LM-SE233396 a nam2:Legislator ;
     rdfs:label "윤재갑"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:SE233396" ;
@@ -1991,7 +1991,7 @@ nadat2:PER-LM-SE233396 a foaf:Person ;
     nam2:lunarBirthText "1955-02-10"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/SE233396.jpg> .
 
-nadat2:PER-LM-SRP7336N a foaf:Person ;
+nadat2:PER-LM-SRP7336N a nam2:Legislator ;
     rdfs:label "신원식"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:SRP7336N" ;
@@ -2003,7 +2003,7 @@ nadat2:PER-LM-SRP7336N a foaf:Person ;
     nam2:lunarBirthText "1958-07-24"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/SRP7336N.jpg> .
 
-nadat2:PER-LM-SVH3899R a foaf:Person ;
+nadat2:PER-LM-SVH3899R a nam2:Legislator ;
     rdfs:label "김용판"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:SVH3899R" ;
@@ -2016,7 +2016,7 @@ nadat2:PER-LM-SVH3899R a foaf:Person ;
     schema:birthDate "1958-01-05"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/SVH3899R.jpg> .
 
-nadat2:PER-LM-TP066860 a foaf:Person ;
+nadat2:PER-LM-TP066860 a nam2:Legislator ;
     rdfs:label "정정순"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:TP066860" ;
@@ -2029,7 +2029,7 @@ nadat2:PER-LM-TP066860 a foaf:Person ;
     nam2:lunarBirthText "1958-01-19"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/TP066860.jpg> .
 
-nadat2:PER-LM-UB114374 a foaf:Person ;
+nadat2:PER-LM-UB114374 a nam2:Legislator ;
     rdfs:label "한무경"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:UB114374" ;
@@ -2042,7 +2042,7 @@ nadat2:PER-LM-UB114374 a foaf:Person ;
     nam2:lunarBirthText "1958-05-20"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/UB114374.jpg> .
 
-nadat2:PER-LM-USR7059P a foaf:Person ;
+nadat2:PER-LM-USR7059P a nam2:Legislator ;
     rdfs:label "정경희"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:USR7059P" ;
@@ -2055,7 +2055,7 @@ nadat2:PER-LM-USR7059P a foaf:Person ;
     nam2:lunarBirthText "1958-01-26"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/USR7059P.jpg> .
 
-nadat2:PER-LM-VG24001G a foaf:Person ;
+nadat2:PER-LM-VG24001G a nam2:Legislator ;
     rdfs:label "양금희"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:VG24001G" ;
@@ -2068,7 +2068,7 @@ nadat2:PER-LM-VG24001G a foaf:Person ;
     schema:birthDate "1961-11-15"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/VG24001G.jpg> .
 
-nadat2:PER-LM-W1Q6753M a foaf:Person ;
+nadat2:PER-LM-W1Q6753M a nam2:Legislator ;
     rdfs:label "이은주"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:W1Q6753M" ;
@@ -2081,7 +2081,7 @@ nadat2:PER-LM-W1Q6753M a foaf:Person ;
     nam2:lunarBirthText "1969-09-02"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/W1Q6753M.jpg> .
 
-nadat2:PER-LM-WFU14784 a foaf:Person ;
+nadat2:PER-LM-WFU14784 a nam2:Legislator ;
     rdfs:label "서정숙"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:WFU14784" ;
@@ -2094,7 +2094,7 @@ nadat2:PER-LM-WFU14784 a foaf:Person ;
     nam2:lunarBirthText "1953-02-18"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/WFU14784.jpg> .
 
-nadat2:PER-LM-WHV3448W a foaf:Person ;
+nadat2:PER-LM-WHV3448W a nam2:Legislator ;
     rdfs:label "양향자"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:WHV3448W" ;
@@ -2107,7 +2107,7 @@ nadat2:PER-LM-WHV3448W a foaf:Person ;
     nam2:lunarBirthText "1967-04-04"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/WHV3448W.jpg> .
 
-nadat2:PER-LM-WMG57662 a foaf:Person ;
+nadat2:PER-LM-WMG57662 a nam2:Legislator ;
     rdfs:label "강은미"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:WMG57662" ;
@@ -2120,7 +2120,7 @@ nadat2:PER-LM-WMG57662 a foaf:Person ;
     nam2:lunarBirthText "1970-09-06"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/WMG57662.jpg> .
 
-nadat2:PER-LM-XA42275R a foaf:Person ;
+nadat2:PER-LM-XA42275R a nam2:Legislator ;
     rdfs:label "홍정민"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:XA42275R" ;
@@ -2133,7 +2133,7 @@ nadat2:PER-LM-XA42275R a foaf:Person ;
     nam2:lunarBirthText "1978-11-24"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/XA42275R.jpg> .
 
-nadat2:PER-LM-XJC13432 a foaf:Person ;
+nadat2:PER-LM-XJC13432 a nam2:Legislator ;
     rdfs:label "태영호"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:XJC13432" ;
@@ -2146,7 +2146,7 @@ nadat2:PER-LM-XJC13432 a foaf:Person ;
     nam2:lunarBirthText "1962-07-25"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/XJC13432.jpg> .
 
-nadat2:PER-LM-XWX1513T a foaf:Person ;
+nadat2:PER-LM-XWX1513T a nam2:Legislator ;
     rdfs:label "윤영찬"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:XWX1513T" ;
@@ -2159,7 +2159,7 @@ nadat2:PER-LM-XWX1513T a foaf:Person ;
     nam2:lunarBirthText "1964-08-05"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/XWX1513T.jpg> .
 
-nadat2:PER-LM-Y7K5946R a foaf:Person ;
+nadat2:PER-LM-Y7K5946R a nam2:Legislator ;
     rdfs:label "지성호"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:Y7K5946R" ;
@@ -2172,7 +2172,7 @@ nadat2:PER-LM-Y7K5946R a foaf:Person ;
     nam2:lunarBirthText "1982-04-03"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/Y7K5946R.jpg> .
 
-nadat2:PER-LM-YLS4431M a foaf:Person ;
+nadat2:PER-LM-YLS4431M a nam2:Legislator ;
     rdfs:label "조수진"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:YLS4431M" ;
@@ -2185,7 +2185,7 @@ nadat2:PER-LM-YLS4431M a foaf:Person ;
     nam2:lunarBirthText "1972-06-19"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/YLS4431M.jpg> .
 
-nadat2:PER-LM-YTA7297R a foaf:Person ;
+nadat2:PER-LM-YTA7297R a nam2:Legislator ;
     rdfs:label "최영희"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:YTA7297R" ;
@@ -2198,7 +2198,7 @@ nadat2:PER-LM-YTA7297R a foaf:Person ;
     schema:birthDate "1951-06-02"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/YTA7297R.jpg> .
 
-nadat2:PER-LM-Z7Y7827F a foaf:Person ;
+nadat2:PER-LM-Z7Y7827F a nam2:Legislator ;
     rdfs:label "최종윤"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:Z7Y7827F" ;
@@ -2211,7 +2211,7 @@ nadat2:PER-LM-Z7Y7827F a foaf:Person ;
     nam2:lunarBirthText "1966-02-27"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/Z7Y7827F.jpg> .
 
-nadat2:PER-LM-ZDP5704Q a foaf:Person ;
+nadat2:PER-LM-ZDP5704Q a nam2:Legislator ;
     rdfs:label "윤주경"@ko ;
     dcterms:description "초선(제21대)"@ko ;
     dcterms:identifier "NAAS_CD:ZDP5704Q" ;
@@ -2224,7 +2224,7 @@ nadat2:PER-LM-ZDP5704Q a foaf:Person ;
     nam2:lunarBirthText "1959-05-03"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/ZDP5704Q.jpg> .
 
-nadat2:PER-LM-09I2323E a foaf:Person ;
+nadat2:PER-LM-09I2323E a nam2:Legislator ;
     rdfs:label "김한정"@ko ;
     dcterms:description "재선(제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:09I2323E" ;
@@ -2237,7 +2237,7 @@ nadat2:PER-LM-09I2323E a foaf:Person ;
     nam2:lunarBirthText "1963-09-06"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/09I2323E.jpg> .
 
-nadat2:PER-LM-0R68099X a foaf:Person ;
+nadat2:PER-LM-0R68099X a nam2:Legislator ;
     rdfs:label "이수진"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:0R68099X",
@@ -2254,7 +2254,7 @@ nadat2:PER-LM-0R68099X a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/813a596915cc475d89c50722ce5764bc.jpg> ;
     schema:telephone "02-784-6351" .
 
-nadat2:PER-LM-0YT3774N a foaf:Person ;
+nadat2:PER-LM-0YT3774N a nam2:Legislator ;
     rdfs:label "황운하"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:0YT3774N",
@@ -2270,7 +2270,7 @@ nadat2:PER-LM-0YT3774N a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/06c8428e6785477abb1f105fa11685b4.jpg> ;
     schema:telephone "02-784-1935" .
 
-nadat2:PER-LM-14M56632 a foaf:Person ;
+nadat2:PER-LM-14M56632 a nam2:Legislator ;
     rdfs:label "강기윤"@ko ;
     dcterms:description "재선(제19대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:14M56632" ;
@@ -2283,7 +2283,7 @@ nadat2:PER-LM-14M56632 a foaf:Person ;
     nam2:lunarBirthText "1960-06-04"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/14M56632.jpg> .
 
-nadat2:PER-LM-1MU99298 a foaf:Person ;
+nadat2:PER-LM-1MU99298 a nam2:Legislator ;
     rdfs:label "김철민"@ko ;
     dcterms:description "재선(제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:1MU99298" ;
@@ -2296,7 +2296,7 @@ nadat2:PER-LM-1MU99298 a foaf:Person ;
     nam2:lunarBirthText "1957-02-15"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/1MU99298.jpg> .
 
-nadat2:PER-LM-21N57758 a foaf:Person ;
+nadat2:PER-LM-21N57758 a nam2:Legislator ;
     rdfs:label "오영훈"@ko ;
     dcterms:description "재선(제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:21N57758" ;
@@ -2309,7 +2309,7 @@ nadat2:PER-LM-21N57758 a foaf:Person ;
     nam2:lunarBirthText "1968-12-14"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/21N57758.jpg> .
 
-nadat2:PER-LM-2NV6751W a foaf:Person ;
+nadat2:PER-LM-2NV6751W a nam2:Legislator ;
     rdfs:label "장철민"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:2NV6751W",
@@ -2326,7 +2326,7 @@ nadat2:PER-LM-2NV6751W a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/e37f006d030a4d14b04f17a0de512540.jpg> ;
     schema:telephone "02-784-2187" .
 
-nadat2:PER-LM-2UD1340H a foaf:Person ;
+nadat2:PER-LM-2UD1340H a nam2:Legislator ;
     rdfs:label "김성주"@ko ;
     dcterms:description "재선(제19대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:2UD1340H" ;
@@ -2339,7 +2339,7 @@ nadat2:PER-LM-2UD1340H a foaf:Person ;
     nam2:lunarBirthText "1964-04-10"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/2UD1340H.jpg> .
 
-nadat2:PER-LM-3BC6890E a foaf:Person ;
+nadat2:PER-LM-3BC6890E a nam2:Legislator ;
     rdfs:label "김미애"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:3BC6890E",
@@ -2356,7 +2356,7 @@ nadat2:PER-LM-3BC6890E a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/c1a5f2ce1f3c439cbe027e15722925f9.png> ;
     schema:telephone "02-784-5680" .
 
-nadat2:PER-LM-4L695580 a foaf:Person ;
+nadat2:PER-LM-4L695580 a nam2:Legislator ;
     rdfs:label "김원이"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:4L695580",
@@ -2373,7 +2373,7 @@ nadat2:PER-LM-4L695580 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/dfa2409a04254cf0bdb4ad2f86092099.jpg> ;
     schema:telephone "02-784-5080~2" .
 
-nadat2:PER-LM-4T026790 a foaf:Person ;
+nadat2:PER-LM-4T026790 a nam2:Legislator ;
     rdfs:label "임오경"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:4T026790",
@@ -2390,7 +2390,7 @@ nadat2:PER-LM-4T026790 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/ccf42d7a80b54c5f86bc3f9dcd544a99.jpg> ;
     schema:telephone "국회) 784-6396 광명) 2682-0415" .
 
-nadat2:PER-LM-4U29186R a foaf:Person ;
+nadat2:PER-LM-4U29186R a nam2:Legislator ;
     rdfs:label "문진석"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:4U29186R",
@@ -2407,7 +2407,7 @@ nadat2:PER-LM-4U29186R a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/81cfd832d09349ba95e28a111b700bfc.jpg> ;
     schema:telephone "02-784-9030" .
 
-nadat2:PER-LM-4X525582 a foaf:Person ;
+nadat2:PER-LM-4X525582 a nam2:Legislator ;
     rdfs:label "배현진"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:4X525582",
@@ -2423,7 +2423,7 @@ nadat2:PER-LM-4X525582 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/fc08975adb724900bfacc85909c69d02.png> ;
     schema:telephone "02-784-2062" .
 
-nadat2:PER-LM-5K93695T a foaf:Person ;
+nadat2:PER-LM-5K93695T a nam2:Legislator ;
     rdfs:label "김승수"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:5K93695T",
@@ -2440,7 +2440,7 @@ nadat2:PER-LM-5K93695T a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/ed6fa85a063842c59f5cfc4cca90eafb.jpg> ;
     schema:telephone "02-784-9518" .
 
-nadat2:PER-LM-5KV96424 a foaf:Person ;
+nadat2:PER-LM-5KV96424 a nam2:Legislator ;
     rdfs:label "강준현"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:5KV96424",
@@ -2457,7 +2457,7 @@ nadat2:PER-LM-5KV96424 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/cf61b325757141748e07e055e1541468.jpg> ;
     schema:telephone "02-784-6950" .
 
-nadat2:PER-LM-5MD4184K a foaf:Person ;
+nadat2:PER-LM-5MD4184K a nam2:Legislator ;
     rdfs:label "홍기원"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:5MD4184K",
@@ -2474,7 +2474,7 @@ nadat2:PER-LM-5MD4184K a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/5bc90241361f4d89b8c647297d88f394.jpg> ;
     schema:telephone "02-784-2577" .
 
-nadat2:PER-LM-60490713 a foaf:Person ;
+nadat2:PER-LM-60490713 a nam2:Legislator ;
     rdfs:label "강병원"@ko ;
     dcterms:description "재선(제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:60490713" ;
@@ -2487,7 +2487,7 @@ nadat2:PER-LM-60490713 a foaf:Person ;
     nam2:lunarBirthText "1971-07-09"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/60490713.jpg> .
 
-nadat2:PER-LM-6AR6743G a foaf:Person ;
+nadat2:PER-LM-6AR6743G a nam2:Legislator ;
     rdfs:label "김희국"@ko ;
     dcterms:description "재선(제19대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:6AR6743G" ;
@@ -2500,7 +2500,7 @@ nadat2:PER-LM-6AR6743G a foaf:Person ;
     nam2:lunarBirthText "1958-10-20"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/6AR6743G.jpg> .
 
-nadat2:PER-LM-6RD62559 a foaf:Person ;
+nadat2:PER-LM-6RD62559 a nam2:Legislator ;
     rdfs:label "박정하"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:6RD62559",
@@ -2517,7 +2517,7 @@ nadat2:PER-LM-6RD62559 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/7f00916d90f54cac993195490511242b.jpg> ;
     schema:telephone "02-784-2690" .
 
-nadat2:PER-LM-6U243644 a foaf:Person ;
+nadat2:PER-LM-6U243644 a nam2:Legislator ;
     rdfs:label "박형수"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:6U243644",
@@ -2533,7 +2533,7 @@ nadat2:PER-LM-6U243644 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/45a932e98e3545108741802f7193bf09.jpg> ;
     schema:telephone "02-784-4165" .
 
-nadat2:PER-LM-6V37131U a foaf:Person ;
+nadat2:PER-LM-6V37131U a nam2:Legislator ;
     rdfs:label "고용진"@ko ;
     dcterms:description "재선(제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:6V37131U" ;
@@ -2546,7 +2546,7 @@ nadat2:PER-LM-6V37131U a foaf:Person ;
     nam2:lunarBirthText "1964-08-06"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/6V37131U.jpg> .
 
-nadat2:PER-LM-7469929V a foaf:Person ;
+nadat2:PER-LM-7469929V a nam2:Legislator ;
     rdfs:label "구자근"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:7469929V",
@@ -2563,7 +2563,7 @@ nadat2:PER-LM-7469929V a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/009fb2abbde940579802b3494f132e85.jpg> ;
     schema:telephone "02-784-3190" .
 
-nadat2:PER-LM-8348421R a foaf:Person ;
+nadat2:PER-LM-8348421R a nam2:Legislator ;
     rdfs:label "엄태영"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:8348421R",
@@ -2580,7 +2580,7 @@ nadat2:PER-LM-8348421R a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/1c796117e6084fc0b8d6b5ee4e44c077.png> ;
     schema:telephone "02-6788-6756~9" .
 
-nadat2:PER-LM-8P37634C a foaf:Person ;
+nadat2:PER-LM-8P37634C a nam2:Legislator ;
     rdfs:label "강득구"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:8P37634C",
@@ -2597,7 +2597,7 @@ nadat2:PER-LM-8P37634C a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/0410a0c8e24b474cac2fd79c7700ca2f.jpg> ;
     schema:telephone "02-784-2747~9" .
 
-nadat2:PER-LM-8VY63414 a foaf:Person ;
+nadat2:PER-LM-8VY63414 a nam2:Legislator ;
     rdfs:label "류성걸"@ko ;
     dcterms:description "재선(제19대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:8VY63414" ;
@@ -2610,7 +2610,7 @@ nadat2:PER-LM-8VY63414 a foaf:Person ;
     nam2:lunarBirthText "1957-07-12"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/8VY63414.jpg> .
 
-nadat2:PER-LM-9JF4562W a foaf:Person ;
+nadat2:PER-LM-9JF4562W a nam2:Legislator ;
     rdfs:label "이용선"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:9JF4562W",
@@ -2627,7 +2627,7 @@ nadat2:PER-LM-9JF4562W a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/79cbe48e3fa3484fa90f07d64d3f638b.jpg> ;
     schema:telephone "02-784-7727" .
 
-nadat2:PER-LM-A0P4646G a foaf:Person ;
+nadat2:PER-LM-A0P4646G a nam2:Legislator ;
     rdfs:label "최형두"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:A0P4646G",
@@ -2644,7 +2644,7 @@ nadat2:PER-LM-A0P4646G a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/fbac5267e24343b98623752d6c854616.jpg> ;
     schema:telephone "02-784-1606" .
 
-nadat2:PER-LM-A494529E a foaf:Person ;
+nadat2:PER-LM-A494529E a nam2:Legislator ;
     rdfs:label "천준호"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:A494529E",
@@ -2661,7 +2661,7 @@ nadat2:PER-LM-A494529E a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/1ecd18672c604ef5a6c90dd06133006e.jpg> ;
     schema:telephone "02-784-0712" .
 
-nadat2:PER-LM-AFH96856 a foaf:Person ;
+nadat2:PER-LM-AFH96856 a nam2:Legislator ;
     rdfs:label "신영대"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:AFH96856",
@@ -2678,7 +2678,7 @@ nadat2:PER-LM-AFH96856 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/b06af2e0eb5947e6ae7bb416bfb0b677.jpg> ;
     schema:telephone "02-784-1524~6" .
 
-nadat2:PER-LM-ATB59635 a foaf:Person ;
+nadat2:PER-LM-ATB59635 a nam2:Legislator ;
     rdfs:label "김승원"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:ATB59635",
@@ -2695,7 +2695,7 @@ nadat2:PER-LM-ATB59635 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/06249610045b4c5487f9586046460423.jpg> ;
     schema:telephone "02-784-5285" .
 
-nadat2:PER-LM-B7D7534L a foaf:Person ;
+nadat2:PER-LM-B7D7534L a nam2:Legislator ;
     rdfs:label "김영배"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:B7D7534L",
@@ -2712,7 +2712,7 @@ nadat2:PER-LM-B7D7534L a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/c0f3221352c04fc1bb9b67d8342c75ff.jpg> ;
     schema:telephone "02-784-1521" .
 
-nadat2:PER-LM-B7R2742J a foaf:Person ;
+nadat2:PER-LM-B7R2742J a nam2:Legislator ;
     rdfs:label "기동민"@ko ;
     dcterms:description "재선(제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:B7R2742J" ;
@@ -2725,7 +2725,7 @@ nadat2:PER-LM-B7R2742J a foaf:Person ;
     nam2:lunarBirthText "1966-02-23"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/B7R2742J.jpg> .
 
-nadat2:PER-LM-BCQ55105 a foaf:Person ;
+nadat2:PER-LM-BCQ55105 a nam2:Legislator ;
     rdfs:label "한준호"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:BCQ55105",
@@ -2742,7 +2742,7 @@ nadat2:PER-LM-BCQ55105 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/b5057465eeae44a38be3efb878ac21aa.jpg> ;
     schema:telephone "02-784-9160" .
 
-nadat2:PER-LM-CAA7713A a foaf:Person ;
+nadat2:PER-LM-CAA7713A a nam2:Legislator ;
     rdfs:label "백종헌"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:CAA7713A",
@@ -2758,7 +2758,7 @@ nadat2:PER-LM-CAA7713A a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/335e79371cec41a7991431788b9fead9.jpg> ;
     schema:telephone "02-784-3977" .
 
-nadat2:PER-LM-CCU1009B a foaf:Person ;
+nadat2:PER-LM-CCU1009B a nam2:Legislator ;
     rdfs:label "이해식"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:CCU1009B",
@@ -2774,7 +2774,7 @@ nadat2:PER-LM-CCU1009B a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/931541823bd142f090e3b63461bbe976.jpg> ;
     schema:telephone "02-784-2171" .
 
-nadat2:PER-LM-CDL93608 a foaf:Person ;
+nadat2:PER-LM-CDL93608 a nam2:Legislator ;
     rdfs:label "조응천"@ko ;
     dcterms:description "재선(제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:CDL93608" ;
@@ -2787,7 +2787,7 @@ nadat2:PER-LM-CDL93608 a foaf:Person ;
     nam2:lunarBirthText "1962-09-17"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/CDL93608.jpg> .
 
-nadat2:PER-LM-CFE3998F a foaf:Person ;
+nadat2:PER-LM-CFE3998F a nam2:Legislator ;
     rdfs:label "이상직"@ko ;
     dcterms:description "재선(제19대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:CFE3998F" ;
@@ -2800,7 +2800,7 @@ nadat2:PER-LM-CFE3998F a foaf:Person ;
     schema:birthDate "1963-01-30"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/CFE3998F.jpg> .
 
-nadat2:PER-LM-CI15627C a foaf:Person ;
+nadat2:PER-LM-CI15627C a nam2:Legislator ;
     rdfs:label "김두관"@ko ;
     dcterms:description "재선(제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:CI15627C" ;
@@ -2813,7 +2813,7 @@ nadat2:PER-LM-CI15627C a foaf:Person ;
     nam2:lunarBirthText "1959-04-10"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/CI15627C.jpg> .
 
-nadat2:PER-LM-CNZ51556 a foaf:Person ;
+nadat2:PER-LM-CNZ51556 a nam2:Legislator ;
     rdfs:label "김예지"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:CNZ51556",
@@ -2829,7 +2829,7 @@ nadat2:PER-LM-CNZ51556 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/61dedb2de45941fcb00c98ab36eedaac.jpg> ;
     schema:telephone "02-784-9515" .
 
-nadat2:PER-LM-D0C85236 a foaf:Person ;
+nadat2:PER-LM-D0C85236 a nam2:Legislator ;
     rdfs:label "박완수"@ko ;
     dcterms:description "재선(제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:D0C85236" ;
@@ -2842,7 +2842,7 @@ nadat2:PER-LM-D0C85236 a foaf:Person ;
     schema:birthDate "1955-08-26"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/D0C85236.jpg> .
 
-nadat2:PER-LM-D6U6678O a foaf:Person ;
+nadat2:PER-LM-D6U6678O a nam2:Legislator ;
     rdfs:label "김주영"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:D6U6678O",
@@ -2859,7 +2859,7 @@ nadat2:PER-LM-D6U6678O a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/a3a36296e15c4c2990676f4047e80a4b.jpg> ;
     schema:telephone "02-784-5260" .
 
-nadat2:PER-LM-DAN6731C a foaf:Person ;
+nadat2:PER-LM-DAN6731C a nam2:Legislator ;
     rdfs:label "박성중"@ko ;
     dcterms:description "재선(제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:DAN6731C" ;
@@ -2872,7 +2872,7 @@ nadat2:PER-LM-DAN6731C a foaf:Person ;
     nam2:lunarBirthText "1958-08-01"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/DAN6731C.jpg> .
 
-nadat2:PER-LM-DAV7257X a foaf:Person ;
+nadat2:PER-LM-DAV7257X a nam2:Legislator ;
     rdfs:label "이원택"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:DAV7257X",
@@ -2888,7 +2888,7 @@ nadat2:PER-LM-DAV7257X a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/a5f99566188b43f090743efb17723e74.png> ;
     schema:telephone "02-6788-7031" .
 
-nadat2:PER-LM-DAY6557K a foaf:Person ;
+nadat2:PER-LM-DAY6557K a nam2:Legislator ;
     rdfs:label "정동만"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:DAY6557K",
@@ -2905,7 +2905,7 @@ nadat2:PER-LM-DAY6557K a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/4d3fb96df94348cbaf03b2f55604a407.jpg> ;
     schema:telephone "02-784-8071" .
 
-nadat2:PER-LM-DBA1057Z a foaf:Person ;
+nadat2:PER-LM-DBA1057Z a nam2:Legislator ;
     rdfs:label "이용호"@ko ;
     dcterms:description "재선(제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:DBA1057Z" ;
@@ -2918,7 +2918,7 @@ nadat2:PER-LM-DBA1057Z a foaf:Person ;
     nam2:lunarBirthText "1960-03-20"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/DBA1057Z.jpg> .
 
-nadat2:PER-LM-DWK26447 a foaf:Person ;
+nadat2:PER-LM-DWK26447 a nam2:Legislator ;
     rdfs:label "이인선"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:DWK26447",
@@ -2934,7 +2934,7 @@ nadat2:PER-LM-DWK26447 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/f7214149825143218b24268f4de14974.jpg> ;
     schema:telephone "02-784-7610" .
 
-nadat2:PER-LM-E6U4345C a foaf:Person ;
+nadat2:PER-LM-E6U4345C a nam2:Legislator ;
     rdfs:label "임종성"@ko ;
     dcterms:description "재선(제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:E6U4345C" ;
@@ -2947,7 +2947,7 @@ nadat2:PER-LM-E6U4345C a foaf:Person ;
     nam2:lunarBirthText "1965-08-05"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/E6U4345C.jpg> .
 
-nadat2:PER-LM-FH777496 a foaf:Person ;
+nadat2:PER-LM-FH777496 a nam2:Legislator ;
     rdfs:label "임호선"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:FH777496",
@@ -2964,7 +2964,7 @@ nadat2:PER-LM-FH777496 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/0bb103b226db4ab6945d9108ccd4d72d.png> ;
     schema:telephone "02-784-1730" .
 
-nadat2:PER-LM-FU53642G a foaf:Person ;
+nadat2:PER-LM-FU53642G a nam2:Legislator ;
     rdfs:label "허영"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:FU53642G",
@@ -2981,7 +2981,7 @@ nadat2:PER-LM-FU53642G a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/52e5baf2188242e8b7688e9ca3748bab.png> ;
     schema:telephone "02-784-1840~2" .
 
-nadat2:PER-LM-FU87526G a foaf:Person ;
+nadat2:PER-LM-FU87526G a nam2:Legislator ;
     rdfs:label "박수영"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:FU87526G",
@@ -2998,7 +2998,7 @@ nadat2:PER-LM-FU87526G a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/ada2071b2a3345ef86191fe5618bdf83.png> ;
     schema:telephone "02-784-3760" .
 
-nadat2:PER-LM-G1570880 a foaf:Person ;
+nadat2:PER-LM-G1570880 a nam2:Legislator ;
     rdfs:label "신동근"@ko ;
     dcterms:description "재선(제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:G1570880" ;
@@ -3010,7 +3010,7 @@ nadat2:PER-LM-G1570880 a foaf:Person ;
     schema:birthDate "1961-12-22"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/G1570880.jpg> .
 
-nadat2:PER-LM-GE71932C a foaf:Person ;
+nadat2:PER-LM-GE71932C a nam2:Legislator ;
     rdfs:label "용혜인"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:GE71932C",
@@ -3027,7 +3027,7 @@ nadat2:PER-LM-GE71932C a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/b71fbe23a11d45a9935a24fcfac4447b.png> ;
     schema:telephone "02-784-3063" .
 
-nadat2:PER-LM-GF286398 a foaf:Person ;
+nadat2:PER-LM-GF286398 a nam2:Legislator ;
     rdfs:label "김병주"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:GF286398",
@@ -3044,7 +3044,7 @@ nadat2:PER-LM-GF286398 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/2863494ebe84423d91ae48f2fb84b94e.png> ;
     schema:telephone "02-784-4177" .
 
-nadat2:PER-LM-GFF1986K a foaf:Person ;
+nadat2:PER-LM-GFF1986K a nam2:Legislator ;
     rdfs:label "김병욱"@ko ;
     dcterms:description "재선(제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:GFF1986K" ;
@@ -3057,7 +3057,7 @@ nadat2:PER-LM-GFF1986K a foaf:Person ;
     schema:birthDate "1965-04-15"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/GFF1986K.jpg> .
 
-nadat2:PER-LM-GOC54665 a foaf:Person ;
+nadat2:PER-LM-GOC54665 a nam2:Legislator ;
     rdfs:label "문정복"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:GOC54665",
@@ -3074,7 +3074,7 @@ nadat2:PER-LM-GOC54665 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/20e051935a914f069c35c6e00dc22d70.png> ;
     schema:telephone "02-784-9850" .
 
-nadat2:PER-LM-GP07421U a foaf:Person ;
+nadat2:PER-LM-GP07421U a nam2:Legislator ;
     rdfs:label "윤건영"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:GP07421U",
@@ -3091,7 +3091,7 @@ nadat2:PER-LM-GP07421U a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/86149364515f47e0a4b1cdeaec6f19ca.jpg> ;
     schema:telephone "02-784-1534" .
 
-nadat2:PER-LM-GX22581L a foaf:Person ;
+nadat2:PER-LM-GX22581L a nam2:Legislator ;
     rdfs:label "강민국"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:GX22581L",
@@ -3108,7 +3108,7 @@ nadat2:PER-LM-GX22581L a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/70f21f66d1ea471192858adb6f379299.png> ;
     schema:telephone "02-784-0797" .
 
-nadat2:PER-LM-HXT76735 a foaf:Person ;
+nadat2:PER-LM-HXT76735 a nam2:Legislator ;
     rdfs:label "박상혁"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:HXT76735",
@@ -3124,7 +3124,7 @@ nadat2:PER-LM-HXT76735 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/963e0c49236e4f5a83fb777e6225456b.jpg> ;
     schema:telephone "02-784-2417~9" .
 
-nadat2:PER-LM-I5I2468R a foaf:Person ;
+nadat2:PER-LM-I5I2468R a nam2:Legislator ;
     rdfs:label "최기상"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:I5I2468R",
@@ -3141,7 +3141,7 @@ nadat2:PER-LM-I5I2468R a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/d1a177cb53a84663853ccaba458d0fcd.PNG> ;
     schema:telephone "02-784-4990" .
 
-nadat2:PER-LM-IL74008M a foaf:Person ;
+nadat2:PER-LM-IL74008M a nam2:Legislator ;
     rdfs:label "박성준"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:IL74008M",
@@ -3158,7 +3158,7 @@ nadat2:PER-LM-IL74008M a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/519d508d60414f3bb2a4d8a578db1534.png> ;
     schema:telephone "02-784-8430" .
 
-nadat2:PER-LM-IUD9392R a foaf:Person ;
+nadat2:PER-LM-IUD9392R a nam2:Legislator ;
     rdfs:label "이재명"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "NAAS_CD:IUD9392R" ;
@@ -3171,7 +3171,7 @@ nadat2:PER-LM-IUD9392R a foaf:Person ;
     nam2:lunarBirthText "1964-12-22"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/IUD9392R.jpg> .
 
-nadat2:PER-LM-JC14718Q a foaf:Person ;
+nadat2:PER-LM-JC14718Q a nam2:Legislator ;
     rdfs:label "윤준병"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:JC14718Q",
@@ -3188,7 +3188,7 @@ nadat2:PER-LM-JC14718Q a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/8a8c40f46a47462ba0708e6c6ee8053f.jpg> ;
     schema:telephone "02-784-1860" .
 
-nadat2:PER-LM-JEZ3130Q a foaf:Person ;
+nadat2:PER-LM-JEZ3130Q a nam2:Legislator ;
     rdfs:label "김형동"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:JEZ3130Q",
@@ -3205,7 +3205,7 @@ nadat2:PER-LM-JEZ3130Q a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/a8666f5ad131416fb853f840dc4d66e6.jpg> ;
     schema:telephone "02-6788-6356" .
 
-nadat2:PER-LM-JNL7001A a foaf:Person ;
+nadat2:PER-LM-JNL7001A a nam2:Legislator ;
     rdfs:label "김선교"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:JNL7001A",
@@ -3221,7 +3221,7 @@ nadat2:PER-LM-JNL7001A a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/c46ff6eaebc3441393b42d4e36d7a8c6.jpg> ;
     schema:telephone "02-784-2491" .
 
-nadat2:PER-LM-KFM1081G a foaf:Person ;
+nadat2:PER-LM-KFM1081G a nam2:Legislator ;
     rdfs:label "장동혁"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:KFM1081G",
@@ -3238,7 +3238,7 @@ nadat2:PER-LM-KFM1081G a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/b2f14aea45064028b066431bce8d2d54.png> ;
     schema:telephone "02-784-2174" .
 
-nadat2:PER-LM-L2I9861C a foaf:Person ;
+nadat2:PER-LM-L2I9861C a nam2:Legislator ;
     rdfs:label "강대식"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:L2I9861C",
@@ -3254,7 +3254,7 @@ nadat2:PER-LM-L2I9861C a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/d1fe9f0902d84f0ba74f721d3298be7f.png> ;
     schema:telephone "02-784-5275" .
 
-nadat2:PER-LM-L5P27909 a foaf:Person ;
+nadat2:PER-LM-L5P27909 a nam2:Legislator ;
     rdfs:label "김은혜"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:L5P27909",
@@ -3271,7 +3271,7 @@ nadat2:PER-LM-L5P27909 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/2d0fedee640c4683b571177b2f21e1c2.jpg> ;
     schema:telephone "02-784-1238" .
 
-nadat2:PER-LM-L7J93733 a foaf:Person ;
+nadat2:PER-LM-L7J93733 a nam2:Legislator ;
     rdfs:label "서범수"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:L7J93733",
@@ -3287,7 +3287,7 @@ nadat2:PER-LM-L7J93733 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/dc9bc21d63ef4cd5968a27eadd34e0f6.jpg> ;
     schema:telephone "02-784-6277" .
 
-nadat2:PER-LM-LNR7932L a foaf:Person ;
+nadat2:PER-LM-LNR7932L a nam2:Legislator ;
     rdfs:label "김진애"@ko ;
     dcterms:description "재선(제18대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:LNR7932L" ;
@@ -3300,7 +3300,7 @@ nadat2:PER-LM-LNR7932L a foaf:Person ;
     schema:birthDate "1953-02-16"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/LNR7932L.jpg> .
 
-nadat2:PER-LM-LPB30152 a foaf:Person ;
+nadat2:PER-LM-LPB30152 a nam2:Legislator ;
     rdfs:label "최인호"@ko ;
     dcterms:description "재선(제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:LPB30152" ;
@@ -3313,7 +3313,7 @@ nadat2:PER-LM-LPB30152 a foaf:Person ;
     nam2:lunarBirthText "1966-10-15"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/LPB30152.jpg> .
 
-nadat2:PER-LM-LT72093S a foaf:Person ;
+nadat2:PER-LM-LT72093S a nam2:Legislator ;
     rdfs:label "정일영"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:LT72093S",
@@ -3330,7 +3330,7 @@ nadat2:PER-LM-LT72093S a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/e1dca300e9d74ec0a5dfaca85efdfe61.jpg> ;
     schema:telephone "02-784-6651~3" .
 
-nadat2:PER-LM-MD083627 a foaf:Person ;
+nadat2:PER-LM-MD083627 a nam2:Legislator ;
     rdfs:label "정춘숙"@ko ;
     dcterms:description "재선(제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:MD083627" ;
@@ -3343,7 +3343,7 @@ nadat2:PER-LM-MD083627 a foaf:Person ;
     nam2:lunarBirthText "1964-01-08"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/MD083627.jpg> .
 
-nadat2:PER-LM-MHK9919B a foaf:Person ;
+nadat2:PER-LM-MHK9919B a nam2:Legislator ;
     rdfs:label "곽상도"@ko ;
     dcterms:description "재선(제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:MHK9919B" ;
@@ -3356,7 +3356,7 @@ nadat2:PER-LM-MHK9919B a foaf:Person ;
     nam2:lunarBirthText "1959-12-23"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/MHK9919B.jpg> .
 
-nadat2:PER-LM-MNZ4401T a foaf:Person ;
+nadat2:PER-LM-MNZ4401T a nam2:Legislator ;
     rdfs:label "강선우"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:MNZ4401T",
@@ -3373,7 +3373,7 @@ nadat2:PER-LM-MNZ4401T a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/20176db75bd943df8714cc2d9a686ff7.jpg> ;
     schema:telephone "02-784-5761~3" .
 
-nadat2:PER-LM-MQU41854 a foaf:Person ;
+nadat2:PER-LM-MQU41854 a nam2:Legislator ;
     rdfs:label "조은희"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:MQU41854",
@@ -3390,7 +3390,7 @@ nadat2:PER-LM-MQU41854 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/67f9e0c2b48249b3b008743913f7ca25.jpg> ;
     schema:telephone "02-784-3770" .
 
-nadat2:PER-LM-MR210505 a foaf:Person ;
+nadat2:PER-LM-MR210505 a nam2:Legislator ;
     rdfs:label "서일준"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:MR210505",
@@ -3407,7 +3407,7 @@ nadat2:PER-LM-MR210505 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/fcbf1b4b1aa24151a28e85b4d190291c.jpg> ;
     schema:telephone "02-784-1797" .
 
-nadat2:PER-LM-MU69217P a foaf:Person ;
+nadat2:PER-LM-MU69217P a nam2:Legislator ;
     rdfs:label "유상범"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:MU69217P",
@@ -3424,7 +3424,7 @@ nadat2:PER-LM-MU69217P a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/9d4701db5dcd4eafa39d36c1dbc44e47.jpg> ;
     schema:telephone "02-784-4760" .
 
-nadat2:PER-LM-NUB4941Z a foaf:Person ;
+nadat2:PER-LM-NUB4941Z a nam2:Legislator ;
     rdfs:label "김한규"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:NUB4941Z",
@@ -3441,7 +3441,7 @@ nadat2:PER-LM-NUB4941Z a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/c5607570161f4879b98311c104e21485.jpg> ;
     schema:telephone "02-784-5621" .
 
-nadat2:PER-LM-NZF1659U a foaf:Person ;
+nadat2:PER-LM-NZF1659U a nam2:Legislator ;
     rdfs:label "정운천"@ko ;
     dcterms:description "재선(제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:NZF1659U" ;
@@ -3454,7 +3454,7 @@ nadat2:PER-LM-NZF1659U a foaf:Person ;
     nam2:lunarBirthText "1954-04-10"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/NZF1659U.jpg> .
 
-nadat2:PER-LM-O0I2045I a foaf:Person ;
+nadat2:PER-LM-O0I2045I a nam2:Legislator ;
     rdfs:label "이정문"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:O0I2045I",
@@ -3471,7 +3471,7 @@ nadat2:PER-LM-O0I2045I a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/e9e80a7f853440fbae403bdc797d44fe.png> ;
     schema:telephone "02-784-2350" .
 
-nadat2:PER-LM-OFE45081 a foaf:Person ;
+nadat2:PER-LM-OFE45081 a nam2:Legislator ;
     rdfs:label "김용민"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:OFE45081",
@@ -3488,7 +3488,7 @@ nadat2:PER-LM-OFE45081 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/e8f8918e741b4ae9b72377d8ec299645.png> ;
     schema:telephone "02-784-1530" .
 
-nadat2:PER-LM-OIA3741M a foaf:Person ;
+nadat2:PER-LM-OIA3741M a nam2:Legislator ;
     rdfs:label "오기형"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:OIA3741M",
@@ -3505,7 +3505,7 @@ nadat2:PER-LM-OIA3741M a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/d1e20e55ce3d4ab3b4fce9b81cbf2989.jpg> ;
     schema:telephone "02-784-4071" .
 
-nadat2:PER-LM-P2N4585G a foaf:Person ;
+nadat2:PER-LM-P2N4585G a nam2:Legislator ;
     rdfs:label "김승남"@ko ;
     dcterms:description "재선(제19대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:P2N4585G" ;
@@ -3518,7 +3518,7 @@ nadat2:PER-LM-P2N4585G a foaf:Person ;
     schema:birthDate "1965-10-06"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/P2N4585G.jpg> .
 
-nadat2:PER-LM-PEP6922S a foaf:Person ;
+nadat2:PER-LM-PEP6922S a nam2:Legislator ;
     rdfs:label "박용진"@ko ;
     dcterms:description "재선(제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:PEP6922S" ;
@@ -3531,7 +3531,7 @@ nadat2:PER-LM-PEP6922S a foaf:Person ;
     nam2:lunarBirthText "1971-04-17"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/PEP6922S.jpg> .
 
-nadat2:PER-LM-PFG2137X a foaf:Person ;
+nadat2:PER-LM-PFG2137X a nam2:Legislator ;
     rdfs:label "정희용"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:PFG2137X",
@@ -3547,7 +3547,7 @@ nadat2:PER-LM-PFG2137X a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/0d948db5655245a6afac2fa7beb66e81.png> ;
     schema:telephone "02-784-8540" .
 
-nadat2:PER-LM-QQP4727N a foaf:Person ;
+nadat2:PER-LM-QQP4727N a nam2:Legislator ;
     rdfs:label "배준영"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:QQP4727N",
@@ -3563,7 +3563,7 @@ nadat2:PER-LM-QQP4727N a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/c0680ca1b0ca410191f6597484db924f.png> ;
     schema:telephone "02-784-5087" .
 
-nadat2:PER-LM-QTW6852F a foaf:Person ;
+nadat2:PER-LM-QTW6852F a nam2:Legislator ;
     rdfs:label "이태규"@ko ;
     dcterms:description "재선(제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:QTW6852F" ;
@@ -3576,7 +3576,7 @@ nadat2:PER-LM-QTW6852F a foaf:Person ;
     nam2:lunarBirthText "1964-03-22"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/QTW6852F.jpg> .
 
-nadat2:PER-LM-QUM8288K a foaf:Person ;
+nadat2:PER-LM-QUM8288K a nam2:Legislator ;
     rdfs:label "이달곤"@ko ;
     dcterms:description "재선(제18대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:QUM8288K" ;
@@ -3589,7 +3589,7 @@ nadat2:PER-LM-QUM8288K a foaf:Person ;
     nam2:lunarBirthText "1953-09-11"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/QUM8288K.jpg> .
 
-nadat2:PER-LM-QUO78839 a foaf:Person ;
+nadat2:PER-LM-QUO78839 a nam2:Legislator ;
     rdfs:label "박재호"@ko ;
     dcterms:description "재선(제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:QUO78839" ;
@@ -3602,7 +3602,7 @@ nadat2:PER-LM-QUO78839 a foaf:Person ;
     schema:birthDate "1959-02-13"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/QUO78839.jpg> .
 
-nadat2:PER-LM-RD42006Y a foaf:Person ;
+nadat2:PER-LM-RD42006Y a nam2:Legislator ;
     rdfs:label "송갑석"@ko ;
     dcterms:description "재선(제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:RD42006Y" ;
@@ -3615,7 +3615,7 @@ nadat2:PER-LM-RD42006Y a foaf:Person ;
     nam2:lunarBirthText "1966-10-10"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/RD42006Y.jpg> .
 
-nadat2:PER-LM-RPN2293B a foaf:Person ;
+nadat2:PER-LM-RPN2293B a nam2:Legislator ;
     rdfs:label "장경태"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:RPN2293B",
@@ -3632,7 +3632,7 @@ nadat2:PER-LM-RPN2293B a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/efaef493a77043fd87f6c3ef1077bafd.jpg> ;
     schema:telephone "02-784-3106" .
 
-nadat2:PER-LM-SZ51175J a foaf:Person ;
+nadat2:PER-LM-SZ51175J a nam2:Legislator ;
     rdfs:label "이자스민"@ko ;
     dcterms:description "재선(제19대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:SZ51175J" ;
@@ -3645,7 +3645,7 @@ nadat2:PER-LM-SZ51175J a foaf:Person ;
     nam2:lunarBirthText "1977-01-06"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/SZ51175J.jpg> .
 
-nadat2:PER-LM-T465023H a foaf:Person ;
+nadat2:PER-LM-T465023H a nam2:Legislator ;
     rdfs:label "주철현"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:T465023H",
@@ -3662,7 +3662,7 @@ nadat2:PER-LM-T465023H a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/7a6b0d6426f6474e9e2ec55ff6f18045.jpg> ;
     schema:telephone "02-784-6341~3" .
 
-nadat2:PER-LM-TJW93720 a foaf:Person ;
+nadat2:PER-LM-TJW93720 a nam2:Legislator ;
     rdfs:label "전용기"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:TJW93720",
@@ -3679,7 +3679,7 @@ nadat2:PER-LM-TJW93720 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/7ebec69fa93042139121370390887458.png> ;
     schema:telephone "02-784-2843" .
 
-nadat2:PER-LM-TZ228122 a foaf:Person ;
+nadat2:PER-LM-TZ228122 a nam2:Legislator ;
     rdfs:label "민병덕"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:TZ228122",
@@ -3696,7 +3696,7 @@ nadat2:PER-LM-TZ228122 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/79413446d5564edd90faa2a1b279f9e8.jpg> ;
     schema:telephone "02-784-9540" .
 
-nadat2:PER-LM-UHB5553T a foaf:Person ;
+nadat2:PER-LM-UHB5553T a nam2:Legislator ;
     rdfs:label "정태호"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:UHB5553T",
@@ -3713,7 +3713,7 @@ nadat2:PER-LM-UHB5553T a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/4102e3f5e32448a890f3f213bc0976ae.png> ;
     schema:telephone "02-784-5073" .
 
-nadat2:PER-LM-VCP96419 a foaf:Person ;
+nadat2:PER-LM-VCP96419 a nam2:Legislator ;
     rdfs:label "허종식"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:VCP96419",
@@ -3730,7 +3730,7 @@ nadat2:PER-LM-VCP96419 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/339cde11231c491fa74e47d685b0dbc4.jpg> ;
     schema:telephone "02-784-8870" .
 
-nadat2:PER-LM-VRY5522V a foaf:Person ;
+nadat2:PER-LM-VRY5522V a nam2:Legislator ;
     rdfs:label "민형배"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:VRY5522V",
@@ -3746,7 +3746,7 @@ nadat2:PER-LM-VRY5522V a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/d8e518134ac540cc8f68fa4655e351df.png> ;
     schema:telephone "02-6788-6426" .
 
-nadat2:PER-LM-WCD5518S a foaf:Person ;
+nadat2:PER-LM-WCD5518S a nam2:Legislator ;
     rdfs:label "고민정"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:WCD5518S",
@@ -3763,7 +3763,7 @@ nadat2:PER-LM-WCD5518S a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/d0dbd25d7bc04abdbf2775200feacebb.jpg> ;
     schema:telephone "02-784-4630" .
 
-nadat2:PER-LM-WJL30106 a foaf:Person ;
+nadat2:PER-LM-WJL30106 a nam2:Legislator ;
     rdfs:label "조정훈"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:WJL30106",
@@ -3780,7 +3780,7 @@ nadat2:PER-LM-WJL30106 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/adbf0bf5375e47fba83d7834d3e70a0d.jpg> ;
     schema:telephone "02-784-2181" .
 
-nadat2:PER-LM-WTR5885Y a foaf:Person ;
+nadat2:PER-LM-WTR5885Y a nam2:Legislator ;
     rdfs:label "이소영"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:WTR5885Y",
@@ -3797,7 +3797,7 @@ nadat2:PER-LM-WTR5885Y a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/ecb476c1bd0747d8b310964db044aa9f.jpg> ;
     schema:telephone "02-784-1051" .
 
-nadat2:PER-LM-WVU2479T a foaf:Person ;
+nadat2:PER-LM-WVU2479T a nam2:Legislator ;
     rdfs:label "이상헌"@ko ;
     dcterms:description "재선(제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:WVU2479T" ;
@@ -3810,7 +3810,7 @@ nadat2:PER-LM-WVU2479T a foaf:Person ;
     nam2:lunarBirthText "1954-07-10"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/WVU2479T.jpg> .
 
-nadat2:PER-LM-X3170462 a foaf:Person ;
+nadat2:PER-LM-X3170462 a nam2:Legislator ;
     rdfs:label "박성민"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:X3170462",
@@ -3827,7 +3827,7 @@ nadat2:PER-LM-X3170462 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/be7cbbb1752146ae809622d1e3da80d4.png> ;
     schema:telephone "02-784-1258" .
 
-nadat2:PER-LM-XR24352K a foaf:Person ;
+nadat2:PER-LM-XR24352K a nam2:Legislator ;
     rdfs:label "서영석"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:XR24352K",
@@ -3844,7 +3844,7 @@ nadat2:PER-LM-XR24352K a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/bdf94a0756144b4a9ff6e71eb8bed16e.jpg> ;
     schema:telephone "02-784-9671" .
 
-nadat2:PER-LM-0VU8517U a foaf:Person ;
+nadat2:PER-LM-0VU8517U a nam2:Legislator ;
     rdfs:label "황희"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:0VU8517U",
@@ -3861,7 +3861,7 @@ nadat2:PER-LM-0VU8517U a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/99e78cb9dfd447fb8ef4bb0dfb51b79c.jpg> ;
     schema:telephone "02-784-8551" .
 
-nadat2:PER-LM-16D7652C a foaf:Person ;
+nadat2:PER-LM-16D7652C a nam2:Legislator ;
     rdfs:label "이원욱"@ko ;
     dcterms:description "3선(제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:16D7652C" ;
@@ -3874,7 +3874,7 @@ nadat2:PER-LM-16D7652C a foaf:Person ;
     nam2:lunarBirthText "1963-03-20"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/16D7652C.jpg> .
 
-nadat2:PER-LM-3249208I a foaf:Person ;
+nadat2:PER-LM-3249208I a nam2:Legislator ;
     rdfs:label "송옥주"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:3249208I",
@@ -3891,7 +3891,7 @@ nadat2:PER-LM-3249208I a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/93e541edffd440d6b5ee9a683b5342ae.jpg> ;
     schema:telephone "02-6788-6661" .
 
-nadat2:PER-LM-3C23171A a foaf:Person ;
+nadat2:PER-LM-3C23171A a nam2:Legislator ;
     rdfs:label "진성준"@ko ;
     dcterms:description "3선(제19대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:3C23171A",
@@ -3908,7 +3908,7 @@ nadat2:PER-LM-3C23171A a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/6b3400f4040e4d6bb354d1f758717055.jpg> ;
     schema:telephone "02-784-5725" .
 
-nadat2:PER-LM-4019850M a foaf:Person ;
+nadat2:PER-LM-4019850M a nam2:Legislator ;
     rdfs:label "박정"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:4019850M",
@@ -3925,7 +3925,7 @@ nadat2:PER-LM-4019850M a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/152aafe19d524e949398c1807d54fc7a.jpg> ;
     schema:telephone "02-784-3781" .
 
-nadat2:PER-LM-4A067125 a foaf:Person ;
+nadat2:PER-LM-4A067125 a nam2:Legislator ;
     rdfs:label "이광재"@ko ;
     dcterms:description "3선(제17대, 제18대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:4A067125" ;
@@ -3938,7 +3938,7 @@ nadat2:PER-LM-4A067125 a foaf:Person ;
     schema:birthDate "1965-02-28"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/4A067125.jpg> .
 
-nadat2:PER-LM-5765663F a foaf:Person ;
+nadat2:PER-LM-5765663F a nam2:Legislator ;
     rdfs:label "김영진"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:5765663F",
@@ -3954,7 +3954,7 @@ nadat2:PER-LM-5765663F a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/4a532fc2b0bf46fd81d7d51ea73c61be.jpg> ;
     schema:telephone "02-784-8410" .
 
-nadat2:PER-LM-6AU2417B a foaf:Person ;
+nadat2:PER-LM-6AU2417B a nam2:Legislator ;
     rdfs:label "박주민"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:6AU2417B",
@@ -3971,7 +3971,7 @@ nadat2:PER-LM-6AU2417B a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/4e926bae67ad43a6a87ad68da8d0c0fe.png> ;
     schema:telephone "02-784-8690" .
 
-nadat2:PER-LM-6EN68926 a foaf:Person ;
+nadat2:PER-LM-6EN68926 a nam2:Legislator ;
     rdfs:label "송언석"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:6EN68926",
@@ -3986,7 +3986,7 @@ nadat2:PER-LM-6EN68926 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/b3c309f7dfd34dd486d7f60acfcd3254.JPG> ;
     schema:telephone "02-784-3011" .
 
-nadat2:PER-LM-7BM2933Y a foaf:Person ;
+nadat2:PER-LM-7BM2933Y a nam2:Legislator ;
     rdfs:label "김영호"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:7BM2933Y",
@@ -4003,7 +4003,7 @@ nadat2:PER-LM-7BM2933Y a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/3567968cbf624c2a93cc299e39bee78f.png> ;
     schema:telephone "02-784-4020~2" .
 
-nadat2:PER-LM-7XY7109I a foaf:Person ;
+nadat2:PER-LM-7XY7109I a nam2:Legislator ;
     rdfs:label "성일종"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:7XY7109I",
@@ -4020,7 +4020,7 @@ nadat2:PER-LM-7XY7109I a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/8ac7d150f3434b12a31e2d441beea36c.jpg> ;
     schema:telephone "02-784-6290" .
 
-nadat2:PER-LM-8FB1535Y a foaf:Person ;
+nadat2:PER-LM-8FB1535Y a nam2:Legislator ;
     rdfs:label "어기구"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:8FB1535Y",
@@ -4037,7 +4037,7 @@ nadat2:PER-LM-8FB1535Y a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/11132cfead5b4e7abbbf2021ab37033c.jpg> ;
     schema:telephone "02-784-1368" .
 
-nadat2:PER-LM-8FC9697X a foaf:Person ;
+nadat2:PER-LM-8FC9697X a nam2:Legislator ;
     rdfs:label "유기홍"@ko ;
     dcterms:description "3선(제17대, 제19대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:8FC9697X" ;
@@ -4050,7 +4050,7 @@ nadat2:PER-LM-8FC9697X a foaf:Person ;
     nam2:lunarBirthText "1958-06-11"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/8FC9697X.jpg> .
 
-nadat2:PER-LM-8Q88373R a foaf:Person ;
+nadat2:PER-LM-8Q88373R a nam2:Legislator ;
     rdfs:label "김병기"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:8Q88373R",
@@ -4067,7 +4067,7 @@ nadat2:PER-LM-8Q88373R a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/cbfebf9f86b047648b600a3879b7cfd2.png> ;
     schema:telephone "02-784-1322" .
 
-nadat2:PER-LM-8X15119P a foaf:Person ;
+nadat2:PER-LM-8X15119P a nam2:Legislator ;
     rdfs:label "윤한홍"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:8X15119P",
@@ -4083,7 +4083,7 @@ nadat2:PER-LM-8X15119P a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/d175dc8a752d47059aa74a230ee93a5c.jpg> ;
     schema:telephone "02-784-2371" .
 
-nadat2:PER-LM-9D939735 a foaf:Person ;
+nadat2:PER-LM-9D939735 a nam2:Legislator ;
     rdfs:label "김성원"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:9D939735",
@@ -4100,7 +4100,7 @@ nadat2:PER-LM-9D939735 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/0883fdfd169248c19f2311f26e1c2577.jpg> ;
     schema:telephone "02-784-6566" .
 
-nadat2:PER-LM-9LD2641Q a foaf:Person ;
+nadat2:PER-LM-9LD2641Q a nam2:Legislator ;
     rdfs:label "김정호"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:9LD2641Q",
@@ -4117,7 +4117,7 @@ nadat2:PER-LM-9LD2641Q a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/7d6d00c690814834bdd1fb1c5905a5ef.png> ;
     schema:telephone "02-784-5871" .
 
-nadat2:PER-LM-9YO73104 a foaf:Person ;
+nadat2:PER-LM-9YO73104 a nam2:Legislator ;
     rdfs:label "전재수"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:9YO73104",
@@ -4134,7 +4134,7 @@ nadat2:PER-LM-9YO73104 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/98a995d70d4c4c7381d92d701f67ee97.jpg> ;
     schema:telephone "02-784-7431" .
 
-nadat2:PER-LM-A3H7195R a foaf:Person ;
+nadat2:PER-LM-A3H7195R a nam2:Legislator ;
     rdfs:label "박완주"@ko ;
     dcterms:description "3선(제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:A3H7195R" ;
@@ -4147,7 +4147,7 @@ nadat2:PER-LM-A3H7195R a foaf:Person ;
     nam2:lunarBirthText "1966-11-10"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/A3H7195R.jpg> .
 
-nadat2:PER-LM-BM63269Y a foaf:Person ;
+nadat2:PER-LM-BM63269Y a nam2:Legislator ;
     rdfs:label "전해철"@ko ;
     dcterms:description "3선(제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:BM63269Y" ;
@@ -4160,7 +4160,7 @@ nadat2:PER-LM-BM63269Y a foaf:Person ;
     nam2:lunarBirthText "1962-05-18"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/BM63269Y.jpg> .
 
-nadat2:PER-LM-BT62420K a foaf:Person ;
+nadat2:PER-LM-BT62420K a nam2:Legislator ;
     rdfs:label "박찬대"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:BT62420K",
@@ -4177,7 +4177,7 @@ nadat2:PER-LM-BT62420K a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/df6098be66f542dea93990a7745f239c.png> ;
     schema:telephone "02-784-5477" .
 
-nadat2:PER-LM-C7E79345 a foaf:Person ;
+nadat2:PER-LM-C7E79345 a nam2:Legislator ;
     rdfs:label "권칠승"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:C7E79345",
@@ -4194,7 +4194,7 @@ nadat2:PER-LM-C7E79345 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/732a1459c8554b999d8c248d703d8fa2.png> ;
     schema:telephone "02-784-1250" .
 
-nadat2:PER-LM-CNW5754J a foaf:Person ;
+nadat2:PER-LM-CNW5754J a nam2:Legislator ;
     rdfs:label "송석준"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:CNW5754J",
@@ -4211,7 +4211,7 @@ nadat2:PER-LM-CNW5754J a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/21eedc628d844950876d6cdb52a5988a.png> ;
     schema:telephone "02-784-3161" .
 
-nadat2:PER-LM-CZB4125D a foaf:Person ;
+nadat2:PER-LM-CZB4125D a nam2:Legislator ;
     rdfs:label "장제원"@ko ;
     dcterms:description "3선(제18대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:CZB4125D" ;
@@ -4224,7 +4224,7 @@ nadat2:PER-LM-CZB4125D a foaf:Person ;
     nam2:lunarBirthText "1967-04-13"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/CZB4125D.jpg> .
 
-nadat2:PER-LM-E1J8836Y a foaf:Person ;
+nadat2:PER-LM-E1J8836Y a nam2:Legislator ;
     rdfs:label "김정재"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:E1J8836Y",
@@ -4240,7 +4240,7 @@ nadat2:PER-LM-E1J8836Y a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/82a52130b3cd42949f08c91c95b1bd54.png> ;
     schema:telephone "02-784-6831" .
 
-nadat2:PER-LM-EH27538E a foaf:Person ;
+nadat2:PER-LM-EH27538E a nam2:Legislator ;
     rdfs:label "임이자"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:EH27538E",
@@ -4257,7 +4257,7 @@ nadat2:PER-LM-EH27538E a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/c7818d8fbee2421b93382a592e6f096e.png> ;
     schema:telephone "02-784-6970" .
 
-nadat2:PER-LM-FJK3396E a foaf:Person ;
+nadat2:PER-LM-FJK3396E a nam2:Legislator ;
     rdfs:label "맹성규"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:FJK3396E",
@@ -4274,7 +4274,7 @@ nadat2:PER-LM-FJK3396E a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/250f36e411ab4b34bf0eb7fcadfbadf7.jpg> ;
     schema:telephone "02-784-6181, 032-466-9100" .
 
-nadat2:PER-LM-FOK3459D a foaf:Person ;
+nadat2:PER-LM-FOK3459D a nam2:Legislator ;
     rdfs:label "서삼석"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:FOK3459D",
@@ -4291,7 +4291,7 @@ nadat2:PER-LM-FOK3459D a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/3733addd041f4802ade12300546171b1.jpg> ;
     schema:telephone "02-784-9501" .
 
-nadat2:PER-LM-FRN1867O a foaf:Person ;
+nadat2:PER-LM-FRN1867O a nam2:Legislator ;
     rdfs:label "홍익표"@ko ;
     dcterms:description "3선(제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:FRN1867O" ;
@@ -4304,7 +4304,7 @@ nadat2:PER-LM-FRN1867O a foaf:Person ;
     nam2:lunarBirthText "1967-11-20"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/FRN1867O.jpg> .
 
-nadat2:PER-LM-FYI20317 a foaf:Person ;
+nadat2:PER-LM-FYI20317 a nam2:Legislator ;
     rdfs:label "조승래"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:FYI20317",
@@ -4321,7 +4321,7 @@ nadat2:PER-LM-FYI20317 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/9e7bee59f70f453e9fad4939bd7f72c2.jpg> ;
     schema:telephone "02-784-2640" .
 
-nadat2:PER-LM-G152611B a foaf:Person ;
+nadat2:PER-LM-G152611B a nam2:Legislator ;
     rdfs:label "추경호"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:G152611B",
@@ -4338,7 +4338,7 @@ nadat2:PER-LM-G152611B a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/c7d6cfa2eaa14041bb6408aba44ae0ab.png> ;
     schema:telephone "02-784-8946" .
 
-nadat2:PER-LM-GX38539O a foaf:Person ;
+nadat2:PER-LM-GX38539O a nam2:Legislator ;
     rdfs:label "유동수"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:GX38539O",
@@ -4355,7 +4355,7 @@ nadat2:PER-LM-GX38539O a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/a3a3255943634cd6ade1fa08d7e19144.png> ;
     schema:telephone "02-784-3543" .
 
-nadat2:PER-LM-H5476989 a foaf:Person ;
+nadat2:PER-LM-H5476989 a nam2:Legislator ;
     rdfs:label "한병도"@ko ;
     dcterms:description "3선(제17대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:H5476989",
@@ -4372,7 +4372,7 @@ nadat2:PER-LM-H5476989 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/a7695c6d5955474aa1962ffcaabcf804.jpg> ;
     schema:telephone "02-784-5891" .
 
-nadat2:PER-LM-HSS7466Y a foaf:Person ;
+nadat2:PER-LM-HSS7466Y a nam2:Legislator ;
     rdfs:label "백혜련"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:HSS7466Y",
@@ -4389,7 +4389,7 @@ nadat2:PER-LM-HSS7466Y a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/968e99ee8f8b4b6e9d4ce7eb16a92864.jpg> ;
     schema:telephone "02-784-6130" .
 
-nadat2:PER-LM-I0S53762 a foaf:Person ;
+nadat2:PER-LM-I0S53762 a nam2:Legislator ;
     rdfs:label "하태경"@ko ;
     dcterms:description "3선(제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:I0S53762" ;
@@ -4402,7 +4402,7 @@ nadat2:PER-LM-I0S53762 a foaf:Person ;
     schema:birthDate "1968-03-29"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/I0S53762.jpg> .
 
-nadat2:PER-LM-J2O8643H a foaf:Person ;
+nadat2:PER-LM-J2O8643H a nam2:Legislator ;
     rdfs:label "도종환"@ko ;
     dcterms:description "3선(제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:J2O8643H" ;
@@ -4414,7 +4414,7 @@ nadat2:PER-LM-J2O8643H a foaf:Person ;
     nam2:lunarBirthText "1955-09-27"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/J2O8643H.jpg> .
 
-nadat2:PER-LM-JMY9959W a foaf:Person ;
+nadat2:PER-LM-JMY9959W a nam2:Legislator ;
     rdfs:label "윤관석"@ko ;
     dcterms:description "3선(제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:JMY9959W" ;
@@ -4427,7 +4427,7 @@ nadat2:PER-LM-JMY9959W a foaf:Person ;
     nam2:lunarBirthText "1960-08-17"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/JMY9959W.jpg> .
 
-nadat2:PER-LM-JZY9937U a foaf:Person ;
+nadat2:PER-LM-JZY9937U a nam2:Legislator ;
     rdfs:label "김윤덕"@ko ;
     dcterms:description "3선(제19대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:JZY9937U",
@@ -4443,7 +4443,7 @@ nadat2:PER-LM-JZY9937U a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/dea1db9948874498ad1aa3a24c7409a3.jpg> ;
     schema:telephone "02-784-4367~9" .
 
-nadat2:PER-LM-K3W33496 a foaf:Person ;
+nadat2:PER-LM-K3W33496 a nam2:Legislator ;
     rdfs:label "박광온"@ko ;
     dcterms:description "3선(제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:K3W33496" ;
@@ -4456,7 +4456,7 @@ nadat2:PER-LM-K3W33496 a foaf:Person ;
     schema:birthDate "1957-03-26"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/K3W33496.jpg> .
 
-nadat2:PER-LM-LJK4960Z a foaf:Person ;
+nadat2:PER-LM-LJK4960Z a nam2:Legislator ;
     rdfs:label "정점식"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:LJK4960Z",
@@ -4473,7 +4473,7 @@ nadat2:PER-LM-LJK4960Z a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/a50392c4f73b4699bed10d70dccf5ae2.jpg> ;
     schema:telephone "02-784-6327" .
 
-nadat2:PER-LM-M2Q9024I a foaf:Person ;
+nadat2:PER-LM-M2Q9024I a nam2:Legislator ;
     rdfs:label "김종민"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:M2Q9024I",
@@ -4489,7 +4489,7 @@ nadat2:PER-LM-M2Q9024I a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/33a7a75a274846b7981941b4c5ea6971.png> ;
     schema:telephone "02-784-5920" .
 
-nadat2:PER-LM-M7O7878U a foaf:Person ;
+nadat2:PER-LM-M7O7878U a nam2:Legislator ;
     rdfs:label "신정훈"@ko ;
     dcterms:description "3선(제19대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:M7O7878U",
@@ -4506,7 +4506,7 @@ nadat2:PER-LM-M7O7878U a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/c5cd673d75bd44bc9a7ab580f39eb663.jpg> ;
     schema:telephone "02-6788-6686" .
 
-nadat2:PER-LM-MRK4871S a foaf:Person ;
+nadat2:PER-LM-MRK4871S a nam2:Legislator ;
     rdfs:label "유의동"@ko ;
     dcterms:description "3선(제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:MRK4871S" ;
@@ -4519,7 +4519,7 @@ nadat2:PER-LM-MRK4871S a foaf:Person ;
     nam2:lunarBirthText "1971-06-23"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/MRK4871S.jpg> .
 
-nadat2:PER-LM-N9X9673B a foaf:Person ;
+nadat2:PER-LM-N9X9673B a nam2:Legislator ;
     rdfs:label "전혜숙"@ko ;
     dcterms:description "3선(제18대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:N9X9673B" ;
@@ -4532,7 +4532,7 @@ nadat2:PER-LM-N9X9673B a foaf:Person ;
     nam2:lunarBirthText "1955-05-05"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/N9X9673B.jpg> .
 
-nadat2:PER-LM-NTT8182Q a foaf:Person ;
+nadat2:PER-LM-NTT8182Q a nam2:Legislator ;
     rdfs:label "김민기"@ko ;
     dcterms:description "3선(제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:NTT8182Q" ;
@@ -4545,7 +4545,7 @@ nadat2:PER-LM-NTT8182Q a foaf:Person ;
     nam2:lunarBirthText "1966-04-28"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/NTT8182Q.jpg> .
 
-nadat2:PER-LM-OSV9142K a foaf:Person ;
+nadat2:PER-LM-OSV9142K a nam2:Legislator ;
     rdfs:label "이만희"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:OSV9142K",
@@ -4562,7 +4562,7 @@ nadat2:PER-LM-OSV9142K a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/408f525c91fc4e93aa0c766707a7d120.jpg> ;
     schema:telephone "02-784-5901" .
 
-nadat2:PER-LM-RQQ3807K a foaf:Person ;
+nadat2:PER-LM-RQQ3807K a nam2:Legislator ;
     rdfs:label "위성곤"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:RQQ3807K",
@@ -4578,7 +4578,7 @@ nadat2:PER-LM-RQQ3807K a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/26841957c287473db75fad6182189804.jpg> ;
     schema:telephone "02-784-6450" .
 
-nadat2:PER-LM-S9U45255 a foaf:Person ;
+nadat2:PER-LM-S9U45255 a nam2:Legislator ;
     rdfs:label "이양수"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:S9U45255",
@@ -4594,7 +4594,7 @@ nadat2:PER-LM-S9U45255 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/1496a4de2b2e4a4fb86597cef973a4a3.jpg> ;
     schema:telephone "02-784-8150" .
 
-nadat2:PER-LM-SQ36001H a foaf:Person ;
+nadat2:PER-LM-SQ36001H a nam2:Legislator ;
     rdfs:label "송기헌"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:SQ36001H",
@@ -4611,7 +4611,7 @@ nadat2:PER-LM-SQ36001H a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/02f408aec61446c0b0459b5bdffa4893.png> ;
     schema:telephone "02-784-6150" .
 
-nadat2:PER-LM-TRE2429O a foaf:Person ;
+nadat2:PER-LM-TRE2429O a nam2:Legislator ;
     rdfs:label "강훈식"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "NAAS_CD:TRE2429O" ;
@@ -4624,7 +4624,7 @@ nadat2:PER-LM-TRE2429O a foaf:Person ;
     nam2:lunarBirthText "1973-10-24"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/TRE2429O.jpg> .
 
-nadat2:PER-LM-TVF3669B a foaf:Person ;
+nadat2:PER-LM-TVF3669B a nam2:Legislator ;
     rdfs:label "김태흠"@ko ;
     dcterms:description "3선(제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:TVF3669B" ;
@@ -4637,7 +4637,7 @@ nadat2:PER-LM-TVF3669B a foaf:Person ;
     schema:birthDate "1963-01-11"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/TVF3669B.jpg> .
 
-nadat2:PER-LM-TZP9391O a foaf:Person ;
+nadat2:PER-LM-TZP9391O a nam2:Legislator ;
     rdfs:label "이철규"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:TZP9391O",
@@ -4652,7 +4652,7 @@ nadat2:PER-LM-TZP9391O a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/605672fb126e40f5af71254fa546f3cd.jpg> ;
     schema:telephone "02-784-9811" .
 
-nadat2:PER-LM-UM51067K a foaf:Person ;
+nadat2:PER-LM-UM51067K a nam2:Legislator ;
     rdfs:label "인재근"@ko ;
     dcterms:description "3선(제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:UM51067K" ;
@@ -4665,7 +4665,7 @@ nadat2:PER-LM-UM51067K a foaf:Person ;
     schema:birthDate "1953-11-11"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/UM51067K.jpg> .
 
-nadat2:PER-LM-UQ282145 a foaf:Person ;
+nadat2:PER-LM-UQ282145 a nam2:Legislator ;
     rdfs:label "이재정"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:UQ282145",
@@ -4682,7 +4682,7 @@ nadat2:PER-LM-UQ282145 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/d2583bbfba324a87b5b0e112316e16b8.png> ;
     schema:telephone "02-784-2677" .
 
-nadat2:PER-LM-WDS6044S a foaf:Person ;
+nadat2:PER-LM-WDS6044S a nam2:Legislator ;
     rdfs:label "이채익"@ko ;
     dcterms:description "3선(제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:WDS6044S" ;
@@ -4695,7 +4695,7 @@ nadat2:PER-LM-WDS6044S a foaf:Person ;
     nam2:lunarBirthText "1955-05-27"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/WDS6044S.jpg> .
 
-nadat2:PER-LM-X1K3667J a foaf:Person ;
+nadat2:PER-LM-X1K3667J a nam2:Legislator ;
     rdfs:label "김교흥"@ko ;
     dcterms:description "3선(제17대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:X1K3667J",
@@ -4711,7 +4711,7 @@ nadat2:PER-LM-X1K3667J a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/c2640d735bdc4520ad3838183f97ad54.jpg> ;
     schema:telephone "02-784-1366 / 032-565-0806" .
 
-nadat2:PER-LM-XEF29171 a foaf:Person ;
+nadat2:PER-LM-XEF29171 a nam2:Legislator ;
     rdfs:label "안호영"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:XEF29171",
@@ -4728,7 +4728,7 @@ nadat2:PER-LM-XEF29171 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/1fe2778d67b2471897c5cc387b440f78.png> ;
     schema:telephone "02-784-0937" .
 
-nadat2:PER-LM-XSP20229 a foaf:Person ;
+nadat2:PER-LM-XSP20229 a nam2:Legislator ;
     rdfs:label "김성환"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:XSP20229",
@@ -4745,7 +4745,7 @@ nadat2:PER-LM-XSP20229 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/6785f4855ad44486979a01c25c6939ca.jpg> ;
     schema:telephone "02-784-6271" .
 
-nadat2:PER-LM-YKW37422 a foaf:Person ;
+nadat2:PER-LM-YKW37422 a nam2:Legislator ;
     rdfs:label "권은희"@ko ;
     dcterms:description "3선(제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:YKW37422" ;
@@ -4758,7 +4758,7 @@ nadat2:PER-LM-YKW37422 a foaf:Person ;
     nam2:lunarBirthText "1974-02-15"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/YKW37422.jpg> .
 
-nadat2:PER-LM-Z6R3959C a foaf:Person ;
+nadat2:PER-LM-Z6R3959C a nam2:Legislator ;
     rdfs:label "조해진"@ko ;
     dcterms:description "3선(제18대, 제19대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:Z6R3959C" ;
@@ -4771,7 +4771,7 @@ nadat2:PER-LM-Z6R3959C a foaf:Person ;
     schema:birthDate "1963-08-04"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/Z6R3959C.jpg> .
 
-nadat2:PER-LM-ZDR63255 a foaf:Person ;
+nadat2:PER-LM-ZDR63255 a nam2:Legislator ;
     rdfs:label "소병훈"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:ZDR63255",
@@ -4788,7 +4788,7 @@ nadat2:PER-LM-ZDR63255 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/a8512c3a87fe463c9d063ecb7a34680c.jpg> ;
     schema:telephone "02-784-5020" .
 
-nadat2:PER-LM-ZKU88693 a foaf:Person ;
+nadat2:PER-LM-ZKU88693 a nam2:Legislator ;
     rdfs:label "김경협"@ko ;
     dcterms:description "3선(제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:ZKU88693" ;
@@ -4801,7 +4801,7 @@ nadat2:PER-LM-ZKU88693 a foaf:Person ;
     schema:birthDate "1962-11-07"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/ZKU88693.jpg> .
 
-nadat2:PER-LM-ZYP7962W a foaf:Person ;
+nadat2:PER-LM-ZYP7962W a nam2:Legislator ;
     rdfs:label "김석기"@ko ;
     dcterms:description "3선(제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:ZYP7962W",
@@ -4818,7 +4818,7 @@ nadat2:PER-LM-ZYP7962W a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/e5a17e900d0e433bb13e351466729064.jpg> ;
     schema:telephone "02-784-4170" .
 
-nadat2:PER-LM-04T3751T a foaf:Person ;
+nadat2:PER-LM-04T3751T a nam2:Legislator ;
     rdfs:label "남인순"@ko ;
     dcterms:description "4선(제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:04T3751T",
@@ -4835,7 +4835,7 @@ nadat2:PER-LM-04T3751T a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/b265059dddd24f329d9361e3d0f62e4e.jpg> ;
     schema:telephone "02-784-5980" .
 
-nadat2:PER-LM-0827740Q a foaf:Person ;
+nadat2:PER-LM-0827740Q a nam2:Legislator ;
     rdfs:label "노웅래"@ko ;
     dcterms:description "4선(제17대, 제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:0827740Q" ;
@@ -4848,7 +4848,7 @@ nadat2:PER-LM-0827740Q a foaf:Person ;
     schema:birthDate "1957-08-03"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/0827740Q.jpg> .
 
-nadat2:PER-LM-0W194007 a foaf:Person ;
+nadat2:PER-LM-0W194007 a nam2:Legislator ;
     rdfs:label "김영주"@ko ;
     dcterms:description "4선(제17대, 제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:0W194007" ;
@@ -4861,7 +4861,7 @@ nadat2:PER-LM-0W194007 a foaf:Person ;
     nam2:lunarBirthText "1955-07-27"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/0W194007.jpg> .
 
-nadat2:PER-LM-1Y73132H a foaf:Person ;
+nadat2:PER-LM-1Y73132H a nam2:Legislator ;
     rdfs:label "김상훈"@ko ;
     dcterms:description "4선(제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:1Y73132H",
@@ -4878,7 +4878,7 @@ nadat2:PER-LM-1Y73132H a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/3c232b2892bb448f8d66df3661218621.jpg> ;
     schema:telephone "02-784-2310" .
 
-nadat2:PER-LM-2385336L a foaf:Person ;
+nadat2:PER-LM-2385336L a nam2:Legislator ;
     rdfs:label "정청래"@ko ;
     dcterms:description "4선(제17대, 제19대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:2385336L",
@@ -4895,7 +4895,7 @@ nadat2:PER-LM-2385336L a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/9f6decd03010411db7bf51e526fbf348.jpg> ;
     schema:telephone "02-784-4316" .
 
-nadat2:PER-LM-68P7228G a foaf:Person ;
+nadat2:PER-LM-68P7228G a nam2:Legislator ;
     rdfs:label "진선미"@ko ;
     dcterms:description "4선(제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:68P7228G",
@@ -4912,7 +4912,7 @@ nadat2:PER-LM-68P7228G a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/fc074bddf5af4c0d9722b31dffad6f87.png> ;
     schema:telephone "02-784-9591" .
 
-nadat2:PER-LM-6YT83269 a foaf:Person ;
+nadat2:PER-LM-6YT83269 a nam2:Legislator ;
     rdfs:label "이명수"@ko ;
     dcterms:description "4선(제18대, 제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:6YT83269" ;
@@ -4925,7 +4925,7 @@ nadat2:PER-LM-6YT83269 a foaf:Person ;
     nam2:lunarBirthText "1955-02-11"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/6YT83269.jpg> .
 
-nadat2:PER-LM-7R156073 a foaf:Person ;
+nadat2:PER-LM-7R156073 a nam2:Legislator ;
     rdfs:label "박범계"@ko ;
     dcterms:description "4선(제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:7R156073",
@@ -4941,7 +4941,7 @@ nadat2:PER-LM-7R156073 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/7eee4819fa59498b8797a0551bec7056.png> ;
     schema:telephone "02-784-6960 (대전: 042-485-4413)" .
 
-nadat2:PER-LM-9VR65006 a foaf:Person ;
+nadat2:PER-LM-9VR65006 a nam2:Legislator ;
     rdfs:label "윤영석"@ko ;
     dcterms:description "4선(제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:9VR65006",
@@ -4957,7 +4957,7 @@ nadat2:PER-LM-9VR65006 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/cb71903baa8340718ea02ae96cd6a25f.jpg> ;
     schema:telephone "02-784-4861" .
 
-nadat2:PER-LM-EVH1507C a foaf:Person ;
+nadat2:PER-LM-EVH1507C a nam2:Legislator ;
     rdfs:label "이헌승"@ko ;
     dcterms:description "4선(제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:EVH1507C",
@@ -4974,7 +4974,7 @@ nadat2:PER-LM-EVH1507C a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/e850e8db958c416bb749d3a5c77c55ae.jpg> ;
     schema:telephone "02-784-7911" .
 
-nadat2:PER-LM-F5U2979W a foaf:Person ;
+nadat2:PER-LM-F5U2979W a nam2:Legislator ;
     rdfs:label "김학용"@ko ;
     dcterms:description "4선(제18대, 제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:F5U2979W" ;
@@ -4987,7 +4987,7 @@ nadat2:PER-LM-F5U2979W a foaf:Person ;
     schema:birthDate "1961-12-10"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/F5U2979W.jpg> .
 
-nadat2:PER-LM-GD131760 a foaf:Person ;
+nadat2:PER-LM-GD131760 a nam2:Legislator ;
     rdfs:label "홍문표"@ko ;
     dcterms:description "4선(제17대, 제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:GD131760" ;
@@ -5000,7 +5000,7 @@ nadat2:PER-LM-GD131760 a foaf:Person ;
     nam2:lunarBirthText "1947-10-05"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/GD131760.jpg> .
 
-nadat2:PER-LM-HSW1214Q a foaf:Person ;
+nadat2:PER-LM-HSW1214Q a nam2:Legislator ;
     rdfs:label "이종배"@ko ;
     dcterms:description "4선(제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:HSW1214Q",
@@ -5016,7 +5016,7 @@ nadat2:PER-LM-HSW1214Q a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/1a333609d12f4175be43c95f32c57886.png> ;
     schema:telephone "02-784-4131~3" .
 
-nadat2:PER-LM-I7R13867 a foaf:Person ;
+nadat2:PER-LM-I7R13867 a nam2:Legislator ;
     rdfs:label "이개호"@ko ;
     dcterms:description "4선(제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:I7R13867",
@@ -5033,7 +5033,7 @@ nadat2:PER-LM-I7R13867 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/ece4aba7a7854848b574f9334278b58c.png> ;
     schema:telephone "02-784-2165" .
 
-nadat2:PER-LM-JQA21112 a foaf:Person ;
+nadat2:PER-LM-JQA21112 a nam2:Legislator ;
     rdfs:label "한기호"@ko ;
     dcterms:description "4선(제18대, 제19대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:JQA21112",
@@ -5049,7 +5049,7 @@ nadat2:PER-LM-JQA21112 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/9bb2d649d55a495d99c6750cc124e5bf.png> ;
     schema:telephone "02-784-3860" .
 
-nadat2:PER-LM-K5F2023J a foaf:Person ;
+nadat2:PER-LM-K5F2023J a nam2:Legislator ;
     rdfs:label "이학영"@ko ;
     dcterms:description "4선(제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:K5F2023J",
@@ -5066,7 +5066,7 @@ nadat2:PER-LM-K5F2023J a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/ef7ee584293c4134b263ebfc7cbf4a2d.png> ;
     schema:telephone "02-784-8051" .
 
-nadat2:PER-LM-KR14136C a foaf:Person ;
+nadat2:PER-LM-KR14136C a nam2:Legislator ;
     rdfs:label "홍영표"@ko ;
     dcterms:description "4선(제18대, 제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:KR14136C" ;
@@ -5079,7 +5079,7 @@ nadat2:PER-LM-KR14136C a foaf:Person ;
     schema:birthDate "1957-04-30"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/KR14136C.jpg> .
 
-nadat2:PER-LM-LH97552Q a foaf:Person ;
+nadat2:PER-LM-LH97552Q a nam2:Legislator ;
     rdfs:label "김도읍"@ko ;
     dcterms:description "4선(제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:LH97552Q",
@@ -5096,7 +5096,7 @@ nadat2:PER-LM-LH97552Q a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/63a47955a6b94df381c8f17c18bc1774.png> ;
     schema:telephone "02-784-1740" .
 
-nadat2:PER-LM-MLH1404S a foaf:Person ;
+nadat2:PER-LM-MLH1404S a nam2:Legislator ;
     rdfs:label "김민석"@ko ;
     dcterms:description "4선(제15대, 제16대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:MLH1404S",
@@ -5113,7 +5113,7 @@ nadat2:PER-LM-MLH1404S a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/fee10a80d81d435885696adb29a6eb41.jpg> ;
     schema:telephone "02-784-2390" .
 
-nadat2:PER-LM-N4R2421C a foaf:Person ;
+nadat2:PER-LM-N4R2421C a nam2:Legislator ;
     rdfs:label "박덕흠"@ko ;
     dcterms:description "4선(제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:N4R2421C",
@@ -5129,7 +5129,7 @@ nadat2:PER-LM-N4R2421C a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/ad05c3a202f641aca68b663b1fe9c36b.jpg> ;
     schema:telephone "02-784-6550" .
 
-nadat2:PER-LM-O6D8329R a foaf:Person ;
+nadat2:PER-LM-O6D8329R a nam2:Legislator ;
     rdfs:label "민홍철"@ko ;
     dcterms:description "4선(제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:O6D8329R",
@@ -5146,7 +5146,7 @@ nadat2:PER-LM-O6D8329R a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/1f07bdf68cd4426d9922e933e8647783.jpg> ;
     schema:telephone "02-784-6490" .
 
-nadat2:PER-LM-O7R5461J a foaf:Person ;
+nadat2:PER-LM-O7R5461J a nam2:Legislator ;
     rdfs:label "윤후덕"@ko ;
     dcterms:description "4선(제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:O7R5461J",
@@ -5163,7 +5163,7 @@ nadat2:PER-LM-O7R5461J a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/15cc6211fcf0401ea3a77571f888838e.jpg> ;
     schema:telephone "02-6788-6901" .
 
-nadat2:PER-LM-P0F1530P a foaf:Person ;
+nadat2:PER-LM-P0F1530P a nam2:Legislator ;
     rdfs:label "김태호"@ko ;
     dcterms:description "4선(제18대, 제19대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:P0F1530P",
@@ -5180,7 +5180,7 @@ nadat2:PER-LM-P0F1530P a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/f400573a310e49048ac59ffe27438e82.png> ;
     schema:telephone "02-784-0896~7" .
 
-nadat2:PER-LM-QKO6165V a foaf:Person ;
+nadat2:PER-LM-QKO6165V a nam2:Legislator ;
     rdfs:label "박진"@ko ;
     dcterms:description "4선(제16대, 제17대, 제18대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:QKO6165V" ;
@@ -5193,7 +5193,7 @@ nadat2:PER-LM-QKO6165V a foaf:Person ;
     nam2:lunarBirthText "1956-09-16"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/QKO6165V.jpg> .
 
-nadat2:PER-LM-S824682L a foaf:Person ;
+nadat2:PER-LM-S824682L a nam2:Legislator ;
     rdfs:label "박홍근"@ko ;
     dcterms:description "4선(제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:S824682L",
@@ -5210,7 +5210,7 @@ nadat2:PER-LM-S824682L a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/a89c83870d3e4e9daba17c809e11ffd7.png> ;
     schema:telephone "02-784-8370" .
 
-nadat2:PER-LM-SU53086M a foaf:Person ;
+nadat2:PER-LM-SU53086M a nam2:Legislator ;
     rdfs:label "심상정"@ko ;
     dcterms:description "4선(제17대, 제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:SU53086M" ;
@@ -5223,7 +5223,7 @@ nadat2:PER-LM-SU53086M a foaf:Person ;
     nam2:lunarBirthText "1959-02-20"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/SU53086M.jpg> .
 
-nadat2:PER-LM-TKJ4800F a foaf:Person ;
+nadat2:PER-LM-TKJ4800F a nam2:Legislator ;
     rdfs:label "서영교"@ko ;
     dcterms:description "4선(제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:TKJ4800F",
@@ -5240,7 +5240,7 @@ nadat2:PER-LM-TKJ4800F a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/c061e90cf359465fa1408c443a4a7857.jpg> ;
     schema:telephone "02-784-8490" .
 
-nadat2:PER-LM-UGH6481E a foaf:Person ;
+nadat2:PER-LM-UGH6481E a nam2:Legislator ;
     rdfs:label "김상희"@ko ;
     dcterms:description "4선(제18대, 제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:UGH6481E" ;
@@ -5253,7 +5253,7 @@ nadat2:PER-LM-UGH6481E a foaf:Person ;
     nam2:lunarBirthText "1954-05-18"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/UGH6481E.jpg> .
 
-nadat2:PER-LM-V0O5343U a foaf:Person ;
+nadat2:PER-LM-V0O5343U a nam2:Legislator ;
     rdfs:label "우상호"@ko ;
     dcterms:description "4선(제17대, 제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:V0O5343U" ;
@@ -5266,7 +5266,7 @@ nadat2:PER-LM-V0O5343U a foaf:Person ;
     nam2:lunarBirthText "1962-12-12"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/V0O5343U.jpg> .
 
-nadat2:PER-LM-W4X85128 a foaf:Person ;
+nadat2:PER-LM-W4X85128 a nam2:Legislator ;
     rdfs:label "박대출"@ko ;
     dcterms:description "4선(제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:W4X85128",
@@ -5283,7 +5283,7 @@ nadat2:PER-LM-W4X85128 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/8abadb32da7241088899ad56720b57e1.png> ;
     schema:telephone "02-784-6750" .
 
-nadat2:PER-LM-XPP2564T a foaf:Person ;
+nadat2:PER-LM-XPP2564T a nam2:Legislator ;
     rdfs:label "한정애"@ko ;
     dcterms:description "4선(제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:XPP2564T",
@@ -5300,7 +5300,7 @@ nadat2:PER-LM-XPP2564T a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/7b04f535d62d401da2af886555ee4e4f.jpg> ;
     schema:telephone "02-784-3051" .
 
-nadat2:PER-LM-YOG1280B a foaf:Person ;
+nadat2:PER-LM-YOG1280B a nam2:Legislator ;
     rdfs:label "안철수"@ko ;
     dcterms:description "4선(제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:YOG1280B",
@@ -5316,7 +5316,7 @@ nadat2:PER-LM-YOG1280B a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/e9f57c2b700c44c0845665b068385524.jpg> ;
     schema:telephone "02-6788-6296" .
 
-nadat2:PER-LM-ZRF3039U a foaf:Person ;
+nadat2:PER-LM-ZRF3039U a nam2:Legislator ;
     rdfs:label "윤재옥"@ko ;
     dcterms:description "4선(제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:ZRF3039U",
@@ -5335,7 +5335,7 @@ nadat2:PER-LM-ZRF3039U a foaf:Person ;
 nadat2:LegSession-15 a owl:NamedIndividual ;
     rdfs:label "제15대 입법회기"@ko .
 
-nadat2:PER-LM-0767470D a foaf:Person ;
+nadat2:PER-LM-0767470D a nam2:Legislator ;
     rdfs:label "이낙연"@ko ;
     dcterms:description "5선(제16대, 제17대, 제18대, 제19대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:0767470D" ;
@@ -5348,7 +5348,7 @@ nadat2:PER-LM-0767470D a foaf:Person ;
     schema:birthDate "1952-12-20"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/0767470D.jpg> .
 
-nadat2:PER-LM-1WE5693J a foaf:Person ;
+nadat2:PER-LM-1WE5693J a nam2:Legislator ;
     rdfs:label "김태년"@ko ;
     dcterms:description "5선(제17대, 제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:1WE5693J",
@@ -5365,7 +5365,7 @@ nadat2:PER-LM-1WE5693J a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/f8d696606fc742ec87659bd32ff95ae6.jpg> ;
     schema:telephone "02-784-4570, 031-751-4048" .
 
-nadat2:PER-LM-3ZR4438W a foaf:Person ;
+nadat2:PER-LM-3ZR4438W a nam2:Legislator ;
     rdfs:label "이인영"@ko ;
     dcterms:description "5선(제17대, 제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:3ZR4438W",
@@ -5382,7 +5382,7 @@ nadat2:PER-LM-3ZR4438W a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/b84f1139ee484de5a94962ac9bcff09b.png> ;
     schema:telephone "02-784-6811~3" .
 
-nadat2:PER-LM-CT85313K a foaf:Person ;
+nadat2:PER-LM-CT85313K a nam2:Legislator ;
     rdfs:label "서병수"@ko ;
     dcterms:description "5선(제16대, 제17대, 제18대, 제19대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:CT85313K" ;
@@ -5395,7 +5395,7 @@ nadat2:PER-LM-CT85313K a foaf:Person ;
     schema:birthDate "1952-01-09"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/CT85313K.jpg> .
 
-nadat2:PER-LM-GDG1847Z a foaf:Person ;
+nadat2:PER-LM-GDG1847Z a nam2:Legislator ;
     rdfs:label "권성동"@ko ;
     dcterms:description "5선(제18대, 제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:GDG1847Z",
@@ -5412,7 +5412,7 @@ nadat2:PER-LM-GDG1847Z a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/af3b64d8d85b45dcbccefb6646589be9.png> ;
     schema:telephone "02-784-3396~8 / 788-2469" .
 
-nadat2:PER-LM-LBC8144B a foaf:Person ;
+nadat2:PER-LM-LBC8144B a nam2:Legislator ;
     rdfs:label "김영선"@ko ;
     dcterms:description "5선(제15대, 제16대, 제17대, 제18대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:LBC8144B" ;
@@ -5425,7 +5425,7 @@ nadat2:PER-LM-LBC8144B a foaf:Person ;
     nam2:lunarBirthText "1960-05-16"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/LBC8144B.jpg> .
 
-nadat2:PER-LM-LG63087O a foaf:Person ;
+nadat2:PER-LM-LG63087O a nam2:Legislator ;
     rdfs:label "권영세"@ko ;
     dcterms:description "5선(제16대, 제17대, 제18대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:LG63087O",
@@ -5442,7 +5442,7 @@ nadat2:PER-LM-LG63087O a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/f58fcbb4b2f64d05a335da7099f679e7.jpg> ;
     schema:telephone "02-784-3103" .
 
-nadat2:PER-LM-M0A1658U a foaf:Person ;
+nadat2:PER-LM-M0A1658U a nam2:Legislator ;
     rdfs:label "윤호중"@ko ;
     dcterms:description "5선(제17대, 제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:M0A1658U",
@@ -5459,7 +5459,7 @@ nadat2:PER-LM-M0A1658U a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/a474780e3fb144e18a389ec50b76f694.png> ;
     schema:telephone "02-784-4961" .
 
-nadat2:PER-LM-MO52543L a foaf:Person ;
+nadat2:PER-LM-MO52543L a nam2:Legislator ;
     rdfs:label "변재일"@ko ;
     dcterms:description "5선(제17대, 제18대, 제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:MO52543L" ;
@@ -5472,7 +5472,7 @@ nadat2:PER-LM-MO52543L a foaf:Person ;
     schema:birthDate "1948-09-02"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/MO52543L.jpg> .
 
-nadat2:PER-LM-MSY7784L a foaf:Person ;
+nadat2:PER-LM-MSY7784L a nam2:Legislator ;
     rdfs:label "윤상현"@ko ;
     dcterms:description "5선(제18대, 제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:MSY7784L",
@@ -5488,7 +5488,7 @@ nadat2:PER-LM-MSY7784L a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/c55454347242441c9e75c5058f829b06.png> ;
     schema:telephone "02-784-4481" .
 
-nadat2:PER-LM-NAL4555X a foaf:Person ;
+nadat2:PER-LM-NAL4555X a nam2:Legislator ;
     rdfs:label "홍준표"@ko ;
     dcterms:description "5선(제15대, 제16대, 제17대, 제18대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:NAL4555X" ;
@@ -5501,7 +5501,7 @@ nadat2:PER-LM-NAL4555X a foaf:Person ;
     nam2:lunarBirthText "1954-12-05"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/NAL4555X.jpg> .
 
-nadat2:PER-LM-NQR1206Q a foaf:Person ;
+nadat2:PER-LM-NQR1206Q a nam2:Legislator ;
     rdfs:label "정진석"@ko ;
     dcterms:description "5선(제16대, 제17대, 제18대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:NQR1206Q" ;
@@ -5514,7 +5514,7 @@ nadat2:PER-LM-NQR1206Q a foaf:Person ;
     nam2:lunarBirthText "1960-09-04"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/NQR1206Q.jpg> .
 
-nadat2:PER-LM-OW53107J a foaf:Person ;
+nadat2:PER-LM-OW53107J a nam2:Legislator ;
     rdfs:label "설훈"@ko ;
     dcterms:description "5선(제15대, 제16대, 제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:OW53107J" ;
@@ -5527,7 +5527,7 @@ nadat2:PER-LM-OW53107J a foaf:Person ;
     nam2:lunarBirthText "1953-04-23"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/OW53107J.jpg> .
 
-nadat2:PER-LM-PAO22428 a foaf:Person ;
+nadat2:PER-LM-PAO22428 a nam2:Legislator ;
     rdfs:label "송영길"@ko ;
     dcterms:description "5선(제16대, 제17대, 제18대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:PAO22428" ;
@@ -5540,7 +5540,7 @@ nadat2:PER-LM-PAO22428 a foaf:Person ;
     schema:birthDate "1963-03-21"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/PAO22428.jpg> .
 
-nadat2:PER-LM-Q9H5708M a foaf:Person ;
+nadat2:PER-LM-Q9H5708M a nam2:Legislator ;
     rdfs:label "김진표"@ko ;
     dcterms:description "5선(제17대, 제18대, 제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:Q9H5708M" ;
@@ -5553,7 +5553,7 @@ nadat2:PER-LM-Q9H5708M a foaf:Person ;
     schema:birthDate "1947-05-04"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/Q9H5708M.jpg> .
 
-nadat2:PER-LM-TST4507I a foaf:Person ;
+nadat2:PER-LM-TST4507I a nam2:Legislator ;
     rdfs:label "안규백"@ko ;
     dcterms:description "5선(제18대, 제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:TST4507I",
@@ -5570,7 +5570,7 @@ nadat2:PER-LM-TST4507I a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/2693865ca1a74cc2af5dc21a27502a30.jpg> ;
     schema:telephone "02-784-4180" .
 
-nadat2:PER-LM-V429892C a foaf:Person ;
+nadat2:PER-LM-V429892C a nam2:Legislator ;
     rdfs:label "정성호"@ko ;
     dcterms:description "5선(제17대, 제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:V429892C",
@@ -5587,7 +5587,7 @@ nadat2:PER-LM-V429892C a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/9f5c026063fb44a6b8d81ccd0f9a7ac3.jpg> ;
     schema:telephone "02-784-8991" .
 
-nadat2:PER-LM-VHK3402G a foaf:Person ;
+nadat2:PER-LM-VHK3402G a nam2:Legislator ;
     rdfs:label "정우택"@ko ;
     dcterms:description "5선(제15대, 제16대, 제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:VHK3402G" ;
@@ -5600,7 +5600,7 @@ nadat2:PER-LM-VHK3402G a foaf:Person ;
     nam2:lunarBirthText "1953-02-18"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/VHK3402G.jpg> .
 
-nadat2:PER-LM-X7I4680R a foaf:Person ;
+nadat2:PER-LM-X7I4680R a nam2:Legislator ;
     rdfs:label "김기현"@ko ;
     dcterms:description "5선(제17대, 제18대, 제19대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:X7I4680R",
@@ -5616,7 +5616,7 @@ nadat2:PER-LM-X7I4680R a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/57179e16dfac4bfb8ac08d903b93dd39.jpg> ;
     schema:telephone "02-784-3874" .
 
-nadat2:PER-LM-XBT9550Q a foaf:Person ;
+nadat2:PER-LM-XBT9550Q a nam2:Legislator ;
     rdfs:label "우원식"@ko ;
     dcterms:description "5선(제17대, 제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:XBT9550Q",
@@ -5633,7 +5633,7 @@ nadat2:PER-LM-XBT9550Q a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/3fd6bfb1196144ea9282aac6e4eaf5ef.png> ;
     schema:telephone "02-784-3601~3" .
 
-nadat2:PER-LM-ZA54991S a foaf:Person ;
+nadat2:PER-LM-ZA54991S a nam2:Legislator ;
     rdfs:label "안민석"@ko ;
     dcterms:description "5선(제17대, 제18대, 제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:ZA54991S" ;
@@ -5646,7 +5646,7 @@ nadat2:PER-LM-ZA54991S a foaf:Person ;
     schema:birthDate "1966-08-13"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/ZA54991S.jpg> .
 
-nadat2:PER-LM-ZYH1940A a foaf:Person ;
+nadat2:PER-LM-ZYH1940A a nam2:Legislator ;
     rdfs:label "이상민"@ko ;
     dcterms:description "5선(제17대, 제18대, 제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:ZYH1940A" ;
@@ -5663,7 +5663,7 @@ nadat2:RL-LM15 a org:Role ;
     skos:prefLabel "Member of the 15th National Assembly"@en,
         "제15대 국회의원"@ko .
 
-nadat2:PER-LM-5KV82250 a foaf:Person ;
+nadat2:PER-LM-5KV82250 a nam2:Legislator ;
     rdfs:label "조경태"@ko ;
     dcterms:description "6선(제17대, 제18대, 제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:5KV82250",
@@ -5679,7 +5679,7 @@ nadat2:PER-LM-5KV82250 a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/979f97345f794d5892e7b8cff8a7aa45.jpg> ;
     schema:telephone "02-784-6380" .
 
-nadat2:PER-LM-8SV6917G a foaf:Person ;
+nadat2:PER-LM-8SV6917G a nam2:Legislator ;
     rdfs:label "주호영"@ko ;
     dcterms:description "6선(제17대, 제18대, 제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:8SV6917G",
@@ -5696,7 +5696,7 @@ nadat2:PER-LM-8SV6917G a foaf:Person ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/18605df0f43547089061fa7f6a63f311.jpg> ;
     schema:telephone "02-784-2055" .
 
-nadat2:PER-LM-BLC8630L a foaf:Person ;
+nadat2:PER-LM-BLC8630L a nam2:Legislator ;
     rdfs:label "박병석"@ko ;
     dcterms:description "6선(제16대, 제17대, 제18대, 제19대, 제20대, 제21대)"@ko ;
     dcterms:identifier "NAAS_CD:BLC8630L" ;
@@ -5709,7 +5709,7 @@ nadat2:PER-LM-BLC8630L a foaf:Person ;
     schema:birthDate "1952-01-25"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/BLC8630L.jpg> .
 
-nadat2:PER-LM-IN328264 a foaf:Person ;
+nadat2:PER-LM-IN328264 a nam2:Legislator ;
     rdfs:label "조정식"@ko ;
     dcterms:description "6선(제17대, 제18대, 제19대, 제20대, 제21대, 제22대)"@ko ;
     dcterms:identifier "MONA_CD:IN328264",
