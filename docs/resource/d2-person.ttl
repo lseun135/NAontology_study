@@ -145,55 +145,46 @@ nadat2:Period-240530-280529 rdf:type owl:NamedIndividual ,
 
 ## Institution
 
-nadat2:NationalAssembly rdf:type org:FormalOrganization , nam2:Institution ;
-                rdfs:label "국회" ;
+nadat2:NationalAssembly rdf:type org:FormalOrganization ;
                 rdfs:seeAlso <https://www.assembly.go.kr> ;
+				rdfs:label "국회"@ko ;
                 skos:altLabel "국회"@ko ;
                 skos:prefLabel "대한민국 국회"@ko .
 
-nadat2:NABudgetOffice rdf:type org:FormalOrganization , nam2:Institution ;
+nadat2:NABudgetOffice rdf:type nam2:Institution ;
                 org:subOrganizationOf nadat2:NationalAssembly ;
-                rdfs:label "국회예산정책처"@ko ;
                 rdfs:seeAlso <https://www.nabo.go.kr> ;
+				rdfs:label "국회예산정책처"@ko ;
                 skos:altLabel "NABO"@en ;
                 skos:prefLabel "National Assembly Budget Office"@en ,
                                "국회예산정책처"@ko .
 
-nadat2:NALibrary rdf:type org:FormalOrganization , nam2:Institution ;
+nadat2:NALibrary rdf:type nam2:Institution ;
                 org:subOrganizationOf nadat2:NationalAssembly ;
-                rdfs:label "국회도서관"@ko ;
                 rdfs:seeAlso <https://www.nanet.go.kr> ;
+				rdfs:label "국회도서관"@ko ;
                 skos:prefLabel "National Assembly Library"@en , "국회도서관"@ko .
 
-nadat2:NAArchives rdf:type org:OrganizationalUnit , nam2:Institution ;
-                org:subOrganizationOf nadat2:NALibrary ;
-                rdfs:label "국회기록보존소"@ko ;
+nadat2:NAArchives rdf:type org:OrganizationalUnit ;
+                org:unitOf nadat2:NALibrary ;
                 rdfs:seeAlso <https://archives.nanet.go.kr> ;
+				rdfs:label "국회기록보존소"@ko ;
                 skos:altLabel "NAA"@en ;
                 skos:prefLabel "National Assembly Archives"@en ,
                                "국회기록보존소"@ko .
 
-# nadat2:NAFuturesInstitute rdf:type org:OrganizationalUnit , nam2:Institution ;
-#                org:subOrganizationOf nadat2:NationalAssembly ;
-#                rdfs:label "국회미래연구원" ;
-#                rdfs:seeAlso <https://www.nafi.re.kr> ;
-#                rdfs:comment "국회 조직도엔 존재하지 않는데(별도?) 소관기관목록에는 존재 →수정 필요할지 재확인 필요" ;
-#                skos:altLabel "NAFI"@en ;
-#                skos:prefLabel "National Assembly Futures Institute"@en ,
-#                               "국회미래연구원"@ko .
-
-nadat2:NAResearchService rdf:type org:FormalOrganization , nam2:Institution ;
+nadat2:NAResearchService rdf:type nam2:Institution ;
                 org:subOrganizationOf nadat2:NationalAssembly ;
-                rdfs:label "국회입법조사처"@ko ;
                 rdfs:seeAlso <https://www.nars.go.kr> ;
+				rdfs:label "국회입법조사처"@ko ;
                 skos:altLabel "NARS"@en ;
                 skos:prefLabel "National Assembly Research Service"@en ,
                                "국회입법조사처"@ko .
 
-nadat2:NASecretariat rdf:type org:OrganizationalUnit , nam2:Institution ;
+nadat2:NASecretariat rdf:type nam2:Institution ;
                 org:subOrganizationOf nadat2:NationalAssembly ;
-                rdfs:label "국회사무처"@ko ;
                 rdfs:seeAlso <https://nas.na.go.kr> ;
+				rdfs:label "국회사무처"@ko ;
                 skos:prefLabel "National Assembly Secretariat"@en ,
                                "국회사무처"@ko .
 
@@ -202,7 +193,7 @@ nadat2:NASecretariat rdf:type org:OrganizationalUnit , nam2:Institution ;
 
 ## Party
 
-nadat2:BasicIncomeParty rdf:type org:Organization , nam2:Party ;
+nadat2:BasicIncomeParty rdf:type nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/16867da3-e0f7-5eda-94b3-7e3f0c50e698"^^rdfs:Literal ;
                 rdfs:seeAlso <https://www.basicincomeparty.kr> ;
 				schema:foundingDate "2020-01-19"^^xsd:date ;
@@ -210,7 +201,7 @@ nadat2:BasicIncomeParty rdf:type org:Organization , nam2:Party ;
                 skos:prefLabel "Basic Income Party"@en ,
                                "기본소득당"@ko .
 
-nadat2:DemocraticPartyofKorea rdf:type org:Organization , nam2:Party ;
+nadat2:DemocraticPartyofKorea rdf:type nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/a99b2275-dfed-5fbe-bcd6-e4932ed0d463"^^rdfs:Literal ;
                 rdfs:seeAlso <https://theminjoo.kr> ;
 				schema:foundingDate "2014-03-26"^^xsd:date ;
@@ -218,14 +209,14 @@ nadat2:DemocraticPartyofKorea rdf:type org:Organization , nam2:Party ;
                 skos:prefLabel "Democratic Party of Korea"@en ,
                                "더불어민주당"@ko .
 
-nadat2:PlatformParty rdf:type org:Organization , nam2:Party ;
+nadat2:PlatformParty rdf:type nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/21cfba29-a1af-5ff9-84b3-6f7d5f44b609"^^rdfs:Literal ;
 				schema:foundingDate "2020-03-08"^^xsd:date ;
 				schema:dissolutionDate "2020-05-13"^^xsd:date ;
                 skos:prefLabel "Platform Party"@en ,
                                "더불어시민당"@ko .
 
-nadat2:PeoplePowerParty rdf:type org:Organization , nam2:Party ;
+nadat2:PeoplePowerParty rdf:type nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/0f2e881a-d760-55a9-afa8-c3fe5954593d"^^rdfs:Literal ;
 				rdfs:seeAlso <https://www.peoplepowerparty.kr> ;
 				schema:foundingDate "2020-02-17"^^xsd:date ;
@@ -234,7 +225,7 @@ nadat2:PeoplePowerParty rdf:type org:Organization , nam2:Party ;
                 skos:prefLabel "People Power Party"@en , "국민의힘"@ko ;
 				owl:sameAs nadat2:UnitedFutureParty .
 
-nadat2:UnitedFutureParty rdf:type org:Organization , nam2:Party ;
+nadat2:UnitedFutureParty rdf:type nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/546d8457-acd6-5ed1-bdfe-e2f378f9c0c2"^^rdfs:Literal ;
 				schema:foundingDate "2020-02-17"^^xsd:date ;
 				schema:dissolutionDate "2020-09-02"^^xsd:date ;
@@ -242,7 +233,7 @@ nadat2:UnitedFutureParty rdf:type org:Organization , nam2:Party ;
                 skos:prefLabel "United Future Party"@en , "미래통합당"@ko ;
 				owl:sameAs nadat2:PeoplePowerParty .
 
-nadat2:FutureKoreaParty rdf:type org:Organization , nam2:Party ;
+nadat2:FutureKoreaParty rdf:type nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/9a3ab546-2819-5d25-b7c6-957a531dcf80"^^rdfs:Literal ;
 				schema:foundingDate "2020-02-05"^^xsd:date ;
 				schema:dissolutionDate "2020-05-29"^^xsd:date ;
@@ -250,7 +241,7 @@ nadat2:FutureKoreaParty rdf:type org:Organization , nam2:Party ;
                 skos:prefLabel "Future Korea Party"@en ,
                                "미래한국당"@ko .
 
-nadat2:ProgressiveParty rdf:type org:Organization , nam2:Party ;
+nadat2:ProgressiveParty rdf:type nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/37347254-194d-595f-b8ea-7ca26e8db0eb"^^rdfs:Literal ;
                 rdfs:seeAlso <https://jinboparty.com> ;
 				schema:foundingDate "2017-10-15"^^xsd:date ;
@@ -259,7 +250,7 @@ nadat2:ProgressiveParty rdf:type org:Organization , nam2:Party ;
                 skos:prefLabel "Progressive Party"@en ,
                                "진보당"@ko .
 
-nadat2:JusticeParty rdf:type org:Organization , nam2:Party ;
+nadat2:JusticeParty rdf:type nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/c1bc40b4-ae14-54a5-8326-65e9696b1de9"^^rdfs:Literal ;
                 rdfs:seeAlso <https://www.justice21.org> ;
 				schema:foundingDate "2012-10-21"^^xsd:date ;
@@ -268,7 +259,7 @@ nadat2:JusticeParty rdf:type org:Organization , nam2:Party ;
                 skos:prefLabel "Justice Party"@en ,
                                "정의당"@ko .
 
-nadat2:RebuildingKoreaParty rdf:type org:Organization , nam2:Party ;
+nadat2:RebuildingKoreaParty rdf:type nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/76440f8c-9249-5bc7-aa9e-ff1f294750c8"^^rdfs:Literal ;
                 rdfs:seeAlso <https://rebuildingkoreaparty.kr> ;
 				schema:foundingDate "2024-03-07"^^xsd:date ;
@@ -276,7 +267,7 @@ nadat2:RebuildingKoreaParty rdf:type org:Organization , nam2:Party ;
                 skos:prefLabel "Rebuilding Korea Party"@en ,
                                "조국혁신당"@ko .
 
-nadat2:ReformParty rdf:type org:Organization , nam2:Party ;
+nadat2:ReformParty rdf:type nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/f69532b6-26e7-5560-88e2-ed222e2b048d"^^rdfs:Literal ;
                 rdfs:seeAlso <https://www.reformparty.kr> ;
 				schema:foundingDate "2024-01-25"^^xsd:date ;
@@ -284,14 +275,14 @@ nadat2:ReformParty rdf:type org:Organization , nam2:Party ;
                 skos:prefLabel "Reform Party"@en ,
                                "개혁신당"@ko .
 
-nadat2:PeoplesParty rdf:type org:Organization , nam2:Party ;
+nadat2:PeoplesParty rdf:type nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/a3ed0eaf-b574-5c31-8f6f-b4592e3d9ea6"^^rdfs:Literal ;
 				schema:foundingDate "2020-02-23"^^xsd:date ;
 				schema:dissolutionDate "2022-05-03"^^xsd:date ;
                 skos:prefLabel "The People's Party"@en ,
                                "국민의당"@ko .
 
-nadat2:OpenDemocraticParty rdf:type org:Organization , nam2:Party ;
+nadat2:OpenDemocraticParty rdf:type nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/0f2458e3-7a5b-570b-9e3f-16f2d50ea7f3"^^rdfs:Literal ;
 				schema:foundingDate "2020-03-08"^^xsd:date ;
 				schema:dissolutionDate "2022-01-18"^^xsd:date ;
@@ -302,783 +293,678 @@ nadat2:OpenDemocraticParty rdf:type org:Organization , nam2:Party ;
 
 ## Committee
 
-nadat2:CMIT-AA a org:OrganizationalUnit,
-        nam2:StandingCommittee ;
+nadat2:CMIT-AA a nam2:StandingCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "국회운영위원회"@ko ;
     org:identifier "CMIT-AA" ;
-    org:subOrganizationOf nadat2:NationalAssembly .
+    org:unitOf nadat2:NationalAssembly .
 
-nadat2:CMIT-AA-A a org:OrganizationalUnit, nam2:SubCommittee ;
+nadat2:CMIT-AA-A a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "국회운영개선소위원회"@ko ;
     org:identifier "CMIT-AA-A" ;
-    org:subOrganizationOf nadat2:CMIT-AA .
+    org:unitOf nadat2:CMIT-AA .
 
-nadat2:CMIT-AA-B a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AA-B a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "예산결산심사소위원회"@ko ;
     org:identifier "CMIT-AA-B" ;
-    org:subOrganizationOf nadat2:CMIT-AA .
+    org:unitOf nadat2:CMIT-AA .
 
-nadat2:CMIT-AA-C a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AA-C a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "청원심사소위원회"@ko ;
     org:identifier "CMIT-AA-C" ;
-    org:subOrganizationOf nadat2:CMIT-AA .
+    org:unitOf nadat2:CMIT-AA .
 
 
 
-nadat2:CMIT-AB a org:OrganizationalUnit,
-        nam2:StandingCommittee ;
+nadat2:CMIT-AB a nam2:StandingCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "법제사법위원회"@ko ;
     org:identifier "CMIT-AB" ;
-    org:subOrganizationOf nadat2:NationalAssembly .
+    org:unitOf nadat2:NationalAssembly .
 
-nadat2:CMIT-AB-A a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AB-A a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "법안심사제1소위원회"@ko ;
     org:identifier "CMIT-AB-A" ;
-    org:subOrganizationOf nadat2:CMIT-AB .
+    org:unitOf nadat2:CMIT-AB .
 
-nadat2:CMIT-AB-B a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AB-B a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "법안심사제2소위원회"@ko ;
     org:identifier "CMIT-AB-B" ;
-    org:subOrganizationOf nadat2:CMIT-AB .
+    org:unitOf nadat2:CMIT-AB .
 
-nadat2:CMIT-AB-C a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AB-C a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "예산결산기금심사소위원회"@ko ;
     org:identifier "CMIT-AB-C" ;
-    org:subOrganizationOf nadat2:CMIT-AB .
+    org:unitOf nadat2:CMIT-AB .
 
-nadat2:CMIT-AB-D a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AB-D a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "청원심사소위원회"@ko ;
     org:identifier "CMIT-AB-D" ;
-    org:subOrganizationOf nadat2:CMIT-AB .
+    org:unitOf nadat2:CMIT-AB .
 
-nadat2:CMIT-AB-E a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AB-E a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "고위공직자범죄수사처설치및운영에관한법률일부개정법률안(5건)에대한안건조정위원회"@ko ;
     org:identifier "CMIT-AB-E" ;
-    org:subOrganizationOf nadat2:CMIT-AB .
+    org:unitOf nadat2:CMIT-AB .
 
-nadat2:CMIT-AB-F a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AB-F a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "상법일부개정법률안(8건)에대한안건조정위원회"@ko ;
     org:identifier "CMIT-AB-F" ;
-    org:subOrganizationOf nadat2:CMIT-AB .
+    org:unitOf nadat2:CMIT-AB .
 
-nadat2:CMIT-AB-G a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AB-G a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "안건조정위원회"@ko ;
     org:identifier "CMIT-AB-G" ;
-    org:subOrganizationOf nadat2:CMIT-AB .
+    org:unitOf nadat2:CMIT-AB .
 
 
 
-nadat2:CMIT-AC a org:OrganizationalUnit,
-        nam2:StandingCommittee ;
+nadat2:CMIT-AC a nam2:StandingCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "정무위원회"@ko ;
     org:identifier "CMIT-AC" ;
-    org:subOrganizationOf nadat2:NationalAssembly .
+    org:unitOf nadat2:NationalAssembly .
 
-nadat2:CMIT-AC-A a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AC-A a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "법안심사제1소위원회"@ko ;
     org:identifier "CMIT-AC-A" ;
-    org:subOrganizationOf nadat2:CMIT-AC .
+    org:unitOf nadat2:CMIT-AC .
 
-nadat2:CMIT-AC-B a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AC-B a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "법안심사제2소위원회"@ko ;
     org:identifier "CMIT-AC-B" ;
-    org:subOrganizationOf nadat2:CMIT-AC .
+    org:unitOf nadat2:CMIT-AC .
 
-nadat2:CMIT-AC-C a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AC-C a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "예산결산심사소위원회"@ko ;
     org:identifier "CMIT-AC-C" ;
-    org:subOrganizationOf nadat2:CMIT-AC .
+    org:unitOf nadat2:CMIT-AC .
 
-nadat2:CMIT-AC-D a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AC-D a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "청원심사소위원회"@ko ;
     org:identifier "CMIT-AC-D" ;
-    org:subOrganizationOf nadat2:CMIT-AC .
+    org:unitOf nadat2:CMIT-AC .
 
-nadat2:CMIT-AC-E a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AC-E a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "사참위법에대한안건조정위원회"@ko ;
     org:identifier "CMIT-AC-E" ;
-    org:subOrganizationOf nadat2:CMIT-AC .
+    org:unitOf nadat2:CMIT-AC .
 
-nadat2:CMIT-AC-F a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AC-F a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "금융그룹감독법에대한안건조정위원회"@ko ;
     org:identifier "CMIT-AC-F" ;
-    org:subOrganizationOf nadat2:CMIT-AC .
+    org:unitOf nadat2:CMIT-AC .
 
-nadat2:CMIT-AC-G a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AC-G a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "공정거래법에대한안건조정위원회"@ko ;
     org:identifier "CMIT-AC-G" ;
-    org:subOrganizationOf nadat2:CMIT-AC .
+    org:unitOf nadat2:CMIT-AC .
 
-nadat2:CMIT-AC-H a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AC-H a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "민주유공자예우에관한법률안에대한안건조정위원회"@ko ;
     org:identifier "CMIT-AC-H" ;
-    org:subOrganizationOf nadat2:CMIT-AC .
+    org:unitOf nadat2:CMIT-AC .
 
 
 
-nadat2:CMIT-AD a org:OrganizationalUnit,
-        nam2:StandingCommittee ;
+nadat2:CMIT-AD a nam2:StandingCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "기획재정위원회"@ko ;
     org:identifier "CMIT-AD" ;
-    org:subOrganizationOf nadat2:NationalAssembly .
+    org:unitOf nadat2:NationalAssembly .
 
-nadat2:CMIT-AD-A a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AD-A a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "경제재정소위원회"@ko ;
     org:identifier "CMIT-AD-A" ;
-    org:subOrganizationOf nadat2:CMIT-AD .
+    org:unitOf nadat2:CMIT-AD .
 
-nadat2:CMIT-AD-B a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AD-B a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "조세소위원회"@ko ;
     org:identifier "CMIT-AD-B" ;
-    org:subOrganizationOf nadat2:CMIT-AD .
+    org:unitOf nadat2:CMIT-AD .
 
-nadat2:CMIT-AD-C a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AD-C a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "예산결산기금심사소위원회"@ko ;
     org:identifier "CMIT-AD-C" ;
-    org:subOrganizationOf nadat2:CMIT-AD .
+    org:unitOf nadat2:CMIT-AD .
 
-nadat2:CMIT-AD-D a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AD-D a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "안건조정위원회"@ko ;
     org:identifier "CMIT-AD-D" ;
-    org:subOrganizationOf nadat2:CMIT-AD .
+    org:unitOf nadat2:CMIT-AD .
 
-nadat2:CMIT-AD-E a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AD-E a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "청원심사소위원회"@ko ;
     org:identifier "CMIT-AD-E" ;
-    org:subOrganizationOf nadat2:CMIT-AD .
+    org:unitOf nadat2:CMIT-AD .
 
 
 
 
-nadat2:CMIT-AE a org:OrganizationalUnit,
-        nam2:StandingCommittee ;
+nadat2:CMIT-AE a nam2:StandingCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "교육위원회"@ko ;
     org:identifier "CMIT-AE" ;
-    org:subOrganizationOf nadat2:NationalAssembly .
+    org:unitOf nadat2:NationalAssembly .
 
-nadat2:CMIT-AE-A a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AE-A a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "법안심사소위원회"@ko ;
     org:identifier "CMIT-AE-A" ;
-    org:subOrganizationOf nadat2:CMIT-AE .
+    org:unitOf nadat2:CMIT-AE .
 
-nadat2:CMIT-AE-B a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AE-B a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "예산결산기금심사소위원회"@ko ;
     org:identifier "CMIT-AE-B" ;
-    org:subOrganizationOf nadat2:CMIT-AE .
+    org:unitOf nadat2:CMIT-AE .
 
-nadat2:CMIT-AE-C a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AE-C a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "청원심사소위원회"@ko ;
     org:identifier "CMIT-AE-C" ;
-    org:subOrganizationOf nadat2:CMIT-AE .
+    org:unitOf nadat2:CMIT-AE .
 
-nadat2:CMIT-AE-D a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AE-D a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "정순신변호사자녀학교폭력진상조사및학교폭력대책수립을위한청문회실시계획서등3건에대한안건조정위원회"@ko ;
     org:identifier "CMIT-AE-D" ;
-    org:subOrganizationOf nadat2:CMIT-AE .
+    org:unitOf nadat2:CMIT-AE .
 
-nadat2:CMIT-AE-E a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AE-E a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "안건조정위원회"@ko ;
     org:identifier "CMIT-AE-E" ;
-    org:subOrganizationOf nadat2:CMIT-AE .
+    org:unitOf nadat2:CMIT-AE .
 
-nadat2:CMIT-AE-F a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AE-F a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "사립학교법일부개정법률안에대한안건조정위원회"@ko ;
     org:identifier "CMIT-AE-F" ;
-    org:subOrganizationOf nadat2:CMIT-AE .
+    org:unitOf nadat2:CMIT-AE .
 
-nadat2:CMIT-AE-G a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AE-G a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "교육기본법일부개정법률안에대한안건조정위원회"@ko ;
     org:identifier "CMIT-AE-G" ;
-    org:subOrganizationOf nadat2:CMIT-AE .
+    org:unitOf nadat2:CMIT-AE .
 
-nadat2:CMIT-AE-H a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AE-H a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "기초학력보장법안에대한안건조정위원회"@ko ;
     org:identifier "CMIT-AE-H" ;
-    org:subOrganizationOf nadat2:CMIT-AE .
+    org:unitOf nadat2:CMIT-AE .
 
-nadat2:CMIT-AE-I a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AE-I a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "디지털기반의원격교육활성화기본법안에대한안건조정위원회"@ko ;
     org:identifier "CMIT-AE-I" ;
-    org:subOrganizationOf nadat2:CMIT-AE .
+    org:unitOf nadat2:CMIT-AE .
 
-nadat2:CMIT-AE-J a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AE-J a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "초·중등교육법일부개정법률안에대한안건조정위원회"@ko ;
     org:identifier "CMIT-AE-J" ;
-    org:subOrganizationOf nadat2:CMIT-AE .
+    org:unitOf nadat2:CMIT-AE .
 
-nadat2:CMIT-AE-K a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AE-K a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "한국사학진흥재단법일부개정법률안에대한안건조정위원회"@ko ;
     org:identifier "CMIT-AE-K" ;
-    org:subOrganizationOf nadat2:CMIT-AE .
+    org:unitOf nadat2:CMIT-AE .
 
-nadat2:CMIT-AE-L a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AE-L a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "고등교육법일부개정법률안에대한안건조정위원회"@ko ;
     org:identifier "CMIT-AE-L" ;
-    org:subOrganizationOf nadat2:CMIT-AE .
+    org:unitOf nadat2:CMIT-AE .
 
-nadat2:CMIT-AE-M a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AE-M a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "취업후학자금상환특별법일부개정법률안에대한안건조정위원회"@ko ;
     org:identifier "CMIT-AE-M" ;
-    org:subOrganizationOf nadat2:CMIT-AE .
+    org:unitOf nadat2:CMIT-AE .
 
 
 
 
-nadat2:CMIT-AF a org:OrganizationalUnit,
-        nam2:StandingCommittee ;
+nadat2:CMIT-AF a nam2:StandingCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "과학기술정보방송통신위원회"@ko ;
     org:identifier "CMIT-AF" ;
-    org:subOrganizationOf nadat2:NationalAssembly .
+    org:unitOf nadat2:NationalAssembly .
 
-nadat2:CMIT-AF-A a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AF-A a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "과학기술원자력법안심사소위원회"@ko ;
     org:identifier "CMIT-AF-A" ;
-    org:subOrganizationOf nadat2:CMIT-AF .
+    org:unitOf nadat2:CMIT-AF .
 
-nadat2:CMIT-AF-B a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AF-B a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "정보통신방송법안심사소위원회"@ko ;
     org:identifier "CMIT-AF-B" ;
-    org:subOrganizationOf nadat2:CMIT-AF .
+    org:unitOf nadat2:CMIT-AF .
 
-nadat2:CMIT-AF-C a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AF-C a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "예산결산심사소위원회"@ko ;
     org:identifier "CMIT-AF-C" ;
-    org:subOrganizationOf nadat2:CMIT-AF .
+    org:unitOf nadat2:CMIT-AF .
 
-nadat2:CMIT-AF-D a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AF-D a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "청원심사소위원회"@ko ;
     org:identifier "CMIT-AF-D" ;
-    org:subOrganizationOf nadat2:CMIT-AF .
+    org:unitOf nadat2:CMIT-AF .
 
-nadat2:CMIT-AF-E a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AF-E a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "안건조정위원회"@ko ;
     org:identifier "CMIT-AF-E" ;
-    org:subOrganizationOf nadat2:CMIT-AF .
+    org:unitOf nadat2:CMIT-AF .
 
 
 
 
-nadat2:CMIT-AG a org:OrganizationalUnit,
-        nam2:StandingCommittee ;
+nadat2:CMIT-AG a nam2:StandingCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "외교통일위원회"@ko ;
     org:identifier "CMIT-AG" ;
-    org:subOrganizationOf nadat2:NationalAssembly .
+    org:unitOf nadat2:NationalAssembly .
 
-nadat2:CMIT-AG-A a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AG-A a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "법안심사소위원회"@ko ;
     org:identifier "CMIT-AG-A" ;
-    org:subOrganizationOf nadat2:CMIT-AG .
+    org:unitOf nadat2:CMIT-AG .
 
-nadat2:CMIT-AG-B a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AG-B a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "예산·결산·기금심사소위원회"@ko ;
     org:identifier "CMIT-AG-B" ;
-    org:subOrganizationOf nadat2:CMIT-AG .
+    org:unitOf nadat2:CMIT-AG .
 
-nadat2:CMIT-AG-C a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AG-C a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "청원심사소위원회"@ko ;
     org:identifier "CMIT-AG-C" ;
-    org:subOrganizationOf nadat2:CMIT-AG .
+    org:unitOf nadat2:CMIT-AG .
 
 
 
-nadat2:CMIT-AH a org:OrganizationalUnit,
-        nam2:StandingCommittee ;
+nadat2:CMIT-AH a nam2:StandingCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "국방위원회"@ko ;
     org:identifier "CMIT-AH" ;
-    org:subOrganizationOf nadat2:NationalAssembly .
+    org:unitOf nadat2:NationalAssembly .
 
-nadat2:CMIT-AH-A a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AH-A a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "법률안심사소위원회"@ko ;
     org:identifier "CMIT-AH-A" ;
-    org:subOrganizationOf nadat2:CMIT-AH .
+    org:unitOf nadat2:CMIT-AH .
 
-nadat2:CMIT-AH-B a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AH-B a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "예산결산심사소위원회"@ko ;
     org:identifier "CMIT-AH-B" ;
-    org:subOrganizationOf nadat2:CMIT-AH .
+    org:unitOf nadat2:CMIT-AH .
 
-nadat2:CMIT-AH-C a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AH-C a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "청원심사소위원회"@ko ;
     org:identifier "CMIT-AH-C" ;
-    org:subOrganizationOf nadat2:CMIT-AH .
+    org:unitOf nadat2:CMIT-AH .
 
 
 
-nadat2:CMIT-AI a org:OrganizationalUnit,
-        nam2:StandingCommittee ;
+nadat2:CMIT-AI a nam2:StandingCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "행정안전위원회"@ko ;
     org:identifier "CMIT-AI" ;
-    org:subOrganizationOf nadat2:NationalAssembly .
+    org:unitOf nadat2:NationalAssembly .
 
-nadat2:CMIT-AI-A a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AI-A a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "법안심사제1소위원회"@ko ;
     org:identifier "CMIT-AI-A" ;
-    org:subOrganizationOf nadat2:CMIT-AI .
+    org:unitOf nadat2:CMIT-AI .
 
-nadat2:CMIT-AI-B a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AI-B a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "법안심사제2소위원회"@ko ;
     org:identifier "CMIT-AI-B" ;
-    org:subOrganizationOf nadat2:CMIT-AI .
+    org:unitOf nadat2:CMIT-AI .
 
-nadat2:CMIT-AI-C a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AI-C a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "예산·결산기금심사소위원회"@ko ;
     org:identifier "CMIT-AI-C" ;
-    org:subOrganizationOf nadat2:CMIT-AI .
+    org:unitOf nadat2:CMIT-AI .
 
-nadat2:CMIT-AI-D a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AI-D a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "청원심사소위원회"@ko ;
     org:identifier "CMIT-AI-D" ;
-    org:subOrganizationOf nadat2:CMIT-AI .
+    org:unitOf nadat2:CMIT-AI .
 
-nadat2:CMIT-AI-E a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AI-E a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "안건조정위원회"@ko ;
     org:identifier "CMIT-AI-E" ;
-    org:subOrganizationOf nadat2:CMIT-AI .
+    org:unitOf nadat2:CMIT-AI .
 
 
 
-nadat2:CMIT-AJ a org:OrganizationalUnit,
-        nam2:StandingCommittee ;
+nadat2:CMIT-AJ a nam2:StandingCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "문화체육관광위원회"@ko ;
     org:identifier "CMIT-AJ" ;
-    org:subOrganizationOf nadat2:NationalAssembly .
+    org:unitOf nadat2:NationalAssembly .
 
-nadat2:CMIT-AJ-A a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AJ-A a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "체육관광법안심사소위원회"@ko ;
     org:identifier "CMIT-AJ-A" ;
-    org:subOrganizationOf nadat2:CMIT-AJ .
+    org:unitOf nadat2:CMIT-AJ .
 
-nadat2:CMIT-AJ-B a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AJ-B a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "문화예술법안심사소위원회"@ko ;
     org:identifier "CMIT-AJ-B" ;
-    org:subOrganizationOf nadat2:CMIT-AJ .
+    org:unitOf nadat2:CMIT-AJ .
 
-nadat2:CMIT-AJ-C a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AJ-C a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "예산결산심사소위원회"@ko ;
     org:identifier "CMIT-AJ-C" ;
-    org:subOrganizationOf nadat2:CMIT-AJ .
+    org:unitOf nadat2:CMIT-AJ .
 
-nadat2:CMIT-AJ-D a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AJ-D a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "청원심사소위원회"@ko ;
     org:identifier "CMIT-AJ-D" ;
-    org:subOrganizationOf nadat2:CMIT-AJ .
+    org:unitOf nadat2:CMIT-AJ .
 
-nadat2:CMIT-AJ-E a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AJ-E a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "「아시아문화중심도시조성에관한특별법일부개정법률안」에대한안건조정위원회"@ko ;
     org:identifier "CMIT-AJ-E" ;
-    org:subOrganizationOf nadat2:CMIT-AJ .
+    org:unitOf nadat2:CMIT-AJ .
 
-nadat2:CMIT-AJ-F a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AJ-F a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "안건조정위원회(언중법)"@ko ;
     org:identifier "CMIT-AJ-F" ;
-    org:subOrganizationOf nadat2:CMIT-AJ .
+    org:unitOf nadat2:CMIT-AJ .
 
 
 
-nadat2:CMIT-AK a org:OrganizationalUnit,
-        nam2:StandingCommittee ;
+nadat2:CMIT-AK a nam2:StandingCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "농림축산식품해양수산위원회"@ko ;
     org:identifier "CMIT-AK" ;
-    org:subOrganizationOf nadat2:NationalAssembly .
+    org:unitOf nadat2:NationalAssembly .
 
-nadat2:CMIT-AK-A a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AK-A a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "농림축산식품법안심사소위원회"@ko ;
     org:identifier "CMIT-AK-A" ;
-    org:subOrganizationOf nadat2:CMIT-AK .
+    org:unitOf nadat2:CMIT-AK .
 
-nadat2:CMIT-AK-B a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AK-B a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "해양수산법안심사소위원회"@ko ;
     org:identifier "CMIT-AK-B" ;
-    org:subOrganizationOf nadat2:CMIT-AK .
+    org:unitOf nadat2:CMIT-AK .
 
-nadat2:CMIT-AK-C a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AK-C a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "예산결산심사소위원회"@ko ;
     org:identifier "CMIT-AK-C" ;
-    org:subOrganizationOf nadat2:CMIT-AK .
+    org:unitOf nadat2:CMIT-AK .
 
-nadat2:CMIT-AK-D a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AK-D a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "청원심사소위원회"@ko ;
     org:identifier "CMIT-AK-D" ;
-    org:subOrganizationOf nadat2:CMIT-AK .
+    org:unitOf nadat2:CMIT-AK .
 
-nadat2:CMIT-AK-E a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AK-E a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "안건조정위원회"@ko ;
     org:identifier "CMIT-AK-E" ;
-    org:subOrganizationOf nadat2:CMIT-AK .
+    org:unitOf nadat2:CMIT-AK .
 
 
 
 
-nadat2:CMIT-AL a org:OrganizationalUnit,
-        nam2:StandingCommittee ;
+nadat2:CMIT-AL a nam2:StandingCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "산업통상자원중소벤처기업위원회"@ko ;
     org:identifier "CMIT-AL" ;
-    org:subOrganizationOf nadat2:NationalAssembly .
+    org:unitOf nadat2:NationalAssembly .
 
-nadat2:CMIT-AL-A a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AL-A a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "산업통상자원특허소위원회"@ko ;
     org:identifier "CMIT-AL-A" ;
-    org:subOrganizationOf nadat2:CMIT-AL .
+    org:unitOf nadat2:CMIT-AL .
 
-nadat2:CMIT-AL-B a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AL-B a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "중소벤처기업소위원회"@ko ;
     org:identifier "CMIT-AL-B" ;
-    org:subOrganizationOf nadat2:CMIT-AL .
+    org:unitOf nadat2:CMIT-AL .
 
-nadat2:CMIT-AL-C a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AL-C a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "예산·결산소위원회"@ko ;
     org:identifier "CMIT-AL-C" ;
-    org:subOrganizationOf nadat2:CMIT-AL .
+    org:unitOf nadat2:CMIT-AL .
 
-nadat2:CMIT-AL-D a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AL-D a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "청원소위원회"@ko ;
     org:identifier "CMIT-AL-D" ;
-    org:subOrganizationOf nadat2:CMIT-AL .
+    org:unitOf nadat2:CMIT-AL .
 
-nadat2:CMIT-AL-E a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AL-E a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "「한국광업공단법안」에대한안건조정위원회"@ko ;
     org:identifier "CMIT-AL-E" ;
-    org:subOrganizationOf nadat2:CMIT-AL .
+    org:unitOf nadat2:CMIT-AL .
 
-nadat2:CMIT-AL-F a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AL-F a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "예산결산소위원회"@ko ;
     org:identifier "CMIT-AL-F" ;
-    org:subOrganizationOf nadat2:CMIT-AL .
+    org:unitOf nadat2:CMIT-AL .
 
 
 
 
-nadat2:CMIT-AM a org:OrganizationalUnit,
-        nam2:StandingCommittee ;
+nadat2:CMIT-AM a nam2:StandingCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "보건복지위원회"@ko ;
     org:identifier "CMIT-AM" ;
-    org:subOrganizationOf nadat2:NationalAssembly .
+    org:unitOf nadat2:NationalAssembly .
 
-nadat2:CMIT-AM-A a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AM-A a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "제1법안심사소위원회"@ko ;
     org:identifier "CMIT-AM-A" ;
-    org:subOrganizationOf nadat2:CMIT-AM .
+    org:unitOf nadat2:CMIT-AM .
 
-nadat2:CMIT-AM-B a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AM-B a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "예산결산심사소위원회"@ko ;
     org:identifier "CMIT-AM-B" ;
-    org:subOrganizationOf nadat2:CMIT-AM .
+    org:unitOf nadat2:CMIT-AM .
 
-nadat2:CMIT-AM-C a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AM-C a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "청원심사소위원회"@ko ;
     org:identifier "CMIT-AM-C" ;
-    org:subOrganizationOf nadat2:CMIT-AM .
+    org:unitOf nadat2:CMIT-AM .
 
-nadat2:CMIT-AM-D a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AM-D a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "제2법안심사소위원회"@ko ;
     org:identifier "CMIT-AM-D" ;
-    org:subOrganizationOf nadat2:CMIT-AM .
+    org:unitOf nadat2:CMIT-AM .
 
 
 
-nadat2:CMIT-AN a org:OrganizationalUnit,
-        nam2:StandingCommittee ;
+nadat2:CMIT-AN a nam2:StandingCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "환경노동위원회"@ko ;
     org:identifier "CMIT-AN" ;
-    org:subOrganizationOf nadat2:NationalAssembly .
+    org:unitOf nadat2:NationalAssembly .
 
-nadat2:CMIT-AN-A a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AN-A a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "환경법안심사소위원회"@ko ;
     org:identifier "CMIT-AN-A" ;
-    org:subOrganizationOf nadat2:CMIT-AN .
+    org:unitOf nadat2:CMIT-AN .
 
-nadat2:CMIT-AN-B a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AN-B a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "고용노동법안심사소위원회"@ko ;
     org:identifier "CMIT-AN-B" ;
-    org:subOrganizationOf nadat2:CMIT-AN .
+    org:unitOf nadat2:CMIT-AN .
 
-nadat2:CMIT-AN-C a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AN-C a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "예산결산기금심사소위원회"@ko ;
     org:identifier "CMIT-AN-C" ;
-    org:subOrganizationOf nadat2:CMIT-AN .
+    org:unitOf nadat2:CMIT-AN .
 
-nadat2:CMIT-AN-D a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AN-D a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "청원심사소위원회"@ko ;
     org:identifier "CMIT-AN-D" ;
-    org:subOrganizationOf nadat2:CMIT-AN .
+    org:unitOf nadat2:CMIT-AN .
 
-nadat2:CMIT-AN-E a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AN-E a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "안건조정위원회"@ko ;
     org:identifier "CMIT-AN-E" ;
-    org:subOrganizationOf nadat2:CMIT-AN .
+    org:unitOf nadat2:CMIT-AN .
 
 
 
-nadat2:CMIT-AO a org:OrganizationalUnit,
-        nam2:StandingCommittee ;
+nadat2:CMIT-AO a nam2:StandingCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "국토교통위원회"@ko ;
     org:identifier "CMIT-AO" ;
-    org:subOrganizationOf nadat2:NationalAssembly .
+    org:unitOf nadat2:NationalAssembly .
 
-nadat2:CMIT-AO-A a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AO-A a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "국토법안심사소위원회"@ko ;
     org:identifier "CMIT-AO-A" ;
-    org:subOrganizationOf nadat2:CMIT-AO .
+    org:unitOf nadat2:CMIT-AO .
 
-nadat2:CMIT-AO-B a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AO-B a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "교통법안심사소위원회"@ko ;
     org:identifier "CMIT-AO-B" ;
-    org:subOrganizationOf nadat2:CMIT-AO .
+    org:unitOf nadat2:CMIT-AO .
 
-nadat2:CMIT-AO-C a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AO-C a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "예산결산기금심사소위원회"@ko ;
     org:identifier "CMIT-AO-C" ;
-    org:subOrganizationOf nadat2:CMIT-AO .
+    org:unitOf nadat2:CMIT-AO .
 
-nadat2:CMIT-AO-D a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AO-D a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "청원심사소위원회"@ko ;
     org:identifier "CMIT-AO-D" ;
-    org:subOrganizationOf nadat2:CMIT-AO .
+    org:unitOf nadat2:CMIT-AO .
 
-nadat2:CMIT-AO-E a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AO-E a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "안건조정위원회"@ko ;
     org:identifier "CMIT-AO-E" ;
-    org:subOrganizationOf nadat2:CMIT-AO .
+    org:unitOf nadat2:CMIT-AO .
 
 
 
-nadat2:CMIT-AP a org:OrganizationalUnit,
-        nam2:StandingCommittee ;
+nadat2:CMIT-AP a nam2:StandingCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "정보위원회"@ko ;
     org:identifier "CMIT-AP" ;
-    org:subOrganizationOf nadat2:NationalAssembly .
+    org:unitOf nadat2:NationalAssembly .
 
-nadat2:CMIT-AP-A a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AP-A a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "법안심사소위원회"@ko ;
     org:identifier "CMIT-AP-A" ;
-    org:subOrganizationOf nadat2:CMIT-AP .
+    org:unitOf nadat2:CMIT-AP .
 
-nadat2:CMIT-AP-B a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AP-B a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "예산결산심사소위원회"@ko ;
     org:identifier "CMIT-AP-B" ;
-    org:subOrganizationOf nadat2:CMIT-AP .
+    org:unitOf nadat2:CMIT-AP .
 
-nadat2:CMIT-AP-C a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AP-C a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "청원심사소위원회"@ko ;
     org:identifier "CMIT-AP-C" ;
-    org:subOrganizationOf nadat2:CMIT-AP .
+    org:unitOf nadat2:CMIT-AP .
 
 
 
-nadat2:CMIT-AQ a org:OrganizationalUnit,
-        nam2:StandingCommittee ;
+nadat2:CMIT-AQ a nam2:StandingCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "여성가족위원회"@ko ;
     org:identifier "CMIT-AQ" ;
-    org:subOrganizationOf nadat2:NationalAssembly .
+    org:unitOf nadat2:NationalAssembly .
 
-nadat2:CMIT-AQ-A a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AQ-A a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "법안심사소위원회"@ko ;
     org:identifier "CMIT-AQ-A" ;
-    org:subOrganizationOf nadat2:CMIT-AQ .
+    org:unitOf nadat2:CMIT-AQ .
 
-nadat2:CMIT-AQ-B a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AQ-B a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "예산결산심사소위원회"@ko ;
     org:identifier "CMIT-AQ-B" ;
-    org:subOrganizationOf nadat2:CMIT-AQ .
+    org:unitOf nadat2:CMIT-AQ .
 
-nadat2:CMIT-AQ-C a org:OrganizationalUnit,
-        nam2:SubCommittee ;
+nadat2:CMIT-AQ-C a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
     skos:prefLabel "청원심사소위원회"@ko ;
     org:identifier "CMIT-AQ-C" ;
-    org:subOrganizationOf nadat2:CMIT-AQ .
+    org:unitOf nadat2:CMIT-AQ .
 
 
 
