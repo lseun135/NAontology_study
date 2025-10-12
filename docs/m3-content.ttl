@@ -34,29 +34,28 @@
 
 # Classes
 
-schema:CreativeWork rdf:type owl:Class .
 
 nam3:ContentUnit rdf:type owl:Class ;
                 rdfs:subClassOf schema:CreativeWork ;
+                skos:prefLabel "내용단위"@ko, "content unit"@en ;
                 rdfs:comment "회의록 이외의 기록물 내용을 포괄하기 위해 추가한 클래스"@ko .
 
 nam3:Speech rdf:type owl:Class ;
         rdfs:subClassOf nam3:ContentUnit ;
+        skos:prefLabel "발언"@ko, "speech content"@en ;
         rdfs:comment "A speech, a scene, a narrative, or another part of a transcript"@en ,
                      "연설, 장면, 서술 또는 기록물(transcript)의 다른 일부  (Popolo 참조) →schema:Speech와 다른 개념"@ko .
 
 
 nam3:Bill rdf:type owl:Class ;
                 rdfs:subClassOf schema:Legislation ;
-                skos:prefLabel "의안"@ko .
+                skos:prefLabel "의안"@ko, "bill"@en .
 
 nam3:AgendaItem rdf:type owl:Class ;
                 rdfs:subClassOf schema:ListItem ;
-                skos:prefLabel "안건"@ko .
+                skos:prefLabel "안건"@ko , "agenda item"@en .
 
-schema:Legislation rdf:type owl:Class ;
-                rdfs:subClassOf schema:CreativeWork ;
-                skos:prefLabel "법률안"@ko .
+
 
 #nam3:Motion rdf:type owl:Class ;
 #                owl:equivalentClass opengov:Motion ;
