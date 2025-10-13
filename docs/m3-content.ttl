@@ -47,9 +47,9 @@ nam3:Speech rdf:type owl:Class ;
                      "연설, 장면, 서술 또는 기록물(transcript)의 다른 일부  (Popolo 참조) →schema:Speech와 다른 개념"@ko .
 
 
-nam3:Bill rdf:type owl:Class ;
-                rdfs:subClassOf schema:Legislation ;
-                skos:prefLabel "의안"@ko, "bill"@en .
+#nam3:Bill rdf:type owl:Class ;    m1의 Record클래스 사용할 것
+#                rdfs:subClassOf schema:Legislation ;
+#                skos:prefLabel "의안"@ko, "bill"@en .
 
 nam3:AgendaItem rdf:type owl:Class ;
                 rdfs:subClassOf schema:ListItem ;
@@ -72,7 +72,7 @@ nam3:VoteEvent rdf:type owl:Class ;
 # Object Properties
 
 schema:creator rdf:type owl:ObjectProperty ; 
-                rdfs:comment "발화(speech)를 한 사람 / 동의안(motion)을 제안한 사람"@ko .
+                rdfs:comment "발화(speech)를 한 사람 / 의안을 제안한 사람"@ko .
 
 schema:video rdf:type owl:ObjectProperty .    # 발언의 비디오 기록. range: schema:VideoObject / URL  (추후 삭제)
 
@@ -206,7 +206,7 @@ nam3:ArgumentativeCritical a skos:Concept ;
 
 
 nam3:StanceScheme a skos:ConceptScheme ;
-  skos:prefLabel "입장 통제어 스키마"@ko ,
+  skos:prefLabel "입장 스키마"@ko ,
                  "Stance Vocabulary (Scheme)"@en ;
   dcterms:created "2025-10-13"^^xsd:date ;
   skos:hasTopConcept nam3:Support , nam3:Oppose , nam3:Neutral ;
@@ -251,7 +251,7 @@ nam3:stanceTarget a rdf:Property ;            # 필요할 경우 owl:ObjectPrope
 
 
 
-
+# 수정 또는 삭제 예정
 nam3:LegislativeProcedureScheme a skos:ConceptScheme ;
   dcterms:title   "Legislative Procedure Vocabulary"@en ;
   dcterms:title   "입법 절차 additionalType 통제어"@ko ;
