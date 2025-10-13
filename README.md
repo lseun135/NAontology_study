@@ -67,7 +67,7 @@ ICA-EGAD에서 제공한 [RiC-O components csv](https://github.com/ICA-EGAD/RiC-
   | opengov | http://www.w3.org/ns/opengov# |
   | org | http://www.w3.org/ns/org# |
   | foaf | http://xmlns.com/foaf/0.1/ |
-  | crm | http://www.cidoc-crm.org/cidoc-crm/ |
+  
 <br/>
 
 * 기타 온톨로지
