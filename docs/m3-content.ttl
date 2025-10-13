@@ -55,24 +55,18 @@ nam3:AgendaItem rdf:type owl:Class ;
                 rdfs:subClassOf schema:ListItem ;
                 skos:prefLabel "안건"@ko , "agenda item"@en .
 
-
-
 #nam3:Motion rdf:type owl:Class ;
 #                owl:equivalentClass opengov:Motion ;
 #                rdfs:subClassOf schema:CreativeWork ;
 #                skos:prefLabel "절차"@ko ;
 #                rdfs:comment "조직(organization)이 심의하도록 사안을 공식적으로 제안하는 절차"@ko .
 
+
 nam3:VoteEvent rdf:type owl:Class ;
                 owl:equivalentClass opengov:VoteEvent ;
                 rdfs:subClassOf schema:Event ;
-                skos:prefLabel "투표"@ko .
+                skos:prefLabel "표결"@ko .
 
-nam3:Count rdf:type owl:Class ;
-                skos:prefLabel "득표수"@ko .
-
-#nam3:Result rdf:type owl:Class ;
-#                skos:prefLabel "결과"@ko .
 
 
 # Object Properties
@@ -92,16 +86,6 @@ schema:superEvent rdf:type owl:ObjectProperty .
 dcterms:source rdf:type rdf:Property .        # 발언과 기록 연결 (엄밀히 말하면 ObjectProperty는 아니지만, 실무적으로는 ObjectProperty 사용)
 
 dcterms:subject rdfs:subPropertyOf schema:about .
-
-nam3:voteEvent rdf:type owl:ObjectProperty ;
-               rdfs:domain nam3:Motion ;
-               rdfs:range  nam3:VoteEvent .
-
-nam3:count a owl:ObjectProperty ;
-                rdfs:domain nam3:VoteEvent ;
-                rdfs:range  nam3:Count ;
-                rdfs:comment "득표수를 나타내는 Count 블랭크 노드와 연결"@ko .
-
 
 
 # Data properties
@@ -153,12 +137,14 @@ nam3:eligibleMemberCount a owl:DatatypeProperty ;
     rdfs:label "재적 의원 수"@ko .
 
 
+
 nam3:DiscourseActScheme a skos:ConceptScheme ;
   skos:prefLabel "의회 담화의 의사소통 전략 스키마"@ko ,
                  "Communicative Strategies in Parliamentary Discourse (Scheme)"@en ;
   skos:altLabel "담화행위 분류"@ko ;
   dcterms:source "Kondratenko, N. V., Kiselova, A. V., & Zavalska, O. V. (2020). Strategies and Tactics of Communication in Parliamentary Discourse. Studies about Languages, 36, 17–29. doi:10.5755/j01.sal.0.36.23401"@en ;
-  skos:hasTopConcept nam3:CooperativeStrategy, nam3:ConflictStrategy .
+  skos:hasTopConcept nam3:CooperativeStrategy, nam3:ConflictStrategy
+  rdfs:comment "하위 어휘들은 dcterms:type 또는 schema:additionalType를 속성으로 사용"@ko.
 
 nam3:CooperativeStrategy a skos:Concept ;
   skos:inScheme nam3:DiscourseActScheme ;
@@ -219,12 +205,55 @@ nam3:ArgumentativeCritical a skos:Concept ;
 
 
 
+nam3:StanceScheme a skos:ConceptScheme ;
+  skos:prefLabel "입장 통제어 스키마"@ko ,
+                 "Stance Vocabulary (Scheme)"@en ;
+  dcterms:created "2025-10-13"^^xsd:date ;
+  skos:hasTopConcept nam3:Support , nam3:Oppose , nam3:Neutral ;
+  dcterms:description "의회 발언의 안건/의견에 대한 입장(찬성·반대·중립)을 표현하기 위한 통제어 목록."@ko .
+
+nam3:Support a skos:Concept ;
+  skos:inScheme nam3:StanceScheme ;
+  skos:topConceptOf nam3:StanceScheme ;
+  skos:prefLabel "찬성(지지)"@ko , "Support"@en ;
+  skos:altLabel "지지"@ko , "찬성"@ko ;
+  skos:definition "특정 안건·의견·행동을 긍정하거나 동의하는 입장. 예: \"원안에 찬성합니다.\" "@ko .
+
+nam3:Oppose a skos:Concept ;
+  skos:inScheme nam3:StanceScheme ;
+  skos:topConceptOf nam3:StanceScheme ;
+  skos:prefLabel "반대(거부)"@ko , "Oppose"@en ;
+  skos:altLabel "반대"@ko , "거부"@ko ;
+  skos:definition "특정 안건·의견·행동에 부정적인 태도를 표명하는 입장. 예: \"이 법안은 부적절합니다.\" "@ko .
+
+nam3:Neutral a skos:Concept ;
+  skos:inScheme nam3:StanceScheme ;
+  skos:topConceptOf nam3:StanceScheme ;
+  skos:prefLabel "중립(유보)"@ko , "Neutral"@en ;
+  skos:altLabel "유보"@ko , "중립"@ko ;
+  skos:definition "명시적 찬반이 없거나 판단을 보류하는 입장. 예: \"검토가 필요합니다.\", \"입장을 보류하겠습니다.\" "@ko .
+
+
+nam3:stance a rdf:Property ;                  # 필요할 경우 owl:ObjectProperty로
+  rdfs:label "입장"@ko , "stance"@en ;
+  rdfs:domain nam3:Speech ; 
+  rdfs:range skos:Concept ; 
+  rdfs:comment "발언이 표현하는 입장(찬성·반대·중립)을 연결한다. 값은 nam3:StanceScheme의 개념을 사용한다(nam3:Support/nam3:Oppose/nam3:Neutral)."@ko ;
+  rdfs:seeAlso nam3:StanceScheme .
+
+nam3:stanceTarget a rdf:Property ;            # 필요할 경우 owl:ObjectProperty로
+  rdfs:label "입장 대상"@ko , "stance target"@en ;
+  rdfs:domain nam3:Speech ; 
+  rdfs:range rdfs:Resource ; 
+  rdfs:comment "입장이 향하는 대상 개체를 지정한다(예: 의안, 안건, 법률, 위원회, 인물 등). 대상 타입을 한정하지 않기 위해 rdfs:Resource를 사용한다."@ko ;
+  rdfs:seeAlso nam3:StanceScheme .
 
 
 
 
-nam3:AdditionalTypeScheme a skos:ConceptScheme ;
-  dcterms:title   "Additional Type (Legislative Procedure) Vocabulary"@en ;
+
+nam3:LegislativeProcedureScheme a skos:ConceptScheme ;
+  dcterms:title   "Legislative Procedure Vocabulary"@en ;
   dcterms:title   "입법 절차 additionalType 통제어"@ko ;
   dcterms:created "2025-09-09"^^xsd:date ;
   rdfs:comment    "의안 심사 절차를 표현하기 위한 additionalType 통제어 목록"@ko .
