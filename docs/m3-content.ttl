@@ -153,6 +153,73 @@ nam3:eligibleMemberCount a owl:DatatypeProperty ;
     rdfs:label "재적 의원 수"@ko .
 
 
+nam3:DiscourseActScheme a skos:ConceptScheme ;
+  skos:prefLabel "의회 담화의 의사소통 전략 스키마"@ko ,
+                 "Communicative Strategies in Parliamentary Discourse (Scheme)"@en ;
+  skos:altLabel "담화행위 분류"@ko ;
+  dcterms:source "Kondratenko, N. V., Kiselova, A. V., & Zavalska, O. V. (2020). Strategies and Tactics of Communication in Parliamentary Discourse. Studies about Languages, 36, 17–29. doi:10.5755/j01.sal.0.36.23401"@en ;
+  skos:hasTopConcept nam3:CooperativeStrategy, nam3:ConflictStrategy .
+
+nam3:CooperativeStrategy a skos:Concept ;
+  skos:inScheme nam3:DiscourseActScheme ;
+  skos:topConceptOf nam3:DiscourseActScheme ;
+  skos:prefLabel "협력적 의사소통 전략"@ko,
+                 "Cooperative Strategy"@en ;
+  skos:definition "공동 목표 달성을 지향하는 상호작용 방식. 회의 절차 준수·정보 공유·연대 형성이 핵심."@ko .
+
+nam3:ConflictStrategy a skos:Concept ;
+  skos:inScheme nam3:DiscourseActScheme ;
+  skos:topConceptOf nam3:DiscourseActScheme ;
+  skos:prefLabel "갈등적 의사소통 전략"@ko ,
+                 "Conflict Strategy"@en ;
+  skos:definition "대립·비판을 동반하는 상호작용 방식. 비난·거부·논증적 비판이 핵심."@ko .
+
+nam3:Regulatory a skos:Concept ;
+  skos:inScheme nam3:DiscourseActScheme ;
+  skos:broader nam3:CooperativeStrategy ;
+  skos:prefLabel "규제 전략"@ko , "Regulatory Strategy"@en ;
+  skos:altLabel "회의 운영"@ko , "절차 관리"@ko , "Procedural Control"@en ;
+  skos:definition "회의 절차를 관리·집행하고 발언권을 조정하는 발언(의장·사회자 중심)."@ko .
+
+nam3:Informative a skos:Concept ;
+  skos:inScheme nam3:DiscourseActScheme ;
+  skos:broader nam3:CooperativeStrategy ;
+  skos:prefLabel "정보 전략"@ko , "Informative Strategy"@en ;
+  skos:altLabel "보고·설명"@ko , "Reporting"@en ;
+  skos:definition "정책·법안의 사실·현황·결과를 보고·설명하는 발언(통계·근거 제시 포함)."@ko .
+
+nam3:Consolidating a skos:Concept ;
+  skos:inScheme nam3:DiscourseActScheme ;
+  skos:broader nam3:CooperativeStrategy ;
+  skos:prefLabel "통합 전략"@ko , "Consolidating Strategy"@en ;
+  skos:altLabel "연대·지지"@ko , "Support/Unification"@en ;
+  skos:definition "정치적 단결 호소 또는 특정 법안·인물·정당에 대한 지지 표명."@ko .
+
+nam3:Declarative a skos:Concept ;
+  skos:inScheme nam3:DiscourseActScheme ;
+  skos:broader nam3:ConflictStrategy ;
+  skos:prefLabel "선언 전략"@ko , "Declarative Strategy"@en ;
+  skos:altLabel "자기표상·이념 호소"@ko , "Self-representation"@en ;
+  skos:definition "자기표상·도덕/이념적 호소 등 수사적·포퓰리즘적 선언 중심의 발언."@ko .
+
+nam3:Confrontational a skos:Concept ;
+  skos:inScheme nam3:DiscourseActScheme ;
+  skos:broader nam3:ConflictStrategy ;
+  skos:prefLabel "대립 전략"@ko , "Confrontational Strategy"@en ;
+  skos:altLabel "비난·공격"@ko , "Accusative/Attack"@en ;
+  skos:definition "상대에 대한 비난·공격·부정 평가를 드러내는 발언(직접 또는 익명적 지시 포함)."@ko .
+
+nam3:ArgumentativeCritical a skos:Concept ;
+  skos:inScheme nam3:DiscourseActScheme ;
+  skos:broader nam3:ConflictStrategy ;
+  skos:prefLabel "논증·비판 전략"@ko , "Argumentative-Critical Strategy"@en ;
+  skos:altLabel "합리적 비판"@ko , "Reasoned Critique"@en ;
+  skos:definition "논리적 근거 제시를 통해 비판·반박하는 발언(권위·역사 사례 인용 등 포함)."@ko .
+
+
+
+
+
 
 
 
