@@ -38,6 +38,113 @@
 rico:Agent rdfs:subClassOf foaf:Agent
 
 # individuals
+## RuleType
+nam1:RuleTypeScheme a skos:ConceptScheme ;
+        skos:prefLabel "규칙 유형 통제어"@ko ;
+        skos:prefLabel "Rule Type Controlled Vocabulary"@en ;
+        skos:note "rico:RuleType 값들을 관리하는 SKOS 스키마"@ko .
+
+nam1:LegalNorm a rico:RuleType, skos:Concept ;
+  skos:inScheme nam1:RuleTypeScheme ;
+  skos:topConceptOf nam1:RuleTypeScheme ;
+  skos:prefLabel "법적 규범"@ko ;
+  skos:scopeNote "법률·명령·자치법규·행정규칙·기관규칙 등 법령체계 기반 규범"@ko .
+
+nam1:Standard a rico:RuleType, skos:Concept ;
+  skos:inScheme nam1:RuleTypeScheme ;
+  skos:topConceptOf nam1:RuleTypeScheme ;
+  skos:prefLabel "표준"@ko ;
+  skos:scopeNote "국제·국가·부처·업계 등 기술/전문 표준"@ko .
+
+nam1:Policy a rico:RuleType, skos:Concept ;
+  skos:inScheme nam1:RuleTypeScheme ;
+  skos:topConceptOf nam1:RuleTypeScheme ;
+  skos:prefLabel "정책"@ko .
+
+nam1:SocialNorm a rico:RuleType, skos:Concept ;
+  skos:inScheme nam1:RuleTypeScheme ;
+  skos:topConceptOf nam1:RuleTypeScheme ;
+  skos:prefLabel "사회적 규범"@ko .
+
+### LegalNorm 하위
+nam1:Legislation a rico:RuleType, skos:Concept ;
+  skos:inScheme nam1:RuleTypeScheme ;
+  skos:broader nam1:LegalNorm ;
+  skos:prefLabel "법령"@ko .
+
+nam1:AdministrativeRule a rico:RuleType, skos:Concept ;
+  skos:inScheme nam1:RuleTypeScheme ;
+  skos:broader nam1:LegalNorm ;
+  skos:prefLabel "행정규칙(훈령·예규·고시·공고·지시·규정 등)"@ko .
+
+nam1:NationalInstitutionRule a rico:RuleType, skos:Concept ;
+  skos:inScheme nam1:RuleTypeScheme ;
+  skos:broader nam1:LegalNorm ;
+  skos:prefLabel "국가기관 규칙(국회규칙 등)"@ko .
+
+### 법령 하위 세분
+nam1:Constitution a rico:RuleType, skos:Concept ;
+  skos:inScheme nam1:RuleTypeScheme ;
+  skos:broader nam1:Legislation ;
+  skos:prefLabel "헌법"@ko .
+
+nam1:Act a rico:RuleType, skos:Concept ;
+  skos:inScheme nam1:RuleTypeScheme ;
+  skos:broader nam1:Legislation ;
+  skos:prefLabel "법률"@ko .
+
+nam1:Treaty a rico:RuleType, skos:Concept ;
+  skos:inScheme nam1:RuleTypeScheme ;
+  skos:broader nam1:Legislation ;
+  skos:prefLabel "조약"@ko .
+
+nam1:SubordinateLegislation a rico:RuleType, skos:Concept ;
+  skos:inScheme nam1:RuleTypeScheme ;
+  skos:broader nam1:Legislation ;
+  skos:prefLabel "하위법령(시행령·시행규칙 등)"@ko .
+
+nam1:PresidentialDecree a rico:RuleType, skos:Concept ;
+  skos:inScheme nam1:RuleTypeScheme ;
+  skos:broader nam1:SubordinateLegislation ;
+  skos:prefLabel "대통령령(시행령)"@ko ;
+  skos:altLabel "시행령"@ko, "대통령령"@ko .
+
+nam1:PrimeMinisterialOrdinance a rico:RuleType, skos:Concept ;
+  skos:inScheme nam1:RuleTypeScheme ;
+  skos:broader nam1:SubordinateLegislation ;
+  skos:prefLabel "총리령(시행규칙)"@ko ;
+  skos:altLabel "시행규칙"@ko, "총리령"@ko ;
+  skos:scopeNote "동일 표기 ‘시행규칙’이 부령과 중복될 수 있어 발령주체(총리/각 부 장관)로 구분"@ko .
+
+nam1:MinisterialOrdinance a rico:RuleType, skos:Concept ;
+  skos:inScheme nam1:RuleTypeScheme ;
+  skos:broader nam1:SubordinateLegislation ;
+  skos:prefLabel "부령(시행규칙)"@ko ;
+  skos:altLabel "시행규칙"@ko, "부령"@ko ;
+  skos:scopeNote "동일 표기 ‘시행규칙’이 총리령과 중복될 수 있어 발령주체(각 부 장관)로 구분"@ko .
+
+### 표준(Standard) 하위
+nam1:InternationalStandard a rico:RuleType, skos:Concept ;
+  skos:inScheme nam1:RuleTypeScheme ;
+  skos:broader nam1:Standard ;
+  skos:prefLabel "국제 표준"@ko ;
+  skos:altLabel "ISO 표준"@ko , "국제표준화기구 표준"@ko ;
+  skos:scopeNote "ISO(국제표준화기구)·IEC·ITU 등 국제 협의체가 제정한 비구속적 합의 표준. 각국이 자국 표준으로 채택할 수 있음"@ko .
+
+nam1:JurisdictionalStandard a rico:RuleType, skos:Concept ;
+  skos:inScheme nam1:RuleTypeScheme ;
+  skos:broader nam1:Standard ;
+  skos:prefLabel "관할 표준"@ko ;
+  skos:scopeNote "국가·정부·공공기관 등 법적 관할권을 가진 기관이 제정한 공식 표준(예: KS, JIS, FIPS 등)"@ko .
+
+nam1:ProfessionalStandard a rico:RuleType, skos:Concept ;
+  skos:inScheme nam1:RuleTypeScheme ;
+  skos:broader nam1:Standard ;
+  skos:prefLabel "전문 표준"@ko ;
+  skos:scopeNote "전문 단체나 학회·산업협회 등에서 합의로 제정한 자율적 표준(예: IEEE, W3C, IETF 등)"@ko .
+
+
+
 ## DateType
 nam1:dateTypeScheme a skos:ConceptScheme ;
                 skos:prefLabel "Date Type"@en , "날짜 유형"@ko .
@@ -69,6 +176,8 @@ nam1:text a rico:ContentType, skos:Concept ;
                 skos:prefLabel "text"@en , "텍스트"@ko ;
                 skos:inScheme nam1:contentTypeScheme .
 
+
+
 nam1:legalStatusScheme a skos:ConceptScheme ;
                 skos:prefLabel "Legal Status controlled list"@en , "법적지위 통제어휘"@ko .
 
@@ -76,6 +185,9 @@ nam1:public a rico:LegalStatus, skos:Concept ;
                 skos:prefLabel "public record"@en, "공공기록"@ko ;
                 skos:inScheme nam1:legalStatusScheme .
 
+
+
+## 언어
 nam1:languageTypeScheme a skos:ConceptScheme ;
                 skos:prefLabel "language Type"@en , "언어 유형"@ko .
 
