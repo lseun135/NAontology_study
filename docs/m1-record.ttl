@@ -30,9 +30,12 @@
 
 
 <https://lseun135.github.io/NAontology_study/m1-record.ttl> a owl:Ontology ;
-        owl:imports <https://www.ica.org/standards/RiC/ontology/1.1> .
+        owl:imports <https://www.ica.org/standards/RiC/ontology/1.1> , 
+                        <http://xmlns.com/foaf/0.1> .
 
 
+# Class
+rico:Agent rdfs:subClassOf foaf:Agent
 
 # individuals
 ## DateType
