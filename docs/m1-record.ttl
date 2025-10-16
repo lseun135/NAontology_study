@@ -35,7 +35,7 @@
 
 
 # Class
-rico:Agent rdfs:subClassOf foaf:Agent
+rico:Agent rdfs:subClassOf foaf:Agent .
 
 # individuals
 ## RuleType
