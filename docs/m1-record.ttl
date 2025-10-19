@@ -35,7 +35,15 @@
 
 
 # Class
-rico:Agent rdfs:subClassOf foaf:Agent .
+rico:Agent  rdfs:subClassOf foaf:Agent .
+rico:Person rdfs:subClassOf foaf:Person .
+
+rico:Group           rdfs:subClassOf foaf:Group .   
+
+rico:CorporateBody   rdfs:subClassOf org:Organization ;
+                     skos:closeMatch org:Organization .
+
+
 
 # individuals
 ## RuleType
