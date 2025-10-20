@@ -8,7 +8,6 @@
 @prefix adms: <http://www.w3.org/ns/adms#> .
 @prefix bf: <https://id.loc.gov/ontologies/bibframe/> .
 @prefix bio: <http://purl.org/vocab/bio/0.1/> .
-@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix gn:     <https://www.geonames.org/ontology#> .
@@ -38,10 +37,15 @@
 rico:Agent  rdfs:subClassOf foaf:Agent .
 rico:Person rdfs:subClassOf foaf:Person .
 
-rico:Group           rdfs:subClassOf foaf:Group .   
+rico:Group rdfs:subClassOf foaf:Group .   
 
-rico:CorporateBody   rdfs:subClassOf org:Organization ;
-                     skos:closeMatch org:Organization .
+rico:CorporateBody rdfs:subClassOf org:Organization ;
+        skos:closeMatch org:Organization .
+
+rico:hasOrHadMember rdfs:seeAlso org:hasMember ;
+        rdfs:comment "m1(record)에서 기록 참여자 관계를 표현하며, m2(person)의 조직적 구성 관계(org:hasMember)와 연동됨."@ko .
+
+
 
 
 ### 내용 단위 연결 속성 (RecordResource → ContentUnit)
@@ -52,6 +56,7 @@ nam1:hasContentUnit a owl:ObjectProperty ;
     rdfs:domain rico:RecordResource ;
     rdfs:range  nam3:ContentUnit ;
     rdfs:subPropertyOf dcterms:hasPart .
+
 
 
 
