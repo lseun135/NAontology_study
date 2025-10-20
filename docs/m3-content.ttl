@@ -57,9 +57,15 @@ nam3:AgendaItem rdf:type owl:Class ;
 
 nam3:VoteEvent rdf:type owl:Class ;
                 owl:equivalentClass opengov:VoteEvent ;
-                rdfs:subClassOf schema:Event ;
+                rdfs:subClassOf schema:Event, rico:Activity ;
                 skos:prefLabel "표결"@ko .
 
+### 사건(회의) → 안건
+nam3:hasAgendaItem a owl:ObjectProperty ;
+  rdfs:label "has agenda item"@en ;
+  rdfs:label "안건을 포함한다"@ko ;
+  rdfs:domain rico:Event ;
+  rdfs:range  nam3:AgendaItem .
 
 
 # Object Properties
