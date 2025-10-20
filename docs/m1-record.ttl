@@ -44,6 +44,16 @@ rico:CorporateBody   rdfs:subClassOf org:Organization ;
                      skos:closeMatch org:Organization .
 
 
+### 내용 단위 연결 속성 (RecordResource → ContentUnit)
+nam1:hasContentUnit a owl:ObjectProperty ;
+    rdfs:label "has content unit"@en ;
+    rdfs:label "내용단위를 가진다"@ko ;
+    rdfs:comment "기록물(RecordResource)이 포함하고 있는 내용 단위(ContentUnit)를 연결하기 위한 속성."@ko ;
+    rdfs:domain rico:RecordResource ;
+    rdfs:range  nam3:ContentUnit ;
+    rdfs:subPropertyOf dcterms:hasPart .
+
+
 
 # individuals
 ## RuleType
