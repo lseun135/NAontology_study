@@ -57,7 +57,9 @@ nam1:hasContentUnit a owl:ObjectProperty ;
     rdfs:range  nam3:ContentUnit ;
     rdfs:subPropertyOf dcterms:hasPart .
 
-
+### dcterms:subject를 "documents ∘ hasAgendaItem"의 체인 결과로도 쓰게 함
+dcterms:subject a owl:ObjectProperty ;
+        owl:propertyChainAxiom ( rico:documents nam3:hasAgendaItem ) .
 
 
 # individuals
