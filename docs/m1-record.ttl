@@ -61,6 +61,8 @@ nam1:hasContentUnit a owl:ObjectProperty ;
 dcterms:subject a owl:ObjectProperty ;
         owl:propertyChainAxiom ( rico:documents nam3:hasAgendaItem ) .
 
+[ owl:inverseOf nam1:hasContentUnit ] rdfs:subPropertyOf dcterms:source .
+
 
 # individuals
 ## RuleType
