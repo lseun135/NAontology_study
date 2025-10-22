@@ -70,10 +70,15 @@ nam3:hasAgendaItem a owl:ObjectProperty ;
 
 # Object Properties
 nam3:hasSpeech a owl:ObjectProperty ;
-    rdfs:label "has speech"@en, "발언을 가지다"@ko ;
-    rdfs:subPropertyOf nam1:hasContentUnit ;
-    rdfs:domain rico:RecordResource ;
-    rdfs:range  nam3:Speech .
+        rdfs:label "has speech"@en, "발언을 가지다"@ko ;
+        rdfs:subPropertyOf nam1:hasContentUnit ; 
+        rdfs:domain rico:RecordResource ;
+        rdfs:range  nam3:Speech .
+
+rico:hasOrHadParticipant
+        owl:propertyChainAxiom ( [ owl:inverseOf rico:documents ] nam3:hasSpeech schema:creator ) ;
+        rdfs:comment "어떤 회의가 문서화한 기록이 발언을 포함하고, 그 발언자가 어떤 행위자라면, 그 행위자는 그 회의의 참가자이다."@ko .
+
 
 schema:creator rdf:type owl:ObjectProperty ; 
                 rdfs:comment "발화(speech)를 한 사람 / 의안을 제안한 사람"@ko .
