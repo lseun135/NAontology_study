@@ -152,8 +152,8 @@ nam3:DiscourseActScheme a skos:ConceptScheme ;
                  "Communicative Strategies in Parliamentary Discourse (Scheme)"@en ;
   skos:altLabel "담화행위 분류"@ko ;
   dcterms:source "Kondratenko, N. V., Kiselova, A. V., & Zavalska, O. V. (2020). Strategies and Tactics of Communication in Parliamentary Discourse. Studies about Languages, 36, 17–29. doi:10.5755/j01.sal.0.36.23401"@en ;
-  skos:hasTopConcept nam3:CooperativeStrategy, nam3:ConflictStrategy
-  rdfs:comment "하위 어휘들은 dcterms:type 또는 schema:additionalType를 속성으로 사용"@ko.
+  skos:hasTopConcept nam3:CooperativeStrategy, nam3:ConflictStrategy ;
+  rdfs:comment "하위 어휘들은 dcterms:type 또는 schema:additionalType를 속성으로 사용"@ko .
 
 nam3:CooperativeStrategy a skos:Concept ;
   skos:inScheme nam3:DiscourseActScheme ;
