@@ -248,8 +248,7 @@ nam1:lang-kor a rico:LanguageType, skos:Concept ;
 ## A 분류체계: 국회 회의록·의안기록물
 
 nam1:A rdf:type rico:RecordSet ;
-       rico:includesOrIncluded nam1:A-SRG01 ,
-                               nam1:A-SRG02 ;
+       rico:includesOrIncluded nam1:A-SRG21 ;
        rico:classification "A" ;
        rico:generalDescription "국회 대수(代數)별로 생산되는 회의록·의안기록물"@ko ;
        rico:name "국회 회의록·의안기록물"@ko ;
