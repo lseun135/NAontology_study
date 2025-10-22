@@ -172,6 +172,25 @@ nam1:ProfessionalStandard a rico:RuleType, skos:Concept ;
 
 
 
+
+## DocumentaryFormType
+nam1:DocumentaryFormTypeScheme a skos:ConceptScheme ;
+        skos:prefLabel "외형적형식 및 장르 유형 통제어"@ko , "DocumentaryFormType Controlled Vocabulary"@en ;
+        skos:note "rico:DocumentaryFormType 값을 관리하는 SKOS 스키마"@ko .
+
+nam1:Minutes a rico:DocumentaryFormType, skos:Concept ;
+        skos:inScheme nam1:DocumentaryFormTypeScheme ;
+        skos:prefLabel "회의록"@ko , "Minutes"@en .
+
+nam1:Bill a rico:DocumentaryFormType, skos:Concept ;
+        skos:inScheme nam1:DocumentaryFormTypeScheme ;
+        skos:prefLabel "의안"@ko , "Bill"@en .
+
+nam1:Law a rico:DocumentaryFormType, skos:Concept ;
+        skos:inScheme nam1:DocumentaryFormTypeScheme ;
+        skos:prefLabel "법률안"@ko , "Law"@en .
+
+
 ## DateType
 nam1:dateTypeScheme a skos:ConceptScheme ;
                 skos:prefLabel "Date Type"@en , "날짜 유형"@ko .
