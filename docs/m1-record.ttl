@@ -223,6 +223,78 @@ nam1:text a rico:ContentType, skos:Concept ;
                 skos:inScheme nam1:contentTypeScheme .
 
 
+## CarrierTypeScheme
+nam1:CarrierTypeScheme a skos:ConceptScheme ;
+  skos:prefLabel "Carrier Type Vocabulary"@en ;
+  skos:prefLabel "매체 유형 통제어"@ko ;
+  dcterms:description "리소스 구현 매체 유형의 최소 통제어"@ko ;
+  dcterms:created "2025-10-23"^^xsd:date .
+
+nam1:DigitalFile a rico:CarrierType, skos:Concept ;
+  skos:inScheme nam1:CarrierTypeScheme ;
+  skos:prefLabel "Digital File"@en ;
+  skos:prefLabel "디지털파일"@ko .
+
+nam1:Paper a rico:CarrierType, skos:Concept ;
+  skos:inScheme nam1:CarrierTypeScheme ;
+  skos:prefLabel "Paper"@en ;
+  skos:prefLabel "종이"@ko .
+
+
+
+### RepresentationTypeScheme
+nam1:RepresentationTypeScheme a skos:ConceptScheme ;
+  skos:prefLabel "Representation Type Vocabulary"@en ;
+  skos:prefLabel "표현 유형 통제어"@ko ;
+  dcterms:description "정보의 감각적 표현방식에 대한 최소 통제어"@ko ;
+  dcterms:created "2025-10-23"^^xsd:date .
+
+nam1:Text a rico:RepresentationType, skos:Concept ;
+  skos:inScheme nam1:RepresentationTypeScheme ;
+  skos:prefLabel "Text"@en ;
+  skos:prefLabel "텍스트"@ko .
+
+nam1:Image a rico:RepresentationType, skos:Concept ;
+  skos:inScheme nam1:RepresentationTypeScheme ;
+  skos:prefLabel "Image"@en ;
+  skos:prefLabel "이미지"@ko .
+
+nam1:Audio a rico:RepresentationType, skos:Concept ;
+  skos:inScheme nam1:RepresentationTypeScheme ;
+  skos:prefLabel "Audio"@en ;
+  skos:prefLabel "오디오"@ko .
+
+nam1:Video a rico:RepresentationType, skos:Concept ;
+  skos:inScheme nam1:RepresentationTypeScheme ;
+  skos:prefLabel "Video"@en ;
+  skos:prefLabel "비디오"@ko .
+
+
+
+### ProductionTechniqueTypeScheme
+nam1:ProductionTechniqueTypeScheme a skos:ConceptScheme ;
+  skos:prefLabel "Production Technique Type Vocabulary"@en ;
+  skos:prefLabel "제작 기법 유형 통제어"@ko ;
+  dcterms:description "최소 제작기법 통제어 (인쇄·전자적 생성·녹화)"@ko ;
+  dcterms:created "2025-10-23"^^xsd:date .
+
+nam1:Printing a rico:ProductionTechniqueType, skos:Concept ;
+  skos:inScheme nam1:ProductionTechniqueTypeScheme ;
+  skos:prefLabel "Printing"@en ;
+  skos:prefLabel "인쇄"@ko .
+
+nam1:DigitalCreation a rico:ProductionTechniqueType, skos:Concept ;
+  skos:inScheme nam1:ProductionTechniqueTypeScheme ;
+  skos:prefLabel "Digital creation"@en ;
+  skos:prefLabel "전자적 생성"@ko .
+
+nam1:Recording a rico:ProductionTechniqueType, skos:Concept ;
+  skos:inScheme nam1:ProductionTechniqueTypeScheme ;
+  skos:prefLabel "Recording"@en ;
+  skos:prefLabel "녹화"@ko .
+
+
+
 
 nam1:legalStatusScheme a skos:ConceptScheme ;
                 skos:prefLabel "Legal Status controlled list"@en , "법적지위 통제어휘"@ko .
