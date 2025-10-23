@@ -34,13 +34,23 @@
 
 
 # Class
-rico:Agent  rdfs:subClassOf foaf:Agent .
-rico:Person rdfs:subClassOf foaf:Person .
+## foaf:Person ⊑ rico:Person ⊑ rico:Agent ⊑ foaf:Agent
+rico:Agent rdfs:subClassOf foaf:Agent ; 
+        rdfs:comment "이 모델에서는 rico:Agent를 foaf:Agent의 하위 개념으로 해석한다.(FOAF는 일반적 행위자, RiC는 기록관리 맥락에 영향을 주는 행위자)"@ko .
 
-rico:Group rdfs:subClassOf foaf:Group .   
+### FOAF/ORG → RiC 브리지 (d2의 개체를 d1에서 RiC로 자동 승격) / 추론기(reasoner)가 켜진 환경에서만 동작
+foaf:Person rdfs:subClassOf rico:Person ;
+  rdfs:comment "d2에서 foaf:Person으로 선언된 개체는 nadat1에서 rico:Person(=rico:Agent)으로 자동 해석된다."@ko .
 
-rico:CorporateBody rdfs:subClassOf org:Organization ;
-        skos:closeMatch org:Organization .
+## org:FormalOrganization, org:OrganizationalUnit ⊑ rico:CorporateBody ⊑ rico:Group ⊑ rico:Agent ⊑ foaf:Agent
+### 조직: ORG의 공식/내부 조직만 CorporateBody로 승격 (org:Organization 전체를 일괄 매핑하지 않는 이유는 범위 과대추론을 피하기 위함)
+org:FormalOrganization  rdfs:subClassOf rico:CorporateBody ;
+  rdfs:comment "nadat2에서 FormalOrganization, org:OrganizationalUnit으로 선언된 개체는 nadat1에서 rico:CorporateBody로 자동 해석된다"@ko .
+
+org:OrganizationalUnit  rdfs:subClassOf rico:CorporateBody ;
+  rdfs:comment "nadat2에서 OrganizationalUnit으로 선언된 개체는 nadat1에서 rico:CorporateBody로 본다."@ko .
+
+
 
 rico:hasOrHadMember rdfs:seeAlso org:hasMember ;
         rdfs:comment "m1(record)에서 기록 참여자 관계를 표현하며, m2(person)의 조직적 구성 관계(org:hasMember)와 연동됨."@ko .
