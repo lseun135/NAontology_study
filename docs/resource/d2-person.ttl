@@ -8,7 +8,6 @@
 @prefix adms: <http://www.w3.org/ns/adms#> .
 @prefix bf: <https://id.loc.gov/ontologies/bibframe/> .
 @prefix bio: <http://purl.org/vocab/bio/0.1/> .
-@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix gn:     <https://www.geonames.org/ontology#> .
@@ -187,6 +186,27 @@ nadat2:NASecretariat rdf:type nam2:Institution ;
 				rdfs:label "국회사무처"@ko ;
                 skos:prefLabel "National Assembly Secretariat"@en ,
                                "국회사무처"@ko .
+
+### 의사국 (사무처 산하)
+nadat2:NAS-0001 a org:OrganizationalUnit ;
+	org:unitOf nadat2:NASecretariat ;
+	skos:prefLabel "의사국"@ko , "Bureau of Parliamentary Affairs"@en .
+
+### 의정기록과 (의사국 산하)
+nadat2:NAS-0001-0001 a org:OrganizationalUnit ;
+	org:unitOf nadat2:NAS-0001 ;
+	skos:prefLabel "의정기록과"@ko , "Parliamentary Records Division"@en .
+
+### 기획조정실 (사무처 산하)
+nadat2:NAS-0002 a org:OrganizationalUnit ;
+	org:unitOf nadat2:NASecretariat ;
+	skos:prefLabel "기획조정실"@ko , "Planning & Coordination Office"@en .
+
+### 디지털정책담당관실 (기획조정실 산하)
+nadat2:NAS-0002-0001 a org:OrganizationalUnit ;
+	org:unitOf nadat2:NAS-0002 ;
+	skos:prefLabel "디지털정책담당관실"@ko , "Digital Policy Office"@en .
+
 
 
 
