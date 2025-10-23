@@ -327,14 +327,6 @@ nam1:A rdf:type rico:RecordSet ;
        rdfs:label "[A] 국회 회의록·의안기록물"@ko .
 
 
-nam1:A-SRG21 rdf:type rico:RecordSet ;
-                rico:name "21대"@ko ;
-                rdfs:label "[A-SRG21] 21대 국회(200530-240529)"@ko ;
-                rico:includesOrIncluded nadat1:S100021.
-
-
-
-
 ## B 분류체계: 생산·이관기록물
 
 nam1:B rdf:type rico:RecordSet ;
@@ -354,16 +346,6 @@ nam1:C rdf:type rico:RecordSet ;
        rico:generalDescription "개인(의원), 단체(정당) 등으로부터 수집한 기록물"@ko ;
        rico:name "수집기록물"@ko ;
        rdfs:label "[C] 수집기록물"@ko .
-
-
-#nam1:C-SRG01 rdf:type rico:RecordSet ;
-#        rico:name "의원기록"@ko ;
-#        rdfs:label "[C-SRG01] 의원 기록"@ko .
-
-
-#nam1:C-SRG02 rdf:type rico:RecordSet ;
-#        rico:name "정당기록"@ko ;
-#        rdfs:label "[C-SRG02] 정당 기록"@ko .
 
 
 
