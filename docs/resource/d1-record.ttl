@@ -10188,7 +10188,7 @@ nadat1:INS-230109_240109-01 a rico:Instantiation ;
     rico:identifier "INS-230109_240109-01" .
 
 nadat1:INS-240125_240529-01 a rico:Instantiation ;
-    dcterms:coverage "2024-01-25/2024-05-28" ;
+    dcterms:coverage "2024-01-25/2024-05-29" ;
     skos:prefLabel "[INS-240125_240529-01] 2024 본회의 보존회의록"@ko ;
     rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
