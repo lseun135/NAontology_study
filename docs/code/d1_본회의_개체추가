@@ -2,18 +2,20 @@ import re
 import pandas as pd
 from datetime import date
 from pathlib import Path
-from typing import Dict, Optional, Tuple, List
+from typing import Dict, Optional, Tuple, List, DefaultDict
+from collections import defaultdict
 
 from rdflib import Graph, Literal, URIRef, Namespace
 from rdflib.namespace import RDF, RDFS, SKOS, DCTERMS, XSD, FOAF, OWL
 
-CSV_PATH       = r"D:/연구/국회회의록/21대_본회의_new_1.csv"             # 입력 CSV 파일
-OUT_TTL        = r"m1_records_add_PS.txt"                                    # d1: 출력 TTL
+# ====== 경로/입력 ======
+CSV_PATH       = r"D:/연구/국회회의록/21대_본회의_new_1.csv"   # 21대 본회의 CSV(디폴트)
+OUT_TTL        = r"D:/연구/국회회의록/251025_d1_records.ttl"  # 출력 TTL(d1)
 PEOPLE_TTL     = r"https://lseun135.github.io/NAontology_study/resource/d2-person.ttl"
-OUT_TMP_PEOPLE = r"m2_persons_tmp_add_1.txt"                                 # (신규) 임시 Person TTL(txt)
+OUT_TMP_PEOPLE = r"D:/연구/국회회의록/251025_m2_persons_tmp_add.ttl"  # 임시 Person TTL
 CSV_ENCODING   = "utf-8-sig"
 
-# ---- Namespaces ----
+# ====== Namespaces ======
 NAM1   = Namespace("https://lseun135.github.io/NAontology_study/m1-record#")
 NAM2   = Namespace("https://lseun135.github.io/NAontology_study/m2-person#")
 NAM3   = Namespace("https://lseun135.github.io/NAontology_study/m3-content#")
@@ -26,7 +28,7 @@ RICO   = Namespace("https://www.ica.org/standards/RiC/ontology#")
 ORG    = Namespace("http://www.w3.org/ns/org#")
 SCHEMA = Namespace("https://schema.org/")
 
-# ---- 숫자/날짜 유틸 ----
+# ====== 숫자/날짜 유틸 ======
 def digits_only(s):
     if s is None or (isinstance(s, float) and pd.isna(s)): return None
     m = re.findall(r"\d+", str(s))
@@ -39,12 +41,19 @@ def parse_date_simple(s):
     if s is None or (isinstance(s, float) and pd.isna(s)): return None
     nums = re.findall(r"\d+", str(s))
     if len(nums) >= 3:
-        y, m, d = int(nums[0]), int(nums[1]), int(nums[2])
+        y, m, d = map(int, nums[:3])
         if 1 <= m <= 12 and 1 <= d <= 31:
             return y, m, d
     return None
 
-# ---- RDF 헬퍼 ----
+def ymd_to_short_id(y:int, m:int, d:int) -> str:
+    """YYYY, M, D -> 'yyMMdd' 예: 2024-02-13 -> '240213'"""
+    return f"{y%100:02d}{m:02d}{d:02d}"
+
+def ymd_to_iso(y:int, m:int, d:int) -> str:
+    return date(y, m, d).isoformat()
+
+# ====== RDF 헬퍼 ======
 def add_lit(g, s, p, value, lang=None, dt=None):
     if value is None or (isinstance(value, float) and pd.isna(value)): return
     g.add((s, p, Literal(value, lang=lang, datatype=dt)))
@@ -53,7 +62,7 @@ def add_res(g, s, p, iri_str):
     if not iri_str: return
     g.add((s, p, URIRef(iri_str)))
 
-# ---- d2-person.ttl → 이름 인덱스(원형/공백제거) ----
+# ====== d2-person.ttl → 이름 인덱스 ======
 def build_person_index_from_ttl(people_ttl_url):
     idx_exact, idx_nospace = {}, {}
     if not people_ttl_url: return idx_exact, idx_nospace
@@ -66,7 +75,6 @@ def build_person_index_from_ttl(people_ttl_url):
             name = str(o_lit).strip()
             if name:
                 tmp.setdefault(name, set()).add(str(s))
-
     for s, o in gp.subject_objects(FOAF.name):  collect(o, s)
     for s, o in gp.subject_objects(RDFS.label): collect(o, s)
 
@@ -77,21 +85,69 @@ def build_person_index_from_ttl(people_ttl_url):
             idx_nospace[name.replace(" ", "")] = iri
     return idx_exact, idx_nospace
 
-# ---- 발언자 파서(공백 토큰 기반) ----
-_BRACKETS = [r"\(.*?\)", r"\[.*?\)", r"【.*?】", r"〈.*?〉", r"《.*?》", r"「.*?」", r"『.*?』"]
+# ====== d2에서 기존 임시개체(PER-TMP-#####)의 마지막 번호 탐색 ======
+def get_last_provisional_number(people_ttl_url: Optional[str]) -> int:
+    if not people_ttl_url:
+        return 0
+    try:
+        g = Graph()
+        g.parse(people_ttl_url, format="turtle")
+        max_n = 0
+        pat = re.compile(r"PER-TMP-(\d+)$")
+        for s in g.subjects(RDF.type, FOAF.Person):
+            m = pat.search(str(s))
+            if m:
+                try:
+                    n = int(m.group(1))
+                    if n > max_n:
+                        max_n = n
+                except ValueError:
+                    pass
+        return max_n
+    except Exception as e:
+        print(f"[warn] get_last_provisional_number: {e}")
+        return 0
 
+# ====== 발언자 파서(이름만 추출) ======
+_BRACKETS = [r"\(.*?\)", r"\[.*?\)", r"【.*?】", r"〈.*?〉", r"《.*?》", r"「.*?」", r"『.*?』"]
 def _strip_brackets_spaces(text: str) -> str:
     t = text
     for pat in _BRACKETS: t = re.sub(pat, "", t)
     return re.sub(r"\s+", " ", t).strip()
 
-def _candidate_names(tokens: List[str]):
-    cands = []
-    n = len(tokens)
-    for i in range(n):
-        cands.append(([i], tokens[i]))                        # 단일 토큰
-        if i + 1 < n: cands.append(([i, i+1], tokens[i]+tokens[i+1]))  # 연속 2토큰 결합
-    return cands
+ROLE_KWS = {
+    "대통령","국무총리","총리","부총리","부총리겸","의장","부의장","의원","위원","간사",
+    "위원장","위원장대리","위원장직무대행","위원장직무대리",
+    "대변인","차관","장관","청장","총장","국장","과장","실장","소장","원장",
+    "처장","본부장","센터장","팀장","단장","사무총장","의사국장","직무대리","직무대행"
+}
+ROLE_SUFFIX_RE = re.compile(
+    r"(?:[가-힣A-Za-z·\-]+)?("
+    r"대통령|국무총리|총리|부총리(?:겸)?|"
+    r"장관|차관|청장|총장|국장|과장|실장|소장|원장|처장|본부장|센터장|팀장|단장|"
+    r"의장|부의장|의원|위원장(?:대리|직무대행|직무대리)?|위원|"
+    r"직무대리|직무대행"
+    r")$"
+)
+KOREAN_NAME_RE = re.compile(r"^[가-힣]{2,4}$")
+
+def extract_name_only_from_speaker(raw_text: str) -> Optional[str]:
+    if not raw_text: return None
+    cleaned = _strip_brackets_spaces(str(raw_text))
+    if not cleaned: return None
+    tokens = cleaned.split()
+    personish = []
+    for t in tokens:
+        t_norm = t.strip()
+        if (t_norm in ROLE_KWS) or ROLE_SUFFIX_RE.search(t_norm):
+            continue
+        personish.append(t_norm)
+    for t in personish:
+        if KOREAN_NAME_RE.match(t):
+            return t
+    alt = [t for t in personish if re.fullmatch(r"[가-힣]{2,5}", t)]
+    if alt: return sorted(alt, key=len)[0]
+    return personish[-1] if personish else (tokens[-1] if tokens else None)
 
 def parse_speaker_name(raw, idx_exact, idx_nospace):
     if raw is None or (isinstance(raw, float) and pd.isna(raw)): return None, None, None, None
@@ -101,82 +157,23 @@ def parse_speaker_name(raw, idx_exact, idx_nospace):
     tokens = txt.split()
     if not tokens: return None, None, None, original
 
-    for used_idx, cand in _candidate_names(tokens):
+    cands = []
+    for i in range(len(tokens)):
+        cands.append(([i], tokens[i]))
+        if i + 1 < len(tokens): cands.append(([i, i+1], tokens[i]+tokens[i+1]))
+
+    for used_idx, cand in cands:
         iri = idx_exact.get(cand) or idx_nospace.get(cand.replace(" ", ""))
         if iri:
             role_tokens = [t for i, t in enumerate(tokens) if i not in used_idx]
             role_text = " ".join(role_tokens) if role_tokens else None
             return cand, iri, role_text, original
-    return None, None, None, original  # 사전에 없으면 연결 생략
+    return None, None, None, original
 
-# ================== 여기부터 추가: 직책 제거 규칙 & 이름만 추출 ==================
-# 업로드 샘플에서 확인된 직책군을 반영 (사무총장/의사국장/대통령/국무총리/부총리겸…장관/…차관/…청장/
-# 위원장(대리·직무대행)·위원·의원 등)  :contentReference[oaicite:1]{index=1}
-ROLE_KWS = {
-    "대통령","국무총리","총리","부총리","부총리겸","의장","부의장","의원","위원","간사",
-    "위원장","위원장대리","위원장직무대행","위원장직무대리",
-    "대변인","차관","장관","청장","총장","국장","과장","실장","소장","원장",
-    "처장","본부장","센터장","팀장","단장","사무총장","의사국장","직무대리","직무대행"
-}
-
-# 복합 직함 포괄(예: '부총리겸기획재정부장관', '외교부장관직무대리', '여성가족위원장대리' 등)
-ROLE_SUFFIX_RE = re.compile(
-    r"(?:[가-힣A-Za-z·\-]+)?("
-    r"대통령|국무총리|총리|부총리(?:겸)?|"
-    r"장관|차관|청장|총장|국장|과장|실장|소장|원장|처장|본부장|센터장|팀장|단장|"
-    r"의장|부의장|의원|위원장(?:대리|직무대행|직무대리)?|위원|"
-    r"직무대리|직무대행"
-    r")$"
-)
-
-# 한국어 이름(공백 없이 2~4자 한글) 우선
-KOREAN_NAME_RE = re.compile(r"^[가-힣]{2,4}$")
-
-def extract_name_only_from_speaker(raw_text: str) -> Optional[str]:
-    """
-    '이름 직책' 또는 '직책 이름' 혼재 셀에서 '이름'만 추출.
-    - 괄호류 제거 → 공백 분리
-    - 직책(키워드/접미 패턴) 토큰 제거
-    - 남은 토큰 중 한국어 인명(2~4자) 우선 선택
-    """
-    if not raw_text:
-        return None
-    cleaned = _strip_brackets_spaces(str(raw_text))
-    if not cleaned:
-        return None
-
-    tokens = cleaned.split()
-    personish = []
-    for t in tokens:
-        t_norm = t.strip()
-        if (t_norm in ROLE_KWS) or ROLE_SUFFIX_RE.search(t_norm):
-            continue
-        personish.append(t_norm)
-
-    # 우선: 2~4자 한글 이름
-    for t in personish:
-        if KOREAN_NAME_RE.match(t):
-            return t
-
-    # 보강: 2~5자 한글 중 가장 짧은 것
-    alt = [t for t in personish if re.fullmatch(r"[가-힣]{2,5}", t)]
-    if alt:
-        return sorted(alt, key=len)[0]
-
-    # 최후: 마지막 토큰
-    return personish[-1] if personish else (tokens[-1] if tokens else None)
-# ================== 추가 끝 ==================
-
-# ---- 임시 Person 관리 ----
+# ====== 임시 Person 관리 ======
 class ProvisionalPersonManager:
-    """
-    CSV에 등장하지만 d2-person.ttl에 없는 사람을
-    등장 순서대로 PER-TMP-00001, 00002... 형태로 부여하고,
-    나중에 TTL(txt)로 한꺼번에 기록한다.
-    """
-    def __init__(self):
-        self.counter = 0
-        # '이름만' 기준으로 중복 방지
+    def __init__(self, existing_max_num: int = 0):
+        self.counter = existing_max_num  # d2 마지막 번호 이어서 시작
         self.name_to_iri: Dict[str, str] = {}
         self.entries: List[Tuple[str, str]] = []  # (iri_local, name_only)
 
@@ -185,81 +182,71 @@ class ProvisionalPersonManager:
         return (name_text or "").replace(" ", "")
 
     def get_or_create(self, speaker_cell_text: str) -> Optional[str]:
-        """
-        speaker_cell_text: CSV '발언자' 원문
-        반환: NADAT2[...] 형태의 IRI 문자열
-        """
-        if not speaker_cell_text:
-            return None
-
-        # 이름만 추출해 사용
-        name_only = extract_name_only_from_speaker(speaker_cell_text)
-        if not name_only:
-            name_only = _strip_brackets_spaces(speaker_cell_text)
-
+        if not speaker_cell_text: return None
+        name_only = extract_name_only_from_speaker(speaker_cell_text) or _strip_brackets_spaces(speaker_cell_text)
         key = self._norm_key(name_only)
         if key in self.name_to_iri:
             return self.name_to_iri[key]
-
         self.counter += 1
         local_id = f"PER-TMP-{self.counter:05d}"
         iri_str = str(NADAT2[local_id])
         self.name_to_iri[key] = iri_str
-        # TTL에 기록될 라벨/이름 = '이름만'
         self.entries.append((local_id, name_only))
         return iri_str
 
     def write_ttl_txt(self, out_path: str):
-        """
-        요구 예시 스타일에 가깝게 TTL(txt)로 출력한다.
-        """
         out_file = Path(out_path).expanduser().resolve()
         out_file.parent.mkdir(parents=True, exist_ok=True)
-
         lines = []
-        # prefix 선언 (TTL 파서가 바로 읽도록)
-        lines.append('@prefix foaf:  <http://xmlns.com/foaf/0.1/> .')
-        lines.append('@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .')
-        lines.append('@prefix nam2:  <https://lseun135.github.io/NAontology_study/m2-person#> .')
-        lines.append('@prefix nadat2: <https://lseun135.github.io/NAontology_study/resource/d2-person#> .')
         lines.append('')
         lines.append('## 임시개체')
         lines.append('')
-
         for local_id, name_only in self.entries:
             lines.append(f"nadat2:{local_id} a foaf:Person ;")
             lines.append(f'\trdfs:label "{name_only}"@ko ;')
             lines.append(f'\tfoaf:name "{name_only}"@ko ;')
             lines.append(f"\tnam2:isInAStateOf nam2:Provisional .")
             lines.append('')
-
         with out_file.open("w", encoding="utf-8") as f:
             f.write("\n".join(lines))
-
         print(f"[write] provisional persons txt: {out_file} (count={len(self.entries)})")
 
-# ---- 메인 변환 ----
+# ====== 메인 변환 ======
 def convert(csv_path, out_path, tmp_people_out_path,
             encoding="utf-8-sig", people_ttl_url=None):
     df = pd.read_csv(csv_path, encoding=encoding)
 
     g = Graph()
-    # prefix 바인딩
     g.bind("rdf", RDF); g.bind("rdfs", RDFS); g.bind("skos", SKOS)
     g.bind("dcterms", DCTERMS); g.bind("xsd", XSD); g.bind("foaf", FOAF); g.bind("owl", OWL)
     g.bind("rico", RICO); g.bind("org", ORG); g.bind("schema", SCHEMA)
     g.bind("nam1", NAM1); g.bind("nam2", NAM2); g.bind("nam3", NAM3)
     g.bind("nadat1", NADAT1); g.bind("nadat2", NADAT2); g.bind("nadat3", NADAT3)
 
-    # 사람 인덱스
     idx_exact, idx_nospace = build_person_index_from_ttl(people_ttl_url) if people_ttl_url else ({}, {})
     print(f"[info] loaded persons: exact={len(idx_exact)}, nospace={len(idx_nospace)}")
 
-    prov_mgr = ProvisionalPersonManager()
-    seen_participants: Dict[str, set] = {}
+    last_tmp_num = get_last_provisional_number(people_ttl_url)
+    print(f"[info] last provisional ID in d2: {last_tmp_num}")
+    prov_mgr = ProvisionalPersonManager(existing_max_num=last_tmp_num)
+
+    seen = {
+        "event": set(), "activity": set(),
+        "rs_root": set(), "rs_branch": set(), "rs_session": set(),
+        "record": set(), "inst": set(), "date": set(), "daterange": set()
+    }
+    event_participants: Dict[str, set] = {}
+
+    # 연도별 묶음을 계산하기 위해 회수별(세션) 날짜 범위 및 레코드 수집
+    # session_info[session_num] = {"min": (y,m,d), "max": (y,m,d), "records": [r_id]}
+    session_info: Dict[int, Dict[str, object]] = {}
+
+    # 매 레코드가 속한 세션 번호를 기록 → 이후 연도 그룹핑에 활용
+    record_session: Dict[str, int] = {}
+
     total_rows = 0
-    linked_count = 0
-    provisional_linked = 0
+    linked_existing = 0
+    linked_provisional = 0
 
     for _, row in df.iterrows():
         total_rows += 1
@@ -267,158 +254,265 @@ def convert(csv_path, out_path, tmp_people_out_path,
         mtg_no = int(row["회의번호"]) if not pd.isna(row["회의번호"]) else None
         if mtg_no is None: continue
 
-        generation = int(row["대수"]) if not pd.isna(row["대수"]) else None
-        rec_type   = str(row.get("회의록구분") or "").strip()
-        meeting_tp = str(row.get("회의구분") or "").strip()
-        committee  = str(row.get("위원회") or "").strip()
+        generation = int(row["대수"]) if not pd.isna(row["대수"]) else None  # 21
+        meeting_tp = str(row.get("회의구분") or "").strip()                   # "본회의"
+
         session_raw = row.get("회수")
         round_raw   = row.get("차수")
         date_raw    = row.get("회의일자")
 
-        session_num = digits_only(session_raw)
-        session4    = pad(session_num, 4)
-        round_num   = digits_only(round_raw)
-        round3      = pad(round_num, 3)
+        session_num = digits_only(session_raw)   # e.g., 414
+        session4    = pad(session_num, 4)        # "0414"
+        round_num   = digits_only(round_raw)     # e.g., 1
+        round3      = pad(round_num, 3)          # "001"
 
-        # 1) Activity (회의번호)
-        act = URIRef(NADAT1[f"ACT-M-{mtg_no}"])
-        g.add((act, RDF.type, RICO.Activity))
-        add_lit(g, act, RICO.identifier, f"ACT-M-{mtg_no}")
-        label_act = f"[ACT-M-{mtg_no}]"
-        if generation is not None: label_act += f" {generation}대"
-        if rec_type:               label_act += f" {rec_type}"
-        if meeting_tp:             label_act += f" {meeting_tp}"
-        if session_raw and str(session_raw).strip(): label_act += f" {str(session_raw).strip()}"
-        if round_raw and str(round_raw).strip():     label_act += f" {str(round_raw).strip()}"
-        add_lit(g, act, SKOS.prefLabel, label_act, lang="ko")
-        add_lit(g, act, RICO.name, f"제{generation}대 {rec_type} {meeting_tp} {session_raw} {round_raw}", lang="ko")
-        add_lit(g, act, DCTERMS.identifier, f"{mtg_no}")
-        add_res(g, act, RICO.hasActivityType, str(NAM1["PlenarySession"]))
-        add_res(g, act, RICO.isOrWasPerformedBy, str(NADAT2["NationalAssembly"]))
-       
-        
+        # ===== Event =====
+        ev_id = f"EV-M-{mtg_no}"
+        if ev_id not in seen["event"]:
+            ev = URIRef(NADAT1[ev_id])
+            seen["event"].add(ev_id)
+            g.add((ev, RDF.type, RICO.Event))
+            add_lit(g, ev, RICO.identifier, ev_id)
+            lab = f"[{ev_id}]"
+            if generation is not None: lab += f" {generation}대"
+            if meeting_tp:             lab += f" {meeting_tp}"
+            if session_raw and str(session_raw).strip(): lab += f" {str(session_raw).strip()}"
+            if round_raw and str(round_raw).strip():     lab += f" {str(round_raw).strip()}"
+            add_lit(g, ev, SKOS.prefLabel, lab, lang="ko")
+            add_res(g, ev, RICO.hasEventType, str(NAM1["PlenarySession"]))
+            add_res(g, ev, RICO.isOrWasPerformedBy, str(NADAT2["NationalAssembly"]))
+            event_participants[ev_id] = set()
+        ev = URIRef(NADAT1[ev_id])
 
-        # 2) RecordSet S(대수)
-        s_node = None
+        # ===== Activity (본회의 심의: 일괄 003) =====
+        act_id = f"ACT-M-{mtg_no}-003"
+        if act_id not in seen["activity"]:
+            act = URIRef(NADAT1[act_id])
+            seen["activity"].add(act_id)
+            g.add((act, RDF.type, RICO.Activity))
+            add_lit(g, act, RICO.identifier, act_id)
+            add_lit(g, act, SKOS.prefLabel, f"[{act_id}] 본회의 심의", lang="ko")
+            add_res(g, act, RICO.hasActivityType, str(NAM1["PlenaryDeliberationAction"]))
+            add_res(g, act, RICO.isOrWasPartOf, str(NADAT1[ev_id]))
+        act = URIRef(NADAT1[act_id])
+
+        # ===== RecordSet 계층 (RS100021 ⊃ RS100021-PLEN ⊃ RS1000210414) =====
         if generation is not None:
-            s_node = URIRef(NADAT1[f"S1000{generation}PS"])
-            g.add((s_node, RDF.type, RICO.RecordSet))
-            add_lit(g, s_node, RICO.identifier, f"S1000{generation}PS")
-            s_label = f"[S1000{generation}PS] {generation}대"
-            if rec_type:   s_label += f" {rec_type}"
-            if meeting_tp: s_label += f" {meeting_tp}"
-            add_lit(g, s_node, SKOS.prefLabel, s_label, lang="ko")
-            add_lit(g, s_node, RICO.classification, "A")
-            add_lit(g, s_node, RICO.name, f"제{generation}대 {rec_type} {meeting_tp}", lang="ko")
+            rs_root_id = f"RS1000{generation}"  # RS100021
+            if rs_root_id not in seen["rs_root"]:
+                rs_root = URIRef(NADAT1[rs_root_id])
+                seen["rs_root"].add(rs_root_id)
+                g.add((rs_root, RDF.type, RICO.RecordSet))
+                add_lit(g, rs_root, RICO.identifier, rs_root_id)
+                add_lit(g, rs_root, SKOS.prefLabel, f"[{rs_root_id}] {generation}대", lang="ko")
+                add_lit(g, rs_root, RICO.classification, "A")
+                add_lit(g, rs_root, RICO.name, f"제{generation}대", lang="ko")
 
-        # 3) RecordSet F(회수)
-        f_node = None
+            rs_branch_id = f"RS1000{generation}-PLEN"
+            if rs_branch_id not in seen["rs_branch"]:
+                rs_branch = URIRef(NADAT1[rs_branch_id])
+                seen["rs_branch"].add(rs_branch_id)
+                g.add((rs_branch, RDF.type, RICO.RecordSet))
+                add_lit(g, rs_branch, RICO.identifier, rs_branch_id)
+                add_lit(g, rs_branch, SKOS.prefLabel, f"[{rs_branch_id}] {generation}대 본회의 회의록", lang="ko")
+                add_lit(g, rs_branch, RICO.classification, "A")
+                add_lit(g, rs_branch, RICO.name, f"제{generation}대 본회의 회의록", lang="ko")
+                g.add((URIRef(NADAT1[rs_root_id]), RICO.includesOrIncluded, rs_branch))
+
         if generation is not None and session4 is not None:
-            f_node = URIRef(NADAT1[f"F1000{generation}{session4}PS"])
-            g.add((f_node, RDF.type, RICO.RecordSet))
-            add_lit(g, f_node, RICO.identifier, f"F1000{generation}{session4}PS")
-            f_label = f"[F{session4}PS]"
-            if generation is not None: f_label += f" {generation}대"
-            if meeting_tp:             f_label += f" {meeting_tp}"
-            if session_raw and str(session_raw).strip(): f_label += f" {str(session_raw).strip()}"
-            add_lit(g, f_node, SKOS.prefLabel, f_label, lang="ko")
-            add_lit(g, f_node, RICO.name, f"제{generation}대 {rec_type} {meeting_tp} {session_raw}", lang="ko")
-            add_lit(g, f_node, RICO.classification, "A")
-            add_lit(g, f_node, RICO.conditionsOfAccess, "공개", lang="ko")
-            add_lit(g, f_node, RICO.conditionsOfAccess, "Open", lang="en")
-            add_lit(g, f_node, RICO.conditionsOfUse,
-                    "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다.", lang="ko")
-            add_res(g, f_node, RICO.hasContentOfType, str(NAM1["text"]))
-            add_res(g, f_node, RICO.hasOrHadLegalStatus, str(NAM1["public"]))
-            if s_node is not None:
-                g.add((s_node, RICO.includesOrIncluded, f_node))
+            rs_session_id = f"RS1000{generation}{session4}"  # RS1000210414
+            if rs_session_id not in seen["rs_session"]:
+                rs_session = URIRef(NADAT1[rs_session_id])
+                seen["rs_session"].add(rs_session_id)
+                g.add((rs_session, RDF.type, RICO.RecordSet))
+                add_lit(g, rs_session, RICO.identifier, rs_session_id)
+                lab = f"[RS{session4}] {generation}대 {session_num}회 본회의 회의록" if session_num is not None else f"[RS{session4}] {generation}대 본회의 회의록"
+                add_lit(g, rs_session, SKOS.prefLabel, lab, lang="ko")
+                add_lit(g, rs_session, RICO.classification, "A")
+                add_lit(g, rs_session, RICO.name, f"제{generation}대 본회의 {session_raw} 회의록", lang="ko")
+                g.add((URIRef(NADAT1[f"RS1000{generation}-PLEN"]), RICO.includesOrIncluded, rs_session))
 
-        # 4) Record R(차수)
-        r_node = None
+        # ===== Record (차수별 회의록) =====
         if generation is not None and session4 is not None and round3 is not None:
-            r_node = URIRef(NADAT1[f"R1000{generation}{session4}{round3}{mtg_no}"])
-            g.add((r_node, RDF.type, RICO.Record))
-            add_lit(g, r_node, RICO.identifier, f"R1000{generation}{session4}{round3}{mtg_no}")
-            r_label = f"[R1000{generation}{session4}{round3}{mtg_no}] {generation}대"
-            if session_raw and str(meeting_tp).strip(): r_label += f" {str(meeting_tp).strip()}"            
-            if session_raw and str(session_raw).strip(): r_label += f" {str(session_raw).strip()}"   # 
-            if round_raw and str(round_raw).strip():     r_label += f" {str(round_raw).strip()} 회의록"
-            add_lit(g, r_node, SKOS.prefLabel, r_label, lang="ko")
+            r_id = f"R1000{generation}{session4}{round3}{mtg_no}"  # R100021041400153832
+            if r_id not in seen["record"]:
+                seen["record"].add(r_id)
+                r = URIRef(NADAT1[r_id])
+                g.add((r, RDF.type, RICO.Record))
+                add_lit(g, r, RICO.identifier, r_id)
 
-            title = ""
-            if session_num is not None: title += f"제{session_num}회국회 "
-            if committee:               title += f"{committee}회의록 "
-            if round_num is not None:   title += f"제 {round_num} 호"
-            add_lit(g, r_node, RICO.title, title.strip(), lang="ko")
+                rn = digits_only(round_raw)
+                rn_str = f"{rn}차" if rn is not None else ""
+                session_part = f"{session_num}회 " if session_num is not None else ""
+                r_label = f"[{r_id}] {generation}대 {session_part}{rn_str} 본회의 회의록"
+                add_lit(g, r, SKOS.prefLabel, r_label.strip(), lang="ko")
 
-            add_lit(g, r_node, RICO.classification, "A")
-            g.add((r_node, RICO.documents, act))
+                # 제목(본회의 기준)
+                title = ""
+                if session_num is not None: title += f"제{session_num}회국회 "
+                title += "본회의회의록 "
+                if rn is not None: title += f"제 {rn} 호"
+                add_lit(g, r, RICO.title, title.strip(), lang="ko")
 
-            if f_node is not None:
-                g.add((f_node, RICO.includesOrIncluded, r_node))
-                
-            add_lit(g, r_node, RICO.conditionsOfAccess, "공개", lang="ko")
-            add_lit(g, r_node, RICO.conditionsOfAccess, "Open", lang="en")
-            add_lit(g, r_node, RICO.conditionsOfUse,
-                    "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다.", lang="ko")
-            add_res(g, r_node, RICO.hasContentOfType, str(NAM1["text"]))
-            add_res(g, r_node, RICO.hasOrHadLegalStatus, str(NAM1["public"]))
-            add_res(g, r_node, RICO.hasOrHadLanguage, str(NAM1["lang-kor"]))
+                # 메타
+                add_res(g, r, RICO.hasDocumentaryFormType, str(NAM1["Minutes"]))
+                add_res(g, r, RICO.hasContentOfType, str(NAM1["text"]))
+                add_res(g, r, RICO.hasOrHadLanguage, str(NAM1["lang-kor"]))
+                g.add((r, RICO.documents, act))
+                add_res(g, r, RICO.hasCreator, str(NADAT2["NAS-0001-0001"]))
+                g.add((URIRef(NADAT1[f"RS1000{generation}{session4}"]), RICO.includesOrIncluded, r))
 
-            ymd = parse_date_simple(date_raw)
-            if ymd:
-                y, m, d = ymd
-                date_iri = str(NADAT1[f"date-{y:04d}_{m:02d}_{d:02d}"])
-                d_node = URIRef(date_iri)
-                g.add((d_node, RDF.type, RICO.Date))
-                local = f"date-{y:04d}_{m:02d}_{d:02d}"
-                add_lit(g, d_node, RICO.identifier, local)
-                add_lit(g, d_node, RICO.name, local)
-                add_lit(g, d_node, RICO.normalizedDateValue, date(y, m, d).isoformat(), dt=XSD.date)
-                if isinstance(date_raw, str) and date_raw.strip():
-                    add_lit(g, d_node, RICO.expressedDate, str(date_raw).strip(), lang="ko")
-                add_res(g, d_node, RICO.hasDateType, str(NAM1["singleDate"]))
-                add_res(g, r_node, RICO.hasCreationDate, date_iri)
-                
-                # Date → Activity(Event) (도메인: Date, 레인지: Activity)
-                g.add((URIRef(date_iri), RICO.isDateOfOccurrenceOf, act))
+                # 날짜(단일일) + 연도 Date
+                ymd = parse_date_simple(date_raw)
+                if ymd:
+                    y, m, d = ymd
+                    # --- 단일 날짜 ID: 'date-yyMMdd'
+                    short_id = ymd_to_short_id(y, m, d)  # 예: 240502
+                    date_id = f"date-{short_id}"
 
-        # 5) Participants (발언자 → ACT) + 임시개체 처리
-        name, iri, role, original_speaker = parse_speaker_name(row.get("발언자"), idx_exact, idx_nospace)
+                    if date_id not in seen["date"]:
+                        seen["date"].add(date_id)
+                        d_node = URIRef(NADAT1[date_id])
+                        g.add((d_node, RDF.type, RICO.Date))
+                        add_lit(g, d_node, RICO.identifier, date_id)
+                        add_lit(g, d_node, RICO.name, date_id)
+                        add_lit(g, d_node, RICO.normalizedDateValue, ymd_to_iso(y, m, d), dt=XSD.date)
+                        if isinstance(date_raw, str) and date_raw.strip():
+                            add_lit(g, d_node, RICO.expressedDate, str(date_raw).strip(), lang="ko")
+                        add_res(g, d_node, RICO.hasDateType, str(NAM1["singleDate"]))
+                    add_res(g, URIRef(NADAT1[date_id]), RICO.isDateOfOccurrenceOf, str(NADAT1[ev_id]))
+                    add_res(g, r, RICO.hasCreationDate, str(NADAT1[date_id]))
 
+                    # ---- 회수별(세션) 날짜 범위 업데이트 & 레코드 수집
+                    if session_num is not None:
+                        info = session_info.get(session_num, {"min": None, "max": None, "records": []})
+                        cur = (y, m, d)
+                        if info["min"] is None or cur < info["min"]:
+                            info["min"] = cur
+                        if info["max"] is None or cur > info["max"]:
+                            info["max"] = cur
+                        info["records"].append(r_id)
+                        session_info[session_num] = info
+                        record_session[r_id] = session_num
+
+                # ===== Instantiation (전자회의록 -02) =====
+                gen2 = f"{generation:02d}" if generation is not None else "00"
+                base_key = f"{gen2}{session4}{round3}{mtg_no}"
+                ins2_id = f"INS-{base_key}-02"
+                if ins2_id not in seen["inst"]:
+                    seen["inst"].add(ins2_id)
+                    ins2 = URIRef(NADAT1[ins2_id])
+                    g.add((ins2, RDF.type, RICO.Instantiation))
+                    add_lit(g, ins2, RICO.identifier, ins2_id)
+                    add_lit(g, ins2, SKOS.prefLabel, f"[{ins2_id}] 본회의 전자회의록", lang="ko")
+                    add_lit(g, ins2, RICO.title, title.strip(), lang="ko")
+                    add_lit(g, ins2, RICO.conditionsOfAccess, "공개(대국민 열람 가능)", lang="ko")
+                    add_lit(
+                        g, ins2, RICO.conditionsOfUse,
+                        "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다.", lang="ko"
+                    )
+                    add_res(g, ins2, RICO.hasOrHadHolder, str(NADAT2["NAS-0002-0001"]))  # 디지털정책담당관실
+                    g.add((r, RICO.hasInstantiation, ins2))
+
+        # ===== Participants (발언자 → Event) =====
+        name, iri, role, original = parse_speaker_name(row.get("발언자"), idx_exact, idx_nospace)
         if iri:
-            # 기존 d2에 있던 사람
-            key = f"ACT-M-{mtg_no}"
-            seen_participants.setdefault(key, set())
-            if iri not in seen_participants[key]:
-                seen_participants[key].add(iri)
-                add_res(g, act, RICO.hasOrHadParticipant, iri)
-                linked_count += 1
+            if iri not in event_participants[ev_id]:
+                event_participants[ev_id].add(iri)
+                add_res(g, ev, RICO.hasOrHadParticipant, iri)
+                linked_existing += 1
         else:
-            # d2에 없음 → 임시개체 생성 및 연결 (이름만을 기준으로 생성)
-            speaker_text_for_label = original_speaker if original_speaker else row.get("발언자")
-            tmp_iri = prov_mgr.get_or_create(speaker_text_for_label)
-            if tmp_iri:
-                key = f"ACT-M-{mtg_no}"
-                seen_participants.setdefault(key, set())
-                if tmp_iri not in seen_participants[key]:
-                    seen_participants[key].add(tmp_iri)
-                    add_res(g, act, RICO.hasOrHadParticipant, tmp_iri)
-                    provisional_linked += 1
+            speaker_text = original if original else row.get("발언자")
+            tmp_iri = prov_mgr.get_or_create(speaker_text)
+            if tmp_iri and tmp_iri not in event_participants[ev_id]:
+                event_participants[ev_id].add(tmp_iri)
+                add_res(g, ev, RICO.hasOrHadParticipant, tmp_iri)
+                linked_provisional += 1
 
-    # 저장(d1)
+    # ===== 연도별(회수 시작연도 기준) 보존본 Instantiation(-01) 생성 =====
+    # 1) 회수 → 시작연도 매핑
+    year_to_sessions: DefaultDict[int, List[int]] = defaultdict(list)
+    for sess, info in session_info.items():
+        if info["min"]:
+            start_y = info["min"][0]
+            year_to_sessions[start_y].append(sess)
+
+    # 2) 연도별 범위 계산 및 INS 생성/연결
+    for start_year, sessions in sorted(year_to_sessions.items()):
+        # 해당 연도의 세션들에서 전체 시작/종료일 계산
+        min_ymd = None
+        max_ymd = None
+        grouped_records: List[str] = []
+        for sess in sessions:
+            info = session_info[sess]
+            if info["min"]:
+                if (min_ymd is None) or (info["min"] < min_ymd):
+                    min_ymd = info["min"]
+            if info["max"]:
+                if (max_ymd is None) or (info["max"] > max_ymd):
+                    max_ymd = info["max"]
+            grouped_records.extend(info["records"])
+
+        if (min_ymd is None) or (max_ymd is None):
+            continue  # 방어
+
+        sy, sm, sd = min_ymd
+        ey, em, ed = max_ymd
+
+        # DateRange 개체
+        start_id = ymd_to_short_id(sy, sm, sd)
+        end_id   = ymd_to_short_id(ey, em, ed)
+        range_id = f"date-{start_id}_{end_id}"
+        if range_id not in seen["daterange"]:
+            seen["daterange"].add(range_id)
+            dr = URIRef(NADAT1[range_id])
+            g.add((dr, RDF.type, RICO.Date))
+            add_lit(g, dr, RICO.identifier, range_id)
+            add_lit(g, dr, RICO.name, range_id)
+            add_lit(g, dr, RICO.expressedDate, f"{ymd_to_iso(sy, sm, sd)} ~ {ymd_to_iso(ey, em, ed)}", lang="ko")
+            add_res(g, dr, RICO.hasDateType, str(NAM1["dateRange"]))
+
+        # 보존본 Instantiation(묶음형) — INSyyMMdd_yyMMdd-01
+        ins1_id = f"INS-{start_id}_{end_id}-01"
+        if ins1_id not in seen["inst"]:
+            seen["inst"].add(ins1_id)
+            ins1 = URIRef(NADAT1[ins1_id])
+            g.add((ins1, RDF.type, RICO.Instantiation))
+            add_lit(g, ins1, RICO.identifier, ins1_id)
+            # 라벨: 같은 해면 "YYYY 본회의 보존회의록", 다르면 "YYYY-YYYY ..."
+            if sy == ey:
+                pref = f"{sy} 본회의 보존회의록"
+            else:
+                pref = f"{sy}-{ey} 본회의 보존회의록"
+            add_lit(g, ins1, SKOS.prefLabel, f"[{ins1_id}] {pref}", lang="ko")
+            # 매체/표현/제작
+            add_res(g, ins1, RICO.hasOrHadCarrierType, str(NAM1["Paper"]))
+            add_res(g, ins1, RICO.hasOrHadRepresentationType, str(NAM1["Text"]))
+            add_res(g, ins1, RICO.hasOrHadProductionTechniqueType, str(NAM1["Printing"]))
+            # 접근/관리/보유/제작
+            add_lit(g, ins1, RICO.conditionsOfAccess, "제한(현직 국회의원만 열람 가능)", lang="ko")
+            add_res(g, ins1, RICO.hasOrHadHolder, str(NADAT2["NAArchives"]))
+            add_res(g, ins1, RICO.hasOrHadManager, str(NADAT2["NAArchives"]))
+            add_res(g, ins1, RICO.hasCreator, str(NADAT2["NAS-0001-0001"]))  # 의정기록과
+            # 기간
+            add_res(g, ins1, RICO.hasOrHadDate, str(NADAT1[range_id]))
+            add_lit(g, ins1, DCTERMS.coverage, f"{ymd_to_iso(sy, sm, sd)}/{ymd_to_iso(ey, em, ed)}")
+
+        # 이 연도 묶음의 모든 Record에 보존본 연결
+        for r_local in grouped_records:
+            g.add((URIRef(NADAT1[r_local]), RICO.hasInstantiation, URIRef(NADAT1[ins1_id])))
+
+        print(f"[info] archival bundle created: {ins1_id} (sessions={sorted(sessions)}, records={len(grouped_records)})")
+
+    # ===== 저장 =====
     out_file = Path(out_path).expanduser().resolve()
     out_file.parent.mkdir(parents=True, exist_ok=True)
     g.serialize(destination=out_file.as_posix(), format="turtle")
-    print(f"[done] rows={total_rows}, participants_linked(existing)={linked_count}, provisional_linked={provisional_linked}")
+    print(f"[done] rows={total_rows}, linked(existing)={linked_existing}, provisional={linked_provisional}")
     print(f"[write] {out_file}")
 
-    # 저장(임시 Person TTL txt, d2 보완용)
     prov_mgr.write_ttl_txt(tmp_people_out_path)
 
 # ==== 실행 ====
 if __name__ == "__main__":
     convert(CSV_PATH, OUT_TTL, OUT_TMP_PEOPLE, encoding=CSV_ENCODING, people_ttl_url=PEOPLE_TTL)
-
-
-          
