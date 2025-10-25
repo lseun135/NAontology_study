@@ -1102,7 +1102,7 @@ nadat1:INS-21037900150024-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21037900150024-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21037900150024-02" ;
     rico:title "제379회국회 본회의회의록 제 1 호"@ko .
 
@@ -1110,7 +1110,7 @@ nadat1:INS-21037900250025-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21037900250025-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21037900250025-02" ;
     rico:title "제379회국회 본회의회의록 제 2 호"@ko .
 
@@ -1118,7 +1118,7 @@ nadat1:INS-21037900350027-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21037900350027-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21037900350027-02" ;
     rico:title "제379회국회 본회의회의록 제 3 호"@ko .
 
@@ -1126,7 +1126,7 @@ nadat1:INS-21037900450026-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21037900450026-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21037900450026-02" ;
     rico:title "제379회국회 본회의회의록 제 4 호"@ko .
 
@@ -1134,7 +1134,7 @@ nadat1:INS-21037900550028-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21037900550028-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21037900550028-02" ;
     rico:title "제379회국회 본회의회의록 제 5 호"@ko .
 
@@ -1142,7 +1142,7 @@ nadat1:INS-21037900650029-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21037900650029-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21037900650029-02" ;
     rico:title "제379회국회 본회의회의록 제 6 호"@ko .
 
@@ -1150,7 +1150,7 @@ nadat1:INS-21037900750051-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21037900750051-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21037900750051-02" ;
     rico:title "제379회국회 본회의회의록 제 7 호"@ko .
 
@@ -1158,7 +1158,7 @@ nadat1:INS-21038000050058-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038000050058-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038000050058-02" ;
     rico:title "제380회국회 본회의회의록 제 0 호"@ko .
 
@@ -1166,7 +1166,7 @@ nadat1:INS-21038000150057-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038000150057-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038000150057-02" ;
     rico:title "제380회국회 본회의회의록 제 1 호"@ko .
 
@@ -1174,7 +1174,7 @@ nadat1:INS-21038000250060-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038000250060-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038000250060-02" ;
     rico:title "제380회국회 본회의회의록 제 2 호"@ko .
 
@@ -1182,7 +1182,7 @@ nadat1:INS-21038000350063-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038000350063-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038000350063-02" ;
     rico:title "제380회국회 본회의회의록 제 3 호"@ko .
 
@@ -1190,7 +1190,7 @@ nadat1:INS-21038000450065-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038000450065-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038000450065-02" ;
     rico:title "제380회국회 본회의회의록 제 4 호"@ko .
 
@@ -1198,7 +1198,7 @@ nadat1:INS-21038000550067-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038000550067-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038000550067-02" ;
     rico:title "제380회국회 본회의회의록 제 5 호"@ko .
 
@@ -1206,7 +1206,7 @@ nadat1:INS-21038000650070-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038000650070-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038000650070-02" ;
     rico:title "제380회국회 본회의회의록 제 6 호"@ko .
 
@@ -1214,7 +1214,7 @@ nadat1:INS-21038000750081-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038000750081-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038000750081-02" ;
     rico:title "제380회국회 본회의회의록 제 7 호"@ko .
 
@@ -1222,7 +1222,7 @@ nadat1:INS-21038000850098-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038000850098-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038000850098-02" ;
     rico:title "제380회국회 본회의회의록 제 8 호"@ko .
 
@@ -1230,7 +1230,7 @@ nadat1:INS-21038200050131-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038200050131-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038200050131-02" ;
     rico:title "제382회국회 본회의회의록 제 0 호"@ko .
 
@@ -1238,7 +1238,7 @@ nadat1:INS-21038200150130-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038200150130-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038200150130-02" ;
     rico:title "제382회국회 본회의회의록 제 1 호"@ko .
 
@@ -1246,7 +1246,7 @@ nadat1:INS-21038200250157-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038200250157-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038200250157-02" ;
     rico:title "제382회국회 본회의회의록 제 2 호"@ko .
 
@@ -1254,7 +1254,7 @@ nadat1:INS-21038200350166-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038200350166-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038200350166-02" ;
     rico:title "제382회국회 본회의회의록 제 3 호"@ko .
 
@@ -1262,7 +1262,7 @@ nadat1:INS-21038200450185-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038200450185-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038200450185-02" ;
     rico:title "제382회국회 본회의회의록 제 4 호"@ko .
 
@@ -1270,7 +1270,7 @@ nadat1:INS-21038200550187-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038200550187-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038200550187-02" ;
     rico:title "제382회국회 본회의회의록 제 5 호"@ko .
 
@@ -1278,7 +1278,7 @@ nadat1:INS-21038200650196-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038200650196-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038200650196-02" ;
     rico:title "제382회국회 본회의회의록 제 6 호"@ko .
 
@@ -1286,7 +1286,7 @@ nadat1:INS-21038200750202-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038200750202-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038200750202-02" ;
     rico:title "제382회국회 본회의회의록 제 7 호"@ko .
 
@@ -1294,7 +1294,7 @@ nadat1:INS-21038200850228-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038200850228-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038200850228-02" ;
     rico:title "제382회국회 본회의회의록 제 8 호"@ko .
 
@@ -1302,7 +1302,7 @@ nadat1:INS-21038200950246-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038200950246-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038200950246-02" ;
     rico:title "제382회국회 본회의회의록 제 9 호"@ko .
 
@@ -1310,7 +1310,7 @@ nadat1:INS-21038201050326-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038201050326-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038201050326-02" ;
     rico:title "제382회국회 본회의회의록 제 10 호"@ko .
 
@@ -1318,7 +1318,7 @@ nadat1:INS-21038201150331-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038201150331-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038201150331-02" ;
     rico:title "제382회국회 본회의회의록 제 11 호"@ko .
 
@@ -1326,7 +1326,7 @@ nadat1:INS-21038201250480-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038201250480-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038201250480-02" ;
     rico:title "제382회국회 본회의회의록 제 12 호"@ko .
 
@@ -1334,7 +1334,7 @@ nadat1:INS-21038201350574-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038201350574-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038201350574-02" ;
     rico:title "제382회국회 본회의회의록 제 13 호"@ko .
 
@@ -1342,7 +1342,7 @@ nadat1:INS-21038201450596-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038201450596-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038201450596-02" ;
     rico:title "제382회국회 본회의회의록 제 14 호"@ko .
 
@@ -1350,7 +1350,7 @@ nadat1:INS-21038201550655-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038201550655-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038201550655-02" ;
     rico:title "제382회국회 본회의회의록 제 15 호"@ko .
 
@@ -1358,7 +1358,7 @@ nadat1:INS-21038300150660-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038300150660-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038300150660-02" ;
     rico:title "제383회국회 본회의회의록 제 1 호"@ko .
 
@@ -1366,7 +1366,7 @@ nadat1:INS-21038300250719-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038300250719-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038300250719-02" ;
     rico:title "제383회국회 본회의회의록 제 2 호"@ko .
 
@@ -1374,7 +1374,7 @@ nadat1:INS-21038400050743-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038400050743-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038400050743-02" ;
     rico:title "제384회국회 본회의회의록 제 0 호"@ko .
 
@@ -1382,7 +1382,7 @@ nadat1:INS-21038400150744-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038400150744-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038400150744-02" ;
     rico:title "제384회국회 본회의회의록 제 1 호"@ko .
 
@@ -1390,7 +1390,7 @@ nadat1:INS-21038400250745-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038400250745-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038400250745-02" ;
     rico:title "제384회국회 본회의회의록 제 2 호"@ko .
 
@@ -1398,7 +1398,7 @@ nadat1:INS-21038400350747-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038400350747-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038400350747-02" ;
     rico:title "제384회국회 본회의회의록 제 3 호"@ko .
 
@@ -1406,7 +1406,7 @@ nadat1:INS-21038400450752-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038400450752-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038400450752-02" ;
     rico:title "제384회국회 본회의회의록 제 4 호"@ko .
 
@@ -1414,7 +1414,7 @@ nadat1:INS-21038400550755-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038400550755-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038400550755-02" ;
     rico:title "제384회국회 본회의회의록 제 5 호"@ko .
 
@@ -1422,7 +1422,7 @@ nadat1:INS-21038400650757-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038400650757-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038400650757-02" ;
     rico:title "제384회국회 본회의회의록 제 6 호"@ko .
 
@@ -1430,7 +1430,7 @@ nadat1:INS-21038400750831-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038400750831-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038400750831-02" ;
     rico:title "제384회국회 본회의회의록 제 7 호"@ko .
 
@@ -1438,7 +1438,7 @@ nadat1:INS-21038500150855-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038500150855-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038500150855-02" ;
     rico:title "제385회국회 본회의회의록 제 1 호"@ko .
 
@@ -1446,7 +1446,7 @@ nadat1:INS-21038500250924-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038500250924-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038500250924-02" ;
     rico:title "제385회국회 본회의회의록 제 2 호"@ko .
 
@@ -1454,7 +1454,7 @@ nadat1:INS-21038500350930-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038500350930-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038500350930-02" ;
     rico:title "제385회국회 본회의회의록 제 3 호"@ko .
 
@@ -1462,7 +1462,7 @@ nadat1:INS-21038600150951-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038600150951-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038600150951-02" ;
     rico:title "제386회국회 본회의회의록 제 1 호"@ko .
 
@@ -1470,7 +1470,7 @@ nadat1:INS-21038600250952-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038600250952-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038600250952-02" ;
     rico:title "제386회국회 본회의회의록 제 2 호"@ko .
 
@@ -1478,7 +1478,7 @@ nadat1:INS-21038600350958-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038600350958-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038600350958-02" ;
     rico:title "제386회국회 본회의회의록 제 3 호"@ko .
 
@@ -1486,7 +1486,7 @@ nadat1:INS-21038600451003-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038600451003-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038600451003-02" ;
     rico:title "제386회국회 본회의회의록 제 4 호"@ko .
 
@@ -1494,7 +1494,7 @@ nadat1:INS-21038700151024-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038700151024-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038700151024-02" ;
     rico:title "제387회국회 본회의회의록 제 1 호"@ko .
 
@@ -1502,7 +1502,7 @@ nadat1:INS-21038700251032-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038700251032-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038700251032-02" ;
     rico:title "제387회국회 본회의회의록 제 2 호"@ko .
 
@@ -1510,7 +1510,7 @@ nadat1:INS-21038800151059-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038800151059-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038800151059-02" ;
     rico:title "제388회국회 본회의회의록 제 1 호"@ko .
 
@@ -1518,7 +1518,7 @@ nadat1:INS-21038800251062-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038800251062-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038800251062-02" ;
     rico:title "제388회국회 본회의회의록 제 2 호"@ko .
 
@@ -1526,7 +1526,7 @@ nadat1:INS-21038800351074-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038800351074-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038800351074-02" ;
     rico:title "제388회국회 본회의회의록 제 3 호"@ko .
 
@@ -1534,7 +1534,7 @@ nadat1:INS-21038800451081-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038800451081-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038800451081-02" ;
     rico:title "제388회국회 본회의회의록 제 4 호"@ko .
 
@@ -1542,7 +1542,7 @@ nadat1:INS-21038800551087-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038800551087-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038800551087-02" ;
     rico:title "제388회국회 본회의회의록 제 5 호"@ko .
 
@@ -1550,7 +1550,7 @@ nadat1:INS-21038800651105-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038800651105-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038800651105-02" ;
     rico:title "제388회국회 본회의회의록 제 6 호"@ko .
 
@@ -1558,7 +1558,7 @@ nadat1:INS-21038800751117-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038800751117-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038800751117-02" ;
     rico:title "제388회국회 본회의회의록 제 7 호"@ko .
 
@@ -1566,7 +1566,7 @@ nadat1:INS-21038900151123-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038900151123-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038900151123-02" ;
     rico:title "제389회국회 본회의회의록 제 1 호"@ko .
 
@@ -1574,7 +1574,7 @@ nadat1:INS-21038900251165-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038900251165-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038900251165-02" ;
     rico:title "제389회국회 본회의회의록 제 2 호"@ko .
 
@@ -1582,7 +1582,7 @@ nadat1:INS-21038900351166-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038900351166-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038900351166-02" ;
     rico:title "제389회국회 본회의회의록 제 3 호"@ko .
 
@@ -1590,7 +1590,7 @@ nadat1:INS-21039000151235-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039000151235-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039000151235-02" ;
     rico:title "제390회국회 본회의회의록 제 1 호"@ko .
 
@@ -1598,7 +1598,7 @@ nadat1:INS-21039100051237-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039100051237-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039100051237-02" ;
     rico:title "제391회국회 본회의회의록 제 0 호"@ko .
 
@@ -1606,7 +1606,7 @@ nadat1:INS-21039100151238-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039100151238-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039100151238-02" ;
     rico:title "제391회국회 본회의회의록 제 1 호"@ko .
 
@@ -1614,7 +1614,7 @@ nadat1:INS-21039100251244-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039100251244-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039100251244-02" ;
     rico:title "제391회국회 본회의회의록 제 2 호"@ko .
 
@@ -1622,7 +1622,7 @@ nadat1:INS-21039100351252-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039100351252-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039100351252-02" ;
     rico:title "제391회국회 본회의회의록 제 3 호"@ko .
 
@@ -1630,7 +1630,7 @@ nadat1:INS-21039100451270-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039100451270-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039100451270-02" ;
     rico:title "제391회국회 본회의회의록 제 4 호"@ko .
 
@@ -1638,7 +1638,7 @@ nadat1:INS-21039100551275-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039100551275-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039100551275-02" ;
     rico:title "제391회국회 본회의회의록 제 5 호"@ko .
 
@@ -1646,7 +1646,7 @@ nadat1:INS-21039100651285-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039100651285-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039100651285-02" ;
     rico:title "제391회국회 본회의회의록 제 6 호"@ko .
 
@@ -1654,7 +1654,7 @@ nadat1:INS-21039100751293-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039100751293-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039100751293-02" ;
     rico:title "제391회국회 본회의회의록 제 7 호"@ko .
 
@@ -1662,7 +1662,7 @@ nadat1:INS-21039100851313-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039100851313-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039100851313-02" ;
     rico:title "제391회국회 본회의회의록 제 8 호"@ko .
 
@@ -1670,7 +1670,7 @@ nadat1:INS-21039100951321-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039100951321-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039100951321-02" ;
     rico:title "제391회국회 본회의회의록 제 9 호"@ko .
 
@@ -1678,7 +1678,7 @@ nadat1:INS-21039101051374-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039101051374-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039101051374-02" ;
     rico:title "제391회국회 본회의회의록 제 10 호"@ko .
 
@@ -1686,7 +1686,7 @@ nadat1:INS-21039101151437-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039101151437-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039101151437-02" ;
     rico:title "제391회국회 본회의회의록 제 11 호"@ko .
 
@@ -1694,7 +1694,7 @@ nadat1:INS-21039101251623-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039101251623-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039101251623-02" ;
     rico:title "제391회국회 본회의회의록 제 12 호"@ko .
 
@@ -1702,7 +1702,7 @@ nadat1:INS-21039101351625-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039101351625-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039101351625-02" ;
     rico:title "제391회국회 본회의회의록 제 13 호"@ko .
 
@@ -1710,7 +1710,7 @@ nadat1:INS-21039101451657-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039101451657-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039101451657-02" ;
     rico:title "제391회국회 본회의회의록 제 14 호"@ko .
 
@@ -1718,7 +1718,7 @@ nadat1:INS-21039200151710-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039200151710-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039200151710-02" ;
     rico:title "제392회국회 본회의회의록 제 1 호"@ko .
 
@@ -1726,7 +1726,7 @@ nadat1:INS-21039200251735-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039200251735-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039200251735-02" ;
     rico:title "제392회국회 본회의회의록 제 2 호"@ko .
 
@@ -1734,7 +1734,7 @@ nadat1:INS-21039300051741-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039300051741-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039300051741-02" ;
     rico:title "제393회국회 본회의회의록 제 0 호"@ko .
 
@@ -1742,7 +1742,7 @@ nadat1:INS-21039300151742-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039300151742-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039300151742-02" ;
     rico:title "제393회국회 본회의회의록 제 1 호"@ko .
 
@@ -1750,7 +1750,7 @@ nadat1:INS-21039300251768-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039300251768-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039300251768-02" ;
     rico:title "제393회국회 본회의회의록 제 2 호"@ko .
 
@@ -1758,7 +1758,7 @@ nadat1:INS-21039300351773-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039300351773-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039300351773-02" ;
     rico:title "제393회국회 본회의회의록 제 3 호"@ko .
 
@@ -1766,7 +1766,7 @@ nadat1:INS-21039400151791-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039400151791-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039400151791-02" ;
     rico:title "제394회국회 본회의회의록 제 1 호"@ko .
 
@@ -1774,7 +1774,7 @@ nadat1:INS-21039500151808-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039500151808-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039500151808-02" ;
     rico:title "제395회국회 본회의회의록 제 1 호"@ko .
 
@@ -1782,7 +1782,7 @@ nadat1:INS-21039500251836-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039500251836-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039500251836-02" ;
     rico:title "제395회국회 본회의회의록 제 2 호"@ko .
 
@@ -1790,7 +1790,7 @@ nadat1:INS-21039600151848-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039600151848-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039600151848-02" ;
     rico:title "제396회국회 본회의회의록 제 1 호"@ko .
 
@@ -1798,7 +1798,7 @@ nadat1:INS-21039700151859-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039700151859-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039700151859-02" ;
     rico:title "제397회국회 본회의회의록 제 1 호"@ko .
 
@@ -1806,7 +1806,7 @@ nadat1:INS-21039700251894-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039700251894-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039700251894-02" ;
     rico:title "제397회국회 본회의회의록 제 2 호"@ko .
 
@@ -1814,7 +1814,7 @@ nadat1:INS-21039700351930-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039700351930-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039700351930-02" ;
     rico:title "제397회국회 본회의회의록 제 3 호"@ko .
 
@@ -1822,7 +1822,7 @@ nadat1:INS-21039700451954-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039700451954-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039700451954-02" ;
     rico:title "제397회국회 본회의회의록 제 4 호"@ko .
 
@@ -1830,7 +1830,7 @@ nadat1:INS-21039800151975-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039800151975-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039800151975-02" ;
     rico:title "제398회국회 본회의회의록 제 1 호"@ko .
 
@@ -1838,7 +1838,7 @@ nadat1:INS-21039800251979-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039800251979-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039800251979-02" ;
     rico:title "제398회국회 본회의회의록 제 2 호"@ko .
 
@@ -1846,7 +1846,7 @@ nadat1:INS-21039800351983-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039800351983-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039800351983-02" ;
     rico:title "제398회국회 본회의회의록 제 3 호"@ko .
 
@@ -1854,7 +1854,7 @@ nadat1:INS-21039800451984-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039800451984-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039800451984-02" ;
     rico:title "제398회국회 본회의회의록 제 4 호"@ko .
 
@@ -1862,7 +1862,7 @@ nadat1:INS-21039800551986-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039800551986-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039800551986-02" ;
     rico:title "제398회국회 본회의회의록 제 5 호"@ko .
 
@@ -1870,7 +1870,7 @@ nadat1:INS-21039800651989-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039800651989-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039800651989-02" ;
     rico:title "제398회국회 본회의회의록 제 6 호"@ko .
 
@@ -1878,7 +1878,7 @@ nadat1:INS-21039800751995-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039800751995-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039800751995-02" ;
     rico:title "제398회국회 본회의회의록 제 7 호"@ko .
 
@@ -1886,7 +1886,7 @@ nadat1:INS-21039800852011-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039800852011-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039800852011-02" ;
     rico:title "제398회국회 본회의회의록 제 8 호"@ko .
 
@@ -1894,7 +1894,7 @@ nadat1:INS-21040000052101-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040000052101-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040000052101-02" ;
     rico:title "제400회국회 본회의회의록 제 0 호"@ko .
 
@@ -1902,7 +1902,7 @@ nadat1:INS-21040000152102-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040000152102-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040000152102-02" ;
     rico:title "제400회국회 본회의회의록 제 1 호"@ko .
 
@@ -1910,7 +1910,7 @@ nadat1:INS-21040000252115-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040000252115-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040000252115-02" ;
     rico:title "제400회국회 본회의회의록 제 2 호"@ko .
 
@@ -1918,7 +1918,7 @@ nadat1:INS-21040000352135-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040000352135-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040000352135-02" ;
     rico:title "제400회국회 본회의회의록 제 3 호"@ko .
 
@@ -1926,7 +1926,7 @@ nadat1:INS-21040000452139-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040000452139-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040000452139-02" ;
     rico:title "제400회국회 본회의회의록 제 4 호"@ko .
 
@@ -1934,7 +1934,7 @@ nadat1:INS-21040000552147-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040000552147-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040000552147-02" ;
     rico:title "제400회국회 본회의회의록 제 5 호"@ko .
 
@@ -1942,7 +1942,7 @@ nadat1:INS-21040000652156-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040000652156-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040000652156-02" ;
     rico:title "제400회국회 본회의회의록 제 6 호"@ko .
 
@@ -1950,7 +1950,7 @@ nadat1:INS-21040000752174-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040000752174-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040000752174-02" ;
     rico:title "제400회국회 본회의회의록 제 7 호"@ko .
 
@@ -1958,7 +1958,7 @@ nadat1:INS-21040000852178-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040000852178-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040000852178-02" ;
     rico:title "제400회국회 본회의회의록 제 8 호"@ko .
 
@@ -1966,7 +1966,7 @@ nadat1:INS-21040000952182-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040000952182-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040000952182-02" ;
     rico:title "제400회국회 본회의회의록 제 9 호"@ko .
 
@@ -1974,7 +1974,7 @@ nadat1:INS-21040001052246-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040001052246-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040001052246-02" ;
     rico:title "제400회국회 본회의회의록 제 10 호"@ko .
 
@@ -1982,7 +1982,7 @@ nadat1:INS-21040001152260-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040001152260-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040001152260-02" ;
     rico:title "제400회국회 본회의회의록 제 11 호"@ko .
 
@@ -1990,7 +1990,7 @@ nadat1:INS-21040001252334-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040001252334-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040001252334-02" ;
     rico:title "제400회국회 본회의회의록 제 12 호"@ko .
 
@@ -1998,7 +1998,7 @@ nadat1:INS-21040001352477-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040001352477-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040001352477-02" ;
     rico:title "제400회국회 본회의회의록 제 13 호"@ko .
 
@@ -2006,7 +2006,7 @@ nadat1:INS-21040001452588-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040001452588-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040001452588-02" ;
     rico:title "제400회국회 본회의회의록 제 14 호"@ko .
 
@@ -2014,7 +2014,7 @@ nadat1:INS-21040100152605-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040100152605-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040100152605-02" ;
     rico:title "제401회국회 본회의회의록 제 1 호"@ko .
 
@@ -2022,7 +2022,7 @@ nadat1:INS-21040100252626-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040100252626-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040100252626-02" ;
     rico:title "제401회국회 본회의회의록 제 2 호"@ko .
 
@@ -2030,7 +2030,7 @@ nadat1:INS-21040100352627-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040100352627-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040100352627-02" ;
     rico:title "제401회국회 본회의회의록 제 3 호"@ko .
 
@@ -2038,7 +2038,7 @@ nadat1:INS-21040100452637-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040100452637-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040100452637-02" ;
     rico:title "제401회국회 본회의회의록 제 4 호"@ko .
 
@@ -2046,7 +2046,7 @@ nadat1:INS-21040100552645-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040100552645-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040100552645-02" ;
     rico:title "제401회국회 본회의회의록 제 5 호"@ko .
 
@@ -2054,7 +2054,7 @@ nadat1:INS-21040200152659-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040200152659-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040200152659-02" ;
     rico:title "제402회국회 본회의회의록 제 1 호"@ko .
 
@@ -2062,7 +2062,7 @@ nadat1:INS-21040300052667-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040300052667-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040300052667-02" ;
     rico:title "제403회국회 본회의회의록 제 0 호"@ko .
 
@@ -2070,7 +2070,7 @@ nadat1:INS-21040300152668-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040300152668-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040300152668-02" ;
     rico:title "제403회국회 본회의회의록 제 1 호"@ko .
 
@@ -2078,7 +2078,7 @@ nadat1:INS-21040300252669-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040300252669-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040300252669-02" ;
     rico:title "제403회국회 본회의회의록 제 2 호"@ko .
 
@@ -2086,7 +2086,7 @@ nadat1:INS-21040300352671-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040300352671-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040300352671-02" ;
     rico:title "제403회국회 본회의회의록 제 3 호"@ko .
 
@@ -2094,7 +2094,7 @@ nadat1:INS-21040300452672-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040300452672-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040300452672-02" ;
     rico:title "제403회국회 본회의회의록 제 4 호"@ko .
 
@@ -2102,7 +2102,7 @@ nadat1:INS-21040300552676-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040300552676-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040300552676-02" ;
     rico:title "제403회국회 본회의회의록 제 5 호"@ko .
 
@@ -2110,7 +2110,7 @@ nadat1:INS-21040300652684-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040300652684-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040300652684-02" ;
     rico:title "제403회국회 본회의회의록 제 6 호"@ko .
 
@@ -2118,7 +2118,7 @@ nadat1:INS-21040300752743-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040300752743-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040300752743-02" ;
     rico:title "제403회국회 본회의회의록 제 7 호"@ko .
 
@@ -2126,7 +2126,7 @@ nadat1:INS-21040300852751-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040300852751-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040300852751-02" ;
     rico:title "제403회국회 본회의회의록 제 8 호"@ko .
 
@@ -2134,7 +2134,7 @@ nadat1:INS-21040400152800-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040400152800-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040400152800-02" ;
     rico:title "제404회국회 본회의회의록 제 1 호"@ko .
 
@@ -2142,7 +2142,7 @@ nadat1:INS-21040400252823-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040400252823-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040400252823-02" ;
     rico:title "제404회국회 본회의회의록 제 2 호"@ko .
 
@@ -2150,7 +2150,7 @@ nadat1:INS-21040500152838-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040500152838-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040500152838-02" ;
     rico:title "제405회국회 본회의회의록 제 1 호"@ko .
 
@@ -2158,7 +2158,7 @@ nadat1:INS-21040500252843-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040500252843-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040500252843-02" ;
     rico:title "제405회국회 본회의회의록 제 2 호"@ko .
 
@@ -2166,7 +2166,7 @@ nadat1:INS-21040500352845-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040500352845-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040500352845-02" ;
     rico:title "제405회국회 본회의회의록 제 3 호"@ko .
 
@@ -2174,7 +2174,7 @@ nadat1:INS-21040500452863-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040500452863-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040500452863-02" ;
     rico:title "제405회국회 본회의회의록 제 4 호"@ko .
 
@@ -2182,7 +2182,7 @@ nadat1:INS-21040500552897-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040500552897-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040500552897-02" ;
     rico:title "제405회국회 본회의회의록 제 5 호"@ko .
 
@@ -2190,7 +2190,7 @@ nadat1:INS-21040600152945-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040600152945-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040600152945-02" ;
     rico:title "제406회국회 본회의회의록 제 1 호"@ko .
 
@@ -2198,7 +2198,7 @@ nadat1:INS-21040600252962-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040600252962-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040600252962-02" ;
     rico:title "제406회국회 본회의회의록 제 2 호"@ko .
 
@@ -2206,7 +2206,7 @@ nadat1:INS-21040700152974-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040700152974-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040700152974-02" ;
     rico:title "제407회국회 본회의회의록 제 1 호"@ko .
 
@@ -2214,7 +2214,7 @@ nadat1:INS-21040700252975-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040700252975-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040700252975-02" ;
     rico:title "제407회국회 본회의회의록 제 2 호"@ko .
 
@@ -2222,7 +2222,7 @@ nadat1:INS-21040700352978-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040700352978-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040700352978-02" ;
     rico:title "제407회국회 본회의회의록 제 3 호"@ko .
 
@@ -2230,7 +2230,7 @@ nadat1:INS-21040700452985-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040700452985-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040700452985-02" ;
     rico:title "제407회국회 본회의회의록 제 4 호"@ko .
 
@@ -2238,7 +2238,7 @@ nadat1:INS-21040700552988-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040700552988-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040700552988-02" ;
     rico:title "제407회국회 본회의회의록 제 5 호"@ko .
 
@@ -2246,7 +2246,7 @@ nadat1:INS-21040700652991-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040700652991-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040700652991-02" ;
     rico:title "제407회국회 본회의회의록 제 6 호"@ko .
 
@@ -2254,7 +2254,7 @@ nadat1:INS-21040700753046-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040700753046-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040700753046-02" ;
     rico:title "제407회국회 본회의회의록 제 7 호"@ko .
 
@@ -2262,7 +2262,7 @@ nadat1:INS-21040800153077-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040800153077-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040800153077-02" ;
     rico:title "제408회국회 본회의회의록 제 1 호"@ko .
 
@@ -2270,7 +2270,7 @@ nadat1:INS-21040800253084-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040800253084-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040800253084-02" ;
     rico:title "제408회국회 본회의회의록 제 2 호"@ko .
 
@@ -2278,7 +2278,7 @@ nadat1:INS-21040900153131-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040900153131-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040900153131-02" ;
     rico:title "제409회국회 본회의회의록 제 1 호"@ko .
 
@@ -2286,7 +2286,7 @@ nadat1:INS-21041000053169-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041000053169-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041000053169-02" ;
     rico:title "제410회국회 본회의회의록 제 0 호"@ko .
 
@@ -2294,7 +2294,7 @@ nadat1:INS-21041000153168-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041000153168-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041000153168-02" ;
     rico:title "제410회국회 본회의회의록 제 1 호"@ko .
 
@@ -2302,7 +2302,7 @@ nadat1:INS-21041000253184-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041000253184-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041000253184-02" ;
     rico:title "제410회국회 본회의회의록 제 2 호"@ko .
 
@@ -2310,7 +2310,7 @@ nadat1:INS-21041000353194-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041000353194-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041000353194-02" ;
     rico:title "제410회국회 본회의회의록 제 3 호"@ko .
 
@@ -2318,7 +2318,7 @@ nadat1:INS-21041000453201-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041000453201-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041000453201-02" ;
     rico:title "제410회국회 본회의회의록 제 4 호"@ko .
 
@@ -2326,7 +2326,7 @@ nadat1:INS-21041000553206-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041000553206-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041000553206-02" ;
     rico:title "제410회국회 본회의회의록 제 5 호"@ko .
 
@@ -2334,7 +2334,7 @@ nadat1:INS-21041000653224-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041000653224-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041000653224-02" ;
     rico:title "제410회국회 본회의회의록 제 6 호"@ko .
 
@@ -2342,7 +2342,7 @@ nadat1:INS-21041000753233-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041000753233-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041000753233-02" ;
     rico:title "제410회국회 본회의회의록 제 7 호"@ko .
 
@@ -2350,7 +2350,7 @@ nadat1:INS-21041000853247-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041000853247-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041000853247-02" ;
     rico:title "제410회국회 본회의회의록 제 8 호"@ko .
 
@@ -2358,7 +2358,7 @@ nadat1:INS-21041000953287-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041000953287-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041000953287-02" ;
     rico:title "제410회국회 본회의회의록 제 9 호"@ko .
 
@@ -2366,7 +2366,7 @@ nadat1:INS-21041001053341-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041001053341-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041001053341-02" ;
     rico:title "제410회국회 본회의회의록 제 10 호"@ko .
 
@@ -2374,7 +2374,7 @@ nadat1:INS-21041001153391-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041001153391-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041001153391-02" ;
     rico:title "제410회국회 본회의회의록 제 11 호"@ko .
 
@@ -2382,7 +2382,7 @@ nadat1:INS-21041001253561-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041001253561-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041001253561-02" ;
     rico:title "제410회국회 본회의회의록 제 12 호"@ko .
 
@@ -2390,7 +2390,7 @@ nadat1:INS-21041001353577-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041001353577-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041001353577-02" ;
     rico:title "제410회국회 본회의회의록 제 13 호"@ko .
 
@@ -2398,7 +2398,7 @@ nadat1:INS-21041001453628-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041001453628-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041001453628-02" ;
     rico:title "제410회국회 본회의회의록 제 14 호"@ko .
 
@@ -2406,7 +2406,7 @@ nadat1:INS-21041100153696-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041100153696-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041100153696-02" ;
     rico:title "제411회국회 본회의회의록 제 1 호"@ko .
 
@@ -2414,7 +2414,7 @@ nadat1:INS-21041100453763-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041100453763-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041100453763-02" ;
     rico:title "제411회국회 본회의회의록 제 4 호"@ko .
 
@@ -2422,7 +2422,7 @@ nadat1:INS-21041200153779-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041200153779-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041200153779-02" ;
     rico:title "제412회국회 본회의회의록 제 1 호"@ko .
 
@@ -2430,7 +2430,7 @@ nadat1:INS-21041200253785-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041200253785-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041200253785-02" ;
     rico:title "제412회국회 본회의회의록 제 2 호"@ko .
 
@@ -2438,7 +2438,7 @@ nadat1:INS-21041300053795-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041300053795-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041300053795-02" ;
     rico:title "제413회국회 본회의회의록 제 0 호"@ko .
 
@@ -2446,7 +2446,7 @@ nadat1:INS-21041300153796-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041300153796-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041300153796-02" ;
     rico:title "제413회국회 본회의회의록 제 1 호"@ko .
 
@@ -2454,7 +2454,7 @@ nadat1:INS-21041300253797-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041300253797-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041300253797-02" ;
     rico:title "제413회국회 본회의회의록 제 2 호"@ko .
 
@@ -2462,7 +2462,7 @@ nadat1:INS-21041300353800-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041300353800-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041300353800-02" ;
     rico:title "제413회국회 본회의회의록 제 3 호"@ko .
 
@@ -2470,7 +2470,7 @@ nadat1:INS-21041300453804-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041300453804-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041300453804-02" ;
     rico:title "제413회국회 본회의회의록 제 4 호"@ko .
 
@@ -2478,7 +2478,7 @@ nadat1:INS-21041300553808-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041300553808-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041300553808-02" ;
     rico:title "제413회국회 본회의회의록 제 5 호"@ko .
 
@@ -2486,7 +2486,7 @@ nadat1:INS-21041300653815-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041300653815-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041300653815-02" ;
     rico:title "제413회국회 본회의회의록 제 6 호"@ko .
 
@@ -2494,7 +2494,7 @@ nadat1:INS-21041400153832-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041400153832-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041400153832-02" ;
     rico:title "제414회국회 본회의회의록 제 1 호"@ko .
 
@@ -2502,7 +2502,7 @@ nadat1:INS-21041400253844-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041400253844-02] 본회의 전자회의록"@ko ;
     rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
-    rico:hasOrHadHolder nadat2:NAS-0002-0001 ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041400253844-02" ;
     rico:title "제414회국회 본회의회의록 제 2 호"@ko .
 
