@@ -1104,7 +1104,7 @@ nadat1:INS-21037900150024-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21037900150024-02" ;
-    rico:title "제379회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제379회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21037900250025-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21037900250025-02] 본회의 전자회의록"@ko ;
@@ -1112,7 +1112,7 @@ nadat1:INS-21037900250025-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21037900250025-02" ;
-    rico:title "제379회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제379회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21037900350027-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21037900350027-02] 본회의 전자회의록"@ko ;
@@ -1120,7 +1120,7 @@ nadat1:INS-21037900350027-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21037900350027-02" ;
-    rico:title "제379회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제379회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:INS-21037900450026-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21037900450026-02] 본회의 전자회의록"@ko ;
@@ -1128,7 +1128,7 @@ nadat1:INS-21037900450026-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21037900450026-02" ;
-    rico:title "제379회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제379회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:INS-21037900550028-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21037900550028-02] 본회의 전자회의록"@ko ;
@@ -1136,7 +1136,7 @@ nadat1:INS-21037900550028-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21037900550028-02" ;
-    rico:title "제379회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제379회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:INS-21037900650029-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21037900650029-02] 본회의 전자회의록"@ko ;
@@ -1144,7 +1144,7 @@ nadat1:INS-21037900650029-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21037900650029-02" ;
-    rico:title "제379회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제379회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:INS-21037900750051-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21037900750051-02] 본회의 전자회의록"@ko ;
@@ -1152,7 +1152,7 @@ nadat1:INS-21037900750051-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21037900750051-02" ;
-    rico:title "제379회국회 본회의회의록 제 7 호"@ko .
+    rico:title "제379회국회 국회본회의회의록 제 7 호"@ko .
 
 nadat1:INS-21038000050058-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038000050058-02] 본회의 전자회의록"@ko ;
@@ -1160,7 +1160,7 @@ nadat1:INS-21038000050058-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038000050058-02" ;
-    rico:title "제380회국회 본회의회의록 제 0 호"@ko .
+    rico:title "제380회국회 국회본회의회의록 제 0 호"@ko .
 
 nadat1:INS-21038000150057-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038000150057-02] 본회의 전자회의록"@ko ;
@@ -1168,7 +1168,7 @@ nadat1:INS-21038000150057-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038000150057-02" ;
-    rico:title "제380회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제380회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21038000250060-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038000250060-02] 본회의 전자회의록"@ko ;
@@ -1176,7 +1176,7 @@ nadat1:INS-21038000250060-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038000250060-02" ;
-    rico:title "제380회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제380회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21038000350063-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038000350063-02] 본회의 전자회의록"@ko ;
@@ -1184,7 +1184,7 @@ nadat1:INS-21038000350063-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038000350063-02" ;
-    rico:title "제380회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제380회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:INS-21038000450065-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038000450065-02] 본회의 전자회의록"@ko ;
@@ -1192,7 +1192,7 @@ nadat1:INS-21038000450065-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038000450065-02" ;
-    rico:title "제380회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제380회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:INS-21038000550067-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038000550067-02] 본회의 전자회의록"@ko ;
@@ -1200,7 +1200,7 @@ nadat1:INS-21038000550067-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038000550067-02" ;
-    rico:title "제380회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제380회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:INS-21038000650070-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038000650070-02] 본회의 전자회의록"@ko ;
@@ -1208,7 +1208,7 @@ nadat1:INS-21038000650070-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038000650070-02" ;
-    rico:title "제380회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제380회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:INS-21038000750081-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038000750081-02] 본회의 전자회의록"@ko ;
@@ -1216,7 +1216,7 @@ nadat1:INS-21038000750081-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038000750081-02" ;
-    rico:title "제380회국회 본회의회의록 제 7 호"@ko .
+    rico:title "제380회국회 국회본회의회의록 제 7 호"@ko .
 
 nadat1:INS-21038000850098-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038000850098-02] 본회의 전자회의록"@ko ;
@@ -1224,7 +1224,7 @@ nadat1:INS-21038000850098-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038000850098-02" ;
-    rico:title "제380회국회 본회의회의록 제 8 호"@ko .
+    rico:title "제380회국회 국회본회의회의록 제 8 호"@ko .
 
 nadat1:INS-21038200050131-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038200050131-02] 본회의 전자회의록"@ko ;
@@ -1232,7 +1232,7 @@ nadat1:INS-21038200050131-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038200050131-02" ;
-    rico:title "제382회국회 본회의회의록 제 0 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 0 호"@ko .
 
 nadat1:INS-21038200150130-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038200150130-02] 본회의 전자회의록"@ko ;
@@ -1240,7 +1240,7 @@ nadat1:INS-21038200150130-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038200150130-02" ;
-    rico:title "제382회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21038200250157-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038200250157-02] 본회의 전자회의록"@ko ;
@@ -1248,7 +1248,7 @@ nadat1:INS-21038200250157-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038200250157-02" ;
-    rico:title "제382회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21038200350166-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038200350166-02] 본회의 전자회의록"@ko ;
@@ -1256,7 +1256,7 @@ nadat1:INS-21038200350166-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038200350166-02" ;
-    rico:title "제382회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:INS-21038200450185-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038200450185-02] 본회의 전자회의록"@ko ;
@@ -1264,7 +1264,7 @@ nadat1:INS-21038200450185-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038200450185-02" ;
-    rico:title "제382회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:INS-21038200550187-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038200550187-02] 본회의 전자회의록"@ko ;
@@ -1272,7 +1272,7 @@ nadat1:INS-21038200550187-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038200550187-02" ;
-    rico:title "제382회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:INS-21038200650196-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038200650196-02] 본회의 전자회의록"@ko ;
@@ -1280,7 +1280,7 @@ nadat1:INS-21038200650196-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038200650196-02" ;
-    rico:title "제382회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:INS-21038200750202-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038200750202-02] 본회의 전자회의록"@ko ;
@@ -1288,7 +1288,7 @@ nadat1:INS-21038200750202-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038200750202-02" ;
-    rico:title "제382회국회 본회의회의록 제 7 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 7 호"@ko .
 
 nadat1:INS-21038200850228-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038200850228-02] 본회의 전자회의록"@ko ;
@@ -1296,7 +1296,7 @@ nadat1:INS-21038200850228-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038200850228-02" ;
-    rico:title "제382회국회 본회의회의록 제 8 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 8 호"@ko .
 
 nadat1:INS-21038200950246-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038200950246-02] 본회의 전자회의록"@ko ;
@@ -1304,7 +1304,7 @@ nadat1:INS-21038200950246-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038200950246-02" ;
-    rico:title "제382회국회 본회의회의록 제 9 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 9 호"@ko .
 
 nadat1:INS-21038201050326-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038201050326-02] 본회의 전자회의록"@ko ;
@@ -1312,7 +1312,7 @@ nadat1:INS-21038201050326-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038201050326-02" ;
-    rico:title "제382회국회 본회의회의록 제 10 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 10 호"@ko .
 
 nadat1:INS-21038201150331-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038201150331-02] 본회의 전자회의록"@ko ;
@@ -1320,7 +1320,7 @@ nadat1:INS-21038201150331-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038201150331-02" ;
-    rico:title "제382회국회 본회의회의록 제 11 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 11 호"@ko .
 
 nadat1:INS-21038201250480-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038201250480-02] 본회의 전자회의록"@ko ;
@@ -1328,7 +1328,7 @@ nadat1:INS-21038201250480-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038201250480-02" ;
-    rico:title "제382회국회 본회의회의록 제 12 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 12 호"@ko .
 
 nadat1:INS-21038201350574-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038201350574-02] 본회의 전자회의록"@ko ;
@@ -1336,7 +1336,7 @@ nadat1:INS-21038201350574-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038201350574-02" ;
-    rico:title "제382회국회 본회의회의록 제 13 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 13 호"@ko .
 
 nadat1:INS-21038201450596-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038201450596-02] 본회의 전자회의록"@ko ;
@@ -1344,7 +1344,7 @@ nadat1:INS-21038201450596-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038201450596-02" ;
-    rico:title "제382회국회 본회의회의록 제 14 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 14 호"@ko .
 
 nadat1:INS-21038201550655-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038201550655-02] 본회의 전자회의록"@ko ;
@@ -1352,7 +1352,7 @@ nadat1:INS-21038201550655-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038201550655-02" ;
-    rico:title "제382회국회 본회의회의록 제 15 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 15 호"@ko .
 
 nadat1:INS-21038300150660-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038300150660-02] 본회의 전자회의록"@ko ;
@@ -1360,7 +1360,7 @@ nadat1:INS-21038300150660-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038300150660-02" ;
-    rico:title "제383회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제383회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21038300250719-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038300250719-02] 본회의 전자회의록"@ko ;
@@ -1368,7 +1368,7 @@ nadat1:INS-21038300250719-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038300250719-02" ;
-    rico:title "제383회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제383회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21038400050743-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038400050743-02] 본회의 전자회의록"@ko ;
@@ -1376,7 +1376,7 @@ nadat1:INS-21038400050743-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038400050743-02" ;
-    rico:title "제384회국회 본회의회의록 제 0 호"@ko .
+    rico:title "제384회국회 국회본회의회의록 제 0 호"@ko .
 
 nadat1:INS-21038400150744-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038400150744-02] 본회의 전자회의록"@ko ;
@@ -1384,7 +1384,7 @@ nadat1:INS-21038400150744-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038400150744-02" ;
-    rico:title "제384회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제384회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21038400250745-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038400250745-02] 본회의 전자회의록"@ko ;
@@ -1392,7 +1392,7 @@ nadat1:INS-21038400250745-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038400250745-02" ;
-    rico:title "제384회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제384회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21038400350747-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038400350747-02] 본회의 전자회의록"@ko ;
@@ -1400,7 +1400,7 @@ nadat1:INS-21038400350747-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038400350747-02" ;
-    rico:title "제384회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제384회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:INS-21038400450752-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038400450752-02] 본회의 전자회의록"@ko ;
@@ -1408,7 +1408,7 @@ nadat1:INS-21038400450752-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038400450752-02" ;
-    rico:title "제384회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제384회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:INS-21038400550755-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038400550755-02] 본회의 전자회의록"@ko ;
@@ -1416,7 +1416,7 @@ nadat1:INS-21038400550755-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038400550755-02" ;
-    rico:title "제384회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제384회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:INS-21038400650757-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038400650757-02] 본회의 전자회의록"@ko ;
@@ -1424,7 +1424,7 @@ nadat1:INS-21038400650757-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038400650757-02" ;
-    rico:title "제384회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제384회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:INS-21038400750831-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038400750831-02] 본회의 전자회의록"@ko ;
@@ -1432,7 +1432,7 @@ nadat1:INS-21038400750831-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038400750831-02" ;
-    rico:title "제384회국회 본회의회의록 제 7 호"@ko .
+    rico:title "제384회국회 국회본회의회의록 제 7 호"@ko .
 
 nadat1:INS-21038500150855-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038500150855-02] 본회의 전자회의록"@ko ;
@@ -1440,7 +1440,7 @@ nadat1:INS-21038500150855-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038500150855-02" ;
-    rico:title "제385회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제385회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21038500250924-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038500250924-02] 본회의 전자회의록"@ko ;
@@ -1448,7 +1448,7 @@ nadat1:INS-21038500250924-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038500250924-02" ;
-    rico:title "제385회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제385회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21038500350930-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038500350930-02] 본회의 전자회의록"@ko ;
@@ -1456,7 +1456,7 @@ nadat1:INS-21038500350930-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038500350930-02" ;
-    rico:title "제385회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제385회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:INS-21038600150951-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038600150951-02] 본회의 전자회의록"@ko ;
@@ -1464,7 +1464,7 @@ nadat1:INS-21038600150951-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038600150951-02" ;
-    rico:title "제386회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제386회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21038600250952-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038600250952-02] 본회의 전자회의록"@ko ;
@@ -1472,7 +1472,7 @@ nadat1:INS-21038600250952-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038600250952-02" ;
-    rico:title "제386회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제386회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21038600350958-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038600350958-02] 본회의 전자회의록"@ko ;
@@ -1480,7 +1480,7 @@ nadat1:INS-21038600350958-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038600350958-02" ;
-    rico:title "제386회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제386회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:INS-21038600451003-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038600451003-02] 본회의 전자회의록"@ko ;
@@ -1488,7 +1488,7 @@ nadat1:INS-21038600451003-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038600451003-02" ;
-    rico:title "제386회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제386회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:INS-21038700151024-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038700151024-02] 본회의 전자회의록"@ko ;
@@ -1496,7 +1496,7 @@ nadat1:INS-21038700151024-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038700151024-02" ;
-    rico:title "제387회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제387회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21038700251032-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038700251032-02] 본회의 전자회의록"@ko ;
@@ -1504,7 +1504,7 @@ nadat1:INS-21038700251032-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038700251032-02" ;
-    rico:title "제387회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제387회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21038800151059-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038800151059-02] 본회의 전자회의록"@ko ;
@@ -1512,7 +1512,7 @@ nadat1:INS-21038800151059-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038800151059-02" ;
-    rico:title "제388회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제388회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21038800251062-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038800251062-02] 본회의 전자회의록"@ko ;
@@ -1520,7 +1520,7 @@ nadat1:INS-21038800251062-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038800251062-02" ;
-    rico:title "제388회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제388회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21038800351074-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038800351074-02] 본회의 전자회의록"@ko ;
@@ -1528,7 +1528,7 @@ nadat1:INS-21038800351074-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038800351074-02" ;
-    rico:title "제388회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제388회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:INS-21038800451081-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038800451081-02] 본회의 전자회의록"@ko ;
@@ -1536,7 +1536,7 @@ nadat1:INS-21038800451081-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038800451081-02" ;
-    rico:title "제388회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제388회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:INS-21038800551087-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038800551087-02] 본회의 전자회의록"@ko ;
@@ -1544,7 +1544,7 @@ nadat1:INS-21038800551087-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038800551087-02" ;
-    rico:title "제388회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제388회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:INS-21038800651105-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038800651105-02] 본회의 전자회의록"@ko ;
@@ -1552,7 +1552,7 @@ nadat1:INS-21038800651105-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038800651105-02" ;
-    rico:title "제388회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제388회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:INS-21038800751117-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038800751117-02] 본회의 전자회의록"@ko ;
@@ -1560,7 +1560,7 @@ nadat1:INS-21038800751117-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038800751117-02" ;
-    rico:title "제388회국회 본회의회의록 제 7 호"@ko .
+    rico:title "제388회국회 국회본회의회의록 제 7 호"@ko .
 
 nadat1:INS-21038900151123-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038900151123-02] 본회의 전자회의록"@ko ;
@@ -1568,7 +1568,7 @@ nadat1:INS-21038900151123-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038900151123-02" ;
-    rico:title "제389회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제389회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21038900251165-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038900251165-02] 본회의 전자회의록"@ko ;
@@ -1576,7 +1576,7 @@ nadat1:INS-21038900251165-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038900251165-02" ;
-    rico:title "제389회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제389회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21038900351166-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21038900351166-02] 본회의 전자회의록"@ko ;
@@ -1584,7 +1584,7 @@ nadat1:INS-21038900351166-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21038900351166-02" ;
-    rico:title "제389회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제389회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:INS-21039000151235-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039000151235-02] 본회의 전자회의록"@ko ;
@@ -1592,7 +1592,7 @@ nadat1:INS-21039000151235-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039000151235-02" ;
-    rico:title "제390회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제390회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21039100051237-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039100051237-02] 본회의 전자회의록"@ko ;
@@ -1600,7 +1600,7 @@ nadat1:INS-21039100051237-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039100051237-02" ;
-    rico:title "제391회국회 본회의회의록 제 0 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 0 호"@ko .
 
 nadat1:INS-21039100151238-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039100151238-02] 본회의 전자회의록"@ko ;
@@ -1608,7 +1608,7 @@ nadat1:INS-21039100151238-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039100151238-02" ;
-    rico:title "제391회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21039100251244-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039100251244-02] 본회의 전자회의록"@ko ;
@@ -1616,7 +1616,7 @@ nadat1:INS-21039100251244-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039100251244-02" ;
-    rico:title "제391회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21039100351252-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039100351252-02] 본회의 전자회의록"@ko ;
@@ -1624,7 +1624,7 @@ nadat1:INS-21039100351252-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039100351252-02" ;
-    rico:title "제391회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:INS-21039100451270-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039100451270-02] 본회의 전자회의록"@ko ;
@@ -1632,7 +1632,7 @@ nadat1:INS-21039100451270-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039100451270-02" ;
-    rico:title "제391회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:INS-21039100551275-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039100551275-02] 본회의 전자회의록"@ko ;
@@ -1640,7 +1640,7 @@ nadat1:INS-21039100551275-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039100551275-02" ;
-    rico:title "제391회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:INS-21039100651285-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039100651285-02] 본회의 전자회의록"@ko ;
@@ -1648,7 +1648,7 @@ nadat1:INS-21039100651285-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039100651285-02" ;
-    rico:title "제391회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:INS-21039100751293-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039100751293-02] 본회의 전자회의록"@ko ;
@@ -1656,7 +1656,7 @@ nadat1:INS-21039100751293-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039100751293-02" ;
-    rico:title "제391회국회 본회의회의록 제 7 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 7 호"@ko .
 
 nadat1:INS-21039100851313-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039100851313-02] 본회의 전자회의록"@ko ;
@@ -1664,7 +1664,7 @@ nadat1:INS-21039100851313-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039100851313-02" ;
-    rico:title "제391회국회 본회의회의록 제 8 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 8 호"@ko .
 
 nadat1:INS-21039100951321-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039100951321-02] 본회의 전자회의록"@ko ;
@@ -1672,7 +1672,7 @@ nadat1:INS-21039100951321-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039100951321-02" ;
-    rico:title "제391회국회 본회의회의록 제 9 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 9 호"@ko .
 
 nadat1:INS-21039101051374-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039101051374-02] 본회의 전자회의록"@ko ;
@@ -1680,7 +1680,7 @@ nadat1:INS-21039101051374-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039101051374-02" ;
-    rico:title "제391회국회 본회의회의록 제 10 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 10 호"@ko .
 
 nadat1:INS-21039101151437-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039101151437-02] 본회의 전자회의록"@ko ;
@@ -1688,7 +1688,7 @@ nadat1:INS-21039101151437-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039101151437-02" ;
-    rico:title "제391회국회 본회의회의록 제 11 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 11 호"@ko .
 
 nadat1:INS-21039101251623-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039101251623-02] 본회의 전자회의록"@ko ;
@@ -1696,7 +1696,7 @@ nadat1:INS-21039101251623-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039101251623-02" ;
-    rico:title "제391회국회 본회의회의록 제 12 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 12 호"@ko .
 
 nadat1:INS-21039101351625-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039101351625-02] 본회의 전자회의록"@ko ;
@@ -1704,7 +1704,7 @@ nadat1:INS-21039101351625-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039101351625-02" ;
-    rico:title "제391회국회 본회의회의록 제 13 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 13 호"@ko .
 
 nadat1:INS-21039101451657-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039101451657-02] 본회의 전자회의록"@ko ;
@@ -1712,7 +1712,7 @@ nadat1:INS-21039101451657-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039101451657-02" ;
-    rico:title "제391회국회 본회의회의록 제 14 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 14 호"@ko .
 
 nadat1:INS-21039200151710-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039200151710-02] 본회의 전자회의록"@ko ;
@@ -1720,7 +1720,7 @@ nadat1:INS-21039200151710-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039200151710-02" ;
-    rico:title "제392회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제392회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21039200251735-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039200251735-02] 본회의 전자회의록"@ko ;
@@ -1728,7 +1728,7 @@ nadat1:INS-21039200251735-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039200251735-02" ;
-    rico:title "제392회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제392회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21039300051741-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039300051741-02] 본회의 전자회의록"@ko ;
@@ -1736,7 +1736,7 @@ nadat1:INS-21039300051741-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039300051741-02" ;
-    rico:title "제393회국회 본회의회의록 제 0 호"@ko .
+    rico:title "제393회국회 국회본회의회의록 제 0 호"@ko .
 
 nadat1:INS-21039300151742-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039300151742-02] 본회의 전자회의록"@ko ;
@@ -1744,7 +1744,7 @@ nadat1:INS-21039300151742-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039300151742-02" ;
-    rico:title "제393회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제393회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21039300251768-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039300251768-02] 본회의 전자회의록"@ko ;
@@ -1752,7 +1752,7 @@ nadat1:INS-21039300251768-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039300251768-02" ;
-    rico:title "제393회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제393회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21039300351773-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039300351773-02] 본회의 전자회의록"@ko ;
@@ -1760,7 +1760,7 @@ nadat1:INS-21039300351773-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039300351773-02" ;
-    rico:title "제393회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제393회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:INS-21039400151791-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039400151791-02] 본회의 전자회의록"@ko ;
@@ -1768,7 +1768,7 @@ nadat1:INS-21039400151791-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039400151791-02" ;
-    rico:title "제394회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제394회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21039500151808-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039500151808-02] 본회의 전자회의록"@ko ;
@@ -1776,7 +1776,7 @@ nadat1:INS-21039500151808-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039500151808-02" ;
-    rico:title "제395회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제395회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21039500251836-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039500251836-02] 본회의 전자회의록"@ko ;
@@ -1784,7 +1784,7 @@ nadat1:INS-21039500251836-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039500251836-02" ;
-    rico:title "제395회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제395회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21039600151848-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039600151848-02] 본회의 전자회의록"@ko ;
@@ -1792,7 +1792,7 @@ nadat1:INS-21039600151848-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039600151848-02" ;
-    rico:title "제396회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제396회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21039700151859-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039700151859-02] 본회의 전자회의록"@ko ;
@@ -1800,7 +1800,7 @@ nadat1:INS-21039700151859-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039700151859-02" ;
-    rico:title "제397회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제397회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21039700251894-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039700251894-02] 본회의 전자회의록"@ko ;
@@ -1808,7 +1808,7 @@ nadat1:INS-21039700251894-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039700251894-02" ;
-    rico:title "제397회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제397회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21039700351930-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039700351930-02] 본회의 전자회의록"@ko ;
@@ -1816,7 +1816,7 @@ nadat1:INS-21039700351930-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039700351930-02" ;
-    rico:title "제397회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제397회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:INS-21039700451954-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039700451954-02] 본회의 전자회의록"@ko ;
@@ -1824,7 +1824,7 @@ nadat1:INS-21039700451954-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039700451954-02" ;
-    rico:title "제397회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제397회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:INS-21039800151975-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039800151975-02] 본회의 전자회의록"@ko ;
@@ -1832,7 +1832,7 @@ nadat1:INS-21039800151975-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039800151975-02" ;
-    rico:title "제398회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제398회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21039800251979-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039800251979-02] 본회의 전자회의록"@ko ;
@@ -1840,7 +1840,7 @@ nadat1:INS-21039800251979-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039800251979-02" ;
-    rico:title "제398회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제398회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21039800351983-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039800351983-02] 본회의 전자회의록"@ko ;
@@ -1848,7 +1848,7 @@ nadat1:INS-21039800351983-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039800351983-02" ;
-    rico:title "제398회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제398회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:INS-21039800451984-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039800451984-02] 본회의 전자회의록"@ko ;
@@ -1856,7 +1856,7 @@ nadat1:INS-21039800451984-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039800451984-02" ;
-    rico:title "제398회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제398회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:INS-21039800551986-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039800551986-02] 본회의 전자회의록"@ko ;
@@ -1864,7 +1864,7 @@ nadat1:INS-21039800551986-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039800551986-02" ;
-    rico:title "제398회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제398회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:INS-21039800651989-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039800651989-02] 본회의 전자회의록"@ko ;
@@ -1872,7 +1872,7 @@ nadat1:INS-21039800651989-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039800651989-02" ;
-    rico:title "제398회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제398회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:INS-21039800751995-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039800751995-02] 본회의 전자회의록"@ko ;
@@ -1880,7 +1880,7 @@ nadat1:INS-21039800751995-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039800751995-02" ;
-    rico:title "제398회국회 본회의회의록 제 7 호"@ko .
+    rico:title "제398회국회 국회본회의회의록 제 7 호"@ko .
 
 nadat1:INS-21039800852011-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21039800852011-02] 본회의 전자회의록"@ko ;
@@ -1888,7 +1888,7 @@ nadat1:INS-21039800852011-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21039800852011-02" ;
-    rico:title "제398회국회 본회의회의록 제 8 호"@ko .
+    rico:title "제398회국회 국회본회의회의록 제 8 호"@ko .
 
 nadat1:INS-21040000052101-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040000052101-02] 본회의 전자회의록"@ko ;
@@ -1896,7 +1896,7 @@ nadat1:INS-21040000052101-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040000052101-02" ;
-    rico:title "제400회국회 본회의회의록 제 0 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 0 호"@ko .
 
 nadat1:INS-21040000152102-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040000152102-02] 본회의 전자회의록"@ko ;
@@ -1904,7 +1904,7 @@ nadat1:INS-21040000152102-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040000152102-02" ;
-    rico:title "제400회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21040000252115-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040000252115-02] 본회의 전자회의록"@ko ;
@@ -1912,7 +1912,7 @@ nadat1:INS-21040000252115-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040000252115-02" ;
-    rico:title "제400회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21040000352135-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040000352135-02] 본회의 전자회의록"@ko ;
@@ -1920,7 +1920,7 @@ nadat1:INS-21040000352135-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040000352135-02" ;
-    rico:title "제400회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:INS-21040000452139-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040000452139-02] 본회의 전자회의록"@ko ;
@@ -1928,7 +1928,7 @@ nadat1:INS-21040000452139-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040000452139-02" ;
-    rico:title "제400회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:INS-21040000552147-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040000552147-02] 본회의 전자회의록"@ko ;
@@ -1936,7 +1936,7 @@ nadat1:INS-21040000552147-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040000552147-02" ;
-    rico:title "제400회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:INS-21040000652156-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040000652156-02] 본회의 전자회의록"@ko ;
@@ -1944,7 +1944,7 @@ nadat1:INS-21040000652156-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040000652156-02" ;
-    rico:title "제400회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:INS-21040000752174-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040000752174-02] 본회의 전자회의록"@ko ;
@@ -1952,7 +1952,7 @@ nadat1:INS-21040000752174-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040000752174-02" ;
-    rico:title "제400회국회 본회의회의록 제 7 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 7 호"@ko .
 
 nadat1:INS-21040000852178-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040000852178-02] 본회의 전자회의록"@ko ;
@@ -1960,7 +1960,7 @@ nadat1:INS-21040000852178-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040000852178-02" ;
-    rico:title "제400회국회 본회의회의록 제 8 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 8 호"@ko .
 
 nadat1:INS-21040000952182-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040000952182-02] 본회의 전자회의록"@ko ;
@@ -1968,7 +1968,7 @@ nadat1:INS-21040000952182-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040000952182-02" ;
-    rico:title "제400회국회 본회의회의록 제 9 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 9 호"@ko .
 
 nadat1:INS-21040001052246-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040001052246-02] 본회의 전자회의록"@ko ;
@@ -1976,7 +1976,7 @@ nadat1:INS-21040001052246-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040001052246-02" ;
-    rico:title "제400회국회 본회의회의록 제 10 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 10 호"@ko .
 
 nadat1:INS-21040001152260-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040001152260-02] 본회의 전자회의록"@ko ;
@@ -1984,7 +1984,7 @@ nadat1:INS-21040001152260-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040001152260-02" ;
-    rico:title "제400회국회 본회의회의록 제 11 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 11 호"@ko .
 
 nadat1:INS-21040001252334-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040001252334-02] 본회의 전자회의록"@ko ;
@@ -1992,7 +1992,7 @@ nadat1:INS-21040001252334-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040001252334-02" ;
-    rico:title "제400회국회 본회의회의록 제 12 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 12 호"@ko .
 
 nadat1:INS-21040001352477-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040001352477-02] 본회의 전자회의록"@ko ;
@@ -2000,7 +2000,7 @@ nadat1:INS-21040001352477-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040001352477-02" ;
-    rico:title "제400회국회 본회의회의록 제 13 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 13 호"@ko .
 
 nadat1:INS-21040001452588-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040001452588-02] 본회의 전자회의록"@ko ;
@@ -2008,7 +2008,7 @@ nadat1:INS-21040001452588-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040001452588-02" ;
-    rico:title "제400회국회 본회의회의록 제 14 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 14 호"@ko .
 
 nadat1:INS-21040100152605-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040100152605-02] 본회의 전자회의록"@ko ;
@@ -2016,7 +2016,7 @@ nadat1:INS-21040100152605-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040100152605-02" ;
-    rico:title "제401회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제401회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21040100252626-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040100252626-02] 본회의 전자회의록"@ko ;
@@ -2024,7 +2024,7 @@ nadat1:INS-21040100252626-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040100252626-02" ;
-    rico:title "제401회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제401회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21040100352627-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040100352627-02] 본회의 전자회의록"@ko ;
@@ -2032,7 +2032,7 @@ nadat1:INS-21040100352627-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040100352627-02" ;
-    rico:title "제401회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제401회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:INS-21040100452637-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040100452637-02] 본회의 전자회의록"@ko ;
@@ -2040,7 +2040,7 @@ nadat1:INS-21040100452637-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040100452637-02" ;
-    rico:title "제401회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제401회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:INS-21040100552645-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040100552645-02] 본회의 전자회의록"@ko ;
@@ -2048,7 +2048,7 @@ nadat1:INS-21040100552645-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040100552645-02" ;
-    rico:title "제401회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제401회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:INS-21040200152659-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040200152659-02] 본회의 전자회의록"@ko ;
@@ -2056,7 +2056,7 @@ nadat1:INS-21040200152659-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040200152659-02" ;
-    rico:title "제402회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제402회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21040300052667-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040300052667-02] 본회의 전자회의록"@ko ;
@@ -2064,7 +2064,7 @@ nadat1:INS-21040300052667-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040300052667-02" ;
-    rico:title "제403회국회 본회의회의록 제 0 호"@ko .
+    rico:title "제403회국회 국회본회의회의록 제 0 호"@ko .
 
 nadat1:INS-21040300152668-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040300152668-02] 본회의 전자회의록"@ko ;
@@ -2072,7 +2072,7 @@ nadat1:INS-21040300152668-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040300152668-02" ;
-    rico:title "제403회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제403회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21040300252669-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040300252669-02] 본회의 전자회의록"@ko ;
@@ -2080,7 +2080,7 @@ nadat1:INS-21040300252669-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040300252669-02" ;
-    rico:title "제403회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제403회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21040300352671-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040300352671-02] 본회의 전자회의록"@ko ;
@@ -2088,7 +2088,7 @@ nadat1:INS-21040300352671-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040300352671-02" ;
-    rico:title "제403회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제403회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:INS-21040300452672-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040300452672-02] 본회의 전자회의록"@ko ;
@@ -2096,7 +2096,7 @@ nadat1:INS-21040300452672-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040300452672-02" ;
-    rico:title "제403회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제403회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:INS-21040300552676-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040300552676-02] 본회의 전자회의록"@ko ;
@@ -2104,7 +2104,7 @@ nadat1:INS-21040300552676-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040300552676-02" ;
-    rico:title "제403회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제403회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:INS-21040300652684-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040300652684-02] 본회의 전자회의록"@ko ;
@@ -2112,7 +2112,7 @@ nadat1:INS-21040300652684-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040300652684-02" ;
-    rico:title "제403회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제403회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:INS-21040300752743-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040300752743-02] 본회의 전자회의록"@ko ;
@@ -2120,7 +2120,7 @@ nadat1:INS-21040300752743-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040300752743-02" ;
-    rico:title "제403회국회 본회의회의록 제 7 호"@ko .
+    rico:title "제403회국회 국회본회의회의록 제 7 호"@ko .
 
 nadat1:INS-21040300852751-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040300852751-02] 본회의 전자회의록"@ko ;
@@ -2128,7 +2128,7 @@ nadat1:INS-21040300852751-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040300852751-02" ;
-    rico:title "제403회국회 본회의회의록 제 8 호"@ko .
+    rico:title "제403회국회 국회본회의회의록 제 8 호"@ko .
 
 nadat1:INS-21040400152800-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040400152800-02] 본회의 전자회의록"@ko ;
@@ -2136,7 +2136,7 @@ nadat1:INS-21040400152800-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040400152800-02" ;
-    rico:title "제404회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제404회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21040400252823-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040400252823-02] 본회의 전자회의록"@ko ;
@@ -2144,7 +2144,7 @@ nadat1:INS-21040400252823-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040400252823-02" ;
-    rico:title "제404회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제404회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21040500152838-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040500152838-02] 본회의 전자회의록"@ko ;
@@ -2152,7 +2152,7 @@ nadat1:INS-21040500152838-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040500152838-02" ;
-    rico:title "제405회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제405회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21040500252843-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040500252843-02] 본회의 전자회의록"@ko ;
@@ -2160,7 +2160,7 @@ nadat1:INS-21040500252843-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040500252843-02" ;
-    rico:title "제405회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제405회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21040500352845-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040500352845-02] 본회의 전자회의록"@ko ;
@@ -2168,7 +2168,7 @@ nadat1:INS-21040500352845-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040500352845-02" ;
-    rico:title "제405회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제405회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:INS-21040500452863-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040500452863-02] 본회의 전자회의록"@ko ;
@@ -2176,7 +2176,7 @@ nadat1:INS-21040500452863-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040500452863-02" ;
-    rico:title "제405회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제405회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:INS-21040500552897-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040500552897-02] 본회의 전자회의록"@ko ;
@@ -2184,7 +2184,7 @@ nadat1:INS-21040500552897-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040500552897-02" ;
-    rico:title "제405회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제405회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:INS-21040600152945-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040600152945-02] 본회의 전자회의록"@ko ;
@@ -2192,7 +2192,7 @@ nadat1:INS-21040600152945-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040600152945-02" ;
-    rico:title "제406회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제406회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21040600252962-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040600252962-02] 본회의 전자회의록"@ko ;
@@ -2200,7 +2200,7 @@ nadat1:INS-21040600252962-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040600252962-02" ;
-    rico:title "제406회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제406회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21040700152974-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040700152974-02] 본회의 전자회의록"@ko ;
@@ -2208,7 +2208,7 @@ nadat1:INS-21040700152974-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040700152974-02" ;
-    rico:title "제407회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제407회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21040700252975-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040700252975-02] 본회의 전자회의록"@ko ;
@@ -2216,7 +2216,7 @@ nadat1:INS-21040700252975-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040700252975-02" ;
-    rico:title "제407회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제407회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21040700352978-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040700352978-02] 본회의 전자회의록"@ko ;
@@ -2224,7 +2224,7 @@ nadat1:INS-21040700352978-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040700352978-02" ;
-    rico:title "제407회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제407회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:INS-21040700452985-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040700452985-02] 본회의 전자회의록"@ko ;
@@ -2232,7 +2232,7 @@ nadat1:INS-21040700452985-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040700452985-02" ;
-    rico:title "제407회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제407회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:INS-21040700552988-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040700552988-02] 본회의 전자회의록"@ko ;
@@ -2240,7 +2240,7 @@ nadat1:INS-21040700552988-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040700552988-02" ;
-    rico:title "제407회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제407회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:INS-21040700652991-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040700652991-02] 본회의 전자회의록"@ko ;
@@ -2248,7 +2248,7 @@ nadat1:INS-21040700652991-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040700652991-02" ;
-    rico:title "제407회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제407회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:INS-21040700753046-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040700753046-02] 본회의 전자회의록"@ko ;
@@ -2256,7 +2256,7 @@ nadat1:INS-21040700753046-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040700753046-02" ;
-    rico:title "제407회국회 본회의회의록 제 7 호"@ko .
+    rico:title "제407회국회 국회본회의회의록 제 7 호"@ko .
 
 nadat1:INS-21040800153077-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040800153077-02] 본회의 전자회의록"@ko ;
@@ -2264,7 +2264,7 @@ nadat1:INS-21040800153077-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040800153077-02" ;
-    rico:title "제408회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제408회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21040800253084-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040800253084-02] 본회의 전자회의록"@ko ;
@@ -2272,7 +2272,7 @@ nadat1:INS-21040800253084-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040800253084-02" ;
-    rico:title "제408회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제408회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21040900153131-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21040900153131-02] 본회의 전자회의록"@ko ;
@@ -2280,7 +2280,7 @@ nadat1:INS-21040900153131-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21040900153131-02" ;
-    rico:title "제409회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제409회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21041000053169-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041000053169-02] 본회의 전자회의록"@ko ;
@@ -2288,7 +2288,7 @@ nadat1:INS-21041000053169-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041000053169-02" ;
-    rico:title "제410회국회 본회의회의록 제 0 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 0 호"@ko .
 
 nadat1:INS-21041000153168-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041000153168-02] 본회의 전자회의록"@ko ;
@@ -2296,7 +2296,7 @@ nadat1:INS-21041000153168-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041000153168-02" ;
-    rico:title "제410회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21041000253184-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041000253184-02] 본회의 전자회의록"@ko ;
@@ -2304,7 +2304,7 @@ nadat1:INS-21041000253184-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041000253184-02" ;
-    rico:title "제410회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21041000353194-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041000353194-02] 본회의 전자회의록"@ko ;
@@ -2312,7 +2312,7 @@ nadat1:INS-21041000353194-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041000353194-02" ;
-    rico:title "제410회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:INS-21041000453201-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041000453201-02] 본회의 전자회의록"@ko ;
@@ -2320,7 +2320,7 @@ nadat1:INS-21041000453201-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041000453201-02" ;
-    rico:title "제410회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:INS-21041000553206-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041000553206-02] 본회의 전자회의록"@ko ;
@@ -2328,7 +2328,7 @@ nadat1:INS-21041000553206-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041000553206-02" ;
-    rico:title "제410회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:INS-21041000653224-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041000653224-02] 본회의 전자회의록"@ko ;
@@ -2336,7 +2336,7 @@ nadat1:INS-21041000653224-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041000653224-02" ;
-    rico:title "제410회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:INS-21041000753233-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041000753233-02] 본회의 전자회의록"@ko ;
@@ -2344,7 +2344,7 @@ nadat1:INS-21041000753233-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041000753233-02" ;
-    rico:title "제410회국회 본회의회의록 제 7 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 7 호"@ko .
 
 nadat1:INS-21041000853247-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041000853247-02] 본회의 전자회의록"@ko ;
@@ -2352,7 +2352,7 @@ nadat1:INS-21041000853247-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041000853247-02" ;
-    rico:title "제410회국회 본회의회의록 제 8 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 8 호"@ko .
 
 nadat1:INS-21041000953287-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041000953287-02] 본회의 전자회의록"@ko ;
@@ -2360,7 +2360,7 @@ nadat1:INS-21041000953287-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041000953287-02" ;
-    rico:title "제410회국회 본회의회의록 제 9 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 9 호"@ko .
 
 nadat1:INS-21041001053341-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041001053341-02] 본회의 전자회의록"@ko ;
@@ -2368,7 +2368,7 @@ nadat1:INS-21041001053341-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041001053341-02" ;
-    rico:title "제410회국회 본회의회의록 제 10 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 10 호"@ko .
 
 nadat1:INS-21041001153391-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041001153391-02] 본회의 전자회의록"@ko ;
@@ -2376,7 +2376,7 @@ nadat1:INS-21041001153391-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041001153391-02" ;
-    rico:title "제410회국회 본회의회의록 제 11 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 11 호"@ko .
 
 nadat1:INS-21041001253561-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041001253561-02] 본회의 전자회의록"@ko ;
@@ -2384,7 +2384,7 @@ nadat1:INS-21041001253561-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041001253561-02" ;
-    rico:title "제410회국회 본회의회의록 제 12 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 12 호"@ko .
 
 nadat1:INS-21041001353577-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041001353577-02] 본회의 전자회의록"@ko ;
@@ -2392,7 +2392,7 @@ nadat1:INS-21041001353577-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041001353577-02" ;
-    rico:title "제410회국회 본회의회의록 제 13 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 13 호"@ko .
 
 nadat1:INS-21041001453628-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041001453628-02] 본회의 전자회의록"@ko ;
@@ -2400,7 +2400,7 @@ nadat1:INS-21041001453628-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041001453628-02" ;
-    rico:title "제410회국회 본회의회의록 제 14 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 14 호"@ko .
 
 nadat1:INS-21041100153696-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041100153696-02] 본회의 전자회의록"@ko ;
@@ -2408,7 +2408,7 @@ nadat1:INS-21041100153696-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041100153696-02" ;
-    rico:title "제411회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제411회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21041100453763-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041100453763-02] 본회의 전자회의록"@ko ;
@@ -2416,7 +2416,7 @@ nadat1:INS-21041100453763-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041100453763-02" ;
-    rico:title "제411회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제411회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:INS-21041200153779-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041200153779-02] 본회의 전자회의록"@ko ;
@@ -2424,7 +2424,7 @@ nadat1:INS-21041200153779-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041200153779-02" ;
-    rico:title "제412회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제412회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21041200253785-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041200253785-02] 본회의 전자회의록"@ko ;
@@ -2432,7 +2432,7 @@ nadat1:INS-21041200253785-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041200253785-02" ;
-    rico:title "제412회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제412회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21041300053795-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041300053795-02] 본회의 전자회의록"@ko ;
@@ -2440,7 +2440,7 @@ nadat1:INS-21041300053795-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041300053795-02" ;
-    rico:title "제413회국회 본회의회의록 제 0 호"@ko .
+    rico:title "제413회국회 국회본회의회의록 제 0 호"@ko .
 
 nadat1:INS-21041300153796-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041300153796-02] 본회의 전자회의록"@ko ;
@@ -2448,7 +2448,7 @@ nadat1:INS-21041300153796-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041300153796-02" ;
-    rico:title "제413회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제413회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21041300253797-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041300253797-02] 본회의 전자회의록"@ko ;
@@ -2456,7 +2456,7 @@ nadat1:INS-21041300253797-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041300253797-02" ;
-    rico:title "제413회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제413회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:INS-21041300353800-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041300353800-02] 본회의 전자회의록"@ko ;
@@ -2464,7 +2464,7 @@ nadat1:INS-21041300353800-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041300353800-02" ;
-    rico:title "제413회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제413회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:INS-21041300453804-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041300453804-02] 본회의 전자회의록"@ko ;
@@ -2472,7 +2472,7 @@ nadat1:INS-21041300453804-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041300453804-02" ;
-    rico:title "제413회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제413회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:INS-21041300553808-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041300553808-02] 본회의 전자회의록"@ko ;
@@ -2480,7 +2480,7 @@ nadat1:INS-21041300553808-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041300553808-02" ;
-    rico:title "제413회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제413회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:INS-21041300653815-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041300653815-02] 본회의 전자회의록"@ko ;
@@ -2488,7 +2488,7 @@ nadat1:INS-21041300653815-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041300653815-02" ;
-    rico:title "제413회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제413회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:INS-21041400153832-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041400153832-02] 본회의 전자회의록"@ko ;
@@ -2496,7 +2496,7 @@ nadat1:INS-21041400153832-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041400153832-02" ;
-    rico:title "제414회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제414회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:INS-21041400253844-02 a rico:Instantiation ;
     skos:prefLabel "[INS-21041400253844-02] 본회의 전자회의록"@ko ;
@@ -2504,7 +2504,7 @@ nadat1:INS-21041400253844-02 a rico:Instantiation ;
     rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
     rico:hasOrHadManager nadat2:NAS-0002-0001 ;
     rico:identifier "INS-21041400253844-02" ;
-    rico:title "제414회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제414회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021037900150024 a rico:Record ;
     skos:prefLabel "[R100021037900150024] 21대 379회 1차 본회의 회의록"@ko ;
@@ -2517,7 +2517,7 @@ nadat1:R100021037900150024 a rico:Record ;
         nadat1:INS-21037900150024-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021037900150024" ;
-    rico:title "제379회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제379회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021037900250025 a rico:Record ;
     skos:prefLabel "[R100021037900250025] 21대 379회 2차 본회의 회의록"@ko ;
@@ -2530,7 +2530,7 @@ nadat1:R100021037900250025 a rico:Record ;
         nadat1:INS-21037900250025-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021037900250025" ;
-    rico:title "제379회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제379회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021037900350027 a rico:Record ;
     skos:prefLabel "[R100021037900350027] 21대 379회 3차 본회의 회의록"@ko ;
@@ -2543,7 +2543,7 @@ nadat1:R100021037900350027 a rico:Record ;
         nadat1:INS-21037900350027-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021037900350027" ;
-    rico:title "제379회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제379회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:R100021037900450026 a rico:Record ;
     skos:prefLabel "[R100021037900450026] 21대 379회 4차 본회의 회의록"@ko ;
@@ -2556,7 +2556,7 @@ nadat1:R100021037900450026 a rico:Record ;
         nadat1:INS-21037900450026-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021037900450026" ;
-    rico:title "제379회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제379회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:R100021037900550028 a rico:Record ;
     skos:prefLabel "[R100021037900550028] 21대 379회 5차 본회의 회의록"@ko ;
@@ -2569,7 +2569,7 @@ nadat1:R100021037900550028 a rico:Record ;
         nadat1:INS-21037900550028-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021037900550028" ;
-    rico:title "제379회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제379회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:R100021037900650029 a rico:Record ;
     skos:prefLabel "[R100021037900650029] 21대 379회 6차 본회의 회의록"@ko ;
@@ -2582,7 +2582,7 @@ nadat1:R100021037900650029 a rico:Record ;
         nadat1:INS-21037900650029-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021037900650029" ;
-    rico:title "제379회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제379회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:R100021037900750051 a rico:Record ;
     skos:prefLabel "[R100021037900750051] 21대 379회 7차 본회의 회의록"@ko ;
@@ -2595,7 +2595,7 @@ nadat1:R100021037900750051 a rico:Record ;
         nadat1:INS-21037900750051-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021037900750051" ;
-    rico:title "제379회국회 본회의회의록 제 7 호"@ko .
+    rico:title "제379회국회 국회본회의회의록 제 7 호"@ko .
 
 nadat1:R100021038000050058 a rico:Record ;
     skos:prefLabel "[R100021038000050058] 21대 380회 0차 본회의 회의록"@ko ;
@@ -2608,7 +2608,7 @@ nadat1:R100021038000050058 a rico:Record ;
         nadat1:INS-21038000050058-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038000050058" ;
-    rico:title "제380회국회 본회의회의록 제 0 호"@ko .
+    rico:title "제380회국회 국회본회의회의록 제 0 호"@ko .
 
 nadat1:R100021038000150057 a rico:Record ;
     skos:prefLabel "[R100021038000150057] 21대 380회 1차 본회의 회의록"@ko ;
@@ -2621,7 +2621,7 @@ nadat1:R100021038000150057 a rico:Record ;
         nadat1:INS-21038000150057-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038000150057" ;
-    rico:title "제380회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제380회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021038000250060 a rico:Record ;
     skos:prefLabel "[R100021038000250060] 21대 380회 2차 본회의 회의록"@ko ;
@@ -2634,7 +2634,7 @@ nadat1:R100021038000250060 a rico:Record ;
         nadat1:INS-21038000250060-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038000250060" ;
-    rico:title "제380회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제380회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021038000350063 a rico:Record ;
     skos:prefLabel "[R100021038000350063] 21대 380회 3차 본회의 회의록"@ko ;
@@ -2647,7 +2647,7 @@ nadat1:R100021038000350063 a rico:Record ;
         nadat1:INS-21038000350063-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038000350063" ;
-    rico:title "제380회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제380회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:R100021038000450065 a rico:Record ;
     skos:prefLabel "[R100021038000450065] 21대 380회 4차 본회의 회의록"@ko ;
@@ -2660,7 +2660,7 @@ nadat1:R100021038000450065 a rico:Record ;
         nadat1:INS-21038000450065-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038000450065" ;
-    rico:title "제380회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제380회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:R100021038000550067 a rico:Record ;
     skos:prefLabel "[R100021038000550067] 21대 380회 5차 본회의 회의록"@ko ;
@@ -2673,7 +2673,7 @@ nadat1:R100021038000550067 a rico:Record ;
         nadat1:INS-21038000550067-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038000550067" ;
-    rico:title "제380회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제380회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:R100021038000650070 a rico:Record ;
     skos:prefLabel "[R100021038000650070] 21대 380회 6차 본회의 회의록"@ko ;
@@ -2686,7 +2686,7 @@ nadat1:R100021038000650070 a rico:Record ;
         nadat1:INS-21038000650070-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038000650070" ;
-    rico:title "제380회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제380회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:R100021038000750081 a rico:Record ;
     skos:prefLabel "[R100021038000750081] 21대 380회 7차 본회의 회의록"@ko ;
@@ -2699,7 +2699,7 @@ nadat1:R100021038000750081 a rico:Record ;
         nadat1:INS-21038000750081-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038000750081" ;
-    rico:title "제380회국회 본회의회의록 제 7 호"@ko .
+    rico:title "제380회국회 국회본회의회의록 제 7 호"@ko .
 
 nadat1:R100021038000850098 a rico:Record ;
     skos:prefLabel "[R100021038000850098] 21대 380회 8차 본회의 회의록"@ko ;
@@ -2712,7 +2712,7 @@ nadat1:R100021038000850098 a rico:Record ;
         nadat1:INS-21038000850098-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038000850098" ;
-    rico:title "제380회국회 본회의회의록 제 8 호"@ko .
+    rico:title "제380회국회 국회본회의회의록 제 8 호"@ko .
 
 nadat1:R100021038200050131 a rico:Record ;
     skos:prefLabel "[R100021038200050131] 21대 382회 0차 본회의 회의록"@ko ;
@@ -2725,7 +2725,7 @@ nadat1:R100021038200050131 a rico:Record ;
         nadat1:INS-21038200050131-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038200050131" ;
-    rico:title "제382회국회 본회의회의록 제 0 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 0 호"@ko .
 
 nadat1:R100021038200150130 a rico:Record ;
     skos:prefLabel "[R100021038200150130] 21대 382회 1차 본회의 회의록"@ko ;
@@ -2738,7 +2738,7 @@ nadat1:R100021038200150130 a rico:Record ;
         nadat1:INS-21038200150130-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038200150130" ;
-    rico:title "제382회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021038200250157 a rico:Record ;
     skos:prefLabel "[R100021038200250157] 21대 382회 2차 본회의 회의록"@ko ;
@@ -2751,7 +2751,7 @@ nadat1:R100021038200250157 a rico:Record ;
         nadat1:INS-21038200250157-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038200250157" ;
-    rico:title "제382회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021038200350166 a rico:Record ;
     skos:prefLabel "[R100021038200350166] 21대 382회 3차 본회의 회의록"@ko ;
@@ -2764,7 +2764,7 @@ nadat1:R100021038200350166 a rico:Record ;
         nadat1:INS-21038200350166-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038200350166" ;
-    rico:title "제382회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:R100021038200450185 a rico:Record ;
     skos:prefLabel "[R100021038200450185] 21대 382회 4차 본회의 회의록"@ko ;
@@ -2777,7 +2777,7 @@ nadat1:R100021038200450185 a rico:Record ;
         nadat1:INS-21038200450185-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038200450185" ;
-    rico:title "제382회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:R100021038200550187 a rico:Record ;
     skos:prefLabel "[R100021038200550187] 21대 382회 5차 본회의 회의록"@ko ;
@@ -2790,7 +2790,7 @@ nadat1:R100021038200550187 a rico:Record ;
         nadat1:INS-21038200550187-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038200550187" ;
-    rico:title "제382회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:R100021038200650196 a rico:Record ;
     skos:prefLabel "[R100021038200650196] 21대 382회 6차 본회의 회의록"@ko ;
@@ -2803,7 +2803,7 @@ nadat1:R100021038200650196 a rico:Record ;
         nadat1:INS-21038200650196-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038200650196" ;
-    rico:title "제382회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:R100021038200750202 a rico:Record ;
     skos:prefLabel "[R100021038200750202] 21대 382회 7차 본회의 회의록"@ko ;
@@ -2816,7 +2816,7 @@ nadat1:R100021038200750202 a rico:Record ;
         nadat1:INS-21038200750202-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038200750202" ;
-    rico:title "제382회국회 본회의회의록 제 7 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 7 호"@ko .
 
 nadat1:R100021038200850228 a rico:Record ;
     skos:prefLabel "[R100021038200850228] 21대 382회 8차 본회의 회의록"@ko ;
@@ -2829,7 +2829,7 @@ nadat1:R100021038200850228 a rico:Record ;
         nadat1:INS-21038200850228-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038200850228" ;
-    rico:title "제382회국회 본회의회의록 제 8 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 8 호"@ko .
 
 nadat1:R100021038200950246 a rico:Record ;
     skos:prefLabel "[R100021038200950246] 21대 382회 9차 본회의 회의록"@ko ;
@@ -2842,7 +2842,7 @@ nadat1:R100021038200950246 a rico:Record ;
         nadat1:INS-21038200950246-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038200950246" ;
-    rico:title "제382회국회 본회의회의록 제 9 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 9 호"@ko .
 
 nadat1:R100021038201050326 a rico:Record ;
     skos:prefLabel "[R100021038201050326] 21대 382회 10차 본회의 회의록"@ko ;
@@ -2855,7 +2855,7 @@ nadat1:R100021038201050326 a rico:Record ;
         nadat1:INS-21038201050326-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038201050326" ;
-    rico:title "제382회국회 본회의회의록 제 10 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 10 호"@ko .
 
 nadat1:R100021038201150331 a rico:Record ;
     skos:prefLabel "[R100021038201150331] 21대 382회 11차 본회의 회의록"@ko ;
@@ -2868,7 +2868,7 @@ nadat1:R100021038201150331 a rico:Record ;
         nadat1:INS-21038201150331-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038201150331" ;
-    rico:title "제382회국회 본회의회의록 제 11 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 11 호"@ko .
 
 nadat1:R100021038201250480 a rico:Record ;
     skos:prefLabel "[R100021038201250480] 21대 382회 12차 본회의 회의록"@ko ;
@@ -2881,7 +2881,7 @@ nadat1:R100021038201250480 a rico:Record ;
         nadat1:INS-21038201250480-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038201250480" ;
-    rico:title "제382회국회 본회의회의록 제 12 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 12 호"@ko .
 
 nadat1:R100021038201350574 a rico:Record ;
     skos:prefLabel "[R100021038201350574] 21대 382회 13차 본회의 회의록"@ko ;
@@ -2894,7 +2894,7 @@ nadat1:R100021038201350574 a rico:Record ;
         nadat1:INS-21038201350574-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038201350574" ;
-    rico:title "제382회국회 본회의회의록 제 13 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 13 호"@ko .
 
 nadat1:R100021038201450596 a rico:Record ;
     skos:prefLabel "[R100021038201450596] 21대 382회 14차 본회의 회의록"@ko ;
@@ -2907,7 +2907,7 @@ nadat1:R100021038201450596 a rico:Record ;
         nadat1:INS-21038201450596-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038201450596" ;
-    rico:title "제382회국회 본회의회의록 제 14 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 14 호"@ko .
 
 nadat1:R100021038201550655 a rico:Record ;
     skos:prefLabel "[R100021038201550655] 21대 382회 15차 본회의 회의록"@ko ;
@@ -2920,7 +2920,7 @@ nadat1:R100021038201550655 a rico:Record ;
         nadat1:INS-21038201550655-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038201550655" ;
-    rico:title "제382회국회 본회의회의록 제 15 호"@ko .
+    rico:title "제382회국회 국회본회의회의록 제 15 호"@ko .
 
 nadat1:R100021038300150660 a rico:Record ;
     skos:prefLabel "[R100021038300150660] 21대 383회 1차 본회의 회의록"@ko ;
@@ -2933,7 +2933,7 @@ nadat1:R100021038300150660 a rico:Record ;
         nadat1:INS-21038300150660-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038300150660" ;
-    rico:title "제383회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제383회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021038300250719 a rico:Record ;
     skos:prefLabel "[R100021038300250719] 21대 383회 2차 본회의 회의록"@ko ;
@@ -2946,7 +2946,7 @@ nadat1:R100021038300250719 a rico:Record ;
         nadat1:INS-21038300250719-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038300250719" ;
-    rico:title "제383회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제383회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021038400050743 a rico:Record ;
     skos:prefLabel "[R100021038400050743] 21대 384회 0차 본회의 회의록"@ko ;
@@ -2959,7 +2959,7 @@ nadat1:R100021038400050743 a rico:Record ;
         nadat1:INS-21038400050743-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038400050743" ;
-    rico:title "제384회국회 본회의회의록 제 0 호"@ko .
+    rico:title "제384회국회 국회본회의회의록 제 0 호"@ko .
 
 nadat1:R100021038400150744 a rico:Record ;
     skos:prefLabel "[R100021038400150744] 21대 384회 1차 본회의 회의록"@ko ;
@@ -2972,7 +2972,7 @@ nadat1:R100021038400150744 a rico:Record ;
         nadat1:INS-21038400150744-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038400150744" ;
-    rico:title "제384회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제384회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021038400250745 a rico:Record ;
     skos:prefLabel "[R100021038400250745] 21대 384회 2차 본회의 회의록"@ko ;
@@ -2985,7 +2985,7 @@ nadat1:R100021038400250745 a rico:Record ;
         nadat1:INS-21038400250745-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038400250745" ;
-    rico:title "제384회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제384회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021038400350747 a rico:Record ;
     skos:prefLabel "[R100021038400350747] 21대 384회 3차 본회의 회의록"@ko ;
@@ -2998,7 +2998,7 @@ nadat1:R100021038400350747 a rico:Record ;
         nadat1:INS-21038400350747-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038400350747" ;
-    rico:title "제384회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제384회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:R100021038400450752 a rico:Record ;
     skos:prefLabel "[R100021038400450752] 21대 384회 4차 본회의 회의록"@ko ;
@@ -3011,7 +3011,7 @@ nadat1:R100021038400450752 a rico:Record ;
         nadat1:INS-21038400450752-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038400450752" ;
-    rico:title "제384회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제384회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:R100021038400550755 a rico:Record ;
     skos:prefLabel "[R100021038400550755] 21대 384회 5차 본회의 회의록"@ko ;
@@ -3024,7 +3024,7 @@ nadat1:R100021038400550755 a rico:Record ;
         nadat1:INS-21038400550755-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038400550755" ;
-    rico:title "제384회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제384회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:R100021038400650757 a rico:Record ;
     skos:prefLabel "[R100021038400650757] 21대 384회 6차 본회의 회의록"@ko ;
@@ -3037,7 +3037,7 @@ nadat1:R100021038400650757 a rico:Record ;
         nadat1:INS-21038400650757-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038400650757" ;
-    rico:title "제384회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제384회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:R100021038400750831 a rico:Record ;
     skos:prefLabel "[R100021038400750831] 21대 384회 7차 본회의 회의록"@ko ;
@@ -3050,7 +3050,7 @@ nadat1:R100021038400750831 a rico:Record ;
         nadat1:INS-21038400750831-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038400750831" ;
-    rico:title "제384회국회 본회의회의록 제 7 호"@ko .
+    rico:title "제384회국회 국회본회의회의록 제 7 호"@ko .
 
 nadat1:R100021038500150855 a rico:Record ;
     skos:prefLabel "[R100021038500150855] 21대 385회 1차 본회의 회의록"@ko ;
@@ -3063,7 +3063,7 @@ nadat1:R100021038500150855 a rico:Record ;
         nadat1:INS-21038500150855-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038500150855" ;
-    rico:title "제385회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제385회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021038500250924 a rico:Record ;
     skos:prefLabel "[R100021038500250924] 21대 385회 2차 본회의 회의록"@ko ;
@@ -3076,7 +3076,7 @@ nadat1:R100021038500250924 a rico:Record ;
         nadat1:INS-21038500250924-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038500250924" ;
-    rico:title "제385회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제385회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021038500350930 a rico:Record ;
     skos:prefLabel "[R100021038500350930] 21대 385회 3차 본회의 회의록"@ko ;
@@ -3089,7 +3089,7 @@ nadat1:R100021038500350930 a rico:Record ;
         nadat1:INS-21038500350930-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038500350930" ;
-    rico:title "제385회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제385회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:R100021038600150951 a rico:Record ;
     skos:prefLabel "[R100021038600150951] 21대 386회 1차 본회의 회의록"@ko ;
@@ -3102,7 +3102,7 @@ nadat1:R100021038600150951 a rico:Record ;
         nadat1:INS-21038600150951-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038600150951" ;
-    rico:title "제386회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제386회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021038600250952 a rico:Record ;
     skos:prefLabel "[R100021038600250952] 21대 386회 2차 본회의 회의록"@ko ;
@@ -3115,7 +3115,7 @@ nadat1:R100021038600250952 a rico:Record ;
         nadat1:INS-21038600250952-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038600250952" ;
-    rico:title "제386회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제386회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021038600350958 a rico:Record ;
     skos:prefLabel "[R100021038600350958] 21대 386회 3차 본회의 회의록"@ko ;
@@ -3128,7 +3128,7 @@ nadat1:R100021038600350958 a rico:Record ;
         nadat1:INS-21038600350958-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038600350958" ;
-    rico:title "제386회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제386회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:R100021038600451003 a rico:Record ;
     skos:prefLabel "[R100021038600451003] 21대 386회 4차 본회의 회의록"@ko ;
@@ -3141,7 +3141,7 @@ nadat1:R100021038600451003 a rico:Record ;
         nadat1:INS-21038600451003-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038600451003" ;
-    rico:title "제386회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제386회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:R100021038700151024 a rico:Record ;
     skos:prefLabel "[R100021038700151024] 21대 387회 1차 본회의 회의록"@ko ;
@@ -3154,7 +3154,7 @@ nadat1:R100021038700151024 a rico:Record ;
         nadat1:INS-21038700151024-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038700151024" ;
-    rico:title "제387회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제387회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021038700251032 a rico:Record ;
     skos:prefLabel "[R100021038700251032] 21대 387회 2차 본회의 회의록"@ko ;
@@ -3167,7 +3167,7 @@ nadat1:R100021038700251032 a rico:Record ;
         nadat1:INS-21038700251032-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038700251032" ;
-    rico:title "제387회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제387회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021038800151059 a rico:Record ;
     skos:prefLabel "[R100021038800151059] 21대 388회 1차 본회의 회의록"@ko ;
@@ -3180,7 +3180,7 @@ nadat1:R100021038800151059 a rico:Record ;
         nadat1:INS-21038800151059-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038800151059" ;
-    rico:title "제388회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제388회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021038800251062 a rico:Record ;
     skos:prefLabel "[R100021038800251062] 21대 388회 2차 본회의 회의록"@ko ;
@@ -3193,7 +3193,7 @@ nadat1:R100021038800251062 a rico:Record ;
         nadat1:INS-21038800251062-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038800251062" ;
-    rico:title "제388회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제388회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021038800351074 a rico:Record ;
     skos:prefLabel "[R100021038800351074] 21대 388회 3차 본회의 회의록"@ko ;
@@ -3206,7 +3206,7 @@ nadat1:R100021038800351074 a rico:Record ;
         nadat1:INS-21038800351074-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038800351074" ;
-    rico:title "제388회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제388회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:R100021038800451081 a rico:Record ;
     skos:prefLabel "[R100021038800451081] 21대 388회 4차 본회의 회의록"@ko ;
@@ -3219,7 +3219,7 @@ nadat1:R100021038800451081 a rico:Record ;
         nadat1:INS-21038800451081-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038800451081" ;
-    rico:title "제388회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제388회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:R100021038800551087 a rico:Record ;
     skos:prefLabel "[R100021038800551087] 21대 388회 5차 본회의 회의록"@ko ;
@@ -3232,7 +3232,7 @@ nadat1:R100021038800551087 a rico:Record ;
         nadat1:INS-21038800551087-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038800551087" ;
-    rico:title "제388회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제388회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:R100021038800651105 a rico:Record ;
     skos:prefLabel "[R100021038800651105] 21대 388회 6차 본회의 회의록"@ko ;
@@ -3245,7 +3245,7 @@ nadat1:R100021038800651105 a rico:Record ;
         nadat1:INS-21038800651105-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038800651105" ;
-    rico:title "제388회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제388회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:R100021038800751117 a rico:Record ;
     skos:prefLabel "[R100021038800751117] 21대 388회 7차 본회의 회의록"@ko ;
@@ -3258,7 +3258,7 @@ nadat1:R100021038800751117 a rico:Record ;
         nadat1:INS-21038800751117-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038800751117" ;
-    rico:title "제388회국회 본회의회의록 제 7 호"@ko .
+    rico:title "제388회국회 국회본회의회의록 제 7 호"@ko .
 
 nadat1:R100021038900151123 a rico:Record ;
     skos:prefLabel "[R100021038900151123] 21대 389회 1차 본회의 회의록"@ko ;
@@ -3271,7 +3271,7 @@ nadat1:R100021038900151123 a rico:Record ;
         nadat1:INS-21038900151123-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038900151123" ;
-    rico:title "제389회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제389회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021038900251165 a rico:Record ;
     skos:prefLabel "[R100021038900251165] 21대 389회 2차 본회의 회의록"@ko ;
@@ -3284,7 +3284,7 @@ nadat1:R100021038900251165 a rico:Record ;
         nadat1:INS-21038900251165-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038900251165" ;
-    rico:title "제389회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제389회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021038900351166 a rico:Record ;
     skos:prefLabel "[R100021038900351166] 21대 389회 3차 본회의 회의록"@ko ;
@@ -3297,7 +3297,7 @@ nadat1:R100021038900351166 a rico:Record ;
         nadat1:INS-21038900351166-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038900351166" ;
-    rico:title "제389회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제389회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:R100021039000151235 a rico:Record ;
     skos:prefLabel "[R100021039000151235] 21대 390회 1차 본회의 회의록"@ko ;
@@ -3310,7 +3310,7 @@ nadat1:R100021039000151235 a rico:Record ;
         nadat1:INS-21039000151235-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039000151235" ;
-    rico:title "제390회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제390회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021039100051237 a rico:Record ;
     skos:prefLabel "[R100021039100051237] 21대 391회 0차 본회의 회의록"@ko ;
@@ -3323,7 +3323,7 @@ nadat1:R100021039100051237 a rico:Record ;
         nadat1:INS-21039100051237-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039100051237" ;
-    rico:title "제391회국회 본회의회의록 제 0 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 0 호"@ko .
 
 nadat1:R100021039100151238 a rico:Record ;
     skos:prefLabel "[R100021039100151238] 21대 391회 1차 본회의 회의록"@ko ;
@@ -3336,7 +3336,7 @@ nadat1:R100021039100151238 a rico:Record ;
         nadat1:INS-21039100151238-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039100151238" ;
-    rico:title "제391회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021039100251244 a rico:Record ;
     skos:prefLabel "[R100021039100251244] 21대 391회 2차 본회의 회의록"@ko ;
@@ -3349,7 +3349,7 @@ nadat1:R100021039100251244 a rico:Record ;
         nadat1:INS-21039100251244-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039100251244" ;
-    rico:title "제391회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021039100351252 a rico:Record ;
     skos:prefLabel "[R100021039100351252] 21대 391회 3차 본회의 회의록"@ko ;
@@ -3362,7 +3362,7 @@ nadat1:R100021039100351252 a rico:Record ;
         nadat1:INS-21039100351252-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039100351252" ;
-    rico:title "제391회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:R100021039100451270 a rico:Record ;
     skos:prefLabel "[R100021039100451270] 21대 391회 4차 본회의 회의록"@ko ;
@@ -3375,7 +3375,7 @@ nadat1:R100021039100451270 a rico:Record ;
         nadat1:INS-21039100451270-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039100451270" ;
-    rico:title "제391회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:R100021039100551275 a rico:Record ;
     skos:prefLabel "[R100021039100551275] 21대 391회 5차 본회의 회의록"@ko ;
@@ -3388,7 +3388,7 @@ nadat1:R100021039100551275 a rico:Record ;
         nadat1:INS-21039100551275-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039100551275" ;
-    rico:title "제391회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:R100021039100651285 a rico:Record ;
     skos:prefLabel "[R100021039100651285] 21대 391회 6차 본회의 회의록"@ko ;
@@ -3401,7 +3401,7 @@ nadat1:R100021039100651285 a rico:Record ;
         nadat1:INS-21039100651285-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039100651285" ;
-    rico:title "제391회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:R100021039100751293 a rico:Record ;
     skos:prefLabel "[R100021039100751293] 21대 391회 7차 본회의 회의록"@ko ;
@@ -3414,7 +3414,7 @@ nadat1:R100021039100751293 a rico:Record ;
         nadat1:INS-21039100751293-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039100751293" ;
-    rico:title "제391회국회 본회의회의록 제 7 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 7 호"@ko .
 
 nadat1:R100021039100851313 a rico:Record ;
     skos:prefLabel "[R100021039100851313] 21대 391회 8차 본회의 회의록"@ko ;
@@ -3427,7 +3427,7 @@ nadat1:R100021039100851313 a rico:Record ;
         nadat1:INS-21039100851313-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039100851313" ;
-    rico:title "제391회국회 본회의회의록 제 8 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 8 호"@ko .
 
 nadat1:R100021039100951321 a rico:Record ;
     skos:prefLabel "[R100021039100951321] 21대 391회 9차 본회의 회의록"@ko ;
@@ -3440,7 +3440,7 @@ nadat1:R100021039100951321 a rico:Record ;
         nadat1:INS-21039100951321-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039100951321" ;
-    rico:title "제391회국회 본회의회의록 제 9 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 9 호"@ko .
 
 nadat1:R100021039101051374 a rico:Record ;
     skos:prefLabel "[R100021039101051374] 21대 391회 10차 본회의 회의록"@ko ;
@@ -3453,7 +3453,7 @@ nadat1:R100021039101051374 a rico:Record ;
         nadat1:INS-21039101051374-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039101051374" ;
-    rico:title "제391회국회 본회의회의록 제 10 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 10 호"@ko .
 
 nadat1:R100021039101151437 a rico:Record ;
     skos:prefLabel "[R100021039101151437] 21대 391회 11차 본회의 회의록"@ko ;
@@ -3466,7 +3466,7 @@ nadat1:R100021039101151437 a rico:Record ;
         nadat1:INS-21039101151437-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039101151437" ;
-    rico:title "제391회국회 본회의회의록 제 11 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 11 호"@ko .
 
 nadat1:R100021039101251623 a rico:Record ;
     skos:prefLabel "[R100021039101251623] 21대 391회 12차 본회의 회의록"@ko ;
@@ -3479,7 +3479,7 @@ nadat1:R100021039101251623 a rico:Record ;
         nadat1:INS-21039101251623-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039101251623" ;
-    rico:title "제391회국회 본회의회의록 제 12 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 12 호"@ko .
 
 nadat1:R100021039101351625 a rico:Record ;
     skos:prefLabel "[R100021039101351625] 21대 391회 13차 본회의 회의록"@ko ;
@@ -3492,7 +3492,7 @@ nadat1:R100021039101351625 a rico:Record ;
         nadat1:INS-21039101351625-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039101351625" ;
-    rico:title "제391회국회 본회의회의록 제 13 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 13 호"@ko .
 
 nadat1:R100021039101451657 a rico:Record ;
     skos:prefLabel "[R100021039101451657] 21대 391회 14차 본회의 회의록"@ko ;
@@ -3505,7 +3505,7 @@ nadat1:R100021039101451657 a rico:Record ;
         nadat1:INS-21039101451657-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039101451657" ;
-    rico:title "제391회국회 본회의회의록 제 14 호"@ko .
+    rico:title "제391회국회 국회본회의회의록 제 14 호"@ko .
 
 nadat1:R100021039200151710 a rico:Record ;
     skos:prefLabel "[R100021039200151710] 21대 392회 1차 본회의 회의록"@ko ;
@@ -3518,7 +3518,7 @@ nadat1:R100021039200151710 a rico:Record ;
         nadat1:INS-21039200151710-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039200151710" ;
-    rico:title "제392회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제392회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021039200251735 a rico:Record ;
     skos:prefLabel "[R100021039200251735] 21대 392회 2차 본회의 회의록"@ko ;
@@ -3531,7 +3531,7 @@ nadat1:R100021039200251735 a rico:Record ;
         nadat1:INS-21039200251735-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039200251735" ;
-    rico:title "제392회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제392회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021039300051741 a rico:Record ;
     skos:prefLabel "[R100021039300051741] 21대 393회 0차 본회의 회의록"@ko ;
@@ -3544,7 +3544,7 @@ nadat1:R100021039300051741 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039300051741" ;
-    rico:title "제393회국회 본회의회의록 제 0 호"@ko .
+    rico:title "제393회국회 국회본회의회의록 제 0 호"@ko .
 
 nadat1:R100021039300151742 a rico:Record ;
     skos:prefLabel "[R100021039300151742] 21대 393회 1차 본회의 회의록"@ko ;
@@ -3557,7 +3557,7 @@ nadat1:R100021039300151742 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039300151742" ;
-    rico:title "제393회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제393회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021039300251768 a rico:Record ;
     skos:prefLabel "[R100021039300251768] 21대 393회 2차 본회의 회의록"@ko ;
@@ -3570,7 +3570,7 @@ nadat1:R100021039300251768 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039300251768" ;
-    rico:title "제393회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제393회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021039300351773 a rico:Record ;
     skos:prefLabel "[R100021039300351773] 21대 393회 3차 본회의 회의록"@ko ;
@@ -3583,7 +3583,7 @@ nadat1:R100021039300351773 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039300351773" ;
-    rico:title "제393회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제393회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:R100021039400151791 a rico:Record ;
     skos:prefLabel "[R100021039400151791] 21대 394회 1차 본회의 회의록"@ko ;
@@ -3596,7 +3596,7 @@ nadat1:R100021039400151791 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039400151791" ;
-    rico:title "제394회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제394회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021039500151808 a rico:Record ;
     skos:prefLabel "[R100021039500151808] 21대 395회 1차 본회의 회의록"@ko ;
@@ -3609,7 +3609,7 @@ nadat1:R100021039500151808 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039500151808" ;
-    rico:title "제395회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제395회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021039500251836 a rico:Record ;
     skos:prefLabel "[R100021039500251836] 21대 395회 2차 본회의 회의록"@ko ;
@@ -3622,7 +3622,7 @@ nadat1:R100021039500251836 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039500251836" ;
-    rico:title "제395회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제395회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021039600151848 a rico:Record ;
     skos:prefLabel "[R100021039600151848] 21대 396회 1차 본회의 회의록"@ko ;
@@ -3635,7 +3635,7 @@ nadat1:R100021039600151848 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039600151848" ;
-    rico:title "제396회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제396회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021039700151859 a rico:Record ;
     skos:prefLabel "[R100021039700151859] 21대 397회 1차 본회의 회의록"@ko ;
@@ -3648,7 +3648,7 @@ nadat1:R100021039700151859 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039700151859" ;
-    rico:title "제397회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제397회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021039700251894 a rico:Record ;
     skos:prefLabel "[R100021039700251894] 21대 397회 2차 본회의 회의록"@ko ;
@@ -3661,7 +3661,7 @@ nadat1:R100021039700251894 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039700251894" ;
-    rico:title "제397회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제397회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021039700351930 a rico:Record ;
     skos:prefLabel "[R100021039700351930] 21대 397회 3차 본회의 회의록"@ko ;
@@ -3674,7 +3674,7 @@ nadat1:R100021039700351930 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039700351930" ;
-    rico:title "제397회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제397회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:R100021039700451954 a rico:Record ;
     skos:prefLabel "[R100021039700451954] 21대 397회 4차 본회의 회의록"@ko ;
@@ -3687,7 +3687,7 @@ nadat1:R100021039700451954 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039700451954" ;
-    rico:title "제397회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제397회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:R100021039800151975 a rico:Record ;
     skos:prefLabel "[R100021039800151975] 21대 398회 1차 본회의 회의록"@ko ;
@@ -3700,7 +3700,7 @@ nadat1:R100021039800151975 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039800151975" ;
-    rico:title "제398회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제398회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021039800251979 a rico:Record ;
     skos:prefLabel "[R100021039800251979] 21대 398회 2차 본회의 회의록"@ko ;
@@ -3713,7 +3713,7 @@ nadat1:R100021039800251979 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039800251979" ;
-    rico:title "제398회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제398회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021039800351983 a rico:Record ;
     skos:prefLabel "[R100021039800351983] 21대 398회 3차 본회의 회의록"@ko ;
@@ -3726,7 +3726,7 @@ nadat1:R100021039800351983 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039800351983" ;
-    rico:title "제398회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제398회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:R100021039800451984 a rico:Record ;
     skos:prefLabel "[R100021039800451984] 21대 398회 4차 본회의 회의록"@ko ;
@@ -3739,7 +3739,7 @@ nadat1:R100021039800451984 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039800451984" ;
-    rico:title "제398회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제398회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:R100021039800551986 a rico:Record ;
     skos:prefLabel "[R100021039800551986] 21대 398회 5차 본회의 회의록"@ko ;
@@ -3752,7 +3752,7 @@ nadat1:R100021039800551986 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039800551986" ;
-    rico:title "제398회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제398회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:R100021039800651989 a rico:Record ;
     skos:prefLabel "[R100021039800651989] 21대 398회 6차 본회의 회의록"@ko ;
@@ -3765,7 +3765,7 @@ nadat1:R100021039800651989 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039800651989" ;
-    rico:title "제398회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제398회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:R100021039800751995 a rico:Record ;
     skos:prefLabel "[R100021039800751995] 21대 398회 7차 본회의 회의록"@ko ;
@@ -3778,7 +3778,7 @@ nadat1:R100021039800751995 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039800751995" ;
-    rico:title "제398회국회 본회의회의록 제 7 호"@ko .
+    rico:title "제398회국회 국회본회의회의록 제 7 호"@ko .
 
 nadat1:R100021039800852011 a rico:Record ;
     skos:prefLabel "[R100021039800852011] 21대 398회 8차 본회의 회의록"@ko ;
@@ -3791,7 +3791,7 @@ nadat1:R100021039800852011 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039800852011" ;
-    rico:title "제398회국회 본회의회의록 제 8 호"@ko .
+    rico:title "제398회국회 국회본회의회의록 제 8 호"@ko .
 
 nadat1:R100021040000052101 a rico:Record ;
     skos:prefLabel "[R100021040000052101] 21대 400회 0차 본회의 회의록"@ko ;
@@ -3804,7 +3804,7 @@ nadat1:R100021040000052101 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040000052101" ;
-    rico:title "제400회국회 본회의회의록 제 0 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 0 호"@ko .
 
 nadat1:R100021040000152102 a rico:Record ;
     skos:prefLabel "[R100021040000152102] 21대 400회 1차 본회의 회의록"@ko ;
@@ -3817,7 +3817,7 @@ nadat1:R100021040000152102 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040000152102" ;
-    rico:title "제400회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021040000252115 a rico:Record ;
     skos:prefLabel "[R100021040000252115] 21대 400회 2차 본회의 회의록"@ko ;
@@ -3830,7 +3830,7 @@ nadat1:R100021040000252115 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040000252115" ;
-    rico:title "제400회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021040000352135 a rico:Record ;
     skos:prefLabel "[R100021040000352135] 21대 400회 3차 본회의 회의록"@ko ;
@@ -3843,7 +3843,7 @@ nadat1:R100021040000352135 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040000352135" ;
-    rico:title "제400회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:R100021040000452139 a rico:Record ;
     skos:prefLabel "[R100021040000452139] 21대 400회 4차 본회의 회의록"@ko ;
@@ -3856,7 +3856,7 @@ nadat1:R100021040000452139 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040000452139" ;
-    rico:title "제400회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:R100021040000552147 a rico:Record ;
     skos:prefLabel "[R100021040000552147] 21대 400회 5차 본회의 회의록"@ko ;
@@ -3869,7 +3869,7 @@ nadat1:R100021040000552147 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040000552147" ;
-    rico:title "제400회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:R100021040000652156 a rico:Record ;
     skos:prefLabel "[R100021040000652156] 21대 400회 6차 본회의 회의록"@ko ;
@@ -3882,7 +3882,7 @@ nadat1:R100021040000652156 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040000652156" ;
-    rico:title "제400회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:R100021040000752174 a rico:Record ;
     skos:prefLabel "[R100021040000752174] 21대 400회 7차 본회의 회의록"@ko ;
@@ -3895,7 +3895,7 @@ nadat1:R100021040000752174 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040000752174" ;
-    rico:title "제400회국회 본회의회의록 제 7 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 7 호"@ko .
 
 nadat1:R100021040000852178 a rico:Record ;
     skos:prefLabel "[R100021040000852178] 21대 400회 8차 본회의 회의록"@ko ;
@@ -3908,7 +3908,7 @@ nadat1:R100021040000852178 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040000852178" ;
-    rico:title "제400회국회 본회의회의록 제 8 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 8 호"@ko .
 
 nadat1:R100021040000952182 a rico:Record ;
     skos:prefLabel "[R100021040000952182] 21대 400회 9차 본회의 회의록"@ko ;
@@ -3921,7 +3921,7 @@ nadat1:R100021040000952182 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040000952182" ;
-    rico:title "제400회국회 본회의회의록 제 9 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 9 호"@ko .
 
 nadat1:R100021040001052246 a rico:Record ;
     skos:prefLabel "[R100021040001052246] 21대 400회 10차 본회의 회의록"@ko ;
@@ -3934,7 +3934,7 @@ nadat1:R100021040001052246 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040001052246" ;
-    rico:title "제400회국회 본회의회의록 제 10 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 10 호"@ko .
 
 nadat1:R100021040001152260 a rico:Record ;
     skos:prefLabel "[R100021040001152260] 21대 400회 11차 본회의 회의록"@ko ;
@@ -3947,7 +3947,7 @@ nadat1:R100021040001152260 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040001152260" ;
-    rico:title "제400회국회 본회의회의록 제 11 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 11 호"@ko .
 
 nadat1:R100021040001252334 a rico:Record ;
     skos:prefLabel "[R100021040001252334] 21대 400회 12차 본회의 회의록"@ko ;
@@ -3960,7 +3960,7 @@ nadat1:R100021040001252334 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040001252334" ;
-    rico:title "제400회국회 본회의회의록 제 12 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 12 호"@ko .
 
 nadat1:R100021040001352477 a rico:Record ;
     skos:prefLabel "[R100021040001352477] 21대 400회 13차 본회의 회의록"@ko ;
@@ -3973,7 +3973,7 @@ nadat1:R100021040001352477 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040001352477" ;
-    rico:title "제400회국회 본회의회의록 제 13 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 13 호"@ko .
 
 nadat1:R100021040001452588 a rico:Record ;
     skos:prefLabel "[R100021040001452588] 21대 400회 14차 본회의 회의록"@ko ;
@@ -3986,7 +3986,7 @@ nadat1:R100021040001452588 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040001452588" ;
-    rico:title "제400회국회 본회의회의록 제 14 호"@ko .
+    rico:title "제400회국회 국회본회의회의록 제 14 호"@ko .
 
 nadat1:R100021040100152605 a rico:Record ;
     skos:prefLabel "[R100021040100152605] 21대 401회 1차 본회의 회의록"@ko ;
@@ -3999,7 +3999,7 @@ nadat1:R100021040100152605 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040100152605" ;
-    rico:title "제401회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제401회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021040100252626 a rico:Record ;
     skos:prefLabel "[R100021040100252626] 21대 401회 2차 본회의 회의록"@ko ;
@@ -4012,7 +4012,7 @@ nadat1:R100021040100252626 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040100252626" ;
-    rico:title "제401회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제401회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021040100352627 a rico:Record ;
     skos:prefLabel "[R100021040100352627] 21대 401회 3차 본회의 회의록"@ko ;
@@ -4025,7 +4025,7 @@ nadat1:R100021040100352627 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040100352627" ;
-    rico:title "제401회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제401회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:R100021040100452637 a rico:Record ;
     skos:prefLabel "[R100021040100452637] 21대 401회 4차 본회의 회의록"@ko ;
@@ -4038,7 +4038,7 @@ nadat1:R100021040100452637 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040100452637" ;
-    rico:title "제401회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제401회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:R100021040100552645 a rico:Record ;
     skos:prefLabel "[R100021040100552645] 21대 401회 5차 본회의 회의록"@ko ;
@@ -4051,7 +4051,7 @@ nadat1:R100021040100552645 a rico:Record ;
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040100552645" ;
-    rico:title "제401회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제401회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:R100021040200152659 a rico:Record ;
     skos:prefLabel "[R100021040200152659] 21대 402회 1차 본회의 회의록"@ko ;
@@ -4064,7 +4064,7 @@ nadat1:R100021040200152659 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040200152659" ;
-    rico:title "제402회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제402회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021040300052667 a rico:Record ;
     skos:prefLabel "[R100021040300052667] 21대 403회 0차 본회의 회의록"@ko ;
@@ -4077,7 +4077,7 @@ nadat1:R100021040300052667 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040300052667" ;
-    rico:title "제403회국회 본회의회의록 제 0 호"@ko .
+    rico:title "제403회국회 국회본회의회의록 제 0 호"@ko .
 
 nadat1:R100021040300152668 a rico:Record ;
     skos:prefLabel "[R100021040300152668] 21대 403회 1차 본회의 회의록"@ko ;
@@ -4090,7 +4090,7 @@ nadat1:R100021040300152668 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040300152668" ;
-    rico:title "제403회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제403회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021040300252669 a rico:Record ;
     skos:prefLabel "[R100021040300252669] 21대 403회 2차 본회의 회의록"@ko ;
@@ -4103,7 +4103,7 @@ nadat1:R100021040300252669 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040300252669" ;
-    rico:title "제403회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제403회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021040300352671 a rico:Record ;
     skos:prefLabel "[R100021040300352671] 21대 403회 3차 본회의 회의록"@ko ;
@@ -4116,7 +4116,7 @@ nadat1:R100021040300352671 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040300352671" ;
-    rico:title "제403회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제403회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:R100021040300452672 a rico:Record ;
     skos:prefLabel "[R100021040300452672] 21대 403회 4차 본회의 회의록"@ko ;
@@ -4129,7 +4129,7 @@ nadat1:R100021040300452672 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040300452672" ;
-    rico:title "제403회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제403회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:R100021040300552676 a rico:Record ;
     skos:prefLabel "[R100021040300552676] 21대 403회 5차 본회의 회의록"@ko ;
@@ -4142,7 +4142,7 @@ nadat1:R100021040300552676 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040300552676" ;
-    rico:title "제403회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제403회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:R100021040300652684 a rico:Record ;
     skos:prefLabel "[R100021040300652684] 21대 403회 6차 본회의 회의록"@ko ;
@@ -4155,7 +4155,7 @@ nadat1:R100021040300652684 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040300652684" ;
-    rico:title "제403회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제403회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:R100021040300752743 a rico:Record ;
     skos:prefLabel "[R100021040300752743] 21대 403회 7차 본회의 회의록"@ko ;
@@ -4168,7 +4168,7 @@ nadat1:R100021040300752743 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040300752743" ;
-    rico:title "제403회국회 본회의회의록 제 7 호"@ko .
+    rico:title "제403회국회 국회본회의회의록 제 7 호"@ko .
 
 nadat1:R100021040300852751 a rico:Record ;
     skos:prefLabel "[R100021040300852751] 21대 403회 8차 본회의 회의록"@ko ;
@@ -4181,7 +4181,7 @@ nadat1:R100021040300852751 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040300852751" ;
-    rico:title "제403회국회 본회의회의록 제 8 호"@ko .
+    rico:title "제403회국회 국회본회의회의록 제 8 호"@ko .
 
 nadat1:R100021040400152800 a rico:Record ;
     skos:prefLabel "[R100021040400152800] 21대 404회 1차 본회의 회의록"@ko ;
@@ -4194,7 +4194,7 @@ nadat1:R100021040400152800 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040400152800" ;
-    rico:title "제404회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제404회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021040400252823 a rico:Record ;
     skos:prefLabel "[R100021040400252823] 21대 404회 2차 본회의 회의록"@ko ;
@@ -4207,7 +4207,7 @@ nadat1:R100021040400252823 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040400252823" ;
-    rico:title "제404회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제404회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021040500152838 a rico:Record ;
     skos:prefLabel "[R100021040500152838] 21대 405회 1차 본회의 회의록"@ko ;
@@ -4220,7 +4220,7 @@ nadat1:R100021040500152838 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040500152838" ;
-    rico:title "제405회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제405회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021040500252843 a rico:Record ;
     skos:prefLabel "[R100021040500252843] 21대 405회 2차 본회의 회의록"@ko ;
@@ -4233,7 +4233,7 @@ nadat1:R100021040500252843 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040500252843" ;
-    rico:title "제405회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제405회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021040500352845 a rico:Record ;
     skos:prefLabel "[R100021040500352845] 21대 405회 3차 본회의 회의록"@ko ;
@@ -4246,7 +4246,7 @@ nadat1:R100021040500352845 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040500352845" ;
-    rico:title "제405회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제405회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:R100021040500452863 a rico:Record ;
     skos:prefLabel "[R100021040500452863] 21대 405회 4차 본회의 회의록"@ko ;
@@ -4259,7 +4259,7 @@ nadat1:R100021040500452863 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040500452863" ;
-    rico:title "제405회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제405회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:R100021040500552897 a rico:Record ;
     skos:prefLabel "[R100021040500552897] 21대 405회 5차 본회의 회의록"@ko ;
@@ -4272,7 +4272,7 @@ nadat1:R100021040500552897 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040500552897" ;
-    rico:title "제405회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제405회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:R100021040600152945 a rico:Record ;
     skos:prefLabel "[R100021040600152945] 21대 406회 1차 본회의 회의록"@ko ;
@@ -4285,7 +4285,7 @@ nadat1:R100021040600152945 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040600152945" ;
-    rico:title "제406회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제406회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021040600252962 a rico:Record ;
     skos:prefLabel "[R100021040600252962] 21대 406회 2차 본회의 회의록"@ko ;
@@ -4298,7 +4298,7 @@ nadat1:R100021040600252962 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040600252962" ;
-    rico:title "제406회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제406회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021040700152974 a rico:Record ;
     skos:prefLabel "[R100021040700152974] 21대 407회 1차 본회의 회의록"@ko ;
@@ -4311,7 +4311,7 @@ nadat1:R100021040700152974 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040700152974" ;
-    rico:title "제407회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제407회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021040700252975 a rico:Record ;
     skos:prefLabel "[R100021040700252975] 21대 407회 2차 본회의 회의록"@ko ;
@@ -4324,7 +4324,7 @@ nadat1:R100021040700252975 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040700252975" ;
-    rico:title "제407회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제407회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021040700352978 a rico:Record ;
     skos:prefLabel "[R100021040700352978] 21대 407회 3차 본회의 회의록"@ko ;
@@ -4337,7 +4337,7 @@ nadat1:R100021040700352978 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040700352978" ;
-    rico:title "제407회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제407회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:R100021040700452985 a rico:Record ;
     skos:prefLabel "[R100021040700452985] 21대 407회 4차 본회의 회의록"@ko ;
@@ -4350,7 +4350,7 @@ nadat1:R100021040700452985 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040700452985" ;
-    rico:title "제407회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제407회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:R100021040700552988 a rico:Record ;
     skos:prefLabel "[R100021040700552988] 21대 407회 5차 본회의 회의록"@ko ;
@@ -4363,7 +4363,7 @@ nadat1:R100021040700552988 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040700552988" ;
-    rico:title "제407회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제407회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:R100021040700652991 a rico:Record ;
     skos:prefLabel "[R100021040700652991] 21대 407회 6차 본회의 회의록"@ko ;
@@ -4376,7 +4376,7 @@ nadat1:R100021040700652991 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040700652991" ;
-    rico:title "제407회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제407회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:R100021040700753046 a rico:Record ;
     skos:prefLabel "[R100021040700753046] 21대 407회 7차 본회의 회의록"@ko ;
@@ -4389,7 +4389,7 @@ nadat1:R100021040700753046 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040700753046" ;
-    rico:title "제407회국회 본회의회의록 제 7 호"@ko .
+    rico:title "제407회국회 국회본회의회의록 제 7 호"@ko .
 
 nadat1:R100021040800153077 a rico:Record ;
     skos:prefLabel "[R100021040800153077] 21대 408회 1차 본회의 회의록"@ko ;
@@ -4402,7 +4402,7 @@ nadat1:R100021040800153077 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040800153077" ;
-    rico:title "제408회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제408회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021040800253084 a rico:Record ;
     skos:prefLabel "[R100021040800253084] 21대 408회 2차 본회의 회의록"@ko ;
@@ -4415,7 +4415,7 @@ nadat1:R100021040800253084 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040800253084" ;
-    rico:title "제408회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제408회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021040900153131 a rico:Record ;
     skos:prefLabel "[R100021040900153131] 21대 409회 1차 본회의 회의록"@ko ;
@@ -4428,7 +4428,7 @@ nadat1:R100021040900153131 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040900153131" ;
-    rico:title "제409회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제409회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021041000053169 a rico:Record ;
     skos:prefLabel "[R100021041000053169] 21대 410회 0차 본회의 회의록"@ko ;
@@ -4441,7 +4441,7 @@ nadat1:R100021041000053169 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041000053169" ;
-    rico:title "제410회국회 본회의회의록 제 0 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 0 호"@ko .
 
 nadat1:R100021041000153168 a rico:Record ;
     skos:prefLabel "[R100021041000153168] 21대 410회 1차 본회의 회의록"@ko ;
@@ -4454,7 +4454,7 @@ nadat1:R100021041000153168 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041000153168" ;
-    rico:title "제410회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021041000253184 a rico:Record ;
     skos:prefLabel "[R100021041000253184] 21대 410회 2차 본회의 회의록"@ko ;
@@ -4467,7 +4467,7 @@ nadat1:R100021041000253184 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041000253184" ;
-    rico:title "제410회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021041000353194 a rico:Record ;
     skos:prefLabel "[R100021041000353194] 21대 410회 3차 본회의 회의록"@ko ;
@@ -4480,7 +4480,7 @@ nadat1:R100021041000353194 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041000353194" ;
-    rico:title "제410회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:R100021041000453201 a rico:Record ;
     skos:prefLabel "[R100021041000453201] 21대 410회 4차 본회의 회의록"@ko ;
@@ -4493,7 +4493,7 @@ nadat1:R100021041000453201 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041000453201" ;
-    rico:title "제410회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:R100021041000553206 a rico:Record ;
     skos:prefLabel "[R100021041000553206] 21대 410회 5차 본회의 회의록"@ko ;
@@ -4506,7 +4506,7 @@ nadat1:R100021041000553206 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041000553206" ;
-    rico:title "제410회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:R100021041000653224 a rico:Record ;
     skos:prefLabel "[R100021041000653224] 21대 410회 6차 본회의 회의록"@ko ;
@@ -4519,7 +4519,7 @@ nadat1:R100021041000653224 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041000653224" ;
-    rico:title "제410회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:R100021041000753233 a rico:Record ;
     skos:prefLabel "[R100021041000753233] 21대 410회 7차 본회의 회의록"@ko ;
@@ -4532,7 +4532,7 @@ nadat1:R100021041000753233 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041000753233" ;
-    rico:title "제410회국회 본회의회의록 제 7 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 7 호"@ko .
 
 nadat1:R100021041000853247 a rico:Record ;
     skos:prefLabel "[R100021041000853247] 21대 410회 8차 본회의 회의록"@ko ;
@@ -4545,7 +4545,7 @@ nadat1:R100021041000853247 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041000853247" ;
-    rico:title "제410회국회 본회의회의록 제 8 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 8 호"@ko .
 
 nadat1:R100021041000953287 a rico:Record ;
     skos:prefLabel "[R100021041000953287] 21대 410회 9차 본회의 회의록"@ko ;
@@ -4558,7 +4558,7 @@ nadat1:R100021041000953287 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041000953287" ;
-    rico:title "제410회국회 본회의회의록 제 9 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 9 호"@ko .
 
 nadat1:R100021041001053341 a rico:Record ;
     skos:prefLabel "[R100021041001053341] 21대 410회 10차 본회의 회의록"@ko ;
@@ -4571,7 +4571,7 @@ nadat1:R100021041001053341 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041001053341" ;
-    rico:title "제410회국회 본회의회의록 제 10 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 10 호"@ko .
 
 nadat1:R100021041001153391 a rico:Record ;
     skos:prefLabel "[R100021041001153391] 21대 410회 11차 본회의 회의록"@ko ;
@@ -4584,7 +4584,7 @@ nadat1:R100021041001153391 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041001153391" ;
-    rico:title "제410회국회 본회의회의록 제 11 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 11 호"@ko .
 
 nadat1:R100021041001253561 a rico:Record ;
     skos:prefLabel "[R100021041001253561] 21대 410회 12차 본회의 회의록"@ko ;
@@ -4597,7 +4597,7 @@ nadat1:R100021041001253561 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041001253561" ;
-    rico:title "제410회국회 본회의회의록 제 12 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 12 호"@ko .
 
 nadat1:R100021041001353577 a rico:Record ;
     skos:prefLabel "[R100021041001353577] 21대 410회 13차 본회의 회의록"@ko ;
@@ -4610,7 +4610,7 @@ nadat1:R100021041001353577 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041001353577" ;
-    rico:title "제410회국회 본회의회의록 제 13 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 13 호"@ko .
 
 nadat1:R100021041001453628 a rico:Record ;
     skos:prefLabel "[R100021041001453628] 21대 410회 14차 본회의 회의록"@ko ;
@@ -4623,7 +4623,7 @@ nadat1:R100021041001453628 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041001453628" ;
-    rico:title "제410회국회 본회의회의록 제 14 호"@ko .
+    rico:title "제410회국회 국회본회의회의록 제 14 호"@ko .
 
 nadat1:R100021041100153696 a rico:Record ;
     skos:prefLabel "[R100021041100153696] 21대 411회 1차 본회의 회의록"@ko ;
@@ -4636,7 +4636,7 @@ nadat1:R100021041100153696 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041100153696" ;
-    rico:title "제411회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제411회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021041100453763 a rico:Record ;
     skos:prefLabel "[R100021041100453763] 21대 411회 4차 본회의 회의록"@ko ;
@@ -4649,7 +4649,7 @@ nadat1:R100021041100453763 a rico:Record ;
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041100453763" ;
-    rico:title "제411회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제411회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:R100021041200153779 a rico:Record ;
     skos:prefLabel "[R100021041200153779] 21대 412회 1차 본회의 회의록"@ko ;
@@ -4662,7 +4662,7 @@ nadat1:R100021041200153779 a rico:Record ;
         nadat1:INS-240125_240529-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041200153779" ;
-    rico:title "제412회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제412회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021041200253785 a rico:Record ;
     skos:prefLabel "[R100021041200253785] 21대 412회 2차 본회의 회의록"@ko ;
@@ -4675,7 +4675,7 @@ nadat1:R100021041200253785 a rico:Record ;
         nadat1:INS-240125_240529-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041200253785" ;
-    rico:title "제412회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제412회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021041300053795 a rico:Record ;
     skos:prefLabel "[R100021041300053795] 21대 413회 0차 본회의 회의록"@ko ;
@@ -4688,7 +4688,7 @@ nadat1:R100021041300053795 a rico:Record ;
         nadat1:INS-240125_240529-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041300053795" ;
-    rico:title "제413회국회 본회의회의록 제 0 호"@ko .
+    rico:title "제413회국회 국회본회의회의록 제 0 호"@ko .
 
 nadat1:R100021041300153796 a rico:Record ;
     skos:prefLabel "[R100021041300153796] 21대 413회 1차 본회의 회의록"@ko ;
@@ -4701,7 +4701,7 @@ nadat1:R100021041300153796 a rico:Record ;
         nadat1:INS-240125_240529-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041300153796" ;
-    rico:title "제413회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제413회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021041300253797 a rico:Record ;
     skos:prefLabel "[R100021041300253797] 21대 413회 2차 본회의 회의록"@ko ;
@@ -4714,7 +4714,7 @@ nadat1:R100021041300253797 a rico:Record ;
         nadat1:INS-240125_240529-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041300253797" ;
-    rico:title "제413회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제413회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:R100021041300353800 a rico:Record ;
     skos:prefLabel "[R100021041300353800] 21대 413회 3차 본회의 회의록"@ko ;
@@ -4727,7 +4727,7 @@ nadat1:R100021041300353800 a rico:Record ;
         nadat1:INS-240125_240529-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041300353800" ;
-    rico:title "제413회국회 본회의회의록 제 3 호"@ko .
+    rico:title "제413회국회 국회본회의회의록 제 3 호"@ko .
 
 nadat1:R100021041300453804 a rico:Record ;
     skos:prefLabel "[R100021041300453804] 21대 413회 4차 본회의 회의록"@ko ;
@@ -4740,7 +4740,7 @@ nadat1:R100021041300453804 a rico:Record ;
         nadat1:INS-240125_240529-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041300453804" ;
-    rico:title "제413회국회 본회의회의록 제 4 호"@ko .
+    rico:title "제413회국회 국회본회의회의록 제 4 호"@ko .
 
 nadat1:R100021041300553808 a rico:Record ;
     skos:prefLabel "[R100021041300553808] 21대 413회 5차 본회의 회의록"@ko ;
@@ -4753,7 +4753,7 @@ nadat1:R100021041300553808 a rico:Record ;
         nadat1:INS-240125_240529-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041300553808" ;
-    rico:title "제413회국회 본회의회의록 제 5 호"@ko .
+    rico:title "제413회국회 국회본회의회의록 제 5 호"@ko .
 
 nadat1:R100021041300653815 a rico:Record ;
     skos:prefLabel "[R100021041300653815] 21대 413회 6차 본회의 회의록"@ko ;
@@ -4766,7 +4766,7 @@ nadat1:R100021041300653815 a rico:Record ;
         nadat1:INS-240125_240529-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041300653815" ;
-    rico:title "제413회국회 본회의회의록 제 6 호"@ko .
+    rico:title "제413회국회 국회본회의회의록 제 6 호"@ko .
 
 nadat1:R100021041400153832 a rico:Record ;
     skos:prefLabel "[R100021041400153832] 21대 414회 1차 본회의 회의록"@ko ;
@@ -4779,7 +4779,7 @@ nadat1:R100021041400153832 a rico:Record ;
         nadat1:INS-240125_240529-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041400153832" ;
-    rico:title "제414회국회 본회의회의록 제 1 호"@ko .
+    rico:title "제414회국회 국회본회의회의록 제 1 호"@ko .
 
 nadat1:R100021041400253844 a rico:Record ;
     skos:prefLabel "[R100021041400253844] 21대 414회 2차 본회의 회의록"@ko ;
@@ -4792,7 +4792,7 @@ nadat1:R100021041400253844 a rico:Record ;
         nadat1:INS-240125_240529-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041400253844" ;
-    rico:title "제414회국회 본회의회의록 제 2 호"@ko .
+    rico:title "제414회국회 국회본회의회의록 제 2 호"@ko .
 
 nadat1:RS100021-PLEN a rico:RecordSet ;
     skos:prefLabel "[RS100021-PLEN] 21대 본회의 회의록"@ko ;
