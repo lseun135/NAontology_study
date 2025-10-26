@@ -1,0 +1,4381 @@
+@prefix nam1: <https://lseun135.github.io/NAontology_study/m1-record#> .
+@prefix nam2: <https://lseun135.github.io/NAontology_study/m2-person#> .
+@prefix nam3: <https://lseun135.github.io/NAontology_study/m3-content#> .
+@prefix nadat1: <https://lseun135.github.io/NAontology_study/resource/d1-record#> .
+@prefix nadat2: <https://lseun135.github.io/NAontology_study/resource/d2-person#> .
+@prefix nadat3: <https://lseun135.github.io/NAontology_study/resource/d3-content#> .
+
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix bf: <https://id.loc.gov/ontologies/bibframe/> .
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gn:     <https://www.geonames.org/ontology#> .
+@prefix opengov: <http://www.w3.org/ns/opengov#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <https://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+@base <https://lseun135.github.io/NAontology_study/resource/d1-record> .
+
+
+
+
+
+nadat1:RS100021 rico:includesOrIncluded nadat1:RS100021-AM .
+
+nadat1:ACT-M-50012-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50012-003] 제379회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-50012-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-50012 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제379회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-50023-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50023-003] 제379회 제2차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-50023-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-50023 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제379회 제2차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-50059-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50059-003] 제380회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-50059-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-50059 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제380회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-50096-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50096-003] 제380회 제2차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-50096-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-50096 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제380회 제2차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-50129-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50129-003] 제381회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-50129-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-50129 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제381회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-50213-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50213-003] 제382회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-50213-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-50213 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제382회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-50238-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50238-003] 제382회 제2차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-50238-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-50238 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제382회 제2차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-50271-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50271-003] 제382회 제3차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-50271-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-50271 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제382회 제3차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-50283-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50283-003] 제382회 제4차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-50283-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-50283 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제382회 제4차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-50294-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50294-003] 제382회 제5차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-50294-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-50294 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제382회 제5차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-50299-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50299-003] 제382회 제6차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-50299-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-50299 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제382회 제6차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-50310-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50310-003] 제382회 제7차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-50310-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-50310 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제382회 제7차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-50363-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50363-003] 제382회 제8차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-50363-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-50363 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제382회 제8차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-50487-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50487-003] 제382회 제9차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-50487-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-50487 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제382회 제9차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-50568-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50568-003] 제382회 제10차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-50568-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-50568 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제382회 제10차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-50664-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50664-003] 제383회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-50664-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-50664 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제383회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-50696-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50696-003] 제383회 제2차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-50696-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-50696 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제383회 제2차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-50704-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50704-003] 제383회 제3차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-50704-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-50704 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제383회 제3차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-50790-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50790-003] 제384회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-50790-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-50790 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제384회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-50800-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50800-003] 제384회 제2차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-50800-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-50800 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제384회 제2차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-50898-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50898-003] 제385회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-50898-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-50898 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제385회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-50982-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50982-003] 제386회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-50982-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-50982 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제386회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-51066-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51066-003] 제388회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-51066-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-51066 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제388회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-51134-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51134-003] 제389회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-51134-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-51134 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제389회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-51210-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51210-003] 제390회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-51210-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-51210 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제390회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-51215-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51215-003] 제390회 제3차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-51215-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-51215 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제390회 제3차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-51218-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51218-003] 제390회 제2차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-51218-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-51218 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제390회 제2차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-51319-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51319-003] 제391회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-51319-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-51319 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제391회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-51330-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51330-003] 제391회 제2차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-51330-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-51330 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제391회 제2차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-51335-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51335-003] 제391회 제3차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-51335-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-51335 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제391회 제3차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-51342-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51342-003] 제391회 제4차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-51342-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-51342 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제391회 제4차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-51475-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51475-003] 제391회 제5차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-51475-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-51475 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제391회 제5차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-51492-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51492-003] 제391회 제6차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-51492-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-51492 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제391회 제6차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-51579-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51579-003] 제391회 제7차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-51579-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-51579 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제391회 제7차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-51760-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51760-003] 제393회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-51760-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-51760 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제393회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-51797-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51797-003] 제395회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-51797-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-51797 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제395회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-51835-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51835-003] 제395회 제2차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-51835-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-51835 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제395회 제2차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-51862-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51862-003] 제397회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-51862-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-51862 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제397회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-51915-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51915-003] 제397회 제2차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-51915-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-51915 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제397회 제2차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-52019-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52019-003] 제398회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52019-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-52019 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제398회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-52096-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52096-003] 제399회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52096-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-52096 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제399회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-52108-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52108-003] 제400회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52108-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-52108 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제400회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-52149-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52149-003] 제400회 제2차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52149-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-52149 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제400회 제2차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-52171-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52171-003] 제400회 제3차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52171-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-52171 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제400회 제3차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-52188-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52188-003] 제400회 제4차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52188-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-52188 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제400회 제4차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-52196-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52196-003] 제400회 제5차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52196-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-52196 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제400회 제5차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-52205-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52205-003] 제400회 제6차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52205-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-52205 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제400회 제6차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-52242-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52242-003] 제400회 제8차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52242-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-52242 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제400회 제8차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-52248-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52248-003] 제400회 제7차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52248-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-52248 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제400회 제7차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-52322-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52322-003] 제400회 제9차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52322-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-52322 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제400회 제9차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-52370-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52370-003] 제400회 제10차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52370-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-52370 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제400회 제10차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-52609-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52609-003] 제400회 제11차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52609-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-52609 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제400회 제11차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-52685-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52685-003] 제403회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52685-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-52685 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제403회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-52754-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52754-003] 제403회 제2차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52754-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-52754 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제403회 제2차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-52810-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52810-003] 제404회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52810-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-52810 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제404회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-52890-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52890-003] 제405회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52890-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-52890 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제405회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-52904-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52904-003] 제405회 제2차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52904-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-52904 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제405회 제2차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-53026-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53026-003] 제407회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-53026-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-53026 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제407회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-53043-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53043-003] 제407회 제2차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-53043-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-53043 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제407회 제2차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-53114-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53114-003] 제409회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-53114-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-53114 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제409회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-53147-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53147-003] 제409회 제2차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-53147-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-53147 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제409회 제2차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-53230-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53230-003] 제410회 제1차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-53230-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-53230 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제410회 제1차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-53266-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53266-003] 제410회 제2차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-53266-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-53266 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제410회 제2차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-53301-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53301-003] 제410회 제3차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-53301-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-53301 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제410회 제3차 보건복지위원회 심의"@ko .
+
+nadat1:ACT-M-53317-003 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53317-003] 제410회 제4차 보건복지위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-53317-003" ;
+    rico:isOrWasPartOf nadat1:EV-M-53317 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AM ;
+    rico:name "제410회 제4차 보건복지위원회 심의"@ko .
+
+nadat1:INS-AM-21037900150012-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21037900150012-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21037900150012-02" ;
+    rico:title "제379회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21037900250023-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21037900250023-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21037900250023-02" ;
+    rico:title "제379회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AM-21038000150059-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21038000150059-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21038000150059-02" ;
+    rico:title "제380회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21038000250096-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21038000250096-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21038000250096-02" ;
+    rico:title "제380회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AM-21038100150129-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21038100150129-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21038100150129-02" ;
+    rico:title "제381회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21038200150213-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21038200150213-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21038200150213-02" ;
+    rico:title "제382회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21038200250238-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21038200250238-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21038200250238-02" ;
+    rico:title "제382회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AM-21038200350271-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21038200350271-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21038200350271-02" ;
+    rico:title "제382회국회 보건복지위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AM-21038200450283-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21038200450283-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21038200450283-02" ;
+    rico:title "제382회국회 보건복지위원회회의록 제 4 호"@ko .
+
+nadat1:INS-AM-21038200550294-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21038200550294-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21038200550294-02" ;
+    rico:title "제382회국회 보건복지위원회회의록 제 5 호"@ko .
+
+nadat1:INS-AM-21038200650299-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21038200650299-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21038200650299-02" ;
+    rico:title "제382회국회 보건복지위원회회의록 제 6 호"@ko .
+
+nadat1:INS-AM-21038200750310-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21038200750310-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21038200750310-02" ;
+    rico:title "제382회국회 보건복지위원회회의록 제 7 호"@ko .
+
+nadat1:INS-AM-21038200850363-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21038200850363-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21038200850363-02" ;
+    rico:title "제382회국회 보건복지위원회회의록 제 8 호"@ko .
+
+nadat1:INS-AM-21038200950487-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21038200950487-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21038200950487-02" ;
+    rico:title "제382회국회 보건복지위원회회의록 제 9 호"@ko .
+
+nadat1:INS-AM-21038201050568-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21038201050568-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21038201050568-02" ;
+    rico:title "제382회국회 보건복지위원회회의록 제 10 호"@ko .
+
+nadat1:INS-AM-21038300150664-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21038300150664-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21038300150664-02" ;
+    rico:title "제383회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21038300250696-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21038300250696-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21038300250696-02" ;
+    rico:title "제383회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AM-21038300350704-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21038300350704-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21038300350704-02" ;
+    rico:title "제383회국회 보건복지위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AM-21038400150790-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21038400150790-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21038400150790-02" ;
+    rico:title "제384회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21038400250800-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21038400250800-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21038400250800-02" ;
+    rico:title "제384회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AM-21038500150898-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21038500150898-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21038500150898-02" ;
+    rico:title "제385회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21038600150982-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21038600150982-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21038600150982-02" ;
+    rico:title "제386회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21038800151066-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21038800151066-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21038800151066-02" ;
+    rico:title "제388회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21038900151134-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21038900151134-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21038900151134-02" ;
+    rico:title "제389회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21039000151210-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21039000151210-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21039000151210-02" ;
+    rico:title "제390회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21039000251218-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21039000251218-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21039000251218-02" ;
+    rico:title "제390회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AM-21039000351215-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21039000351215-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21039000351215-02" ;
+    rico:title "제390회국회 보건복지위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AM-21039100151319-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21039100151319-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21039100151319-02" ;
+    rico:title "제391회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21039100251330-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21039100251330-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21039100251330-02" ;
+    rico:title "제391회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AM-21039100351335-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21039100351335-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21039100351335-02" ;
+    rico:title "제391회국회 보건복지위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AM-21039100451342-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21039100451342-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21039100451342-02" ;
+    rico:title "제391회국회 보건복지위원회회의록 제 4 호"@ko .
+
+nadat1:INS-AM-21039100551475-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21039100551475-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21039100551475-02" ;
+    rico:title "제391회국회 보건복지위원회회의록 제 5 호"@ko .
+
+nadat1:INS-AM-21039100651492-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21039100651492-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21039100651492-02" ;
+    rico:title "제391회국회 보건복지위원회회의록 제 6 호"@ko .
+
+nadat1:INS-AM-21039100751579-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21039100751579-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21039100751579-02" ;
+    rico:title "제391회국회 보건복지위원회회의록 제 7 호"@ko .
+
+nadat1:INS-AM-21039300151760-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21039300151760-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21039300151760-02" ;
+    rico:title "제393회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21039500151797-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21039500151797-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21039500151797-02" ;
+    rico:title "제395회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21039500251835-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21039500251835-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21039500251835-02" ;
+    rico:title "제395회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AM-21039700151862-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21039700151862-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21039700151862-02" ;
+    rico:title "제397회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21039700251915-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21039700251915-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21039700251915-02" ;
+    rico:title "제397회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AM-21039800152019-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21039800152019-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21039800152019-02" ;
+    rico:title "제398회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21039900152096-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21039900152096-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21039900152096-02" ;
+    rico:title "제399회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21040000152108-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21040000152108-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21040000152108-02" ;
+    rico:title "제400회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21040000252149-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21040000252149-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21040000252149-02" ;
+    rico:title "제400회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AM-21040000352171-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21040000352171-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21040000352171-02" ;
+    rico:title "제400회국회 보건복지위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AM-21040000452188-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21040000452188-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21040000452188-02" ;
+    rico:title "제400회국회 보건복지위원회회의록 제 4 호"@ko .
+
+nadat1:INS-AM-21040000552196-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21040000552196-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21040000552196-02" ;
+    rico:title "제400회국회 보건복지위원회회의록 제 5 호"@ko .
+
+nadat1:INS-AM-21040000652205-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21040000652205-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21040000652205-02" ;
+    rico:title "제400회국회 보건복지위원회회의록 제 6 호"@ko .
+
+nadat1:INS-AM-21040000752248-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21040000752248-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21040000752248-02" ;
+    rico:title "제400회국회 보건복지위원회회의록 제 7 호"@ko .
+
+nadat1:INS-AM-21040000852242-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21040000852242-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21040000852242-02" ;
+    rico:title "제400회국회 보건복지위원회회의록 제 8 호"@ko .
+
+nadat1:INS-AM-21040000952322-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21040000952322-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21040000952322-02" ;
+    rico:title "제400회국회 보건복지위원회회의록 제 9 호"@ko .
+
+nadat1:INS-AM-21040001052370-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21040001052370-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21040001052370-02" ;
+    rico:title "제400회국회 보건복지위원회회의록 제 10 호"@ko .
+
+nadat1:INS-AM-21040001152609-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21040001152609-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21040001152609-02" ;
+    rico:title "제400회국회 보건복지위원회회의록 제 11 호"@ko .
+
+nadat1:INS-AM-21040300152685-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21040300152685-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21040300152685-02" ;
+    rico:title "제403회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21040300252754-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21040300252754-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21040300252754-02" ;
+    rico:title "제403회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AM-21040400152810-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21040400152810-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21040400152810-02" ;
+    rico:title "제404회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21040500152890-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21040500152890-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21040500152890-02" ;
+    rico:title "제405회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21040500252904-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21040500252904-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21040500252904-02" ;
+    rico:title "제405회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AM-21040700153026-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21040700153026-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21040700153026-02" ;
+    rico:title "제407회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21040700253043-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21040700253043-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21040700253043-02" ;
+    rico:title "제407회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AM-21040900153114-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21040900153114-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21040900153114-02" ;
+    rico:title "제409회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21040900253147-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21040900253147-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21040900253147-02" ;
+    rico:title "제409회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AM-21041000153230-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21041000153230-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21041000153230-02" ;
+    rico:title "제410회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AM-21041000253266-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21041000253266-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21041000253266-02" ;
+    rico:title "제410회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AM-21041000353301-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21041000353301-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21041000353301-02" ;
+    rico:title "제410회국회 보건복지위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AM-21041000453317-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AM-21041000453317-02] 보건복지위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-21041000453317-02" ;
+    rico:title "제410회국회 보건복지위원회회의록 제 4 호"@ko .
+
+nadat1:R100021037900150012 a rico:Record ;
+    skos:prefLabel "[R100021037900150012] 21대 379회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50012-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200617 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21037900150012-02,
+        nadat1:INS-AM-50012_50704-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021037900150012" ;
+    rico:title "제379회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021037900250023 a rico:Record ;
+    skos:prefLabel "[R100021037900250023] 21대 379회 2차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50023-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200629 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21037900250023-02,
+        nadat1:INS-AM-50012_50704-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021037900250023" ;
+    rico:title "제379회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:R100021038000150059 a rico:Record ;
+    skos:prefLabel "[R100021038000150059] 21대 380회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50059-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200715 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21038000150059-02,
+        nadat1:INS-AM-50012_50704-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038000150059" ;
+    rico:title "제380회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038000250096 a rico:Record ;
+    skos:prefLabel "[R100021038000250096] 21대 380회 2차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50096-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200730 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21038000250096-02,
+        nadat1:INS-AM-50012_50704-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038000250096" ;
+    rico:title "제380회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:R100021038100150129 a rico:Record ;
+    skos:prefLabel "[R100021038100150129] 21대 381회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50129-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200826 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21038100150129-02,
+        nadat1:INS-AM-50012_50704-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038100150129" ;
+    rico:title "제381회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038200150213 a rico:Record ;
+    skos:prefLabel "[R100021038200150213] 21대 382회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50213-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200917 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21038200150213-02,
+        nadat1:INS-AM-50012_50704-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200150213" ;
+    rico:title "제382회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038200250238 a rico:Record ;
+    skos:prefLabel "[R100021038200250238] 21대 382회 2차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50238-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200923 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21038200250238-02,
+        nadat1:INS-AM-50012_50704-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200250238" ;
+    rico:title "제382회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:R100021038200350271 a rico:Record ;
+    skos:prefLabel "[R100021038200350271] 21대 382회 3차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50271-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201007 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21038200350271-02,
+        nadat1:INS-AM-50012_50704-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200350271" ;
+    rico:title "제382회국회 보건복지위원회회의록 제 3 호"@ko .
+
+nadat1:R100021038200450283 a rico:Record ;
+    skos:prefLabel "[R100021038200450283] 21대 382회 4차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50283-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201013 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21038200450283-02,
+        nadat1:INS-AM-50012_50704-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200450283" ;
+    rico:title "제382회국회 보건복지위원회회의록 제 4 호"@ko .
+
+nadat1:R100021038200550294 a rico:Record ;
+    skos:prefLabel "[R100021038200550294] 21대 382회 5차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50294-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201015 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21038200550294-02,
+        nadat1:INS-AM-50012_50704-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200550294" ;
+    rico:title "제382회국회 보건복지위원회회의록 제 5 호"@ko .
+
+nadat1:R100021038200650299 a rico:Record ;
+    skos:prefLabel "[R100021038200650299] 21대 382회 6차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50299-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201020 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21038200650299-02,
+        nadat1:INS-AM-50012_50704-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200650299" ;
+    rico:title "제382회국회 보건복지위원회회의록 제 6 호"@ko .
+
+nadat1:R100021038200750310 a rico:Record ;
+    skos:prefLabel "[R100021038200750310] 21대 382회 7차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50310-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201021 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21038200750310-02,
+        nadat1:INS-AM-50012_50704-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200750310" ;
+    rico:title "제382회국회 보건복지위원회회의록 제 7 호"@ko .
+
+nadat1:R100021038200850363 a rico:Record ;
+    skos:prefLabel "[R100021038200850363] 21대 382회 8차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50363-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201104 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21038200850363-02,
+        nadat1:INS-AM-50012_50704-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200850363" ;
+    rico:title "제382회국회 보건복지위원회회의록 제 8 호"@ko .
+
+nadat1:R100021038200950487 a rico:Record ;
+    skos:prefLabel "[R100021038200950487] 21대 382회 9차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50487-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201117 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21038200950487-02,
+        nadat1:INS-AM-50012_50704-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200950487" ;
+    rico:title "제382회국회 보건복지위원회회의록 제 9 호"@ko .
+
+nadat1:R100021038201050568 a rico:Record ;
+    skos:prefLabel "[R100021038201050568] 21대 382회 10차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50568-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201126 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21038201050568-02,
+        nadat1:INS-AM-50012_50704-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038201050568" ;
+    rico:title "제382회국회 보건복지위원회회의록 제 10 호"@ko .
+
+nadat1:R100021038300150664 a rico:Record ;
+    skos:prefLabel "[R100021038300150664] 21대 383회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50664-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201210 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21038300150664-02,
+        nadat1:INS-AM-50012_50704-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038300150664" ;
+    rico:title "제383회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038300250696 a rico:Record ;
+    skos:prefLabel "[R100021038300250696] 21대 383회 2차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50696-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201222 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21038300250696-02,
+        nadat1:INS-AM-50012_50704-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038300250696" ;
+    rico:title "제383회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:R100021038300350704 a rico:Record ;
+    skos:prefLabel "[R100021038300350704] 21대 383회 3차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50704-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201223 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21038300350704-02,
+        nadat1:INS-AM-50012_50704-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038300350704" ;
+    rico:title "제383회국회 보건복지위원회회의록 제 3 호"@ko .
+
+nadat1:R100021038400150790 a rico:Record ;
+    skos:prefLabel "[R100021038400150790] 21대 384회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50790-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210217 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21038400150790-02,
+        nadat1:INS-AM-50790_51579-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038400150790" ;
+    rico:title "제384회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038400250800 a rico:Record ;
+    skos:prefLabel "[R100021038400250800] 21대 384회 2차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50800-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210219 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21038400250800-02,
+        nadat1:INS-AM-50790_51579-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038400250800" ;
+    rico:title "제384회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:R100021038500150898 a rico:Record ;
+    skos:prefLabel "[R100021038500150898] 21대 385회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50898-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210317 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21038500150898-02,
+        nadat1:INS-AM-50790_51579-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038500150898" ;
+    rico:title "제385회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038600150982 a rico:Record ;
+    skos:prefLabel "[R100021038600150982] 21대 386회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50982-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210426 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21038600150982-02,
+        nadat1:INS-AM-50790_51579-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038600150982" ;
+    rico:title "제386회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038800151066 a rico:Record ;
+    skos:prefLabel "[R100021038800151066] 21대 388회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51066-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210616 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21038800151066-02,
+        nadat1:INS-AM-50790_51579-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038800151066" ;
+    rico:title "제388회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038900151134 a rico:Record ;
+    skos:prefLabel "[R100021038900151134] 21대 389회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51134-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210713 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21038900151134-02,
+        nadat1:INS-AM-50790_51579-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038900151134" ;
+    rico:title "제389회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039000151210 a rico:Record ;
+    skos:prefLabel "[R100021039000151210] 21대 390회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51210-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210823 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21039000151210-02,
+        nadat1:INS-AM-50790_51579-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039000151210" ;
+    rico:title "제390회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039000251218 a rico:Record ;
+    skos:prefLabel "[R100021039000251218] 21대 390회 2차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51218-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210824 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21039000251218-02,
+        nadat1:INS-AM-50790_51579-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039000251218" ;
+    rico:title "제390회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:R100021039000351215 a rico:Record ;
+    skos:prefLabel "[R100021039000351215] 21대 390회 3차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51215-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210825 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21039000351215-02,
+        nadat1:INS-AM-50790_51579-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039000351215" ;
+    rico:title "제390회국회 보건복지위원회회의록 제 3 호"@ko .
+
+nadat1:R100021039100151319 a rico:Record ;
+    skos:prefLabel "[R100021039100151319] 21대 391회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51319-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210927 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21039100151319-02,
+        nadat1:INS-AM-50790_51579-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100151319" ;
+    rico:title "제391회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039100251330 a rico:Record ;
+    skos:prefLabel "[R100021039100251330] 21대 391회 2차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51330-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-211006 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21039100251330-02,
+        nadat1:INS-AM-50790_51579-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100251330" ;
+    rico:title "제391회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:R100021039100351335 a rico:Record ;
+    skos:prefLabel "[R100021039100351335] 21대 391회 3차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51335-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-211008 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21039100351335-02,
+        nadat1:INS-AM-50790_51579-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100351335" ;
+    rico:title "제391회국회 보건복지위원회회의록 제 3 호"@ko .
+
+nadat1:R100021039100451342 a rico:Record ;
+    skos:prefLabel "[R100021039100451342] 21대 391회 4차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51342-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-211013 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21039100451342-02,
+        nadat1:INS-AM-50790_51579-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100451342" ;
+    rico:title "제391회국회 보건복지위원회회의록 제 4 호"@ko .
+
+nadat1:R100021039100551475 a rico:Record ;
+    skos:prefLabel "[R100021039100551475] 21대 391회 5차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51475-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-211111 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21039100551475-02,
+        nadat1:INS-AM-50790_51579-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100551475" ;
+    rico:title "제391회국회 보건복지위원회회의록 제 5 호"@ko .
+
+nadat1:R100021039100651492 a rico:Record ;
+    skos:prefLabel "[R100021039100651492] 21대 391회 6차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51492-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-211112 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21039100651492-02,
+        nadat1:INS-AM-50790_51579-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100651492" ;
+    rico:title "제391회국회 보건복지위원회회의록 제 6 호"@ko .
+
+nadat1:R100021039100751579 a rico:Record ;
+    skos:prefLabel "[R100021039100751579] 21대 391회 7차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51579-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-211125 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21039100751579-02,
+        nadat1:INS-AM-50790_51579-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100751579" ;
+    rico:title "제391회국회 보건복지위원회회의록 제 7 호"@ko .
+
+nadat1:R100021039300151760 a rico:Record ;
+    skos:prefLabel "[R100021039300151760] 21대 393회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51760-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220207 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21039300151760-02,
+        nadat1:INS-AM-51760_52609-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039300151760" ;
+    rico:title "제393회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039500151797 a rico:Record ;
+    skos:prefLabel "[R100021039500151797] 21대 395회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51797-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220407 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21039500151797-02,
+        nadat1:INS-AM-51760_52609-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039500151797" ;
+    rico:title "제395회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039500251835 a rico:Record ;
+    skos:prefLabel "[R100021039500251835] 21대 395회 2차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51835-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220426 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21039500251835-02,
+        nadat1:INS-AM-51760_52609-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039500251835" ;
+    rico:title "제395회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:R100021039700151862 a rico:Record ;
+    skos:prefLabel "[R100021039700151862] 21대 397회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51862-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220503 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21039700151862-02,
+        nadat1:INS-AM-51760_52609-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039700151862" ;
+    rico:title "제397회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039700251915 a rico:Record ;
+    skos:prefLabel "[R100021039700251915] 21대 397회 2차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51915-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220517 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21039700251915-02,
+        nadat1:INS-AM-51760_52609-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039700251915" ;
+    rico:title "제397회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:R100021039800152019 a rico:Record ;
+    skos:prefLabel "[R100021039800152019] 21대 398회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52019-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220802 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21039800152019-02,
+        nadat1:INS-AM-51760_52609-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039800152019" ;
+    rico:title "제398회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039900152096 a rico:Record ;
+    skos:prefLabel "[R100021039900152096] 21대 399회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52096-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220830 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21039900152096-02,
+        nadat1:INS-AM-51760_52609-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039900152096" ;
+    rico:title "제399회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040000152108 a rico:Record ;
+    skos:prefLabel "[R100021040000152108] 21대 400회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52108-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220901 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21040000152108-02,
+        nadat1:INS-AM-51760_52609-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000152108" ;
+    rico:title "제400회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040000252149 a rico:Record ;
+    skos:prefLabel "[R100021040000252149] 21대 400회 2차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52149-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220919 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21040000252149-02,
+        nadat1:INS-AM-51760_52609-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000252149" ;
+    rico:title "제400회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:R100021040000352171 a rico:Record ;
+    skos:prefLabel "[R100021040000352171] 21대 400회 3차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52171-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220927 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21040000352171-02,
+        nadat1:INS-AM-51760_52609-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000352171" ;
+    rico:title "제400회국회 보건복지위원회회의록 제 3 호"@ko .
+
+nadat1:R100021040000452188 a rico:Record ;
+    skos:prefLabel "[R100021040000452188] 21대 400회 4차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52188-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221004 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21040000452188-02,
+        nadat1:INS-AM-51760_52609-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000452188" ;
+    rico:title "제400회국회 보건복지위원회회의록 제 4 호"@ko .
+
+nadat1:R100021040000552196 a rico:Record ;
+    skos:prefLabel "[R100021040000552196] 21대 400회 5차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52196-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221005 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21040000552196-02,
+        nadat1:INS-AM-51760_52609-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000552196" ;
+    rico:title "제400회국회 보건복지위원회회의록 제 5 호"@ko .
+
+nadat1:R100021040000652205 a rico:Record ;
+    skos:prefLabel "[R100021040000652205] 21대 400회 6차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52205-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221012 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21040000652205-02,
+        nadat1:INS-AM-51760_52609-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000652205" ;
+    rico:title "제400회국회 보건복지위원회회의록 제 6 호"@ko .
+
+nadat1:R100021040000752248 a rico:Record ;
+    skos:prefLabel "[R100021040000752248] 21대 400회 7차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52248-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221019 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21040000752248-02,
+        nadat1:INS-AM-51760_52609-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000752248" ;
+    rico:title "제400회국회 보건복지위원회회의록 제 7 호"@ko .
+
+nadat1:R100021040000852242 a rico:Record ;
+    skos:prefLabel "[R100021040000852242] 21대 400회 8차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52242-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221021 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21040000852242-02,
+        nadat1:INS-AM-51760_52609-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000852242" ;
+    rico:title "제400회국회 보건복지위원회회의록 제 8 호"@ko .
+
+nadat1:R100021040000952322 a rico:Record ;
+    skos:prefLabel "[R100021040000952322] 21대 400회 9차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52322-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221107 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21040000952322-02,
+        nadat1:INS-AM-51760_52609-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000952322" ;
+    rico:title "제400회국회 보건복지위원회회의록 제 9 호"@ko .
+
+nadat1:R100021040001052370 a rico:Record ;
+    skos:prefLabel "[R100021040001052370] 21대 400회 10차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52370-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221110 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21040001052370-02,
+        nadat1:INS-AM-51760_52609-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040001052370" ;
+    rico:title "제400회국회 보건복지위원회회의록 제 10 호"@ko .
+
+nadat1:R100021040001152609 a rico:Record ;
+    skos:prefLabel "[R100021040001152609] 21대 400회 11차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52609-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221209 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21040001152609-02,
+        nadat1:INS-AM-51760_52609-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040001152609" ;
+    rico:title "제400회국회 보건복지위원회회의록 제 11 호"@ko .
+
+nadat1:R100021040300152685 a rico:Record ;
+    skos:prefLabel "[R100021040300152685] 21대 403회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52685-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230209 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21040300152685-02,
+        nadat1:INS-AM-52685_53317-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040300152685" ;
+    rico:title "제403회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040300252754 a rico:Record ;
+    skos:prefLabel "[R100021040300252754] 21대 403회 2차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52754-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230224 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21040300252754-02,
+        nadat1:INS-AM-52685_53317-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040300252754" ;
+    rico:title "제403회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:R100021040400152810 a rico:Record ;
+    skos:prefLabel "[R100021040400152810] 21대 404회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52810-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230323 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21040400152810-02,
+        nadat1:INS-AM-52685_53317-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040400152810" ;
+    rico:title "제404회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040500152890 a rico:Record ;
+    skos:prefLabel "[R100021040500152890] 21대 405회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52890-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230424 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21040500152890-02,
+        nadat1:INS-AM-52685_53317-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040500152890" ;
+    rico:title "제405회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040500252904 a rico:Record ;
+    skos:prefLabel "[R100021040500252904] 21대 405회 2차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52904-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230427 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21040500252904-02,
+        nadat1:INS-AM-52685_53317-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040500252904" ;
+    rico:title "제405회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:R100021040700153026 a rico:Record ;
+    skos:prefLabel "[R100021040700153026] 21대 407회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53026-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230622 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21040700153026-02,
+        nadat1:INS-AM-52685_53317-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040700153026" ;
+    rico:title "제407회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040700253043 a rico:Record ;
+    skos:prefLabel "[R100021040700253043] 21대 407회 2차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53043-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230629 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21040700253043-02,
+        nadat1:INS-AM-52685_53317-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040700253043" ;
+    rico:title "제407회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:R100021040900153114 a rico:Record ;
+    skos:prefLabel "[R100021040900153114] 21대 409회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53114-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230818 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21040900153114-02,
+        nadat1:INS-AM-52685_53317-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040900153114" ;
+    rico:title "제409회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040900253147 a rico:Record ;
+    skos:prefLabel "[R100021040900253147] 21대 409회 2차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53147-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230825 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21040900253147-02,
+        nadat1:INS-AM-52685_53317-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040900253147" ;
+    rico:title "제409회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:R100021041000153230 a rico:Record ;
+    skos:prefLabel "[R100021041000153230] 21대 410회 1차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53230-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230918 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21041000153230-02,
+        nadat1:INS-AM-52685_53317-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041000153230" ;
+    rico:title "제410회국회 보건복지위원회회의록 제 1 호"@ko .
+
+nadat1:R100021041000253266 a rico:Record ;
+    skos:prefLabel "[R100021041000253266] 21대 410회 2차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53266-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230921 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21041000253266-02,
+        nadat1:INS-AM-52685_53317-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041000253266" ;
+    rico:title "제410회국회 보건복지위원회회의록 제 2 호"@ko .
+
+nadat1:R100021041000353301 a rico:Record ;
+    skos:prefLabel "[R100021041000353301] 21대 410회 3차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53301-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-231011 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21041000353301-02,
+        nadat1:INS-AM-52685_53317-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041000353301" ;
+    rico:title "제410회국회 보건복지위원회회의록 제 3 호"@ko .
+
+nadat1:R100021041000453317 a rico:Record ;
+    skos:prefLabel "[R100021041000453317] 21대 410회 4차 보건복지위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53317-003 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-231018 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AM-21041000453317-02,
+        nadat1:INS-AM-52685_53317-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041000453317" ;
+    rico:title "제410회국회 보건복지위원회회의록 제 4 호"@ko .
+
+nadat1:RS100021-AM a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM] 21대 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM" ;
+    rico:includesOrIncluded nadat1:RS100021-AM-0379,
+        nadat1:RS100021-AM-0380,
+        nadat1:RS100021-AM-0381,
+        nadat1:RS100021-AM-0382,
+        nadat1:RS100021-AM-0383,
+        nadat1:RS100021-AM-0384,
+        nadat1:RS100021-AM-0385,
+        nadat1:RS100021-AM-0386,
+        nadat1:RS100021-AM-0388,
+        nadat1:RS100021-AM-0389,
+        nadat1:RS100021-AM-0390,
+        nadat1:RS100021-AM-0391,
+        nadat1:RS100021-AM-0393,
+        nadat1:RS100021-AM-0395,
+        nadat1:RS100021-AM-0397,
+        nadat1:RS100021-AM-0398,
+        nadat1:RS100021-AM-0399,
+        nadat1:RS100021-AM-0400,
+        nadat1:RS100021-AM-0403,
+        nadat1:RS100021-AM-0404,
+        nadat1:RS100021-AM-0405,
+        nadat1:RS100021-AM-0407,
+        nadat1:RS100021-AM-0409,
+        nadat1:RS100021-AM-0410 ;
+    rico:name "제21대국회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0379 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0379] 21대 379회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0379" ;
+    rico:includesOrIncluded nadat1:R100021037900150012,
+        nadat1:R100021037900250023 ;
+    rico:name "제21대국회 제379회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0380 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0380] 21대 380회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0380" ;
+    rico:includesOrIncluded nadat1:R100021038000150059,
+        nadat1:R100021038000250096 ;
+    rico:name "제21대국회 제380회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0381 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0381] 21대 381회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0381" ;
+    rico:includesOrIncluded nadat1:R100021038100150129 ;
+    rico:name "제21대국회 제381회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0382 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0382] 21대 382회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0382" ;
+    rico:includesOrIncluded nadat1:R100021038200150213,
+        nadat1:R100021038200250238,
+        nadat1:R100021038200350271,
+        nadat1:R100021038200450283,
+        nadat1:R100021038200550294,
+        nadat1:R100021038200650299,
+        nadat1:R100021038200750310,
+        nadat1:R100021038200850363,
+        nadat1:R100021038200950487,
+        nadat1:R100021038201050568 ;
+    rico:name "제21대국회 제382회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0383 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0383] 21대 383회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0383" ;
+    rico:includesOrIncluded nadat1:R100021038300150664,
+        nadat1:R100021038300250696,
+        nadat1:R100021038300350704 ;
+    rico:name "제21대국회 제383회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0384 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0384] 21대 384회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0384" ;
+    rico:includesOrIncluded nadat1:R100021038400150790,
+        nadat1:R100021038400250800 ;
+    rico:name "제21대국회 제384회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0385 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0385] 21대 385회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0385" ;
+    rico:includesOrIncluded nadat1:R100021038500150898 ;
+    rico:name "제21대국회 제385회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0386 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0386] 21대 386회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0386" ;
+    rico:includesOrIncluded nadat1:R100021038600150982 ;
+    rico:name "제21대국회 제386회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0388 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0388] 21대 388회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0388" ;
+    rico:includesOrIncluded nadat1:R100021038800151066 ;
+    rico:name "제21대국회 제388회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0389 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0389] 21대 389회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0389" ;
+    rico:includesOrIncluded nadat1:R100021038900151134 ;
+    rico:name "제21대국회 제389회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0390 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0390] 21대 390회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0390" ;
+    rico:includesOrIncluded nadat1:R100021039000151210,
+        nadat1:R100021039000251218,
+        nadat1:R100021039000351215 ;
+    rico:name "제21대국회 제390회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0391 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0391] 21대 391회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0391" ;
+    rico:includesOrIncluded nadat1:R100021039100151319,
+        nadat1:R100021039100251330,
+        nadat1:R100021039100351335,
+        nadat1:R100021039100451342,
+        nadat1:R100021039100551475,
+        nadat1:R100021039100651492,
+        nadat1:R100021039100751579 ;
+    rico:name "제21대국회 제391회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0393 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0393] 21대 393회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0393" ;
+    rico:includesOrIncluded nadat1:R100021039300151760 ;
+    rico:name "제21대국회 제393회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0395 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0395] 21대 395회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0395" ;
+    rico:includesOrIncluded nadat1:R100021039500151797,
+        nadat1:R100021039500251835 ;
+    rico:name "제21대국회 제395회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0397 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0397] 21대 397회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0397" ;
+    rico:includesOrIncluded nadat1:R100021039700151862,
+        nadat1:R100021039700251915 ;
+    rico:name "제21대국회 제397회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0398 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0398] 21대 398회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0398" ;
+    rico:includesOrIncluded nadat1:R100021039800152019 ;
+    rico:name "제21대국회 제398회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0399 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0399] 21대 399회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0399" ;
+    rico:includesOrIncluded nadat1:R100021039900152096 ;
+    rico:name "제21대국회 제399회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0400 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0400] 21대 400회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0400" ;
+    rico:includesOrIncluded nadat1:R100021040000152108,
+        nadat1:R100021040000252149,
+        nadat1:R100021040000352171,
+        nadat1:R100021040000452188,
+        nadat1:R100021040000552196,
+        nadat1:R100021040000652205,
+        nadat1:R100021040000752248,
+        nadat1:R100021040000852242,
+        nadat1:R100021040000952322,
+        nadat1:R100021040001052370,
+        nadat1:R100021040001152609 ;
+    rico:name "제21대국회 제400회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0403 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0403] 21대 403회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0403" ;
+    rico:includesOrIncluded nadat1:R100021040300152685,
+        nadat1:R100021040300252754 ;
+    rico:name "제21대국회 제403회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0404 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0404] 21대 404회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0404" ;
+    rico:includesOrIncluded nadat1:R100021040400152810 ;
+    rico:name "제21대국회 제404회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0405 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0405] 21대 405회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0405" ;
+    rico:includesOrIncluded nadat1:R100021040500152890,
+        nadat1:R100021040500252904 ;
+    rico:name "제21대국회 제405회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0407 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0407] 21대 407회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0407" ;
+    rico:includesOrIncluded nadat1:R100021040700153026,
+        nadat1:R100021040700253043 ;
+    rico:name "제21대국회 제407회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0409 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0409] 21대 409회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0409" ;
+    rico:includesOrIncluded nadat1:R100021040900153114,
+        nadat1:R100021040900253147 ;
+    rico:name "제21대국회 제409회 보건복지위원회 회의록"@ko .
+
+nadat1:RS100021-AM-0410 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AM-0410] 21대 410회 보건복지위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AM-0410" ;
+    rico:includesOrIncluded nadat1:R100021041000153230,
+        nadat1:R100021041000253266,
+        nadat1:R100021041000353301,
+        nadat1:R100021041000453317 ;
+    rico:name "제21대국회 제410회 보건복지위원회 회의록"@ko .
+
+nadat1:date-200629 a rico:Date ;
+    rico:expressedDate "2020년6월29일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-200629" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50023 ;
+    rico:name "date-200629" ;
+    rico:normalizedDateValue "2020-06-29"^^xsd:date .
+
+nadat1:date-200715 a rico:Date ;
+    rico:expressedDate "2020년7월15일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-200715" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50059 ;
+    rico:name "date-200715" ;
+    rico:normalizedDateValue "2020-07-15"^^xsd:date .
+
+nadat1:date-200730 a rico:Date ;
+    rico:expressedDate "2020년7월30일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-200730" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50096 ;
+    rico:name "date-200730" ;
+    rico:normalizedDateValue "2020-07-30"^^xsd:date .
+
+nadat1:date-200826 a rico:Date ;
+    rico:expressedDate "2020년8월26일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-200826" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50129 ;
+    rico:name "date-200826" ;
+    rico:normalizedDateValue "2020-08-26"^^xsd:date .
+
+nadat1:date-200917 a rico:Date ;
+    rico:expressedDate "2020년9월17일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-200917" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50213 ;
+    rico:name "date-200917" ;
+    rico:normalizedDateValue "2020-09-17"^^xsd:date .
+
+nadat1:date-200923 a rico:Date ;
+    rico:expressedDate "2020년9월23일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-200923" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50238 ;
+    rico:name "date-200923" ;
+    rico:normalizedDateValue "2020-09-23"^^xsd:date .
+
+nadat1:date-201007 a rico:Date ;
+    rico:expressedDate "2020년10월7일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-201007" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50271 ;
+    rico:name "date-201007" ;
+    rico:normalizedDateValue "2020-10-07"^^xsd:date .
+
+nadat1:date-201013 a rico:Date ;
+    rico:expressedDate "2020년10월13일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-201013" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50283 ;
+    rico:name "date-201013" ;
+    rico:normalizedDateValue "2020-10-13"^^xsd:date .
+
+nadat1:date-201015 a rico:Date ;
+    rico:expressedDate "2020년10월15일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-201015" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50294 ;
+    rico:name "date-201015" ;
+    rico:normalizedDateValue "2020-10-15"^^xsd:date .
+
+nadat1:date-201020 a rico:Date ;
+    rico:expressedDate "2020년10월20일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-201020" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50299 ;
+    rico:name "date-201020" ;
+    rico:normalizedDateValue "2020-10-20"^^xsd:date .
+
+nadat1:date-201021 a rico:Date ;
+    rico:expressedDate "2020년10월21일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-201021" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50310 ;
+    rico:name "date-201021" ;
+    rico:normalizedDateValue "2020-10-21"^^xsd:date .
+
+nadat1:date-201104 a rico:Date ;
+    rico:expressedDate "2020년11월4일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-201104" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50363 ;
+    rico:name "date-201104" ;
+    rico:normalizedDateValue "2020-11-04"^^xsd:date .
+
+nadat1:date-201117 a rico:Date ;
+    rico:expressedDate "2020년11월17일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-201117" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50487 ;
+    rico:name "date-201117" ;
+    rico:normalizedDateValue "2020-11-17"^^xsd:date .
+
+nadat1:date-201126 a rico:Date ;
+    rico:expressedDate "2020년11월26일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-201126" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50568 ;
+    rico:name "date-201126" ;
+    rico:normalizedDateValue "2020-11-26"^^xsd:date .
+
+nadat1:date-201210 a rico:Date ;
+    rico:expressedDate "2020년12월10일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-201210" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50664 ;
+    rico:name "date-201210" ;
+    rico:normalizedDateValue "2020-12-10"^^xsd:date .
+
+nadat1:date-201222 a rico:Date ;
+    rico:expressedDate "2020년12월22일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-201222" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50696 ;
+    rico:name "date-201222" ;
+    rico:normalizedDateValue "2020-12-22"^^xsd:date .
+
+nadat1:date-210219 a rico:Date ;
+    rico:expressedDate "2021년2월19일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210219" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50800 ;
+    rico:name "date-210219" ;
+    rico:normalizedDateValue "2021-02-19"^^xsd:date .
+
+nadat1:date-210317 a rico:Date ;
+    rico:expressedDate "2021년3월17일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210317" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50898 ;
+    rico:name "date-210317" ;
+    rico:normalizedDateValue "2021-03-17"^^xsd:date .
+
+nadat1:date-210426 a rico:Date ;
+    rico:expressedDate "2021년4월26일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210426" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50982 ;
+    rico:name "date-210426" ;
+    rico:normalizedDateValue "2021-04-26"^^xsd:date .
+
+nadat1:date-210616 a rico:Date ;
+    rico:expressedDate "2021년6월16일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210616" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51066 ;
+    rico:name "date-210616" ;
+    rico:normalizedDateValue "2021-06-16"^^xsd:date .
+
+nadat1:date-210713 a rico:Date ;
+    rico:expressedDate "2021년7월13일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210713" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51134 ;
+    rico:name "date-210713" ;
+    rico:normalizedDateValue "2021-07-13"^^xsd:date .
+
+nadat1:date-210823 a rico:Date ;
+    rico:expressedDate "2021년8월23일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210823" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51210 ;
+    rico:name "date-210823" ;
+    rico:normalizedDateValue "2021-08-23"^^xsd:date .
+
+nadat1:date-210824 a rico:Date ;
+    rico:expressedDate "2021년8월24일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210824" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51218 ;
+    rico:name "date-210824" ;
+    rico:normalizedDateValue "2021-08-24"^^xsd:date .
+
+nadat1:date-210825 a rico:Date ;
+    rico:expressedDate "2021년8월25일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210825" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51215 ;
+    rico:name "date-210825" ;
+    rico:normalizedDateValue "2021-08-25"^^xsd:date .
+
+nadat1:date-210927 a rico:Date ;
+    rico:expressedDate "2021년9월27일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210927" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51319 ;
+    rico:name "date-210927" ;
+    rico:normalizedDateValue "2021-09-27"^^xsd:date .
+
+nadat1:date-211006 a rico:Date ;
+    rico:expressedDate "2021년10월6일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-211006" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51330 ;
+    rico:name "date-211006" ;
+    rico:normalizedDateValue "2021-10-06"^^xsd:date .
+
+nadat1:date-211008 a rico:Date ;
+    rico:expressedDate "2021년10월8일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-211008" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51335 ;
+    rico:name "date-211008" ;
+    rico:normalizedDateValue "2021-10-08"^^xsd:date .
+
+nadat1:date-211013 a rico:Date ;
+    rico:expressedDate "2021년10월13일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-211013" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51342 ;
+    rico:name "date-211013" ;
+    rico:normalizedDateValue "2021-10-13"^^xsd:date .
+
+nadat1:date-211111 a rico:Date ;
+    rico:expressedDate "2021년11월11일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-211111" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51475 ;
+    rico:name "date-211111" ;
+    rico:normalizedDateValue "2021-11-11"^^xsd:date .
+
+nadat1:date-211112 a rico:Date ;
+    rico:expressedDate "2021년11월12일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-211112" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51492 ;
+    rico:name "date-211112" ;
+    rico:normalizedDateValue "2021-11-12"^^xsd:date .
+
+nadat1:date-220407 a rico:Date ;
+    rico:expressedDate "2022년4월7일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220407" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51797 ;
+    rico:name "date-220407" ;
+    rico:normalizedDateValue "2022-04-07"^^xsd:date .
+
+nadat1:date-220426 a rico:Date ;
+    rico:expressedDate "2022년4월26일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220426" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51835 ;
+    rico:name "date-220426" ;
+    rico:normalizedDateValue "2022-04-26"^^xsd:date .
+
+nadat1:date-220503 a rico:Date ;
+    rico:expressedDate "2022년5월3일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220503" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51862 ;
+    rico:name "date-220503" ;
+    rico:normalizedDateValue "2022-05-03"^^xsd:date .
+
+nadat1:date-220517 a rico:Date ;
+    rico:expressedDate "2022년5월17일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220517" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51915 ;
+    rico:name "date-220517" ;
+    rico:normalizedDateValue "2022-05-17"^^xsd:date .
+
+nadat1:date-220802 a rico:Date ;
+    rico:expressedDate "2022년8월2일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220802" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52019 ;
+    rico:name "date-220802" ;
+    rico:normalizedDateValue "2022-08-02"^^xsd:date .
+
+nadat1:date-220830 a rico:Date ;
+    rico:expressedDate "2022년8월30일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220830" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52096 ;
+    rico:name "date-220830" ;
+    rico:normalizedDateValue "2022-08-30"^^xsd:date .
+
+nadat1:date-220901 a rico:Date ;
+    rico:expressedDate "2022년9월1일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220901" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52108 ;
+    rico:name "date-220901" ;
+    rico:normalizedDateValue "2022-09-01"^^xsd:date .
+
+nadat1:date-220919 a rico:Date ;
+    rico:expressedDate "2022년9월19일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220919" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52149 ;
+    rico:name "date-220919" ;
+    rico:normalizedDateValue "2022-09-19"^^xsd:date .
+
+nadat1:date-220927 a rico:Date ;
+    rico:expressedDate "2022년9월27일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220927" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52171 ;
+    rico:name "date-220927" ;
+    rico:normalizedDateValue "2022-09-27"^^xsd:date .
+
+nadat1:date-221004 a rico:Date ;
+    rico:expressedDate "2022년10월4일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-221004" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52188 ;
+    rico:name "date-221004" ;
+    rico:normalizedDateValue "2022-10-04"^^xsd:date .
+
+nadat1:date-221005 a rico:Date ;
+    rico:expressedDate "2022년10월5일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-221005" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52196 ;
+    rico:name "date-221005" ;
+    rico:normalizedDateValue "2022-10-05"^^xsd:date .
+
+nadat1:date-221012 a rico:Date ;
+    rico:expressedDate "2022년10월12일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-221012" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52205 ;
+    rico:name "date-221012" ;
+    rico:normalizedDateValue "2022-10-12"^^xsd:date .
+
+nadat1:date-221019 a rico:Date ;
+    rico:expressedDate "2022년10월19일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-221019" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52248 ;
+    rico:name "date-221019" ;
+    rico:normalizedDateValue "2022-10-19"^^xsd:date .
+
+nadat1:date-221021 a rico:Date ;
+    rico:expressedDate "2022년10월21일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-221021" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52242 ;
+    rico:name "date-221021" ;
+    rico:normalizedDateValue "2022-10-21"^^xsd:date .
+
+nadat1:date-221107 a rico:Date ;
+    rico:expressedDate "2022년11월7일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-221107" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52322 ;
+    rico:name "date-221107" ;
+    rico:normalizedDateValue "2022-11-07"^^xsd:date .
+
+nadat1:date-221110 a rico:Date ;
+    rico:expressedDate "2022년11월10일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-221110" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52370 ;
+    rico:name "date-221110" ;
+    rico:normalizedDateValue "2022-11-10"^^xsd:date .
+
+nadat1:date-230224 a rico:Date ;
+    rico:expressedDate "2023년2월24일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230224" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52754 ;
+    rico:name "date-230224" ;
+    rico:normalizedDateValue "2023-02-24"^^xsd:date .
+
+nadat1:date-230323 a rico:Date ;
+    rico:expressedDate "2023년3월23일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230323" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52810 ;
+    rico:name "date-230323" ;
+    rico:normalizedDateValue "2023-03-23"^^xsd:date .
+
+nadat1:date-230424 a rico:Date ;
+    rico:expressedDate "2023년4월24일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230424" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52890 ;
+    rico:name "date-230424" ;
+    rico:normalizedDateValue "2023-04-24"^^xsd:date .
+
+nadat1:date-230427 a rico:Date ;
+    rico:expressedDate "2023년4월27일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230427" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52904 ;
+    rico:name "date-230427" ;
+    rico:normalizedDateValue "2023-04-27"^^xsd:date .
+
+nadat1:date-230622 a rico:Date ;
+    rico:expressedDate "2023년6월22일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230622" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-53026 ;
+    rico:name "date-230622" ;
+    rico:normalizedDateValue "2023-06-22"^^xsd:date .
+
+nadat1:date-230629 a rico:Date ;
+    rico:expressedDate "2023년6월29일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230629" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-53043 ;
+    rico:name "date-230629" ;
+    rico:normalizedDateValue "2023-06-29"^^xsd:date .
+
+nadat1:date-230818 a rico:Date ;
+    rico:expressedDate "2023년8월18일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230818" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-53114 ;
+    rico:name "date-230818" ;
+    rico:normalizedDateValue "2023-08-18"^^xsd:date .
+
+nadat1:date-230825 a rico:Date ;
+    rico:expressedDate "2023년8월25일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230825" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-53147 ;
+    rico:name "date-230825" ;
+    rico:normalizedDateValue "2023-08-25"^^xsd:date .
+
+nadat1:date-230918 a rico:Date ;
+    rico:expressedDate "2023년9월18일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230918" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-53230 ;
+    rico:name "date-230918" ;
+    rico:normalizedDateValue "2023-09-18"^^xsd:date .
+
+nadat1:date-230921 a rico:Date ;
+    rico:expressedDate "2023년9월21일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230921" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-53266 ;
+    rico:name "date-230921" ;
+    rico:normalizedDateValue "2023-09-21"^^xsd:date .
+
+nadat1:date-231011 a rico:Date ;
+    rico:expressedDate "2023년10월11일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-231011" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-53301 ;
+    rico:name "date-231011" ;
+    rico:normalizedDateValue "2023-10-11"^^xsd:date .
+
+nadat1:EV-M-50012 a rico:Event ;
+    skos:prefLabel "[EV-M-50012] 제379회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3249208I,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-60490713,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-C7E79345,
+        nadat2:PER-LM-DBA1057Z,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-UM51067K,
+        nadat2:PER-LM-VCP96419,
+        nadat2:PER-LM-XPP2564T,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-TMP-00018,
+        nadat2:PER-TMP-00891,
+        nadat2:PER-TMP-00892,
+        nadat2:PER-TMP-00893 ;
+    rico:identifier "EV-M-50012" ;
+    rico:name "제21대국회 제379회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-50023 a rico:Event ;
+    skos:prefLabel "[EV-M-50023] 제379회 제2차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-C7E79345,
+        nadat2:PER-LM-E6U4345C,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-VCP96419,
+        nadat2:PER-LM-XPP2564T,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-TMP-00018,
+        nadat2:PER-TMP-00363,
+        nadat2:PER-TMP-00891,
+        nadat2:PER-TMP-00892,
+        nadat2:PER-TMP-00893,
+        nadat2:PER-TMP-00894 ;
+    rico:identifier "EV-M-50023" ;
+    rico:name "제21대국회 제379회 제2차 보건복지위원회"@ko .
+
+nadat1:EV-M-50059 a rico:Event ;
+    skos:prefLabel "[EV-M-50059] 제380회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-60490713,
+        nadat2:PER-LM-8SV6917G,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-C7E79345,
+        nadat2:PER-LM-CAA7713A,
+        nadat2:PER-LM-DBA1057Z,
+        nadat2:PER-LM-DPZ7685X,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-UM51067K,
+        nadat2:PER-LM-VCP96419,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-XPP2564T,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00018,
+        nadat2:PER-TMP-00033,
+        nadat2:PER-TMP-00891,
+        nadat2:PER-TMP-00892,
+        nadat2:PER-TMP-00895,
+        nadat2:PER-TMP-00896,
+        nadat2:PER-TMP-00897,
+        nadat2:PER-TMP-00898 ;
+    rico:identifier "EV-M-50059" ;
+    rico:name "제21대국회 제380회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-50096 a rico:Event ;
+    skos:prefLabel "[EV-M-50096] 제380회 제2차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-60490713,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-DBA1057Z,
+        nadat2:PER-LM-DPZ7685X,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-XPP2564T,
+        nadat2:PER-TMP-00018 ;
+    rico:identifier "EV-M-50096" ;
+    rico:name "제21대국회 제380회 제2차 보건복지위원회"@ko .
+
+nadat1:EV-M-50129 a rico:Event ;
+    skos:prefLabel "[EV-M-50129] 제381회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-60490713,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-C7E79345,
+        nadat2:PER-LM-CAA7713A,
+        nadat2:PER-LM-DBA1057Z,
+        nadat2:PER-LM-DPZ7685X,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-UM51067K,
+        nadat2:PER-LM-VCP96419,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-XPP2564T,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00018,
+        nadat2:PER-TMP-00891,
+        nadat2:PER-TMP-00892,
+        nadat2:PER-TMP-00895,
+        nadat2:PER-TMP-00899,
+        nadat2:PER-TMP-00900,
+        nadat2:PER-TMP-00901,
+        nadat2:PER-TMP-00902,
+        nadat2:PER-TMP-00903,
+        nadat2:PER-TMP-00904,
+        nadat2:PER-TMP-00905 ;
+    rico:identifier "EV-M-50129" ;
+    rico:name "제21대국회 제381회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-50213 a rico:Event ;
+    skos:prefLabel "[EV-M-50213] 제382회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-60490713,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-CAA7713A,
+        nadat2:PER-LM-DBA1057Z,
+        nadat2:PER-LM-DPZ7685X,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-VCP96419,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-XPP2564T,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00018,
+        nadat2:PER-TMP-00035,
+        nadat2:PER-TMP-00891,
+        nadat2:PER-TMP-00893,
+        nadat2:PER-TMP-00895,
+        nadat2:PER-TMP-00899,
+        nadat2:PER-TMP-00906 ;
+    rico:identifier "EV-M-50213" ;
+    rico:name "제21대국회 제382회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-50238 a rico:Event ;
+    skos:prefLabel "[EV-M-50238] 제382회 제2차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-60490713,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-C7E79345,
+        nadat2:PER-LM-CAA7713A,
+        nadat2:PER-LM-DBA1057Z,
+        nadat2:PER-LM-DPZ7685X,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-XPP2564T,
+        nadat2:PER-TMP-00018,
+        nadat2:PER-TMP-00891,
+        nadat2:PER-TMP-00906 ;
+    rico:identifier "EV-M-50238" ;
+    rico:name "제21대국회 제382회 제2차 보건복지위원회"@ko .
+
+nadat1:EV-M-50271 a rico:Event ;
+    skos:prefLabel "[EV-M-50271] 제382회 제3차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MLH1404S ;
+    rico:identifier "EV-M-50271" ;
+    rico:name "제21대국회 제382회 제3차 보건복지위원회"@ko .
+
+nadat1:EV-M-50283 a rico:Event ;
+    skos:prefLabel "[EV-M-50283] 제382회 제4차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-MLH1404S ;
+    rico:identifier "EV-M-50283" ;
+    rico:name "제21대국회 제382회 제4차 보건복지위원회"@ko .
+
+nadat1:EV-M-50294 a rico:Event ;
+    skos:prefLabel "[EV-M-50294] 제382회 제5차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-MLH1404S ;
+    rico:identifier "EV-M-50294" ;
+    rico:name "제21대국회 제382회 제5차 보건복지위원회"@ko .
+
+nadat1:EV-M-50299 a rico:Event ;
+    skos:prefLabel "[EV-M-50299] 제382회 제6차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-MLH1404S ;
+    rico:identifier "EV-M-50299" ;
+    rico:name "제21대국회 제382회 제6차 보건복지위원회"@ko .
+
+nadat1:EV-M-50310 a rico:Event ;
+    skos:prefLabel "[EV-M-50310] 제382회 제7차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-C7E79345,
+        nadat2:PER-LM-MLH1404S ;
+    rico:identifier "EV-M-50310" ;
+    rico:name "제21대국회 제382회 제7차 보건복지위원회"@ko .
+
+nadat1:EV-M-50363 a rico:Event ;
+    skos:prefLabel "[EV-M-50363] 제382회 제8차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-60490713,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-C7E79345,
+        nadat2:PER-LM-DBA1057Z,
+        nadat2:PER-LM-DPZ7685X,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-VCP96419,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00018,
+        nadat2:PER-TMP-00033,
+        nadat2:PER-TMP-00895,
+        nadat2:PER-TMP-00899,
+        nadat2:PER-TMP-00900,
+        nadat2:PER-TMP-00907 ;
+    rico:identifier "EV-M-50363" ;
+    rico:name "제21대국회 제382회 제8차 보건복지위원회"@ko .
+
+nadat1:EV-M-50487 a rico:Event ;
+    skos:prefLabel "[EV-M-50487] 제382회 제9차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-3TO11703,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-C7E79345,
+        nadat2:PER-LM-CAA7713A,
+        nadat2:PER-LM-CNZ51556,
+        nadat2:PER-LM-DBA1057Z,
+        nadat2:PER-LM-DPZ7685X,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-S741317G,
+        nadat2:PER-LM-WCD5518S,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-TMP-00018,
+        nadat2:PER-TMP-00033,
+        nadat2:PER-TMP-00899,
+        nadat2:PER-TMP-00907,
+        nadat2:PER-TMP-00908,
+        nadat2:PER-TMP-00909,
+        nadat2:PER-TMP-00910,
+        nadat2:PER-TMP-00911,
+        nadat2:PER-TMP-00912 ;
+    rico:identifier "EV-M-50487" ;
+    rico:name "제21대국회 제382회 제9차 보건복지위원회"@ko .
+
+nadat1:EV-M-50568 a rico:Event ;
+    skos:prefLabel "[EV-M-50568] 제382회 제10차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-60490713,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-C7E79345,
+        nadat2:PER-LM-DPZ7685X,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-S741317G,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-TMP-00018,
+        nadat2:PER-TMP-00899,
+        nadat2:PER-TMP-00906 ;
+    rico:identifier "EV-M-50568" ;
+    rico:name "제21대국회 제382회 제10차 보건복지위원회"@ko .
+
+nadat1:EV-M-50664 a rico:Event ;
+    skos:prefLabel "[EV-M-50664] 제383회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-60490713,
+        nadat2:PER-LM-MLH1404S ;
+    rico:identifier "EV-M-50664" ;
+    rico:name "제21대국회 제383회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-50696 a rico:Event ;
+    skos:prefLabel "[EV-M-50696] 제383회 제2차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-60490713,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-C7E79345,
+        nadat2:PER-LM-CAA7713A,
+        nadat2:PER-LM-DBA1057Z,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-S741317G,
+        nadat2:PER-LM-UM51067K,
+        nadat2:PER-LM-VCP96419,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00030 ;
+    rico:identifier "EV-M-50696" ;
+    rico:name "제21대국회 제383회 제2차 보건복지위원회"@ko .
+
+nadat1:EV-M-50704 a rico:Event ;
+    skos:prefLabel "[EV-M-50704] 제383회 제3차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-MLH1404S ;
+    rico:identifier "EV-M-50704" ;
+    rico:name "제21대국회 제383회 제3차 보건복지위원회"@ko .
+
+nadat1:EV-M-50790 a rico:Event ;
+    skos:prefLabel "[EV-M-50790] 제384회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-60490713,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-CAA7713A,
+        nadat2:PER-LM-DPZ7685X,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-M6H1705E,
+        nadat2:PER-LM-M7T9712V,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-S741317G,
+        nadat2:PER-LM-UM51067K,
+        nadat2:PER-LM-VCP96419,
+        nadat2:PER-LM-WCD5518S,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00030,
+        nadat2:PER-TMP-00033,
+        nadat2:PER-TMP-00895,
+        nadat2:PER-TMP-00899,
+        nadat2:PER-TMP-00900,
+        nadat2:PER-TMP-00913 ;
+    rico:identifier "EV-M-50790" ;
+    rico:name "제21대국회 제384회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-50800 a rico:Event ;
+    skos:prefLabel "[EV-M-50800] 제384회 제2차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-TMP-00030,
+        nadat2:PER-TMP-00899,
+        nadat2:PER-TMP-00906 ;
+    rico:identifier "EV-M-50800" ;
+    rico:name "제21대국회 제384회 제2차 보건복지위원회"@ko .
+
+nadat1:EV-M-50898 a rico:Event ;
+    skos:prefLabel "[EV-M-50898] 제385회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-60490713,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-CAA7713A,
+        nadat2:PER-LM-DBA1057Z,
+        nadat2:PER-LM-DPZ7685X,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-S741317G,
+        nadat2:PER-LM-VCP96419,
+        nadat2:PER-LM-WCD5518S,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00030,
+        nadat2:PER-TMP-00033,
+        nadat2:PER-TMP-00906,
+        nadat2:PER-TMP-00913 ;
+    rico:identifier "EV-M-50898" ;
+    rico:name "제21대국회 제385회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-50982 a rico:Event ;
+    skos:prefLabel "[EV-M-50982] 제386회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-DBA1057Z,
+        nadat2:PER-LM-DPZ7685X,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-S741317G,
+        nadat2:PER-LM-UM51067K,
+        nadat2:PER-LM-VCP96419,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00030,
+        nadat2:PER-TMP-00033,
+        nadat2:PER-TMP-00899,
+        nadat2:PER-TMP-00913 ;
+    rico:identifier "EV-M-50982" ;
+    rico:name "제21대국회 제386회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-51066 a rico:Event ;
+    skos:prefLabel "[EV-M-51066] 제388회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-60490713,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-CAA7713A,
+        nadat2:PER-LM-DBA1057Z,
+        nadat2:PER-LM-DPZ7685X,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-UM51067K,
+        nadat2:PER-LM-VCP96419,
+        nadat2:PER-LM-WCD5518S,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00030,
+        nadat2:PER-TMP-00033,
+        nadat2:PER-TMP-00896,
+        nadat2:PER-TMP-00898,
+        nadat2:PER-TMP-00899,
+        nadat2:PER-TMP-00913,
+        nadat2:PER-TMP-00914 ;
+    rico:identifier "EV-M-51066" ;
+    rico:name "제21대국회 제388회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-51134 a rico:Event ;
+    skos:prefLabel "[EV-M-51134] 제389회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-60490713,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-DBA1057Z,
+        nadat2:PER-LM-DPZ7685X,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-S741317G,
+        nadat2:PER-LM-VCP96419,
+        nadat2:PER-LM-WCD5518S,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00030,
+        nadat2:PER-TMP-00033,
+        nadat2:PER-TMP-00899,
+        nadat2:PER-TMP-00906,
+        nadat2:PER-TMP-00913 ;
+    rico:identifier "EV-M-51134" ;
+    rico:name "제21대국회 제389회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-51210 a rico:Event ;
+    skos:prefLabel "[EV-M-51210] 제390회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-60490713,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-CAA7713A,
+        nadat2:PER-LM-DBA1057Z,
+        nadat2:PER-LM-DPZ7685X,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-S741317G,
+        nadat2:PER-LM-UM51067K,
+        nadat2:PER-LM-VCP96419,
+        nadat2:PER-LM-WCD5518S,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-TMP-00030,
+        nadat2:PER-TMP-00033,
+        nadat2:PER-TMP-00891,
+        nadat2:PER-TMP-00895,
+        nadat2:PER-TMP-00899,
+        nadat2:PER-TMP-00913,
+        nadat2:PER-TMP-00915 ;
+    rico:identifier "EV-M-51210" ;
+    rico:name "제21대국회 제390회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-51215 a rico:Event ;
+    skos:prefLabel "[EV-M-51215] 제390회 제3차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-60490713,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-TMP-00030,
+        nadat2:PER-TMP-00033,
+        nadat2:PER-TMP-00899 ;
+    rico:identifier "EV-M-51215" ;
+    rico:name "제21대국회 제390회 제3차 보건복지위원회"@ko .
+
+nadat1:EV-M-51218 a rico:Event ;
+    skos:prefLabel "[EV-M-51218] 제390회 제2차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-60490713,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-CAA7713A,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-VCP96419,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00610,
+        nadat2:PER-TMP-00916,
+        nadat2:PER-TMP-00917,
+        nadat2:PER-TMP-00918,
+        nadat2:PER-TMP-00919,
+        nadat2:PER-TMP-00920 ;
+    rico:identifier "EV-M-51218" ;
+    rico:name "제21대국회 제390회 제2차 보건복지위원회"@ko .
+
+nadat1:EV-M-51319 a rico:Event ;
+    skos:prefLabel "[EV-M-51319] 제391회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-DPZ7685X,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-QUM8288K ;
+    rico:identifier "EV-M-51319" ;
+    rico:name "제21대국회 제391회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-51330 a rico:Event ;
+    skos:prefLabel "[EV-M-51330] 제391회 제2차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-MLH1404S ;
+    rico:identifier "EV-M-51330" ;
+    rico:name "제21대국회 제391회 제2차 보건복지위원회"@ko .
+
+nadat1:EV-M-51335 a rico:Event ;
+    skos:prefLabel "[EV-M-51335] 제391회 제3차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-WFU14784 ;
+    rico:identifier "EV-M-51335" ;
+    rico:name "제21대국회 제391회 제3차 보건복지위원회"@ko .
+
+nadat1:EV-M-51342 a rico:Event ;
+    skos:prefLabel "[EV-M-51342] 제391회 제4차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-MLH1404S ;
+    rico:identifier "EV-M-51342" ;
+    rico:name "제21대국회 제391회 제4차 보건복지위원회"@ko .
+
+nadat1:EV-M-51475 a rico:Event ;
+    skos:prefLabel "[EV-M-51475] 제391회 제5차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-60490713,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-CAA7713A,
+        nadat2:PER-LM-DBA1057Z,
+        nadat2:PER-LM-DPZ7685X,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-UM51067K,
+        nadat2:PER-LM-VCP96419,
+        nadat2:PER-LM-WCD5518S,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00030,
+        nadat2:PER-TMP-00033,
+        nadat2:PER-TMP-00035,
+        nadat2:PER-TMP-00899,
+        nadat2:PER-TMP-00913 ;
+    rico:identifier "EV-M-51475" ;
+    rico:name "제21대국회 제391회 제5차 보건복지위원회"@ko .
+
+nadat1:EV-M-51492 a rico:Event ;
+    skos:prefLabel "[EV-M-51492] 제391회 제6차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-60490713,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-TMP-00030,
+        nadat2:PER-TMP-00899,
+        nadat2:PER-TMP-00921 ;
+    rico:identifier "EV-M-51492" ;
+    rico:name "제21대국회 제391회 제6차 보건복지위원회"@ko .
+
+nadat1:EV-M-51579 a rico:Event ;
+    skos:prefLabel "[EV-M-51579] 제391회 제7차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-60490713,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-TMP-00030,
+        nadat2:PER-TMP-00033,
+        nadat2:PER-TMP-00035,
+        nadat2:PER-TMP-00899 ;
+    rico:identifier "EV-M-51579" ;
+    rico:name "제21대국회 제391회 제7차 보건복지위원회"@ko .
+
+nadat1:EV-M-51760 a rico:Event ;
+    skos:prefLabel "[EV-M-51760] 제393회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-60490713,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-CAA7713A,
+        nadat2:PER-LM-DPZ7685X,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-VCP96419,
+        nadat2:PER-LM-WCD5518S,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00030,
+        nadat2:PER-TMP-00033,
+        nadat2:PER-TMP-00913 ;
+    rico:identifier "EV-M-51760" ;
+    rico:name "제21대국회 제393회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-51797 a rico:Event ;
+    skos:prefLabel "[EV-M-51797] 제395회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-UM51067K,
+        nadat2:PER-LM-VCP96419,
+        nadat2:PER-LM-WCD5518S,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00320,
+        nadat2:PER-TMP-00922,
+        nadat2:PER-TMP-00923,
+        nadat2:PER-TMP-00924,
+        nadat2:PER-TMP-00925 ;
+    rico:identifier "EV-M-51797" ;
+    rico:name "제21대국회 제395회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-51835 a rico:Event ;
+    skos:prefLabel "[EV-M-51835] 제395회 제2차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-VCP96419,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-TMP-00926 ;
+    rico:identifier "EV-M-51835" ;
+    rico:name "제21대국회 제395회 제2차 보건복지위원회"@ko .
+
+nadat1:EV-M-51862 a rico:Event ;
+    skos:prefLabel "[EV-M-51862] 제397회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-60490713,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-CAA7713A,
+        nadat2:PER-LM-DBA1057Z,
+        nadat2:PER-LM-DPZ7685X,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-QUM8288K,
+        nadat2:PER-LM-UM51067K,
+        nadat2:PER-LM-VCP96419,
+        nadat2:PER-LM-WCD5518S,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00026,
+        nadat2:PER-TMP-00030,
+        nadat2:PER-TMP-00033,
+        nadat2:PER-TMP-00899,
+        nadat2:PER-TMP-00927,
+        nadat2:PER-TMP-00928,
+        nadat2:PER-TMP-00929,
+        nadat2:PER-TMP-00930,
+        nadat2:PER-TMP-00931,
+        nadat2:PER-TMP-00932,
+        nadat2:PER-TMP-00933,
+        nadat2:PER-TMP-00934,
+        nadat2:PER-TMP-00935,
+        nadat2:PER-TMP-00936,
+        nadat2:PER-TMP-00937,
+        nadat2:PER-TMP-00938,
+        nadat2:PER-TMP-00939 ;
+    rico:identifier "EV-M-51862" ;
+    rico:name "제21대국회 제397회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-51915 a rico:Event ;
+    skos:prefLabel "[EV-M-51915] 제397회 제2차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-2UD1340H,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-60490713,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-DPZ7685X,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-QUM8288K,
+        nadat2:PER-LM-WCD5518S,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00033,
+        nadat2:PER-TMP-00071,
+        nadat2:PER-TMP-00899,
+        nadat2:PER-TMP-00907,
+        nadat2:PER-TMP-00920,
+        nadat2:PER-TMP-00921 ;
+    rico:identifier "EV-M-51915" ;
+    rico:name "제21대국회 제397회 제2차 보건복지위원회"@ko .
+
+nadat1:EV-M-52019 a rico:Event ;
+    skos:prefLabel "[EV-M-52019] 제398회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-6RM29022,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-N9X9673B,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-TRE2429O,
+        nadat2:PER-LM-UM51067K,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-WMG57662,
+        nadat2:PER-LM-XPP2564T,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-YTA7297R,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00063,
+        nadat2:PER-TMP-00940 ;
+    rico:identifier "EV-M-52019" ;
+    rico:name "제21대국회 제398회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-52096 a rico:Event ;
+    skos:prefLabel "[EV-M-52096] 제399회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-6RM29022,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-CAA7713A,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-N9X9673B,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-TRE2429O,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-WMG57662,
+        nadat2:PER-LM-XPP2564T,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-YTA7297R,
+        nadat2:PER-TMP-00063,
+        nadat2:PER-TMP-00071,
+        nadat2:PER-TMP-00940,
+        nadat2:PER-TMP-00941,
+        nadat2:PER-TMP-00942,
+        nadat2:PER-TMP-00943 ;
+    rico:identifier "EV-M-52096" ;
+    rico:name "제21대국회 제399회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-52108 a rico:Event ;
+    skos:prefLabel "[EV-M-52108] 제400회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-N9X9673B,
+        nadat2:PER-LM-WMG57662,
+        nadat2:PER-LM-XPP2564T,
+        nadat2:PER-TMP-00063,
+        nadat2:PER-TMP-00940,
+        nadat2:PER-TMP-00942 ;
+    rico:identifier "EV-M-52108" ;
+    rico:name "제21대국회 제400회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-52149 a rico:Event ;
+    skos:prefLabel "[EV-M-52149] 제400회 제2차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-S741317G ;
+    rico:identifier "EV-M-52149" ;
+    rico:name "제21대국회 제400회 제2차 보건복지위원회"@ko .
+
+nadat1:EV-M-52171 a rico:Event ;
+    skos:prefLabel "[EV-M-52171] 제400회 제3차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-6RM29022,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-CAA7713A,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-N9X9673B,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-TRE2429O,
+        nadat2:PER-LM-UM51067K,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-WMG57662,
+        nadat2:PER-LM-XPP2564T,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-YTA7297R,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00071,
+        nadat2:PER-TMP-00944 ;
+    rico:identifier "EV-M-52171" ;
+    rico:name "제21대국회 제400회 제3차 보건복지위원회"@ko .
+
+nadat1:EV-M-52188 a rico:Event ;
+    skos:prefLabel "[EV-M-52188] 제400회 제4차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-MD083627 ;
+    rico:identifier "EV-M-52188" ;
+    rico:name "제21대국회 제400회 제4차 보건복지위원회"@ko .
+
+nadat1:EV-M-52196 a rico:Event ;
+    skos:prefLabel "[EV-M-52196] 제400회 제5차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-MD083627 ;
+    rico:identifier "EV-M-52196" ;
+    rico:name "제21대국회 제400회 제5차 보건복지위원회"@ko .
+
+nadat1:EV-M-52205 a rico:Event ;
+    skos:prefLabel "[EV-M-52205] 제400회 제6차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-TRE2429O ;
+    rico:identifier "EV-M-52205" ;
+    rico:name "제21대국회 제400회 제6차 보건복지위원회"@ko .
+
+nadat1:EV-M-52242 a rico:Event ;
+    skos:prefLabel "[EV-M-52242] 제400회 제8차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-MD083627 ;
+    rico:identifier "EV-M-52242" ;
+    rico:name "제21대국회 제400회 제8차 보건복지위원회"@ko .
+
+nadat1:EV-M-52248 a rico:Event ;
+    skos:prefLabel "[EV-M-52248] 제400회 제7차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-MD083627 ;
+    rico:identifier "EV-M-52248" ;
+    rico:name "제21대국회 제400회 제7차 보건복지위원회"@ko .
+
+nadat1:EV-M-52322 a rico:Event ;
+    skos:prefLabel "[EV-M-52322] 제400회 제9차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-6RM29022,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-CAA7713A,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-N9X9673B,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-S741317G,
+        nadat2:PER-LM-TRE2429O,
+        nadat2:PER-LM-UM51067K,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-WMG57662,
+        nadat2:PER-LM-XPP2564T,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-YTA7297R,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00071,
+        nadat2:PER-TMP-00940,
+        nadat2:PER-TMP-00942,
+        nadat2:PER-TMP-00945 ;
+    rico:identifier "EV-M-52322" ;
+    rico:name "제21대국회 제400회 제9차 보건복지위원회"@ko .
+
+nadat1:EV-M-52370 a rico:Event ;
+    skos:prefLabel "[EV-M-52370] 제400회 제10차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-WMG57662,
+        nadat2:PER-LM-XPP2564T,
+        nadat2:PER-TMP-00071,
+        nadat2:PER-TMP-00940,
+        nadat2:PER-TMP-00942 ;
+    rico:identifier "EV-M-52370" ;
+    rico:name "제21대국회 제400회 제10차 보건복지위원회"@ko .
+
+nadat1:EV-M-52609 a rico:Event ;
+    skos:prefLabel "[EV-M-52609] 제400회 제11차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-6RM29022,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-CAA7713A,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-S741317G,
+        nadat2:PER-LM-TRE2429O,
+        nadat2:PER-LM-UM51067K,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-WMG57662,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-YTA7297R,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00071,
+        nadat2:PER-TMP-00940,
+        nadat2:PER-TMP-00942,
+        nadat2:PER-TMP-00946,
+        nadat2:PER-TMP-00947,
+        nadat2:PER-TMP-00948,
+        nadat2:PER-TMP-00949,
+        nadat2:PER-TMP-00950 ;
+    rico:identifier "EV-M-52609" ;
+    rico:name "제21대국회 제400회 제11차 보건복지위원회"@ko .
+
+nadat1:EV-M-52685 a rico:Event ;
+    skos:prefLabel "[EV-M-52685] 제403회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-6RM29022,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-CAA7713A,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-N9X9673B,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-S741317G,
+        nadat2:PER-LM-TRE2429O,
+        nadat2:PER-LM-UM51067K,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-WMG57662,
+        nadat2:PER-LM-XPP2564T,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-YTA7297R,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00063,
+        nadat2:PER-TMP-00071,
+        nadat2:PER-TMP-00913,
+        nadat2:PER-TMP-00921,
+        nadat2:PER-TMP-00942,
+        nadat2:PER-TMP-00943,
+        nadat2:PER-TMP-00951 ;
+    rico:identifier "EV-M-52685" ;
+    rico:name "제21대국회 제403회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-52754 a rico:Event ;
+    skos:prefLabel "[EV-M-52754] 제403회 제2차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-6RM29022,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-S741317G,
+        nadat2:PER-LM-TRE2429O,
+        nadat2:PER-LM-UM51067K,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-WMG57662,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-YTA7297R,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00071,
+        nadat2:PER-TMP-00942,
+        nadat2:PER-TMP-00951,
+        nadat2:PER-TMP-00952,
+        nadat2:PER-TMP-00953,
+        nadat2:PER-TMP-00954,
+        nadat2:PER-TMP-00955,
+        nadat2:PER-TMP-00956,
+        nadat2:PER-TMP-00957 ;
+    rico:identifier "EV-M-52754" ;
+    rico:name "제21대국회 제403회 제2차 보건복지위원회"@ko .
+
+nadat1:EV-M-52810 a rico:Event ;
+    skos:prefLabel "[EV-M-52810] 제404회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-N9X9673B,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-TRE2429O,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-WMG57662,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00063,
+        nadat2:PER-TMP-00943,
+        nadat2:PER-TMP-00951,
+        nadat2:PER-TMP-00958 ;
+    rico:identifier "EV-M-52810" ;
+    rico:name "제21대국회 제404회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-52890 a rico:Event ;
+    skos:prefLabel "[EV-M-52890] 제405회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-6RM29022,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-CAA7713A,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-N9X9673B,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-S741317G,
+        nadat2:PER-LM-TRE2429O,
+        nadat2:PER-LM-UM51067K,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-WMG57662,
+        nadat2:PER-LM-XPP2564T,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-YTA7297R,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00071,
+        nadat2:PER-TMP-00921,
+        nadat2:PER-TMP-00942,
+        nadat2:PER-TMP-00943,
+        nadat2:PER-TMP-00951,
+        nadat2:PER-TMP-00959,
+        nadat2:PER-TMP-00960,
+        nadat2:PER-TMP-00961,
+        nadat2:PER-TMP-00962 ;
+    rico:identifier "EV-M-52890" ;
+    rico:name "제21대국회 제405회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-52904 a rico:Event ;
+    skos:prefLabel "[EV-M-52904] 제405회 제2차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-6AU2417B,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-N9X9673B,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-S741317G,
+        nadat2:PER-LM-TRE2429O,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-WMG57662,
+        nadat2:PER-LM-XPP2564T,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-YTA7297R,
+        nadat2:PER-LM-Z7Y7827F,
+        nadat2:PER-TMP-00063,
+        nadat2:PER-TMP-00071,
+        nadat2:PER-TMP-00951,
+        nadat2:PER-TMP-00958,
+        nadat2:PER-TMP-00963,
+        nadat2:PER-TMP-00964,
+        nadat2:PER-TMP-00965,
+        nadat2:PER-TMP-00966,
+        nadat2:PER-TMP-00967,
+        nadat2:PER-TMP-00968,
+        nadat2:PER-TMP-00969,
+        nadat2:PER-TMP-00970,
+        nadat2:PER-TMP-00971,
+        nadat2:PER-TMP-00972 ;
+    rico:identifier "EV-M-52904" ;
+    rico:name "제21대국회 제405회 제2차 보건복지위원회"@ko .
+
+nadat1:EV-M-53026 a rico:Event ;
+    skos:prefLabel "[EV-M-53026] 제407회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-6RM29022,
+        nadat2:PER-LM-CAA7713A,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-FU53642G,
+        nadat2:PER-LM-G1570880,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-S741317G,
+        nadat2:PER-LM-UM51067K,
+        nadat2:PER-LM-XPP2564T,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-YTA7297R,
+        nadat2:PER-TMP-00063,
+        nadat2:PER-TMP-00071,
+        nadat2:PER-TMP-00942,
+        nadat2:PER-TMP-00943,
+        nadat2:PER-TMP-00945,
+        nadat2:PER-TMP-00951 ;
+    rico:identifier "EV-M-53026" ;
+    rico:name "제21대국회 제407회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-53043 a rico:Event ;
+    skos:prefLabel "[EV-M-53043] 제407회 제2차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-0W194007,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-G1570880,
+        nadat2:PER-LM-N9X9673B,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-XPP2564T,
+        nadat2:PER-TMP-00063,
+        nadat2:PER-TMP-00071,
+        nadat2:PER-TMP-00942,
+        nadat2:PER-TMP-00951 ;
+    rico:identifier "EV-M-53043" ;
+    rico:name "제21대국회 제407회 제2차 보건복지위원회"@ko .
+
+nadat1:EV-M-53114 a rico:Event ;
+    skos:prefLabel "[EV-M-53114] 제409회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-0W194007,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-6RM29022,
+        nadat2:PER-LM-CAA7713A,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-G1570880,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-MLH1404S,
+        nadat2:PER-LM-N9X9673B,
+        nadat2:PER-LM-S741317G,
+        nadat2:PER-LM-UM51067K,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-WMG57662,
+        nadat2:PER-LM-XPP2564T,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-LM-YTA7297R,
+        nadat2:PER-TMP-00063,
+        nadat2:PER-TMP-00071,
+        nadat2:PER-TMP-00921,
+        nadat2:PER-TMP-00942,
+        nadat2:PER-TMP-00943,
+        nadat2:PER-TMP-00951 ;
+    rico:identifier "EV-M-53114" ;
+    rico:name "제21대국회 제409회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-53147 a rico:Event ;
+    skos:prefLabel "[EV-M-53147] 제409회 제2차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-0W194007,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-6RM29022,
+        nadat2:PER-LM-8VJ8533R,
+        nadat2:PER-LM-G1570880,
+        nadat2:PER-LM-MD083627,
+        nadat2:PER-LM-N9X9673B,
+        nadat2:PER-LM-S741317G,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-WMG57662,
+        nadat2:PER-LM-XPP2564T,
+        nadat2:PER-LM-XR24352K,
+        nadat2:PER-TMP-00071,
+        nadat2:PER-TMP-00942,
+        nadat2:PER-TMP-00951 ;
+    rico:identifier "EV-M-53147" ;
+    rico:name "제21대국회 제409회 제2차 보건복지위원회"@ko .
+
+nadat1:EV-M-53230 a rico:Event ;
+    skos:prefLabel "[EV-M-53230] 제410회 제1차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-G1570880,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-TMP-00942,
+        nadat2:PER-TMP-00943 ;
+    rico:identifier "EV-M-53230" ;
+    rico:name "제21대국회 제410회 제1차 보건복지위원회"@ko .
+
+nadat1:EV-M-53266 a rico:Event ;
+    skos:prefLabel "[EV-M-53266] 제410회 제2차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
+        nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-G1570880,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-WMG57662,
+        nadat2:PER-TMP-00071,
+        nadat2:PER-TMP-00544,
+        nadat2:PER-TMP-00942 ;
+    rico:identifier "EV-M-53266" ;
+    rico:name "제21대국회 제410회 제2차 보건복지위원회"@ko .
+
+nadat1:EV-M-53301 a rico:Event ;
+    skos:prefLabel "[EV-M-53301] 제410회 제3차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-G1570880 ;
+    rico:identifier "EV-M-53301" ;
+    rico:name "제21대국회 제410회 제3차 보건복지위원회"@ko .
+
+nadat1:EV-M-53317 a rico:Event ;
+    skos:prefLabel "[EV-M-53317] 제410회 제4차 보건복지위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-14M56632,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-G1570880,
+        nadat2:PER-LM-WMG57662 ;
+    rico:identifier "EV-M-53317" ;
+    rico:name "제21대국회 제410회 제4차 보건복지위원회"@ko .
+
+nadat1:date-200617 a rico:Date ;
+    rico:expressedDate "2020년6월17일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-200617" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50012 ;
+    rico:name "date-200617" ;
+    rico:normalizedDateValue "2020-06-17"^^xsd:date .
+
+nadat1:date-201223 a rico:Date ;
+    rico:expressedDate "2020년12월23일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-201223" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50704 ;
+    rico:name "date-201223" ;
+    rico:normalizedDateValue "2020-12-23"^^xsd:date .
+
+nadat1:date-210217 a rico:Date ;
+    rico:expressedDate "2021년2월17일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210217" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50790 ;
+    rico:name "date-210217" ;
+    rico:normalizedDateValue "2021-02-17"^^xsd:date .
+
+nadat1:date-211125 a rico:Date ;
+    rico:expressedDate "2021년11월25일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-211125" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51579 ;
+    rico:name "date-211125" ;
+    rico:normalizedDateValue "2021-11-25"^^xsd:date .
+
+nadat1:date-220207 a rico:Date ;
+    rico:expressedDate "2022년2월7일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220207" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51760 ;
+    rico:name "date-220207" ;
+    rico:normalizedDateValue "2022-02-07"^^xsd:date .
+
+nadat1:date-221209 a rico:Date ;
+    rico:expressedDate "2022년12월9일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-221209" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52609 ;
+    rico:name "date-221209" ;
+    rico:normalizedDateValue "2022-12-09"^^xsd:date .
+
+nadat1:date-230209 a rico:Date ;
+    rico:expressedDate "2023년2월9일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230209" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52685 ;
+    rico:name "date-230209" ;
+    rico:normalizedDateValue "2023-02-09"^^xsd:date .
+
+nadat1:date-231018 a rico:Date ;
+    rico:expressedDate "2023년10월18일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-231018" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-53317 ;
+    rico:name "date-231018" ;
+    rico:normalizedDateValue "2023-10-18"^^xsd:date .
+
+nadat1:INS-AM-52685_53317-01 a rico:Instantiation ;
+    dcterms:coverage "2023-02-09/2023-10-18" ;
+    skos:prefLabel "[INS-AM-52685_53317-01] 2023 보건복지위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-230209 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-231018 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-52685_53317-01" ;
+    rico:title "2023 보건복지위원회 보존회의록"@ko .
+
+nadat1:INS-AM-50790_51579-01 a rico:Instantiation ;
+    dcterms:coverage "2021-02-17/2021-11-25" ;
+    skos:prefLabel "[INS-AM-50790_51579-01] 2021 보건복지위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-210217 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-211125 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-50790_51579-01" ;
+    rico:title "2021 보건복지위원회 보존회의록"@ko .
+
+nadat1:INS-AM-50012_50704-01 a rico:Instantiation ;
+    dcterms:coverage "2020-06-17/2020-12-23" ;
+    skos:prefLabel "[INS-AM-50012_50704-01] 2020-2 보건복지위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-200617 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-201223 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-50012_50704-01" ;
+    rico:title "2020-2 보건복지위원회 보존회의록"@ko .
+
+nadat1:INS-AM-51760_52609-01 a rico:Instantiation ;
+    dcterms:coverage "2022-02-07/2022-12-09" ;
+    skos:prefLabel "[INS-AM-51760_52609-01] 2022 보건복지위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-220207 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-221209 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AM-51760_52609-01" ;
+    rico:title "2022 보건복지위원회 보존회의록"@ko .
+
+
+
+
