@@ -6509,7 +6509,8 @@ nadat1:date-240528 a rico:Date ;
     rico:normalizedDateValue "2024-05-28"^^xsd:date .
 
 nadat1:EV-M-50024 a rico:Event ;
-    skos:prefLabel "[EV-M-50024] 21대 본회의 제379회 제1차"@ko ;
+    skos:prefLabel "[EV-M-50024] 21대 제379회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제379회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-5765663F,
         nadat2:PER-LM-8SV6917G,
@@ -6522,14 +6523,16 @@ nadat1:EV-M-50024 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50025 a rico:Event ;
-    skos:prefLabel "[EV-M-50025] 21대 본회의 제379회 제2차"@ko ;
+    skos:prefLabel "[EV-M-50025] 21대 제379회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제379회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L ;
     rico:identifier "EV-M-50025" ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50026 a rico:Event ;
-    skos:prefLabel "[EV-M-50026] 21대 본회의 제379회 제4차"@ko ;
+    skos:prefLabel "[EV-M-50026] 21대 제379회 제4차 본회의"@ko ;
+    rico:name "제21대국회 제379회 제4차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-5765663F,
         nadat2:PER-LM-9D939735,
@@ -6538,7 +6541,8 @@ nadat1:EV-M-50026 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50027 a rico:Event ;
-    skos:prefLabel "[EV-M-50027] 21대 본회의 제379회 제3차"@ko ;
+    skos:prefLabel "[EV-M-50027] 21대 제379회 제3차 본회의"@ko ;
+    rico:name "제21대국회 제379회 제3차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-5765663F,
         nadat2:PER-LM-BLC8630L ;
@@ -6546,7 +6550,8 @@ nadat1:EV-M-50027 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50028 a rico:Event ;
-    skos:prefLabel "[EV-M-50028] 21대 본회의 제379회 제5차"@ko ;
+    skos:prefLabel "[EV-M-50028] 21대 제379회 제5차 본회의"@ko ;
+    rico:name "제21대국회 제379회 제5차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-8SV6917G,
         nadat2:PER-LM-BLC8630L,
@@ -6562,7 +6567,8 @@ nadat1:EV-M-50028 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50029 a rico:Event ;
-    skos:prefLabel "[EV-M-50029] 21대 본회의 제379회 제6차"@ko ;
+    skos:prefLabel "[EV-M-50029] 21대 제379회 제6차 본회의"@ko ;
+    rico:name "제21대국회 제379회 제6차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
         nadat2:PER-LM-3249208I,
@@ -6583,7 +6589,8 @@ nadat1:EV-M-50029 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50051 a rico:Event ;
-    skos:prefLabel "[EV-M-50051] 21대 본회의 제379회 제7차"@ko ;
+    skos:prefLabel "[EV-M-50051] 21대 제379회 제7차 본회의"@ko ;
+    rico:name "제21대국회 제379회 제7차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-A2V51235,
         nadat2:PER-LM-BLC8630L,
@@ -6596,7 +6603,8 @@ nadat1:EV-M-50051 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50057 a rico:Event ;
-    skos:prefLabel "[EV-M-50057] 21대 본회의 제380회 제1차"@ko ;
+    skos:prefLabel "[EV-M-50057] 21대 제380회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제380회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-LM-BM63269Y,
@@ -6605,7 +6613,8 @@ nadat1:EV-M-50057 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50058 a rico:Event ;
-    skos:prefLabel "[EV-M-50058] 21대 본회의 제380회 제0차"@ko ;
+    skos:prefLabel "[EV-M-50058] 21대 제380회 제0차 본회의"@ko ;
+    rico:name "제21대국회 제380회 제0차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-TMP-00006,
@@ -6614,7 +6623,8 @@ nadat1:EV-M-50058 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50060 a rico:Event ;
-    skos:prefLabel "[EV-M-50060] 21대 본회의 제380회 제2차"@ko ;
+    skos:prefLabel "[EV-M-50060] 21대 제380회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제380회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
         nadat2:PER-LM-5765663F,
@@ -6623,7 +6633,8 @@ nadat1:EV-M-50060 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50063 a rico:Event ;
-    skos:prefLabel "[EV-M-50063] 21대 본회의 제380회 제3차"@ko ;
+    skos:prefLabel "[EV-M-50063] 21대 제380회 제3차 본회의"@ko ;
+    rico:name "제21대국회 제380회 제3차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-8SV6917G,
         nadat2:PER-LM-BLC8630L,
@@ -6632,7 +6643,8 @@ nadat1:EV-M-50063 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50065 a rico:Event ;
-    skos:prefLabel "[EV-M-50065] 21대 본회의 제380회 제4차"@ko ;
+    skos:prefLabel "[EV-M-50065] 21대 제380회 제4차 본회의"@ko ;
+    rico:name "제21대국회 제380회 제4차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-09I2323E,
         nadat2:PER-LM-7BM2933Y,
@@ -6658,7 +6670,8 @@ nadat1:EV-M-50065 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50067 a rico:Event ;
-    skos:prefLabel "[EV-M-50067] 21대 본회의 제380회 제5차"@ko ;
+    skos:prefLabel "[EV-M-50067] 21대 제380회 제5차 본회의"@ko ;
+    rico:name "제21대국회 제380회 제5차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-4X525582,
         nadat2:PER-LM-6AR6743G,
@@ -6685,7 +6698,8 @@ nadat1:EV-M-50067 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50070 a rico:Event ;
-    skos:prefLabel "[EV-M-50070] 21대 본회의 제380회 제6차"@ko ;
+    skos:prefLabel "[EV-M-50070] 21대 제380회 제6차 본회의"@ko ;
+    rico:name "제21대국회 제380회 제6차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-3BC6890E,
         nadat2:PER-LM-3TO11703,
@@ -6713,7 +6727,8 @@ nadat1:EV-M-50070 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50081 a rico:Event ;
-    skos:prefLabel "[EV-M-50081] 21대 본회의 제380회 제7차"@ko ;
+    skos:prefLabel "[EV-M-50081] 21대 제380회 제7차 본회의"@ko ;
+    rico:name "제21대국회 제380회 제7차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-LM-HSS7466Y,
@@ -6727,7 +6742,8 @@ nadat1:EV-M-50081 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50098 a rico:Event ;
-    skos:prefLabel "[EV-M-50098] 21대 본회의 제380회 제8차"@ko ;
+    skos:prefLabel "[EV-M-50098] 21대 제380회 제8차 본회의"@ko ;
+    rico:name "제21대국회 제380회 제8차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-2UD1340H,
         nadat2:PER-LM-5UN9725L,
@@ -6761,7 +6777,8 @@ nadat1:EV-M-50098 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50130 a rico:Event ;
-    skos:prefLabel "[EV-M-50130] 21대 본회의 제382회 제1차"@ko ;
+    skos:prefLabel "[EV-M-50130] 21대 제382회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제382회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-9D939735,
         nadat2:PER-LM-BLC8630L ;
@@ -6769,7 +6786,8 @@ nadat1:EV-M-50130 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50131 a rico:Event ;
-    skos:prefLabel "[EV-M-50131] 21대 본회의 제382회 제0차"@ko ;
+    skos:prefLabel "[EV-M-50131] 21대 제382회 제0차 본회의"@ko ;
+    rico:name "제21대국회 제382회 제0차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-TMP-00002 ;
@@ -6777,7 +6795,8 @@ nadat1:EV-M-50131 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50157 a rico:Event ;
-    skos:prefLabel "[EV-M-50157] 21대 본회의 제382회 제2차"@ko ;
+    skos:prefLabel "[EV-M-50157] 21대 제382회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제382회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0767470D,
         nadat2:PER-LM-BLC8630L,
@@ -6788,7 +6807,8 @@ nadat1:EV-M-50157 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50166 a rico:Event ;
-    skos:prefLabel "[EV-M-50166] 21대 본회의 제382회 제3차"@ko ;
+    skos:prefLabel "[EV-M-50166] 21대 제382회 제3차 본회의"@ko ;
+    rico:name "제21대국회 제382회 제3차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-8SV6917G,
         nadat2:PER-LM-BLC8630L ;
@@ -6796,7 +6816,8 @@ nadat1:EV-M-50166 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50185 a rico:Event ;
-    skos:prefLabel "[EV-M-50185] 21대 본회의 제382회 제4차"@ko ;
+    skos:prefLabel "[EV-M-50185] 21대 제382회 제4차 본회의"@ko ;
+    rico:name "제21대국회 제382회 제4차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0YT3774N,
         nadat2:PER-LM-2385336L,
@@ -6818,7 +6839,8 @@ nadat1:EV-M-50185 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50187 a rico:Event ;
-    skos:prefLabel "[EV-M-50187] 21대 본회의 제382회 제5차"@ko ;
+    skos:prefLabel "[EV-M-50187] 21대 제382회 제5차 본회의"@ko ;
+    rico:name "제21대국회 제382회 제5차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-3ZR4438W,
         nadat2:PER-LM-5MD4184K,
@@ -6842,7 +6864,8 @@ nadat1:EV-M-50187 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50196 a rico:Event ;
-    skos:prefLabel "[EV-M-50196] 21대 본회의 제382회 제6차"@ko ;
+    skos:prefLabel "[EV-M-50196] 21대 제382회 제6차 본회의"@ko ;
+    rico:name "제21대국회 제382회 제6차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-1BX7234U,
         nadat2:PER-LM-6MO8786S,
@@ -6870,7 +6893,8 @@ nadat1:EV-M-50196 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50202 a rico:Event ;
-    skos:prefLabel "[EV-M-50202] 21대 본회의 제382회 제7차"@ko ;
+    skos:prefLabel "[EV-M-50202] 21대 제382회 제7차 본회의"@ko ;
+    rico:name "제21대국회 제382회 제7차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
         nadat2:PER-LM-1Y73132H,
@@ -6894,7 +6918,8 @@ nadat1:EV-M-50202 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50228 a rico:Event ;
-    skos:prefLabel "[EV-M-50228] 21대 본회의 제382회 제8차"@ko ;
+    skos:prefLabel "[EV-M-50228] 21대 제382회 제8차 본회의"@ko ;
+    rico:name "제21대국회 제382회 제8차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-LM-GAV6441G,
@@ -6907,7 +6932,8 @@ nadat1:EV-M-50228 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50246 a rico:Event ;
-    skos:prefLabel "[EV-M-50246] 21대 본회의 제382회 제9차"@ko ;
+    skos:prefLabel "[EV-M-50246] 21대 제382회 제9차 본회의"@ko ;
+    rico:name "제21대국회 제382회 제9차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-14M56632,
         nadat2:PER-LM-16D7652C,
@@ -6936,7 +6962,8 @@ nadat1:EV-M-50246 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50326 a rico:Event ;
-    skos:prefLabel "[EV-M-50326] 21대 본회의 제382회 제10차"@ko ;
+    skos:prefLabel "[EV-M-50326] 21대 제382회 제10차 본회의"@ko ;
+    rico:name "제21대국회 제382회 제10차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-TMP-00002,
@@ -6945,7 +6972,8 @@ nadat1:EV-M-50326 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50331 a rico:Event ;
-    skos:prefLabel "[EV-M-50331] 21대 본회의 제382회 제11차"@ko ;
+    skos:prefLabel "[EV-M-50331] 21대 제382회 제11차 본회의"@ko ;
+    rico:name "제21대국회 제382회 제11차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-LM-TP066860,
@@ -6956,7 +6984,8 @@ nadat1:EV-M-50331 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50480 a rico:Event ;
-    skos:prefLabel "[EV-M-50480] 21대 본회의 제382회 제12차"@ko ;
+    skos:prefLabel "[EV-M-50480] 21대 제382회 제12차 본회의"@ko ;
+    rico:name "제21대국회 제382회 제12차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-14M56632,
         nadat2:PER-LM-3425169D,
@@ -6985,7 +7014,8 @@ nadat1:EV-M-50480 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50574 a rico:Event ;
-    skos:prefLabel "[EV-M-50574] 21대 본회의 제382회 제13차"@ko ;
+    skos:prefLabel "[EV-M-50574] 21대 제382회 제13차 본회의"@ko ;
+    rico:name "제21대국회 제382회 제13차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
         nadat2:PER-LM-1X376850,
@@ -7004,7 +7034,8 @@ nadat1:EV-M-50574 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50596 a rico:Event ;
-    skos:prefLabel "[EV-M-50596] 21대 본회의 제382회 제14차"@ko ;
+    skos:prefLabel "[EV-M-50596] 21대 제382회 제14차 본회의"@ko ;
+    rico:name "제21대국회 제382회 제14차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0WL9321T,
         nadat2:PER-LM-4X525582,
@@ -7035,7 +7066,8 @@ nadat1:EV-M-50596 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50655 a rico:Event ;
-    skos:prefLabel "[EV-M-50655] 21대 본회의 제382회 제15차"@ko ;
+    skos:prefLabel "[EV-M-50655] 21대 제382회 제15차 본회의"@ko ;
+    rico:name "제21대국회 제382회 제15차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-2N793392,
         nadat2:PER-LM-4X525582,
@@ -7072,7 +7104,8 @@ nadat1:EV-M-50655 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50660 a rico:Event ;
-    skos:prefLabel "[EV-M-50660] 21대 본회의 제383회 제1차"@ko ;
+    skos:prefLabel "[EV-M-50660] 21대 제383회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제383회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-4L695580,
         nadat2:PER-LM-4XG1439M,
@@ -7107,7 +7140,8 @@ nadat1:EV-M-50660 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50719 a rico:Event ;
-    skos:prefLabel "[EV-M-50719] 21대 본회의 제383회 제2차"@ko ;
+    skos:prefLabel "[EV-M-50719] 21대 제383회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제383회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-14M56632,
         nadat2:PER-LM-2UD1340H,
@@ -7147,7 +7181,8 @@ nadat1:EV-M-50719 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50743 a rico:Event ;
-    skos:prefLabel "[EV-M-50743] 21대 본회의 제384회 제0차"@ko ;
+    skos:prefLabel "[EV-M-50743] 21대 제384회 제0차 본회의"@ko ;
+    rico:name "제21대국회 제384회 제0차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-TMP-00002 ;
@@ -7155,7 +7190,8 @@ nadat1:EV-M-50743 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50744 a rico:Event ;
-    skos:prefLabel "[EV-M-50744] 21대 본회의 제384회 제1차"@ko ;
+    skos:prefLabel "[EV-M-50744] 21대 제384회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제384회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-5765663F,
         nadat2:PER-LM-7R156073,
@@ -7165,7 +7201,8 @@ nadat1:EV-M-50744 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50745 a rico:Event ;
-    skos:prefLabel "[EV-M-50745] 21대 본회의 제384회 제2차"@ko ;
+    skos:prefLabel "[EV-M-50745] 21대 제384회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제384회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0767470D,
         nadat2:PER-LM-BLC8630L,
@@ -7174,7 +7211,8 @@ nadat1:EV-M-50745 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50747 a rico:Event ;
-    skos:prefLabel "[EV-M-50747] 21대 본회의 제384회 제3차"@ko ;
+    skos:prefLabel "[EV-M-50747] 21대 제384회 제3차 본회의"@ko ;
+    rico:name "제21대국회 제384회 제3차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-8SV6917G,
         nadat2:PER-LM-BLC8630L ;
@@ -7182,7 +7220,8 @@ nadat1:EV-M-50747 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50752 a rico:Event ;
-    skos:prefLabel "[EV-M-50752] 21대 본회의 제384회 제4차"@ko ;
+    skos:prefLabel "[EV-M-50752] 21대 제384회 제4차 본회의"@ko ;
+    rico:name "제21대국회 제384회 제4차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-2N793392,
         nadat2:PER-LM-3ZR4438W,
@@ -7212,7 +7251,8 @@ nadat1:EV-M-50752 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50755 a rico:Event ;
-    skos:prefLabel "[EV-M-50755] 21대 본회의 제384회 제5차"@ko ;
+    skos:prefLabel "[EV-M-50755] 21대 제384회 제5차 본회의"@ko ;
+    rico:name "제21대국회 제384회 제5차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-5MD4184K,
         nadat2:PER-LM-6AR6743G,
@@ -7237,7 +7277,8 @@ nadat1:EV-M-50755 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50757 a rico:Event ;
-    skos:prefLabel "[EV-M-50757] 21대 본회의 제384회 제6차"@ko ;
+    skos:prefLabel "[EV-M-50757] 21대 제384회 제6차 본회의"@ko ;
+    rico:name "제21대국회 제384회 제6차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0PK7354M,
         nadat2:PER-LM-1X376850,
@@ -7263,7 +7304,8 @@ nadat1:EV-M-50757 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50831 a rico:Event ;
-    skos:prefLabel "[EV-M-50831] 21대 본회의 제384회 제7차"@ko ;
+    skos:prefLabel "[EV-M-50831] 21대 제384회 제7차 본회의"@ko ;
+    rico:name "제21대국회 제384회 제7차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
         nadat2:PER-LM-21N57758,
@@ -7305,7 +7347,8 @@ nadat1:EV-M-50831 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50855 a rico:Event ;
-    skos:prefLabel "[EV-M-50855] 21대 본회의 제385회 제1차"@ko ;
+    skos:prefLabel "[EV-M-50855] 21대 제385회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제385회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-TMP-00004 ;
@@ -7313,7 +7356,8 @@ nadat1:EV-M-50855 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50924 a rico:Event ;
-    skos:prefLabel "[EV-M-50924] 21대 본회의 제385회 제2차"@ko ;
+    skos:prefLabel "[EV-M-50924] 21대 제385회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제385회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-25I8709Q,
         nadat2:PER-LM-6AU2417B,
@@ -7342,7 +7386,8 @@ nadat1:EV-M-50924 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50930 a rico:Event ;
-    skos:prefLabel "[EV-M-50930] 21대 본회의 제385회 제3차"@ko ;
+    skos:prefLabel "[EV-M-50930] 21대 제385회 제3차 본회의"@ko ;
+    rico:name "제21대국회 제385회 제3차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-LM-GE71932C,
@@ -7354,7 +7399,8 @@ nadat1:EV-M-50930 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50951 a rico:Event ;
-    skos:prefLabel "[EV-M-50951] 21대 본회의 제386회 제1차"@ko ;
+    skos:prefLabel "[EV-M-50951] 21대 제386회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제386회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-4U29186R,
         nadat2:PER-LM-66W6739S,
@@ -7379,7 +7425,8 @@ nadat1:EV-M-50951 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50952 a rico:Event ;
-    skos:prefLabel "[EV-M-50952] 21대 본회의 제386회 제2차"@ko ;
+    skos:prefLabel "[EV-M-50952] 21대 제386회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제386회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-8FB1535Y,
         nadat2:PER-LM-BLC8630L,
@@ -7400,7 +7447,8 @@ nadat1:EV-M-50952 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-50958 a rico:Event ;
-    skos:prefLabel "[EV-M-50958] 21대 본회의 제386회 제3차"@ko ;
+    skos:prefLabel "[EV-M-50958] 21대 제386회 제3차 본회의"@ko ;
+    rico:name "제21대국회 제386회 제3차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0PK7354M,
         nadat2:PER-LM-0VU8517U,
@@ -7423,7 +7471,8 @@ nadat1:EV-M-50958 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51003 a rico:Event ;
-    skos:prefLabel "[EV-M-51003] 21대 본회의 제386회 제4차"@ko ;
+    skos:prefLabel "[EV-M-51003] 21대 제386회 제4차 본회의"@ko ;
+    rico:name "제21대국회 제386회 제4차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0827740Q,
         nadat2:PER-LM-25I8709Q,
@@ -7446,7 +7495,8 @@ nadat1:EV-M-51003 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51024 a rico:Event ;
-    skos:prefLabel "[EV-M-51024] 21대 본회의 제387회 제1차"@ko ;
+    skos:prefLabel "[EV-M-51024] 21대 제387회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제387회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-A2V51235,
         nadat2:PER-LM-BLC8630L,
@@ -7457,7 +7507,8 @@ nadat1:EV-M-51024 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51032 a rico:Event ;
-    skos:prefLabel "[EV-M-51032] 21대 본회의 제387회 제2차"@ko ;
+    skos:prefLabel "[EV-M-51032] 21대 제387회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제387회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0WL9321T,
         nadat2:PER-LM-3RW63706,
@@ -7489,7 +7540,8 @@ nadat1:EV-M-51032 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51059 a rico:Event ;
-    skos:prefLabel "[EV-M-51059] 21대 본회의 제388회 제1차"@ko ;
+    skos:prefLabel "[EV-M-51059] 21대 제388회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제388회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-LM-H5476989,
@@ -7498,7 +7550,8 @@ nadat1:EV-M-51059 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51062 a rico:Event ;
-    skos:prefLabel "[EV-M-51062] 21대 본회의 제388회 제2차"@ko ;
+    skos:prefLabel "[EV-M-51062] 21대 제388회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제388회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-LM-X7I4680R ;
@@ -7506,7 +7559,8 @@ nadat1:EV-M-51062 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51074 a rico:Event ;
-    skos:prefLabel "[EV-M-51074] 21대 본회의 제388회 제3차"@ko ;
+    skos:prefLabel "[EV-M-51074] 21대 제388회 제3차 본회의"@ko ;
+    rico:name "제21대국회 제388회 제3차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0YT3774N,
         nadat2:PER-LM-3ZR4438W,
@@ -7532,7 +7586,8 @@ nadat1:EV-M-51074 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51081 a rico:Event ;
-    skos:prefLabel "[EV-M-51081] 21대 본회의 제388회 제4차"@ko ;
+    skos:prefLabel "[EV-M-51081] 21대 제388회 제4차 본회의"@ko ;
+    rico:name "제21대국회 제388회 제4차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-3RW63706,
         nadat2:PER-LM-AFH96856,
@@ -7558,7 +7613,8 @@ nadat1:EV-M-51081 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51087 a rico:Event ;
-    skos:prefLabel "[EV-M-51087] 21대 본회의 제388회 제5차"@ko ;
+    skos:prefLabel "[EV-M-51087] 21대 제388회 제5차 본회의"@ko ;
+    rico:name "제21대국회 제388회 제5차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
         nadat2:PER-LM-3425169D,
@@ -7581,7 +7637,8 @@ nadat1:EV-M-51087 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51105 a rico:Event ;
-    skos:prefLabel "[EV-M-51105] 21대 본회의 제388회 제6차"@ko ;
+    skos:prefLabel "[EV-M-51105] 21대 제388회 제6차 본회의"@ko ;
+    rico:name "제21대국회 제388회 제6차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
         nadat2:PER-LM-17M85910,
@@ -7616,7 +7673,8 @@ nadat1:EV-M-51105 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51117 a rico:Event ;
-    skos:prefLabel "[EV-M-51117] 21대 본회의 제388회 제7차"@ko ;
+    skos:prefLabel "[EV-M-51117] 21대 제388회 제7차 본회의"@ko ;
+    rico:name "제21대국회 제388회 제7차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0PK7354M,
         nadat2:PER-LM-6AU2417B,
@@ -7639,7 +7697,8 @@ nadat1:EV-M-51117 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51123 a rico:Event ;
-    skos:prefLabel "[EV-M-51123] 21대 본회의 제389회 제1차"@ko ;
+    skos:prefLabel "[EV-M-51123] 21대 제389회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제389회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-S824682L,
         nadat2:PER-LM-UGH6481E,
@@ -7649,7 +7708,8 @@ nadat1:EV-M-51123 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51165 a rico:Event ;
-    skos:prefLabel "[EV-M-51165] 21대 본회의 제389회 제2차"@ko ;
+    skos:prefLabel "[EV-M-51165] 21대 제389회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제389회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-52P3934K,
         nadat2:PER-LM-5765663F,
@@ -7670,7 +7730,8 @@ nadat1:EV-M-51165 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51166 a rico:Event ;
-    skos:prefLabel "[EV-M-51166] 21대 본회의 제389회 제3차"@ko ;
+    skos:prefLabel "[EV-M-51166] 21대 제389회 제3차 본회의"@ko ;
+    rico:name "제21대국회 제389회 제3차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-8Q88373R,
         nadat2:PER-LM-BLC8630L,
@@ -7688,7 +7749,8 @@ nadat1:EV-M-51166 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51235 a rico:Event ;
-    skos:prefLabel "[EV-M-51235] 21대 본회의 제390회 제1차"@ko ;
+    skos:prefLabel "[EV-M-51235] 21대 제390회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제390회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
         nadat2:PER-LM-0PK7354M,
@@ -7736,7 +7798,8 @@ nadat1:EV-M-51235 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51237 a rico:Event ;
-    skos:prefLabel "[EV-M-51237] 21대 본회의 제391회 제0차"@ko ;
+    skos:prefLabel "[EV-M-51237] 21대 제391회 제0차 본회의"@ko ;
+    rico:name "제21대국회 제391회 제0차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-TMP-00002 ;
@@ -7744,7 +7807,8 @@ nadat1:EV-M-51237 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51238 a rico:Event ;
-    skos:prefLabel "[EV-M-51238] 21대 본회의 제391회 제1차"@ko ;
+    skos:prefLabel "[EV-M-51238] 21대 제391회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제391회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-LM-G152611B ;
@@ -7752,7 +7816,8 @@ nadat1:EV-M-51238 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51244 a rico:Event ;
-    skos:prefLabel "[EV-M-51244] 21대 본회의 제391회 제2차"@ko ;
+    skos:prefLabel "[EV-M-51244] 21대 제391회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제391회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-M0A1658U,
         nadat2:PER-LM-UGH6481E ;
@@ -7760,7 +7825,8 @@ nadat1:EV-M-51244 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51252 a rico:Event ;
-    skos:prefLabel "[EV-M-51252] 21대 본회의 제391회 제3차"@ko ;
+    skos:prefLabel "[EV-M-51252] 21대 제391회 제3차 본회의"@ko ;
+    rico:name "제21대국회 제391회 제3차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-NQR1206Q,
         nadat2:PER-LM-X7I4680R ;
@@ -7768,7 +7834,8 @@ nadat1:EV-M-51252 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51270 a rico:Event ;
-    skos:prefLabel "[EV-M-51270] 21대 본회의 제391회 제4차"@ko ;
+    skos:prefLabel "[EV-M-51270] 21대 제391회 제4차 본회의"@ko ;
+    rico:name "제21대국회 제391회 제4차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-3ZR4438W,
         nadat2:PER-LM-40S1959J,
@@ -7795,7 +7862,8 @@ nadat1:EV-M-51270 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51275 a rico:Event ;
-    skos:prefLabel "[EV-M-51275] 21대 본회의 제391회 제5차"@ko ;
+    skos:prefLabel "[EV-M-51275] 21대 제391회 제5차 본회의"@ko ;
+    rico:name "제21대국회 제391회 제5차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-3ZR4438W,
         nadat2:PER-LM-5KV96424,
@@ -7819,7 +7887,8 @@ nadat1:EV-M-51275 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51285 a rico:Event ;
-    skos:prefLabel "[EV-M-51285] 21대 본회의 제391회 제6차"@ko ;
+    skos:prefLabel "[EV-M-51285] 21대 제391회 제6차 본회의"@ko ;
+    rico:name "제21대국회 제391회 제6차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0767470D,
         nadat2:PER-LM-1BX7234U,
@@ -7848,7 +7917,8 @@ nadat1:EV-M-51285 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51293 a rico:Event ;
-    skos:prefLabel "[EV-M-51293] 21대 본회의 제391회 제7차"@ko ;
+    skos:prefLabel "[EV-M-51293] 21대 제391회 제7차 본회의"@ko ;
+    rico:name "제21대국회 제391회 제7차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
         nadat2:PER-LM-2NV6751W,
@@ -7878,7 +7948,8 @@ nadat1:EV-M-51293 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51313 a rico:Event ;
-    skos:prefLabel "[EV-M-51313] 21대 본회의 제391회 제8차"@ko ;
+    skos:prefLabel "[EV-M-51313] 21대 제391회 제8차 본회의"@ko ;
+    rico:name "제21대국회 제391회 제8차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-5KV96424,
         nadat2:PER-LM-66W6739S,
@@ -7897,7 +7968,8 @@ nadat1:EV-M-51313 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51321 a rico:Event ;
-    skos:prefLabel "[EV-M-51321] 21대 본회의 제391회 제9차"@ko ;
+    skos:prefLabel "[EV-M-51321] 21대 제391회 제9차 본회의"@ko ;
+    rico:name "제21대국회 제391회 제9차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-7I09543O,
         nadat2:PER-LM-7R156073,
@@ -7908,7 +7980,8 @@ nadat1:EV-M-51321 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51374 a rico:Event ;
-    skos:prefLabel "[EV-M-51374] 21대 본회의 제391회 제10차"@ko ;
+    skos:prefLabel "[EV-M-51374] 21대 제391회 제10차 본회의"@ko ;
+    rico:name "제21대국회 제391회 제10차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-TMP-00002,
@@ -7917,7 +7990,8 @@ nadat1:EV-M-51374 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51437 a rico:Event ;
-    skos:prefLabel "[EV-M-51437] 21대 본회의 제391회 제11차"@ko ;
+    skos:prefLabel "[EV-M-51437] 21대 제391회 제11차 본회의"@ko ;
+    rico:name "제21대국회 제391회 제11차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-6EN68926,
         nadat2:PER-LM-6U243644,
@@ -7949,7 +8023,8 @@ nadat1:EV-M-51437 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51623 a rico:Event ;
-    skos:prefLabel "[EV-M-51623] 21대 본회의 제391회 제12차"@ko ;
+    skos:prefLabel "[EV-M-51623] 21대 제391회 제12차 본회의"@ko ;
+    rico:name "제21대국회 제391회 제12차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0WL9321T,
         nadat2:PER-LM-3425169D,
@@ -7975,7 +8050,8 @@ nadat1:EV-M-51623 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51625 a rico:Event ;
-    skos:prefLabel "[EV-M-51625] 21대 본회의 제391회 제13차"@ko ;
+    skos:prefLabel "[EV-M-51625] 21대 제391회 제13차 본회의"@ko ;
+    rico:name "제21대국회 제391회 제13차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-LM-FJK3396E,
@@ -7991,7 +8067,8 @@ nadat1:EV-M-51625 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51657 a rico:Event ;
-    skos:prefLabel "[EV-M-51657] 21대 본회의 제391회 제14차"@ko ;
+    skos:prefLabel "[EV-M-51657] 21대 제391회 제14차 본회의"@ko ;
+    rico:name "제21대국회 제391회 제14차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-21N57758,
         nadat2:PER-LM-3BC6890E,
@@ -8026,7 +8103,8 @@ nadat1:EV-M-51657 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51710 a rico:Event ;
-    skos:prefLabel "[EV-M-51710] 21대 본회의 제392회 제1차"@ko ;
+    skos:prefLabel "[EV-M-51710] 21대 제392회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제392회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-4T026790,
         nadat2:PER-LM-A0P4646G,
@@ -8038,7 +8116,8 @@ nadat1:EV-M-51710 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51735 a rico:Event ;
-    skos:prefLabel "[EV-M-51735] 21대 본회의 제392회 제2차"@ko ;
+    skos:prefLabel "[EV-M-51735] 21대 제392회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제392회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-3425169D,
         nadat2:PER-LM-4019850M,
@@ -8059,7 +8138,8 @@ nadat1:EV-M-51735 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51741 a rico:Event ;
-    skos:prefLabel "[EV-M-51741] 21대 본회의 제393회 제0차"@ko ;
+    skos:prefLabel "[EV-M-51741] 21대 제393회 제0차 본회의"@ko ;
+    rico:name "제21대국회 제393회 제0차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-TMP-00046 ;
@@ -8067,7 +8147,8 @@ nadat1:EV-M-51741 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51742 a rico:Event ;
-    skos:prefLabel "[EV-M-51742] 21대 본회의 제393회 제1차"@ko ;
+    skos:prefLabel "[EV-M-51742] 21대 제393회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제393회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-TMP-00037 ;
@@ -8075,7 +8156,8 @@ nadat1:EV-M-51742 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51768 a rico:Event ;
-    skos:prefLabel "[EV-M-51768] 21대 본회의 제393회 제2차"@ko ;
+    skos:prefLabel "[EV-M-51768] 21대 제393회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제393회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-LM-RPN2293B,
@@ -8085,7 +8167,8 @@ nadat1:EV-M-51768 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51773 a rico:Event ;
-    skos:prefLabel "[EV-M-51773] 21대 본회의 제393회 제3차"@ko ;
+    skos:prefLabel "[EV-M-51773] 21대 제393회 제3차 본회의"@ko ;
+    rico:name "제21대국회 제393회 제3차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-LM-FJK3396E,
@@ -8096,7 +8179,8 @@ nadat1:EV-M-51773 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51791 a rico:Event ;
-    skos:prefLabel "[EV-M-51791] 21대 본회의 제394회 제1차"@ko ;
+    skos:prefLabel "[EV-M-51791] 21대 제394회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제394회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-6RM29022,
         nadat2:PER-LM-A3H7195R,
@@ -8112,7 +8196,8 @@ nadat1:EV-M-51791 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51808 a rico:Event ;
-    skos:prefLabel "[EV-M-51808] 21대 본회의 제395회 제1차"@ko ;
+    skos:prefLabel "[EV-M-51808] 21대 제395회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제395회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-2385336L,
         nadat2:PER-LM-71J2365L,
@@ -8127,7 +8212,8 @@ nadat1:EV-M-51808 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51836 a rico:Event ;
-    skos:prefLabel "[EV-M-51836] 21대 본회의 제395회 제2차"@ko ;
+    skos:prefLabel "[EV-M-51836] 21대 제395회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제395회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-6AU2417B,
         nadat2:PER-LM-BLC8630L,
@@ -8140,7 +8226,8 @@ nadat1:EV-M-51836 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51848 a rico:Event ;
-    skos:prefLabel "[EV-M-51848] 21대 본회의 제396회 제1차"@ko ;
+    skos:prefLabel "[EV-M-51848] 21대 제396회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제396회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-3BC6890E,
         nadat2:PER-LM-3C23171A,
@@ -8160,7 +8247,8 @@ nadat1:EV-M-51848 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51859 a rico:Event ;
-    skos:prefLabel "[EV-M-51859] 21대 본회의 제397회 제1차"@ko ;
+    skos:prefLabel "[EV-M-51859] 21대 제397회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제397회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-3C23171A,
         nadat2:PER-LM-6EN68926,
@@ -8169,7 +8257,8 @@ nadat1:EV-M-51859 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51894 a rico:Event ;
-    skos:prefLabel "[EV-M-51894] 21대 본회의 제397회 제2차"@ko ;
+    skos:prefLabel "[EV-M-51894] 21대 제397회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제397회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-TMP-00046,
@@ -8178,7 +8267,8 @@ nadat1:EV-M-51894 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51930 a rico:Event ;
-    skos:prefLabel "[EV-M-51930] 21대 본회의 제397회 제3차"@ko ;
+    skos:prefLabel "[EV-M-51930] 21대 제397회 제3차 본회의"@ko ;
+    rico:name "제21대국회 제397회 제3차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-BLC8630L,
         nadat2:PER-LM-BT62420K,
@@ -8191,7 +8281,8 @@ nadat1:EV-M-51930 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51954 a rico:Event ;
-    skos:prefLabel "[EV-M-51954] 21대 본회의 제397회 제4차"@ko ;
+    skos:prefLabel "[EV-M-51954] 21대 제397회 제4차 본회의"@ko ;
+    rico:name "제21대국회 제397회 제4차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-1X376850,
         nadat2:PER-LM-3425169D,
@@ -8232,7 +8323,8 @@ nadat1:EV-M-51954 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51975 a rico:Event ;
-    skos:prefLabel "[EV-M-51975] 21대 본회의 제398회 제1차"@ko ;
+    skos:prefLabel "[EV-M-51975] 21대 제398회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제398회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-6RD62559,
@@ -8251,7 +8343,8 @@ nadat1:EV-M-51975 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51979 a rico:Event ;
-    skos:prefLabel "[EV-M-51979] 21대 본회의 제398회 제2차"@ko ;
+    skos:prefLabel "[EV-M-51979] 21대 제398회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제398회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-3C23171A,
         nadat2:PER-LM-Q9H5708M,
@@ -8260,7 +8353,8 @@ nadat1:EV-M-51979 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51983 a rico:Event ;
-    skos:prefLabel "[EV-M-51983] 21대 본회의 제398회 제3차"@ko ;
+    skos:prefLabel "[EV-M-51983] 21대 제398회 제3차 본회의"@ko ;
+    rico:name "제21대국회 제398회 제3차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-GDG1847Z,
         nadat2:PER-LM-Q9H5708M ;
@@ -8268,7 +8362,8 @@ nadat1:EV-M-51983 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51984 a rico:Event ;
-    skos:prefLabel "[EV-M-51984] 21대 본회의 제398회 제4차"@ko ;
+    skos:prefLabel "[EV-M-51984] 21대 제398회 제4차 본회의"@ko ;
+    rico:name "제21대국회 제398회 제4차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-2385336L,
         nadat2:PER-LM-3TO11703,
@@ -8293,7 +8388,8 @@ nadat1:EV-M-51984 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51986 a rico:Event ;
-    skos:prefLabel "[EV-M-51986] 21대 본회의 제398회 제5차"@ko ;
+    skos:prefLabel "[EV-M-51986] 21대 제398회 제5차 본회의"@ko ;
+    rico:name "제21대국회 제398회 제5차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-6AU2417B,
@@ -8320,7 +8416,8 @@ nadat1:EV-M-51986 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51989 a rico:Event ;
-    skos:prefLabel "[EV-M-51989] 21대 본회의 제398회 제6차"@ko ;
+    skos:prefLabel "[EV-M-51989] 21대 제398회 제6차 본회의"@ko ;
+    rico:name "제21대국회 제398회 제6차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-09I2323E,
         nadat2:PER-LM-0W194007,
@@ -8347,7 +8444,8 @@ nadat1:EV-M-51989 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-51995 a rico:Event ;
-    skos:prefLabel "[EV-M-51995] 21대 본회의 제398회 제7차"@ko ;
+    skos:prefLabel "[EV-M-51995] 21대 제398회 제7차 본회의"@ko ;
+    rico:name "제21대국회 제398회 제7차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0PK7354M,
         nadat2:PER-LM-0W194007,
@@ -8375,7 +8473,8 @@ nadat1:EV-M-51995 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52011 a rico:Event ;
-    skos:prefLabel "[EV-M-52011] 21대 본회의 제398회 제8차"@ko ;
+    skos:prefLabel "[EV-M-52011] 21대 제398회 제8차 본회의"@ko ;
+    rico:name "제21대국회 제398회 제8차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-8VY63414,
         nadat2:PER-LM-GAV6441G,
@@ -8388,7 +8487,8 @@ nadat1:EV-M-52011 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52101 a rico:Event ;
-    skos:prefLabel "[EV-M-52101] 21대 본회의 제400회 제0차"@ko ;
+    skos:prefLabel "[EV-M-52101] 21대 제400회 제0차 본회의"@ko ;
+    rico:name "제21대국회 제400회 제0차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-Q9H5708M,
         nadat2:PER-TMP-00064 ;
@@ -8396,7 +8496,8 @@ nadat1:EV-M-52101 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52102 a rico:Event ;
-    skos:prefLabel "[EV-M-52102] 21대 본회의 제400회 제1차"@ko ;
+    skos:prefLabel "[EV-M-52102] 21대 제400회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제400회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-3C23171A,
         nadat2:PER-LM-6EN68926,
@@ -8409,7 +8510,8 @@ nadat1:EV-M-52102 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52115 a rico:Event ;
-    skos:prefLabel "[EV-M-52115] 21대 본회의 제400회 제2차"@ko ;
+    skos:prefLabel "[EV-M-52115] 21대 제400회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제400회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-5KV82250,
         nadat2:PER-LM-8VY63414,
@@ -8425,7 +8527,8 @@ nadat1:EV-M-52115 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52135 a rico:Event ;
-    skos:prefLabel "[EV-M-52135] 21대 본회의 제400회 제3차"@ko ;
+    skos:prefLabel "[EV-M-52135] 21대 제400회 제3차 본회의"@ko ;
+    rico:name "제21대국회 제400회 제3차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-60490713,
@@ -8448,7 +8551,8 @@ nadat1:EV-M-52135 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52139 a rico:Event ;
-    skos:prefLabel "[EV-M-52139] 21대 본회의 제400회 제4차"@ko ;
+    skos:prefLabel "[EV-M-52139] 21대 제400회 제4차 본회의"@ko ;
+    rico:name "제21대국회 제400회 제4차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-B7D7534L,
@@ -8471,7 +8575,8 @@ nadat1:EV-M-52139 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52147 a rico:Event ;
-    skos:prefLabel "[EV-M-52147] 21대 본회의 제400회 제5차"@ko ;
+    skos:prefLabel "[EV-M-52147] 21대 제400회 제5차 본회의"@ko ;
+    rico:name "제21대국회 제400회 제5차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-1WE5693J,
@@ -8497,7 +8602,8 @@ nadat1:EV-M-52147 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52156 a rico:Event ;
-    skos:prefLabel "[EV-M-52156] 21대 본회의 제400회 제6차"@ko ;
+    skos:prefLabel "[EV-M-52156] 21대 제400회 제6차 본회의"@ko ;
+    rico:name "제21대국회 제400회 제6차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-3TO11703,
@@ -8523,7 +8629,8 @@ nadat1:EV-M-52156 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52174 a rico:Event ;
-    skos:prefLabel "[EV-M-52174] 21대 본회의 제400회 제7차"@ko ;
+    skos:prefLabel "[EV-M-52174] 21대 제400회 제7차 본회의"@ko ;
+    rico:name "제21대국회 제400회 제7차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0PK7354M,
         nadat2:PER-LM-3425169D,
@@ -8548,7 +8655,8 @@ nadat1:EV-M-52174 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52178 a rico:Event ;
-    skos:prefLabel "[EV-M-52178] 21대 본회의 제400회 제8차"@ko ;
+    skos:prefLabel "[EV-M-52178] 21대 제400회 제8차 본회의"@ko ;
+    rico:name "제21대국회 제400회 제8차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-IUD9392R,
         nadat2:PER-LM-Q9H5708M ;
@@ -8556,7 +8664,8 @@ nadat1:EV-M-52178 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52182 a rico:Event ;
-    skos:prefLabel "[EV-M-52182] 21대 본회의 제400회 제9차"@ko ;
+    skos:prefLabel "[EV-M-52182] 21대 제400회 제9차 본회의"@ko ;
+    rico:name "제21대국회 제400회 제9차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-3C23171A,
         nadat2:PER-LM-6EN68926,
@@ -8569,7 +8678,8 @@ nadat1:EV-M-52182 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52246 a rico:Event ;
-    skos:prefLabel "[EV-M-52246] 21대 본회의 제400회 제10차"@ko ;
+    skos:prefLabel "[EV-M-52246] 21대 제400회 제10차 본회의"@ko ;
+    rico:name "제21대국회 제400회 제10차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-Q9H5708M,
         nadat2:PER-TMP-00048,
@@ -8578,7 +8688,8 @@ nadat1:EV-M-52246 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52260 a rico:Event ;
-    skos:prefLabel "[EV-M-52260] 21대 본회의 제400회 제11차"@ko ;
+    skos:prefLabel "[EV-M-52260] 21대 제400회 제11차 본회의"@ko ;
+    rico:name "제21대국회 제400회 제11차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-3DK8989T,
         nadat2:PER-LM-8KF7223D,
@@ -8597,7 +8708,8 @@ nadat1:EV-M-52260 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52334 a rico:Event ;
-    skos:prefLabel "[EV-M-52334] 21대 본회의 제400회 제12차"@ko ;
+    skos:prefLabel "[EV-M-52334] 21대 제400회 제12차 본회의"@ko ;
+    rico:name "제21대국회 제400회 제12차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-3C23171A,
@@ -8621,7 +8733,8 @@ nadat1:EV-M-52334 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52477 a rico:Event ;
-    skos:prefLabel "[EV-M-52477] 21대 본회의 제400회 제13차"@ko ;
+    skos:prefLabel "[EV-M-52477] 21대 제400회 제13차 본회의"@ko ;
+    rico:name "제21대국회 제400회 제13차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-3BC6890E,
         nadat2:PER-LM-71J2365L,
@@ -8646,7 +8759,8 @@ nadat1:EV-M-52477 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52588 a rico:Event ;
-    skos:prefLabel "[EV-M-52588] 21대 본회의 제400회 제14차"@ko ;
+    skos:prefLabel "[EV-M-52588] 21대 제400회 제14차 본회의"@ko ;
+    rico:name "제21대국회 제400회 제14차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-0WL9321T,
@@ -8680,7 +8794,8 @@ nadat1:EV-M-52588 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52605 a rico:Event ;
-    skos:prefLabel "[EV-M-52605] 21대 본회의 제401회 제1차"@ko ;
+    skos:prefLabel "[EV-M-52605] 21대 제401회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제401회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-3C23171A,
         nadat2:PER-LM-6EN68926,
@@ -8690,7 +8805,8 @@ nadat1:EV-M-52605 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52626 a rico:Event ;
-    skos:prefLabel "[EV-M-52626] 21대 본회의 제401회 제2차"@ko ;
+    skos:prefLabel "[EV-M-52626] 21대 제401회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제401회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-5KV96424,
         nadat2:PER-LM-6EN68926,
@@ -8718,7 +8834,8 @@ nadat1:EV-M-52626 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52627 a rico:Event ;
-    skos:prefLabel "[EV-M-52627] 21대 본회의 제401회 제3차"@ko ;
+    skos:prefLabel "[EV-M-52627] 21대 제401회 제3차 본회의"@ko ;
+    rico:name "제21대국회 제401회 제3차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-4019850M,
         nadat2:PER-LM-7469929V,
@@ -8738,7 +8855,8 @@ nadat1:EV-M-52627 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52637 a rico:Event ;
-    skos:prefLabel "[EV-M-52637] 21대 본회의 제401회 제4차"@ko ;
+    skos:prefLabel "[EV-M-52637] 21대 제401회 제4차 본회의"@ko ;
+    rico:name "제21대국회 제401회 제4차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0827740Q,
         nadat2:PER-LM-09I2323E,
@@ -8771,7 +8889,8 @@ nadat1:EV-M-52637 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52645 a rico:Event ;
-    skos:prefLabel "[EV-M-52645] 21대 본회의 제401회 제5차"@ko ;
+    skos:prefLabel "[EV-M-52645] 21대 제401회 제5차 본회의"@ko ;
+    rico:name "제21대국회 제401회 제5차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-GF286398,
         nadat2:PER-LM-JQA21112,
@@ -8783,7 +8902,8 @@ nadat1:EV-M-52645 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52659 a rico:Event ;
-    skos:prefLabel "[EV-M-52659] 21대 본회의 제402회 제1차"@ko ;
+    skos:prefLabel "[EV-M-52659] 21대 제402회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제402회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-3DK8989T,
@@ -8807,7 +8927,8 @@ nadat1:EV-M-52659 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52667 a rico:Event ;
-    skos:prefLabel "[EV-M-52667] 21대 본회의 제403회 제0차"@ko ;
+    skos:prefLabel "[EV-M-52667] 21대 제403회 제0차 본회의"@ko ;
+    rico:name "제21대국회 제403회 제0차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-Q9H5708M,
         nadat2:PER-TMP-00064 ;
@@ -8815,7 +8936,8 @@ nadat1:EV-M-52667 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52668 a rico:Event ;
-    skos:prefLabel "[EV-M-52668] 21대 본회의 제403회 제1차"@ko ;
+    skos:prefLabel "[EV-M-52668] 21대 제403회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제403회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-3C23171A,
         nadat2:PER-LM-Q9H5708M,
@@ -8824,7 +8946,8 @@ nadat1:EV-M-52668 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52669 a rico:Event ;
-    skos:prefLabel "[EV-M-52669] 21대 본회의 제403회 제2차"@ko ;
+    skos:prefLabel "[EV-M-52669] 21대 제403회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제403회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-2385336L,
@@ -8851,7 +8974,8 @@ nadat1:EV-M-52669 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52671 a rico:Event ;
-    skos:prefLabel "[EV-M-52671] 21대 본회의 제403회 제3차"@ko ;
+    skos:prefLabel "[EV-M-52671] 21대 제403회 제3차 본회의"@ko ;
+    rico:name "제21대국회 제403회 제3차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-2N793392,
@@ -8877,7 +9001,8 @@ nadat1:EV-M-52671 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52672 a rico:Event ;
-    skos:prefLabel "[EV-M-52672] 21대 본회의 제403회 제4차"@ko ;
+    skos:prefLabel "[EV-M-52672] 21대 제403회 제4차 본회의"@ko ;
+    rico:name "제21대국회 제403회 제4차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-3425169D,
@@ -8907,7 +9032,8 @@ nadat1:EV-M-52672 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52676 a rico:Event ;
-    skos:prefLabel "[EV-M-52676] 21대 본회의 제403회 제5차"@ko ;
+    skos:prefLabel "[EV-M-52676] 21대 제403회 제5차 본회의"@ko ;
+    rico:name "제21대국회 제403회 제5차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-S824682L ;
@@ -8915,7 +9041,8 @@ nadat1:EV-M-52676 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52684 a rico:Event ;
-    skos:prefLabel "[EV-M-52684] 21대 본회의 제403회 제6차"@ko ;
+    skos:prefLabel "[EV-M-52684] 21대 제403회 제6차 본회의"@ko ;
+    rico:name "제21대국회 제403회 제6차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-8SV6917G,
         nadat2:PER-LM-P0F1530P,
@@ -8924,7 +9051,8 @@ nadat1:EV-M-52684 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52743 a rico:Event ;
-    skos:prefLabel "[EV-M-52743] 21대 본회의 제403회 제7차"@ko ;
+    skos:prefLabel "[EV-M-52743] 21대 제403회 제7차 본회의"@ko ;
+    rico:name "제21대국회 제403회 제7차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-G7512472,
@@ -8936,7 +9064,8 @@ nadat1:EV-M-52743 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52751 a rico:Event ;
-    skos:prefLabel "[EV-M-52751] 21대 본회의 제403회 제8차"@ko ;
+    skos:prefLabel "[EV-M-52751] 21대 제403회 제8차 본회의"@ko ;
+    rico:name "제21대국회 제403회 제8차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-0WL9321T,
@@ -8968,7 +9097,8 @@ nadat1:EV-M-52751 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52800 a rico:Event ;
-    skos:prefLabel "[EV-M-52800] 21대 본회의 제404회 제1차"@ko ;
+    skos:prefLabel "[EV-M-52800] 21대 제404회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제404회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-0WL9321T,
@@ -8999,7 +9129,8 @@ nadat1:EV-M-52800 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52823 a rico:Event ;
-    skos:prefLabel "[EV-M-52823] 21대 본회의 제404회 제2차"@ko ;
+    skos:prefLabel "[EV-M-52823] 21대 제404회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제404회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
         nadat2:PER-LM-0PK7354M,
@@ -9028,7 +9159,8 @@ nadat1:EV-M-52823 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52838 a rico:Event ;
-    skos:prefLabel "[EV-M-52838] 21대 본회의 제405회 제1차"@ko ;
+    skos:prefLabel "[EV-M-52838] 21대 제405회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제405회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-5KV82250,
@@ -9057,7 +9189,8 @@ nadat1:EV-M-52838 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52843 a rico:Event ;
-    skos:prefLabel "[EV-M-52843] 21대 본회의 제405회 제2차"@ko ;
+    skos:prefLabel "[EV-M-52843] 21대 제405회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제405회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-52P3934K,
@@ -9084,7 +9217,8 @@ nadat1:EV-M-52843 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52845 a rico:Event ;
-    skos:prefLabel "[EV-M-52845] 21대 본회의 제405회 제3차"@ko ;
+    skos:prefLabel "[EV-M-52845] 21대 제405회 제3차 본회의"@ko ;
+    rico:name "제21대국회 제405회 제3차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-3RW63706,
@@ -9109,7 +9243,8 @@ nadat1:EV-M-52845 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52863 a rico:Event ;
-    skos:prefLabel "[EV-M-52863] 21대 본회의 제405회 제4차"@ko ;
+    skos:prefLabel "[EV-M-52863] 21대 제405회 제4차 본회의"@ko ;
+    rico:name "제21대국회 제405회 제4차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-6FS10566,
@@ -9133,7 +9268,8 @@ nadat1:EV-M-52863 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52897 a rico:Event ;
-    skos:prefLabel "[EV-M-52897] 21대 본회의 제405회 제5차"@ko ;
+    skos:prefLabel "[EV-M-52897] 21대 제405회 제5차 본회의"@ko ;
+    rico:name "제21대국회 제405회 제5차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
         nadat2:PER-LM-0W194007,
@@ -9176,7 +9312,8 @@ nadat1:EV-M-52897 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52945 a rico:Event ;
-    skos:prefLabel "[EV-M-52945] 21대 본회의 제406회 제1차"@ko ;
+    skos:prefLabel "[EV-M-52945] 21대 제406회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제406회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0PK7354M,
         nadat2:PER-LM-0W194007,
@@ -9218,7 +9355,8 @@ nadat1:EV-M-52945 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52962 a rico:Event ;
-    skos:prefLabel "[EV-M-52962] 21대 본회의 제406회 제2차"@ko ;
+    skos:prefLabel "[EV-M-52962] 21대 제406회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제406회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-CZB4125D,
         nadat2:PER-LM-FDC3144T,
@@ -9234,7 +9372,8 @@ nadat1:EV-M-52962 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52974 a rico:Event ;
-    skos:prefLabel "[EV-M-52974] 21대 본회의 제407회 제1차"@ko ;
+    skos:prefLabel "[EV-M-52974] 21대 제407회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제407회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-1Y73132H,
         nadat2:PER-LM-2UD1340H,
@@ -9263,7 +9402,8 @@ nadat1:EV-M-52974 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52975 a rico:Event ;
-    skos:prefLabel "[EV-M-52975] 21대 본회의 제407회 제2차"@ko ;
+    skos:prefLabel "[EV-M-52975] 21대 제407회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제407회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-8FB1535Y,
         nadat2:PER-LM-DPZ7685X,
@@ -9290,7 +9430,8 @@ nadat1:EV-M-52975 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52978 a rico:Event ;
-    skos:prefLabel "[EV-M-52978] 21대 본회의 제407회 제3차"@ko ;
+    skos:prefLabel "[EV-M-52978] 21대 제407회 제3차 본회의"@ko ;
+    rico:name "제21대국회 제407회 제3차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
         nadat2:PER-LM-1MU99298,
@@ -9325,7 +9466,8 @@ nadat1:EV-M-52978 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52985 a rico:Event ;
-    skos:prefLabel "[EV-M-52985] 21대 본회의 제407회 제4차"@ko ;
+    skos:prefLabel "[EV-M-52985] 21대 제407회 제4차 본회의"@ko ;
+    rico:name "제21대국회 제407회 제4차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-IUD9392R,
         nadat2:PER-LM-Q9H5708M ;
@@ -9333,7 +9475,8 @@ nadat1:EV-M-52985 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52988 a rico:Event ;
-    skos:prefLabel "[EV-M-52988] 21대 본회의 제407회 제5차"@ko ;
+    skos:prefLabel "[EV-M-52988] 21대 제407회 제5차 본회의"@ko ;
+    rico:name "제21대국회 제407회 제5차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-X7I4680R ;
@@ -9341,7 +9484,8 @@ nadat1:EV-M-52988 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-52991 a rico:Event ;
-    skos:prefLabel "[EV-M-52991] 21대 본회의 제407회 제6차"@ko ;
+    skos:prefLabel "[EV-M-52991] 21대 제407회 제6차 본회의"@ko ;
+    rico:name "제21대국회 제407회 제6차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0PK7354M,
         nadat2:PER-LM-3425169D,
@@ -9364,7 +9508,8 @@ nadat1:EV-M-52991 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53046 a rico:Event ;
-    skos:prefLabel "[EV-M-53046] 21대 본회의 제407회 제7차"@ko ;
+    skos:prefLabel "[EV-M-53046] 21대 제407회 제7차 본회의"@ko ;
+    rico:name "제21대국회 제407회 제7차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
         nadat2:PER-LM-09I2323E,
@@ -9406,7 +9551,8 @@ nadat1:EV-M-53046 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53077 a rico:Event ;
-    skos:prefLabel "[EV-M-53077] 21대 본회의 제408회 제1차"@ko ;
+    skos:prefLabel "[EV-M-53077] 21대 제408회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제408회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-0WL9321T,
@@ -9427,7 +9573,8 @@ nadat1:EV-M-53077 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53084 a rico:Event ;
-    skos:prefLabel "[EV-M-53084] 21대 본회의 제408회 제2차"@ko ;
+    skos:prefLabel "[EV-M-53084] 21대 제408회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제408회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0827740Q,
         nadat2:PER-LM-0W194007,
@@ -9453,7 +9600,8 @@ nadat1:EV-M-53084 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53131 a rico:Event ;
-    skos:prefLabel "[EV-M-53131] 21대 본회의 제409회 제1차"@ko ;
+    skos:prefLabel "[EV-M-53131] 21대 제409회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제409회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0PK7354M,
         nadat2:PER-LM-0WL9321T,
@@ -9481,7 +9629,8 @@ nadat1:EV-M-53131 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53168 a rico:Event ;
-    skos:prefLabel "[EV-M-53168] 21대 본회의 제410회 제1차"@ko ;
+    skos:prefLabel "[EV-M-53168] 21대 제410회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제410회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-1Y73132H,
         nadat2:PER-LM-Q9H5708M,
@@ -9492,7 +9641,8 @@ nadat1:EV-M-53168 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53169 a rico:Event ;
-    skos:prefLabel "[EV-M-53169] 21대 본회의 제410회 제0차"@ko ;
+    skos:prefLabel "[EV-M-53169] 21대 제410회 제0차 본회의"@ko ;
+    rico:name "제21대국회 제410회 제0차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-Q9H5708M,
         nadat2:PER-TMP-00064 ;
@@ -9500,7 +9650,8 @@ nadat1:EV-M-53169 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53184 a rico:Event ;
-    skos:prefLabel "[EV-M-53184] 21대 본회의 제410회 제2차"@ko ;
+    skos:prefLabel "[EV-M-53184] 21대 제410회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제410회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-09I2323E,
         nadat2:PER-LM-0W194007,
@@ -9524,7 +9675,8 @@ nadat1:EV-M-53184 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53194 a rico:Event ;
-    skos:prefLabel "[EV-M-53194] 21대 본회의 제410회 제3차"@ko ;
+    skos:prefLabel "[EV-M-53194] 21대 제410회 제3차 본회의"@ko ;
+    rico:name "제21대국회 제410회 제3차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-16D7652C,
@@ -9549,7 +9701,8 @@ nadat1:EV-M-53194 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53201 a rico:Event ;
-    skos:prefLabel "[EV-M-53201] 21대 본회의 제410회 제4차"@ko ;
+    skos:prefLabel "[EV-M-53201] 21대 제410회 제4차 본회의"@ko ;
+    rico:name "제21대국회 제410회 제4차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-7R156073,
@@ -9573,7 +9726,8 @@ nadat1:EV-M-53201 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53206 a rico:Event ;
-    skos:prefLabel "[EV-M-53206] 21대 본회의 제410회 제5차"@ko ;
+    skos:prefLabel "[EV-M-53206] 21대 제410회 제5차 본회의"@ko ;
+    rico:name "제21대국회 제410회 제5차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-1MU99298,
@@ -9600,7 +9754,8 @@ nadat1:EV-M-53206 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53224 a rico:Event ;
-    skos:prefLabel "[EV-M-53224] 21대 본회의 제410회 제6차"@ko ;
+    skos:prefLabel "[EV-M-53224] 21대 제410회 제6차 본회의"@ko ;
+    rico:name "제21대국회 제410회 제6차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-K3W33496,
         nadat2:PER-LM-Q9H5708M ;
@@ -9608,7 +9763,8 @@ nadat1:EV-M-53224 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53233 a rico:Event ;
-    skos:prefLabel "[EV-M-53233] 21대 본회의 제410회 제7차"@ko ;
+    skos:prefLabel "[EV-M-53233] 21대 제410회 제7차 본회의"@ko ;
+    rico:name "제21대국회 제410회 제7차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-ZRF3039U,
@@ -9617,7 +9773,8 @@ nadat1:EV-M-53233 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53247 a rico:Event ;
-    skos:prefLabel "[EV-M-53247] 21대 본회의 제410회 제8차"@ko ;
+    skos:prefLabel "[EV-M-53247] 21대 제410회 제8차 본회의"@ko ;
+    rico:name "제21대국회 제410회 제8차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-6AU2417B,
         nadat2:PER-LM-7BM2933Y,
@@ -9634,7 +9791,8 @@ nadat1:EV-M-53247 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53287 a rico:Event ;
-    skos:prefLabel "[EV-M-53287] 21대 본회의 제410회 제9차"@ko ;
+    skos:prefLabel "[EV-M-53287] 21대 제410회 제9차 본회의"@ko ;
+    rico:name "제21대국회 제410회 제9차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-1BX7234U,
@@ -9667,7 +9825,8 @@ nadat1:EV-M-53287 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53341 a rico:Event ;
-    skos:prefLabel "[EV-M-53341] 21대 본회의 제410회 제10차"@ko ;
+    skos:prefLabel "[EV-M-53341] 21대 제410회 제10차 본회의"@ko ;
+    rico:name "제21대국회 제410회 제10차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-Q9H5708M,
@@ -9677,7 +9836,8 @@ nadat1:EV-M-53341 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53391 a rico:Event ;
-    skos:prefLabel "[EV-M-53391] 21대 본회의 제410회 제11차"@ko ;
+    skos:prefLabel "[EV-M-53391] 21대 제410회 제11차 본회의"@ko ;
+    rico:name "제21대국회 제410회 제11차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-3425169D,
         nadat2:PER-LM-4019850M,
@@ -9696,7 +9856,8 @@ nadat1:EV-M-53391 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53561 a rico:Event ;
-    skos:prefLabel "[EV-M-53561] 21대 본회의 제410회 제12차"@ko ;
+    skos:prefLabel "[EV-M-53561] 21대 제410회 제12차 본회의"@ko ;
+    rico:name "제21대국회 제410회 제12차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-6AU2417B,
         nadat2:PER-LM-9JF4562W,
@@ -9712,7 +9873,8 @@ nadat1:EV-M-53561 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53577 a rico:Event ;
-    skos:prefLabel "[EV-M-53577] 21대 본회의 제410회 제13차"@ko ;
+    skos:prefLabel "[EV-M-53577] 21대 제410회 제13차 본회의"@ko ;
+    rico:name "제21대국회 제410회 제13차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-T465023H,
@@ -9721,7 +9883,8 @@ nadat1:EV-M-53577 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53628 a rico:Event ;
-    skos:prefLabel "[EV-M-53628] 21대 본회의 제410회 제14차"@ko ;
+    skos:prefLabel "[EV-M-53628] 21대 제410회 제14차 본회의"@ko ;
+    rico:name "제21대국회 제410회 제14차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
         nadat2:PER-LM-0W194007,
@@ -9764,7 +9927,8 @@ nadat1:EV-M-53628 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53696 a rico:Event ;
-    skos:prefLabel "[EV-M-53696] 21대 본회의 제411회 제1차"@ko ;
+    skos:prefLabel "[EV-M-53696] 21대 제411회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제411회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-17M85910,
@@ -9797,7 +9961,8 @@ nadat1:EV-M-53696 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53763 a rico:Event ;
-    skos:prefLabel "[EV-M-53763] 21대 본회의 제411회 제4차"@ko ;
+    skos:prefLabel "[EV-M-53763] 21대 제411회 제4차 본회의"@ko ;
+    rico:name "제21대국회 제411회 제4차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
         nadat2:PER-LM-0W194007,
@@ -9838,7 +10003,8 @@ nadat1:EV-M-53763 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53779 a rico:Event ;
-    skos:prefLabel "[EV-M-53779] 21대 본회의 제412회 제1차"@ko ;
+    skos:prefLabel "[EV-M-53779] 21대 제412회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제412회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-3TO11703,
@@ -9868,7 +10034,8 @@ nadat1:EV-M-53779 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53785 a rico:Event ;
-    skos:prefLabel "[EV-M-53785] 21대 본회의 제412회 제2차"@ko ;
+    skos:prefLabel "[EV-M-53785] 21대 제412회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제412회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0PK7354M,
         nadat2:PER-LM-0WL9321T,
@@ -9893,7 +10060,8 @@ nadat1:EV-M-53785 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53795 a rico:Event ;
-    skos:prefLabel "[EV-M-53795] 21대 본회의 제413회 제0차"@ko ;
+    skos:prefLabel "[EV-M-53795] 21대 제413회 제0차 본회의"@ko ;
+    rico:name "제21대국회 제413회 제0차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-Q9H5708M,
         nadat2:PER-TMP-00064 ;
@@ -9901,7 +10069,8 @@ nadat1:EV-M-53795 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53796 a rico:Event ;
-    skos:prefLabel "[EV-M-53796] 21대 본회의 제413회 제1차"@ko ;
+    skos:prefLabel "[EV-M-53796] 21대 제413회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제413회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-6AU2417B,
         nadat2:PER-LM-Q9H5708M,
@@ -9910,7 +10079,8 @@ nadat1:EV-M-53796 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53797 a rico:Event ;
-    skos:prefLabel "[EV-M-53797] 21대 본회의 제413회 제2차"@ko ;
+    skos:prefLabel "[EV-M-53797] 21대 제413회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제413회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-FRN1867O,
         nadat2:PER-LM-Q9H5708M ;
@@ -9918,7 +10088,8 @@ nadat1:EV-M-53797 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53800 a rico:Event ;
-    skos:prefLabel "[EV-M-53800] 21대 본회의 제413회 제3차"@ko ;
+    skos:prefLabel "[EV-M-53800] 21대 제413회 제3차 본회의"@ko ;
+    rico:name "제21대국회 제413회 제3차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-ZRF3039U ;
@@ -9926,7 +10097,8 @@ nadat1:EV-M-53800 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53804 a rico:Event ;
-    skos:prefLabel "[EV-M-53804] 21대 본회의 제413회 제4차"@ko ;
+    skos:prefLabel "[EV-M-53804] 21대 제413회 제4차 본회의"@ko ;
+    rico:name "제21대국회 제413회 제4차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-3ZR4438W,
@@ -9956,7 +10128,8 @@ nadat1:EV-M-53804 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53808 a rico:Event ;
-    skos:prefLabel "[EV-M-53808] 21대 본회의 제413회 제5차"@ko ;
+    skos:prefLabel "[EV-M-53808] 21대 제413회 제5차 본회의"@ko ;
+    rico:name "제21대국회 제413회 제5차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-0W194007,
         nadat2:PER-LM-1WE5693J,
@@ -9982,7 +10155,8 @@ nadat1:EV-M-53808 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53815 a rico:Event ;
-    skos:prefLabel "[EV-M-53815] 21대 본회의 제413회 제6차"@ko ;
+    skos:prefLabel "[EV-M-53815] 21대 제413회 제6차 본회의"@ko ;
+    rico:name "제21대국회 제413회 제6차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-04T3751T,
         nadat2:PER-LM-0W194007,
@@ -10019,7 +10193,8 @@ nadat1:EV-M-53815 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53832 a rico:Event ;
-    skos:prefLabel "[EV-M-53832] 21대 본회의 제414회 제1차"@ko ;
+    skos:prefLabel "[EV-M-53832] 21대 제414회 제1차 본회의"@ko ;
+    rico:name "제21대국회 제414회 제1차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-6AU2417B,
         nadat2:PER-LM-DV77269P,
@@ -10032,7 +10207,8 @@ nadat1:EV-M-53832 a rico:Event ;
     rico:isOrWasPerformedBy nadat2:NationalAssembly .
 
 nadat1:EV-M-53844 a rico:Event ;
-    skos:prefLabel "[EV-M-53844] 21대 본회의 제414회 제2차"@ko ;
+    skos:prefLabel "[EV-M-53844] 21대 제414회 제2차 본회의"@ko ;
+    rico:name "제21대국회 제414회 제2차 국회본회의"@ko ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-6AU2417B,
         nadat2:PER-LM-8FB1535Y,
@@ -10135,7 +10311,8 @@ nadat1:date-240219 a rico:Date ;
 
 nadat1:INS-200605_210108-01 a rico:Instantiation ;
     dcterms:coverage "2020-06-05/2021-01-08" ;
-    skos:prefLabel "[INS-200605_210108-01] 2020-2021 본회의 보존회의록"@ko ;
+    skos:prefLabel "[INS-200605_210108-01] 2020-2 본회의 보존회의록"@ko ;
+    rico:title "2020-2 본회의 보존회의록"@ko ;
     rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasOrHadCarrierType nam1:Paper ;
@@ -10148,7 +10325,8 @@ nadat1:INS-200605_210108-01 a rico:Instantiation ;
 
 nadat1:INS-210201_220111-01 a rico:Instantiation ;
     dcterms:coverage "2021-02-01/2022-01-11" ;
-    skos:prefLabel "[INS-210201_220111-01] 2021-2022 본회의 보존회의록"@ko ;
+    skos:prefLabel "[INS-210201_220111-01] 2021 본회의 보존회의록"@ko ;
+    rico:title "2021 본회의 보존회의록"@ko ;
     rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasOrHadCarrierType nam1:Paper ;
@@ -10162,7 +10340,8 @@ nadat1:INS-210201_220111-01 a rico:Instantiation ;
 
 nadat1:INS-220127_230108-01 a rico:Instantiation ;
     dcterms:coverage "2022-01-27/2023-01-08" ;
-    skos:prefLabel "[INS-220127_230108-01] 2022-2023 본회의 보존회의록"@ko ;
+    skos:prefLabel "[INS-220127_230108-01] 2022 본회의 보존회의록"@ko ;
+    rico:title "2022 본회의 보존회의록"@ko ;
     rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasOrHadCarrierType nam1:Paper ;
@@ -10176,7 +10355,8 @@ nadat1:INS-220127_230108-01 a rico:Instantiation ;
 
 nadat1:INS-230109_240109-01 a rico:Instantiation ;
     dcterms:coverage "2023-01-09/2024-01-09" ;
-    skos:prefLabel "[INS-230109_240109-01] 2023-2024 본회의 보존회의록"@ko ;
+    skos:prefLabel "[INS-230109_240109-01] 2023 본회의 보존회의록"@ko ;
+    rico:title "2023 본회의 보존회의록"@ko ;
     rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasOrHadCarrierType nam1:Paper ;
@@ -10189,7 +10369,8 @@ nadat1:INS-230109_240109-01 a rico:Instantiation ;
 
 nadat1:INS-240125_240529-01 a rico:Instantiation ;
     dcterms:coverage "2024-01-25/2024-05-29" ;
-    skos:prefLabel "[INS-240125_240529-01] 2024 본회의 보존회의록"@ko ;
+    skos:prefLabel "[INS-240125_240529-01] 2024-1 본회의 보존회의록"@ko ;
+    rico:title "2024-1 본회의 보존회의록"@ko ;
     rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasOrHadCarrierType nam1:Paper ;
