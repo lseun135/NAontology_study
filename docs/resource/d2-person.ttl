@@ -21888,3 +21888,19 @@ nadat2:PER-TMP-01266 a foaf:Person ;
 	foaf:name "강정애"@ko ;
 	nam2:isInAStateOf nam2:Provisional .
 
+
+
+nadat2:PER-TMP-01267 a foaf:Person ;
+	rdfs:label "박지원"@ko ;
+	foaf:name "박지원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01268 a foaf:Person ;
+	rdfs:label "이은희"@ko ;
+	foaf:name "이은희"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01269 a foaf:Person ;
+	rdfs:label "김남우"@ko ;
+	foaf:name "김남우"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
