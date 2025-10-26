@@ -1313,7 +1313,7 @@ nadat1:R100021037900150036 a rico:Record ;
     rico:hasCreationDate nadat1:date-200629 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-200605_210108-01,
+    rico:hasOrHadInstantiation nadat1:INS-200605_210108-01,
         nadat1:INS-21037900150036-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021037900150036" ;
@@ -1326,7 +1326,7 @@ nadat1:R100021037900250037 a rico:Record ;
     rico:hasCreationDate nadat1:date-200630 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-200605_210108-01,
+    rico:hasOrHadInstantiation nadat1:INS-200605_210108-01,
         nadat1:INS-21037900250037-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021037900250037" ;
@@ -1339,7 +1339,7 @@ nadat1:R100021038000150053 a rico:Record ;
     rico:hasCreationDate nadat1:date-200708 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-200605_210108-01,
+    rico:hasOrHadInstantiation nadat1:INS-200605_210108-01,
         nadat1:INS-21038000150053-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038000150053" ;
@@ -1352,7 +1352,7 @@ nadat1:R100021038000250062 a rico:Record ;
     rico:hasCreationDate nadat1:date-200720 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-200605_210108-01,
+    rico:hasOrHadInstantiation nadat1:INS-200605_210108-01,
         nadat1:INS-21038000250062-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038000250062" ;
@@ -1365,7 +1365,7 @@ nadat1:R100021038000350088 a rico:Record ;
     rico:hasCreationDate nadat1:date-200728 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-200605_210108-01,
+    rico:hasOrHadInstantiation nadat1:INS-200605_210108-01,
         nadat1:INS-21038000350088-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038000350088" ;
@@ -1378,7 +1378,7 @@ nadat1:R100021038200150159 a rico:Record ;
     rico:hasCreationDate nadat1:date-200902 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-200605_210108-01,
+    rico:hasOrHadInstantiation nadat1:INS-200605_210108-01,
         nadat1:INS-21038200150159-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038200150159" ;
@@ -1391,7 +1391,7 @@ nadat1:R100021038200250179 a rico:Record ;
     rico:hasCreationDate nadat1:date-200908 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-200605_210108-01,
+    rico:hasOrHadInstantiation nadat1:INS-200605_210108-01,
         nadat1:INS-21038200250179-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038200250179" ;
@@ -1404,7 +1404,7 @@ nadat1:R100021038200350261 a rico:Record ;
     rico:hasCreationDate nadat1:date-200924 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-200605_210108-01,
+    rico:hasOrHadInstantiation nadat1:INS-200605_210108-01,
         nadat1:INS-21038200350261-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038200350261" ;
@@ -1417,7 +1417,7 @@ nadat1:R100021038200450275 a rico:Record ;
     rico:hasCreationDate nadat1:date-201007 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-200605_210108-01,
+    rico:hasOrHadInstantiation nadat1:INS-200605_210108-01,
         nadat1:INS-21038200450275-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038200450275" ;
@@ -1430,7 +1430,7 @@ nadat1:R100021038200550292 a rico:Record ;
     rico:hasCreationDate nadat1:date-201015 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-200605_210108-01,
+    rico:hasOrHadInstantiation nadat1:INS-200605_210108-01,
         nadat1:INS-21038200550292-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038200550292" ;
@@ -1443,7 +1443,7 @@ nadat1:R100021038200650317 a rico:Record ;
     rico:hasCreationDate nadat1:date-201016 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-200605_210108-01,
+    rico:hasOrHadInstantiation nadat1:INS-200605_210108-01,
         nadat1:INS-21038200650317-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038200650317" ;
@@ -1456,7 +1456,7 @@ nadat1:R100021038200750318 a rico:Record ;
     rico:hasCreationDate nadat1:date-201023 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-200605_210108-01,
+    rico:hasOrHadInstantiation nadat1:INS-200605_210108-01,
         nadat1:INS-21038200750318-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038200750318" ;
@@ -1469,7 +1469,7 @@ nadat1:R100021038200850384 a rico:Record ;
     rico:hasCreationDate nadat1:date-201105 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-200605_210108-01,
+    rico:hasOrHadInstantiation nadat1:INS-200605_210108-01,
         nadat1:INS-21038200850384-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038200850384" ;
@@ -1482,7 +1482,7 @@ nadat1:R100021038200950411 a rico:Record ;
     rico:hasCreationDate nadat1:date-201109 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-200605_210108-01,
+    rico:hasOrHadInstantiation nadat1:INS-200605_210108-01,
         nadat1:INS-21038200950411-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038200950411" ;
@@ -1495,7 +1495,7 @@ nadat1:R100021038201050429 a rico:Record ;
     rico:hasCreationDate nadat1:date-201112 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-200605_210108-01,
+    rico:hasOrHadInstantiation nadat1:INS-200605_210108-01,
         nadat1:INS-21038201050429-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038201050429" ;
@@ -1508,7 +1508,7 @@ nadat1:R100021038201150464 a rico:Record ;
     rico:hasCreationDate nadat1:date-201117 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-200605_210108-01,
+    rico:hasOrHadInstantiation nadat1:INS-200605_210108-01,
         nadat1:INS-21038201150464-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038201150464" ;
@@ -1521,7 +1521,7 @@ nadat1:R100021038201250556 a rico:Record ;
     rico:hasCreationDate nadat1:date-201126 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-200605_210108-01,
+    rico:hasOrHadInstantiation nadat1:INS-200605_210108-01,
         nadat1:INS-21038201250556-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038201250556" ;
@@ -1534,7 +1534,7 @@ nadat1:R100021038400150748 a rico:Record ;
     rico:hasCreationDate nadat1:date-210201 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21038400150748-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038400150748" ;
@@ -1547,7 +1547,7 @@ nadat1:R100021038400250807 a rico:Record ;
     rico:hasCreationDate nadat1:date-210217 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21038400250807-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038400250807" ;
@@ -1560,7 +1560,7 @@ nadat1:R100021038400350803 a rico:Record ;
     rico:hasCreationDate nadat1:date-210218 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21038400350803-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038400350803" ;
@@ -1573,7 +1573,7 @@ nadat1:R100021038400450856 a rico:Record ;
     rico:hasCreationDate nadat1:date-210224 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21038400450856-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038400450856" ;
@@ -1586,7 +1586,7 @@ nadat1:R100021038500150900 a rico:Record ;
     rico:hasCreationDate nadat1:date-210317 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21038500150900-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038500150900" ;
@@ -1599,7 +1599,7 @@ nadat1:R100021038600150976 a rico:Record ;
     rico:hasCreationDate nadat1:date-210422 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21038600150976-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038600150976" ;
@@ -1612,7 +1612,7 @@ nadat1:R100021038600251006 a rico:Record ;
     rico:hasCreationDate nadat1:date-210429 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21038600251006-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038600251006" ;
@@ -1625,7 +1625,7 @@ nadat1:R100021038700151013 a rico:Record ;
     rico:hasCreationDate nadat1:date-210504 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21038700151013-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038700151013" ;
@@ -1638,7 +1638,7 @@ nadat1:R100021038700251025 a rico:Record ;
     rico:hasCreationDate nadat1:date-210513 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21038700251025-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038700251025" ;
@@ -1651,7 +1651,7 @@ nadat1:R100021038700351050 a rico:Record ;
     rico:hasCreationDate nadat1:date-210527 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21038700351050-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038700351050" ;
@@ -1664,7 +1664,7 @@ nadat1:R100021038800151070 a rico:Record ;
     rico:hasCreationDate nadat1:date-210616 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21038800151070-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038800151070" ;
@@ -1677,7 +1677,7 @@ nadat1:R100021038800251101 a rico:Record ;
     rico:hasCreationDate nadat1:date-210624 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21038800251101-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038800251101" ;
@@ -1690,7 +1690,7 @@ nadat1:R100021038900151159 a rico:Record ;
     rico:hasCreationDate nadat1:date-210720 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21038900151159-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038900151159" ;
@@ -1703,7 +1703,7 @@ nadat1:R100021038900251171 a rico:Record ;
     rico:hasCreationDate nadat1:date-210727 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21038900251171-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021038900251171" ;
@@ -1716,7 +1716,7 @@ nadat1:R100021039100151262 a rico:Record ;
     rico:hasCreationDate nadat1:date-210909 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21039100151262-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039100151262" ;
@@ -1729,7 +1729,7 @@ nadat1:R100021039100251287 a rico:Record ;
     rico:hasCreationDate nadat1:date-210914 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21039100251287-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039100251287" ;
@@ -1742,7 +1742,7 @@ nadat1:R100021039100351309 a rico:Record ;
     rico:hasCreationDate nadat1:date-210927 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21039100351309-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039100351309" ;
@@ -1755,7 +1755,7 @@ nadat1:R100021039100451327 a rico:Record ;
     rico:hasCreationDate nadat1:date-211005 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21039100451327-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039100451327" ;
@@ -1768,7 +1768,7 @@ nadat1:R100021039100551348 a rico:Record ;
     rico:hasCreationDate nadat1:date-211014 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21039100551348-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039100551348" ;
@@ -1781,7 +1781,7 @@ nadat1:R100021039100651355 a rico:Record ;
     rico:hasCreationDate nadat1:date-211015 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21039100651355-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039100651355" ;
@@ -1794,7 +1794,7 @@ nadat1:R100021039100751444 a rico:Record ;
     rico:hasCreationDate nadat1:date-211109 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21039100751444-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039100751444" ;
@@ -1807,7 +1807,7 @@ nadat1:R100021039100851483 a rico:Record ;
     rico:hasCreationDate nadat1:date-211111 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21039100851483-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039100851483" ;
@@ -1820,7 +1820,7 @@ nadat1:R100021039100951525 a rico:Record ;
     rico:hasCreationDate nadat1:date-211122 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21039100951525-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039100951525" ;
@@ -1833,7 +1833,7 @@ nadat1:R100021039101051636 a rico:Record ;
     rico:hasCreationDate nadat1:date-211202 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-210201_220111-01,
+    rico:hasOrHadInstantiation nadat1:INS-210201_220111-01,
         nadat1:INS-21039101051636-02 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039101051636" ;
@@ -1846,7 +1846,7 @@ nadat1:R100021039400151790 a rico:Record ;
     rico:hasCreationDate nadat1:date-220330 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21039400151790-02,
+    rico:hasOrHadInstantiation nadat1:INS-21039400151790-02,
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039400151790" ;
@@ -1859,7 +1859,7 @@ nadat1:R100021039500151839 a rico:Record ;
     rico:hasCreationDate nadat1:date-220426 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21039500151839-02,
+    rico:hasOrHadInstantiation nadat1:INS-21039500151839-02,
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039500151839" ;
@@ -1872,7 +1872,7 @@ nadat1:R100021039700151863 a rico:Record ;
     rico:hasCreationDate nadat1:date-220503 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21039700151863-02,
+    rico:hasOrHadInstantiation nadat1:INS-21039700151863-02,
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039700151863" ;
@@ -1885,7 +1885,7 @@ nadat1:R100021039700251896 a rico:Record ;
     rico:hasCreationDate nadat1:date-220516 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21039700251896-02,
+    rico:hasOrHadInstantiation nadat1:INS-21039700251896-02,
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039700251896" ;
@@ -1898,7 +1898,7 @@ nadat1:R100021039700351912 a rico:Record ;
     rico:hasCreationDate nadat1:date-220517 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21039700351912-02,
+    rico:hasOrHadInstantiation nadat1:INS-21039700351912-02,
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039700351912" ;
@@ -1911,7 +1911,7 @@ nadat1:R100021039800151996 a rico:Record ;
     rico:hasCreationDate nadat1:date-220727 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21039800151996-02,
+    rico:hasOrHadInstantiation nadat1:INS-21039800151996-02,
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039800151996" ;
@@ -1924,7 +1924,7 @@ nadat1:R100021039800252005 a rico:Record ;
     rico:hasCreationDate nadat1:date-220729 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21039800252005-02,
+    rico:hasOrHadInstantiation nadat1:INS-21039800252005-02,
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039800252005" ;
@@ -1937,7 +1937,7 @@ nadat1:R100021039900152047 a rico:Record ;
     rico:hasCreationDate nadat1:date-220818 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21039900152047-02,
+    rico:hasOrHadInstantiation nadat1:INS-21039900152047-02,
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039900152047" ;
@@ -1950,7 +1950,7 @@ nadat1:R100021039900252067 a rico:Record ;
     rico:hasCreationDate nadat1:date-220824 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21039900252067-02,
+    rico:hasOrHadInstantiation nadat1:INS-21039900252067-02,
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021039900252067" ;
@@ -1963,7 +1963,7 @@ nadat1:R100021040000152118 a rico:Record ;
     rico:hasCreationDate nadat1:date-220907 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040000152118-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040000152118-02,
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040000152118" ;
@@ -1976,7 +1976,7 @@ nadat1:R100021040000252145 a rico:Record ;
     rico:hasCreationDate nadat1:date-220920 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040000252145-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040000252145-02,
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040000252145" ;
@@ -1989,7 +1989,7 @@ nadat1:R100021040000352176 a rico:Record ;
     rico:hasCreationDate nadat1:date-220927 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040000352176-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040000352176-02,
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040000352176" ;
@@ -2002,7 +2002,7 @@ nadat1:R100021040000452194 a rico:Record ;
     rico:hasCreationDate nadat1:date-221004 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040000452194-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040000452194-02,
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040000452194" ;
@@ -2015,7 +2015,7 @@ nadat1:R100021040000552209 a rico:Record ;
     rico:hasCreationDate nadat1:date-221013 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040000552209-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040000552209-02,
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040000552209" ;
@@ -2028,7 +2028,7 @@ nadat1:R100021040000652210 a rico:Record ;
     rico:hasCreationDate nadat1:date-221014 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040000652210-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040000652210-02,
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040000652210" ;
@@ -2041,7 +2041,7 @@ nadat1:R100021040000752237 a rico:Record ;
     rico:hasCreationDate nadat1:date-221017 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040000752237-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040000752237-02,
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040000752237" ;
@@ -2054,7 +2054,7 @@ nadat1:R100021040000852247 a rico:Record ;
     rico:hasCreationDate nadat1:date-221024 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040000852247-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040000852247-02,
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040000852247" ;
@@ -2067,7 +2067,7 @@ nadat1:R100021040000952333 a rico:Record ;
     rico:hasCreationDate nadat1:date-221107 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040000952333-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040000952333-02,
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040000952333" ;
@@ -2080,7 +2080,7 @@ nadat1:R100021040001052362 a rico:Record ;
     rico:hasCreationDate nadat1:date-221110 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040001052362-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040001052362-02,
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040001052362" ;
@@ -2093,7 +2093,7 @@ nadat1:R100021040001152557 a rico:Record ;
     rico:hasCreationDate nadat1:date-221201 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040001152557-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040001152557-02,
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040001152557" ;
@@ -2106,7 +2106,7 @@ nadat1:R100021040001252559 a rico:Record ;
     rico:hasCreationDate nadat1:date-221202 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040001252559-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040001252559-02,
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040001252559" ;
@@ -2119,7 +2119,7 @@ nadat1:R100021040100152634 a rico:Record ;
     rico:hasCreationDate nadat1:date-221227 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040100152634-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040100152634-02,
         nadat1:INS-220127_230108-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040100152634" ;
@@ -2132,7 +2132,7 @@ nadat1:R100021040300152682 a rico:Record ;
     rico:hasCreationDate nadat1:date-230209 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040300152682-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040300152682-02,
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040300152682" ;
@@ -2145,7 +2145,7 @@ nadat1:R100021040400152785 a rico:Record ;
     rico:hasCreationDate nadat1:date-230321 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040400152785-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040400152785-02,
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040400152785" ;
@@ -2158,7 +2158,7 @@ nadat1:R100021040400252822 a rico:Record ;
     rico:hasCreationDate nadat1:date-230328 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040400252822-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040400252822-02,
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040400252822" ;
@@ -2171,7 +2171,7 @@ nadat1:R100021040600152948 a rico:Record ;
     rico:hasCreationDate nadat1:date-230524 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040600152948-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040600152948-02,
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040600152948" ;
@@ -2184,7 +2184,7 @@ nadat1:R100021040700153018 a rico:Record ;
     rico:hasCreationDate nadat1:date-230622 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040700153018-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040700153018-02,
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040700153018" ;
@@ -2197,7 +2197,7 @@ nadat1:R100021040700253027 a rico:Record ;
     rico:hasCreationDate nadat1:date-230626 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040700253027-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040700253027-02,
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040700253027" ;
@@ -2210,7 +2210,7 @@ nadat1:R100021040800153085 a rico:Record ;
     rico:hasCreationDate nadat1:date-230726 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040800153085-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040800153085-02,
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040800153085" ;
@@ -2223,7 +2223,7 @@ nadat1:R100021040800253090 a rico:Record ;
     rico:hasCreationDate nadat1:date-230727 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040800253090-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040800253090-02,
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040800253090" ;
@@ -2236,7 +2236,7 @@ nadat1:R100021040800353102 a rico:Record ;
     rico:hasCreationDate nadat1:date-230810 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040800353102-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040800353102-02,
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040800353102" ;
@@ -2249,7 +2249,7 @@ nadat1:R100021040900153109 a rico:Record ;
     rico:hasCreationDate nadat1:date-230818 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040900153109-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040900153109-02,
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040900153109" ;
@@ -2262,7 +2262,7 @@ nadat1:R100021040900253163 a rico:Record ;
     rico:hasCreationDate nadat1:date-230831 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21040900253163-02,
+    rico:hasOrHadInstantiation nadat1:INS-21040900253163-02,
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021040900253163" ;
@@ -2275,7 +2275,7 @@ nadat1:R100021041000153185 a rico:Record ;
     rico:hasCreationDate nadat1:date-230904 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21041000153185-02,
+    rico:hasOrHadInstantiation nadat1:INS-21041000153185-02,
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041000153185" ;
@@ -2288,7 +2288,7 @@ nadat1:R100021041000253199 a rico:Record ;
     rico:hasCreationDate nadat1:date-230906 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21041000253199-02,
+    rico:hasOrHadInstantiation nadat1:INS-21041000253199-02,
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041000253199" ;
@@ -2301,7 +2301,7 @@ nadat1:R100021041000353212 a rico:Record ;
     rico:hasCreationDate nadat1:date-230912 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21041000353212-02,
+    rico:hasOrHadInstantiation nadat1:INS-21041000353212-02,
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041000353212" ;
@@ -2314,7 +2314,7 @@ nadat1:R100021041000453261 a rico:Record ;
     rico:hasCreationDate nadat1:date-230921 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21041000453261-02,
+    rico:hasOrHadInstantiation nadat1:INS-21041000453261-02,
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041000453261" ;
@@ -2327,7 +2327,7 @@ nadat1:R100021041000553307 a rico:Record ;
     rico:hasCreationDate nadat1:date-231010 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21041000553307-02,
+    rico:hasOrHadInstantiation nadat1:INS-21041000553307-02,
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041000553307" ;
@@ -2340,7 +2340,7 @@ nadat1:R100021041000653321 a rico:Record ;
     rico:hasCreationDate nadat1:date-231019 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21041000653321-02,
+    rico:hasOrHadInstantiation nadat1:INS-21041000653321-02,
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041000653321" ;
@@ -2353,7 +2353,7 @@ nadat1:R100021041000753331 a rico:Record ;
     rico:hasCreationDate nadat1:date-231024 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21041000753331-02,
+    rico:hasOrHadInstantiation nadat1:INS-21041000753331-02,
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041000753331" ;
@@ -2366,7 +2366,7 @@ nadat1:R100021041000853352 a rico:Record ;
     rico:hasCreationDate nadat1:date-231101 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21041000853352-02,
+    rico:hasOrHadInstantiation nadat1:INS-21041000853352-02,
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041000853352" ;
@@ -2379,7 +2379,7 @@ nadat1:R100021041000953370 a rico:Record ;
     rico:hasCreationDate nadat1:date-231107 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21041000953370-02,
+    rico:hasOrHadInstantiation nadat1:INS-21041000953370-02,
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041000953370" ;
@@ -2392,7 +2392,7 @@ nadat1:R100021041001053608 a rico:Record ;
     rico:hasCreationDate nadat1:date-231205 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21041001053608-02,
+    rico:hasOrHadInstantiation nadat1:INS-21041001053608-02,
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041001053608" ;
@@ -2405,7 +2405,7 @@ nadat1:R100021041100453759 a rico:Record ;
     rico:hasCreationDate nadat1:date-240108 ;
     rico:hasCreator nadat2:NAS-0001-0001 ;
     rico:hasDocumentaryFormType nam1:Minutes ;
-    rico:hasInstantiation nadat1:INS-21041100453759-02,
+    rico:hasOrHadInstantiation nadat1:INS-21041100453759-02,
         nadat1:INS-230109_240109-01 ;
     rico:hasOrHadLanguage nam1:lang-kor ;
     rico:identifier "R100021041100453759" ;
