@@ -32,9 +32,19 @@
                 owl:imports <https://lseun135.github.io/NAontology_study/m1-record.ttl> ,
                         <https://lseun135.github.io/NAontology_study/resource/d2-person> ,
                         <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AA.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AB.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AC.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AD.ttl> ,
                         <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AE.ttl> ,
                         <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AF.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AG.ttl> ,
                         <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AH.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AI.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AJ.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AK.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AL.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AM.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AN.ttl> ,
                         <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AO.ttl> .
 
 
