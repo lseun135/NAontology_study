@@ -35,6 +35,12 @@
 
 
 
+nadat1:RS100021 a rico:RecordSet ;
+    skos:prefLabel "[RS100021] 21대"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021" ;
+    rico:includesOrIncluded nadat1:RS100021-PLEN ;
+    rico:name "제21대"@ko .
 
 
 
