@@ -45,7 +45,9 @@
                         <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AL.ttl> ,
                         <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AM.ttl> ,
                         <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AN.ttl> ,
-                        <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AO.ttl> .
+                        <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AO.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AP.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AQ.ttl> .
 
 
 
