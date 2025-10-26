@@ -22359,26 +22359,21 @@ nadat2:PER-TMP-01359 a foaf:Person ;
 	nam2:isInAStateOf nam2:Provisional .
 
 nadat2:PER-TMP-01360 a foaf:Person ;
-	rdfs:label "양이원영"@ko ;
-	foaf:name "양이원영"@ko ;
-	nam2:isInAStateOf nam2:Provisional .
-
-nadat2:PER-TMP-01361 a foaf:Person ;
 	rdfs:label "김남근"@ko ;
 	foaf:name "김남근"@ko ;
 	nam2:isInAStateOf nam2:Provisional .
 
-nadat2:PER-TMP-01362 a foaf:Person ;
+nadat2:PER-TMP-01361 a foaf:Person ;
 	rdfs:label "오동석"@ko ;
 	foaf:name "오동석"@ko ;
 	nam2:isInAStateOf nam2:Provisional .
 
-nadat2:PER-TMP-01363 a foaf:Person ;
+nadat2:PER-TMP-01362 a foaf:Person ;
 	rdfs:label "김용빈"@ko ;
 	foaf:name "김용빈"@ko ;
 	nam2:isInAStateOf nam2:Provisional .
 
-nadat2:PER-TMP-01364 a foaf:Person ;
+nadat2:PER-TMP-01363 a foaf:Person ;
 	rdfs:label "우철문"@ko ;
 	foaf:name "우철문"@ko ;
 	nam2:isInAStateOf nam2:Provisional .
