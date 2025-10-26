@@ -30,6 +30,8 @@
 
 <https://lseun135.github.io/NAontology_study/resource/d1-record.ttl> rdf:type owl:Ontology ;
                 owl:imports <https://lseun135.github.io/NAontology_study/m1-record.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/d2-person> ,
+                        <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AE.ttl> ,
                         <https://lseun135.github.io/NAontology_study/resource/d1-record_SC-AF.ttl> .
 
 
