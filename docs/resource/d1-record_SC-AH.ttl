@@ -25,3 +25,3946 @@
 
 
 @base <https://lseun135.github.io/NAontology_study/resource/d1-record> .
+
+
+
+
+nadat1:RS100021 rico:includesOrIncluded nadat1:RS100021-AH .
+
+nadat1:ACT-M-50016-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50016-002] 제379회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50016-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50016 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제379회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-50042-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50042-002] 제379회 제2차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50042-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50042 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제379회 제2차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-50068-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50068-002] 제380회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50068-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50068 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제380회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-50082-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50082-002] 제380회 제2차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50082-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50082 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제380회 제2차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-50127-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50127-002] 제381회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50127-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50127 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제381회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-50153-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50153-002] 제382회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50153-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50153 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제382회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-50168-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50168-002] 제382회 제2차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50168-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50168 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제382회 제2차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-50193-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50193-002] 제382회 제3차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50193-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50193 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제382회 제3차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-50208-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50208-002] 제382회 제4차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50208-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50208 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제382회 제4차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-50257-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50257-002] 제382회 제5차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50257-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50257 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제382회 제5차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-50269-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50269-002] 제382회 제6차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50269-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50269 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제382회 제6차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-50280-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50280-002] 제382회 제7차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50280-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50280 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제382회 제7차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-50295-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50295-002] 제382회 제8차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50295-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50295 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제382회 제8차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-50393-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50393-002] 제382회 제9차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50393-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50393 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제382회 제9차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-50436-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50436-002] 제382회 제10차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50436-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50436 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제382회 제10차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-50501-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50501-002] 제382회 제11차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50501-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50501 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제382회 제11차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-50671-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50671-002] 제382회 제12차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50671-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50671 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제382회 제12차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-50789-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50789-002] 제384회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50789-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50789 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제384회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-50829-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50829-002] 제384회 제2차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50829-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50829 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제384회 제2차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-50899-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50899-002] 제385회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50899-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50899 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제385회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-51002-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51002-002] 제386회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51002-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51002 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제386회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-51049-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51049-002] 제387회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51049-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51049 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제387회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-51055-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51055-002] 제388회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51055-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51055 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제388회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-51170-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51170-002] 제389회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51170-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51170 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제389회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-51203-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51203-002] 제390회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51203-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51203 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제390회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-51247-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51247-002] 제391회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51247-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51247 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제391회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-51291-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51291-002] 제391회 제2차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51291-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51291 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제391회 제2차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-51439-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51439-002] 제391회 제3차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51439-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51439 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제391회 제3차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-51533-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51533-002] 제391회 제4차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51533-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51533 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제391회 제4차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-51604-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51604-002] 제391회 제5차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51604-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51604 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제391회 제5차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-51726-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51726-002] 제392회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51726-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51726 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제392회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-51779-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51779-002] 제393회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51779-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51779 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제393회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-51782-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51782-002] 제394회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51782-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51782 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제394회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-51785-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51785-002] 제394회 제2차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51785-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51785 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제394회 제2차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-51817-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51817-002] 제395회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51817-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51817 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제395회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-51834-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51834-002] 제395회 제2차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51834-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51834 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제395회 제2차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-51864-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51864-002] 제397회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51864-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51864 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제397회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-51880-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51880-002] 제397회 제2차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51880-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51880 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제397회 제2차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-51911-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51911-002] 제397회 제3차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51911-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51911 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제397회 제3차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-52015-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52015-002] 제398회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52015-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52015 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제398회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-52086-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52086-002] 제399회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52086-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52086 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제399회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-52099-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52099-002] 제399회 제2차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52099-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52099 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제399회 제2차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-52137-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52137-002] 제400회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52137-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52137 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제400회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-52192-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52192-002] 제400회 제2차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52192-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52192 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제400회 제2차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-52276-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52276-002] 제400회 제3차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52276-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52276 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제400회 제3차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-52306-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52306-002] 제400회 제4차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52306-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52306 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제400회 제4차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-52425-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52425-002] 제400회 제5차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52425-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52425 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제400회 제5차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-52639-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52639-002] 제401회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52639-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52639 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제401회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-52658-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52658-002] 제402회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52658-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52658 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제402회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-52717-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52717-002] 제403회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52717-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52717 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제403회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-52808-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52808-002] 제404회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52808-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52808 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제404회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-52853-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52853-002] 제405회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52853-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52853 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제405회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-52970-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52970-002] 제407회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52970-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52970 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제407회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-53103-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53103-002] 제409회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53103-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53103 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제409회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-53122-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53122-002] 제409회 제2차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53122-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53122 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제409회 제2차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-53149-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53149-002] 제409회 제3차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53149-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53149 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제409회 제3차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-53195-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53195-002] 제410회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53195-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53195 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제410회 제1차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-53226-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53226-002] 제410회 제2차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53226-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53226 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제410회 제2차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-53240-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53240-002] 제410회 제3차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53240-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53240 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제410회 제3차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-53766-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53766-002] 제411회 제2차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53766-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53766 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제411회 제2차 국방위원회 심의"@ko .
+
+nadat1:ACT-M-53825-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53825-002] 제413회 제1차 국방위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53825-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53825 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AH ;
+    rico:name "제413회 제1차 국방위원회 심의"@ko .
+
+nadat1:INS-AH-21037900150016-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21037900150016-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21037900150016-02" ;
+    rico:title "제379회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21037900250042-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21037900250042-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21037900250042-02" ;
+    rico:title "제379회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AH-21038000150068-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21038000150068-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21038000150068-02" ;
+    rico:title "제380회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21038000250082-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21038000250082-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21038000250082-02" ;
+    rico:title "제380회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AH-21038100150127-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21038100150127-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21038100150127-02" ;
+    rico:title "제381회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21038200150153-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21038200150153-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21038200150153-02" ;
+    rico:title "제382회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21038200250168-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21038200250168-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21038200250168-02" ;
+    rico:title "제382회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AH-21038200350193-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21038200350193-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21038200350193-02" ;
+    rico:title "제382회국회 국방위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AH-21038200450208-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21038200450208-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21038200450208-02" ;
+    rico:title "제382회국회 국방위원회회의록 제 4 호"@ko .
+
+nadat1:INS-AH-21038200550257-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21038200550257-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21038200550257-02" ;
+    rico:title "제382회국회 국방위원회회의록 제 5 호"@ko .
+
+nadat1:INS-AH-21038200650269-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21038200650269-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21038200650269-02" ;
+    rico:title "제382회국회 국방위원회회의록 제 6 호"@ko .
+
+nadat1:INS-AH-21038200750280-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21038200750280-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21038200750280-02" ;
+    rico:title "제382회국회 국방위원회회의록 제 7 호"@ko .
+
+nadat1:INS-AH-21038200850295-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21038200850295-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21038200850295-02" ;
+    rico:title "제382회국회 국방위원회회의록 제 8 호"@ko .
+
+nadat1:INS-AH-21038200950393-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21038200950393-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21038200950393-02" ;
+    rico:title "제382회국회 국방위원회회의록 제 9 호"@ko .
+
+nadat1:INS-AH-21038201050436-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21038201050436-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21038201050436-02" ;
+    rico:title "제382회국회 국방위원회회의록 제 10 호"@ko .
+
+nadat1:INS-AH-21038201150501-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21038201150501-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21038201150501-02" ;
+    rico:title "제382회국회 국방위원회회의록 제 11 호"@ko .
+
+nadat1:INS-AH-21038201250671-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21038201250671-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21038201250671-02" ;
+    rico:title "제382회국회 국방위원회회의록 제 12 호"@ko .
+
+nadat1:INS-AH-21038400150789-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21038400150789-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21038400150789-02" ;
+    rico:title "제384회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21038400250829-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21038400250829-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21038400250829-02" ;
+    rico:title "제384회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AH-21038500150899-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21038500150899-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21038500150899-02" ;
+    rico:title "제385회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21038600151002-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21038600151002-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21038600151002-02" ;
+    rico:title "제386회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21038700151049-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21038700151049-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21038700151049-02" ;
+    rico:title "제387회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21038800151055-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21038800151055-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21038800151055-02" ;
+    rico:title "제388회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21038900151170-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21038900151170-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21038900151170-02" ;
+    rico:title "제389회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21039000151203-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21039000151203-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21039000151203-02" ;
+    rico:title "제390회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21039100151247-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21039100151247-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21039100151247-02" ;
+    rico:title "제391회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21039100251291-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21039100251291-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21039100251291-02" ;
+    rico:title "제391회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AH-21039100351439-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21039100351439-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21039100351439-02" ;
+    rico:title "제391회국회 국방위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AH-21039100451533-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21039100451533-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21039100451533-02" ;
+    rico:title "제391회국회 국방위원회회의록 제 4 호"@ko .
+
+nadat1:INS-AH-21039100551604-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21039100551604-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21039100551604-02" ;
+    rico:title "제391회국회 국방위원회회의록 제 5 호"@ko .
+
+nadat1:INS-AH-21039200151726-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21039200151726-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21039200151726-02" ;
+    rico:title "제392회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21039300151779-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21039300151779-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21039300151779-02" ;
+    rico:title "제393회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21039400151782-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21039400151782-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21039400151782-02" ;
+    rico:title "제394회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21039400251785-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21039400251785-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21039400251785-02" ;
+    rico:title "제394회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AH-21039500151817-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21039500151817-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21039500151817-02" ;
+    rico:title "제395회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21039500251834-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21039500251834-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21039500251834-02" ;
+    rico:title "제395회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AH-21039700151864-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21039700151864-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21039700151864-02" ;
+    rico:title "제397회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21039700251880-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21039700251880-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21039700251880-02" ;
+    rico:title "제397회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AH-21039700351911-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21039700351911-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21039700351911-02" ;
+    rico:title "제397회국회 국방위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AH-21039800152015-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21039800152015-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21039800152015-02" ;
+    rico:title "제398회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21039900152086-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21039900152086-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21039900152086-02" ;
+    rico:title "제399회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21039900252099-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21039900252099-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21039900252099-02" ;
+    rico:title "제399회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AH-21040000152137-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21040000152137-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21040000152137-02" ;
+    rico:title "제400회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21040000252192-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21040000252192-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21040000252192-02" ;
+    rico:title "제400회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AH-21040000352276-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21040000352276-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21040000352276-02" ;
+    rico:title "제400회국회 국방위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AH-21040000452306-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21040000452306-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21040000452306-02" ;
+    rico:title "제400회국회 국방위원회회의록 제 4 호"@ko .
+
+nadat1:INS-AH-21040000552425-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21040000552425-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21040000552425-02" ;
+    rico:title "제400회국회 국방위원회회의록 제 5 호"@ko .
+
+nadat1:INS-AH-21040100152639-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21040100152639-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21040100152639-02" ;
+    rico:title "제401회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21040200152658-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21040200152658-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21040200152658-02" ;
+    rico:title "제402회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21040300152717-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21040300152717-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21040300152717-02" ;
+    rico:title "제403회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21040400152808-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21040400152808-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21040400152808-02" ;
+    rico:title "제404회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21040500152853-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21040500152853-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21040500152853-02" ;
+    rico:title "제405회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21040700152970-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21040700152970-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21040700152970-02" ;
+    rico:title "제407회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21040900153103-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21040900153103-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21040900153103-02" ;
+    rico:title "제409회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21040900253122-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21040900253122-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21040900253122-02" ;
+    rico:title "제409회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AH-21040900353149-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21040900353149-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21040900353149-02" ;
+    rico:title "제409회국회 국방위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AH-21041000153195-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21041000153195-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21041000153195-02" ;
+    rico:title "제410회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AH-21041000253226-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21041000253226-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21041000253226-02" ;
+    rico:title "제410회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AH-21041000353240-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21041000353240-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21041000353240-02" ;
+    rico:title "제410회국회 국방위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AH-21041100253766-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21041100253766-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21041100253766-02" ;
+    rico:title "제411회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AH-21041300153825-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AH-21041300153825-02] 국방위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-21041300153825-02" ;
+    rico:title "제413회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021037900150016 a rico:Record ;
+    skos:prefLabel "[R100021037900150016] 21대 379회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50016-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200622 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21037900150016-02,
+        nadat1:INS-AH-50016_50671-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021037900150016" ;
+    rico:title "제379회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021037900250042 a rico:Record ;
+    skos:prefLabel "[R100021037900250042] 21대 379회 2차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50042-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200629 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21037900250042-02,
+        nadat1:INS-AH-50016_50671-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021037900250042" ;
+    rico:title "제379회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:R100021038000150068 a rico:Record ;
+    skos:prefLabel "[R100021038000150068] 21대 380회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50068-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200723 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21038000150068-02,
+        nadat1:INS-AH-50016_50671-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038000150068" ;
+    rico:title "제380회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038000250082 a rico:Record ;
+    skos:prefLabel "[R100021038000250082] 21대 380회 2차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50082-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200728 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21038000250082-02,
+        nadat1:INS-AH-50016_50671-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038000250082" ;
+    rico:title "제380회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:R100021038100150127 a rico:Record ;
+    skos:prefLabel "[R100021038100150127] 21대 381회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50127-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200825 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21038100150127-02,
+        nadat1:INS-AH-50016_50671-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038100150127" ;
+    rico:title "제381회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038200150153 a rico:Record ;
+    skos:prefLabel "[R100021038200150153] 21대 382회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50153-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200901 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21038200150153-02,
+        nadat1:INS-AH-50016_50671-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200150153" ;
+    rico:title "제382회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038200250168 a rico:Record ;
+    skos:prefLabel "[R100021038200250168] 21대 382회 2차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50168-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200908 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21038200250168-02,
+        nadat1:INS-AH-50016_50671-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200250168" ;
+    rico:title "제382회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:R100021038200350193 a rico:Record ;
+    skos:prefLabel "[R100021038200350193] 21대 382회 3차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50193-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200916 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21038200350193-02,
+        nadat1:INS-AH-50016_50671-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200350193" ;
+    rico:title "제382회국회 국방위원회회의록 제 3 호"@ko .
+
+nadat1:R100021038200450208 a rico:Record ;
+    skos:prefLabel "[R100021038200450208] 21대 382회 4차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50208-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200918 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21038200450208-02,
+        nadat1:INS-AH-50016_50671-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200450208" ;
+    rico:title "제382회국회 국방위원회회의록 제 4 호"@ko .
+
+nadat1:R100021038200550257 a rico:Record ;
+    skos:prefLabel "[R100021038200550257] 21대 382회 5차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50257-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200924 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21038200550257-02,
+        nadat1:INS-AH-50016_50671-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200550257" ;
+    rico:title "제382회국회 국방위원회회의록 제 5 호"@ko .
+
+nadat1:R100021038200650269 a rico:Record ;
+    skos:prefLabel "[R100021038200650269] 21대 382회 6차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50269-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201006 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21038200650269-02,
+        nadat1:INS-AH-50016_50671-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200650269" ;
+    rico:title "제382회국회 국방위원회회의록 제 6 호"@ko .
+
+nadat1:R100021038200750280 a rico:Record ;
+    skos:prefLabel "[R100021038200750280] 21대 382회 7차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50280-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201008 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21038200750280-02,
+        nadat1:INS-AH-50016_50671-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200750280" ;
+    rico:title "제382회국회 국방위원회회의록 제 7 호"@ko .
+
+nadat1:R100021038200850295 a rico:Record ;
+    skos:prefLabel "[R100021038200850295] 21대 382회 8차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50295-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201016 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21038200850295-02,
+        nadat1:INS-AH-50016_50671-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200850295" ;
+    rico:title "제382회국회 국방위원회회의록 제 8 호"@ko .
+
+nadat1:R100021038200950393 a rico:Record ;
+    skos:prefLabel "[R100021038200950393] 21대 382회 9차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50393-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201109 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21038200950393-02,
+        nadat1:INS-AH-50016_50671-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200950393" ;
+    rico:title "제382회국회 국방위원회회의록 제 9 호"@ko .
+
+nadat1:R100021038201050436 a rico:Record ;
+    skos:prefLabel "[R100021038201050436] 21대 382회 10차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50436-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201112 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21038201050436-02,
+        nadat1:INS-AH-50016_50671-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038201050436" ;
+    rico:title "제382회국회 국방위원회회의록 제 10 호"@ko .
+
+nadat1:R100021038201150501 a rico:Record ;
+    skos:prefLabel "[R100021038201150501] 21대 382회 11차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50501-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201120 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21038201150501-02,
+        nadat1:INS-AH-50016_50671-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038201150501" ;
+    rico:title "제382회국회 국방위원회회의록 제 11 호"@ko .
+
+nadat1:R100021038201250671 a rico:Record ;
+    skos:prefLabel "[R100021038201250671] 21대 382회 12차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50671-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201208 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21038201250671-02,
+        nadat1:INS-AH-50016_50671-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038201250671" ;
+    rico:title "제382회국회 국방위원회회의록 제 12 호"@ko .
+
+nadat1:R100021038400150789 a rico:Record ;
+    skos:prefLabel "[R100021038400150789] 21대 384회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50789-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210217 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21038400150789-02,
+        nadat1:INS-AH-50789_51604-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038400150789" ;
+    rico:title "제384회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038400250829 a rico:Record ;
+    skos:prefLabel "[R100021038400250829] 21대 384회 2차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50829-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210223 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21038400250829-02,
+        nadat1:INS-AH-50789_51604-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038400250829" ;
+    rico:title "제384회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:R100021038500150899 a rico:Record ;
+    skos:prefLabel "[R100021038500150899] 21대 385회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50899-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210316 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21038500150899-02,
+        nadat1:INS-AH-50789_51604-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038500150899" ;
+    rico:title "제385회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038600151002 a rico:Record ;
+    skos:prefLabel "[R100021038600151002] 21대 386회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51002-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210428 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21038600151002-02,
+        nadat1:INS-AH-50789_51604-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038600151002" ;
+    rico:title "제386회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038700151049 a rico:Record ;
+    skos:prefLabel "[R100021038700151049] 21대 387회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51049-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210531 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21038700151049-02,
+        nadat1:INS-AH-50789_51604-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038700151049" ;
+    rico:title "제387회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038800151055 a rico:Record ;
+    skos:prefLabel "[R100021038800151055] 21대 388회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51055-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210609 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21038800151055-02,
+        nadat1:INS-AH-50789_51604-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038800151055" ;
+    rico:title "제388회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038900151170 a rico:Record ;
+    skos:prefLabel "[R100021038900151170] 21대 389회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51170-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210726 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21038900151170-02,
+        nadat1:INS-AH-50789_51604-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038900151170" ;
+    rico:title "제389회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039000151203 a rico:Record ;
+    skos:prefLabel "[R100021039000151203] 21대 390회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51203-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210820 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21039000151203-02,
+        nadat1:INS-AH-50789_51604-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039000151203" ;
+    rico:title "제390회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039100151247 a rico:Record ;
+    skos:prefLabel "[R100021039100151247] 21대 391회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51247-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210908 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21039100151247-02,
+        nadat1:INS-AH-50789_51604-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100151247" ;
+    rico:title "제391회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039100251291 a rico:Record ;
+    skos:prefLabel "[R100021039100251291] 21대 391회 2차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51291-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210915 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21039100251291-02,
+        nadat1:INS-AH-50789_51604-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100251291" ;
+    rico:title "제391회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:R100021039100351439 a rico:Record ;
+    skos:prefLabel "[R100021039100351439] 21대 391회 3차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51439-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-211109 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21039100351439-02,
+        nadat1:INS-AH-50789_51604-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100351439" ;
+    rico:title "제391회국회 국방위원회회의록 제 3 호"@ko .
+
+nadat1:R100021039100451533 a rico:Record ;
+    skos:prefLabel "[R100021039100451533] 21대 391회 4차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51533-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-211116 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21039100451533-02,
+        nadat1:INS-AH-50789_51604-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100451533" ;
+    rico:title "제391회국회 국방위원회회의록 제 4 호"@ko .
+
+nadat1:R100021039100551604 a rico:Record ;
+    skos:prefLabel "[R100021039100551604] 21대 391회 5차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51604-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-211201 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21039100551604-02,
+        nadat1:INS-AH-50789_51604-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100551604" ;
+    rico:title "제391회국회 국방위원회회의록 제 5 호"@ko .
+
+nadat1:R100021039200151726 a rico:Record ;
+    skos:prefLabel "[R100021039200151726] 21대 392회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51726-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220105 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21039200151726-02,
+        nadat1:INS-AH-51726_52639-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039200151726" ;
+    rico:title "제392회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039300151779 a rico:Record ;
+    skos:prefLabel "[R100021039300151779] 21대 393회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51779-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220228 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21039300151779-02,
+        nadat1:INS-AH-51726_52639-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039300151779" ;
+    rico:title "제393회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039400151782 a rico:Record ;
+    skos:prefLabel "[R100021039400151782] 21대 394회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51782-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220322 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21039400151782-02,
+        nadat1:INS-AH-51726_52639-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039400151782" ;
+    rico:title "제394회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039400251785 a rico:Record ;
+    skos:prefLabel "[R100021039400251785] 21대 394회 2차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51785-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220329 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21039400251785-02,
+        nadat1:INS-AH-51726_52639-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039400251785" ;
+    rico:title "제394회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:R100021039500151817 a rico:Record ;
+    skos:prefLabel "[R100021039500151817] 21대 395회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51817-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220420 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21039500151817-02,
+        nadat1:INS-AH-51726_52639-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039500151817" ;
+    rico:title "제395회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039500251834 a rico:Record ;
+    skos:prefLabel "[R100021039500251834] 21대 395회 2차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51834-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220427 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21039500251834-02,
+        nadat1:INS-AH-51726_52639-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039500251834" ;
+    rico:title "제395회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:R100021039700151864 a rico:Record ;
+    skos:prefLabel "[R100021039700151864] 21대 397회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51864-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220504 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21039700151864-02,
+        nadat1:INS-AH-51726_52639-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039700151864" ;
+    rico:title "제397회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039700251880 a rico:Record ;
+    skos:prefLabel "[R100021039700251880] 21대 397회 2차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51880-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220509 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21039700251880-02,
+        nadat1:INS-AH-51726_52639-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039700251880" ;
+    rico:title "제397회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:R100021039700351911 a rico:Record ;
+    skos:prefLabel "[R100021039700351911] 21대 397회 3차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51911-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220517 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21039700351911-02,
+        nadat1:INS-AH-51726_52639-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039700351911" ;
+    rico:title "제397회국회 국방위원회회의록 제 3 호"@ko .
+
+nadat1:R100021039800152015 a rico:Record ;
+    skos:prefLabel "[R100021039800152015] 21대 398회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52015-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220801 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21039800152015-02,
+        nadat1:INS-AH-51726_52639-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039800152015" ;
+    rico:title "제398회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039900152086 a rico:Record ;
+    skos:prefLabel "[R100021039900152086] 21대 399회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52086-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220829 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21039900152086-02,
+        nadat1:INS-AH-51726_52639-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039900152086" ;
+    rico:title "제399회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039900252099 a rico:Record ;
+    skos:prefLabel "[R100021039900252099] 21대 399회 2차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52099-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220831 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21039900252099-02,
+        nadat1:INS-AH-51726_52639-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039900252099" ;
+    rico:title "제399회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:R100021040000152137 a rico:Record ;
+    skos:prefLabel "[R100021040000152137] 21대 400회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52137-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220919 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21040000152137-02,
+        nadat1:INS-AH-51726_52639-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000152137" ;
+    rico:title "제400회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040000252192 a rico:Record ;
+    skos:prefLabel "[R100021040000252192] 21대 400회 2차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52192-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221004 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21040000252192-02,
+        nadat1:INS-AH-51726_52639-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000252192" ;
+    rico:title "제400회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:R100021040000352276 a rico:Record ;
+    skos:prefLabel "[R100021040000352276] 21대 400회 3차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52276-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221031 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21040000352276-02,
+        nadat1:INS-AH-51726_52639-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000352276" ;
+    rico:title "제400회국회 국방위원회회의록 제 3 호"@ko .
+
+nadat1:R100021040000452306 a rico:Record ;
+    skos:prefLabel "[R100021040000452306] 21대 400회 4차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52306-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221104 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21040000452306-02,
+        nadat1:INS-AH-51726_52639-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000452306" ;
+    rico:title "제400회국회 국방위원회회의록 제 4 호"@ko .
+
+nadat1:R100021040000552425 a rico:Record ;
+    skos:prefLabel "[R100021040000552425] 21대 400회 5차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52425-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221118 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21040000552425-02,
+        nadat1:INS-AH-51726_52639-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000552425" ;
+    rico:title "제400회국회 국방위원회회의록 제 5 호"@ko .
+
+nadat1:R100021040100152639 a rico:Record ;
+    skos:prefLabel "[R100021040100152639] 21대 401회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52639-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221228 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21040100152639-02,
+        nadat1:INS-AH-51726_52639-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040100152639" ;
+    rico:title "제401회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040200152658 a rico:Record ;
+    skos:prefLabel "[R100021040200152658] 21대 402회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52658-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230126 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21040200152658-02,
+        nadat1:INS-AH-52658_53240-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040200152658" ;
+    rico:title "제402회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040300152717 a rico:Record ;
+    skos:prefLabel "[R100021040300152717] 21대 403회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52717-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230217 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21040300152717-02,
+        nadat1:INS-AH-52658_53240-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040300152717" ;
+    rico:title "제403회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040400152808 a rico:Record ;
+    skos:prefLabel "[R100021040400152808] 21대 404회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52808-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230323 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21040400152808-02,
+        nadat1:INS-AH-52658_53240-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040400152808" ;
+    rico:title "제404회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040500152853 a rico:Record ;
+    skos:prefLabel "[R100021040500152853] 21대 405회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52853-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230406 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21040500152853-02,
+        nadat1:INS-AH-52658_53240-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040500152853" ;
+    rico:title "제405회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040700152970 a rico:Record ;
+    skos:prefLabel "[R100021040700152970] 21대 407회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52970-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230601 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21040700152970-02,
+        nadat1:INS-AH-52658_53240-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040700152970" ;
+    rico:title "제407회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040900153103 a rico:Record ;
+    skos:prefLabel "[R100021040900153103] 21대 409회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53103-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230816 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21040900153103-02,
+        nadat1:INS-AH-52658_53240-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040900153103" ;
+    rico:title "제409회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040900253122 a rico:Record ;
+    skos:prefLabel "[R100021040900253122] 21대 409회 2차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53122-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230821 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21040900253122-02,
+        nadat1:INS-AH-52658_53240-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040900253122" ;
+    rico:title "제409회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:R100021040900353149 a rico:Record ;
+    skos:prefLabel "[R100021040900353149] 21대 409회 3차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53149-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230825 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21040900353149-02,
+        nadat1:INS-AH-52658_53240-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040900353149" ;
+    rico:title "제409회국회 국방위원회회의록 제 3 호"@ko .
+
+nadat1:R100021041000153195 a rico:Record ;
+    skos:prefLabel "[R100021041000153195] 21대 410회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53195-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230906 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21041000153195-02,
+        nadat1:INS-AH-52658_53240-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041000153195" ;
+    rico:title "제410회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:R100021041000253226 a rico:Record ;
+    skos:prefLabel "[R100021041000253226] 21대 410회 2차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53226-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230918 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21041000253226-02,
+        nadat1:INS-AH-52658_53240-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041000253226" ;
+    rico:title "제410회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:R100021041000353240 a rico:Record ;
+    skos:prefLabel "[R100021041000353240] 21대 410회 3차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53240-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230920 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21041000353240-02,
+        nadat1:INS-AH-52658_53240-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041000353240" ;
+    rico:title "제410회국회 국방위원회회의록 제 3 호"@ko .
+
+nadat1:R100021041100253766 a rico:Record ;
+    skos:prefLabel "[R100021041100253766] 21대 411회 2차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53766-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-240109 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21041100253766-02,
+        nadat1:INS-AH-53766_53825-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041100253766" ;
+    rico:title "제411회국회 국방위원회회의록 제 2 호"@ko .
+
+nadat1:R100021041300153825 a rico:Record ;
+    skos:prefLabel "[R100021041300153825] 21대 413회 1차 국방위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53825-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-240315 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AH-21041300153825-02,
+        nadat1:INS-AH-53766_53825-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041300153825" ;
+    rico:title "제413회국회 국방위원회회의록 제 1 호"@ko .
+
+nadat1:RS100021-AH a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH] 21대 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH" ;
+    rico:includesOrIncluded nadat1:RS100021-AH-0379,
+        nadat1:RS100021-AH-0380,
+        nadat1:RS100021-AH-0381,
+        nadat1:RS100021-AH-0382,
+        nadat1:RS100021-AH-0384,
+        nadat1:RS100021-AH-0385,
+        nadat1:RS100021-AH-0386,
+        nadat1:RS100021-AH-0387,
+        nadat1:RS100021-AH-0388,
+        nadat1:RS100021-AH-0389,
+        nadat1:RS100021-AH-0390,
+        nadat1:RS100021-AH-0391,
+        nadat1:RS100021-AH-0392,
+        nadat1:RS100021-AH-0393,
+        nadat1:RS100021-AH-0394,
+        nadat1:RS100021-AH-0395,
+        nadat1:RS100021-AH-0397,
+        nadat1:RS100021-AH-0398,
+        nadat1:RS100021-AH-0399,
+        nadat1:RS100021-AH-0400,
+        nadat1:RS100021-AH-0401,
+        nadat1:RS100021-AH-0402,
+        nadat1:RS100021-AH-0403,
+        nadat1:RS100021-AH-0404,
+        nadat1:RS100021-AH-0405,
+        nadat1:RS100021-AH-0407,
+        nadat1:RS100021-AH-0409,
+        nadat1:RS100021-AH-0410,
+        nadat1:RS100021-AH-0411,
+        nadat1:RS100021-AH-0413 ;
+    rico:name "제21대국회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0379 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0379] 21대 379회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0379" ;
+    rico:includesOrIncluded nadat1:R100021037900150016,
+        nadat1:R100021037900250042 ;
+    rico:name "제21대국회 제379회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0380 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0380] 21대 380회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0380" ;
+    rico:includesOrIncluded nadat1:R100021038000150068,
+        nadat1:R100021038000250082 ;
+    rico:name "제21대국회 제380회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0381 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0381] 21대 381회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0381" ;
+    rico:includesOrIncluded nadat1:R100021038100150127 ;
+    rico:name "제21대국회 제381회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0382 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0382] 21대 382회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0382" ;
+    rico:includesOrIncluded nadat1:R100021038200150153,
+        nadat1:R100021038200250168,
+        nadat1:R100021038200350193,
+        nadat1:R100021038200450208,
+        nadat1:R100021038200550257,
+        nadat1:R100021038200650269,
+        nadat1:R100021038200750280,
+        nadat1:R100021038200850295,
+        nadat1:R100021038200950393,
+        nadat1:R100021038201050436,
+        nadat1:R100021038201150501,
+        nadat1:R100021038201250671 ;
+    rico:name "제21대국회 제382회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0384 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0384] 21대 384회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0384" ;
+    rico:includesOrIncluded nadat1:R100021038400150789,
+        nadat1:R100021038400250829 ;
+    rico:name "제21대국회 제384회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0385 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0385] 21대 385회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0385" ;
+    rico:includesOrIncluded nadat1:R100021038500150899 ;
+    rico:name "제21대국회 제385회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0386 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0386] 21대 386회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0386" ;
+    rico:includesOrIncluded nadat1:R100021038600151002 ;
+    rico:name "제21대국회 제386회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0387 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0387] 21대 387회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0387" ;
+    rico:includesOrIncluded nadat1:R100021038700151049 ;
+    rico:name "제21대국회 제387회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0388 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0388] 21대 388회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0388" ;
+    rico:includesOrIncluded nadat1:R100021038800151055 ;
+    rico:name "제21대국회 제388회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0389 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0389] 21대 389회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0389" ;
+    rico:includesOrIncluded nadat1:R100021038900151170 ;
+    rico:name "제21대국회 제389회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0390 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0390] 21대 390회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0390" ;
+    rico:includesOrIncluded nadat1:R100021039000151203 ;
+    rico:name "제21대국회 제390회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0391 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0391] 21대 391회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0391" ;
+    rico:includesOrIncluded nadat1:R100021039100151247,
+        nadat1:R100021039100251291,
+        nadat1:R100021039100351439,
+        nadat1:R100021039100451533,
+        nadat1:R100021039100551604 ;
+    rico:name "제21대국회 제391회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0392 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0392] 21대 392회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0392" ;
+    rico:includesOrIncluded nadat1:R100021039200151726 ;
+    rico:name "제21대국회 제392회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0393 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0393] 21대 393회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0393" ;
+    rico:includesOrIncluded nadat1:R100021039300151779 ;
+    rico:name "제21대국회 제393회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0394 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0394] 21대 394회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0394" ;
+    rico:includesOrIncluded nadat1:R100021039400151782,
+        nadat1:R100021039400251785 ;
+    rico:name "제21대국회 제394회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0395 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0395] 21대 395회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0395" ;
+    rico:includesOrIncluded nadat1:R100021039500151817,
+        nadat1:R100021039500251834 ;
+    rico:name "제21대국회 제395회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0397 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0397] 21대 397회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0397" ;
+    rico:includesOrIncluded nadat1:R100021039700151864,
+        nadat1:R100021039700251880,
+        nadat1:R100021039700351911 ;
+    rico:name "제21대국회 제397회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0398 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0398] 21대 398회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0398" ;
+    rico:includesOrIncluded nadat1:R100021039800152015 ;
+    rico:name "제21대국회 제398회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0399 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0399] 21대 399회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0399" ;
+    rico:includesOrIncluded nadat1:R100021039900152086,
+        nadat1:R100021039900252099 ;
+    rico:name "제21대국회 제399회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0400 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0400] 21대 400회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0400" ;
+    rico:includesOrIncluded nadat1:R100021040000152137,
+        nadat1:R100021040000252192,
+        nadat1:R100021040000352276,
+        nadat1:R100021040000452306,
+        nadat1:R100021040000552425 ;
+    rico:name "제21대국회 제400회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0401 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0401] 21대 401회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0401" ;
+    rico:includesOrIncluded nadat1:R100021040100152639 ;
+    rico:name "제21대국회 제401회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0402 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0402] 21대 402회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0402" ;
+    rico:includesOrIncluded nadat1:R100021040200152658 ;
+    rico:name "제21대국회 제402회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0403 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0403] 21대 403회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0403" ;
+    rico:includesOrIncluded nadat1:R100021040300152717 ;
+    rico:name "제21대국회 제403회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0404 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0404] 21대 404회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0404" ;
+    rico:includesOrIncluded nadat1:R100021040400152808 ;
+    rico:name "제21대국회 제404회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0405 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0405] 21대 405회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0405" ;
+    rico:includesOrIncluded nadat1:R100021040500152853 ;
+    rico:name "제21대국회 제405회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0407 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0407] 21대 407회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0407" ;
+    rico:includesOrIncluded nadat1:R100021040700152970 ;
+    rico:name "제21대국회 제407회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0409 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0409] 21대 409회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0409" ;
+    rico:includesOrIncluded nadat1:R100021040900153103,
+        nadat1:R100021040900253122,
+        nadat1:R100021040900353149 ;
+    rico:name "제21대국회 제409회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0410 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0410] 21대 410회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0410" ;
+    rico:includesOrIncluded nadat1:R100021041000153195,
+        nadat1:R100021041000253226,
+        nadat1:R100021041000353240 ;
+    rico:name "제21대국회 제410회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0411 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0411] 21대 411회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0411" ;
+    rico:includesOrIncluded nadat1:R100021041100253766 ;
+    rico:name "제21대국회 제411회 국방위원회 회의록"@ko .
+
+nadat1:RS100021-AH-0413 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AH-0413] 21대 413회 국방위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AH-0413" ;
+    rico:includesOrIncluded nadat1:R100021041300153825 ;
+    rico:name "제21대국회 제413회 국방위원회 회의록"@ko .
+
+nadat1:date-200629 rico:isDateOfOccurrenceOf nadat1:EV-M-50042 .
+
+nadat1:date-200723 rico:isDateOfOccurrenceOf nadat1:EV-M-50068 .
+
+nadat1:date-200728 rico:isDateOfOccurrenceOf nadat1:EV-M-50082 .
+
+nadat1:date-200825 rico:isDateOfOccurrenceOf nadat1:EV-M-50127 .
+
+nadat1:date-200901 rico:isDateOfOccurrenceOf nadat1:EV-M-50153 .
+
+nadat1:date-200908 rico:isDateOfOccurrenceOf nadat1:EV-M-50168 .
+
+nadat1:date-200916 rico:isDateOfOccurrenceOf nadat1:EV-M-50193 .
+
+nadat1:date-200918 a rico:Date ;
+    rico:expressedDate "2020년9월18일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-200918" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50208 ;
+    rico:name "date-200918" ;
+    rico:normalizedDateValue "2020-09-18"^^xsd:date .
+
+nadat1:date-200924 rico:isDateOfOccurrenceOf nadat1:EV-M-50257 .
+
+nadat1:date-201006 a rico:Date ;
+    rico:expressedDate "2020년10월6일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-201006" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50269 ;
+    rico:name "date-201006" ;
+    rico:normalizedDateValue "2020-10-06"^^xsd:date .
+
+nadat1:date-201008 a rico:Date ;
+    rico:expressedDate "2020년10월8일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-201008" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50280 ;
+    rico:name "date-201008" ;
+    rico:normalizedDateValue "2020-10-08"^^xsd:date .
+
+nadat1:date-201016 rico:isDateOfOccurrenceOf nadat1:EV-M-50295 .
+
+nadat1:date-201109 rico:isDateOfOccurrenceOf nadat1:EV-M-50393 .
+
+nadat1:date-201112 rico:isDateOfOccurrenceOf nadat1:EV-M-50436 .
+
+nadat1:date-201120 a rico:Date ;
+    rico:expressedDate "2020년11월20일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-201120" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50501 ;
+    rico:name "date-201120" ;
+    rico:normalizedDateValue "2020-11-20"^^xsd:date .
+
+nadat1:date-210223 rico:isDateOfOccurrenceOf nadat1:EV-M-50829 .
+
+nadat1:date-210316 rico:isDateOfOccurrenceOf nadat1:EV-M-50899 .
+
+nadat1:date-210428 a rico:Date ;
+    rico:expressedDate "2021년4월28일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210428" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51002 ;
+    rico:name "date-210428" ;
+    rico:normalizedDateValue "2021-04-28"^^xsd:date .
+
+nadat1:date-210531 a rico:Date ;
+    rico:expressedDate "2021년5월31일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210531" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51049 ;
+    rico:name "date-210531" ;
+    rico:normalizedDateValue "2021-05-31"^^xsd:date .
+
+nadat1:date-210609 a rico:Date ;
+    rico:expressedDate "2021년6월9일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210609" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51055 ;
+    rico:name "date-210609" ;
+    rico:normalizedDateValue "2021-06-09"^^xsd:date .
+
+nadat1:date-210726 a rico:Date ;
+    rico:expressedDate "2021년7월26일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210726" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51170 ;
+    rico:name "date-210726" ;
+    rico:normalizedDateValue "2021-07-26"^^xsd:date .
+
+nadat1:date-210820 a rico:Date ;
+    rico:expressedDate "2021년8월20일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210820" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51203 ;
+    rico:name "date-210820" ;
+    rico:normalizedDateValue "2021-08-20"^^xsd:date .
+
+nadat1:date-210908 rico:isDateOfOccurrenceOf nadat1:EV-M-51247 .
+
+nadat1:date-210915 rico:isDateOfOccurrenceOf nadat1:EV-M-51291 .
+
+nadat1:date-211109 rico:isDateOfOccurrenceOf nadat1:EV-M-51439 .
+
+nadat1:date-211116 rico:isDateOfOccurrenceOf nadat1:EV-M-51533 .
+
+nadat1:date-220228 a rico:Date ;
+    rico:expressedDate "2022년2월28일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220228" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51779 ;
+    rico:name "date-220228" ;
+    rico:normalizedDateValue "2022-02-28"^^xsd:date .
+
+nadat1:date-220322 a rico:Date ;
+    rico:expressedDate "2022년3월22일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220322" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51782 ;
+    rico:name "date-220322" ;
+    rico:normalizedDateValue "2022-03-22"^^xsd:date .
+
+nadat1:date-220329 a rico:Date ;
+    rico:expressedDate "2022년3월29일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220329" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51785 ;
+    rico:name "date-220329" ;
+    rico:normalizedDateValue "2022-03-29"^^xsd:date .
+
+nadat1:date-220420 a rico:Date ;
+    rico:expressedDate "2022년4월20일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220420" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51817 ;
+    rico:name "date-220420" ;
+    rico:normalizedDateValue "2022-04-20"^^xsd:date .
+
+nadat1:date-220427 rico:isDateOfOccurrenceOf nadat1:EV-M-51834 .
+
+nadat1:date-220504 a rico:Date ;
+    rico:expressedDate "2022년5월4일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220504" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51864 ;
+    rico:name "date-220504" ;
+    rico:normalizedDateValue "2022-05-04"^^xsd:date .
+
+nadat1:date-220509 a rico:Date ;
+    rico:expressedDate "2022년5월9일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220509" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51880 ;
+    rico:name "date-220509" ;
+    rico:normalizedDateValue "2022-05-09"^^xsd:date .
+
+nadat1:date-220517 rico:isDateOfOccurrenceOf nadat1:EV-M-51911 .
+
+nadat1:date-220801 a rico:Date ;
+    rico:expressedDate "2022년8월1일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220801" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52015 ;
+    rico:name "date-220801" ;
+    rico:normalizedDateValue "2022-08-01"^^xsd:date .
+
+nadat1:date-220829 a rico:Date ;
+    rico:expressedDate "2022년8월29일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220829" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52086 ;
+    rico:name "date-220829" ;
+    rico:normalizedDateValue "2022-08-29"^^xsd:date .
+
+nadat1:date-220831 a rico:Date ;
+    rico:expressedDate "2022년8월31일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220831" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52099 ;
+    rico:name "date-220831" ;
+    rico:normalizedDateValue "2022-08-31"^^xsd:date .
+
+nadat1:date-220919 rico:isDateOfOccurrenceOf nadat1:EV-M-52137 .
+
+nadat1:date-221004 rico:isDateOfOccurrenceOf nadat1:EV-M-52192 .
+
+nadat1:date-221031 a rico:Date ;
+    rico:expressedDate "2022년10월31일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-221031" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52276 ;
+    rico:name "date-221031" ;
+    rico:normalizedDateValue "2022-10-31"^^xsd:date .
+
+nadat1:date-221104 a rico:Date ;
+    rico:expressedDate "2022년11월4일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-221104" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52306 ;
+    rico:name "date-221104" ;
+    rico:normalizedDateValue "2022-11-04"^^xsd:date .
+
+nadat1:date-221118 a rico:Date ;
+    rico:expressedDate "2022년11월18일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-221118" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52425 ;
+    rico:name "date-221118" ;
+    rico:normalizedDateValue "2022-11-18"^^xsd:date .
+
+nadat1:date-230217 a rico:Date ;
+    rico:expressedDate "2023년2월17일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230217" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52717 ;
+    rico:name "date-230217" ;
+    rico:normalizedDateValue "2023-02-17"^^xsd:date .
+
+nadat1:date-230323 rico:isDateOfOccurrenceOf nadat1:EV-M-52808 .
+
+nadat1:date-230406 a rico:Date ;
+    rico:expressedDate "2023년4월6일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230406" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52853 ;
+    rico:name "date-230406" ;
+    rico:normalizedDateValue "2023-04-06"^^xsd:date .
+
+nadat1:date-230601 a rico:Date ;
+    rico:expressedDate "2023년6월1일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230601" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52970 ;
+    rico:name "date-230601" ;
+    rico:normalizedDateValue "2023-06-01"^^xsd:date .
+
+nadat1:date-230816 a rico:Date ;
+    rico:expressedDate "2023년8월16일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230816" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-53103 ;
+    rico:name "date-230816" ;
+    rico:normalizedDateValue "2023-08-16"^^xsd:date .
+
+nadat1:date-230821 a rico:Date ;
+    rico:expressedDate "2023년8월21일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230821" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-53122 ;
+    rico:name "date-230821" ;
+    rico:normalizedDateValue "2023-08-21"^^xsd:date .
+
+nadat1:date-230825 rico:isDateOfOccurrenceOf nadat1:EV-M-53149 .
+
+nadat1:date-230906 rico:isDateOfOccurrenceOf nadat1:EV-M-53195 .
+
+nadat1:date-230918 rico:isDateOfOccurrenceOf nadat1:EV-M-53226 .
+
+nadat1:EV-M-50016 a rico:Event ;
+    skos:prefLabel "[EV-M-50016] 제379회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-IL74008M,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-TMP-00006,
+        nadat2:PER-TMP-00020,
+        nadat2:PER-TMP-00316,
+        nadat2:PER-TMP-00317,
+        nadat2:PER-TMP-00318,
+        nadat2:PER-TMP-00319,
+        nadat2:PER-TMP-00320 ;
+    rico:identifier "EV-M-50016" ;
+    rico:name "제21대국회 제379회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-50042 a rico:Event ;
+    skos:prefLabel "[EV-M-50042] 제379회 제2차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-IL74008M,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-TMP-00006,
+        nadat2:PER-TMP-00317,
+        nadat2:PER-TMP-00319,
+        nadat2:PER-TMP-00321,
+        nadat2:PER-TMP-00322,
+        nadat2:PER-TMP-00323,
+        nadat2:PER-TMP-00324 ;
+    rico:identifier "EV-M-50042" ;
+    rico:name "제21대국회 제379회 제2차 국방위원회"@ko .
+
+nadat1:EV-M-50068 a rico:Event ;
+    skos:prefLabel "[EV-M-50068] 제380회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-IL74008M,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-NAL4555X,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-ZDP5704Q ;
+    rico:identifier "EV-M-50068" ;
+    rico:name "제21대국회 제380회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-50082 a rico:Event ;
+    skos:prefLabel "[EV-M-50082] 제380회 제2차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-IL74008M,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-NAL4555X,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-WDS6044S,
+        nadat2:PER-LM-ZDP5704Q,
+        nadat2:PER-TMP-00006,
+        nadat2:PER-TMP-00020,
+        nadat2:PER-TMP-00316,
+        nadat2:PER-TMP-00317,
+        nadat2:PER-TMP-00318,
+        nadat2:PER-TMP-00319,
+        nadat2:PER-TMP-00320,
+        nadat2:PER-TMP-00324,
+        nadat2:PER-TMP-00325,
+        nadat2:PER-TMP-00326,
+        nadat2:PER-TMP-00327,
+        nadat2:PER-TMP-00328 ;
+    rico:identifier "EV-M-50082" ;
+    rico:name "제21대국회 제380회 제2차 국방위원회"@ko .
+
+nadat1:EV-M-50127 a rico:Event ;
+    skos:prefLabel "[EV-M-50127] 제381회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-IL74008M,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-NAL4555X,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-WDS6044S,
+        nadat2:PER-LM-ZDP5704Q,
+        nadat2:PER-TMP-00006,
+        nadat2:PER-TMP-00317,
+        nadat2:PER-TMP-00319,
+        nadat2:PER-TMP-00321,
+        nadat2:PER-TMP-00322,
+        nadat2:PER-TMP-00329 ;
+    rico:identifier "EV-M-50127" ;
+    rico:name "제21대국회 제381회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-50153 a rico:Event ;
+    skos:prefLabel "[EV-M-50153] 제382회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-NAL4555X,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-WDS6044S,
+        nadat2:PER-TMP-00006,
+        nadat2:PER-TMP-00317,
+        nadat2:PER-TMP-00319,
+        nadat2:PER-TMP-00330 ;
+    rico:identifier "EV-M-50153" ;
+    rico:name "제21대국회 제382회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-50168 a rico:Event ;
+    skos:prefLabel "[EV-M-50168] 제382회 제2차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-WDS6044S ;
+    rico:identifier "EV-M-50168" ;
+    rico:name "제21대국회 제382회 제2차 국방위원회"@ko .
+
+nadat1:EV-M-50193 a rico:Event ;
+    skos:prefLabel "[EV-M-50193] 제382회 제3차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-IL74008M,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-NAL4555X,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-WDS6044S,
+        nadat2:PER-LM-ZDP5704Q,
+        nadat2:PER-TMP-00020 ;
+    rico:identifier "EV-M-50193" ;
+    rico:name "제21대국회 제382회 제3차 국방위원회"@ko .
+
+nadat1:EV-M-50208 a rico:Event ;
+    skos:prefLabel "[EV-M-50208] 제382회 제4차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-IL74008M,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-NAL4555X,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-WDS6044S,
+        nadat2:PER-LM-ZDP5704Q,
+        nadat2:PER-TMP-00327 ;
+    rico:identifier "EV-M-50208" ;
+    rico:name "제21대국회 제382회 제4차 국방위원회"@ko .
+
+nadat1:EV-M-50257 a rico:Event ;
+    skos:prefLabel "[EV-M-50257] 제382회 제5차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-IL74008M,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-NAL4555X,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-WDS6044S,
+        nadat2:PER-LM-ZDP5704Q,
+        nadat2:PER-TMP-00020,
+        nadat2:PER-TMP-00331 ;
+    rico:identifier "EV-M-50257" ;
+    rico:name "제21대국회 제382회 제5차 국방위원회"@ko .
+
+nadat1:EV-M-50269 a rico:Event ;
+    skos:prefLabel "[EV-M-50269] 제382회 제6차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-NAL4555X,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-ZDP5704Q ;
+    rico:identifier "EV-M-50269" ;
+    rico:name "제21대국회 제382회 제6차 국방위원회"@ko .
+
+nadat1:EV-M-50280 a rico:Event ;
+    skos:prefLabel "[EV-M-50280] 제382회 제7차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-O6D8329R ;
+    rico:identifier "EV-M-50280" ;
+    rico:name "제21대국회 제382회 제7차 국방위원회"@ko .
+
+nadat1:EV-M-50295 a rico:Event ;
+    skos:prefLabel "[EV-M-50295] 제382회 제8차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-O6D8329R ;
+    rico:identifier "EV-M-50295" ;
+    rico:name "제21대국회 제382회 제8차 국방위원회"@ko .
+
+nadat1:EV-M-50393 a rico:Event ;
+    skos:prefLabel "[EV-M-50393] 제382회 제9차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-IL74008M,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-NAL4555X,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TJW93720,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-WDS6044S,
+        nadat2:PER-LM-ZDP5704Q,
+        nadat2:PER-TMP-00020,
+        nadat2:PER-TMP-00317,
+        nadat2:PER-TMP-00319,
+        nadat2:PER-TMP-00321,
+        nadat2:PER-TMP-00322,
+        nadat2:PER-TMP-00332,
+        nadat2:PER-TMP-00333 ;
+    rico:identifier "EV-M-50393" ;
+    rico:name "제21대국회 제382회 제9차 국방위원회"@ko .
+
+nadat1:EV-M-50436 a rico:Event ;
+    skos:prefLabel "[EV-M-50436] 제382회 제10차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-NAL4555X,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-TMP-00020,
+        nadat2:PER-TMP-00317,
+        nadat2:PER-TMP-00319,
+        nadat2:PER-TMP-00332,
+        nadat2:PER-TMP-00334 ;
+    rico:identifier "EV-M-50436" ;
+    rico:name "제21대국회 제382회 제10차 국방위원회"@ko .
+
+nadat1:EV-M-50501 a rico:Event ;
+    skos:prefLabel "[EV-M-50501] 제382회 제11차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-WDS6044S,
+        nadat2:PER-TMP-00020,
+        nadat2:PER-TMP-00317,
+        nadat2:PER-TMP-00319 ;
+    rico:identifier "EV-M-50501" ;
+    rico:name "제21대국회 제382회 제11차 국방위원회"@ko .
+
+nadat1:EV-M-50671 a rico:Event ;
+    skos:prefLabel "[EV-M-50671] 제382회 제12차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-WDS6044S,
+        nadat2:PER-TMP-00322,
+        nadat2:PER-TMP-00332 ;
+    rico:identifier "EV-M-50671" ;
+    rico:name "제21대국회 제382회 제12차 국방위원회"@ko .
+
+nadat1:EV-M-50789 a rico:Event ;
+    skos:prefLabel "[EV-M-50789] 제384회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-5MD4184K,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-NAL4555X,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-WDS6044S,
+        nadat2:PER-LM-ZDP5704Q,
+        nadat2:PER-TMP-00020,
+        nadat2:PER-TMP-00317,
+        nadat2:PER-TMP-00318,
+        nadat2:PER-TMP-00321,
+        nadat2:PER-TMP-00322,
+        nadat2:PER-TMP-00324,
+        nadat2:PER-TMP-00332,
+        nadat2:PER-TMP-00335,
+        nadat2:PER-TMP-00336,
+        nadat2:PER-TMP-00337,
+        nadat2:PER-TMP-00338 ;
+    rico:identifier "EV-M-50789" ;
+    rico:name "제21대국회 제384회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-50829 a rico:Event ;
+    skos:prefLabel "[EV-M-50829] 제384회 제2차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-NAL4555X,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-WDS6044S,
+        nadat2:PER-LM-ZDP5704Q,
+        nadat2:PER-TMP-00020,
+        nadat2:PER-TMP-00317,
+        nadat2:PER-TMP-00324 ;
+    rico:identifier "EV-M-50829" ;
+    rico:name "제21대국회 제384회 제2차 국방위원회"@ko .
+
+nadat1:EV-M-50899 a rico:Event ;
+    skos:prefLabel "[EV-M-50899] 제385회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-NAL4555X,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-WDS6044S,
+        nadat2:PER-LM-ZDP5704Q,
+        nadat2:PER-TMP-00020,
+        nadat2:PER-TMP-00317,
+        nadat2:PER-TMP-00329,
+        nadat2:PER-TMP-00339 ;
+    rico:identifier "EV-M-50899" ;
+    rico:name "제21대국회 제385회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-51002 a rico:Event ;
+    skos:prefLabel "[EV-M-51002] 제386회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-NAL4555X,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-WDS6044S,
+        nadat2:PER-LM-ZDP5704Q,
+        nadat2:PER-TMP-00020,
+        nadat2:PER-TMP-00316,
+        nadat2:PER-TMP-00318,
+        nadat2:PER-TMP-00324,
+        nadat2:PER-TMP-00333,
+        nadat2:PER-TMP-00336,
+        nadat2:PER-TMP-00338 ;
+    rico:identifier "EV-M-51002" ;
+    rico:name "제21대국회 제386회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-51049 a rico:Event ;
+    skos:prefLabel "[EV-M-51049] 제387회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-TMP-00020,
+        nadat2:PER-TMP-00316,
+        nadat2:PER-TMP-00318,
+        nadat2:PER-TMP-00321,
+        nadat2:PER-TMP-00329,
+        nadat2:PER-TMP-00334,
+        nadat2:PER-TMP-00336,
+        nadat2:PER-TMP-00340,
+        nadat2:PER-TMP-00341 ;
+    rico:identifier "EV-M-51049" ;
+    rico:name "제21대국회 제387회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-51055 a rico:Event ;
+    skos:prefLabel "[EV-M-51055] 제388회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3TO11703,
+        nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-WDS6044S,
+        nadat2:PER-TMP-00020,
+        nadat2:PER-TMP-00326,
+        nadat2:PER-TMP-00342,
+        nadat2:PER-TMP-00343,
+        nadat2:PER-TMP-00344,
+        nadat2:PER-TMP-00345 ;
+    rico:identifier "EV-M-51055" ;
+    rico:name "제21대국회 제388회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-51170 a rico:Event ;
+    skos:prefLabel "[EV-M-51170] 제389회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-WDS6044S,
+        nadat2:PER-TMP-00020,
+        nadat2:PER-TMP-00326,
+        nadat2:PER-TMP-00327,
+        nadat2:PER-TMP-00336,
+        nadat2:PER-TMP-00346,
+        nadat2:PER-TMP-00347,
+        nadat2:PER-TMP-00348 ;
+    rico:identifier "EV-M-51170" ;
+    rico:name "제21대국회 제389회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-51203 a rico:Event ;
+    skos:prefLabel "[EV-M-51203] 제390회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-SE233396,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TJW93720,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-WDS6044S,
+        nadat2:PER-TMP-00020,
+        nadat2:PER-TMP-00316,
+        nadat2:PER-TMP-00324,
+        nadat2:PER-TMP-00326,
+        nadat2:PER-TMP-00332,
+        nadat2:PER-TMP-00349,
+        nadat2:PER-TMP-00350,
+        nadat2:PER-TMP-00351 ;
+    rico:identifier "EV-M-51203" ;
+    rico:name "제21대국회 제390회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-51247 a rico:Event ;
+    skos:prefLabel "[EV-M-51247] 제391회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-S741317G,
+        nadat2:PER-TMP-00020,
+        nadat2:PER-TMP-00316,
+        nadat2:PER-TMP-00324,
+        nadat2:PER-TMP-00332 ;
+    rico:identifier "EV-M-51247" ;
+    rico:name "제21대국회 제391회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-51291 a rico:Event ;
+    skos:prefLabel "[EV-M-51291] 제391회 제2차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-S741317G,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-TMP-00020 ;
+    rico:identifier "EV-M-51291" ;
+    rico:name "제21대국회 제391회 제2차 국방위원회"@ko .
+
+nadat1:EV-M-51439 a rico:Event ;
+    skos:prefLabel "[EV-M-51439] 제391회 제3차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-CFE3998F,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-TMP-00020,
+        nadat2:PER-TMP-00316,
+        nadat2:PER-TMP-00324,
+        nadat2:PER-TMP-00332,
+        nadat2:PER-TMP-00349,
+        nadat2:PER-TMP-00350,
+        nadat2:PER-TMP-00352 ;
+    rico:identifier "EV-M-51439" ;
+    rico:name "제21대국회 제391회 제3차 국방위원회"@ko .
+
+nadat1:EV-M-51533 a rico:Event ;
+    skos:prefLabel "[EV-M-51533] 제391회 제4차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-TMP-00020,
+        nadat2:PER-TMP-00316,
+        nadat2:PER-TMP-00324,
+        nadat2:PER-TMP-00332,
+        nadat2:PER-TMP-00349,
+        nadat2:PER-TMP-00350 ;
+    rico:identifier "EV-M-51533" ;
+    rico:name "제21대국회 제391회 제4차 국방위원회"@ko .
+
+nadat1:EV-M-51604 a rico:Event ;
+    skos:prefLabel "[EV-M-51604] 제391회 제5차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-TMP-00020,
+        nadat2:PER-TMP-00316 ;
+    rico:identifier "EV-M-51604" ;
+    rico:name "제21대국회 제391회 제5차 국방위원회"@ko .
+
+nadat1:EV-M-51726 a rico:Event ;
+    skos:prefLabel "[EV-M-51726] 제392회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-S741317G,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-TMP-00020,
+        nadat2:PER-TMP-00324,
+        nadat2:PER-TMP-00327,
+        nadat2:PER-TMP-00347,
+        nadat2:PER-TMP-00351,
+        nadat2:PER-TMP-00353,
+        nadat2:PER-TMP-00354,
+        nadat2:PER-TMP-00355,
+        nadat2:PER-TMP-00356,
+        nadat2:PER-TMP-00357,
+        nadat2:PER-TMP-00358,
+        nadat2:PER-TMP-00359 ;
+    rico:identifier "EV-M-51726" ;
+    rico:name "제21대국회 제392회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-51779 a rico:Event ;
+    skos:prefLabel "[EV-M-51779] 제393회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-NAL4555X,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-TMP-00020,
+        nadat2:PER-TMP-00316,
+        nadat2:PER-TMP-00335,
+        nadat2:PER-TMP-00360,
+        nadat2:PER-TMP-00361 ;
+    rico:identifier "EV-M-51779" ;
+    rico:name "제21대국회 제393회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-51782 a rico:Event ;
+    skos:prefLabel "[EV-M-51782] 제394회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-60490713,
+        nadat2:PER-LM-66W6739S,
+        nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-FU87526G,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-TMP-00020,
+        nadat2:PER-TMP-00335,
+        nadat2:PER-TMP-00362,
+        nadat2:PER-TMP-00363 ;
+    rico:identifier "EV-M-51782" ;
+    rico:name "제21대국회 제394회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-51785 a rico:Event ;
+    skos:prefLabel "[EV-M-51785] 제394회 제2차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-O6D8329R ;
+    rico:identifier "EV-M-51785" ;
+    rico:name "제21대국회 제394회 제2차 국방위원회"@ko .
+
+nadat1:EV-M-51817 a rico:Event ;
+    skos:prefLabel "[EV-M-51817] 제395회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-M2Q9024I,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I ;
+    rico:identifier "EV-M-51817" ;
+    rico:name "제21대국회 제395회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-51834 a rico:Event ;
+    skos:prefLabel "[EV-M-51834] 제395회 제2차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-8X15119P,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-O6D8329R ;
+    rico:identifier "EV-M-51834" ;
+    rico:name "제21대국회 제395회 제2차 국방위원회"@ko .
+
+nadat1:EV-M-51864 a rico:Event ;
+    skos:prefLabel "[EV-M-51864] 제397회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-TMP-00041 ;
+    rico:identifier "EV-M-51864" ;
+    rico:name "제21대국회 제397회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-51880 a rico:Event ;
+    skos:prefLabel "[EV-M-51880] 제397회 제2차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-O6D8329R ;
+    rico:identifier "EV-M-51880" ;
+    rico:name "제21대국회 제397회 제2차 국방위원회"@ko .
+
+nadat1:EV-M-51911 a rico:Event ;
+    skos:prefLabel "[EV-M-51911] 제397회 제3차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-L2I9861C,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-O6D8329R,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-Q9H5708M,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-TMP-00039,
+        nadat2:PER-TMP-00041,
+        nadat2:PER-TMP-00324,
+        nadat2:PER-TMP-00332,
+        nadat2:PER-TMP-00352,
+        nadat2:PER-TMP-00360,
+        nadat2:PER-TMP-00364,
+        nadat2:PER-TMP-00365,
+        nadat2:PER-TMP-00366,
+        nadat2:PER-TMP-00367,
+        nadat2:PER-TMP-00368 ;
+    rico:identifier "EV-M-51911" ;
+    rico:name "제21대국회 제397회 제3차 국방위원회"@ko .
+
+nadat1:EV-M-52015 a rico:Event ;
+    skos:prefLabel "[EV-M-52015] 제398회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3249208I,
+        nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-B7D7534L,
+        nadat2:PER-LM-EVH1507C,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-IUD9392R,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-NLR6572J,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-V429892C,
+        nadat2:PER-LM-X7I4680R,
+        nadat2:PER-TMP-00041,
+        nadat2:PER-TMP-00318,
+        nadat2:PER-TMP-00332,
+        nadat2:PER-TMP-00335,
+        nadat2:PER-TMP-00337,
+        nadat2:PER-TMP-00343,
+        nadat2:PER-TMP-00364,
+        nadat2:PER-TMP-00369,
+        nadat2:PER-TMP-00370,
+        nadat2:PER-TMP-00371,
+        nadat2:PER-TMP-00372,
+        nadat2:PER-TMP-00373,
+        nadat2:PER-TMP-00374 ;
+    rico:identifier "EV-M-52015" ;
+    rico:name "제21대국회 제398회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-52086 a rico:Event ;
+    skos:prefLabel "[EV-M-52086] 제399회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-B7D7534L,
+        nadat2:PER-LM-EVH1507C,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-IUD9392R,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-NLR6572J,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-RD42006Y,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-V429892C,
+        nadat2:PER-TMP-00041,
+        nadat2:PER-TMP-00332,
+        nadat2:PER-TMP-00364,
+        nadat2:PER-TMP-00371,
+        nadat2:PER-TMP-00375,
+        nadat2:PER-TMP-00376,
+        nadat2:PER-TMP-00377 ;
+    rico:identifier "EV-M-52086" ;
+    rico:name "제21대국회 제399회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-52099 a rico:Event ;
+    skos:prefLabel "[EV-M-52099] 제399회 제2차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-B7D7534L,
+        nadat2:PER-LM-EVH1507C,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-NLR6572J,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-TMP-00041,
+        nadat2:PER-TMP-00332,
+        nadat2:PER-TMP-00364,
+        nadat2:PER-TMP-00371 ;
+    rico:identifier "EV-M-52099" ;
+    rico:name "제21대국회 제399회 제2차 국방위원회"@ko .
+
+nadat1:EV-M-52137 a rico:Event ;
+    skos:prefLabel "[EV-M-52137] 제400회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3249208I,
+        nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-B7D7534L,
+        nadat2:PER-LM-EVH1507C,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-NLR6572J,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-V429892C,
+        nadat2:PER-TMP-00369 ;
+    rico:identifier "EV-M-52137" ;
+    rico:name "제21대국회 제400회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-52192 a rico:Event ;
+    skos:prefLabel "[EV-M-52192] 제400회 제2차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-EVH1507C ;
+    rico:identifier "EV-M-52192" ;
+    rico:name "제21대국회 제400회 제2차 국방위원회"@ko .
+
+nadat1:EV-M-52276 a rico:Event ;
+    skos:prefLabel "[EV-M-52276] 제400회 제3차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3249208I,
+        nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-B7D7534L,
+        nadat2:PER-LM-EVH1507C,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-NLR6572J,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-RD42006Y,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-V429892C,
+        nadat2:PER-LM-X7I4680R,
+        nadat2:PER-TMP-00041,
+        nadat2:PER-TMP-00332,
+        nadat2:PER-TMP-00364,
+        nadat2:PER-TMP-00371,
+        nadat2:PER-TMP-00376 ;
+    rico:identifier "EV-M-52276" ;
+    rico:name "제21대국회 제400회 제3차 국방위원회"@ko .
+
+nadat1:EV-M-52306 a rico:Event ;
+    skos:prefLabel "[EV-M-52306] 제400회 제4차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3249208I,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-B7D7534L,
+        nadat2:PER-LM-EVH1507C,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-NLR6572J,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-V429892C,
+        nadat2:PER-TMP-00332,
+        nadat2:PER-TMP-00364,
+        nadat2:PER-TMP-00370,
+        nadat2:PER-TMP-00371,
+        nadat2:PER-TMP-00373,
+        nadat2:PER-TMP-00378,
+        nadat2:PER-TMP-00379,
+        nadat2:PER-TMP-00380,
+        nadat2:PER-TMP-00381,
+        nadat2:PER-TMP-00382,
+        nadat2:PER-TMP-00383,
+        nadat2:PER-TMP-00384 ;
+    rico:identifier "EV-M-52306" ;
+    rico:name "제21대국회 제400회 제4차 국방위원회"@ko .
+
+nadat1:EV-M-52425 a rico:Event ;
+    skos:prefLabel "[EV-M-52425] 제400회 제5차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-B7D7534L,
+        nadat2:PER-LM-EVH1507C,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-NLR6572J,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-V429892C,
+        nadat2:PER-TMP-00041,
+        nadat2:PER-TMP-00364,
+        nadat2:PER-TMP-00371,
+        nadat2:PER-TMP-00378 ;
+    rico:identifier "EV-M-52425" ;
+    rico:name "제21대국회 제400회 제5차 국방위원회"@ko .
+
+nadat1:EV-M-52639 a rico:Event ;
+    skos:prefLabel "[EV-M-52639] 제401회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3249208I,
+        nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-B7D7534L,
+        nadat2:PER-LM-EVH1507C,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-NLR6572J,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-RD42006Y,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-V429892C,
+        nadat2:PER-TMP-00041,
+        nadat2:PER-TMP-00369,
+        nadat2:PER-TMP-00385 ;
+    rico:identifier "EV-M-52639" ;
+    rico:name "제21대국회 제401회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-52658 a rico:Event ;
+    skos:prefLabel "[EV-M-52658] 제402회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3249208I,
+        nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-B7D7534L,
+        nadat2:PER-LM-EVH1507C,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-NLR6572J,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-RD42006Y,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-TMP-00041,
+        nadat2:PER-TMP-00369,
+        nadat2:PER-TMP-00371,
+        nadat2:PER-TMP-00385,
+        nadat2:PER-TMP-00386,
+        nadat2:PER-TMP-00387,
+        nadat2:PER-TMP-00388,
+        nadat2:PER-TMP-00389 ;
+    rico:identifier "EV-M-52658" ;
+    rico:name "제21대국회 제402회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-52717 a rico:Event ;
+    skos:prefLabel "[EV-M-52717] 제403회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3249208I,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-B7D7534L,
+        nadat2:PER-LM-EVH1507C,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-I5I2468R,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-NLR6572J,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-RD42006Y,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-V429892C,
+        nadat2:PER-TMP-00041,
+        nadat2:PER-TMP-00332,
+        nadat2:PER-TMP-00364,
+        nadat2:PER-TMP-00367,
+        nadat2:PER-TMP-00371,
+        nadat2:PER-TMP-00375,
+        nadat2:PER-TMP-00378,
+        nadat2:PER-TMP-00390 ;
+    rico:identifier "EV-M-52717" ;
+    rico:name "제21대국회 제403회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-52808 a rico:Event ;
+    skos:prefLabel "[EV-M-52808] 제404회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3249208I,
+        nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-EVH1507C,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-NLR6572J,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-RD42006Y,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-V429892C,
+        nadat2:PER-TMP-00041,
+        nadat2:PER-TMP-00364,
+        nadat2:PER-TMP-00371,
+        nadat2:PER-TMP-00375 ;
+    rico:identifier "EV-M-52808" ;
+    rico:name "제21대국회 제404회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-52853 a rico:Event ;
+    skos:prefLabel "[EV-M-52853] 제405회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3249208I,
+        nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-B7D7534L,
+        nadat2:PER-LM-EVH1507C,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-NLR6572J,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-P2N50879,
+        nadat2:PER-LM-RD42006Y,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-V429892C,
+        nadat2:PER-LM-WDS6044S,
+        nadat2:PER-TMP-00041,
+        nadat2:PER-TMP-00332,
+        nadat2:PER-TMP-00364,
+        nadat2:PER-TMP-00370,
+        nadat2:PER-TMP-00371,
+        nadat2:PER-TMP-00375,
+        nadat2:PER-TMP-00378,
+        nadat2:PER-TMP-00391 ;
+    rico:identifier "EV-M-52853" ;
+    rico:name "제21대국회 제405회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-52970 a rico:Event ;
+    skos:prefLabel "[EV-M-52970] 제407회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3249208I,
+        nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-EVH1507C,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-IUD9392R,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-NLR6572J,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-RD42006Y,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-V429892C,
+        nadat2:PER-LM-WDS6044S,
+        nadat2:PER-LM-ZRF3039U,
+        nadat2:PER-TMP-00041,
+        nadat2:PER-TMP-00332,
+        nadat2:PER-TMP-00364,
+        nadat2:PER-TMP-00371,
+        nadat2:PER-TMP-00375,
+        nadat2:PER-TMP-00378,
+        nadat2:PER-TMP-00392,
+        nadat2:PER-TMP-00393,
+        nadat2:PER-TMP-00394 ;
+    rico:identifier "EV-M-52970" ;
+    rico:name "제21대국회 제407회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-53103 a rico:Event ;
+    skos:prefLabel "[EV-M-53103] 제409회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3249208I,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-V429892C ;
+    rico:identifier "EV-M-53103" ;
+    rico:name "제21대국회 제409회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-53122 a rico:Event ;
+    skos:prefLabel "[EV-M-53122] 제409회 제2차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3249208I,
+        nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-EVH1507C,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-IUD9392R,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-M6H1705E,
+        nadat2:PER-LM-NLR6572J,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-RD42006Y,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-V429892C,
+        nadat2:PER-LM-WDS6044S,
+        nadat2:PER-LM-ZRF3039U,
+        nadat2:PER-TMP-00041,
+        nadat2:PER-TMP-00332,
+        nadat2:PER-TMP-00364,
+        nadat2:PER-TMP-00371,
+        nadat2:PER-TMP-00375,
+        nadat2:PER-TMP-00390,
+        nadat2:PER-TMP-00395,
+        nadat2:PER-TMP-00396 ;
+    rico:identifier "EV-M-53122" ;
+    rico:name "제21대국회 제409회 제2차 국방위원회"@ko .
+
+nadat1:EV-M-53149 a rico:Event ;
+    skos:prefLabel "[EV-M-53149] 제409회 제3차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3249208I,
+        nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-EVH1507C,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-NLR6572J,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-RD42006Y,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-V429892C,
+        nadat2:PER-LM-WDS6044S,
+        nadat2:PER-TMP-00041,
+        nadat2:PER-TMP-00332,
+        nadat2:PER-TMP-00364,
+        nadat2:PER-TMP-00371,
+        nadat2:PER-TMP-00375,
+        nadat2:PER-TMP-00390,
+        nadat2:PER-TMP-00392,
+        nadat2:PER-TMP-00395,
+        nadat2:PER-TMP-00396,
+        nadat2:PER-TMP-00397,
+        nadat2:PER-TMP-00398,
+        nadat2:PER-TMP-00399 ;
+    rico:identifier "EV-M-53149" ;
+    rico:name "제21대국회 제409회 제3차 국방위원회"@ko .
+
+nadat1:EV-M-53195 a rico:Event ;
+    skos:prefLabel "[EV-M-53195] 제410회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-EVH1507C,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-WDS6044S ;
+    rico:identifier "EV-M-53195" ;
+    rico:name "제21대국회 제410회 제1차 국방위원회"@ko .
+
+nadat1:EV-M-53226 a rico:Event ;
+    skos:prefLabel "[EV-M-53226] 제410회 제2차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-EVH1507C,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-NLR6572J,
+        nadat2:PER-LM-WDS6044S ;
+    rico:identifier "EV-M-53226" ;
+    rico:name "제21대국회 제410회 제2차 국방위원회"@ko .
+
+nadat1:EV-M-53240 a rico:Event ;
+    skos:prefLabel "[EV-M-53240] 제410회 제3차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-EVH1507C,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-TMP-00041 ;
+    rico:identifier "EV-M-53240" ;
+    rico:name "제21대국회 제410회 제3차 국방위원회"@ko .
+
+nadat1:EV-M-53766 a rico:Event ;
+    skos:prefLabel "[EV-M-53766] 제411회 제2차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3249208I,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-OW53107J,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-V429892C ;
+    rico:identifier "EV-M-53766" ;
+    rico:name "제21대국회 제411회 제2차 국방위원회"@ko .
+
+nadat1:EV-M-53825 a rico:Event ;
+    skos:prefLabel "[EV-M-53825] 제413회 제1차 국방위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3249208I,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-JQA21112,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-RD42006Y,
+        nadat2:PER-LM-TST4507I,
+        nadat2:PER-LM-V429892C ;
+    rico:identifier "EV-M-53825" ;
+    rico:name "제21대국회 제413회 제1차 국방위원회"@ko .
+
+nadat1:INS-AH-53766_53825-01 a rico:Instantiation ;
+    dcterms:coverage "2024-01-09/2024-03-15" ;
+    skos:prefLabel "[INS-AH-53766_53825-01] 2024-1 국방위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-240109 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-240315 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-53766_53825-01" ;
+    rico:title "2024-1 국방위원회 보존회의록"@ko .
+
+nadat1:date-200622 a rico:Date ;
+    rico:expressedDate "2020년6월22일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-200622" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50016 ;
+    rico:name "date-200622" ;
+    rico:normalizedDateValue "2020-06-22"^^xsd:date .
+
+nadat1:date-201208 rico:isDateOfOccurrenceOf nadat1:EV-M-50671 .
+
+nadat1:date-210217 rico:isDateOfOccurrenceOf nadat1:EV-M-50789 .
+
+nadat1:date-211201 a rico:Date ;
+    rico:expressedDate "2021년12월1일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-211201" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51604 ;
+    rico:name "date-211201" ;
+    rico:normalizedDateValue "2021-12-01"^^xsd:date .
+
+nadat1:date-220105 a rico:Date ;
+    rico:expressedDate "2022년1월5일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220105" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51726 ;
+    rico:name "date-220105" ;
+    rico:normalizedDateValue "2022-01-05"^^xsd:date .
+
+nadat1:date-221228 rico:isDateOfOccurrenceOf nadat1:EV-M-52639 .
+
+nadat1:date-230126 a rico:Date ;
+    rico:expressedDate "2023년1월26일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230126" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52658 ;
+    rico:name "date-230126" ;
+    rico:normalizedDateValue "2023-01-26"^^xsd:date .
+
+nadat1:date-230920 rico:isDateOfOccurrenceOf nadat1:EV-M-53240 .
+
+nadat1:date-240109 rico:isDateOfOccurrenceOf nadat1:EV-M-53766 .
+
+nadat1:date-240315 a rico:Date ;
+    rico:expressedDate "2024년3월15일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-240315" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-53825 ;
+    rico:name "date-240315" ;
+    rico:normalizedDateValue "2024-03-15"^^xsd:date .
+
+nadat1:INS-AH-52658_53240-01 a rico:Instantiation ;
+    dcterms:coverage "2023-01-26/2023-09-20" ;
+    skos:prefLabel "[INS-AH-52658_53240-01] 2023 국방위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-230126 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-230920 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-52658_53240-01" ;
+    rico:title "2023 국방위원회 보존회의록"@ko .
+
+nadat1:INS-AH-50789_51604-01 a rico:Instantiation ;
+    dcterms:coverage "2021-02-17/2021-12-01" ;
+    skos:prefLabel "[INS-AH-50789_51604-01] 2021 국방위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-210217 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-211201 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-50789_51604-01" ;
+    rico:title "2021 국방위원회 보존회의록"@ko .
+
+nadat1:INS-AH-50016_50671-01 a rico:Instantiation ;
+    dcterms:coverage "2020-06-22/2020-12-08" ;
+    skos:prefLabel "[INS-AH-50016_50671-01] 2020-2 국방위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-200622 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-201208 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-50016_50671-01" ;
+    rico:title "2020-2 국방위원회 보존회의록"@ko .
+
+nadat1:INS-AH-51726_52639-01 a rico:Instantiation ;
+    dcterms:coverage "2022-01-05/2022-12-28" ;
+    skos:prefLabel "[INS-AH-51726_52639-01] 2022 국방위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-220105 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-221228 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AH-51726_52639-01" ;
+    rico:title "2022 국방위원회 보존회의록"@ko .
+
+
