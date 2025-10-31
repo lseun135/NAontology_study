@@ -572,7 +572,18 @@ nam1:CommitteeReviewAction a rico:ActivityType, skos:Concept ;
   skos:notation "committee_review" ;
   rdfs:comment "심사보고서, 수정안 등 여러 기록물이 생산된다."@ko .
 
+
+
 #### 법제사법위원회(Action)
+nam1:LJCReferralAction a rico:ActivityType, skos:Concept ;
+  skos:inScheme nam1:NAactivityTypeScheme ;
+  skos:broader  nam1:ProcedureAction , nam1:LJCPhase , nam1:CommitteeReferralAction ;
+  skos:prefLabel "법제사법위원회 회부"@ko , "LJC referral"@en ;
+  skos:altLabel  "체계·자구심사 회부"@ko ;
+  skos:notation  "ljc_referral" ;
+  rdfs:comment "의안을 법제사법위원회로 회부하는 행위. 일반적 회부(CommitteeReferralAction)의 특수화이며, 별도 회의(Event) 없이도 발생할 수 있다."@ko .
+
+
 nam1:LJCAgendaPlacementAction a rico:ActivityType, skos:Concept ;
   skos:inScheme nam1:NAactivityTypeScheme ;
   skos:broader  nam1:ProcedureAction , nam1:LJCPhase ;
