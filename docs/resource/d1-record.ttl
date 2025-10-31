@@ -61,16 +61,6 @@ nadat1:RS100021 a rico:RecordSet ;
     rico:name "제21대"@ko .
 
 
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix nadat1: <https://lseun135.github.io/NAontology_study/resource/d1-record#> .
-@prefix nadat2: <https://lseun135.github.io/NAontology_study/resource/d2-person#> .
-@prefix nam1: <https://lseun135.github.io/NAontology_study/m1-record#> .
-@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-nadat1:RS100021 rico:includesOrIncluded nadat1:RS100021-PLEN .
-
 nadat1:ACT-M-50024-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50024-002] 제379회 제1차 국회본회의 심의"@ko ;
     rico:hasActivityType nam1:PlenaryDeliberationAction ;
