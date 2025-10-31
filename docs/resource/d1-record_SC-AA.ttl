@@ -25,3 +25,2582 @@
 
 
 @base <https://lseun135.github.io/NAontology_study/resource/d1-record> .
+
+
+
+
+
+
+nadat1:RS100021 rico:includesOrIncluded nadat1:RS100021-AA .
+
+nadat1:ACT-M-50020-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50020-002] 제379회 제1차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50020-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50020 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제379회 제1차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-50078-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50078-002] 제380회 제1차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50078-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50078 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제380회 제1차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-50111-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50111-002] 제381회 제1차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50111-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50111 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제381회 제1차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-50147-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50147-002] 제382회 제1차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50147-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50147 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제382회 제1차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-50243-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50243-002] 제382회 제2차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50243-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50243 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제382회 제2차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-50357-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50357-002] 제382회 제3차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50357-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50357 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제382회 제3차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-50419-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50419-002] 제382회 제4차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50419-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50419 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제382회 제4차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-50456-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50456-002] 제382회 제5차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50456-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50456 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제382회 제5차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-50608-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50608-002] 제382회 제6차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50608-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50608 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제382회 제6차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-50806-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50806-002] 제384회 제1차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50806-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50806 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제384회 제1차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-50965-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50965-002] 제386회 제1차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50965-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50965 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제386회 제1차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-50980-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50980-002] 제386회 제2차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50980-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50980 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제386회 제2차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-51176-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51176-002] 제390회 제1차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51176-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51176 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제390회 제1차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-51195-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51195-002] 제390회 제2차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51195-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51195 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제390회 제2차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-51225-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51225-002] 제390회 제3차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51225-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51225 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제390회 제3차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-51280-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51280-002] 제391회 제1차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51280-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51280 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제391회 제1차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-51433-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51433-002] 제391회 제2차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51433-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51433 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제391회 제2차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-51486-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51486-002] 제391회 제3차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51486-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51486 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제391회 제3차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-51619-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51619-002] 제391회 제4차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51619-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51619 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제391회 제4차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-51847-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51847-002] 제395회 제1차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51847-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51847 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제395회 제1차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-51900-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51900-002] 제397회 제1차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51900-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51900 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제397회 제1차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-52050-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52050-002] 제399회 제1차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52050-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52050 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제399회 제1차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-52055-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52055-002] 제399회 제2차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52055-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52055 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제399회 제2차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-52085-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52085-002] 제399회 제3차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52085-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52085 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제399회 제3차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-52172-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52172-002] 제400회 제1차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52172-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52172 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제400회 제1차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-52249-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52249-002] 제400회 제2차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52249-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52249 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제400회 제2차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-52320-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52320-002] 제400회 제3차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52320-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52320 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제400회 제3차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-52726-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52726-002] 제403회 제1차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52726-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52726 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제403회 제1차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-52780-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52780-002] 제404회 제1차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52780-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52780 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제404회 제1차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-52849-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52849-002] 제405회 제1차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52849-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52849 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제405회 제1차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-52943-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52943-002] 제406회 제1차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52943-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52943 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제406회 제1차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-53065-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53065-002] 제408회 제1차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53065-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53065 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제408회 제1차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-53155-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53155-002] 제409회 제1차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53155-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53155 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제409회 제1차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-53176-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53176-002] 제410회 제1차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53176-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53176 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제410회 제1차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-53237-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53237-002] 제410회 제2차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53237-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53237 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제410회 제2차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-53371-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53371-002] 제410회 제3차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53371-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53371 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제410회 제3차 국회운영위원회 심의"@ko .
+
+nadat1:ACT-M-53777-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53777-002] 제412회 제1차 국회운영위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53777-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53777 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AA ;
+    rico:name "제412회 제1차 국회운영위원회 심의"@ko .
+
+nadat1:INS-AA-21037900150020-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21037900150020-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21037900150020-02" ;
+    rico:title "제379회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AA-21038000150078-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21038000150078-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21038000150078-02" ;
+    rico:title "제380회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AA-21038100150111-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21038100150111-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21038100150111-02" ;
+    rico:title "제381회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AA-21038200150147-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21038200150147-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21038200150147-02" ;
+    rico:title "제382회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AA-21038200250243-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21038200250243-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21038200250243-02" ;
+    rico:title "제382회국회 국회운영위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AA-21038200350357-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21038200350357-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21038200350357-02" ;
+    rico:title "제382회국회 국회운영위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AA-21038200450419-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21038200450419-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21038200450419-02" ;
+    rico:title "제382회국회 국회운영위원회회의록 제 4 호"@ko .
+
+nadat1:INS-AA-21038200550456-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21038200550456-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21038200550456-02" ;
+    rico:title "제382회국회 국회운영위원회회의록 제 5 호"@ko .
+
+nadat1:INS-AA-21038200650608-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21038200650608-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21038200650608-02" ;
+    rico:title "제382회국회 국회운영위원회회의록 제 6 호"@ko .
+
+nadat1:INS-AA-21038400150806-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21038400150806-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21038400150806-02" ;
+    rico:title "제384회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AA-21038600150965-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21038600150965-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21038600150965-02" ;
+    rico:title "제386회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AA-21038600250980-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21038600250980-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21038600250980-02" ;
+    rico:title "제386회국회 국회운영위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AA-21039000151176-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21039000151176-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21039000151176-02" ;
+    rico:title "제390회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AA-21039000251195-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21039000251195-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21039000251195-02" ;
+    rico:title "제390회국회 국회운영위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AA-21039000351225-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21039000351225-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21039000351225-02" ;
+    rico:title "제390회국회 국회운영위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AA-21039100151280-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21039100151280-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21039100151280-02" ;
+    rico:title "제391회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AA-21039100251433-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21039100251433-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21039100251433-02" ;
+    rico:title "제391회국회 국회운영위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AA-21039100351486-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21039100351486-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21039100351486-02" ;
+    rico:title "제391회국회 국회운영위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AA-21039100451619-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21039100451619-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21039100451619-02" ;
+    rico:title "제391회국회 국회운영위원회회의록 제 4 호"@ko .
+
+nadat1:INS-AA-21039500151847-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21039500151847-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21039500151847-02" ;
+    rico:title "제395회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AA-21039700151900-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21039700151900-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21039700151900-02" ;
+    rico:title "제397회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AA-21039900152050-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21039900152050-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21039900152050-02" ;
+    rico:title "제399회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AA-21039900252055-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21039900252055-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21039900252055-02" ;
+    rico:title "제399회국회 국회운영위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AA-21039900352085-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21039900352085-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21039900352085-02" ;
+    rico:title "제399회국회 국회운영위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AA-21040000152172-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21040000152172-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21040000152172-02" ;
+    rico:title "제400회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AA-21040000252249-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21040000252249-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21040000252249-02" ;
+    rico:title "제400회국회 국회운영위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AA-21040000352320-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21040000352320-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21040000352320-02" ;
+    rico:title "제400회국회 국회운영위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AA-21040300152726-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21040300152726-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21040300152726-02" ;
+    rico:title "제403회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AA-21040400152780-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21040400152780-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21040400152780-02" ;
+    rico:title "제404회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AA-21040500152849-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21040500152849-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21040500152849-02" ;
+    rico:title "제405회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AA-21040600152943-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21040600152943-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21040600152943-02" ;
+    rico:title "제406회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AA-21040800153065-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21040800153065-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21040800153065-02" ;
+    rico:title "제408회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AA-21040900153155-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21040900153155-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21040900153155-02" ;
+    rico:title "제409회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AA-21041000153176-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21041000153176-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21041000153176-02" ;
+    rico:title "제410회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AA-21041000253237-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21041000253237-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21041000253237-02" ;
+    rico:title "제410회국회 국회운영위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AA-21041000353371-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21041000353371-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21041000353371-02" ;
+    rico:title "제410회국회 국회운영위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AA-21041200153777-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AA-21041200153777-02] 국회운영위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-21041200153777-02" ;
+    rico:title "제412회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AA-53777_53777-01 a rico:Instantiation ;
+    dcterms:coverage "2024-01-23/2024-01-23" ;
+    skos:prefLabel "[INS-AA-53777_53777-01] 2024-1 국회운영위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-240123 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-240123 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-53777_53777-01" ;
+    rico:title "2024-1 국회운영위원회 보존회의록"@ko .
+
+nadat1:R100021037900150020 a rico:Record ;
+    skos:prefLabel "[R100021037900150020] 21대 379회 1차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50020-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200629 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21037900150020-02,
+        nadat1:INS-AA-50020_50608-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021037900150020" ;
+    rico:title "제379회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038000150078 a rico:Record ;
+    skos:prefLabel "[R100021038000150078] 21대 380회 1차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50078-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200729 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21038000150078-02,
+        nadat1:INS-AA-50020_50608-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038000150078" ;
+    rico:title "제380회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038100150111 a rico:Record ;
+    skos:prefLabel "[R100021038100150111] 21대 381회 1차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50111-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200825 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21038100150111-02,
+        nadat1:INS-AA-50020_50608-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038100150111" ;
+    rico:title "제381회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038200150147 a rico:Record ;
+    skos:prefLabel "[R100021038200150147] 21대 382회 1차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50147-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200902 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21038200150147-02,
+        nadat1:INS-AA-50020_50608-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200150147" ;
+    rico:title "제382회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038200250243 a rico:Record ;
+    skos:prefLabel "[R100021038200250243] 21대 382회 2차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50243-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200924 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21038200250243-02,
+        nadat1:INS-AA-50020_50608-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200250243" ;
+    rico:title "제382회국회 국회운영위원회회의록 제 2 호"@ko .
+
+nadat1:R100021038200350357 a rico:Record ;
+    skos:prefLabel "[R100021038200350357] 21대 382회 3차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50357-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201104 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21038200350357-02,
+        nadat1:INS-AA-50020_50608-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200350357" ;
+    rico:title "제382회국회 국회운영위원회회의록 제 3 호"@ko .
+
+nadat1:R100021038200450419 a rico:Record ;
+    skos:prefLabel "[R100021038200450419] 21대 382회 4차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50419-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201113 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21038200450419-02,
+        nadat1:INS-AA-50020_50608-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200450419" ;
+    rico:title "제382회국회 국회운영위원회회의록 제 4 호"@ko .
+
+nadat1:R100021038200550456 a rico:Record ;
+    skos:prefLabel "[R100021038200550456] 21대 382회 5차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50456-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201117 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21038200550456-02,
+        nadat1:INS-AA-50020_50608-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200550456" ;
+    rico:title "제382회국회 국회운영위원회회의록 제 5 호"@ko .
+
+nadat1:R100021038200650608 a rico:Record ;
+    skos:prefLabel "[R100021038200650608] 21대 382회 6차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50608-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201204 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21038200650608-02,
+        nadat1:INS-AA-50020_50608-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200650608" ;
+    rico:title "제382회국회 국회운영위원회회의록 제 6 호"@ko .
+
+nadat1:R100021038400150806 a rico:Record ;
+    skos:prefLabel "[R100021038400150806] 21대 384회 1차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50806-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210224 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21038400150806-02,
+        nadat1:INS-AA-50806_51619-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038400150806" ;
+    rico:title "제384회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038600150965 a rico:Record ;
+    skos:prefLabel "[R100021038600150965] 21대 386회 1차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50965-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210422 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21038600150965-02,
+        nadat1:INS-AA-50806_51619-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038600150965" ;
+    rico:title "제386회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038600250980 a rico:Record ;
+    skos:prefLabel "[R100021038600250980] 21대 386회 2차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50980-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210427 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21038600250980-02,
+        nadat1:INS-AA-50806_51619-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038600250980" ;
+    rico:title "제386회국회 국회운영위원회회의록 제 2 호"@ko .
+
+nadat1:R100021039000151176 a rico:Record ;
+    skos:prefLabel "[R100021039000151176] 21대 390회 1차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51176-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210817 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21039000151176-02,
+        nadat1:INS-AA-50806_51619-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039000151176" ;
+    rico:title "제390회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039000251195 a rico:Record ;
+    skos:prefLabel "[R100021039000251195] 21대 390회 2차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51195-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210823 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21039000251195-02,
+        nadat1:INS-AA-50806_51619-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039000251195" ;
+    rico:title "제390회국회 국회운영위원회회의록 제 2 호"@ko .
+
+nadat1:R100021039000351225 a rico:Record ;
+    skos:prefLabel "[R100021039000351225] 21대 390회 3차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51225-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210830 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21039000351225-02,
+        nadat1:INS-AA-50806_51619-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039000351225" ;
+    rico:title "제390회국회 국회운영위원회회의록 제 3 호"@ko .
+
+nadat1:R100021039100151280 a rico:Record ;
+    skos:prefLabel "[R100021039100151280] 21대 391회 1차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51280-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210915 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21039100151280-02,
+        nadat1:INS-AA-50806_51619-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100151280" ;
+    rico:title "제391회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039100251433 a rico:Record ;
+    skos:prefLabel "[R100021039100251433] 21대 391회 2차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51433-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-211110 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21039100251433-02,
+        nadat1:INS-AA-50806_51619-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100251433" ;
+    rico:title "제391회국회 국회운영위원회회의록 제 2 호"@ko .
+
+nadat1:R100021039100351486 a rico:Record ;
+    skos:prefLabel "[R100021039100351486] 21대 391회 3차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51486-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-211116 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21039100351486-02,
+        nadat1:INS-AA-50806_51619-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100351486" ;
+    rico:title "제391회국회 국회운영위원회회의록 제 3 호"@ko .
+
+nadat1:R100021039100451619 a rico:Record ;
+    skos:prefLabel "[R100021039100451619] 21대 391회 4차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51619-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-211202 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21039100451619-02,
+        nadat1:INS-AA-50806_51619-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100451619" ;
+    rico:title "제391회국회 국회운영위원회회의록 제 4 호"@ko .
+
+nadat1:R100021039500151847 a rico:Record ;
+    skos:prefLabel "[R100021039500151847] 21대 395회 1차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51847-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220429 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21039500151847-02,
+        nadat1:INS-AA-51847_52320-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039500151847" ;
+    rico:title "제395회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039700151900 a rico:Record ;
+    skos:prefLabel "[R100021039700151900] 21대 397회 1차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51900-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220517 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21039700151900-02,
+        nadat1:INS-AA-51847_52320-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039700151900" ;
+    rico:title "제397회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039900152050 a rico:Record ;
+    skos:prefLabel "[R100021039900152050] 21대 399회 1차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52050-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220823 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21039900152050-02,
+        nadat1:INS-AA-51847_52320-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039900152050" ;
+    rico:title "제399회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039900252055 a rico:Record ;
+    skos:prefLabel "[R100021039900252055] 21대 399회 2차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52055-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220824 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21039900252055-02,
+        nadat1:INS-AA-51847_52320-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039900252055" ;
+    rico:title "제399회국회 국회운영위원회회의록 제 2 호"@ko .
+
+nadat1:R100021039900352085 a rico:Record ;
+    skos:prefLabel "[R100021039900352085] 21대 399회 3차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52085-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220830 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21039900352085-02,
+        nadat1:INS-AA-51847_52320-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039900352085" ;
+    rico:title "제399회국회 국회운영위원회회의록 제 3 호"@ko .
+
+nadat1:R100021040000152172 a rico:Record ;
+    skos:prefLabel "[R100021040000152172] 21대 400회 1차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52172-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220927 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21040000152172-02,
+        nadat1:INS-AA-51847_52320-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000152172" ;
+    rico:title "제400회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040000252249 a rico:Record ;
+    skos:prefLabel "[R100021040000252249] 21대 400회 2차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52249-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221025 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21040000252249-02,
+        nadat1:INS-AA-51847_52320-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000252249" ;
+    rico:title "제400회국회 국회운영위원회회의록 제 2 호"@ko .
+
+nadat1:R100021040000352320 a rico:Record ;
+    skos:prefLabel "[R100021040000352320] 21대 400회 3차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52320-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221109 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21040000352320-02,
+        nadat1:INS-AA-51847_52320-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000352320" ;
+    rico:title "제400회국회 국회운영위원회회의록 제 3 호"@ko .
+
+nadat1:R100021040300152726 a rico:Record ;
+    skos:prefLabel "[R100021040300152726] 21대 403회 1차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52726-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230222 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21040300152726-02,
+        nadat1:INS-AA-52726_53371-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040300152726" ;
+    rico:title "제403회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040400152780 a rico:Record ;
+    skos:prefLabel "[R100021040400152780] 21대 404회 1차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52780-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230321 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21040400152780-02,
+        nadat1:INS-AA-52726_53371-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040400152780" ;
+    rico:title "제404회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040500152849 a rico:Record ;
+    skos:prefLabel "[R100021040500152849] 21대 405회 1차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52849-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230406 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21040500152849-02,
+        nadat1:INS-AA-52726_53371-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040500152849" ;
+    rico:title "제405회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040600152943 a rico:Record ;
+    skos:prefLabel "[R100021040600152943] 21대 406회 1차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52943-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230524 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21040600152943-02,
+        nadat1:INS-AA-52726_53371-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040600152943" ;
+    rico:title "제406회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040800153065 a rico:Record ;
+    skos:prefLabel "[R100021040800153065] 21대 408회 1차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53065-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230714 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21040800153065-02,
+        nadat1:INS-AA-52726_53371-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040800153065" ;
+    rico:title "제408회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040900153155 a rico:Record ;
+    skos:prefLabel "[R100021040900153155] 21대 409회 1차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53155-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230830 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21040900153155-02,
+        nadat1:INS-AA-52726_53371-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040900153155" ;
+    rico:title "제409회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:R100021041000153176 a rico:Record ;
+    skos:prefLabel "[R100021041000153176] 21대 410회 1차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53176-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230904 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21041000153176-02,
+        nadat1:INS-AA-52726_53371-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041000153176" ;
+    rico:title "제410회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:R100021041000253237 a rico:Record ;
+    skos:prefLabel "[R100021041000253237] 21대 410회 2차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53237-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230920 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21041000253237-02,
+        nadat1:INS-AA-52726_53371-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041000253237" ;
+    rico:title "제410회국회 국회운영위원회회의록 제 2 호"@ko .
+
+nadat1:R100021041000353371 a rico:Record ;
+    skos:prefLabel "[R100021041000353371] 21대 410회 3차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53371-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-231107 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21041000353371-02,
+        nadat1:INS-AA-52726_53371-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041000353371" ;
+    rico:title "제410회국회 국회운영위원회회의록 제 3 호"@ko .
+
+nadat1:R100021041200153777 a rico:Record ;
+    skos:prefLabel "[R100021041200153777] 21대 412회 1차 국회운영위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53777-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-240123 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AA-21041200153777-02,
+        nadat1:INS-AA-53777_53777-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041200153777" ;
+    rico:title "제412회국회 국회운영위원회회의록 제 1 호"@ko .
+
+nadat1:RS100021-AA a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AA] 21대 국회운영위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AA" ;
+    rico:includesOrIncluded nadat1:RS100021-AA-0379,
+        nadat1:RS100021-AA-0380,
+        nadat1:RS100021-AA-0381,
+        nadat1:RS100021-AA-0382,
+        nadat1:RS100021-AA-0384,
+        nadat1:RS100021-AA-0386,
+        nadat1:RS100021-AA-0390,
+        nadat1:RS100021-AA-0391,
+        nadat1:RS100021-AA-0395,
+        nadat1:RS100021-AA-0397,
+        nadat1:RS100021-AA-0399,
+        nadat1:RS100021-AA-0400,
+        nadat1:RS100021-AA-0403,
+        nadat1:RS100021-AA-0404,
+        nadat1:RS100021-AA-0405,
+        nadat1:RS100021-AA-0406,
+        nadat1:RS100021-AA-0408,
+        nadat1:RS100021-AA-0409,
+        nadat1:RS100021-AA-0410,
+        nadat1:RS100021-AA-0412 ;
+    rico:name "제21대국회 국회운영위원회 회의록"@ko .
+
+nadat1:RS100021-AA-0379 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AA-0379] 21대 379회 국회운영위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AA-0379" ;
+    rico:includesOrIncluded nadat1:R100021037900150020 ;
+    rico:name "제21대국회 제379회 국회운영위원회 회의록"@ko .
+
+nadat1:RS100021-AA-0380 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AA-0380] 21대 380회 국회운영위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AA-0380" ;
+    rico:includesOrIncluded nadat1:R100021038000150078 ;
+    rico:name "제21대국회 제380회 국회운영위원회 회의록"@ko .
+
+nadat1:RS100021-AA-0381 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AA-0381] 21대 381회 국회운영위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AA-0381" ;
+    rico:includesOrIncluded nadat1:R100021038100150111 ;
+    rico:name "제21대국회 제381회 국회운영위원회 회의록"@ko .
+
+nadat1:RS100021-AA-0382 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AA-0382] 21대 382회 국회운영위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AA-0382" ;
+    rico:includesOrIncluded nadat1:R100021038200150147,
+        nadat1:R100021038200250243,
+        nadat1:R100021038200350357,
+        nadat1:R100021038200450419,
+        nadat1:R100021038200550456,
+        nadat1:R100021038200650608 ;
+    rico:name "제21대국회 제382회 국회운영위원회 회의록"@ko .
+
+nadat1:RS100021-AA-0384 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AA-0384] 21대 384회 국회운영위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AA-0384" ;
+    rico:includesOrIncluded nadat1:R100021038400150806 ;
+    rico:name "제21대국회 제384회 국회운영위원회 회의록"@ko .
+
+nadat1:RS100021-AA-0386 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AA-0386] 21대 386회 국회운영위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AA-0386" ;
+    rico:includesOrIncluded nadat1:R100021038600150965,
+        nadat1:R100021038600250980 ;
+    rico:name "제21대국회 제386회 국회운영위원회 회의록"@ko .
+
+nadat1:RS100021-AA-0390 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AA-0390] 21대 390회 국회운영위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AA-0390" ;
+    rico:includesOrIncluded nadat1:R100021039000151176,
+        nadat1:R100021039000251195,
+        nadat1:R100021039000351225 ;
+    rico:name "제21대국회 제390회 국회운영위원회 회의록"@ko .
+
+nadat1:RS100021-AA-0391 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AA-0391] 21대 391회 국회운영위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AA-0391" ;
+    rico:includesOrIncluded nadat1:R100021039100151280,
+        nadat1:R100021039100251433,
+        nadat1:R100021039100351486,
+        nadat1:R100021039100451619 ;
+    rico:name "제21대국회 제391회 국회운영위원회 회의록"@ko .
+
+nadat1:RS100021-AA-0395 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AA-0395] 21대 395회 국회운영위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AA-0395" ;
+    rico:includesOrIncluded nadat1:R100021039500151847 ;
+    rico:name "제21대국회 제395회 국회운영위원회 회의록"@ko .
+
+nadat1:RS100021-AA-0397 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AA-0397] 21대 397회 국회운영위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AA-0397" ;
+    rico:includesOrIncluded nadat1:R100021039700151900 ;
+    rico:name "제21대국회 제397회 국회운영위원회 회의록"@ko .
+
+nadat1:RS100021-AA-0399 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AA-0399] 21대 399회 국회운영위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AA-0399" ;
+    rico:includesOrIncluded nadat1:R100021039900152050,
+        nadat1:R100021039900252055,
+        nadat1:R100021039900352085 ;
+    rico:name "제21대국회 제399회 국회운영위원회 회의록"@ko .
+
+nadat1:RS100021-AA-0400 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AA-0400] 21대 400회 국회운영위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AA-0400" ;
+    rico:includesOrIncluded nadat1:R100021040000152172,
+        nadat1:R100021040000252249,
+        nadat1:R100021040000352320 ;
+    rico:name "제21대국회 제400회 국회운영위원회 회의록"@ko .
+
+nadat1:RS100021-AA-0403 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AA-0403] 21대 403회 국회운영위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AA-0403" ;
+    rico:includesOrIncluded nadat1:R100021040300152726 ;
+    rico:name "제21대국회 제403회 국회운영위원회 회의록"@ko .
+
+nadat1:RS100021-AA-0404 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AA-0404] 21대 404회 국회운영위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AA-0404" ;
+    rico:includesOrIncluded nadat1:R100021040400152780 ;
+    rico:name "제21대국회 제404회 국회운영위원회 회의록"@ko .
+
+nadat1:RS100021-AA-0405 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AA-0405] 21대 405회 국회운영위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AA-0405" ;
+    rico:includesOrIncluded nadat1:R100021040500152849 ;
+    rico:name "제21대국회 제405회 국회운영위원회 회의록"@ko .
+
+nadat1:RS100021-AA-0406 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AA-0406] 21대 406회 국회운영위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AA-0406" ;
+    rico:includesOrIncluded nadat1:R100021040600152943 ;
+    rico:name "제21대국회 제406회 국회운영위원회 회의록"@ko .
+
+nadat1:RS100021-AA-0408 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AA-0408] 21대 408회 국회운영위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AA-0408" ;
+    rico:includesOrIncluded nadat1:R100021040800153065 ;
+    rico:name "제21대국회 제408회 국회운영위원회 회의록"@ko .
+
+nadat1:RS100021-AA-0409 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AA-0409] 21대 409회 국회운영위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AA-0409" ;
+    rico:includesOrIncluded nadat1:R100021040900153155 ;
+    rico:name "제21대국회 제409회 국회운영위원회 회의록"@ko .
+
+nadat1:RS100021-AA-0410 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AA-0410] 21대 410회 국회운영위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AA-0410" ;
+    rico:includesOrIncluded nadat1:R100021041000153176,
+        nadat1:R100021041000253237,
+        nadat1:R100021041000353371 ;
+    rico:name "제21대국회 제410회 국회운영위원회 회의록"@ko .
+
+nadat1:RS100021-AA-0412 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AA-0412] 21대 412회 국회운영위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AA-0412" ;
+    rico:includesOrIncluded nadat1:R100021041200153777 ;
+    rico:name "제21대국회 제412회 국회운영위원회 회의록"@ko .
+
+nadat1:date-200729 rico:isDateOfOccurrenceOf nadat1:EV-M-50078 .
+
+nadat1:date-200825 rico:isDateOfOccurrenceOf nadat1:EV-M-50111 .
+
+nadat1:date-200902 rico:isDateOfOccurrenceOf nadat1:EV-M-50147 .
+
+nadat1:date-200924 rico:isDateOfOccurrenceOf nadat1:EV-M-50243 .
+
+nadat1:date-201104 a rico:Date ;
+    rico:expressedDate "2020년11월4일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-201104" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50357 ;
+    rico:name "date-201104" ;
+    rico:normalizedDateValue "2020-11-04"^^xsd:date .
+
+nadat1:date-201113 a rico:Date ;
+    rico:expressedDate "2020년11월13일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-201113" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50419 ;
+    rico:name "date-201113" ;
+    rico:normalizedDateValue "2020-11-13"^^xsd:date .
+
+nadat1:date-201117 rico:isDateOfOccurrenceOf nadat1:EV-M-50456 .
+
+nadat1:date-210422 rico:isDateOfOccurrenceOf nadat1:EV-M-50965 .
+
+nadat1:date-210427 a rico:Date ;
+    rico:expressedDate "2021년4월27일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210427" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50980 ;
+    rico:name "date-210427" ;
+    rico:normalizedDateValue "2021-04-27"^^xsd:date .
+
+nadat1:date-210817 a rico:Date ;
+    rico:expressedDate "2021년8월17일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210817" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51176 ;
+    rico:name "date-210817" ;
+    rico:normalizedDateValue "2021-08-17"^^xsd:date .
+
+nadat1:date-210823 a rico:Date ;
+    rico:expressedDate "2021년8월23일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210823" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51195 ;
+    rico:name "date-210823" ;
+    rico:normalizedDateValue "2021-08-23"^^xsd:date .
+
+nadat1:date-210830 a rico:Date ;
+    rico:expressedDate "2021년8월30일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210830" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51225 ;
+    rico:name "date-210830" ;
+    rico:normalizedDateValue "2021-08-30"^^xsd:date .
+
+nadat1:date-210915 rico:isDateOfOccurrenceOf nadat1:EV-M-51280 .
+
+nadat1:date-211110 a rico:Date ;
+    rico:expressedDate "2021년11월10일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-211110" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51433 ;
+    rico:name "date-211110" ;
+    rico:normalizedDateValue "2021-11-10"^^xsd:date .
+
+nadat1:date-211116 rico:isDateOfOccurrenceOf nadat1:EV-M-51486 .
+
+nadat1:date-220517 rico:isDateOfOccurrenceOf nadat1:EV-M-51900 .
+
+nadat1:date-220823 a rico:Date ;
+    rico:expressedDate "2022년8월23일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220823" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52050 ;
+    rico:name "date-220823" ;
+    rico:normalizedDateValue "2022-08-23"^^xsd:date .
+
+nadat1:date-220824 rico:isDateOfOccurrenceOf nadat1:EV-M-52055 .
+
+nadat1:date-220830 a rico:Date ;
+    rico:expressedDate "2022년8월30일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220830" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52085 ;
+    rico:name "date-220830" ;
+    rico:normalizedDateValue "2022-08-30"^^xsd:date .
+
+nadat1:date-220927 rico:isDateOfOccurrenceOf nadat1:EV-M-52172 .
+
+nadat1:date-221025 rico:isDateOfOccurrenceOf nadat1:EV-M-52249 .
+
+nadat1:date-230321 rico:isDateOfOccurrenceOf nadat1:EV-M-52780 .
+
+nadat1:date-230406 rico:isDateOfOccurrenceOf nadat1:EV-M-52849 .
+
+nadat1:date-230524 rico:isDateOfOccurrenceOf nadat1:EV-M-52943 .
+
+nadat1:date-230714 a rico:Date ;
+    rico:expressedDate "2023년7월14일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230714" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-53065 ;
+    rico:name "date-230714" ;
+    rico:normalizedDateValue "2023-07-14"^^xsd:date .
+
+nadat1:date-230830 a rico:Date ;
+    rico:expressedDate "2023년8월30일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230830" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-53155 ;
+    rico:name "date-230830" ;
+    rico:normalizedDateValue "2023-08-30"^^xsd:date .
+
+nadat1:date-230904 rico:isDateOfOccurrenceOf nadat1:EV-M-53176 .
+
+nadat1:date-230920 rico:isDateOfOccurrenceOf nadat1:EV-M-53237 .
+
+nadat1:EV-M-50020 a rico:Event ;
+    skos:prefLabel "[EV-M-50020] 제379회 제1차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-2N793392,
+        nadat2:PER-LM-4U29186R,
+        nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-8KF7223D,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-AFH96856,
+        nadat2:PER-LM-B7D7534L,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FU53642G,
+        nadat2:PER-LM-FYI20317,
+        nadat2:PER-LM-GKD32201,
+        nadat2:PER-LM-IL74008M,
+        nadat2:PER-LM-LNR7932L,
+        nadat2:PER-LM-M6H1705E,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-TWL5801D,
+        nadat2:PER-LM-WTR5885Y,
+        nadat2:PER-LM-XA42275R,
+        nadat2:PER-LM-XBJ9297Q,
+        nadat2:PER-TMP-00400,
+        nadat2:PER-TMP-00401,
+        nadat2:PER-TMP-00402 ;
+    rico:identifier "EV-M-50020" ;
+    rico:name "제21대국회 제379회 제1차 국회운영위원회"@ko .
+
+nadat1:EV-M-50078 a rico:Event ;
+    skos:prefLabel "[EV-M-50078] 제380회 제1차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-8KF7223D,
+        nadat2:PER-LM-9D939735,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-AFH96856,
+        nadat2:PER-LM-B7D7534L,
+        nadat2:PER-LM-E1J8836Y,
+        nadat2:PER-LM-FU53642G,
+        nadat2:PER-LM-FYI20317,
+        nadat2:PER-LM-IL74008M,
+        nadat2:PER-LM-LH97552Q,
+        nadat2:PER-LM-LNR7932L,
+        nadat2:PER-LM-M6H1705E,
+        nadat2:PER-LM-MHK9919B,
+        nadat2:PER-LM-S9U45255,
+        nadat2:PER-LM-TVF3669B,
+        nadat2:PER-LM-W4X85128,
+        nadat2:PER-LM-WTR5885Y,
+        nadat2:PER-LM-YLS4431M,
+        nadat2:PER-TMP-00403 ;
+    rico:identifier "EV-M-50078" ;
+    rico:name "제21대국회 제380회 제1차 국회운영위원회"@ko .
+
+nadat1:EV-M-50111 a rico:Event ;
+    skos:prefLabel "[EV-M-50111] 제381회 제1차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-2N793392,
+        nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-8KF7223D,
+        nadat2:PER-LM-8SV6917G,
+        nadat2:PER-LM-9D939735,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-AFH96856,
+        nadat2:PER-LM-B7D7534L,
+        nadat2:PER-LM-E1J8836Y,
+        nadat2:PER-LM-FU53642G,
+        nadat2:PER-LM-FYI20317,
+        nadat2:PER-LM-GKD32201,
+        nadat2:PER-LM-IL74008M,
+        nadat2:PER-LM-LH97552Q,
+        nadat2:PER-LM-LJK4960Z,
+        nadat2:PER-LM-LNR7932L,
+        nadat2:PER-LM-M6H1705E,
+        nadat2:PER-LM-MHK9919B,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TVF3669B,
+        nadat2:PER-LM-TWL5801D,
+        nadat2:PER-LM-W4X85128,
+        nadat2:PER-LM-WTR5885Y,
+        nadat2:PER-LM-XA42275R,
+        nadat2:PER-LM-XBJ9297Q,
+        nadat2:PER-LM-YLS4431M,
+        nadat2:PER-TMP-00400,
+        nadat2:PER-TMP-00404,
+        nadat2:PER-TMP-00405,
+        nadat2:PER-TMP-00406,
+        nadat2:PER-TMP-00407 ;
+    rico:identifier "EV-M-50111" ;
+    rico:name "제21대국회 제381회 제1차 국회운영위원회"@ko .
+
+nadat1:EV-M-50147 a rico:Event ;
+    skos:prefLabel "[EV-M-50147] 제382회 제1차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-2N793392,
+        nadat2:PER-LM-4U29186R,
+        nadat2:PER-LM-8KF7223D,
+        nadat2:PER-LM-9D939735,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-AFH96856,
+        nadat2:PER-LM-B7D7534L,
+        nadat2:PER-LM-E1J8836Y,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-FU53642G,
+        nadat2:PER-LM-GKD32201,
+        nadat2:PER-LM-LH97552Q,
+        nadat2:PER-LM-LJK4960Z,
+        nadat2:PER-LM-LNR7932L,
+        nadat2:PER-LM-M6H1705E,
+        nadat2:PER-LM-MHK9919B,
+        nadat2:PER-LM-MNZ4401T,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TVF3669B,
+        nadat2:PER-LM-TWL5801D,
+        nadat2:PER-LM-VE469451,
+        nadat2:PER-LM-W4X85128,
+        nadat2:PER-LM-WTR5885Y,
+        nadat2:PER-LM-XBJ9297Q,
+        nadat2:PER-LM-YLS4431M,
+        nadat2:PER-TMP-00400,
+        nadat2:PER-TMP-00402,
+        nadat2:PER-TMP-00404,
+        nadat2:PER-TMP-00407,
+        nadat2:PER-TMP-00408,
+        nadat2:PER-TMP-00409,
+        nadat2:PER-TMP-00410,
+        nadat2:PER-TMP-00411 ;
+    rico:identifier "EV-M-50147" ;
+    rico:name "제21대국회 제382회 제1차 국회운영위원회"@ko .
+
+nadat1:EV-M-50243 a rico:Event ;
+    skos:prefLabel "[EV-M-50243] 제382회 제2차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-2N793392,
+        nadat2:PER-LM-4U29186R,
+        nadat2:PER-LM-66W6739S,
+        nadat2:PER-LM-9YO73104,
+        nadat2:PER-LM-DAV7257X,
+        nadat2:PER-LM-E1J8836Y,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-HXT76735,
+        nadat2:PER-LM-OFE45081,
+        nadat2:PER-LM-PFG2137X,
+        nadat2:PER-LM-WMG57662 ;
+    rico:identifier "EV-M-50243" ;
+    rico:name "제21대국회 제382회 제2차 국회운영위원회"@ko .
+
+nadat1:EV-M-50357 a rico:Event ;
+    skos:prefLabel "[EV-M-50357] 제382회 제3차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-9D939735,
+        nadat2:PER-TMP-00412,
+        nadat2:PER-TMP-00413 ;
+    rico:identifier "EV-M-50357" ;
+    rico:name "제21대국회 제382회 제3차 국회운영위원회"@ko .
+
+nadat1:EV-M-50419 a rico:Event ;
+    skos:prefLabel "[EV-M-50419] 제382회 제4차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-2N793392,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4U29186R,
+        nadat2:PER-LM-4X525582,
+        nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-5UN9725L,
+        nadat2:PER-LM-9D939735,
+        nadat2:PER-LM-9YO73104,
+        nadat2:PER-LM-FYI20317,
+        nadat2:PER-LM-GKD32201,
+        nadat2:PER-LM-GOC54665,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-HXT76735,
+        nadat2:PER-LM-IL74008M,
+        nadat2:PER-LM-LJK4960Z,
+        nadat2:PER-LM-LNR7932L,
+        nadat2:PER-LM-M7T9712V,
+        nadat2:PER-LM-MHK9919B,
+        nadat2:PER-LM-OFE45081,
+        nadat2:PER-LM-PFG2137X,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-TWL5801D,
+        nadat2:PER-LM-VE469451,
+        nadat2:PER-LM-WMG57662,
+        nadat2:PER-LM-XA42275R,
+        nadat2:PER-LM-XBJ9297Q,
+        nadat2:PER-LM-YLS4431M,
+        nadat2:PER-TMP-00400,
+        nadat2:PER-TMP-00402,
+        nadat2:PER-TMP-00404,
+        nadat2:PER-TMP-00405,
+        nadat2:PER-TMP-00411,
+        nadat2:PER-TMP-00412,
+        nadat2:PER-TMP-00413,
+        nadat2:PER-TMP-00414 ;
+    rico:identifier "EV-M-50419" ;
+    rico:name "제21대국회 제382회 제4차 국회운영위원회"@ko .
+
+nadat1:EV-M-50456 a rico:Event ;
+    skos:prefLabel "[EV-M-50456] 제382회 제5차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-5UN9725L,
+        nadat2:PER-LM-9D939735,
+        nadat2:PER-LM-FYI20317,
+        nadat2:PER-LM-LNR7932L,
+        nadat2:PER-LM-TWL5801D,
+        nadat2:PER-LM-VE469451,
+        nadat2:PER-TMP-00400,
+        nadat2:PER-TMP-00411 ;
+    rico:identifier "EV-M-50456" ;
+    rico:name "제21대국회 제382회 제5차 국회운영위원회"@ko .
+
+nadat1:EV-M-50608 a rico:Event ;
+    skos:prefLabel "[EV-M-50608] 제382회 제6차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-9D939735,
+        nadat2:PER-LM-MHK9919B ;
+    rico:identifier "EV-M-50608" ;
+    rico:name "제21대국회 제382회 제6차 국회운영위원회"@ko .
+
+nadat1:EV-M-50806 a rico:Event ;
+    skos:prefLabel "[EV-M-50806] 제384회 제1차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-2N793392,
+        nadat2:PER-LM-4L695580,
+        nadat2:PER-LM-4U29186R,
+        nadat2:PER-LM-4X525582,
+        nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-5UN9725L,
+        nadat2:PER-LM-8KF7223D,
+        nadat2:PER-LM-8SV6917G,
+        nadat2:PER-LM-9D939735,
+        nadat2:PER-LM-9YO73104,
+        nadat2:PER-LM-FYI20317,
+        nadat2:PER-LM-GKD32201,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-HXT76735,
+        nadat2:PER-LM-IL74008M,
+        nadat2:PER-LM-LJK4960Z,
+        nadat2:PER-LM-M7T9712V,
+        nadat2:PER-LM-MHK9919B,
+        nadat2:PER-LM-OFE45081,
+        nadat2:PER-LM-P2N50879,
+        nadat2:PER-LM-PFG2137X,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-V2R7430Z,
+        nadat2:PER-LM-VE469451,
+        nadat2:PER-LM-WMG57662,
+        nadat2:PER-LM-WTR5885Y,
+        nadat2:PER-LM-XA42275R,
+        nadat2:PER-LM-YLS4431M,
+        nadat2:PER-TMP-00400,
+        nadat2:PER-TMP-00402,
+        nadat2:PER-TMP-00404,
+        nadat2:PER-TMP-00406,
+        nadat2:PER-TMP-00407,
+        nadat2:PER-TMP-00410,
+        nadat2:PER-TMP-00411,
+        nadat2:PER-TMP-00412,
+        nadat2:PER-TMP-00413,
+        nadat2:PER-TMP-00414,
+        nadat2:PER-TMP-00415,
+        nadat2:PER-TMP-00416 ;
+    rico:identifier "EV-M-50806" ;
+    rico:name "제21대국회 제384회 제1차 국회운영위원회"@ko .
+
+nadat1:EV-M-50965 a rico:Event ;
+    skos:prefLabel "[EV-M-50965] 제386회 제1차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-WMG57662,
+        nadat2:PER-TMP-00417 ;
+    rico:identifier "EV-M-50965" ;
+    rico:name "제21대국회 제386회 제1차 국회운영위원회"@ko .
+
+nadat1:EV-M-50980 a rico:Event ;
+    skos:prefLabel "[EV-M-50980] 제386회 제2차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-FYI20317,
+        nadat2:PER-LM-PFG2137X,
+        nadat2:PER-LM-V2R7430Z,
+        nadat2:PER-LM-WMG57662,
+        nadat2:PER-TMP-00413 ;
+    rico:identifier "EV-M-50980" ;
+    rico:name "제21대국회 제386회 제2차 국회운영위원회"@ko .
+
+nadat1:EV-M-51176 a rico:Event ;
+    skos:prefLabel "[EV-M-51176] 제390회 제1차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-4T026790,
+        nadat2:PER-LM-5KV96424,
+        nadat2:PER-LM-5MD4184K,
+        nadat2:PER-LM-6399076T,
+        nadat2:PER-LM-71J2365L,
+        nadat2:PER-LM-8FB1535Y,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-ATB59635,
+        nadat2:PER-LM-BCQ55105,
+        nadat2:PER-LM-E1J8836Y,
+        nadat2:PER-LM-EH27538E,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-GX22581L,
+        nadat2:PER-LM-H5476989,
+        nadat2:PER-LM-KFS1358P,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-MU69217P,
+        nadat2:PER-LM-P2N50879,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-XSP20229,
+        nadat2:PER-TMP-00418 ;
+    rico:identifier "EV-M-51176" ;
+    rico:name "제21대국회 제390회 제1차 국회운영위원회"@ko .
+
+nadat1:EV-M-51195 a rico:Event ;
+    skos:prefLabel "[EV-M-51195] 제390회 제2차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-4T026790,
+        nadat2:PER-LM-5KV96424,
+        nadat2:PER-LM-5MD4184K,
+        nadat2:PER-LM-5TQ6306B,
+        nadat2:PER-LM-6399076T,
+        nadat2:PER-LM-71J2365L,
+        nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-8FB1535Y,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-ATB59635,
+        nadat2:PER-LM-BCQ55105,
+        nadat2:PER-LM-E1J8836Y,
+        nadat2:PER-LM-EH27538E,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-GX22581L,
+        nadat2:PER-LM-H5476989,
+        nadat2:PER-LM-KFS1358P,
+        nadat2:PER-LM-LSK9789D,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-MU69217P,
+        nadat2:PER-LM-P2N50879,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-RPN2293B,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-V2R7430Z,
+        nadat2:PER-LM-X7I4680R,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-XSP20229,
+        nadat2:PER-TMP-00400,
+        nadat2:PER-TMP-00402,
+        nadat2:PER-TMP-00405,
+        nadat2:PER-TMP-00407,
+        nadat2:PER-TMP-00410,
+        nadat2:PER-TMP-00412,
+        nadat2:PER-TMP-00413,
+        nadat2:PER-TMP-00414,
+        nadat2:PER-TMP-00415,
+        nadat2:PER-TMP-00418,
+        nadat2:PER-TMP-00419,
+        nadat2:PER-TMP-00420,
+        nadat2:PER-TMP-00421 ;
+    rico:identifier "EV-M-51195" ;
+    rico:name "제21대국회 제390회 제2차 국회운영위원회"@ko .
+
+nadat1:EV-M-51225 a rico:Event ;
+    skos:prefLabel "[EV-M-51225] 제390회 제3차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-4T026790,
+        nadat2:PER-LM-5KV96424,
+        nadat2:PER-LM-5MD4184K,
+        nadat2:PER-LM-6399076T,
+        nadat2:PER-LM-71J2365L,
+        nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-8FB1535Y,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-ATB59635,
+        nadat2:PER-LM-BCQ55105,
+        nadat2:PER-LM-E1J8836Y,
+        nadat2:PER-LM-EH27538E,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-GX22581L,
+        nadat2:PER-LM-H5476989,
+        nadat2:PER-LM-KFS1358P,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-MU69217P,
+        nadat2:PER-LM-P2N50879,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-RPN2293B,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-V2R7430Z,
+        nadat2:PER-LM-X7I4680R,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-XSP20229,
+        nadat2:PER-TMP-00418,
+        nadat2:PER-TMP-00422 ;
+    rico:identifier "EV-M-51225" ;
+    rico:name "제21대국회 제390회 제3차 국회운영위원회"@ko .
+
+nadat1:EV-M-51280 a rico:Event ;
+    skos:prefLabel "[EV-M-51280] 제391회 제1차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-71J2365L,
+        nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GX22581L,
+        nadat2:PER-LM-H5476989,
+        nadat2:PER-LM-LSK9789D,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-V2R7430Z,
+        nadat2:PER-TMP-00400,
+        nadat2:PER-TMP-00418,
+        nadat2:PER-TMP-00422 ;
+    rico:identifier "EV-M-51280" ;
+    rico:name "제21대국회 제391회 제1차 국회운영위원회"@ko .
+
+nadat1:EV-M-51433 a rico:Event ;
+    skos:prefLabel "[EV-M-51433] 제391회 제2차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1X376850,
+        nadat2:PER-LM-5KV96424,
+        nadat2:PER-LM-5MD4184K,
+        nadat2:PER-LM-6399076T,
+        nadat2:PER-LM-71J2365L,
+        nadat2:PER-LM-7XY7109I,
+        nadat2:PER-LM-8FB1535Y,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-ATB59635,
+        nadat2:PER-LM-E1J8836Y,
+        nadat2:PER-LM-EH27538E,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-GX22581L,
+        nadat2:PER-LM-H5476989,
+        nadat2:PER-LM-KFS1358P,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-MU69217P,
+        nadat2:PER-LM-P2N50879,
+        nadat2:PER-LM-QD25323M,
+        nadat2:PER-LM-RPN2293B,
+        nadat2:PER-LM-V2R7430Z,
+        nadat2:PER-LM-X7I4680R,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-XSP20229,
+        nadat2:PER-TMP-00400,
+        nadat2:PER-TMP-00410,
+        nadat2:PER-TMP-00413,
+        nadat2:PER-TMP-00414,
+        nadat2:PER-TMP-00415,
+        nadat2:PER-TMP-00418,
+        nadat2:PER-TMP-00420,
+        nadat2:PER-TMP-00421,
+        nadat2:PER-TMP-00422,
+        nadat2:PER-TMP-00423 ;
+    rico:identifier "EV-M-51433" ;
+    rico:name "제21대국회 제391회 제2차 국회운영위원회"@ko .
+
+nadat1:EV-M-51486 a rico:Event ;
+    skos:prefLabel "[EV-M-51486] 제391회 제3차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-5TQ6306B,
+        nadat2:PER-LM-71J2365L,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-V2R7430Z,
+        nadat2:PER-TMP-00400,
+        nadat2:PER-TMP-00402,
+        nadat2:PER-TMP-00418,
+        nadat2:PER-TMP-00422 ;
+    rico:identifier "EV-M-51486" ;
+    rico:name "제21대국회 제391회 제3차 국회운영위원회"@ko .
+
+nadat1:EV-M-51619 a rico:Event ;
+    skos:prefLabel "[EV-M-51619] 제391회 제4차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-H5476989,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-P2N50879,
+        nadat2:PER-LM-V2R7430Z,
+        nadat2:PER-TMP-00418,
+        nadat2:PER-TMP-00422,
+        nadat2:PER-TMP-00424 ;
+    rico:identifier "EV-M-51619" ;
+    rico:name "제21대국회 제391회 제4차 국회운영위원회"@ko .
+
+nadat1:EV-M-51847 a rico:Event ;
+    skos:prefLabel "[EV-M-51847] 제395회 제1차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3C23171A,
+        nadat2:PER-LM-6EN68926,
+        nadat2:PER-LM-8P37634C,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-BT62420K,
+        nadat2:PER-LM-I5I2468R,
+        nadat2:PER-LM-P2N50879,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-TJW93720,
+        nadat2:PER-LM-WCD5518S ;
+    rico:identifier "EV-M-51847" ;
+    rico:name "제21대국회 제395회 제1차 국회운영위원회"@ko .
+
+nadat1:EV-M-51900 a rico:Event ;
+    skos:prefLabel "[EV-M-51900] 제397회 제1차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3C23171A,
+        nadat2:PER-LM-6EN68926,
+        nadat2:PER-LM-6U243644,
+        nadat2:PER-LM-7JC3239L,
+        nadat2:PER-LM-8P37634C,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-A494529E,
+        nadat2:PER-LM-BT62420K,
+        nadat2:PER-LM-DPZ7685X,
+        nadat2:PER-LM-EMC8812P,
+        nadat2:PER-LM-GDG1847Z,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-I5I2468R,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-M7O7878U,
+        nadat2:PER-LM-MQU41854,
+        nadat2:PER-LM-P2N50879,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-TJW93720,
+        nadat2:PER-LM-UB114374,
+        nadat2:PER-LM-V2R7430Z,
+        nadat2:PER-LM-VG24001G,
+        nadat2:PER-LM-VRY5522V,
+        nadat2:PER-LM-W1Q6753M,
+        nadat2:PER-LM-WCD5518S,
+        nadat2:PER-TMP-00074,
+        nadat2:PER-TMP-00412,
+        nadat2:PER-TMP-00422,
+        nadat2:PER-TMP-00425,
+        nadat2:PER-TMP-00426,
+        nadat2:PER-TMP-00427,
+        nadat2:PER-TMP-00428,
+        nadat2:PER-TMP-00429 ;
+    rico:identifier "EV-M-51900" ;
+    rico:name "제21대국회 제397회 제1차 국회운영위원회"@ko .
+
+nadat1:EV-M-52050 a rico:Event ;
+    skos:prefLabel "[EV-M-52050] 제399회 제1차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3C23171A,
+        nadat2:PER-LM-40S1959J,
+        nadat2:PER-LM-4A067125,
+        nadat2:PER-LM-52P3934K,
+        nadat2:PER-LM-6EN68926,
+        nadat2:PER-LM-6U243644,
+        nadat2:PER-LM-7I09543O,
+        nadat2:PER-LM-7JC3239L,
+        nadat2:PER-LM-8P37634C,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-A494529E,
+        nadat2:PER-LM-B7D7534L,
+        nadat2:PER-LM-EMC8812P,
+        nadat2:PER-LM-GDG1847Z,
+        nadat2:PER-LM-I5I2468R,
+        nadat2:PER-LM-L5P27909,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-MQU41854,
+        nadat2:PER-LM-MR210505,
+        nadat2:PER-LM-MY318392,
+        nadat2:PER-LM-O0I2045I,
+        nadat2:PER-LM-P2N50879,
+        nadat2:PER-LM-PFG2137X,
+        nadat2:PER-LM-RO593601,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-TJW93720,
+        nadat2:PER-LM-VG24001G,
+        nadat2:PER-LM-W1Q6753M,
+        nadat2:PER-TMP-00322,
+        nadat2:PER-TMP-00407,
+        nadat2:PER-TMP-00418,
+        nadat2:PER-TMP-00422,
+        nadat2:PER-TMP-00424,
+        nadat2:PER-TMP-00425,
+        nadat2:PER-TMP-00426,
+        nadat2:PER-TMP-00427,
+        nadat2:PER-TMP-00428,
+        nadat2:PER-TMP-00429,
+        nadat2:PER-TMP-00430,
+        nadat2:PER-TMP-00431,
+        nadat2:PER-TMP-00432,
+        nadat2:PER-TMP-00433,
+        nadat2:PER-TMP-00434,
+        nadat2:PER-TMP-00435 ;
+    rico:identifier "EV-M-52050" ;
+    rico:name "제21대국회 제399회 제1차 국회운영위원회"@ko .
+
+nadat1:EV-M-52055 a rico:Event ;
+    skos:prefLabel "[EV-M-52055] 제399회 제2차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0ID22746,
+        nadat2:PER-LM-52P3934K,
+        nadat2:PER-LM-7JC3239L,
+        nadat2:PER-LM-8P37634C,
+        nadat2:PER-LM-A494529E,
+        nadat2:PER-LM-B7D7534L,
+        nadat2:PER-LM-GDG1847Z,
+        nadat2:PER-LM-I5I2468R,
+        nadat2:PER-LM-L5P27909,
+        nadat2:PER-LM-MQU41854,
+        nadat2:PER-LM-O0I2045I,
+        nadat2:PER-LM-P2N50879,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-TJW93720,
+        nadat2:PER-LM-W1Q6753M,
+        nadat2:PER-TMP-00425,
+        nadat2:PER-TMP-00426,
+        nadat2:PER-TMP-00428,
+        nadat2:PER-TMP-00429,
+        nadat2:PER-TMP-00436 ;
+    rico:identifier "EV-M-52055" ;
+    rico:name "제21대국회 제399회 제2차 국회운영위원회"@ko .
+
+nadat1:EV-M-52085 a rico:Event ;
+    skos:prefLabel "[EV-M-52085] 제399회 제3차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3C23171A,
+        nadat2:PER-LM-40S1959J,
+        nadat2:PER-LM-4A067125,
+        nadat2:PER-LM-6U243644,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-B7D7534L,
+        nadat2:PER-LM-GDG1847Z,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-MQU41854,
+        nadat2:PER-LM-MR210505,
+        nadat2:PER-LM-MY318392,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-TJW93720,
+        nadat2:PER-TMP-00418,
+        nadat2:PER-TMP-00422,
+        nadat2:PER-TMP-00426,
+        nadat2:PER-TMP-00427,
+        nadat2:PER-TMP-00436 ;
+    rico:identifier "EV-M-52085" ;
+    rico:name "제21대국회 제399회 제3차 국회운영위원회"@ko .
+
+nadat1:EV-M-52172 a rico:Event ;
+    skos:prefLabel "[EV-M-52172] 제400회 제1차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3C23171A,
+        nadat2:PER-LM-40S1959J,
+        nadat2:PER-LM-7JC3239L,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-A494529E,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-GDG1847Z,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-MQU41854,
+        nadat2:PER-LM-P2N50879,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-TMP-00418 ;
+    rico:identifier "EV-M-52172" ;
+    rico:name "제21대국회 제400회 제1차 국회운영위원회"@ko .
+
+nadat1:EV-M-52249 a rico:Event ;
+    skos:prefLabel "[EV-M-52249] 제400회 제2차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-8SV6917G,
+        nadat2:PER-LM-KFM1081G ;
+    rico:identifier "EV-M-52249" ;
+    rico:name "제21대국회 제400회 제2차 국회운영위원회"@ko .
+
+nadat1:EV-M-52320 a rico:Event ;
+    skos:prefLabel "[EV-M-52320] 제400회 제3차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-3C23171A,
+        nadat2:PER-LM-40S1959J,
+        nadat2:PER-LM-4A067125,
+        nadat2:PER-LM-6EN68926,
+        nadat2:PER-LM-7JC3239L,
+        nadat2:PER-LM-8P37634C,
+        nadat2:PER-LM-8SV6917G,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-A494529E,
+        nadat2:PER-LM-DPZ7685X,
+        nadat2:PER-LM-EMC8812P,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-I5I2468R,
+        nadat2:PER-LM-KFM1081G,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-MQU41854,
+        nadat2:PER-LM-MR210505,
+        nadat2:PER-LM-MY318392,
+        nadat2:PER-LM-O0I2045I,
+        nadat2:PER-LM-P2N50879,
+        nadat2:PER-LM-RO593601,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-TJW93720,
+        nadat2:PER-LM-UB114374,
+        nadat2:PER-LM-W1Q6753M,
+        nadat2:PER-TMP-00418,
+        nadat2:PER-TMP-00422,
+        nadat2:PER-TMP-00424,
+        nadat2:PER-TMP-00425,
+        nadat2:PER-TMP-00426,
+        nadat2:PER-TMP-00427,
+        nadat2:PER-TMP-00434,
+        nadat2:PER-TMP-00436,
+        nadat2:PER-TMP-00437,
+        nadat2:PER-TMP-00438 ;
+    rico:identifier "EV-M-52320" ;
+    rico:name "제21대국회 제400회 제3차 국회운영위원회"@ko .
+
+nadat1:EV-M-52726 a rico:Event ;
+    skos:prefLabel "[EV-M-52726] 제403회 제1차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3BC6890E,
+        nadat2:PER-LM-3C23171A,
+        nadat2:PER-LM-4A067125,
+        nadat2:PER-LM-6EN68926,
+        nadat2:PER-LM-8P37634C,
+        nadat2:PER-LM-8SV6917G,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-DPZ7685X,
+        nadat2:PER-LM-FDC3144T,
+        nadat2:PER-LM-MQU41854,
+        nadat2:PER-LM-MY318392,
+        nadat2:PER-LM-O0I2045I,
+        nadat2:PER-LM-RO593601,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-SU53086M,
+        nadat2:PER-LM-TJW93720,
+        nadat2:PER-LM-W1Q6753M ;
+    rico:identifier "EV-M-52726" ;
+    rico:name "제21대국회 제403회 제1차 국회운영위원회"@ko .
+
+nadat1:EV-M-52780 a rico:Event ;
+    skos:prefLabel "[EV-M-52780] 제404회 제1차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3C23171A,
+        nadat2:PER-LM-40S1959J,
+        nadat2:PER-LM-6EN68926,
+        nadat2:PER-LM-8P37634C,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-A494529E,
+        nadat2:PER-LM-KFM1081G,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-MY318392,
+        nadat2:PER-LM-O0I2045I,
+        nadat2:PER-LM-P2N50879,
+        nadat2:PER-LM-RO593601,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-TJW93720 ;
+    rico:identifier "EV-M-52780" ;
+    rico:name "제21대국회 제404회 제1차 국회운영위원회"@ko .
+
+nadat1:EV-M-52849 a rico:Event ;
+    skos:prefLabel "[EV-M-52849] 제405회 제1차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-4A067125,
+        nadat2:PER-LM-6EN68926,
+        nadat2:PER-LM-8SV6917G,
+        nadat2:PER-LM-9YO73104,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-O0I2045I,
+        nadat2:PER-LM-W1Q6753M,
+        nadat2:PER-TMP-00418,
+        nadat2:PER-TMP-00424,
+        nadat2:PER-TMP-00439 ;
+    rico:identifier "EV-M-52849" ;
+    rico:name "제21대국회 제405회 제1차 국회운영위원회"@ko .
+
+nadat1:EV-M-52943 a rico:Event ;
+    skos:prefLabel "[EV-M-52943] 제406회 제1차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0PK7354M,
+        nadat2:PER-LM-0WL9321T,
+        nadat2:PER-LM-0YT3774N,
+        nadat2:PER-LM-1Y73132H,
+        nadat2:PER-LM-2N793392,
+        nadat2:PER-LM-2NV6751W,
+        nadat2:PER-LM-4A067125,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-71J2365L,
+        nadat2:PER-LM-9YO73104,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-B7D7534L,
+        nadat2:PER-LM-DWK26447,
+        nadat2:PER-LM-G7512472,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-HKJ99607,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-IOW1101J,
+        nadat2:PER-LM-JC14718Q,
+        nadat2:PER-LM-K3W33496,
+        nadat2:PER-LM-KFM1081G,
+        nadat2:PER-LM-L5P27909,
+        nadat2:PER-LM-L7J93733,
+        nadat2:PER-LM-OIA3741M,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-S741317G,
+        nadat2:PER-LM-S9U45255,
+        nadat2:PER-LM-SQ36001H,
+        nadat2:PER-LM-USR7059P,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-XA42275R,
+        nadat2:PER-LM-ZRF3039U,
+        nadat2:PER-TMP-00053,
+        nadat2:PER-TMP-00074,
+        nadat2:PER-TMP-00407,
+        nadat2:PER-TMP-00424,
+        nadat2:PER-TMP-00425,
+        nadat2:PER-TMP-00426,
+        nadat2:PER-TMP-00434,
+        nadat2:PER-TMP-00435,
+        nadat2:PER-TMP-00436,
+        nadat2:PER-TMP-00439,
+        nadat2:PER-TMP-00440,
+        nadat2:PER-TMP-00441,
+        nadat2:PER-TMP-00442 ;
+    rico:identifier "EV-M-52943" ;
+    rico:name "제21대국회 제406회 제1차 국회운영위원회"@ko .
+
+nadat1:EV-M-53065 a rico:Event ;
+    skos:prefLabel "[EV-M-53065] 제408회 제1차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0PK7354M,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-B7D7534L,
+        nadat2:PER-LM-HKJ99607,
+        nadat2:PER-LM-JC14718Q,
+        nadat2:PER-LM-OIA3741M,
+        nadat2:PER-LM-S9U45255,
+        nadat2:PER-LM-SQ36001H,
+        nadat2:PER-LM-ZRF3039U ;
+    rico:identifier "EV-M-53065" ;
+    rico:name "제21대국회 제408회 제1차 국회운영위원회"@ko .
+
+nadat1:EV-M-53155 a rico:Event ;
+    skos:prefLabel "[EV-M-53155] 제409회 제1차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0PK7354M,
+        nadat2:PER-LM-0WL9321T,
+        nadat2:PER-LM-0YT3774N,
+        nadat2:PER-LM-2N793392,
+        nadat2:PER-LM-2NV6751W,
+        nadat2:PER-LM-4A067125,
+        nadat2:PER-LM-4XG1439M,
+        nadat2:PER-LM-71J2365L,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-B7D7534L,
+        nadat2:PER-LM-CAA7713A,
+        nadat2:PER-LM-DWK26447,
+        nadat2:PER-LM-G7512472,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-HKJ99607,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-IOW1101J,
+        nadat2:PER-LM-JC14718Q,
+        nadat2:PER-LM-KFM1081G,
+        nadat2:PER-LM-L7J93733,
+        nadat2:PER-LM-OIA3741M,
+        nadat2:PER-LM-S741317G,
+        nadat2:PER-LM-S9U45255,
+        nadat2:PER-LM-SQ36001H,
+        nadat2:PER-LM-TZ228122,
+        nadat2:PER-LM-USR7059P,
+        nadat2:PER-LM-WFU14784,
+        nadat2:PER-LM-XA42275R,
+        nadat2:PER-LM-ZRF3039U,
+        nadat2:PER-TMP-00053,
+        nadat2:PER-TMP-00407,
+        nadat2:PER-TMP-00422,
+        nadat2:PER-TMP-00424,
+        nadat2:PER-TMP-00425,
+        nadat2:PER-TMP-00426,
+        nadat2:PER-TMP-00427,
+        nadat2:PER-TMP-00434,
+        nadat2:PER-TMP-00436,
+        nadat2:PER-TMP-00437,
+        nadat2:PER-TMP-00439,
+        nadat2:PER-TMP-00441,
+        nadat2:PER-TMP-00442,
+        nadat2:PER-TMP-00443,
+        nadat2:PER-TMP-00444,
+        nadat2:PER-TMP-00445 ;
+    rico:identifier "EV-M-53155" ;
+    rico:name "제21대국회 제409회 제1차 국회운영위원회"@ko .
+
+nadat1:EV-M-53176 a rico:Event ;
+    skos:prefLabel "[EV-M-53176] 제410회 제1차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0PK7354M,
+        nadat2:PER-LM-4A067125,
+        nadat2:PER-LM-71J2365L,
+        nadat2:PER-LM-B7D7534L,
+        nadat2:PER-LM-KFM1081G,
+        nadat2:PER-LM-OIA3741M,
+        nadat2:PER-LM-SQ36001H,
+        nadat2:PER-LM-ZRF3039U,
+        nadat2:PER-TMP-00422,
+        nadat2:PER-TMP-00426,
+        nadat2:PER-TMP-00436 ;
+    rico:identifier "EV-M-53176" ;
+    rico:name "제21대국회 제410회 제1차 국회운영위원회"@ko .
+
+nadat1:EV-M-53237 a rico:Event ;
+    skos:prefLabel "[EV-M-53237] 제410회 제2차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-B7D7534L,
+        nadat2:PER-LM-GF286398,
+        nadat2:PER-LM-S9U45255,
+        nadat2:PER-LM-SQ36001H,
+        nadat2:PER-LM-ZRF3039U ;
+    rico:identifier "EV-M-53237" ;
+    rico:name "제21대국회 제410회 제2차 국회운영위원회"@ko .
+
+nadat1:EV-M-53371 a rico:Event ;
+    skos:prefLabel "[EV-M-53371] 제410회 제3차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-4T026790,
+        nadat2:PER-LM-4U29186R,
+        nadat2:PER-LM-5KV96424,
+        nadat2:PER-LM-6AU2417B,
+        nadat2:PER-LM-9D939735,
+        nadat2:PER-LM-AFH96856,
+        nadat2:PER-LM-FRN1867O,
+        nadat2:PER-LM-GKD32201,
+        nadat2:PER-LM-HXT76735,
+        nadat2:PER-LM-KFS1358P,
+        nadat2:PER-LM-NUB4941Z,
+        nadat2:PER-LM-PFG2137X,
+        nadat2:PER-LM-RO593601,
+        nadat2:PER-LM-RPN2293B,
+        nadat2:PER-LM-SE233396,
+        nadat2:PER-LM-T465023H,
+        nadat2:PER-LM-ZRF3039U ;
+    rico:identifier "EV-M-53371" ;
+    rico:name "제21대국회 제410회 제3차 국회운영위원회"@ko .
+
+nadat1:EV-M-53777 a rico:Event ;
+    skos:prefLabel "[EV-M-53777] 제412회 제1차 국회운영위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-5KV96424,
+        nadat2:PER-LM-A2V51235,
+        nadat2:PER-LM-HXT76735,
+        nadat2:PER-LM-NUB4941Z,
+        nadat2:PER-LM-S9U45255,
+        nadat2:PER-LM-T465023H,
+        nadat2:PER-LM-ZRF3039U ;
+    rico:identifier "EV-M-53777" ;
+    rico:name "제21대국회 제412회 제1차 국회운영위원회"@ko .
+
+nadat1:date-200629 rico:isDateOfOccurrenceOf nadat1:EV-M-50020 .
+
+nadat1:date-201204 rico:isDateOfOccurrenceOf nadat1:EV-M-50608 .
+
+nadat1:date-210224 rico:isDateOfOccurrenceOf nadat1:EV-M-50806 .
+
+nadat1:date-211202 rico:isDateOfOccurrenceOf nadat1:EV-M-51619 .
+
+nadat1:date-220429 rico:isDateOfOccurrenceOf nadat1:EV-M-51847 .
+
+nadat1:date-221109 a rico:Date ;
+    rico:expressedDate "2022년11월9일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-221109" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52320 ;
+    rico:name "date-221109" ;
+    rico:normalizedDateValue "2022-11-09"^^xsd:date .
+
+nadat1:date-230222 a rico:Date ;
+    rico:expressedDate "2023년2월22일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230222" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52726 ;
+    rico:name "date-230222" ;
+    rico:normalizedDateValue "2023-02-22"^^xsd:date .
+
+nadat1:date-231107 rico:isDateOfOccurrenceOf nadat1:EV-M-53371 .
+
+nadat1:date-240123 a rico:Date ;
+    rico:expressedDate "2024년1월23일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-240123" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-53777 ;
+    rico:name "date-240123" ;
+    rico:normalizedDateValue "2024-01-23"^^xsd:date .
+
+nadat1:INS-AA-51847_52320-01 a rico:Instantiation ;
+    dcterms:coverage "2022-04-29/2022-11-09" ;
+    skos:prefLabel "[INS-AA-51847_52320-01] 2022 국회운영위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-220429 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-221109 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-51847_52320-01" ;
+    rico:title "2022 국회운영위원회 보존회의록"@ko .
+
+nadat1:INS-AA-50020_50608-01 a rico:Instantiation ;
+    dcterms:coverage "2020-06-29/2020-12-04" ;
+    skos:prefLabel "[INS-AA-50020_50608-01] 2020-2 국회운영위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-200629 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-201204 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-50020_50608-01" ;
+    rico:title "2020-2 국회운영위원회 보존회의록"@ko .
+
+nadat1:INS-AA-52726_53371-01 a rico:Instantiation ;
+    dcterms:coverage "2023-02-22/2023-11-07" ;
+    skos:prefLabel "[INS-AA-52726_53371-01] 2023 국회운영위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-230222 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-231107 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-52726_53371-01" ;
+    rico:title "2023 국회운영위원회 보존회의록"@ko .
+
+nadat1:INS-AA-50806_51619-01 a rico:Instantiation ;
+    dcterms:coverage "2021-02-24/2021-12-02" ;
+    skos:prefLabel "[INS-AA-50806_51619-01] 2021 국회운영위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-210224 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-211202 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AA-50806_51619-01" ;
+    rico:title "2021 국회운영위원회 보존회의록"@ko .
+
+
