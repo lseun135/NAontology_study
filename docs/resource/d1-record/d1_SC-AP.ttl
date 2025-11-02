@@ -27,3 +27,1410 @@
 @base <https://lseun135.github.io/NAontology_study/resource/d1-record> .
 
 
+
+
+
+nadat1:RS100021 rico:includesOrIncluded nadat1:RS100021-AP .
+
+nadat1:ACT-M-50071-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50071-002] 제380회 제3차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-50071-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50071 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제380회 제3차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-51926-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51926-002] 제397회 제1차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-51926-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51926 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제397회 제1차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-51947-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51947-002] 제397회 제2차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-51947-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51947 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제397회 제2차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-51953-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51953-002] 제397회 제3차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-51953-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51953 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제397회 제3차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-51994-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51994-002] 제398회 제1차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-51994-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51994 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제398회 제1차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-52014-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52014-002] 제398회 제2차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52014-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52014 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제398회 제2차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-52052-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52052-002] 제399회 제1차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52052-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52052 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제399회 제1차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-52097-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52097-002] 제399회 제2차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52097-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52097 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제399회 제2차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-52166-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52166-002] 제400회 제1차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52166-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52166 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제400회 제1차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-52180-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52180-002] 제400회 제2차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52180-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52180 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제400회 제2차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-52286-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52286-002] 제400회 제3차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52286-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52286 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제400회 제3차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-52447-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52447-002] 제400회 제4차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52447-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52447 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제400회 제4차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-52480-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52480-002] 제400회 제5차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52480-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52480 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제400회 제5차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-52646-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52646-002] 제401회 제1차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52646-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52646 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제401회 제1차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-52731-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52731-002] 제403회 제1차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52731-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52731 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제403회 제1차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-52752-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52752-002] 제403회 제2차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52752-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52752 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제403회 제2차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-52753-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52753-002] 제403회 제3차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52753-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52753 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제403회 제3차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-52758-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52758-002] 제404회 제1차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52758-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52758 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제404회 제1차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-52881-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52881-002] 제405회 제1차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52881-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52881 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제405회 제1차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-52969-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52969-002] 제406회 제1차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-52969-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52969 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제406회 제1차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-53116-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53116-002] 제409회 제1차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-53116-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53116 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제409회 제1차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-53202-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53202-002] 제410회 제1차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-53202-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53202 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제410회 제1차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-53216-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53216-002] 제410회 제2차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-53216-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53216 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제410회 제2차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-53285-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53285-002] 제410회 제3차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-53285-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53285 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제410회 제3차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-53770-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53770-002] 제411회 제2차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-53770-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53770 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제411회 제2차 정보위원회 심의"@ko .
+
+nadat1:ACT-M-53775-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53775-002] 제412회 제1차 정보위원회 심의"@ko ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
+    rico:identifier "ACT-M-53775-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53775 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AP ;
+    rico:name "제412회 제1차 정보위원회 심의"@ko .
+
+nadat1:INS-AP-21038000350071-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21038000350071-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21038000350071-02" ;
+    rico:title "제380회국회 정보위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AP-21039700151926-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21039700151926-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21039700151926-02" ;
+    rico:title "제397회국회 정보위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AP-21039700251947-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21039700251947-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21039700251947-02" ;
+    rico:title "제397회국회 정보위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AP-21039700351953-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21039700351953-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21039700351953-02" ;
+    rico:title "제397회국회 정보위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AP-21039800151994-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21039800151994-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21039800151994-02" ;
+    rico:title "제398회국회 정보위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AP-21039800252014-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21039800252014-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21039800252014-02" ;
+    rico:title "제398회국회 정보위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AP-21039900152052-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21039900152052-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21039900152052-02" ;
+    rico:title "제399회국회 정보위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AP-21039900252097-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21039900252097-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21039900252097-02" ;
+    rico:title "제399회국회 정보위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AP-21040000152166-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21040000152166-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21040000152166-02" ;
+    rico:title "제400회국회 정보위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AP-21040000252180-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21040000252180-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21040000252180-02" ;
+    rico:title "제400회국회 정보위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AP-21040000352286-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21040000352286-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21040000352286-02" ;
+    rico:title "제400회국회 정보위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AP-21040000452447-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21040000452447-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21040000452447-02" ;
+    rico:title "제400회국회 정보위원회회의록 제 4 호"@ko .
+
+nadat1:INS-AP-21040000552480-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21040000552480-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21040000552480-02" ;
+    rico:title "제400회국회 정보위원회회의록 제 5 호"@ko .
+
+nadat1:INS-AP-21040100152646-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21040100152646-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21040100152646-02" ;
+    rico:title "제401회국회 정보위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AP-21040300152731-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21040300152731-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21040300152731-02" ;
+    rico:title "제403회국회 정보위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AP-21040300252752-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21040300252752-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21040300252752-02" ;
+    rico:title "제403회국회 정보위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AP-21040300352753-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21040300352753-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21040300352753-02" ;
+    rico:title "제403회국회 정보위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AP-21040400152758-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21040400152758-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21040400152758-02" ;
+    rico:title "제404회국회 정보위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AP-21040500152881-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21040500152881-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21040500152881-02" ;
+    rico:title "제405회국회 정보위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AP-21040600152969-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21040600152969-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21040600152969-02" ;
+    rico:title "제406회국회 정보위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AP-21040900153116-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21040900153116-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21040900153116-02" ;
+    rico:title "제409회국회 정보위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AP-21041000153202-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21041000153202-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21041000153202-02" ;
+    rico:title "제410회국회 정보위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AP-21041000253216-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21041000253216-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21041000253216-02" ;
+    rico:title "제410회국회 정보위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AP-21041000353285-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21041000353285-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21041000353285-02" ;
+    rico:title "제410회국회 정보위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AP-21041100253770-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21041100253770-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21041100253770-02" ;
+    rico:title "제411회국회 정보위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AP-21041200153775-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AP-21041200153775-02] 정보위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-21041200153775-02" ;
+    rico:title "제412회국회 정보위원회회의록 제 1 호"@ko .
+
+
+nadat1:R100021038000350071 a rico:Record ;
+    skos:prefLabel "[R100021038000350071] 21대 380회 3차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50071-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200727 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21038000350071-02,
+        nadat1:INS-AP-50071_50071-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038000350071" ;
+    rico:title "제380회국회 정보위원회회의록 제 3 호"@ko .
+
+nadat1:R100021039700151926 a rico:Record ;
+    skos:prefLabel "[R100021039700151926] 21대 397회 1차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51926-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220519 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21039700151926-02,
+        nadat1:INS-AP-51926_52480-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039700151926" ;
+    rico:title "제397회국회 정보위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039700251947 a rico:Record ;
+    skos:prefLabel "[R100021039700251947] 21대 397회 2차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51947-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220525 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21039700251947-02,
+        nadat1:INS-AP-51926_52480-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039700251947" ;
+    rico:title "제397회국회 정보위원회회의록 제 2 호"@ko .
+
+nadat1:R100021039700351953 a rico:Record ;
+    skos:prefLabel "[R100021039700351953] 21대 397회 3차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51953-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220526 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21039700351953-02,
+        nadat1:INS-AP-51926_52480-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039700351953" ;
+    rico:title "제397회국회 정보위원회회의록 제 3 호"@ko .
+
+nadat1:R100021039800151994 a rico:Record ;
+    skos:prefLabel "[R100021039800151994] 21대 398회 1차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51994-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220726 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21039800151994-02,
+        nadat1:INS-AP-51926_52480-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039800151994" ;
+    rico:title "제398회국회 정보위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039800252014 a rico:Record ;
+    skos:prefLabel "[R100021039800252014] 21대 398회 2차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52014-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220802 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21039800252014-02,
+        nadat1:INS-AP-51926_52480-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039800252014" ;
+    rico:title "제398회국회 정보위원회회의록 제 2 호"@ko .
+
+nadat1:R100021039900152052 a rico:Record ;
+    skos:prefLabel "[R100021039900152052] 21대 399회 1차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52052-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220822 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21039900152052-02,
+        nadat1:INS-AP-51926_52480-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039900152052" ;
+    rico:title "제399회국회 정보위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039900252097 a rico:Record ;
+    skos:prefLabel "[R100021039900252097] 21대 399회 2차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52097-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220830 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21039900252097-02,
+        nadat1:INS-AP-51926_52480-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039900252097" ;
+    rico:title "제399회국회 정보위원회회의록 제 2 호"@ko .
+
+nadat1:R100021040000152166 a rico:Record ;
+    skos:prefLabel "[R100021040000152166] 21대 400회 1차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52166-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220915 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21040000152166-02,
+        nadat1:INS-AP-51926_52480-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000152166" ;
+    rico:title "제400회국회 정보위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040000252180 a rico:Record ;
+    skos:prefLabel "[R100021040000252180] 21대 400회 2차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52180-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220928 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21040000252180-02,
+        nadat1:INS-AP-51926_52480-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000252180" ;
+    rico:title "제400회국회 정보위원회회의록 제 2 호"@ko .
+
+nadat1:R100021040000352286 a rico:Record ;
+    skos:prefLabel "[R100021040000352286] 21대 400회 3차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52286-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221031 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21040000352286-02,
+        nadat1:INS-AP-51926_52480-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000352286" ;
+    rico:title "제400회국회 정보위원회회의록 제 3 호"@ko .
+
+nadat1:R100021040000452447 a rico:Record ;
+    skos:prefLabel "[R100021040000452447] 21대 400회 4차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52447-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221122 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21040000452447-02,
+        nadat1:INS-AP-51926_52480-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000452447" ;
+    rico:title "제400회국회 정보위원회회의록 제 4 호"@ko .
+
+nadat1:R100021040000552480 a rico:Record ;
+    skos:prefLabel "[R100021040000552480] 21대 400회 5차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52480-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221124 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21040000552480-02,
+        nadat1:INS-AP-51926_52480-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000552480" ;
+    rico:title "제400회국회 정보위원회회의록 제 5 호"@ko .
+
+nadat1:R100021040100152646 a rico:Record ;
+    skos:prefLabel "[R100021040100152646] 21대 401회 1차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52646-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230105 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21040100152646-02,
+        nadat1:INS-AP-51926_52646-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040100152646" ;
+    rico:title "제401회국회 정보위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040300152731 a rico:Record ;
+    skos:prefLabel "[R100021040300152731] 21대 403회 1차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52731-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230222 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21040300152731-02,
+        nadat1:INS-AP-52731_53285-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040300152731" ;
+    rico:title "제403회국회 정보위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040300252752 a rico:Record ;
+    skos:prefLabel "[R100021040300252752] 21대 403회 2차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52752-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230227 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21040300252752-02,
+        nadat1:INS-AP-52731_53285-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040300252752" ;
+    rico:title "제403회국회 정보위원회회의록 제 2 호"@ko .
+
+nadat1:R100021040300352753 a rico:Record ;
+    skos:prefLabel "[R100021040300352753] 21대 403회 3차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52753-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230228 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21040300352753-02,
+        nadat1:INS-AP-52731_53285-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040300352753" ;
+    rico:title "제403회국회 정보위원회회의록 제 3 호"@ko .
+
+nadat1:R100021040400152758 a rico:Record ;
+    skos:prefLabel "[R100021040400152758] 21대 404회 1차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52758-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230307 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21040400152758-02,
+        nadat1:INS-AP-52731_53285-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040400152758" ;
+    rico:title "제404회국회 정보위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040500152881 a rico:Record ;
+    skos:prefLabel "[R100021040500152881] 21대 405회 1차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52881-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230420 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21040500152881-02,
+        nadat1:INS-AP-52731_53285-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040500152881" ;
+    rico:title "제405회국회 정보위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040600152969 a rico:Record ;
+    skos:prefLabel "[R100021040600152969] 21대 406회 1차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52969-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230531 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21040600152969-02,
+        nadat1:INS-AP-52731_53285-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040600152969" ;
+    rico:title "제406회국회 정보위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040900153116 a rico:Record ;
+    skos:prefLabel "[R100021040900153116] 21대 409회 1차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53116-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230817 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21040900153116-02,
+        nadat1:INS-AP-52731_53285-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040900153116" ;
+    rico:title "제409회국회 정보위원회회의록 제 1 호"@ko .
+
+nadat1:R100021041000153202 a rico:Record ;
+    skos:prefLabel "[R100021041000153202] 21대 410회 1차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53202-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230904 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21041000153202-02,
+        nadat1:INS-AP-52731_53285-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041000153202" ;
+    rico:title "제410회국회 정보위원회회의록 제 1 호"@ko .
+
+nadat1:R100021041000253216 a rico:Record ;
+    skos:prefLabel "[R100021041000253216] 21대 410회 2차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53216-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230907 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21041000253216-02,
+        nadat1:INS-AP-52731_53285-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041000253216" ;
+    rico:title "제410회국회 정보위원회회의록 제 2 호"@ko .
+
+nadat1:R100021041000353285 a rico:Record ;
+    skos:prefLabel "[R100021041000353285] 21대 410회 3차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53285-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230920 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21041000353285-02,
+        nadat1:INS-AP-52731_53285-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041000353285" ;
+    rico:title "제410회국회 정보위원회회의록 제 3 호"@ko .
+
+nadat1:R100021041100253770 a rico:Record ;
+    skos:prefLabel "[R100021041100253770] 21대 411회 2차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53770-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-240111 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21041100253770-02,
+        nadat1:INS-AP-53770_53775-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041100253770" ;
+    rico:title "제411회국회 정보위원회회의록 제 2 호"@ko .
+
+nadat1:R100021041200153775 a rico:Record ;
+    skos:prefLabel "[R100021041200153775] 21대 412회 1차 정보위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53775-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-240116 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AP-21041200153775-02,
+        nadat1:INS-AP-53770_53775-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041200153775" ;
+    rico:title "제412회국회 정보위원회회의록 제 1 호"@ko .
+
+nadat1:RS100021-AP a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AP] 21대 정보위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AP" ;
+    rico:includesOrIncluded nadat1:RS100021-AP-0380,
+        nadat1:RS100021-AP-0397,
+        nadat1:RS100021-AP-0398,
+        nadat1:RS100021-AP-0399,
+        nadat1:RS100021-AP-0400,
+        nadat1:RS100021-AP-0401,
+        nadat1:RS100021-AP-0403,
+        nadat1:RS100021-AP-0404,
+        nadat1:RS100021-AP-0405,
+        nadat1:RS100021-AP-0406,
+        nadat1:RS100021-AP-0409,
+        nadat1:RS100021-AP-0410,
+        nadat1:RS100021-AP-0411,
+        nadat1:RS100021-AP-0412 ;
+    rico:name "제21대국회 정보위원회 회의록"@ko .
+
+nadat1:RS100021-AP-0380 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AP-0380] 21대 380회 정보위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AP-0380" ;
+    rico:includesOrIncluded nadat1:R100021038000350071 ;
+    rico:name "제21대국회 제380회 정보위원회 회의록"@ko .
+
+nadat1:RS100021-AP-0397 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AP-0397] 21대 397회 정보위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AP-0397" ;
+    rico:includesOrIncluded nadat1:R100021039700151926,
+        nadat1:R100021039700251947,
+        nadat1:R100021039700351953 ;
+    rico:name "제21대국회 제397회 정보위원회 회의록"@ko .
+
+nadat1:RS100021-AP-0398 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AP-0398] 21대 398회 정보위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AP-0398" ;
+    rico:includesOrIncluded nadat1:R100021039800151994,
+        nadat1:R100021039800252014 ;
+    rico:name "제21대국회 제398회 정보위원회 회의록"@ko .
+
+nadat1:RS100021-AP-0399 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AP-0399] 21대 399회 정보위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AP-0399" ;
+    rico:includesOrIncluded nadat1:R100021039900152052,
+        nadat1:R100021039900252097 ;
+    rico:name "제21대국회 제399회 정보위원회 회의록"@ko .
+
+nadat1:RS100021-AP-0400 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AP-0400] 21대 400회 정보위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AP-0400" ;
+    rico:includesOrIncluded nadat1:R100021040000152166,
+        nadat1:R100021040000252180,
+        nadat1:R100021040000352286,
+        nadat1:R100021040000452447,
+        nadat1:R100021040000552480 ;
+    rico:name "제21대국회 제400회 정보위원회 회의록"@ko .
+
+nadat1:RS100021-AP-0401 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AP-0401] 21대 401회 정보위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AP-0401" ;
+    rico:includesOrIncluded nadat1:R100021040100152646 ;
+    rico:name "제21대국회 제401회 정보위원회 회의록"@ko .
+
+nadat1:RS100021-AP-0403 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AP-0403] 21대 403회 정보위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AP-0403" ;
+    rico:includesOrIncluded nadat1:R100021040300152731,
+        nadat1:R100021040300252752,
+        nadat1:R100021040300352753 ;
+    rico:name "제21대국회 제403회 정보위원회 회의록"@ko .
+
+nadat1:RS100021-AP-0404 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AP-0404] 21대 404회 정보위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AP-0404" ;
+    rico:includesOrIncluded nadat1:R100021040400152758 ;
+    rico:name "제21대국회 제404회 정보위원회 회의록"@ko .
+
+nadat1:RS100021-AP-0405 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AP-0405] 21대 405회 정보위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AP-0405" ;
+    rico:includesOrIncluded nadat1:R100021040500152881 ;
+    rico:name "제21대국회 제405회 정보위원회 회의록"@ko .
+
+nadat1:RS100021-AP-0406 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AP-0406] 21대 406회 정보위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AP-0406" ;
+    rico:includesOrIncluded nadat1:R100021040600152969 ;
+    rico:name "제21대국회 제406회 정보위원회 회의록"@ko .
+
+nadat1:RS100021-AP-0409 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AP-0409] 21대 409회 정보위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AP-0409" ;
+    rico:includesOrIncluded nadat1:R100021040900153116 ;
+    rico:name "제21대국회 제409회 정보위원회 회의록"@ko .
+
+nadat1:RS100021-AP-0410 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AP-0410] 21대 410회 정보위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AP-0410" ;
+    rico:includesOrIncluded nadat1:R100021041000153202,
+        nadat1:R100021041000253216,
+        nadat1:R100021041000353285 ;
+    rico:name "제21대국회 제410회 정보위원회 회의록"@ko .
+
+nadat1:RS100021-AP-0411 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AP-0411] 21대 411회 정보위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AP-0411" ;
+    rico:includesOrIncluded nadat1:R100021041100253770 ;
+    rico:name "제21대국회 제411회 정보위원회 회의록"@ko .
+
+nadat1:RS100021-AP-0412 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AP-0412] 21대 412회 정보위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AP-0412" ;
+    rico:includesOrIncluded nadat1:R100021041200153775 ;
+    rico:name "제21대국회 제412회 정보위원회 회의록"@ko .
+
+nadat1:date-220525 a rico:Date ;
+    rico:expressedDate "2022년5월25일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220525" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51947 ;
+    rico:name "date-220525" ;
+    rico:normalizedDateValue "2022-05-25"^^xsd:date .
+
+nadat1:date-220526 rico:isDateOfOccurrenceOf nadat1:EV-M-51953 .
+
+nadat1:date-220726 rico:isDateOfOccurrenceOf nadat1:EV-M-51994 .
+
+nadat1:date-220802 rico:isDateOfOccurrenceOf nadat1:EV-M-52014 .
+
+nadat1:date-220822 rico:isDateOfOccurrenceOf nadat1:EV-M-52052 .
+
+nadat1:date-220830 rico:isDateOfOccurrenceOf nadat1:EV-M-52097 .
+
+nadat1:date-220915 rico:isDateOfOccurrenceOf nadat1:EV-M-52166 .
+
+nadat1:date-220928 rico:isDateOfOccurrenceOf nadat1:EV-M-52180 .
+
+nadat1:date-221031 rico:isDateOfOccurrenceOf nadat1:EV-M-52286 .
+
+nadat1:date-221122 rico:isDateOfOccurrenceOf nadat1:EV-M-52447 .
+
+nadat1:date-230222 rico:isDateOfOccurrenceOf nadat1:EV-M-52731 .
+
+nadat1:date-230227 rico:isDateOfOccurrenceOf nadat1:EV-M-52752 .
+
+nadat1:date-230228 a rico:Date ;
+    rico:expressedDate "2023년2월28일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230228" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52753 ;
+    rico:name "date-230228" ;
+    rico:normalizedDateValue "2023-02-28"^^xsd:date .
+
+nadat1:date-230307 a rico:Date ;
+    rico:expressedDate "2023년3월7일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230307" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52758 ;
+    rico:name "date-230307" ;
+    rico:normalizedDateValue "2023-03-07"^^xsd:date .
+
+nadat1:date-230420 rico:isDateOfOccurrenceOf nadat1:EV-M-52881 .
+
+nadat1:date-230531 rico:isDateOfOccurrenceOf nadat1:EV-M-52969 .
+
+nadat1:date-230817 a rico:Date ;
+    rico:expressedDate "2023년8월17일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230817" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-53116 ;
+    rico:name "date-230817" ;
+    rico:normalizedDateValue "2023-08-17"^^xsd:date .
+
+nadat1:date-230904 rico:isDateOfOccurrenceOf nadat1:EV-M-53202 .
+
+nadat1:date-230907 rico:isDateOfOccurrenceOf nadat1:EV-M-53216 .
+
+nadat1:EV-M-50071 a rico:Event ;
+    skos:prefLabel "[EV-M-50071] 제380회 제3차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0827740Q,
+        nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-8BF5855P,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-8SV6917G,
+        nadat2:PER-LM-BM63269Y,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-I7R13867,
+        nadat2:PER-LM-IN328264,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-TZP9391O,
+        nadat2:PER-LM-ZKU88693 ;
+    rico:identifier "EV-M-50071" ;
+    rico:name "제21대국회 제380회 제3차 정보위원회"@ko .
+
+nadat1:EV-M-51926 a rico:Event ;
+    skos:prefLabel "[EV-M-51926] 제397회 제1차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-TMP-01264 ;
+    rico:identifier "EV-M-51926" ;
+    rico:name "제21대국회 제397회 제1차 정보위원회"@ko .
+
+nadat1:EV-M-51947 a rico:Event ;
+    skos:prefLabel "[EV-M-51947] 제397회 제2차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0827740Q,
+        nadat2:PER-LM-5MD4184K,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-IN328264,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-SRP7336N,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-TMP-00548 ;
+    rico:identifier "EV-M-51947" ;
+    rico:name "제21대국회 제397회 제2차 정보위원회"@ko .
+
+nadat1:EV-M-51953 a rico:Event ;
+    skos:prefLabel "[EV-M-51953] 제397회 제3차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-ZKU88693 ;
+    rico:identifier "EV-M-51953" ;
+    rico:name "제21대국회 제397회 제3차 정보위원회"@ko .
+
+nadat1:EV-M-51994 a rico:Event ;
+    skos:prefLabel "[EV-M-51994] 제398회 제1차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-17M85910,
+        nadat2:PER-LM-6EN68926,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-8SV6917G,
+        nadat2:PER-LM-FIC9046Z,
+        nadat2:PER-LM-GDG1847Z,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-MU69217P,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-TMP-01264,
+        nadat2:PER-TMP-01384 ;
+    rico:identifier "EV-M-51994" ;
+    rico:name "제21대국회 제398회 제1차 정보위원회"@ko .
+
+nadat1:EV-M-52014 a rico:Event ;
+    skos:prefLabel "[EV-M-52014] 제398회 제2차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-FH777496,
+        nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-TMP-01264 ;
+    rico:identifier "EV-M-52014" ;
+    rico:name "제21대국회 제398회 제2차 정보위원회"@ko .
+
+nadat1:EV-M-52052 a rico:Event ;
+    skos:prefLabel "[EV-M-52052] 제399회 제1차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-16D7652C,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-MU69217P,
+        nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-TMP-01264 ;
+    rico:identifier "EV-M-52052" ;
+    rico:name "제21대국회 제399회 제1차 정보위원회"@ko .
+
+nadat1:EV-M-52097 a rico:Event ;
+    skos:prefLabel "[EV-M-52097] 제399회 제2차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-TMP-00548 ;
+    rico:identifier "EV-M-52097" ;
+    rico:name "제21대국회 제399회 제2차 정보위원회"@ko .
+
+nadat1:EV-M-52166 a rico:Event ;
+    skos:prefLabel "[EV-M-52166] 제400회 제1차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-16D7652C,
+        nadat2:PER-LM-17M85910,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-GDG1847Z,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-MU69217P,
+        nadat2:PER-LM-NTT8182Q,
+        nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-TMP-01264 ;
+    rico:identifier "EV-M-52166" ;
+    rico:name "제21대국회 제400회 제1차 정보위원회"@ko .
+
+nadat1:EV-M-52180 a rico:Event ;
+    skos:prefLabel "[EV-M-52180] 제400회 제2차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-TMP-01264 ;
+    rico:identifier "EV-M-52180" ;
+    rico:name "제21대국회 제400회 제2차 정보위원회"@ko .
+
+nadat1:EV-M-52286 a rico:Event ;
+    skos:prefLabel "[EV-M-52286] 제400회 제3차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-Z6R3959C ;
+    rico:identifier "EV-M-52286" ;
+    rico:name "제21대국회 제400회 제3차 정보위원회"@ko .
+
+nadat1:EV-M-52447 a rico:Event ;
+    skos:prefLabel "[EV-M-52447] 제400회 제4차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-TMP-01264 ;
+    rico:identifier "EV-M-52447" ;
+    rico:name "제21대국회 제400회 제4차 정보위원회"@ko .
+
+nadat1:EV-M-52480 a rico:Event ;
+    skos:prefLabel "[EV-M-52480] 제400회 제5차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-Z6R3959C ;
+    rico:identifier "EV-M-52480" ;
+    rico:name "제21대국회 제400회 제5차 정보위원회"@ko .
+
+nadat1:EV-M-52646 a rico:Event ;
+    skos:prefLabel "[EV-M-52646] 제401회 제1차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-N4R2421C,
+        nadat2:PER-TMP-01264 ;
+    rico:identifier "EV-M-52646" ;
+    rico:name "제21대국회 제401회 제1차 정보위원회"@ko .
+
+nadat1:EV-M-52731 a rico:Event ;
+    skos:prefLabel "[EV-M-52731] 제403회 제1차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-LJK4960Z,
+        nadat2:PER-LM-N4R2421C,
+        nadat2:PER-TMP-01264 ;
+    rico:identifier "EV-M-52731" ;
+    rico:name "제21대국회 제403회 제1차 정보위원회"@ko .
+
+nadat1:EV-M-52752 a rico:Event ;
+    skos:prefLabel "[EV-M-52752] 제403회 제2차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-N4R2421C ;
+    rico:identifier "EV-M-52752" ;
+    rico:name "제21대국회 제403회 제2차 정보위원회"@ko .
+
+nadat1:EV-M-52753 a rico:Event ;
+    skos:prefLabel "[EV-M-52753] 제403회 제3차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-N4R2421C ;
+    rico:identifier "EV-M-52753" ;
+    rico:name "제21대국회 제403회 제3차 정보위원회"@ko .
+
+nadat1:EV-M-52758 a rico:Event ;
+    skos:prefLabel "[EV-M-52758] 제404회 제1차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-N4R2421C ;
+    rico:identifier "EV-M-52758" ;
+    rico:name "제21대국회 제404회 제1차 정보위원회"@ko .
+
+nadat1:EV-M-52881 a rico:Event ;
+    skos:prefLabel "[EV-M-52881] 제405회 제1차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-16D7652C,
+        nadat2:PER-LM-17M85910,
+        nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-MU69217P,
+        nadat2:PER-LM-N4R2421C ;
+    rico:identifier "EV-M-52881" ;
+    rico:name "제21대국회 제405회 제1차 정보위원회"@ko .
+
+nadat1:EV-M-52969 a rico:Event ;
+    skos:prefLabel "[EV-M-52969] 제406회 제1차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-K3W33496,
+        nadat2:PER-LM-N4R2421C,
+        nadat2:PER-TMP-01264 ;
+    rico:identifier "EV-M-52969" ;
+    rico:name "제21대국회 제406회 제1차 정보위원회"@ko .
+
+nadat1:EV-M-53116 a rico:Event ;
+    skos:prefLabel "[EV-M-53116] 제409회 제1차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-16D7652C,
+        nadat2:PER-LM-17M85910,
+        nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-FIC9046Z,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-LJK4960Z,
+        nadat2:PER-LM-MU69217P,
+        nadat2:PER-LM-N4R2421C,
+        nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-TMP-00548,
+        nadat2:PER-TMP-01270,
+        nadat2:PER-TMP-01385 ;
+    rico:identifier "EV-M-53116" ;
+    rico:name "제21대국회 제409회 제1차 정보위원회"@ko .
+
+nadat1:EV-M-53202 a rico:Event ;
+    skos:prefLabel "[EV-M-53202] 제410회 제1차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-N4R2421C ;
+    rico:identifier "EV-M-53202" ;
+    rico:name "제21대국회 제410회 제1차 정보위원회"@ko .
+
+nadat1:EV-M-53216 a rico:Event ;
+    skos:prefLabel "[EV-M-53216] 제410회 제2차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-N4R2421C ;
+    rico:identifier "EV-M-53216" ;
+    rico:name "제21대국회 제410회 제2차 정보위원회"@ko .
+
+nadat1:EV-M-53285 a rico:Event ;
+    skos:prefLabel "[EV-M-53285] 제410회 제3차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-N4R2421C ;
+    rico:identifier "EV-M-53285" ;
+    rico:name "제21대국회 제410회 제3차 정보위원회"@ko .
+
+nadat1:EV-M-53770 a rico:Event ;
+    skos:prefLabel "[EV-M-53770] 제411회 제2차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-17M85910,
+        nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-8Q88373R,
+        nadat2:PER-LM-FIC9046Z,
+        nadat2:PER-LM-FRN1867O,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-LJK4960Z,
+        nadat2:PER-LM-MU69217P,
+        nadat2:PER-LM-N4R2421C,
+        nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-LM-ZRF3039U ;
+    rico:identifier "EV-M-53770" ;
+    rico:name "제21대국회 제411회 제2차 정보위원회"@ko .
+
+nadat1:EV-M-53775 a rico:Event ;
+    skos:prefLabel "[EV-M-53775] 제412회 제1차 정보위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-N4R2421C ;
+    rico:identifier "EV-M-53775" ;
+    rico:name "제21대국회 제412회 제1차 정보위원회"@ko .
+
+
+
+nadat1:date-220519 rico:isDateOfOccurrenceOf nadat1:EV-M-51926 .
+
+nadat1:date-221124 rico:isDateOfOccurrenceOf nadat1:EV-M-52480 .
+
+nadat1:date-230105 a rico:Date ;
+    rico:expressedDate "2023년1월5일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230105" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52646 ;
+    rico:name "date-230105" ;
+    rico:normalizedDateValue "2023-01-05"^^xsd:date .
+
+nadat1:date-230920 rico:isDateOfOccurrenceOf nadat1:EV-M-53285 .
+
+nadat1:date-240111 a rico:Date ;
+    rico:expressedDate "2024년1월11일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-240111" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-53770 ;
+    rico:name "date-240111" ;
+    rico:normalizedDateValue "2024-01-11"^^xsd:date .
+
+nadat1:date-240116 a rico:Date ;
+    rico:expressedDate "2024년1월16일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-240116" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-53775 ;
+    rico:name "date-240116" ;
+    rico:normalizedDateValue "2024-01-16"^^xsd:date .
+
+nadat1:date-200727 rico:isDateOfOccurrenceOf nadat1:EV-M-50071 .
+
+
+
+nadat1:INS-AP-50071_50071-01 a rico:Instantiation ;
+    dcterms:coverage "2020-07-27/2020-07-27" ;
+    skos:prefLabel "[INS-AP-50071_50071-01] 2020-2 정보위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-200727 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-200727 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-50071_50071-01" ;
+    rico:title "2020-2 정보위원회 보존회의록"@ko .
+
+nadat1:INS-AP-51926_52646-01 a rico:Instantiation ;
+    dcterms:coverage "2022-05-19/2023-01-05" ;
+    skos:prefLabel "[INS-AP-51926_52646-01] 2022 정보위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-220519 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-230105 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-51926_52646-01" ;
+    rico:title "2022 정보위원회 보존회의록"@ko .
+
+nadat1:INS-AP-52731_53285-01 a rico:Instantiation ;
+    dcterms:coverage "2023-02-22/2023-09-20" ;
+    skos:prefLabel "[INS-AP-52731_53285-01] 2023 정보위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-230222 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-230920 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-52731_53285-01" ;
+    rico:title "2023 정보위원회 보존회의록"@ko .
+
+nadat1:INS-AP-53770_53775-01 a rico:Instantiation ;
+    dcterms:coverage "2024-01-11/2024-01-16" ;
+    skos:prefLabel "[INS-AP-53770_53775-01] 2024-1 정보위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-240111 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-240116 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AP-53770_53775-01" ;
+    rico:title "2024-1 정보위원회 보존회의록"@ko .
+
+
+
+
+
+
+
