@@ -35,7 +35,7 @@ nadat1:RS100021 rico:includesOrIncluded nadat1:RS100021-AA .
 
 nadat1:ACT-M-50020-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50020-002] 제379회 제1차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50020-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50020 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -43,7 +43,7 @@ nadat1:ACT-M-50020-002 a rico:Activity ;
 
 nadat1:ACT-M-50078-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50078-002] 제380회 제1차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50078-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50078 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -51,7 +51,7 @@ nadat1:ACT-M-50078-002 a rico:Activity ;
 
 nadat1:ACT-M-50111-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50111-002] 제381회 제1차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50111-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50111 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -59,7 +59,7 @@ nadat1:ACT-M-50111-002 a rico:Activity ;
 
 nadat1:ACT-M-50147-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50147-002] 제382회 제1차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50147-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50147 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -67,7 +67,7 @@ nadat1:ACT-M-50147-002 a rico:Activity ;
 
 nadat1:ACT-M-50243-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50243-002] 제382회 제2차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50243-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50243 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -75,7 +75,7 @@ nadat1:ACT-M-50243-002 a rico:Activity ;
 
 nadat1:ACT-M-50357-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50357-002] 제382회 제3차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50357-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50357 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -83,7 +83,7 @@ nadat1:ACT-M-50357-002 a rico:Activity ;
 
 nadat1:ACT-M-50419-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50419-002] 제382회 제4차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50419-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50419 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -91,7 +91,7 @@ nadat1:ACT-M-50419-002 a rico:Activity ;
 
 nadat1:ACT-M-50456-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50456-002] 제382회 제5차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50456-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50456 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -99,7 +99,7 @@ nadat1:ACT-M-50456-002 a rico:Activity ;
 
 nadat1:ACT-M-50608-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50608-002] 제382회 제6차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50608-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50608 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -107,7 +107,7 @@ nadat1:ACT-M-50608-002 a rico:Activity ;
 
 nadat1:ACT-M-50806-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50806-002] 제384회 제1차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50806-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50806 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -115,7 +115,7 @@ nadat1:ACT-M-50806-002 a rico:Activity ;
 
 nadat1:ACT-M-50965-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50965-002] 제386회 제1차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50965-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50965 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -123,7 +123,7 @@ nadat1:ACT-M-50965-002 a rico:Activity ;
 
 nadat1:ACT-M-50980-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50980-002] 제386회 제2차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50980-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50980 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -131,7 +131,7 @@ nadat1:ACT-M-50980-002 a rico:Activity ;
 
 nadat1:ACT-M-51176-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51176-002] 제390회 제1차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51176-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51176 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -139,7 +139,7 @@ nadat1:ACT-M-51176-002 a rico:Activity ;
 
 nadat1:ACT-M-51195-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51195-002] 제390회 제2차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51195-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51195 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -147,7 +147,7 @@ nadat1:ACT-M-51195-002 a rico:Activity ;
 
 nadat1:ACT-M-51225-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51225-002] 제390회 제3차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51225-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51225 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -155,7 +155,7 @@ nadat1:ACT-M-51225-002 a rico:Activity ;
 
 nadat1:ACT-M-51280-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51280-002] 제391회 제1차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51280-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51280 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -163,7 +163,7 @@ nadat1:ACT-M-51280-002 a rico:Activity ;
 
 nadat1:ACT-M-51433-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51433-002] 제391회 제2차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51433-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51433 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -171,7 +171,7 @@ nadat1:ACT-M-51433-002 a rico:Activity ;
 
 nadat1:ACT-M-51486-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51486-002] 제391회 제3차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51486-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51486 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -179,7 +179,7 @@ nadat1:ACT-M-51486-002 a rico:Activity ;
 
 nadat1:ACT-M-51619-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51619-002] 제391회 제4차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51619-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51619 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -187,7 +187,7 @@ nadat1:ACT-M-51619-002 a rico:Activity ;
 
 nadat1:ACT-M-51847-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51847-002] 제395회 제1차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51847-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51847 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -195,7 +195,7 @@ nadat1:ACT-M-51847-002 a rico:Activity ;
 
 nadat1:ACT-M-51900-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51900-002] 제397회 제1차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51900-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51900 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -203,7 +203,7 @@ nadat1:ACT-M-51900-002 a rico:Activity ;
 
 nadat1:ACT-M-52050-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52050-002] 제399회 제1차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52050-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52050 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -211,7 +211,7 @@ nadat1:ACT-M-52050-002 a rico:Activity ;
 
 nadat1:ACT-M-52055-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52055-002] 제399회 제2차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52055-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52055 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -219,7 +219,7 @@ nadat1:ACT-M-52055-002 a rico:Activity ;
 
 nadat1:ACT-M-52085-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52085-002] 제399회 제3차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52085-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52085 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -227,7 +227,7 @@ nadat1:ACT-M-52085-002 a rico:Activity ;
 
 nadat1:ACT-M-52172-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52172-002] 제400회 제1차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52172-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52172 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -235,7 +235,7 @@ nadat1:ACT-M-52172-002 a rico:Activity ;
 
 nadat1:ACT-M-52249-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52249-002] 제400회 제2차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52249-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52249 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -243,7 +243,7 @@ nadat1:ACT-M-52249-002 a rico:Activity ;
 
 nadat1:ACT-M-52320-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52320-002] 제400회 제3차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52320-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52320 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -251,7 +251,7 @@ nadat1:ACT-M-52320-002 a rico:Activity ;
 
 nadat1:ACT-M-52726-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52726-002] 제403회 제1차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52726-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52726 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -259,7 +259,7 @@ nadat1:ACT-M-52726-002 a rico:Activity ;
 
 nadat1:ACT-M-52780-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52780-002] 제404회 제1차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52780-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52780 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -267,7 +267,7 @@ nadat1:ACT-M-52780-002 a rico:Activity ;
 
 nadat1:ACT-M-52849-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52849-002] 제405회 제1차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52849-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52849 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -275,7 +275,7 @@ nadat1:ACT-M-52849-002 a rico:Activity ;
 
 nadat1:ACT-M-52943-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52943-002] 제406회 제1차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52943-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52943 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -283,7 +283,7 @@ nadat1:ACT-M-52943-002 a rico:Activity ;
 
 nadat1:ACT-M-53065-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53065-002] 제408회 제1차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53065-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53065 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -291,7 +291,7 @@ nadat1:ACT-M-53065-002 a rico:Activity ;
 
 nadat1:ACT-M-53155-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53155-002] 제409회 제1차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53155-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53155 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -299,7 +299,7 @@ nadat1:ACT-M-53155-002 a rico:Activity ;
 
 nadat1:ACT-M-53176-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53176-002] 제410회 제1차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53176-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53176 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -307,7 +307,7 @@ nadat1:ACT-M-53176-002 a rico:Activity ;
 
 nadat1:ACT-M-53237-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53237-002] 제410회 제2차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53237-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53237 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -315,7 +315,7 @@ nadat1:ACT-M-53237-002 a rico:Activity ;
 
 nadat1:ACT-M-53371-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53371-002] 제410회 제3차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53371-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53371 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
@@ -323,7 +323,7 @@ nadat1:ACT-M-53371-002 a rico:Activity ;
 
 nadat1:ACT-M-53777-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53777-002] 제412회 제1차 국회운영위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53777-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53777 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AA ;
