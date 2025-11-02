@@ -35,7 +35,7 @@ nadat1:RS100021 rico:includesOrIncluded nadat1:RS100021-AL .
 
 nadat1:ACT-M-50010-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50010-002] 제379회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50010-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50010 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -43,7 +43,7 @@ nadat1:ACT-M-50010-002 a rico:Activity ;
 
 nadat1:ACT-M-50014-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50014-002] 제379회 제2차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50014-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50014 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -51,7 +51,7 @@ nadat1:ACT-M-50014-002 a rico:Activity ;
 
 nadat1:ACT-M-50043-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50043-002] 제379회 제3차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50043-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50043 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -59,7 +59,7 @@ nadat1:ACT-M-50043-002 a rico:Activity ;
 
 nadat1:ACT-M-50083-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50083-002] 제380회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50083-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50083 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -67,7 +67,7 @@ nadat1:ACT-M-50083-002 a rico:Activity ;
 
 nadat1:ACT-M-50085-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50085-002] 제380회 제2차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50085-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50085 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -75,7 +75,7 @@ nadat1:ACT-M-50085-002 a rico:Activity ;
 
 nadat1:ACT-M-50119-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50119-002] 제381회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50119-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50119 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -83,7 +83,7 @@ nadat1:ACT-M-50119-002 a rico:Activity ;
 
 nadat1:ACT-M-50137-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50137-002] 제382회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50137-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50137 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -91,7 +91,7 @@ nadat1:ACT-M-50137-002 a rico:Activity ;
 
 nadat1:ACT-M-50189-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50189-002] 제382회 제2차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50189-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50189 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -99,7 +99,7 @@ nadat1:ACT-M-50189-002 a rico:Activity ;
 
 nadat1:ACT-M-50207-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50207-002] 제382회 제3차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50207-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50207 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -107,7 +107,7 @@ nadat1:ACT-M-50207-002 a rico:Activity ;
 
 nadat1:ACT-M-50216-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50216-002] 제382회 제4차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50216-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50216 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -115,7 +115,7 @@ nadat1:ACT-M-50216-002 a rico:Activity ;
 
 nadat1:ACT-M-50253-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50253-002] 제382회 제5차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50253-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50253 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -123,7 +123,7 @@ nadat1:ACT-M-50253-002 a rico:Activity ;
 
 nadat1:ACT-M-50273-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50273-002] 제382회 제6차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50273-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50273 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -131,7 +131,7 @@ nadat1:ACT-M-50273-002 a rico:Activity ;
 
 nadat1:ACT-M-50282-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50282-002] 제382회 제7차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50282-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50282 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -139,7 +139,7 @@ nadat1:ACT-M-50282-002 a rico:Activity ;
 
 nadat1:ACT-M-50291-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50291-002] 제382회 제8차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50291-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50291 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -147,7 +147,7 @@ nadat1:ACT-M-50291-002 a rico:Activity ;
 
 nadat1:ACT-M-50302-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50302-002] 제382회 제9차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50302-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50302 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -155,7 +155,7 @@ nadat1:ACT-M-50302-002 a rico:Activity ;
 
 nadat1:ACT-M-50335-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50335-002] 제382회 제10차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50335-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50335 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -163,7 +163,7 @@ nadat1:ACT-M-50335-002 a rico:Activity ;
 
 nadat1:ACT-M-50418-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50418-002] 제382회 제11차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50418-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50418 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -171,7 +171,7 @@ nadat1:ACT-M-50418-002 a rico:Activity ;
 
 nadat1:ACT-M-50479-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50479-002] 제382회 제12차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50479-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50479 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -179,7 +179,7 @@ nadat1:ACT-M-50479-002 a rico:Activity ;
 
 nadat1:ACT-M-50545-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50545-002] 제382회 제13차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50545-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50545 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -187,7 +187,7 @@ nadat1:ACT-M-50545-002 a rico:Activity ;
 
 nadat1:ACT-M-50584-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50584-002] 제382회 제14차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50584-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50584 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -195,7 +195,7 @@ nadat1:ACT-M-50584-002 a rico:Activity ;
 
 nadat1:ACT-M-50633-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50633-002] 제382회 제15차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50633-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50633 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -203,7 +203,7 @@ nadat1:ACT-M-50633-002 a rico:Activity ;
 
 nadat1:ACT-M-50741-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50741-002] 제383회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50741-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50741 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -211,7 +211,7 @@ nadat1:ACT-M-50741-002 a rico:Activity ;
 
 nadat1:ACT-M-50749-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50749-002] 제384회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50749-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50749 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -219,7 +219,7 @@ nadat1:ACT-M-50749-002 a rico:Activity ;
 
 nadat1:ACT-M-50751-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50751-002] 제384회 제2차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50751-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50751 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -227,7 +227,7 @@ nadat1:ACT-M-50751-002 a rico:Activity ;
 
 nadat1:ACT-M-50808-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50808-002] 제384회 제3차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50808-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50808 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -235,7 +235,7 @@ nadat1:ACT-M-50808-002 a rico:Activity ;
 
 nadat1:ACT-M-50858-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50858-002] 제385회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50858-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50858 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -243,7 +243,7 @@ nadat1:ACT-M-50858-002 a rico:Activity ;
 
 nadat1:ACT-M-50891-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50891-002] 제385회 제2차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50891-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50891 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -251,7 +251,7 @@ nadat1:ACT-M-50891-002 a rico:Activity ;
 
 nadat1:ACT-M-50948-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50948-002] 제386회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50948-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50948 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -259,7 +259,7 @@ nadat1:ACT-M-50948-002 a rico:Activity ;
 
 nadat1:ACT-M-50953-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50953-002] 제386회 제2차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50953-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50953 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -267,7 +267,7 @@ nadat1:ACT-M-50953-002 a rico:Activity ;
 
 nadat1:ACT-M-50973-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50973-002] 제386회 제3차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50973-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50973 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -275,7 +275,7 @@ nadat1:ACT-M-50973-002 a rico:Activity ;
 
 nadat1:ACT-M-51001-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51001-002] 제386회 제4차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51001-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51001 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -283,7 +283,7 @@ nadat1:ACT-M-51001-002 a rico:Activity ;
 
 nadat1:ACT-M-51011-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51011-002] 제387회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51011-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51011 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -291,7 +291,7 @@ nadat1:ACT-M-51011-002 a rico:Activity ;
 
 nadat1:ACT-M-51030-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51030-002] 제387회 제2차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51030-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51030 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -299,7 +299,7 @@ nadat1:ACT-M-51030-002 a rico:Activity ;
 
 nadat1:ACT-M-51031-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51031-002] 제387회 제3차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51031-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51031 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -307,7 +307,7 @@ nadat1:ACT-M-51031-002 a rico:Activity ;
 
 nadat1:ACT-M-51044-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51044-002] 제387회 제4차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51044-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51044 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -315,7 +315,7 @@ nadat1:ACT-M-51044-002 a rico:Activity ;
 
 nadat1:ACT-M-51111-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51111-002] 제388회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51111-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51111 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -323,7 +323,7 @@ nadat1:ACT-M-51111-002 a rico:Activity ;
 
 nadat1:ACT-M-51129-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51129-002] 제389회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51129-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51129 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -331,7 +331,7 @@ nadat1:ACT-M-51129-002 a rico:Activity ;
 
 nadat1:ACT-M-51144-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51144-002] 제389회 제2차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51144-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51144 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -339,7 +339,7 @@ nadat1:ACT-M-51144-002 a rico:Activity ;
 
 nadat1:ACT-M-51217-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51217-002] 제390회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51217-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51217 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -347,7 +347,7 @@ nadat1:ACT-M-51217-002 a rico:Activity ;
 
 nadat1:ACT-M-51229-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51229-002] 제390회 제2차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51229-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51229 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -355,7 +355,7 @@ nadat1:ACT-M-51229-002 a rico:Activity ;
 
 nadat1:ACT-M-51255-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51255-002] 제391회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51255-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51255 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -363,7 +363,7 @@ nadat1:ACT-M-51255-002 a rico:Activity ;
 
 nadat1:ACT-M-51266-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51266-002] 제391회 제2차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51266-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51266 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -371,7 +371,7 @@ nadat1:ACT-M-51266-002 a rico:Activity ;
 
 nadat1:ACT-M-51312-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51312-002] 제391회 제3차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51312-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51312 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -379,7 +379,7 @@ nadat1:ACT-M-51312-002 a rico:Activity ;
 
 nadat1:ACT-M-51331-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51331-002] 제391회 제4차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51331-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51331 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -387,7 +387,7 @@ nadat1:ACT-M-51331-002 a rico:Activity ;
 
 nadat1:ACT-M-51353-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51353-002] 제391회 제5차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51353-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51353 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -395,7 +395,7 @@ nadat1:ACT-M-51353-002 a rico:Activity ;
 
 nadat1:ACT-M-51364-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51364-002] 제391회 제6차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51364-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51364 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -403,7 +403,7 @@ nadat1:ACT-M-51364-002 a rico:Activity ;
 
 nadat1:ACT-M-51427-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51427-002] 제391회 제7차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51427-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51427 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -411,7 +411,7 @@ nadat1:ACT-M-51427-002 a rico:Activity ;
 
 nadat1:ACT-M-51490-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51490-002] 제391회 제8차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51490-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51490 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -419,7 +419,7 @@ nadat1:ACT-M-51490-002 a rico:Activity ;
 
 nadat1:ACT-M-51549-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51549-002] 제391회 제9차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51549-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51549 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -427,7 +427,7 @@ nadat1:ACT-M-51549-002 a rico:Activity ;
 
 nadat1:ACT-M-51577-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51577-002] 제391회 제10차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51577-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51577 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -435,7 +435,7 @@ nadat1:ACT-M-51577-002 a rico:Activity ;
 
 nadat1:ACT-M-51630-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51630-002] 제391회 제11차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51630-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51630 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -443,7 +443,7 @@ nadat1:ACT-M-51630-002 a rico:Activity ;
 
 nadat1:ACT-M-51720-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51720-002] 제392회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51720-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51720 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -451,7 +451,7 @@ nadat1:ACT-M-51720-002 a rico:Activity ;
 
 nadat1:ACT-M-51747-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51747-002] 제393회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51747-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51747 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -459,7 +459,7 @@ nadat1:ACT-M-51747-002 a rico:Activity ;
 
 nadat1:ACT-M-51751-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51751-002] 제393회 제2차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51751-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51751 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -467,7 +467,7 @@ nadat1:ACT-M-51751-002 a rico:Activity ;
 
 nadat1:ACT-M-51780-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51780-002] 제393회 제3차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51780-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51780 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -475,7 +475,7 @@ nadat1:ACT-M-51780-002 a rico:Activity ;
 
 nadat1:ACT-M-51865-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51865-002] 제397회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51865-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51865 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -483,7 +483,7 @@ nadat1:ACT-M-51865-002 a rico:Activity ;
 
 nadat1:ACT-M-51877-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51877-002] 제397회 제2차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51877-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51877 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -491,7 +491,7 @@ nadat1:ACT-M-51877-002 a rico:Activity ;
 
 nadat1:ACT-M-51886-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51886-002] 제397회 제3차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51886-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51886 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -499,7 +499,7 @@ nadat1:ACT-M-51886-002 a rico:Activity ;
 
 nadat1:ACT-M-51891-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51891-002] 제397회 제4차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51891-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51891 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -507,7 +507,7 @@ nadat1:ACT-M-51891-002 a rico:Activity ;
 
 nadat1:ACT-M-51942-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51942-002] 제397회 제5차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51942-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51942 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -515,7 +515,7 @@ nadat1:ACT-M-51942-002 a rico:Activity ;
 
 nadat1:ACT-M-51992-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51992-002] 제398회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51992-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51992 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -523,7 +523,7 @@ nadat1:ACT-M-51992-002 a rico:Activity ;
 
 nadat1:ACT-M-52009-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52009-002] 제398회 제3차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52009-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52009 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -531,7 +531,7 @@ nadat1:ACT-M-52009-002 a rico:Activity ;
 
 nadat1:ACT-M-52010-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52010-002] 제398회 제2차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52010-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52010 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -539,7 +539,7 @@ nadat1:ACT-M-52010-002 a rico:Activity ;
 
 nadat1:ACT-M-52071-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52071-002] 제399회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52071-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52071 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -547,7 +547,7 @@ nadat1:ACT-M-52071-002 a rico:Activity ;
 
 nadat1:ACT-M-52091-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52091-002] 제399회 제2차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52091-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52091 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -555,7 +555,7 @@ nadat1:ACT-M-52091-002 a rico:Activity ;
 
 nadat1:ACT-M-52093-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52093-002] 제399회 제3차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52093-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52093 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -563,7 +563,7 @@ nadat1:ACT-M-52093-002 a rico:Activity ;
 
 nadat1:ACT-M-52107-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52107-002] 제400회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52107-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52107 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -571,7 +571,7 @@ nadat1:ACT-M-52107-002 a rico:Activity ;
 
 nadat1:ACT-M-52120-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52120-002] 제400회 제2차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52120-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52120 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -579,7 +579,7 @@ nadat1:ACT-M-52120-002 a rico:Activity ;
 
 nadat1:ACT-M-52138-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52138-002] 제400회 제3차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52138-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52138 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -587,7 +587,7 @@ nadat1:ACT-M-52138-002 a rico:Activity ;
 
 nadat1:ACT-M-52163-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52163-002] 제400회 제4차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52163-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52163 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -595,7 +595,7 @@ nadat1:ACT-M-52163-002 a rico:Activity ;
 
 nadat1:ACT-M-52167-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52167-002] 제400회 제5차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52167-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52167 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -603,7 +603,7 @@ nadat1:ACT-M-52167-002 a rico:Activity ;
 
 nadat1:ACT-M-52204-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52204-002] 제400회 제6차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52204-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52204 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -611,7 +611,7 @@ nadat1:ACT-M-52204-002 a rico:Activity ;
 
 nadat1:ACT-M-52213-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52213-002] 제400회 제7차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52213-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52213 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -619,7 +619,7 @@ nadat1:ACT-M-52213-002 a rico:Activity ;
 
 nadat1:ACT-M-52355-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52355-002] 제400회 제8차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52355-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52355 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -627,7 +627,7 @@ nadat1:ACT-M-52355-002 a rico:Activity ;
 
 nadat1:ACT-M-52382-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52382-002] 제400회 제9차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52382-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52382 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -635,7 +635,7 @@ nadat1:ACT-M-52382-002 a rico:Activity ;
 
 nadat1:ACT-M-52427-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52427-002] 제400회 제10차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52427-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52427 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -643,7 +643,7 @@ nadat1:ACT-M-52427-002 a rico:Activity ;
 
 nadat1:ACT-M-52502-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52502-002] 제400회 제11차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52502-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52502 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -651,7 +651,7 @@ nadat1:ACT-M-52502-002 a rico:Activity ;
 
 nadat1:ACT-M-52554-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52554-002] 제400회 제12차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52554-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52554 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -659,7 +659,7 @@ nadat1:ACT-M-52554-002 a rico:Activity ;
 
 nadat1:ACT-M-52621-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52621-002] 제401회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52621-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52621 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -667,7 +667,7 @@ nadat1:ACT-M-52621-002 a rico:Activity ;
 
 nadat1:ACT-M-52649-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52649-002] 제402회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52649-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52649 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -675,7 +675,7 @@ nadat1:ACT-M-52649-002 a rico:Activity ;
 
 nadat1:ACT-M-52661-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52661-002] 제402회 제2차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52661-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52661 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -683,7 +683,7 @@ nadat1:ACT-M-52661-002 a rico:Activity ;
 
 nadat1:ACT-M-52677-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52677-002] 제403회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52677-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52677 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -691,7 +691,7 @@ nadat1:ACT-M-52677-002 a rico:Activity ;
 
 nadat1:ACT-M-52679-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52679-002] 제403회 제2차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52679-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52679 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -699,7 +699,7 @@ nadat1:ACT-M-52679-002 a rico:Activity ;
 
 nadat1:ACT-M-52703-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52703-002] 제403회 제3차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52703-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52703 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -707,7 +707,7 @@ nadat1:ACT-M-52703-002 a rico:Activity ;
 
 nadat1:ACT-M-52725-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52725-002] 제403회 제4차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52725-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52725 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -715,7 +715,7 @@ nadat1:ACT-M-52725-002 a rico:Activity ;
 
 nadat1:ACT-M-52749-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52749-002] 제403회 제5차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52749-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52749 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -723,7 +723,7 @@ nadat1:ACT-M-52749-002 a rico:Activity ;
 
 nadat1:ACT-M-52772-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52772-002] 제404회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52772-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52772 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -731,7 +731,7 @@ nadat1:ACT-M-52772-002 a rico:Activity ;
 
 nadat1:ACT-M-52807-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52807-002] 제404회 제2차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52807-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52807 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -739,7 +739,7 @@ nadat1:ACT-M-52807-002 a rico:Activity ;
 
 nadat1:ACT-M-52836-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52836-002] 제404회 제3차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52836-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52836 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -747,7 +747,7 @@ nadat1:ACT-M-52836-002 a rico:Activity ;
 
 nadat1:ACT-M-52870-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52870-002] 제405회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52870-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52870 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -755,7 +755,7 @@ nadat1:ACT-M-52870-002 a rico:Activity ;
 
 nadat1:ACT-M-52918-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52918-002] 제406회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52918-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52918 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -763,7 +763,7 @@ nadat1:ACT-M-52918-002 a rico:Activity ;
 
 nadat1:ACT-M-52961-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52961-002] 제406회 제2차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52961-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52961 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -771,7 +771,7 @@ nadat1:ACT-M-52961-002 a rico:Activity ;
 
 nadat1:ACT-M-52986-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52986-002] 제407회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52986-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52986 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -779,7 +779,7 @@ nadat1:ACT-M-52986-002 a rico:Activity ;
 
 nadat1:ACT-M-53057-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53057-002] 제407회 제2차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53057-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53057 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -787,7 +787,7 @@ nadat1:ACT-M-53057-002 a rico:Activity ;
 
 nadat1:ACT-M-53062-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53062-002] 제408회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53062-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53062 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -795,7 +795,7 @@ nadat1:ACT-M-53062-002 a rico:Activity ;
 
 nadat1:ACT-M-53126-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53126-002] 제409회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53126-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53126 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -803,7 +803,7 @@ nadat1:ACT-M-53126-002 a rico:Activity ;
 
 nadat1:ACT-M-53159-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53159-002] 제409회 제2차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53159-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53159 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -811,7 +811,7 @@ nadat1:ACT-M-53159-002 a rico:Activity ;
 
 nadat1:ACT-M-53204-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53204-002] 제410회 제1차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53204-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53204 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -819,7 +819,7 @@ nadat1:ACT-M-53204-002 a rico:Activity ;
 
 nadat1:ACT-M-53213-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53213-002] 제410회 제2차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53213-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53213 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -827,7 +827,7 @@ nadat1:ACT-M-53213-002 a rico:Activity ;
 
 nadat1:ACT-M-53262-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53262-002] 제410회 제3차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53262-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53262 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -835,7 +835,7 @@ nadat1:ACT-M-53262-002 a rico:Activity ;
 
 nadat1:ACT-M-53271-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53271-002] 제410회 제4차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53271-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53271 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -843,7 +843,7 @@ nadat1:ACT-M-53271-002 a rico:Activity ;
 
 nadat1:ACT-M-53295-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53295-002] 제410회 제5차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53295-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53295 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -851,7 +851,7 @@ nadat1:ACT-M-53295-002 a rico:Activity ;
 
 nadat1:ACT-M-53305-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53305-002] 제410회 제6차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53305-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53305 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -859,7 +859,7 @@ nadat1:ACT-M-53305-002 a rico:Activity ;
 
 nadat1:ACT-M-53310-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53310-002] 제410회 제7차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53310-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53310 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -867,7 +867,7 @@ nadat1:ACT-M-53310-002 a rico:Activity ;
 
 nadat1:ACT-M-53328-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53328-002] 제410회 제8차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53328-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53328 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -875,7 +875,7 @@ nadat1:ACT-M-53328-002 a rico:Activity ;
 
 nadat1:ACT-M-53400-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53400-002] 제410회 제9차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53400-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53400 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -883,7 +883,7 @@ nadat1:ACT-M-53400-002 a rico:Activity ;
 
 nadat1:ACT-M-53465-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53465-002] 제410회 제10차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53465-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53465 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -891,7 +891,7 @@ nadat1:ACT-M-53465-002 a rico:Activity ;
 
 nadat1:ACT-M-53481-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53481-002] 제410회 제11차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53481-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53481 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -899,7 +899,7 @@ nadat1:ACT-M-53481-002 a rico:Activity ;
 
 nadat1:ACT-M-53518-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53518-002] 제410회 제12차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53518-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53518 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -907,7 +907,7 @@ nadat1:ACT-M-53518-002 a rico:Activity ;
 
 nadat1:ACT-M-53584-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53584-002] 제410회 제13차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53584-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53584 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
@@ -915,7 +915,7 @@ nadat1:ACT-M-53584-002 a rico:Activity ;
 
 nadat1:ACT-M-53755-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53755-002] 제411회 제4차 산업통상자원중소벤처기업위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53755-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53755 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AL ;
