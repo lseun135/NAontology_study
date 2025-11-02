@@ -37,7 +37,7 @@ nadat1:RS100021 rico:includesOrIncluded nadat1:RS100021-AQ .
 
 nadat1:ACT-M-50031-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50031-002] 제379회 제1차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50031-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50031 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -45,7 +45,7 @@ nadat1:ACT-M-50031-002 a rico:Activity ;
 
 nadat1:ACT-M-50032-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50032-002] 제379회 제2차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50032-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50032 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -53,7 +53,7 @@ nadat1:ACT-M-50032-002 a rico:Activity ;
 
 nadat1:ACT-M-50101-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50101-002] 제380회 제1차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50101-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50101 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -61,7 +61,7 @@ nadat1:ACT-M-50101-002 a rico:Activity ;
 
 nadat1:ACT-M-50161-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50161-002] 제382회 제1차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50161-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50161 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -69,7 +69,7 @@ nadat1:ACT-M-50161-002 a rico:Activity ;
 
 nadat1:ACT-M-50165-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50165-002] 제382회 제2차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50165-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50165 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -77,7 +77,7 @@ nadat1:ACT-M-50165-002 a rico:Activity ;
 
 nadat1:ACT-M-50194-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50194-002] 제382회 제3차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50194-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50194 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -85,7 +85,7 @@ nadat1:ACT-M-50194-002 a rico:Activity ;
 
 nadat1:ACT-M-50211-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50211-002] 제382회 제4차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50211-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50211 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -93,7 +93,7 @@ nadat1:ACT-M-50211-002 a rico:Activity ;
 
 nadat1:ACT-M-50405-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50405-002] 제382회 제5차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50405-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50405 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -101,7 +101,7 @@ nadat1:ACT-M-50405-002 a rico:Activity ;
 
 nadat1:ACT-M-50629-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50629-002] 제382회 제6차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50629-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50629 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -109,7 +109,7 @@ nadat1:ACT-M-50629-002 a rico:Activity ;
 
 nadat1:ACT-M-50689-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50689-002] 제383회 제1차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50689-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50689 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -117,7 +117,7 @@ nadat1:ACT-M-50689-002 a rico:Activity ;
 
 nadat1:ACT-M-50708-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50708-002] 제383회 제2차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50708-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50708 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -125,7 +125,7 @@ nadat1:ACT-M-50708-002 a rico:Activity ;
 
 nadat1:ACT-M-50712-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50712-002] 제383회 제3차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50712-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50712 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -133,7 +133,7 @@ nadat1:ACT-M-50712-002 a rico:Activity ;
 
 nadat1:ACT-M-50826-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50826-002] 제384회 제1차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50826-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50826 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -141,7 +141,7 @@ nadat1:ACT-M-50826-002 a rico:Activity ;
 
 nadat1:ACT-M-50861-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50861-002] 제385회 제1차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50861-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50861 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -149,7 +149,7 @@ nadat1:ACT-M-50861-002 a rico:Activity ;
 
 nadat1:ACT-M-50914-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50914-002] 제385회 제2차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50914-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50914 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -157,7 +157,7 @@ nadat1:ACT-M-50914-002 a rico:Activity ;
 
 nadat1:ACT-M-50932-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50932-002] 제385회 제3차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50932-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50932 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -165,7 +165,7 @@ nadat1:ACT-M-50932-002 a rico:Activity ;
 
 nadat1:ACT-M-51276-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51276-002] 제391회 제1차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51276-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51276 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -173,7 +173,7 @@ nadat1:ACT-M-51276-002 a rico:Activity ;
 
 nadat1:ACT-M-51278-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51278-002] 제391회 제2차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51278-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51278 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -181,7 +181,7 @@ nadat1:ACT-M-51278-002 a rico:Activity ;
 
 nadat1:ACT-M-51380-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51380-002] 제391회 제3차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51380-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51380 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -189,7 +189,7 @@ nadat1:ACT-M-51380-002 a rico:Activity ;
 
 nadat1:ACT-M-51417-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51417-002] 제391회 제4차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51417-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51417 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -197,7 +197,7 @@ nadat1:ACT-M-51417-002 a rico:Activity ;
 
 nadat1:ACT-M-51460-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51460-002] 제391회 제5차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51460-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51460 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -205,7 +205,7 @@ nadat1:ACT-M-51460-002 a rico:Activity ;
 
 nadat1:ACT-M-51838-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51838-002] 제395회 제1차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51838-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51838 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -213,7 +213,7 @@ nadat1:ACT-M-51838-002 a rico:Activity ;
 
 nadat1:ACT-M-51876-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51876-002] 제397회 제1차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51876-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51876 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -221,7 +221,7 @@ nadat1:ACT-M-51876-002 a rico:Activity ;
 
 nadat1:ACT-M-51884-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51884-002] 제397회 제2차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51884-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51884 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -229,7 +229,7 @@ nadat1:ACT-M-51884-002 a rico:Activity ;
 
 nadat1:ACT-M-51888-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51888-002] 제397회 제3차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51888-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51888 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -237,7 +237,7 @@ nadat1:ACT-M-51888-002 a rico:Activity ;
 
 nadat1:ACT-M-51895-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51895-002] 제397회 제4차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51895-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51895 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -245,7 +245,7 @@ nadat1:ACT-M-51895-002 a rico:Activity ;
 
 nadat1:ACT-M-51959-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51959-002] 제397회 제5차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51959-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51959 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -253,7 +253,7 @@ nadat1:ACT-M-51959-002 a rico:Activity ;
 
 nadat1:ACT-M-51997-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51997-002] 제398회 제1차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51997-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51997 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -261,7 +261,7 @@ nadat1:ACT-M-51997-002 a rico:Activity ;
 
 nadat1:ACT-M-52021-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52021-002] 제398회 제2차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52021-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52021 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -269,7 +269,7 @@ nadat1:ACT-M-52021-002 a rico:Activity ;
 
 nadat1:ACT-M-52049-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52049-002] 제399회 제1차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52049-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52049 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -277,7 +277,7 @@ nadat1:ACT-M-52049-002 a rico:Activity ;
 
 nadat1:ACT-M-52136-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52136-002] 제400회 제1차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52136-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52136 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -285,7 +285,7 @@ nadat1:ACT-M-52136-002 a rico:Activity ;
 
 nadat1:ACT-M-52151-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52151-002] 제400회 제2차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52151-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52151 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -293,7 +293,7 @@ nadat1:ACT-M-52151-002 a rico:Activity ;
 
 nadat1:ACT-M-52381-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52381-002] 제400회 제3차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52381-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52381 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -301,7 +301,7 @@ nadat1:ACT-M-52381-002 a rico:Activity ;
 
 nadat1:ACT-M-52439-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52439-002] 제400회 제4차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52439-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52439 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -309,7 +309,7 @@ nadat1:ACT-M-52439-002 a rico:Activity ;
 
 nadat1:ACT-M-52483-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52483-002] 제400회 제5차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52483-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52483 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -317,7 +317,7 @@ nadat1:ACT-M-52483-002 a rico:Activity ;
 
 nadat1:ACT-M-52757-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52757-002] 제403회 제1차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52757-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52757 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -325,7 +325,7 @@ nadat1:ACT-M-52757-002 a rico:Activity ;
 
 nadat1:ACT-M-52811-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52811-002] 제404회 제1차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52811-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52811 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -333,7 +333,7 @@ nadat1:ACT-M-52811-002 a rico:Activity ;
 
 nadat1:ACT-M-52825-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52825-002] 제404회 제2차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52825-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52825 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -341,7 +341,7 @@ nadat1:ACT-M-52825-002 a rico:Activity ;
 
 nadat1:ACT-M-53019-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53019-002] 제407회 제1차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53019-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53019 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -349,7 +349,7 @@ nadat1:ACT-M-53019-002 a rico:Activity ;
 
 nadat1:ACT-M-53152-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53152-002] 제409회 제1차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53152-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53152 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -357,7 +357,7 @@ nadat1:ACT-M-53152-002 a rico:Activity ;
 
 nadat1:ACT-M-53270-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53270-002] 제410회 제1차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53270-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53270 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -365,7 +365,7 @@ nadat1:ACT-M-53270-002 a rico:Activity ;
 
 nadat1:ACT-M-53277-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53277-002] 제410회 제2차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53277-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53277 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -373,7 +373,7 @@ nadat1:ACT-M-53277-002 a rico:Activity ;
 
 nadat1:ACT-M-53281-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53281-002] 제410회 제3차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53281-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53281 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -381,7 +381,7 @@ nadat1:ACT-M-53281-002 a rico:Activity ;
 
 nadat1:ACT-M-53284-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53284-002] 제410회 제4차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53284-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53284 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -389,7 +389,7 @@ nadat1:ACT-M-53284-002 a rico:Activity ;
 
 nadat1:ACT-M-53805-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53805-002] 제413회 제1차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53805-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53805 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
@@ -397,7 +397,7 @@ nadat1:ACT-M-53805-002 a rico:Activity ;
 
 nadat1:ACT-M-53811-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53811-002] 제413회 제2차 여성가족위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53811-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53811 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AQ ;
