@@ -34,7 +34,7 @@ nadat1:RS100021 rico:includesOrIncluded nadat1:RS100021-AO .
 
 nadat1:ACT-M-50034-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50034-002] 제379회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50034-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50034 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -42,7 +42,7 @@ nadat1:ACT-M-50034-002 a rico:Activity ;
 
 nadat1:ACT-M-50090-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50090-002] 제380회 제2차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50090-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50090 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -50,7 +50,7 @@ nadat1:ACT-M-50090-002 a rico:Activity ;
 
 nadat1:ACT-M-50094-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50094-002] 제380회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50094-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50094 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -58,7 +58,7 @@ nadat1:ACT-M-50094-002 a rico:Activity ;
 
 nadat1:ACT-M-50103-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50103-002] 제380회 제3차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50103-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50103 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -66,7 +66,7 @@ nadat1:ACT-M-50103-002 a rico:Activity ;
 
 nadat1:ACT-M-50121-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50121-002] 제381회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50121-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50121 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -74,7 +74,7 @@ nadat1:ACT-M-50121-002 a rico:Activity ;
 
 nadat1:ACT-M-50145-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50145-002] 제381회 제2차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50145-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50145 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -82,7 +82,7 @@ nadat1:ACT-M-50145-002 a rico:Activity ;
 
 nadat1:ACT-M-50171-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50171-002] 제382회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50171-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50171 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -90,7 +90,7 @@ nadat1:ACT-M-50171-002 a rico:Activity ;
 
 nadat1:ACT-M-50186-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50186-002] 제382회 제2차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50186-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50186 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -98,7 +98,7 @@ nadat1:ACT-M-50186-002 a rico:Activity ;
 
 nadat1:ACT-M-50250-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50250-002] 제382회 제3차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50250-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50250 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -106,7 +106,7 @@ nadat1:ACT-M-50250-002 a rico:Activity ;
 
 nadat1:ACT-M-50276-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50276-002] 제382회 제4차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50276-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50276 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -114,7 +114,7 @@ nadat1:ACT-M-50276-002 a rico:Activity ;
 
 nadat1:ACT-M-50296-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50296-002] 제382회 제5차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50296-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50296 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -122,7 +122,7 @@ nadat1:ACT-M-50296-002 a rico:Activity ;
 
 nadat1:ACT-M-50351-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50351-002] 제382회 제6차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50351-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50351 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -130,7 +130,7 @@ nadat1:ACT-M-50351-002 a rico:Activity ;
 
 nadat1:ACT-M-50388-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50388-002] 제382회 제7차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50388-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50388 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -138,7 +138,7 @@ nadat1:ACT-M-50388-002 a rico:Activity ;
 
 nadat1:ACT-M-50497-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50497-002] 제382회 제8차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50497-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50497 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -146,7 +146,7 @@ nadat1:ACT-M-50497-002 a rico:Activity ;
 
 nadat1:ACT-M-50577-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50577-002] 제382회 제9차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50577-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50577 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -154,7 +154,7 @@ nadat1:ACT-M-50577-002 a rico:Activity ;
 
 nadat1:ACT-M-50610-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50610-002] 제382회 제10차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50610-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50610 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -162,7 +162,7 @@ nadat1:ACT-M-50610-002 a rico:Activity ;
 
 nadat1:ACT-M-50691-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50691-002] 제383회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50691-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50691 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -170,7 +170,7 @@ nadat1:ACT-M-50691-002 a rico:Activity ;
 
 nadat1:ACT-M-50701-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50701-002] 제383회 제2차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50701-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50701 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -178,7 +178,7 @@ nadat1:ACT-M-50701-002 a rico:Activity ;
 
 nadat1:ACT-M-50703-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50703-002] 제383회 제3차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50703-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50703 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -186,7 +186,7 @@ nadat1:ACT-M-50703-002 a rico:Activity ;
 
 nadat1:ACT-M-50714-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50714-002] 제383회 제4차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50714-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50714 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -194,7 +194,7 @@ nadat1:ACT-M-50714-002 a rico:Activity ;
 
 nadat1:ACT-M-50750-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50750-002] 제384회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50750-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50750 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -202,7 +202,7 @@ nadat1:ACT-M-50750-002 a rico:Activity ;
 
 nadat1:ACT-M-50764-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50764-002] 제384회 제2차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50764-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50764 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -210,7 +210,7 @@ nadat1:ACT-M-50764-002 a rico:Activity ;
 
 nadat1:ACT-M-50766-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50766-002] 제384회 제3차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50766-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50766 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -218,7 +218,7 @@ nadat1:ACT-M-50766-002 a rico:Activity ;
 
 nadat1:ACT-M-50794-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50794-002] 제384회 제4차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50794-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50794 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -226,7 +226,7 @@ nadat1:ACT-M-50794-002 a rico:Activity ;
 
 nadat1:ACT-M-50812-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50812-002] 제384회 제5차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50812-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50812 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -234,7 +234,7 @@ nadat1:ACT-M-50812-002 a rico:Activity ;
 
 nadat1:ACT-M-50860-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50860-002] 제385회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50860-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50860 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -242,7 +242,7 @@ nadat1:ACT-M-50860-002 a rico:Activity ;
 
 nadat1:ACT-M-50863-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50863-002] 제385회 제2차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50863-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50863 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -250,7 +250,7 @@ nadat1:ACT-M-50863-002 a rico:Activity ;
 
 nadat1:ACT-M-50904-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50904-002] 제385회 제3차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50904-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50904 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -258,7 +258,7 @@ nadat1:ACT-M-50904-002 a rico:Activity ;
 
 nadat1:ACT-M-50989-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50989-002] 제386회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50989-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50989 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -266,7 +266,7 @@ nadat1:ACT-M-50989-002 a rico:Activity ;
 
 nadat1:ACT-M-51010-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51010-002] 제387회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51010-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51010 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -274,7 +274,7 @@ nadat1:ACT-M-51010-002 a rico:Activity ;
 
 nadat1:ACT-M-51029-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51029-002] 제387회 제2차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51029-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51029 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -282,7 +282,7 @@ nadat1:ACT-M-51029-002 a rico:Activity ;
 
 nadat1:ACT-M-51068-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51068-002] 제388회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51068-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51068 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -290,7 +290,7 @@ nadat1:ACT-M-51068-002 a rico:Activity ;
 
 nadat1:ACT-M-51131-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51131-002] 제389회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51131-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51131 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -298,7 +298,7 @@ nadat1:ACT-M-51131-002 a rico:Activity ;
 
 nadat1:ACT-M-51224-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51224-002] 제390회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51224-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51224 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -306,7 +306,7 @@ nadat1:ACT-M-51224-002 a rico:Activity ;
 
 nadat1:ACT-M-51239-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51239-002] 제391회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51239-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51239 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -314,7 +314,7 @@ nadat1:ACT-M-51239-002 a rico:Activity ;
 
 nadat1:ACT-M-51302-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51302-002] 제391회 제2차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51302-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51302 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -322,7 +322,7 @@ nadat1:ACT-M-51302-002 a rico:Activity ;
 
 nadat1:ACT-M-51317-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51317-002] 제391회 제3차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51317-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51317 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -330,7 +330,7 @@ nadat1:ACT-M-51317-002 a rico:Activity ;
 
 nadat1:ACT-M-51329-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51329-002] 제391회 제4차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51329-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51329 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -338,7 +338,7 @@ nadat1:ACT-M-51329-002 a rico:Activity ;
 
 nadat1:ACT-M-51338-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51338-002] 제391회 제5차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51338-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51338 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -346,7 +346,7 @@ nadat1:ACT-M-51338-002 a rico:Activity ;
 
 nadat1:ACT-M-51407-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51407-002] 제391회 제6차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51407-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51407 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -354,7 +354,7 @@ nadat1:ACT-M-51407-002 a rico:Activity ;
 
 nadat1:ACT-M-51510-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51510-002] 제391회 제7차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51510-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51510 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -362,7 +362,7 @@ nadat1:ACT-M-51510-002 a rico:Activity ;
 
 nadat1:ACT-M-51537-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51537-002] 제391회 제8차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51537-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51537 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -370,7 +370,7 @@ nadat1:ACT-M-51537-002 a rico:Activity ;
 
 nadat1:ACT-M-51624-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51624-002] 제391회 제9차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51624-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51624 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -378,7 +378,7 @@ nadat1:ACT-M-51624-002 a rico:Activity ;
 
 nadat1:ACT-M-51644-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51644-002] 제391회 제10차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51644-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51644 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -386,7 +386,7 @@ nadat1:ACT-M-51644-002 a rico:Activity ;
 
 nadat1:ACT-M-51705-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51705-002] 제392회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51705-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51705 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -394,7 +394,7 @@ nadat1:ACT-M-51705-002 a rico:Activity ;
 
 nadat1:ACT-M-51717-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51717-002] 제392회 제2차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51717-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51717 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -402,7 +402,7 @@ nadat1:ACT-M-51717-002 a rico:Activity ;
 
 nadat1:ACT-M-51827-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51827-002] 제395회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51827-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51827 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -410,7 +410,7 @@ nadat1:ACT-M-51827-002 a rico:Activity ;
 
 nadat1:ACT-M-51850-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51850-002] 제396회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51850-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51850 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -418,7 +418,7 @@ nadat1:ACT-M-51850-002 a rico:Activity ;
 
 nadat1:ACT-M-51868-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51868-002] 제397회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51868-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51868 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -426,7 +426,7 @@ nadat1:ACT-M-51868-002 a rico:Activity ;
 
 nadat1:ACT-M-51875-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51875-002] 제397회 제2차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51875-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51875 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -434,7 +434,7 @@ nadat1:ACT-M-51875-002 a rico:Activity ;
 
 nadat1:ACT-M-51923-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51923-002] 제397회 제3차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51923-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51923 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -442,7 +442,7 @@ nadat1:ACT-M-51923-002 a rico:Activity ;
 
 nadat1:ACT-M-51925-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51925-002] 제397회 제4차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51925-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51925 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -450,7 +450,7 @@ nadat1:ACT-M-51925-002 a rico:Activity ;
 
 nadat1:ACT-M-52022-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52022-002] 제398회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52022-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52022 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -458,7 +458,7 @@ nadat1:ACT-M-52022-002 a rico:Activity ;
 
 nadat1:ACT-M-52053-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52053-002] 제399회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52053-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52053 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -466,7 +466,7 @@ nadat1:ACT-M-52053-002 a rico:Activity ;
 
 nadat1:ACT-M-52114-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52114-002] 제400회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52114-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52114 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -474,7 +474,7 @@ nadat1:ACT-M-52114-002 a rico:Activity ;
 
 nadat1:ACT-M-52116-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52116-002] 제400회 제2차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52116-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52116 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -482,7 +482,7 @@ nadat1:ACT-M-52116-002 a rico:Activity ;
 
 nadat1:ACT-M-52143-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52143-002] 제400회 제3차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52143-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52143 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -490,7 +490,7 @@ nadat1:ACT-M-52143-002 a rico:Activity ;
 
 nadat1:ACT-M-52165-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52165-002] 제400회 제4차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52165-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52165 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -498,7 +498,7 @@ nadat1:ACT-M-52165-002 a rico:Activity ;
 
 nadat1:ACT-M-52179-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52179-002] 제400회 제5차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52179-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52179 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -506,7 +506,7 @@ nadat1:ACT-M-52179-002 a rico:Activity ;
 
 nadat1:ACT-M-52208-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52208-002] 제400회 제6차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52208-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52208 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -514,7 +514,7 @@ nadat1:ACT-M-52208-002 a rico:Activity ;
 
 nadat1:ACT-M-52221-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52221-002] 제400회 제7차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52221-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52221 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -522,7 +522,7 @@ nadat1:ACT-M-52221-002 a rico:Activity ;
 
 nadat1:ACT-M-52239-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52239-002] 제400회 제8차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52239-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52239 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -530,7 +530,7 @@ nadat1:ACT-M-52239-002 a rico:Activity ;
 
 nadat1:ACT-M-52351-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52351-002] 제400회 제9차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52351-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52351 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -538,7 +538,7 @@ nadat1:ACT-M-52351-002 a rico:Activity ;
 
 nadat1:ACT-M-52482-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52482-002] 제400회 제10차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52482-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52482 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -546,7 +546,7 @@ nadat1:ACT-M-52482-002 a rico:Activity ;
 
 nadat1:ACT-M-52600-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52600-002] 제400회 제11차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52600-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52600 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -554,7 +554,7 @@ nadat1:ACT-M-52600-002 a rico:Activity ;
 
 nadat1:ACT-M-52712-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52712-002] 제403회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52712-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52712 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -562,7 +562,7 @@ nadat1:ACT-M-52712-002 a rico:Activity ;
 
 nadat1:ACT-M-52748-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52748-002] 제403회 제2차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52748-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52748 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -570,7 +570,7 @@ nadat1:ACT-M-52748-002 a rico:Activity ;
 
 nadat1:ACT-M-52813-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52813-002] 제404회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52813-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52813 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -578,7 +578,7 @@ nadat1:ACT-M-52813-002 a rico:Activity ;
 
 nadat1:ACT-M-52884-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52884-002] 제405회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52884-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52884 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -586,7 +586,7 @@ nadat1:ACT-M-52884-002 a rico:Activity ;
 
 nadat1:ACT-M-52906-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52906-002] 제405회 제2차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52906-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52906 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -594,7 +594,7 @@ nadat1:ACT-M-52906-002 a rico:Activity ;
 
 nadat1:ACT-M-52951-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52951-002] 제406회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52951-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52951 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -602,7 +602,7 @@ nadat1:ACT-M-52951-002 a rico:Activity ;
 
 nadat1:ACT-M-53047-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53047-002] 제407회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53047-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53047 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -610,7 +610,7 @@ nadat1:ACT-M-53047-002 a rico:Activity ;
 
 nadat1:ACT-M-53094-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53094-002] 제408회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53094-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53094 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -618,7 +618,7 @@ nadat1:ACT-M-53094-002 a rico:Activity ;
 
 nadat1:ACT-M-53095-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53095-002] 제408회 제2차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53095-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53095 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -626,7 +626,7 @@ nadat1:ACT-M-53095-002 a rico:Activity ;
 
 nadat1:ACT-M-53177-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53177-002] 제409회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53177-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53177 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -634,7 +634,7 @@ nadat1:ACT-M-53177-002 a rico:Activity ;
 
 nadat1:ACT-M-53192-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53192-002] 제410회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53192-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53192 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -642,7 +642,7 @@ nadat1:ACT-M-53192-002 a rico:Activity ;
 
 nadat1:ACT-M-53209-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53209-002] 제410회 제2차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53209-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53209 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -650,7 +650,7 @@ nadat1:ACT-M-53209-002 a rico:Activity ;
 
 nadat1:ACT-M-53256-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53256-002] 제410회 제3차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53256-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53256 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -658,7 +658,7 @@ nadat1:ACT-M-53256-002 a rico:Activity ;
 
 nadat1:ACT-M-53782-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53782-002] 제412회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53782-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53782 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
@@ -666,7 +666,7 @@ nadat1:ACT-M-53782-002 a rico:Activity ;
 
 nadat1:ACT-M-53814-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53814-002] 제413회 제1차 국토교통위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53814-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53814 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AO ;
