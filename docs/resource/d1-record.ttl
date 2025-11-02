@@ -51,6 +51,268 @@
 
 
 
+## 회기 기준 date 개체
+
+# prefixes (가정)
+# @prefix rico:  <https://www.ica.org/standards/RiC/ontology#> .
+# @prefix nadat1:<https://lseun135.github.io/NAontology_study/resource/d1-record#> .
+# @prefix nam1:  <https://lseun135.github.io/NAontology_study/m1-record#> .
+
+nadat1:date-session-414 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제414회(240430-240529)"@ko ;
+  rico:identifier "date-session-414" ;
+  rico:expressedDate "제414회 ( 2024. 04. 30. ~ 2024. 05. 29.)"@ko ;
+  rico:normalizedDateValue "2024-04-30/2024-05-29"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-413 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제413회(240219-240229)"@ko ;
+  rico:identifier "date-session-413" ;
+  rico:expressedDate "제413회 ( 2024. 02. 19. ~ 2024. 02. 29.)"@ko ;
+  rico:normalizedDateValue "2024-02-19/2024-02-29"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-412 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제412회(240115-240208)"@ko ;
+  rico:identifier "date-session-412" ;
+  rico:expressedDate "제412회 ( 2024. 01. 15. ~ 2024. 02. 08.)"@ko ;
+  rico:normalizedDateValue "2024-01-15/2024-02-08"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-411 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제411회(231211-240109)"@ko ;
+  rico:identifier "date-session-411" ;
+  rico:expressedDate "제411회 ( 2023. 12. 11. ~ 2024. 01. 09.)"@ko ;
+  rico:normalizedDateValue "2023-12-11/2024-01-09"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-410 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제410회(230901-231209)"@ko ;
+  rico:identifier "date-session-410" ;
+  rico:expressedDate "제410회 ( 2023. 09. 01. ~ 2023. 12. 09.) (정기회)"@ko ;
+  rico:normalizedDateValue "2023-09-01/2023-12-09"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-409 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제409회(230816-230825)"@ko ;
+  rico:identifier "date-session-409" ;
+  rico:expressedDate "제409회 ( 2023. 08. 16. ~ 2023. 08. 25.)"@ko ;
+  rico:normalizedDateValue "2023-08-16/2023-08-25"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-408 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제408회(230710-230728)"@ko ;
+  rico:identifier "date-session-408" ;
+  rico:expressedDate "제408회 ( 2023. 07. 10. ~ 2023. 07. 28.)"@ko ;
+  rico:normalizedDateValue "2023-07-10/2023-07-28"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-407 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제407회(230601-230630)"@ko ;
+  rico:identifier "date-session-407" ;
+  rico:expressedDate "제407회 ( 2023. 06. 01. ~ 2023. 06. 30.)"@ko ;
+  rico:normalizedDateValue "2023-06-01/2023-06-30"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-406 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제406회(230501-230530)"@ko ;
+  rico:identifier "date-session-406" ;
+  rico:expressedDate "제406회 ( 2023. 05. 01. ~ 2023. 05. 30.)"@ko ;
+  rico:normalizedDateValue "2023-05-01/2023-05-30"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-405 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제405회(230401-230430)"@ko ;
+  rico:identifier "date-session-405" ;
+  rico:expressedDate "제405회 ( 2023. 04. 01. ~ 2023. 04. 30.)"@ko ;
+  rico:normalizedDateValue "2023-04-01/2023-04-30"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-404 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제404회(230301-230330)"@ko ;
+  rico:identifier "date-session-404" ;
+  rico:expressedDate "제404회 ( 2023. 03. 01. ~ 2023. 03. 30.)"@ko ;
+  rico:normalizedDateValue "2023-03-01/2023-03-30"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-403 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제403회(230202-230228)"@ko ;
+  rico:identifier "date-session-403" ;
+  rico:expressedDate "제403회 ( 2023. 02. 02. ~ 2023. 02. 28.)"@ko ;
+  rico:normalizedDateValue "2023-02-02/2023-02-28"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-402 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제402회(230109-230201)"@ko ;
+  rico:identifier "date-session-402" ;
+  rico:expressedDate "제402회 ( 2023. 01. 09. ~ 2023. 02. 01.)"@ko ;
+  rico:normalizedDateValue "2023-01-09/2023-02-01"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-401 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제401회(221210-230108)"@ko ;
+  rico:identifier "date-session-401" ;
+  rico:expressedDate "제401회 ( 2022. 12. 10. ~ 2023. 01. 08.)"@ko ;
+  rico:normalizedDateValue "2022-12-10/2023-01-08"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-400 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제400회(220901-221209)"@ko ;
+  rico:identifier "date-session-400" ;
+  rico:expressedDate "제400회 ( 2022. 09. 01. ~ 2022. 12. 09.) (정기회)"@ko ;
+  rico:normalizedDateValue "2022-09-01/2022-12-09"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-399 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제399회(220816-220831)"@ko ;
+  rico:identifier "date-session-399" ;
+  rico:expressedDate "제399회 ( 2022. 08. 16. ~ 2022. 08. 31.)"@ko ;
+  rico:normalizedDateValue "2022-08-16/2022-08-31"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-398 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제398회(220704-220802)"@ko ;
+  rico:identifier "date-session-398" ;
+  rico:expressedDate "제398회 ( 2022. 07. 04. ~ 2022. 08. 02.)"@ko ;
+  rico:normalizedDateValue "2022-07-04/2022-08-02"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-397 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제397회(220503-220601)"@ko ;
+  rico:identifier "date-session-397" ;
+  rico:expressedDate "제397회 ( 2022. 05. 03. ~ 2022. 06. 01.)"@ko ;
+  rico:normalizedDateValue "2022-05-03/2022-06-01"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-396 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제396회(220430-220430)"@ko ;
+  rico:identifier "date-session-396" ;
+  rico:expressedDate "제396회 ( 2022. 04. 30. ~ 2022. 04. 30.)"@ko ;
+  rico:normalizedDateValue "2022-04-30/2022-04-30"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-395 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제395회(220406-220427)"@ko ;
+  rico:identifier "date-session-395" ;
+  rico:expressedDate "제395회 ( 2022. 04. 06. ~ 2022. 04. 27.)"@ko ;
+  rico:normalizedDateValue "2022-04-06/2022-04-27"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-394 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제394회(220307-220405)"@ko ;
+  rico:identifier "date-session-394" ;
+  rico:expressedDate "제394회 ( 2022. 03. 07. ~ 2022. 04. 05.)"@ko ;
+  rico:normalizedDateValue "2022-03-07/2022-04-05"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-393 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제393회(220127-220225)"@ko ;
+  rico:identifier "date-session-393" ;
+  rico:expressedDate "제393회 ( 2022. 01. 27. ~ 2022. 02. 25.)"@ko ;
+  rico:normalizedDateValue "2022-01-27/2022-02-25"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-392 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제392회(211213-220111)"@ko ;
+  rico:identifier "date-session-392" ;
+  rico:expressedDate "제392회 ( 2021. 12. 13. ~ 2022. 01. 11.)"@ko ;
+  rico:normalizedDateValue "2021-12-13/2022-01-11"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-391 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제391회(210901-211209)"@ko ;
+  rico:identifier "date-session-391" ;
+  rico:expressedDate "제391회 ( 2021. 09. 01. ~ 2021. 12. 09.) (정기회)"@ko ;
+  rico:normalizedDateValue "2021-09-01/2021-12-09"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-390 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제390회(210817-210831)"@ko ;
+  rico:identifier "date-session-390" ;
+  rico:expressedDate "제390회 ( 2021. 08. 17. ~ 2021. 08. 31.)"@ko ;
+  rico:normalizedDateValue "2021-08-17/2021-08-31"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-389 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제389회(210705-210731)"@ko ;
+  rico:identifier "date-session-389" ;
+  rico:expressedDate "제389회 ( 2021. 07. 05. ~ 2021. 07. 31.)"@ko ;
+  rico:normalizedDateValue "2021-07-05/2021-07-31"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-388 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제388회(210604-210703)"@ko ;
+  rico:identifier "date-session-388" ;
+  rico:expressedDate "제388회 ( 2021. 06. 04. ~ 2021. 07. 03.)"@ko ;
+  rico:normalizedDateValue "2021-06-04/2021-07-03"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-387 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제387회(210503-210601)"@ko ;
+  rico:identifier "date-session-387" ;
+  rico:expressedDate "제387회 ( 2021. 05. 03. ~ 2021. 06. 01.)"@ko ;
+  rico:normalizedDateValue "2021-05-03/2021-06-01"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-386 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제386회(210401-210430)"@ko ;
+  rico:identifier "date-session-386" ;
+  rico:expressedDate "제386회 ( 2021. 04. 01. ~ 2021. 04. 30.)"@ko ;
+  rico:normalizedDateValue "2021-04-01/2021-04-30"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-385 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제385회(210302-210331)"@ko ;
+  rico:identifier "date-session-385" ;
+  rico:expressedDate "제385회 ( 2021. 03. 02. ~ 2021. 03. 31.)"@ko ;
+  rico:normalizedDateValue "2021-03-02/2021-03-31"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-384 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제384회(210201-210228)"@ko ;
+  rico:identifier "date-session-384" ;
+  rico:expressedDate "제384회 ( 2021. 02. 01. ~ 2021. 02. 28.)"@ko ;
+  rico:normalizedDateValue "2021-02-01/2021-02-28"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-383 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제383회(201210-210108)"@ko ;
+  rico:identifier "date-session-383" ;
+  rico:expressedDate "제383회 ( 2020. 12. 10. ~ 2021. 01. 08.)"@ko ;
+  rico:normalizedDateValue "2020-12-10/2021-01-08"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-382 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제382회(200901-201209)"@ko ;
+  rico:identifier "date-session-382" ;
+  rico:expressedDate "제382회 ( 2020. 09. 01. ~ 2020. 12. 09.) (정기회)"@ko ;
+  rico:normalizedDateValue "2020-09-01/2020-12-09"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-381 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제381회(200818-200831)"@ko ;
+  rico:identifier "date-session-381" ;
+  rico:expressedDate "제381회 ( 2020. 08. 18. ~ 2020. 08. 31.)"@ko ;
+  rico:normalizedDateValue "2020-08-18/2020-08-31"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-380 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제380회(200706-200804)"@ko ;
+  rico:identifier "date-session-380" ;
+  rico:expressedDate "제380회 ( 2020. 07. 06. ~ 2020. 08. 04.)"@ko ;
+  rico:normalizedDateValue "2020-07-06/2020-08-04"^^<http://id.loc.gov/datatypes/edtf> .
+
+nadat1:date-session-379 a rico:Date ;
+  rico:hasDateType nam1:dateRange ;
+  rico:name "제379회(200605-200704)"@ko ;
+  rico:identifier "date-session-379" ;
+  rico:expressedDate "제379회 ( 2020. 06. 05. ~ 2020. 07. 04.)"@ko ;
+  rico:normalizedDateValue "2020-06-05/2020-07-04"^^<http://id.loc.gov/datatypes/edtf> .
+
+
+
+
 
 
 nadat1:RS100021 a rico:RecordSet ;
