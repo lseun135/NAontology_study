@@ -32476,3 +32476,198 @@ nadat2:PER-TMP-01246 a foaf:Person ;
 
 
 
+nadat2:PER-TMP-01247 a foaf:Person ;
+	rdfs:label "김영주"@ko ;
+	foaf:name "김영주"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01248 a foaf:Person ;
+	rdfs:label "조세영"@ko ;
+	foaf:name "조세영"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01249 a foaf:Person ;
+	rdfs:label "김연철"@ko ;
+	foaf:name "김연철"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01250 a foaf:Person ;
+	rdfs:label "이승환"@ko ;
+	foaf:name "이승환"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01251 a foaf:Person ;
+	rdfs:label "권기원"@ko ;
+	foaf:name "권기원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01252 a foaf:Person ;
+	rdfs:label "변호사"@ko ;
+	foaf:name "변호사"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01253 a foaf:Person ;
+	rdfs:label "신희석"@ko ;
+	foaf:name "신희석"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01254 a foaf:Person ;
+	rdfs:label "임영선"@ko ;
+	foaf:name "임영선"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01255 a foaf:Person ;
+	rdfs:label "이민복"@ko ;
+	foaf:name "이민복"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01256 a foaf:Person ;
+	rdfs:label "이태호"@ko ;
+	foaf:name "이태호"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01257 a foaf:Person ;
+	rdfs:label "정인호"@ko ;
+	foaf:name "정인호"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01258 a foaf:Person ;
+	rdfs:label "김완중"@ko ;
+	foaf:name "김완중"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01259 a foaf:Person ;
+	rdfs:label "배기찬"@ko ;
+	foaf:name "배기찬"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01260 a foaf:Person ;
+	rdfs:label "문장렬"@ko ;
+	foaf:name "문장렬"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01261 a foaf:Person ;
+	rdfs:label "박기학"@ko ;
+	foaf:name "박기학"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01262 a foaf:Person ;
+	rdfs:label "박원곤"@ko ;
+	foaf:name "박원곤"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01263 a foaf:Person ;
+	rdfs:label "우정엽"@ko ;
+	foaf:name "우정엽"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01264 a foaf:Person ;
+	rdfs:label "이성호"@ko ;
+	foaf:name "이성호"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01265 a foaf:Person ;
+	rdfs:label "이근"@ko ;
+	foaf:name "이근"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01266 a foaf:Person ;
+	rdfs:label "정광일"@ko ;
+	foaf:name "정광일"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01267 a foaf:Person ;
+	rdfs:label "이미연"@ko ;
+	foaf:name "이미연"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01268 a foaf:Person ;
+	rdfs:label "전윤종"@ko ;
+	foaf:name "전윤종"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01269 a foaf:Person ;
+	rdfs:label "김창수"@ko ;
+	foaf:name "김창수"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01270 a foaf:Person ;
+	rdfs:label "오명호"@ko ;
+	foaf:name "오명호"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01271 a foaf:Person ;
+	rdfs:label "손혁상"@ko ;
+	foaf:name "손혁상"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01272 a foaf:Person ;
+	rdfs:label "이영근"@ko ;
+	foaf:name "이영근"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01273 a foaf:Person ;
+	rdfs:label "여운기"@ko ;
+	foaf:name "여운기"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01274 a foaf:Person ;
+	rdfs:label "이종철"@ko ;
+	foaf:name "이종철"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01275 a foaf:Person ;
+	rdfs:label "유정현"@ko ;
+	foaf:name "유정현"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01276 a foaf:Person ;
+	rdfs:label "석동현"@ko ;
+	foaf:name "석동현"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01277 a foaf:Person ;
+	rdfs:label "정낙근"@ko ;
+	foaf:name "정낙근"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01278 a foaf:Person ;
+	rdfs:label "정홍진"@ko ;
+	foaf:name "정홍진"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01279 a foaf:Person ;
+	rdfs:label "양금덕"@ko ;
+	foaf:name "양금덕"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01280 a foaf:Person ;
+	rdfs:label "김시운"@ko ;
+	foaf:name "김시운"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01281 a foaf:Person ;
+	rdfs:label "이기철"@ko ;
+	foaf:name "이기철"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01282 a foaf:Person ;
+	rdfs:label "윤현수"@ko ;
+	foaf:name "윤현수"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01283 a foaf:Person ;
+	rdfs:label "김건"@ko ;
+	foaf:name "김건"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01284 a foaf:Person ;
+	rdfs:label "조구래"@ko ;
+	foaf:name "조구래"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+
+
+
+
+
