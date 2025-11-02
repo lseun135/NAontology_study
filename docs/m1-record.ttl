@@ -219,9 +219,6 @@ nam1:dateSet a rico:DateType, skos:Concept ;
                 skos:prefLabel "Date Set"@en, "날짜 집합"@ko ;
                 skos:inScheme nam1:dateTypeScheme .
 
-nam1:year a rico:DateType, skos:Concept ;
-                skos:prefLabel "Year"@en, "연도"@ko ;
-                skos:inScheme nam1:dateTypeScheme .
 
 
 ## ContentType
