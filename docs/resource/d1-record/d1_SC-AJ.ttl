@@ -35,7 +35,7 @@ nadat1:RS100021 rico:includesOrIncluded nadat1:RS100021-AJ .
 
 nadat1:ACT-M-50039-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50039-002] 제379회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50039-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50039 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -43,7 +43,7 @@ nadat1:ACT-M-50039-002 a rico:Activity ;
 
 nadat1:ACT-M-50052-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50052-002] 제380회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50052-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50052 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -51,7 +51,7 @@ nadat1:ACT-M-50052-002 a rico:Activity ;
 
 nadat1:ACT-M-50056-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50056-002] 제380회 제2차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50056-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50056 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -59,7 +59,7 @@ nadat1:ACT-M-50056-002 a rico:Activity ;
 
 nadat1:ACT-M-50064-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50064-002] 제380회 제3차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50064-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50064 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -67,7 +67,7 @@ nadat1:ACT-M-50064-002 a rico:Activity ;
 
 nadat1:ACT-M-50069-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50069-002] 제380회 제4차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50069-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50069 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -75,7 +75,7 @@ nadat1:ACT-M-50069-002 a rico:Activity ;
 
 nadat1:ACT-M-50075-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50075-002] 제380회 제5차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50075-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50075 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -83,7 +83,7 @@ nadat1:ACT-M-50075-002 a rico:Activity ;
 
 nadat1:ACT-M-50099-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50099-002] 제380회 제6차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50099-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50099 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -91,7 +91,7 @@ nadat1:ACT-M-50099-002 a rico:Activity ;
 
 nadat1:ACT-M-50124-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50124-002] 제381회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50124-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50124 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -99,7 +99,7 @@ nadat1:ACT-M-50124-002 a rico:Activity ;
 
 nadat1:ACT-M-50150-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50150-002] 제382회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50150-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50150 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -107,7 +107,7 @@ nadat1:ACT-M-50150-002 a rico:Activity ;
 
 nadat1:ACT-M-50217-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50217-002] 제382회 제2차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50217-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50217 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -115,7 +115,7 @@ nadat1:ACT-M-50217-002 a rico:Activity ;
 
 nadat1:ACT-M-50264-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50264-002] 제382회 제3차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50264-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50264 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -123,7 +123,7 @@ nadat1:ACT-M-50264-002 a rico:Activity ;
 
 nadat1:ACT-M-50268-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50268-002] 제382회 제4차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50268-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50268 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -131,7 +131,7 @@ nadat1:ACT-M-50268-002 a rico:Activity ;
 
 nadat1:ACT-M-50270-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50270-002] 제382회 제5차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50270-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50270 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -139,7 +139,7 @@ nadat1:ACT-M-50270-002 a rico:Activity ;
 
 nadat1:ACT-M-50278-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50278-002] 제382회 제6차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50278-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50278 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -147,7 +147,7 @@ nadat1:ACT-M-50278-002 a rico:Activity ;
 
 nadat1:ACT-M-50304-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50304-002] 제382회 제7차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50304-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50304 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -155,7 +155,7 @@ nadat1:ACT-M-50304-002 a rico:Activity ;
 
 nadat1:ACT-M-50439-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50439-002] 제382회 제8차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50439-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50439 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -163,7 +163,7 @@ nadat1:ACT-M-50439-002 a rico:Activity ;
 
 nadat1:ACT-M-50462-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50462-002] 제382회 제9차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50462-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50462 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -171,7 +171,7 @@ nadat1:ACT-M-50462-002 a rico:Activity ;
 
 nadat1:ACT-M-50517-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50517-002] 제382회 제10차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50517-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50517 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -179,7 +179,7 @@ nadat1:ACT-M-50517-002 a rico:Activity ;
 
 nadat1:ACT-M-50562-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50562-002] 제382회 제11차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50562-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50562 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -187,7 +187,7 @@ nadat1:ACT-M-50562-002 a rico:Activity ;
 
 nadat1:ACT-M-50613-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50613-002] 제382회 제12차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50613-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50613 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -195,7 +195,7 @@ nadat1:ACT-M-50613-002 a rico:Activity ;
 
 nadat1:ACT-M-50695-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50695-002] 제383회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50695-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50695 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -203,7 +203,7 @@ nadat1:ACT-M-50695-002 a rico:Activity ;
 
 nadat1:ACT-M-50710-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50710-002] 제383회 제2차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50710-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50710 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -211,7 +211,7 @@ nadat1:ACT-M-50710-002 a rico:Activity ;
 
 nadat1:ACT-M-50746-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50746-002] 제384회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50746-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50746 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -219,7 +219,7 @@ nadat1:ACT-M-50746-002 a rico:Activity ;
 
 nadat1:ACT-M-50761-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50761-002] 제384회 제2차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50761-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50761 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -227,7 +227,7 @@ nadat1:ACT-M-50761-002 a rico:Activity ;
 
 nadat1:ACT-M-50765-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50765-002] 제384회 제3차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50765-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50765 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -235,7 +235,7 @@ nadat1:ACT-M-50765-002 a rico:Activity ;
 
 nadat1:ACT-M-50827-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50827-002] 제384회 제4차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50827-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50827 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -243,7 +243,7 @@ nadat1:ACT-M-50827-002 a rico:Activity ;
 
 nadat1:ACT-M-50839-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50839-002] 제384회 제5차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50839-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50839 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -251,7 +251,7 @@ nadat1:ACT-M-50839-002 a rico:Activity ;
 
 nadat1:ACT-M-50851-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50851-002] 제385회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50851-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50851 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -259,7 +259,7 @@ nadat1:ACT-M-50851-002 a rico:Activity ;
 
 nadat1:ACT-M-50867-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50867-002] 제385회 제2차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50867-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50867 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -267,7 +267,7 @@ nadat1:ACT-M-50867-002 a rico:Activity ;
 
 nadat1:ACT-M-50881-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50881-002] 제385회 제3차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50881-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50881 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -275,7 +275,7 @@ nadat1:ACT-M-50881-002 a rico:Activity ;
 
 nadat1:ACT-M-50942-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50942-002] 제385회 제4차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50942-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50942 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -283,7 +283,7 @@ nadat1:ACT-M-50942-002 a rico:Activity ;
 
 nadat1:ACT-M-50955-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50955-002] 제386회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50955-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50955 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -291,7 +291,7 @@ nadat1:ACT-M-50955-002 a rico:Activity ;
 
 nadat1:ACT-M-50956-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50956-002] 제386회 제2차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50956-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50956 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -299,7 +299,7 @@ nadat1:ACT-M-50956-002 a rico:Activity ;
 
 nadat1:ACT-M-50994-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50994-002] 제386회 제3차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50994-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50994 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -307,7 +307,7 @@ nadat1:ACT-M-50994-002 a rico:Activity ;
 
 nadat1:ACT-M-51037-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51037-002] 제387회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51037-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51037 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -315,7 +315,7 @@ nadat1:ACT-M-51037-002 a rico:Activity ;
 
 nadat1:ACT-M-51073-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51073-002] 제388회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51073-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51073 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -323,7 +323,7 @@ nadat1:ACT-M-51073-002 a rico:Activity ;
 
 nadat1:ACT-M-51080-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51080-002] 제388회 제2차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51080-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51080 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -331,7 +331,7 @@ nadat1:ACT-M-51080-002 a rico:Activity ;
 
 nadat1:ACT-M-51109-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51109-002] 제388회 제3차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51109-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51109 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -339,7 +339,7 @@ nadat1:ACT-M-51109-002 a rico:Activity ;
 
 nadat1:ACT-M-51113-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51113-002] 제388회 제4차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51113-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51113 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -347,7 +347,7 @@ nadat1:ACT-M-51113-002 a rico:Activity ;
 
 nadat1:ACT-M-51127-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51127-002] 제389회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51127-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51127 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -355,7 +355,7 @@ nadat1:ACT-M-51127-002 a rico:Activity ;
 
 nadat1:ACT-M-51150-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51150-002] 제389회 제2차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51150-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51150 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -363,7 +363,7 @@ nadat1:ACT-M-51150-002 a rico:Activity ;
 
 nadat1:ACT-M-51175-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51175-002] 제389회 제3차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51175-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51175 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -371,7 +371,7 @@ nadat1:ACT-M-51175-002 a rico:Activity ;
 
 nadat1:ACT-M-51179-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51179-002] 제390회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51179-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51179 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -379,7 +379,7 @@ nadat1:ACT-M-51179-002 a rico:Activity ;
 
 nadat1:ACT-M-51202-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51202-002] 제390회 제2차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51202-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51202 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -387,7 +387,7 @@ nadat1:ACT-M-51202-002 a rico:Activity ;
 
 nadat1:ACT-M-51256-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51256-002] 제391회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51256-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51256 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -395,7 +395,7 @@ nadat1:ACT-M-51256-002 a rico:Activity ;
 
 nadat1:ACT-M-51301-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51301-002] 제391회 제2차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51301-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51301 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -403,7 +403,7 @@ nadat1:ACT-M-51301-002 a rico:Activity ;
 
 nadat1:ACT-M-51304-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51304-002] 제391회 제3차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51304-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51304 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -411,7 +411,7 @@ nadat1:ACT-M-51304-002 a rico:Activity ;
 
 nadat1:ACT-M-51351-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51351-002] 제391회 제4차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51351-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51351 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -419,7 +419,7 @@ nadat1:ACT-M-51351-002 a rico:Activity ;
 
 nadat1:ACT-M-51366-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51366-002] 제391회 제5차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51366-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51366 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -427,7 +427,7 @@ nadat1:ACT-M-51366-002 a rico:Activity ;
 
 nadat1:ACT-M-51367-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51367-002] 제391회 제6차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51367-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51367 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -435,7 +435,7 @@ nadat1:ACT-M-51367-002 a rico:Activity ;
 
 nadat1:ACT-M-51440-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51440-002] 제391회 제7차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51440-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51440 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -443,7 +443,7 @@ nadat1:ACT-M-51440-002 a rico:Activity ;
 
 nadat1:ACT-M-51443-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51443-002] 제391회 제8차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51443-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51443 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -451,7 +451,7 @@ nadat1:ACT-M-51443-002 a rico:Activity ;
 
 nadat1:ACT-M-51659-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51659-002] 제391회 제9차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51659-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51659 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -459,7 +459,7 @@ nadat1:ACT-M-51659-002 a rico:Activity ;
 
 nadat1:ACT-M-51766-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51766-002] 제393회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51766-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51766 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -467,7 +467,7 @@ nadat1:ACT-M-51766-002 a rico:Activity ;
 
 nadat1:ACT-M-51787-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51787-002] 제394회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51787-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51787 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -475,7 +475,7 @@ nadat1:ACT-M-51787-002 a rico:Activity ;
 
 nadat1:ACT-M-51788-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51788-002] 제394회 제2차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51788-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51788 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -483,7 +483,7 @@ nadat1:ACT-M-51788-002 a rico:Activity ;
 
 nadat1:ACT-M-51826-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51826-002] 제395회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51826-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51826 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -491,7 +491,7 @@ nadat1:ACT-M-51826-002 a rico:Activity ;
 
 nadat1:ACT-M-51832-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51832-002] 제395회 제2차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51832-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51832 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -499,7 +499,7 @@ nadat1:ACT-M-51832-002 a rico:Activity ;
 
 nadat1:ACT-M-51851-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51851-002] 제396회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51851-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51851 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -507,7 +507,7 @@ nadat1:ACT-M-51851-002 a rico:Activity ;
 
 nadat1:ACT-M-51892-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51892-002] 제397회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51892-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51892 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -515,7 +515,7 @@ nadat1:ACT-M-51892-002 a rico:Activity ;
 
 nadat1:ACT-M-51922-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51922-002] 제397회 제2차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51922-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51922 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -523,7 +523,7 @@ nadat1:ACT-M-51922-002 a rico:Activity ;
 
 nadat1:ACT-M-51943-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51943-002] 제397회 제3차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51943-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51943 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -531,7 +531,7 @@ nadat1:ACT-M-51943-002 a rico:Activity ;
 
 nadat1:ACT-M-52001-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52001-002] 제398회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52001-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52001 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -539,7 +539,7 @@ nadat1:ACT-M-52001-002 a rico:Activity ;
 
 nadat1:ACT-M-52036-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52036-002] 제399회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52036-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52036 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -547,7 +547,7 @@ nadat1:ACT-M-52036-002 a rico:Activity ;
 
 nadat1:ACT-M-52043-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52043-002] 제399회 제2차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52043-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52043 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -555,7 +555,7 @@ nadat1:ACT-M-52043-002 a rico:Activity ;
 
 nadat1:ACT-M-52077-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52077-002] 제399회 제3차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52077-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52077 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -563,7 +563,7 @@ nadat1:ACT-M-52077-002 a rico:Activity ;
 
 nadat1:ACT-M-52155-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52155-002] 제400회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52155-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52155 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -571,7 +571,7 @@ nadat1:ACT-M-52155-002 a rico:Activity ;
 
 nadat1:ACT-M-52177-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52177-002] 제400회 제2차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52177-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52177 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -579,7 +579,7 @@ nadat1:ACT-M-52177-002 a rico:Activity ;
 
 nadat1:ACT-M-52184-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52184-002] 제400회 제3차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52184-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52184 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -587,7 +587,7 @@ nadat1:ACT-M-52184-002 a rico:Activity ;
 
 nadat1:ACT-M-52197-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52197-002] 제400회 제4차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52197-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52197 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -595,7 +595,7 @@ nadat1:ACT-M-52197-002 a rico:Activity ;
 
 nadat1:ACT-M-52201-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52201-002] 제400회 제5차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52201-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52201 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -603,7 +603,7 @@ nadat1:ACT-M-52201-002 a rico:Activity ;
 
 nadat1:ACT-M-52212-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52212-002] 제400회 제6차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52212-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52212 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -611,7 +611,7 @@ nadat1:ACT-M-52212-002 a rico:Activity ;
 
 nadat1:ACT-M-52232-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52232-002] 제400회 제7차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52232-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52232 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -619,7 +619,7 @@ nadat1:ACT-M-52232-002 a rico:Activity ;
 
 nadat1:ACT-M-52332-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52332-002] 제400회 제8차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52332-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52332 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -627,7 +627,7 @@ nadat1:ACT-M-52332-002 a rico:Activity ;
 
 nadat1:ACT-M-52372-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52372-002] 제400회 제9차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52372-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52372 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -635,7 +635,7 @@ nadat1:ACT-M-52372-002 a rico:Activity ;
 
 nadat1:ACT-M-52578-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52578-002] 제400회 제10차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52578-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52578 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -643,7 +643,7 @@ nadat1:ACT-M-52578-002 a rico:Activity ;
 
 nadat1:ACT-M-52616-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52616-002] 제400회 제11차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52616-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52616 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -651,7 +651,7 @@ nadat1:ACT-M-52616-002 a rico:Activity ;
 
 nadat1:ACT-M-52666-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52666-002] 제402회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52666-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52666 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -659,7 +659,7 @@ nadat1:ACT-M-52666-002 a rico:Activity ;
 
 nadat1:ACT-M-52683-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52683-002] 제403회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52683-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52683 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -667,7 +667,7 @@ nadat1:ACT-M-52683-002 a rico:Activity ;
 
 nadat1:ACT-M-52739-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52739-002] 제403회 제2차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52739-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52739 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -675,7 +675,7 @@ nadat1:ACT-M-52739-002 a rico:Activity ;
 
 nadat1:ACT-M-52783-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52783-002] 제404회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52783-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52783 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -683,7 +683,7 @@ nadat1:ACT-M-52783-002 a rico:Activity ;
 
 nadat1:ACT-M-52837-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52837-002] 제404회 제2차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52837-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52837 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -691,7 +691,7 @@ nadat1:ACT-M-52837-002 a rico:Activity ;
 
 nadat1:ACT-M-52888-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52888-002] 제405회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52888-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52888 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -699,7 +699,7 @@ nadat1:ACT-M-52888-002 a rico:Activity ;
 
 nadat1:ACT-M-52924-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52924-002] 제406회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52924-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52924 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -707,7 +707,7 @@ nadat1:ACT-M-52924-002 a rico:Activity ;
 
 nadat1:ACT-M-52965-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52965-002] 제406회 제2차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52965-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52965 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -715,7 +715,7 @@ nadat1:ACT-M-52965-002 a rico:Activity ;
 
 nadat1:ACT-M-53017-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53017-002] 제407회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53017-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53017 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -723,7 +723,7 @@ nadat1:ACT-M-53017-002 a rico:Activity ;
 
 nadat1:ACT-M-53060-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53060-002] 제407회 제2차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53060-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53060 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -731,7 +731,7 @@ nadat1:ACT-M-53060-002 a rico:Activity ;
 
 nadat1:ACT-M-53148-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53148-002] 제409회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53148-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53148 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -739,7 +739,7 @@ nadat1:ACT-M-53148-002 a rico:Activity ;
 
 nadat1:ACT-M-53172-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53172-002] 제410회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53172-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53172 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -747,7 +747,7 @@ nadat1:ACT-M-53172-002 a rico:Activity ;
 
 nadat1:ACT-M-53257-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53257-002] 제410회 제2차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53257-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53257 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -755,7 +755,7 @@ nadat1:ACT-M-53257-002 a rico:Activity ;
 
 nadat1:ACT-M-53273-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53273-002] 제410회 제3차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53273-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53273 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -763,7 +763,7 @@ nadat1:ACT-M-53273-002 a rico:Activity ;
 
 nadat1:ACT-M-53280-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53280-002] 제410회 제4차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53280-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53280 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -771,7 +771,7 @@ nadat1:ACT-M-53280-002 a rico:Activity ;
 
 nadat1:ACT-M-53291-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53291-002] 제410회 제5차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53291-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53291 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -779,7 +779,7 @@ nadat1:ACT-M-53291-002 a rico:Activity ;
 
 nadat1:ACT-M-53346-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53346-002] 제410회 제7차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53346-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53346 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -787,7 +787,7 @@ nadat1:ACT-M-53346-002 a rico:Activity ;
 
 nadat1:ACT-M-53415-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53415-002] 제410회 제8차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53415-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53415 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -795,7 +795,7 @@ nadat1:ACT-M-53415-002 a rico:Activity ;
 
 nadat1:ACT-M-53525-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53525-002] 제410회 제6차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53525-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53525 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -803,7 +803,7 @@ nadat1:ACT-M-53525-002 a rico:Activity ;
 
 nadat1:ACT-M-53542-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53542-002] 제410회 제9차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53542-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53542 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -811,7 +811,7 @@ nadat1:ACT-M-53542-002 a rico:Activity ;
 
 nadat1:ACT-M-53566-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53566-002] 제410회 제10차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53566-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53566 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -819,7 +819,7 @@ nadat1:ACT-M-53566-002 a rico:Activity ;
 
 nadat1:ACT-M-53718-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53718-002] 제411회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53718-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53718 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
@@ -827,7 +827,7 @@ nadat1:ACT-M-53718-002 a rico:Activity ;
 
 nadat1:ACT-M-53838-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53838-002] 제414회 제1차 문화체육관광위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53838-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53838 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AJ ;
