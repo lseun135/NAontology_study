@@ -52,12 +52,6 @@
 
 
 ## 회기 기준 date 개체
-
-# prefixes (가정)
-# @prefix rico:  <https://www.ica.org/standards/RiC/ontology#> .
-# @prefix nadat1:<https://lseun135.github.io/NAontology_study/resource/d1-record#> .
-# @prefix nam1:  <https://lseun135.github.io/NAontology_study/m1-record#> .
-
 nadat1:date-session-414 a rico:Date ;
   rico:hasDateType nam1:dateRange ;
   rico:name "제414회(240430-240529)"@ko ;
