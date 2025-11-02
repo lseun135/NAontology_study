@@ -36,7 +36,7 @@ nadat1:RS100021 rico:includesOrIncluded nadat1:RS100021-AM .
 
 nadat1:ACT-M-50012-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50012-002] 제379회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50012-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50012 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -44,7 +44,7 @@ nadat1:ACT-M-50012-002 a rico:Activity ;
 
 nadat1:ACT-M-50023-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50023-002] 제379회 제2차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50023-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50023 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -52,7 +52,7 @@ nadat1:ACT-M-50023-002 a rico:Activity ;
 
 nadat1:ACT-M-50059-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50059-002] 제380회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50059-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50059 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -60,7 +60,7 @@ nadat1:ACT-M-50059-002 a rico:Activity ;
 
 nadat1:ACT-M-50096-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50096-002] 제380회 제2차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50096-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50096 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -68,7 +68,7 @@ nadat1:ACT-M-50096-002 a rico:Activity ;
 
 nadat1:ACT-M-50129-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50129-002] 제381회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50129-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50129 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -76,7 +76,7 @@ nadat1:ACT-M-50129-002 a rico:Activity ;
 
 nadat1:ACT-M-50213-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50213-002] 제382회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50213-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50213 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -84,7 +84,7 @@ nadat1:ACT-M-50213-002 a rico:Activity ;
 
 nadat1:ACT-M-50238-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50238-002] 제382회 제2차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50238-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50238 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -92,7 +92,7 @@ nadat1:ACT-M-50238-002 a rico:Activity ;
 
 nadat1:ACT-M-50271-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50271-002] 제382회 제3차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50271-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50271 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -100,7 +100,7 @@ nadat1:ACT-M-50271-002 a rico:Activity ;
 
 nadat1:ACT-M-50283-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50283-002] 제382회 제4차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50283-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50283 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -108,7 +108,7 @@ nadat1:ACT-M-50283-002 a rico:Activity ;
 
 nadat1:ACT-M-50294-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50294-002] 제382회 제5차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50294-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50294 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -116,7 +116,7 @@ nadat1:ACT-M-50294-002 a rico:Activity ;
 
 nadat1:ACT-M-50299-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50299-002] 제382회 제6차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50299-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50299 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -124,7 +124,7 @@ nadat1:ACT-M-50299-002 a rico:Activity ;
 
 nadat1:ACT-M-50310-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50310-002] 제382회 제7차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50310-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50310 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -132,7 +132,7 @@ nadat1:ACT-M-50310-002 a rico:Activity ;
 
 nadat1:ACT-M-50363-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50363-002] 제382회 제8차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50363-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50363 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -140,7 +140,7 @@ nadat1:ACT-M-50363-002 a rico:Activity ;
 
 nadat1:ACT-M-50487-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50487-002] 제382회 제9차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50487-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50487 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -148,7 +148,7 @@ nadat1:ACT-M-50487-002 a rico:Activity ;
 
 nadat1:ACT-M-50568-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50568-002] 제382회 제10차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50568-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50568 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -156,7 +156,7 @@ nadat1:ACT-M-50568-002 a rico:Activity ;
 
 nadat1:ACT-M-50664-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50664-002] 제383회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50664-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50664 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -164,7 +164,7 @@ nadat1:ACT-M-50664-002 a rico:Activity ;
 
 nadat1:ACT-M-50696-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50696-002] 제383회 제2차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50696-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50696 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -172,7 +172,7 @@ nadat1:ACT-M-50696-002 a rico:Activity ;
 
 nadat1:ACT-M-50704-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50704-002] 제383회 제3차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50704-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50704 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -180,7 +180,7 @@ nadat1:ACT-M-50704-002 a rico:Activity ;
 
 nadat1:ACT-M-50790-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50790-002] 제384회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50790-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50790 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -188,7 +188,7 @@ nadat1:ACT-M-50790-002 a rico:Activity ;
 
 nadat1:ACT-M-50800-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50800-002] 제384회 제2차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50800-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50800 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -196,7 +196,7 @@ nadat1:ACT-M-50800-002 a rico:Activity ;
 
 nadat1:ACT-M-50898-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50898-002] 제385회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50898-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50898 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -204,7 +204,7 @@ nadat1:ACT-M-50898-002 a rico:Activity ;
 
 nadat1:ACT-M-50982-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50982-002] 제386회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50982-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50982 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -212,7 +212,7 @@ nadat1:ACT-M-50982-002 a rico:Activity ;
 
 nadat1:ACT-M-51066-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51066-002] 제388회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51066-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51066 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -220,7 +220,7 @@ nadat1:ACT-M-51066-002 a rico:Activity ;
 
 nadat1:ACT-M-51134-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51134-002] 제389회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51134-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51134 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -228,7 +228,7 @@ nadat1:ACT-M-51134-002 a rico:Activity ;
 
 nadat1:ACT-M-51210-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51210-002] 제390회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51210-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51210 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -236,7 +236,7 @@ nadat1:ACT-M-51210-002 a rico:Activity ;
 
 nadat1:ACT-M-51215-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51215-002] 제390회 제3차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51215-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51215 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -244,7 +244,7 @@ nadat1:ACT-M-51215-002 a rico:Activity ;
 
 nadat1:ACT-M-51218-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51218-002] 제390회 제2차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51218-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51218 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -252,7 +252,7 @@ nadat1:ACT-M-51218-002 a rico:Activity ;
 
 nadat1:ACT-M-51319-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51319-002] 제391회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51319-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51319 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -260,7 +260,7 @@ nadat1:ACT-M-51319-002 a rico:Activity ;
 
 nadat1:ACT-M-51330-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51330-002] 제391회 제2차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51330-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51330 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -268,7 +268,7 @@ nadat1:ACT-M-51330-002 a rico:Activity ;
 
 nadat1:ACT-M-51335-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51335-002] 제391회 제3차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51335-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51335 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -276,7 +276,7 @@ nadat1:ACT-M-51335-002 a rico:Activity ;
 
 nadat1:ACT-M-51342-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51342-002] 제391회 제4차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51342-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51342 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -284,7 +284,7 @@ nadat1:ACT-M-51342-002 a rico:Activity ;
 
 nadat1:ACT-M-51475-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51475-002] 제391회 제5차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51475-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51475 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -292,7 +292,7 @@ nadat1:ACT-M-51475-002 a rico:Activity ;
 
 nadat1:ACT-M-51492-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51492-002] 제391회 제6차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51492-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51492 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -300,7 +300,7 @@ nadat1:ACT-M-51492-002 a rico:Activity ;
 
 nadat1:ACT-M-51579-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51579-002] 제391회 제7차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51579-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51579 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -308,7 +308,7 @@ nadat1:ACT-M-51579-002 a rico:Activity ;
 
 nadat1:ACT-M-51760-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51760-002] 제393회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51760-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51760 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -316,7 +316,7 @@ nadat1:ACT-M-51760-002 a rico:Activity ;
 
 nadat1:ACT-M-51797-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51797-002] 제395회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51797-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51797 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -324,7 +324,7 @@ nadat1:ACT-M-51797-002 a rico:Activity ;
 
 nadat1:ACT-M-51835-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51835-002] 제395회 제2차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51835-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51835 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -332,7 +332,7 @@ nadat1:ACT-M-51835-002 a rico:Activity ;
 
 nadat1:ACT-M-51862-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51862-002] 제397회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51862-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51862 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -340,7 +340,7 @@ nadat1:ACT-M-51862-002 a rico:Activity ;
 
 nadat1:ACT-M-51915-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51915-002] 제397회 제2차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51915-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51915 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -348,7 +348,7 @@ nadat1:ACT-M-51915-002 a rico:Activity ;
 
 nadat1:ACT-M-52019-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52019-002] 제398회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52019-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52019 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -356,7 +356,7 @@ nadat1:ACT-M-52019-002 a rico:Activity ;
 
 nadat1:ACT-M-52096-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52096-002] 제399회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52096-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52096 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -364,7 +364,7 @@ nadat1:ACT-M-52096-002 a rico:Activity ;
 
 nadat1:ACT-M-52108-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52108-002] 제400회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52108-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52108 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -372,7 +372,7 @@ nadat1:ACT-M-52108-002 a rico:Activity ;
 
 nadat1:ACT-M-52149-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52149-002] 제400회 제2차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52149-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52149 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -380,7 +380,7 @@ nadat1:ACT-M-52149-002 a rico:Activity ;
 
 nadat1:ACT-M-52171-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52171-002] 제400회 제3차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52171-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52171 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -388,7 +388,7 @@ nadat1:ACT-M-52171-002 a rico:Activity ;
 
 nadat1:ACT-M-52188-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52188-002] 제400회 제4차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52188-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52188 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -396,7 +396,7 @@ nadat1:ACT-M-52188-002 a rico:Activity ;
 
 nadat1:ACT-M-52196-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52196-002] 제400회 제5차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52196-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52196 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -404,7 +404,7 @@ nadat1:ACT-M-52196-002 a rico:Activity ;
 
 nadat1:ACT-M-52205-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52205-002] 제400회 제6차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52205-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52205 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -412,7 +412,7 @@ nadat1:ACT-M-52205-002 a rico:Activity ;
 
 nadat1:ACT-M-52242-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52242-002] 제400회 제8차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52242-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52242 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -420,7 +420,7 @@ nadat1:ACT-M-52242-002 a rico:Activity ;
 
 nadat1:ACT-M-52248-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52248-002] 제400회 제7차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52248-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52248 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -428,7 +428,7 @@ nadat1:ACT-M-52248-002 a rico:Activity ;
 
 nadat1:ACT-M-52322-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52322-002] 제400회 제9차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52322-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52322 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -436,7 +436,7 @@ nadat1:ACT-M-52322-002 a rico:Activity ;
 
 nadat1:ACT-M-52370-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52370-002] 제400회 제10차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52370-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52370 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -444,7 +444,7 @@ nadat1:ACT-M-52370-002 a rico:Activity ;
 
 nadat1:ACT-M-52609-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52609-002] 제400회 제11차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52609-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52609 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -452,7 +452,7 @@ nadat1:ACT-M-52609-002 a rico:Activity ;
 
 nadat1:ACT-M-52685-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52685-002] 제403회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52685-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52685 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -460,7 +460,7 @@ nadat1:ACT-M-52685-002 a rico:Activity ;
 
 nadat1:ACT-M-52754-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52754-002] 제403회 제2차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52754-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52754 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -468,7 +468,7 @@ nadat1:ACT-M-52754-002 a rico:Activity ;
 
 nadat1:ACT-M-52810-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52810-002] 제404회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52810-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52810 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -476,7 +476,7 @@ nadat1:ACT-M-52810-002 a rico:Activity ;
 
 nadat1:ACT-M-52890-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52890-002] 제405회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52890-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52890 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -484,7 +484,7 @@ nadat1:ACT-M-52890-002 a rico:Activity ;
 
 nadat1:ACT-M-52904-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52904-002] 제405회 제2차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52904-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52904 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -492,7 +492,7 @@ nadat1:ACT-M-52904-002 a rico:Activity ;
 
 nadat1:ACT-M-53026-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53026-002] 제407회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53026-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53026 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -500,7 +500,7 @@ nadat1:ACT-M-53026-002 a rico:Activity ;
 
 nadat1:ACT-M-53043-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53043-002] 제407회 제2차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53043-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53043 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -508,7 +508,7 @@ nadat1:ACT-M-53043-002 a rico:Activity ;
 
 nadat1:ACT-M-53114-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53114-002] 제409회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53114-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53114 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -516,7 +516,7 @@ nadat1:ACT-M-53114-002 a rico:Activity ;
 
 nadat1:ACT-M-53147-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53147-002] 제409회 제2차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53147-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53147 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -524,7 +524,7 @@ nadat1:ACT-M-53147-002 a rico:Activity ;
 
 nadat1:ACT-M-53230-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53230-002] 제410회 제1차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53230-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53230 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -532,7 +532,7 @@ nadat1:ACT-M-53230-002 a rico:Activity ;
 
 nadat1:ACT-M-53266-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53266-002] 제410회 제2차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53266-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53266 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -540,7 +540,7 @@ nadat1:ACT-M-53266-002 a rico:Activity ;
 
 nadat1:ACT-M-53301-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53301-002] 제410회 제3차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53301-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53301 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
@@ -548,7 +548,7 @@ nadat1:ACT-M-53301-002 a rico:Activity ;
 
 nadat1:ACT-M-53317-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53317-002] 제410회 제4차 보건복지위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53317-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53317 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AM ;
