@@ -36,7 +36,7 @@ nadat1:RS100021 rico:includesOrIncluded nadat1:RS100021-AK .
 
 nadat1:ACT-M-50046-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50046-002] 제379회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50046-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50046 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -44,7 +44,7 @@ nadat1:ACT-M-50046-002 a rico:Activity ;
 
 nadat1:ACT-M-50076-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50076-002] 제380회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50076-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50076 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -52,7 +52,7 @@ nadat1:ACT-M-50076-002 a rico:Activity ;
 
 nadat1:ACT-M-50089-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50089-002] 제380회 제2차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50089-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50089 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -60,7 +60,7 @@ nadat1:ACT-M-50089-002 a rico:Activity ;
 
 nadat1:ACT-M-50093-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50093-002] 제380회 제3차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50093-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50093 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -68,7 +68,7 @@ nadat1:ACT-M-50093-002 a rico:Activity ;
 
 nadat1:ACT-M-50115-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50115-002] 제381회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50115-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50115 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -76,7 +76,7 @@ nadat1:ACT-M-50115-002 a rico:Activity ;
 
 nadat1:ACT-M-50136-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50136-002] 제381회 제2차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50136-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50136 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -84,7 +84,7 @@ nadat1:ACT-M-50136-002 a rico:Activity ;
 
 nadat1:ACT-M-50198-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50198-002] 제382회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50198-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50198 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -92,7 +92,7 @@ nadat1:ACT-M-50198-002 a rico:Activity ;
 
 nadat1:ACT-M-50265-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50265-002] 제382회 제2차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50265-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50265 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -100,7 +100,7 @@ nadat1:ACT-M-50265-002 a rico:Activity ;
 
 nadat1:ACT-M-50277-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50277-002] 제382회 제3차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50277-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50277 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -108,7 +108,7 @@ nadat1:ACT-M-50277-002 a rico:Activity ;
 
 nadat1:ACT-M-50279-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50279-002] 제382회 제4차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50279-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50279 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -116,7 +116,7 @@ nadat1:ACT-M-50279-002 a rico:Activity ;
 
 nadat1:ACT-M-50293-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50293-002] 제382회 제5차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50293-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50293 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -124,7 +124,7 @@ nadat1:ACT-M-50293-002 a rico:Activity ;
 
 nadat1:ACT-M-50322-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50322-002] 제382회 제6차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50322-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50322 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -132,7 +132,7 @@ nadat1:ACT-M-50322-002 a rico:Activity ;
 
 nadat1:ACT-M-50394-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50394-002] 제382회 제7차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50394-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50394 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -140,7 +140,7 @@ nadat1:ACT-M-50394-002 a rico:Activity ;
 
 nadat1:ACT-M-50438-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50438-002] 제382회 제8차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50438-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50438 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -148,7 +148,7 @@ nadat1:ACT-M-50438-002 a rico:Activity ;
 
 nadat1:ACT-M-50494-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50494-002] 제382회 제9차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50494-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50494 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -156,7 +156,7 @@ nadat1:ACT-M-50494-002 a rico:Activity ;
 
 nadat1:ACT-M-50716-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50716-002] 제383회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50716-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50716 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -164,7 +164,7 @@ nadat1:ACT-M-50716-002 a rico:Activity ;
 
 nadat1:ACT-M-50770-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50770-002] 제384회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50770-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50770 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -172,7 +172,7 @@ nadat1:ACT-M-50770-002 a rico:Activity ;
 
 nadat1:ACT-M-50785-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50785-002] 제384회 제2차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50785-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50785 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -180,7 +180,7 @@ nadat1:ACT-M-50785-002 a rico:Activity ;
 
 nadat1:ACT-M-50817-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50817-002] 제384회 제3차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50817-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50817 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -188,7 +188,7 @@ nadat1:ACT-M-50817-002 a rico:Activity ;
 
 nadat1:ACT-M-50864-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50864-002] 제385회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50864-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50864 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -196,7 +196,7 @@ nadat1:ACT-M-50864-002 a rico:Activity ;
 
 nadat1:ACT-M-50888-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50888-002] 제385회 제2차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50888-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50888 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -204,7 +204,7 @@ nadat1:ACT-M-50888-002 a rico:Activity ;
 
 nadat1:ACT-M-50934-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50934-002] 제385회 제3차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50934-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50934 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -212,7 +212,7 @@ nadat1:ACT-M-50934-002 a rico:Activity ;
 
 nadat1:ACT-M-51000-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51000-002] 제386회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51000-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51000 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -220,7 +220,7 @@ nadat1:ACT-M-51000-002 a rico:Activity ;
 
 nadat1:ACT-M-51012-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51012-002] 제387회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51012-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51012 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -228,7 +228,7 @@ nadat1:ACT-M-51012-002 a rico:Activity ;
 
 nadat1:ACT-M-51099-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51099-002] 제388회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51099-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51099 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -236,7 +236,7 @@ nadat1:ACT-M-51099-002 a rico:Activity ;
 
 nadat1:ACT-M-51110-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51110-002] 제388회 제2차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51110-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51110 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -244,7 +244,7 @@ nadat1:ACT-M-51110-002 a rico:Activity ;
 
 nadat1:ACT-M-51130-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51130-002] 제389회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51130-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51130 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -252,7 +252,7 @@ nadat1:ACT-M-51130-002 a rico:Activity ;
 
 nadat1:ACT-M-51137-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51137-002] 제389회 제2차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51137-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51137 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -260,7 +260,7 @@ nadat1:ACT-M-51137-002 a rico:Activity ;
 
 nadat1:ACT-M-51213-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51213-002] 제390회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51213-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51213 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -268,7 +268,7 @@ nadat1:ACT-M-51213-002 a rico:Activity ;
 
 nadat1:ACT-M-51226-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51226-002] 제390회 제2차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51226-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51226 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -276,7 +276,7 @@ nadat1:ACT-M-51226-002 a rico:Activity ;
 
 nadat1:ACT-M-51249-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51249-002] 제391회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51249-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51249 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -284,7 +284,7 @@ nadat1:ACT-M-51249-002 a rico:Activity ;
 
 nadat1:ACT-M-51295-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51295-002] 제391회 제2차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51295-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51295 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -292,7 +292,7 @@ nadat1:ACT-M-51295-002 a rico:Activity ;
 
 nadat1:ACT-M-51328-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51328-002] 제391회 제3차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51328-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51328 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -300,7 +300,7 @@ nadat1:ACT-M-51328-002 a rico:Activity ;
 
 nadat1:ACT-M-51334-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51334-002] 제391회 제4차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51334-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51334 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -308,7 +308,7 @@ nadat1:ACT-M-51334-002 a rico:Activity ;
 
 nadat1:ACT-M-51341-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51341-002] 제391회 제5차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51341-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51341 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -316,7 +316,7 @@ nadat1:ACT-M-51341-002 a rico:Activity ;
 
 nadat1:ACT-M-51343-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51343-002] 제391회 제6차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51343-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51343 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -324,7 +324,7 @@ nadat1:ACT-M-51343-002 a rico:Activity ;
 
 nadat1:ACT-M-51410-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51410-002] 제391회 제7차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51410-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51410 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -332,7 +332,7 @@ nadat1:ACT-M-51410-002 a rico:Activity ;
 
 nadat1:ACT-M-51426-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51426-002] 제391회 제8차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51426-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51426 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -340,7 +340,7 @@ nadat1:ACT-M-51426-002 a rico:Activity ;
 
 nadat1:ACT-M-51633-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51633-002] 제391회 제9차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51633-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51633 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -348,7 +348,7 @@ nadat1:ACT-M-51633-002 a rico:Activity ;
 
 nadat1:ACT-M-51669-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51669-002] 제391회 제10차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51669-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51669 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -356,7 +356,7 @@ nadat1:ACT-M-51669-002 a rico:Activity ;
 
 nadat1:ACT-M-51672-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51672-002] 제391회 제11차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51672-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51672 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -364,7 +364,7 @@ nadat1:ACT-M-51672-002 a rico:Activity ;
 
 nadat1:ACT-M-51833-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51833-002] 제395회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51833-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51833 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -372,7 +372,7 @@ nadat1:ACT-M-51833-002 a rico:Activity ;
 
 nadat1:ACT-M-51866-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51866-002] 제397회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51866-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51866 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -380,7 +380,7 @@ nadat1:ACT-M-51866-002 a rico:Activity ;
 
 nadat1:ACT-M-51872-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51872-002] 제397회 제2차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51872-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51872 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -388,7 +388,7 @@ nadat1:ACT-M-51872-002 a rico:Activity ;
 
 nadat1:ACT-M-51885-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51885-002] 제397회 제3차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51885-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51885 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -396,7 +396,7 @@ nadat1:ACT-M-51885-002 a rico:Activity ;
 
 nadat1:ACT-M-51897-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51897-002] 제397회 제4차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51897-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51897 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -404,7 +404,7 @@ nadat1:ACT-M-51897-002 a rico:Activity ;
 
 nadat1:ACT-M-51906-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51906-002] 제397회 제5차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51906-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51906 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -412,7 +412,7 @@ nadat1:ACT-M-51906-002 a rico:Activity ;
 
 nadat1:ACT-M-51991-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51991-002] 제398회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51991-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51991 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -420,7 +420,7 @@ nadat1:ACT-M-51991-002 a rico:Activity ;
 
 nadat1:ACT-M-52018-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52018-002] 제398회 제2차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52018-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52018 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -428,7 +428,7 @@ nadat1:ACT-M-52018-002 a rico:Activity ;
 
 nadat1:ACT-M-52048-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52048-002] 제399회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52048-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52048 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -436,7 +436,7 @@ nadat1:ACT-M-52048-002 a rico:Activity ;
 
 nadat1:ACT-M-52059-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52059-002] 제399회 제2차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52059-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52059 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -444,7 +444,7 @@ nadat1:ACT-M-52059-002 a rico:Activity ;
 
 nadat1:ACT-M-52142-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52142-002] 제400회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52142-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52142 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -452,7 +452,7 @@ nadat1:ACT-M-52142-002 a rico:Activity ;
 
 nadat1:ACT-M-52170-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52170-002] 제400회 제2차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52170-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52170 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -460,7 +460,7 @@ nadat1:ACT-M-52170-002 a rico:Activity ;
 
 nadat1:ACT-M-52193-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52193-002] 제400회 제3차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52193-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52193 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -468,7 +468,7 @@ nadat1:ACT-M-52193-002 a rico:Activity ;
 
 nadat1:ACT-M-52203-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52203-002] 제400회 제4차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52203-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52203 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -476,7 +476,7 @@ nadat1:ACT-M-52203-002 a rico:Activity ;
 
 nadat1:ACT-M-52220-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52220-002] 제400회 제5차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52220-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52220 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -484,7 +484,7 @@ nadat1:ACT-M-52220-002 a rico:Activity ;
 
 nadat1:ACT-M-52235-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52235-002] 제400회 제6차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52235-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52235 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -492,7 +492,7 @@ nadat1:ACT-M-52235-002 a rico:Activity ;
 
 nadat1:ACT-M-52241-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52241-002] 제400회 제7차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52241-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52241 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -500,7 +500,7 @@ nadat1:ACT-M-52241-002 a rico:Activity ;
 
 nadat1:ACT-M-52265-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52265-002] 제400회 제8차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52265-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52265 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -508,7 +508,7 @@ nadat1:ACT-M-52265-002 a rico:Activity ;
 
 nadat1:ACT-M-52353-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52353-002] 제400회 제9차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52353-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52353 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -516,7 +516,7 @@ nadat1:ACT-M-52353-002 a rico:Activity ;
 
 nadat1:ACT-M-52441-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52441-002] 제400회 제10차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52441-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52441 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -524,7 +524,7 @@ nadat1:ACT-M-52441-002 a rico:Activity ;
 
 nadat1:ACT-M-52641-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52641-002] 제401회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52641-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52641 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -532,7 +532,7 @@ nadat1:ACT-M-52641-002 a rico:Activity ;
 
 nadat1:ACT-M-52723-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52723-002] 제403회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52723-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52723 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -540,7 +540,7 @@ nadat1:ACT-M-52723-002 a rico:Activity ;
 
 nadat1:ACT-M-52740-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52740-002] 제403회 제2차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52740-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52740 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -548,7 +548,7 @@ nadat1:ACT-M-52740-002 a rico:Activity ;
 
 nadat1:ACT-M-52773-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52773-002] 제404회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52773-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52773 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -556,7 +556,7 @@ nadat1:ACT-M-52773-002 a rico:Activity ;
 
 nadat1:ACT-M-52809-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52809-002] 제404회 제2차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52809-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52809 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -564,7 +564,7 @@ nadat1:ACT-M-52809-002 a rico:Activity ;
 
 nadat1:ACT-M-52840-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52840-002] 제405회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52840-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52840 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -572,7 +572,7 @@ nadat1:ACT-M-52840-002 a rico:Activity ;
 
 nadat1:ACT-M-52869-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52869-002] 제405회 제2차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52869-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52869 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -580,7 +580,7 @@ nadat1:ACT-M-52869-002 a rico:Activity ;
 
 nadat1:ACT-M-52889-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52889-002] 제405회 제3차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52889-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52889 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -588,7 +588,7 @@ nadat1:ACT-M-52889-002 a rico:Activity ;
 
 nadat1:ACT-M-52917-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52917-002] 제406회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52917-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52917 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -596,7 +596,7 @@ nadat1:ACT-M-52917-002 a rico:Activity ;
 
 nadat1:ACT-M-53011-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53011-002] 제407회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53011-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53011 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -604,7 +604,7 @@ nadat1:ACT-M-53011-002 a rico:Activity ;
 
 nadat1:ACT-M-53041-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53041-002] 제407회 제2차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53041-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53041 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -612,7 +612,7 @@ nadat1:ACT-M-53041-002 a rico:Activity ;
 
 nadat1:ACT-M-53143-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53143-002] 제409회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53143-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53143 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -620,7 +620,7 @@ nadat1:ACT-M-53143-002 a rico:Activity ;
 
 nadat1:ACT-M-53174-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53174-002] 제409회 제2차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53174-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53174 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -628,7 +628,7 @@ nadat1:ACT-M-53174-002 a rico:Activity ;
 
 nadat1:ACT-M-53227-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53227-002] 제410회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53227-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53227 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -636,7 +636,7 @@ nadat1:ACT-M-53227-002 a rico:Activity ;
 
 nadat1:ACT-M-53265-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53265-002] 제410회 제2차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53265-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53265 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -644,7 +644,7 @@ nadat1:ACT-M-53265-002 a rico:Activity ;
 
 nadat1:ACT-M-53283-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53283-002] 제410회 제3차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53283-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53283 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -652,7 +652,7 @@ nadat1:ACT-M-53283-002 a rico:Activity ;
 
 nadat1:ACT-M-53299-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53299-002] 제410회 제4차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53299-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53299 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -660,7 +660,7 @@ nadat1:ACT-M-53299-002 a rico:Activity ;
 
 nadat1:ACT-M-53304-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53304-002] 제410회 제5차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53304-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53304 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -668,7 +668,7 @@ nadat1:ACT-M-53304-002 a rico:Activity ;
 
 nadat1:ACT-M-53318-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53318-002] 제410회 제6차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53318-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53318 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -676,7 +676,7 @@ nadat1:ACT-M-53318-002 a rico:Activity ;
 
 nadat1:ACT-M-53348-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53348-002] 제410회 제7차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53348-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53348 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -684,7 +684,7 @@ nadat1:ACT-M-53348-002 a rico:Activity ;
 
 nadat1:ACT-M-53412-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53412-002] 제410회 제8차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53412-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53412 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -692,7 +692,7 @@ nadat1:ACT-M-53412-002 a rico:Activity ;
 
 nadat1:ACT-M-53476-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53476-002] 제410회 제9차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53476-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53476 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -700,7 +700,7 @@ nadat1:ACT-M-53476-002 a rico:Activity ;
 
 nadat1:ACT-M-53541-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53541-002] 제410회 제10차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53541-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53541 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -708,7 +708,7 @@ nadat1:ACT-M-53541-002 a rico:Activity ;
 
 nadat1:ACT-M-53658-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53658-002] 제411회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53658-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53658 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -716,7 +716,7 @@ nadat1:ACT-M-53658-002 a rico:Activity ;
 
 nadat1:ACT-M-53786-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53786-002] 제412회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53786-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53786 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
@@ -724,7 +724,7 @@ nadat1:ACT-M-53786-002 a rico:Activity ;
 
 nadat1:ACT-M-53829-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53829-002] 제413회 제1차 농림축산식품해양수산위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53829-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53829 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AK ;
