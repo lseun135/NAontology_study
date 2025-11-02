@@ -33,7 +33,7 @@ nadat1:RS100021 rico:includesOrIncluded nadat1:RS100021-AH .
 
 nadat1:ACT-M-50016-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50016-002] 제379회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50016-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50016 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -41,7 +41,7 @@ nadat1:ACT-M-50016-002 a rico:Activity ;
 
 nadat1:ACT-M-50042-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50042-002] 제379회 제2차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50042-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50042 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -49,7 +49,7 @@ nadat1:ACT-M-50042-002 a rico:Activity ;
 
 nadat1:ACT-M-50068-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50068-002] 제380회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50068-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50068 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -57,7 +57,7 @@ nadat1:ACT-M-50068-002 a rico:Activity ;
 
 nadat1:ACT-M-50082-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50082-002] 제380회 제2차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50082-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50082 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -65,7 +65,7 @@ nadat1:ACT-M-50082-002 a rico:Activity ;
 
 nadat1:ACT-M-50127-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50127-002] 제381회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50127-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50127 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -73,7 +73,7 @@ nadat1:ACT-M-50127-002 a rico:Activity ;
 
 nadat1:ACT-M-50153-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50153-002] 제382회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50153-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50153 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -81,7 +81,7 @@ nadat1:ACT-M-50153-002 a rico:Activity ;
 
 nadat1:ACT-M-50168-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50168-002] 제382회 제2차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50168-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50168 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -89,7 +89,7 @@ nadat1:ACT-M-50168-002 a rico:Activity ;
 
 nadat1:ACT-M-50193-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50193-002] 제382회 제3차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50193-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50193 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -97,7 +97,7 @@ nadat1:ACT-M-50193-002 a rico:Activity ;
 
 nadat1:ACT-M-50208-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50208-002] 제382회 제4차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50208-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50208 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -105,7 +105,7 @@ nadat1:ACT-M-50208-002 a rico:Activity ;
 
 nadat1:ACT-M-50257-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50257-002] 제382회 제5차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50257-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50257 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -113,7 +113,7 @@ nadat1:ACT-M-50257-002 a rico:Activity ;
 
 nadat1:ACT-M-50269-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50269-002] 제382회 제6차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50269-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50269 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -121,7 +121,7 @@ nadat1:ACT-M-50269-002 a rico:Activity ;
 
 nadat1:ACT-M-50280-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50280-002] 제382회 제7차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50280-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50280 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -129,7 +129,7 @@ nadat1:ACT-M-50280-002 a rico:Activity ;
 
 nadat1:ACT-M-50295-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50295-002] 제382회 제8차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50295-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50295 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -137,7 +137,7 @@ nadat1:ACT-M-50295-002 a rico:Activity ;
 
 nadat1:ACT-M-50393-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50393-002] 제382회 제9차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50393-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50393 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -145,7 +145,7 @@ nadat1:ACT-M-50393-002 a rico:Activity ;
 
 nadat1:ACT-M-50436-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50436-002] 제382회 제10차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50436-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50436 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -153,7 +153,7 @@ nadat1:ACT-M-50436-002 a rico:Activity ;
 
 nadat1:ACT-M-50501-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50501-002] 제382회 제11차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50501-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50501 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -161,7 +161,7 @@ nadat1:ACT-M-50501-002 a rico:Activity ;
 
 nadat1:ACT-M-50671-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50671-002] 제382회 제12차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50671-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50671 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -169,7 +169,7 @@ nadat1:ACT-M-50671-002 a rico:Activity ;
 
 nadat1:ACT-M-50789-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50789-002] 제384회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50789-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50789 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -177,7 +177,7 @@ nadat1:ACT-M-50789-002 a rico:Activity ;
 
 nadat1:ACT-M-50829-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50829-002] 제384회 제2차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50829-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50829 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -185,7 +185,7 @@ nadat1:ACT-M-50829-002 a rico:Activity ;
 
 nadat1:ACT-M-50899-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-50899-002] 제385회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-50899-002" ;
     rico:isOrWasPartOf nadat1:EV-M-50899 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -193,7 +193,7 @@ nadat1:ACT-M-50899-002 a rico:Activity ;
 
 nadat1:ACT-M-51002-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51002-002] 제386회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51002-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51002 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -201,7 +201,7 @@ nadat1:ACT-M-51002-002 a rico:Activity ;
 
 nadat1:ACT-M-51049-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51049-002] 제387회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51049-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51049 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -209,7 +209,7 @@ nadat1:ACT-M-51049-002 a rico:Activity ;
 
 nadat1:ACT-M-51055-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51055-002] 제388회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51055-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51055 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -217,7 +217,7 @@ nadat1:ACT-M-51055-002 a rico:Activity ;
 
 nadat1:ACT-M-51170-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51170-002] 제389회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51170-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51170 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -225,7 +225,7 @@ nadat1:ACT-M-51170-002 a rico:Activity ;
 
 nadat1:ACT-M-51203-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51203-002] 제390회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51203-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51203 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -233,7 +233,7 @@ nadat1:ACT-M-51203-002 a rico:Activity ;
 
 nadat1:ACT-M-51247-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51247-002] 제391회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51247-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51247 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -241,7 +241,7 @@ nadat1:ACT-M-51247-002 a rico:Activity ;
 
 nadat1:ACT-M-51291-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51291-002] 제391회 제2차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51291-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51291 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -249,7 +249,7 @@ nadat1:ACT-M-51291-002 a rico:Activity ;
 
 nadat1:ACT-M-51439-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51439-002] 제391회 제3차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51439-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51439 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -257,7 +257,7 @@ nadat1:ACT-M-51439-002 a rico:Activity ;
 
 nadat1:ACT-M-51533-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51533-002] 제391회 제4차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51533-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51533 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -265,7 +265,7 @@ nadat1:ACT-M-51533-002 a rico:Activity ;
 
 nadat1:ACT-M-51604-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51604-002] 제391회 제5차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51604-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51604 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -273,7 +273,7 @@ nadat1:ACT-M-51604-002 a rico:Activity ;
 
 nadat1:ACT-M-51726-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51726-002] 제392회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51726-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51726 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -281,7 +281,7 @@ nadat1:ACT-M-51726-002 a rico:Activity ;
 
 nadat1:ACT-M-51779-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51779-002] 제393회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51779-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51779 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -289,7 +289,7 @@ nadat1:ACT-M-51779-002 a rico:Activity ;
 
 nadat1:ACT-M-51782-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51782-002] 제394회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51782-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51782 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -297,7 +297,7 @@ nadat1:ACT-M-51782-002 a rico:Activity ;
 
 nadat1:ACT-M-51785-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51785-002] 제394회 제2차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51785-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51785 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -305,7 +305,7 @@ nadat1:ACT-M-51785-002 a rico:Activity ;
 
 nadat1:ACT-M-51817-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51817-002] 제395회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51817-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51817 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -313,7 +313,7 @@ nadat1:ACT-M-51817-002 a rico:Activity ;
 
 nadat1:ACT-M-51834-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51834-002] 제395회 제2차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51834-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51834 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -321,7 +321,7 @@ nadat1:ACT-M-51834-002 a rico:Activity ;
 
 nadat1:ACT-M-51864-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51864-002] 제397회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51864-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51864 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -329,7 +329,7 @@ nadat1:ACT-M-51864-002 a rico:Activity ;
 
 nadat1:ACT-M-51880-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51880-002] 제397회 제2차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51880-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51880 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -337,7 +337,7 @@ nadat1:ACT-M-51880-002 a rico:Activity ;
 
 nadat1:ACT-M-51911-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-51911-002] 제397회 제3차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-51911-002" ;
     rico:isOrWasPartOf nadat1:EV-M-51911 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -345,7 +345,7 @@ nadat1:ACT-M-51911-002 a rico:Activity ;
 
 nadat1:ACT-M-52015-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52015-002] 제398회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52015-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52015 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -353,7 +353,7 @@ nadat1:ACT-M-52015-002 a rico:Activity ;
 
 nadat1:ACT-M-52086-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52086-002] 제399회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52086-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52086 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -361,7 +361,7 @@ nadat1:ACT-M-52086-002 a rico:Activity ;
 
 nadat1:ACT-M-52099-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52099-002] 제399회 제2차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52099-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52099 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -369,7 +369,7 @@ nadat1:ACT-M-52099-002 a rico:Activity ;
 
 nadat1:ACT-M-52137-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52137-002] 제400회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52137-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52137 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -377,7 +377,7 @@ nadat1:ACT-M-52137-002 a rico:Activity ;
 
 nadat1:ACT-M-52192-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52192-002] 제400회 제2차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52192-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52192 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -385,7 +385,7 @@ nadat1:ACT-M-52192-002 a rico:Activity ;
 
 nadat1:ACT-M-52276-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52276-002] 제400회 제3차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52276-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52276 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -393,7 +393,7 @@ nadat1:ACT-M-52276-002 a rico:Activity ;
 
 nadat1:ACT-M-52306-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52306-002] 제400회 제4차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52306-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52306 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -401,7 +401,7 @@ nadat1:ACT-M-52306-002 a rico:Activity ;
 
 nadat1:ACT-M-52425-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52425-002] 제400회 제5차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52425-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52425 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -409,7 +409,7 @@ nadat1:ACT-M-52425-002 a rico:Activity ;
 
 nadat1:ACT-M-52639-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52639-002] 제401회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52639-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52639 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -417,7 +417,7 @@ nadat1:ACT-M-52639-002 a rico:Activity ;
 
 nadat1:ACT-M-52658-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52658-002] 제402회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52658-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52658 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -425,7 +425,7 @@ nadat1:ACT-M-52658-002 a rico:Activity ;
 
 nadat1:ACT-M-52717-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52717-002] 제403회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52717-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52717 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -433,7 +433,7 @@ nadat1:ACT-M-52717-002 a rico:Activity ;
 
 nadat1:ACT-M-52808-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52808-002] 제404회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52808-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52808 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -441,7 +441,7 @@ nadat1:ACT-M-52808-002 a rico:Activity ;
 
 nadat1:ACT-M-52853-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52853-002] 제405회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52853-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52853 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -449,7 +449,7 @@ nadat1:ACT-M-52853-002 a rico:Activity ;
 
 nadat1:ACT-M-52970-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-52970-002] 제407회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-52970-002" ;
     rico:isOrWasPartOf nadat1:EV-M-52970 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -457,7 +457,7 @@ nadat1:ACT-M-52970-002 a rico:Activity ;
 
 nadat1:ACT-M-53103-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53103-002] 제409회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53103-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53103 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -465,7 +465,7 @@ nadat1:ACT-M-53103-002 a rico:Activity ;
 
 nadat1:ACT-M-53122-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53122-002] 제409회 제2차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53122-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53122 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -473,7 +473,7 @@ nadat1:ACT-M-53122-002 a rico:Activity ;
 
 nadat1:ACT-M-53149-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53149-002] 제409회 제3차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53149-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53149 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -481,7 +481,7 @@ nadat1:ACT-M-53149-002 a rico:Activity ;
 
 nadat1:ACT-M-53195-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53195-002] 제410회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53195-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53195 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -489,7 +489,7 @@ nadat1:ACT-M-53195-002 a rico:Activity ;
 
 nadat1:ACT-M-53226-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53226-002] 제410회 제2차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53226-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53226 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -497,7 +497,7 @@ nadat1:ACT-M-53226-002 a rico:Activity ;
 
 nadat1:ACT-M-53240-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53240-002] 제410회 제3차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53240-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53240 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -505,7 +505,7 @@ nadat1:ACT-M-53240-002 a rico:Activity ;
 
 nadat1:ACT-M-53766-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53766-002] 제411회 제2차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53766-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53766 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
@@ -513,7 +513,7 @@ nadat1:ACT-M-53766-002 a rico:Activity ;
 
 nadat1:ACT-M-53825-002 a rico:Activity ;
     skos:prefLabel "[ACT-M-53825-002] 제413회 제1차 국방위원회 심의"@ko ;
-    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:hasActivityType nam1:CommitteeReviewAction ;
     rico:identifier "ACT-M-53825-002" ;
     rico:isOrWasPartOf nadat1:EV-M-53825 ;
     rico:isOrWasPerformedBy nadat2:CMIT-AH ;
