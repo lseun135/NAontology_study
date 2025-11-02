@@ -25,3 +25,4393 @@
 
 
 @base <https://lseun135.github.io/NAontology_study/resource/d1-record> .
+
+
+
+
+
+
+nadat1:RS100021 rico:includesOrIncluded nadat1:RS100021-AG .
+
+nadat1:ACT-M-50011-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50011-002] 제379회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50011-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50011 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제379회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-50022-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50022-002] 제379회 제2차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50022-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50022 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제379회 제2차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-50055-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50055-002] 제380회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50055-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50055 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제380회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-50066-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50066-002] 제380회 제2차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50066-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50066 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제380회 제2차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-50072-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50072-002] 제380회 제3차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50072-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50072 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제380회 제3차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-50100-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50100-002] 제380회 제4차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50100-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50100 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제380회 제4차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-50125-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50125-002] 제381회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50125-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50125 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제381회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-50133-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50133-002] 제381회 제2차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50133-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50133 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제381회 제2차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-50233-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50233-002] 제382회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50233-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50233 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제382회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-50256-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50256-002] 제382회 제2차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50256-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50256 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제382회 제2차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-50260-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50260-002] 제382회 제3차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50260-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50260 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제382회 제3차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-50372-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50372-002] 제382회 제4차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50372-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50372 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제382회 제4차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-50406-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50406-002] 제382회 제5차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50406-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50406 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제382회 제5차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-50561-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50561-002] 제382회 제6차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50561-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50561 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제382회 제6차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-50602-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50602-002] 제382회 제7차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50602-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50602 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제382회 제7차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-50742-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50742-002] 제383회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50742-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50742 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제383회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-50753-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50753-002] 제384회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50753-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50753 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제384회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-50758-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50758-002] 제384회 제2차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50758-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50758 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제384회 제2차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-50787-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50787-002] 제384회 제3차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50787-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50787 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제384회 제3차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-50797-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50797-002] 제384회 제4차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50797-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50797 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제384회 제4차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-50835-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50835-002] 제384회 제5차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50835-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50835 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제384회 제5차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-50957-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50957-002] 제386회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50957-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50957 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제386회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-51045-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51045-002] 제387회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51045-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51045 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제387회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-51082-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51082-002] 제388회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51082-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51082 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제388회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-51116-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51116-002] 제388회 제2차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51116-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51116 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제388회 제2차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-51174-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51174-002] 제389회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51174-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51174 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제389회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-51204-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51204-002] 제390회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51204-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51204 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제390회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-51246-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51246-002] 제391회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51246-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51246 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제391회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-51265-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51265-002] 제391회 제2차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51265-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51265 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제391회 제2차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-51289-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51289-002] 제391회 제3차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51289-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51289 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제391회 제3차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-51332-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51332-002] 제391회 제4차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51332-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51332 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제391회 제4차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-51459-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51459-002] 제391회 제5차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51459-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51459 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제391회 제5차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-51523-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51523-002] 제391회 제6차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51523-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51523 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제391회 제6차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-51607-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51607-002] 제391회 제7차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51607-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51607 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제391회 제7차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-51777-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51777-002] 제393회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51777-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51777 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제393회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-51786-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51786-002] 제394회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51786-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51786 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제394회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-51828-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51828-002] 제395회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51828-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51828 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제395회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-51853-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51853-002] 제396회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51853-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51853 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제396회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-51890-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51890-002] 제397회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51890-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51890 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제397회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-51908-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51908-002] 제397회 제2차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51908-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51908 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제397회 제2차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-52017-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52017-002] 제398회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52017-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52017 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제398회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-52039-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52039-002] 제399회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52039-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52039 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제399회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-52040-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52040-002] 제399회 제2차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52040-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52040 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제399회 제2차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-52092-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52092-002] 제399회 제3차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52092-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52092 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제399회 제3차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-52133-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52133-002] 제400회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52133-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52133 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제400회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-52159-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52159-002] 제400회 제2차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52159-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52159 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제400회 제2차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-52273-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52273-002] 제400회 제3차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52273-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52273 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제400회 제3차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-52314-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52314-002] 제400회 제4차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52314-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52314 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제400회 제4차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-52571-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52571-002] 제400회 제5차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52571-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52571 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제400회 제5차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-52654-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52654-002] 제402회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52654-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52654 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제402회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-52687-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52687-002] 제403회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52687-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52687 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제403회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-52699-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52699-002] 제403회 제2차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52699-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52699 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제403회 제2차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-52714-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52714-002] 제403회 제3차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52714-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52714 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제403회 제3차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-52829-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52829-002] 제404회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52829-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52829 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제404회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-52865-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52865-002] 제405회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52865-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52865 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제405회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-52911-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52911-002] 제406회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52911-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52911 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제406회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-52956-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52956-002] 제406회 제2차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52956-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52956 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제406회 제2차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-53072-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53072-002] 제408회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53072-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53072 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제408회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-53082-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53082-002] 제408회 제2차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53082-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53082 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제408회 제2차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-53138-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53138-002] 제409회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53138-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53138 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제409회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-53167-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53167-002] 제409회 제2차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53167-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53167 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제409회 제2차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-53191-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53191-002] 제410회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53191-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53191 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제410회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-53264-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53264-002] 제410회 제2차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53264-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53264 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제410회 제2차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-53293-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53293-002] 제410회 제3차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53293-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53293 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제410회 제3차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-53298-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53298-002] 제410회 제4차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53298-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53298 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제410회 제4차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-53409-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53409-002] 제410회 제5차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53409-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53409 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제410회 제5차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-53461-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53461-002] 제410회 제6차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53461-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53461 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제410회 제6차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-53527-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53527-002] 제410회 제7차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53527-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53527 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제410회 제7차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-53576-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53576-002] 제410회 제8차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53576-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53576 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제410회 제8차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-53637-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53637-002] 제410회 제9차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53637-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53637 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제410회 제9차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-53739-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53739-002] 제411회 제1차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53739-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53739 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제411회 제1차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-53758-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53758-002] 제411회 제2차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53758-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53758 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제411회 제2차 외교통일위원회 심의"@ko .
+
+nadat1:ACT-M-53765-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53765-002] 제411회 제3차 외교통일위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53765-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53765 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AG ;
+    rico:name "제411회 제3차 외교통일위원회 심의"@ko .
+
+nadat1:INS-AG-21037900150011-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21037900150011-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21037900150011-02" ;
+    rico:title "제379회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21037900250022-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21037900250022-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21037900250022-02" ;
+    rico:title "제379회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AG-21038000150055-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038000150055-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038000150055-02" ;
+    rico:title "제380회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21038000250066-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038000250066-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038000250066-02" ;
+    rico:title "제380회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AG-21038000350072-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038000350072-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038000350072-02" ;
+    rico:title "제380회국회 외교통일위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AG-21038000450100-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038000450100-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038000450100-02" ;
+    rico:title "제380회국회 외교통일위원회회의록 제 4 호"@ko .
+
+nadat1:INS-AG-21038100150125-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038100150125-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038100150125-02" ;
+    rico:title "제381회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21038100250133-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038100250133-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038100250133-02" ;
+    rico:title "제381회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AG-21038200150233-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038200150233-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038200150233-02" ;
+    rico:title "제382회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21038200250256-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038200250256-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038200250256-02" ;
+    rico:title "제382회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AG-21038200350260-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038200350260-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038200350260-02" ;
+    rico:title "제382회국회 외교통일위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AG-21038200450372-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038200450372-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038200450372-02" ;
+    rico:title "제382회국회 외교통일위원회회의록 제 4 호"@ko .
+
+nadat1:INS-AG-21038200550406-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038200550406-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038200550406-02" ;
+    rico:title "제382회국회 외교통일위원회회의록 제 5 호"@ko .
+
+nadat1:INS-AG-21038200650561-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038200650561-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038200650561-02" ;
+    rico:title "제382회국회 외교통일위원회회의록 제 6 호"@ko .
+
+nadat1:INS-AG-21038200750602-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038200750602-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038200750602-02" ;
+    rico:title "제382회국회 외교통일위원회회의록 제 7 호"@ko .
+
+nadat1:INS-AG-21038300150742-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038300150742-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038300150742-02" ;
+    rico:title "제383회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21038400150753-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038400150753-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038400150753-02" ;
+    rico:title "제384회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21038400250758-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038400250758-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038400250758-02" ;
+    rico:title "제384회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AG-21038400350787-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038400350787-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038400350787-02" ;
+    rico:title "제384회국회 외교통일위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AG-21038400450797-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038400450797-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038400450797-02" ;
+    rico:title "제384회국회 외교통일위원회회의록 제 4 호"@ko .
+
+nadat1:INS-AG-21038400550835-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038400550835-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038400550835-02" ;
+    rico:title "제384회국회 외교통일위원회회의록 제 5 호"@ko .
+
+nadat1:INS-AG-21038600150957-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038600150957-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038600150957-02" ;
+    rico:title "제386회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21038700151045-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038700151045-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038700151045-02" ;
+    rico:title "제387회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21038800151082-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038800151082-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038800151082-02" ;
+    rico:title "제388회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21038800251116-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038800251116-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038800251116-02" ;
+    rico:title "제388회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AG-21038900151174-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21038900151174-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21038900151174-02" ;
+    rico:title "제389회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21039000151204-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21039000151204-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21039000151204-02" ;
+    rico:title "제390회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21039100151246-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21039100151246-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21039100151246-02" ;
+    rico:title "제391회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21039100251265-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21039100251265-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21039100251265-02" ;
+    rico:title "제391회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AG-21039100351289-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21039100351289-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21039100351289-02" ;
+    rico:title "제391회국회 외교통일위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AG-21039100451332-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21039100451332-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21039100451332-02" ;
+    rico:title "제391회국회 외교통일위원회회의록 제 4 호"@ko .
+
+nadat1:INS-AG-21039100551459-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21039100551459-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21039100551459-02" ;
+    rico:title "제391회국회 외교통일위원회회의록 제 5 호"@ko .
+
+nadat1:INS-AG-21039100651523-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21039100651523-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21039100651523-02" ;
+    rico:title "제391회국회 외교통일위원회회의록 제 6 호"@ko .
+
+nadat1:INS-AG-21039100751607-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21039100751607-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21039100751607-02" ;
+    rico:title "제391회국회 외교통일위원회회의록 제 7 호"@ko .
+
+nadat1:INS-AG-21039300151777-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21039300151777-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21039300151777-02" ;
+    rico:title "제393회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21039400151786-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21039400151786-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21039400151786-02" ;
+    rico:title "제394회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21039500151828-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21039500151828-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21039500151828-02" ;
+    rico:title "제395회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21039600151853-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21039600151853-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21039600151853-02" ;
+    rico:title "제396회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21039700151890-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21039700151890-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21039700151890-02" ;
+    rico:title "제397회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21039700251908-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21039700251908-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21039700251908-02" ;
+    rico:title "제397회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AG-21039800152017-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21039800152017-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21039800152017-02" ;
+    rico:title "제398회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21039900152039-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21039900152039-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21039900152039-02" ;
+    rico:title "제399회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21039900252040-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21039900252040-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21039900252040-02" ;
+    rico:title "제399회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AG-21039900352092-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21039900352092-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21039900352092-02" ;
+    rico:title "제399회국회 외교통일위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AG-21040000152133-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21040000152133-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21040000152133-02" ;
+    rico:title "제400회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21040000252159-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21040000252159-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21040000252159-02" ;
+    rico:title "제400회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AG-21040000352273-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21040000352273-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21040000352273-02" ;
+    rico:title "제400회국회 외교통일위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AG-21040000452314-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21040000452314-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21040000452314-02" ;
+    rico:title "제400회국회 외교통일위원회회의록 제 4 호"@ko .
+
+nadat1:INS-AG-21040000552571-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21040000552571-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21040000552571-02" ;
+    rico:title "제400회국회 외교통일위원회회의록 제 5 호"@ko .
+
+nadat1:INS-AG-21040200152654-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21040200152654-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21040200152654-02" ;
+    rico:title "제402회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21040300152687-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21040300152687-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21040300152687-02" ;
+    rico:title "제403회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21040300252699-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21040300252699-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21040300252699-02" ;
+    rico:title "제403회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AG-21040300352714-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21040300352714-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21040300352714-02" ;
+    rico:title "제403회국회 외교통일위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AG-21040400152829-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21040400152829-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21040400152829-02" ;
+    rico:title "제404회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21040500152865-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21040500152865-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21040500152865-02" ;
+    rico:title "제405회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21040600152911-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21040600152911-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21040600152911-02" ;
+    rico:title "제406회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21040600252956-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21040600252956-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21040600252956-02" ;
+    rico:title "제406회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AG-21040800153072-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21040800153072-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21040800153072-02" ;
+    rico:title "제408회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21040800253082-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21040800253082-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21040800253082-02" ;
+    rico:title "제408회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AG-21040900153138-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21040900153138-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21040900153138-02" ;
+    rico:title "제409회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21040900253167-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21040900253167-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21040900253167-02" ;
+    rico:title "제409회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AG-21041000153191-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21041000153191-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21041000153191-02" ;
+    rico:title "제410회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21041000253264-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21041000253264-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21041000253264-02" ;
+    rico:title "제410회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AG-21041000353293-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21041000353293-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21041000353293-02" ;
+    rico:title "제410회국회 외교통일위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AG-21041000453298-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21041000453298-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21041000453298-02" ;
+    rico:title "제410회국회 외교통일위원회회의록 제 4 호"@ko .
+
+nadat1:INS-AG-21041000553409-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21041000553409-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21041000553409-02" ;
+    rico:title "제410회국회 외교통일위원회회의록 제 5 호"@ko .
+
+nadat1:INS-AG-21041000653461-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21041000653461-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21041000653461-02" ;
+    rico:title "제410회국회 외교통일위원회회의록 제 6 호"@ko .
+
+nadat1:INS-AG-21041000753527-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21041000753527-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21041000753527-02" ;
+    rico:title "제410회국회 외교통일위원회회의록 제 7 호"@ko .
+
+nadat1:INS-AG-21041000853576-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21041000853576-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21041000853576-02" ;
+    rico:title "제410회국회 외교통일위원회회의록 제 8 호"@ko .
+
+nadat1:INS-AG-21041000953637-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21041000953637-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21041000953637-02" ;
+    rico:title "제410회국회 외교통일위원회회의록 제 9 호"@ko .
+
+nadat1:INS-AG-21041100153739-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21041100153739-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21041100153739-02" ;
+    rico:title "제411회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AG-21041100253758-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21041100253758-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21041100253758-02" ;
+    rico:title "제411회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AG-21041100353765-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AG-21041100353765-02] 외교통일위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-21041100353765-02" ;
+    rico:title "제411회국회 외교통일위원회회의록 제 3 호"@ko .
+
+nadat1:R100021037900150011 a rico:Record ;
+    skos:prefLabel "[R100021037900150011] 21대 379회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50011-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200616 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21037900150011-02,
+        nadat1:INS-AG-50011_50602-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021037900150011" ;
+    rico:title "제379회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021037900250022 a rico:Record ;
+    skos:prefLabel "[R100021037900250022] 21대 379회 2차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50022-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200629 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21037900250022-02,
+        nadat1:INS-AG-50011_50602-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021037900250022" ;
+    rico:title "제379회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:R100021038000150055 a rico:Record ;
+    skos:prefLabel "[R100021038000150055] 21대 380회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50055-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200714 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038000150055-02,
+        nadat1:INS-AG-50011_50602-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038000150055" ;
+    rico:title "제380회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038000250066 a rico:Record ;
+    skos:prefLabel "[R100021038000250066] 21대 380회 2차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50066-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200723 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038000250066-02,
+        nadat1:INS-AG-50011_50602-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038000250066" ;
+    rico:title "제380회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:R100021038000350072 a rico:Record ;
+    skos:prefLabel "[R100021038000350072] 21대 380회 3차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50072-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200724 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038000350072-02,
+        nadat1:INS-AG-50011_50602-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038000350072" ;
+    rico:title "제380회국회 외교통일위원회회의록 제 3 호"@ko .
+
+nadat1:R100021038000450100 a rico:Record ;
+    skos:prefLabel "[R100021038000450100] 21대 380회 4차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50100-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200803 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038000450100-02,
+        nadat1:INS-AG-50011_50602-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038000450100" ;
+    rico:title "제380회국회 외교통일위원회회의록 제 4 호"@ko .
+
+nadat1:R100021038100150125 a rico:Record ;
+    skos:prefLabel "[R100021038100150125] 21대 381회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50125-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200825 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038100150125-02,
+        nadat1:INS-AG-50011_50602-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038100150125" ;
+    rico:title "제381회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038100250133 a rico:Record ;
+    skos:prefLabel "[R100021038100250133] 21대 381회 2차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50133-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200831 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038100250133-02,
+        nadat1:INS-AG-50011_50602-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038100250133" ;
+    rico:title "제381회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:R100021038200150233 a rico:Record ;
+    skos:prefLabel "[R100021038200150233] 21대 382회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50233-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200922 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038200150233-02,
+        nadat1:INS-AG-50011_50602-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200150233" ;
+    rico:title "제382회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038200250256 a rico:Record ;
+    skos:prefLabel "[R100021038200250256] 21대 382회 2차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50256-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200925 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038200250256-02,
+        nadat1:INS-AG-50011_50602-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200250256" ;
+    rico:title "제382회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:R100021038200350260 a rico:Record ;
+    skos:prefLabel "[R100021038200350260] 21대 382회 3차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50260-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200928 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038200350260-02,
+        nadat1:INS-AG-50011_50602-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200350260" ;
+    rico:title "제382회국회 외교통일위원회회의록 제 3 호"@ko .
+
+nadat1:R100021038200450372 a rico:Record ;
+    skos:prefLabel "[R100021038200450372] 21대 382회 4차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50372-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201105 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038200450372-02,
+        nadat1:INS-AG-50011_50602-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200450372" ;
+    rico:title "제382회국회 외교통일위원회회의록 제 4 호"@ko .
+
+nadat1:R100021038200550406 a rico:Record ;
+    skos:prefLabel "[R100021038200550406] 21대 382회 5차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50406-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201111 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038200550406-02,
+        nadat1:INS-AG-50011_50602-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200550406" ;
+    rico:title "제382회국회 외교통일위원회회의록 제 5 호"@ko .
+
+nadat1:R100021038200650561 a rico:Record ;
+    skos:prefLabel "[R100021038200650561] 21대 382회 6차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50561-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201126 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038200650561-02,
+        nadat1:INS-AG-50011_50602-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200650561" ;
+    rico:title "제382회국회 외교통일위원회회의록 제 6 호"@ko .
+
+nadat1:R100021038200750602 a rico:Record ;
+    skos:prefLabel "[R100021038200750602] 21대 382회 7차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50602-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201202 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038200750602-02,
+        nadat1:INS-AG-50011_50602-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200750602" ;
+    rico:title "제382회국회 외교통일위원회회의록 제 7 호"@ko .
+
+nadat1:R100021038300150742 a rico:Record ;
+    skos:prefLabel "[R100021038300150742] 21대 383회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50742-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210127 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038300150742-02,
+        nadat1:INS-AG-50742_51607-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038300150742" ;
+    rico:title "제383회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038400150753 a rico:Record ;
+    skos:prefLabel "[R100021038400150753] 21대 384회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50753-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210205 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038400150753-02,
+        nadat1:INS-AG-50742_51607-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038400150753" ;
+    rico:title "제384회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038400250758 a rico:Record ;
+    skos:prefLabel "[R100021038400250758] 21대 384회 2차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50758-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210208 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038400250758-02,
+        nadat1:INS-AG-50742_51607-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038400250758" ;
+    rico:title "제384회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:R100021038400350787 a rico:Record ;
+    skos:prefLabel "[R100021038400350787] 21대 384회 3차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50787-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210218 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038400350787-02,
+        nadat1:INS-AG-50742_51607-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038400350787" ;
+    rico:title "제384회국회 외교통일위원회회의록 제 3 호"@ko .
+
+nadat1:R100021038400450797 a rico:Record ;
+    skos:prefLabel "[R100021038400450797] 21대 384회 4차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50797-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210222 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038400450797-02,
+        nadat1:INS-AG-50742_51607-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038400450797" ;
+    rico:title "제384회국회 외교통일위원회회의록 제 4 호"@ko .
+
+nadat1:R100021038400550835 a rico:Record ;
+    skos:prefLabel "[R100021038400550835] 21대 384회 5차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50835-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210225 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038400550835-02,
+        nadat1:INS-AG-50742_51607-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038400550835" ;
+    rico:title "제384회국회 외교통일위원회회의록 제 5 호"@ko .
+
+nadat1:R100021038600150957 a rico:Record ;
+    skos:prefLabel "[R100021038600150957] 21대 386회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50957-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210420 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038600150957-02,
+        nadat1:INS-AG-50742_51607-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038600150957" ;
+    rico:title "제386회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038700151045 a rico:Record ;
+    skos:prefLabel "[R100021038700151045] 21대 387회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51045-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210528 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038700151045-02,
+        nadat1:INS-AG-50742_51607-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038700151045" ;
+    rico:title "제387회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038800151082 a rico:Record ;
+    skos:prefLabel "[R100021038800151082] 21대 388회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51082-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210622 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038800151082-02,
+        nadat1:INS-AG-50742_51607-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038800151082" ;
+    rico:title "제388회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038800251116 a rico:Record ;
+    skos:prefLabel "[R100021038800251116] 21대 388회 2차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51116-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210629 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038800251116-02,
+        nadat1:INS-AG-50742_51607-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038800251116" ;
+    rico:title "제388회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:R100021038900151174 a rico:Record ;
+    skos:prefLabel "[R100021038900151174] 21대 389회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51174-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210812 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21038900151174-02,
+        nadat1:INS-AG-50742_51607-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038900151174" ;
+    rico:title "제389회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039000151204 a rico:Record ;
+    skos:prefLabel "[R100021039000151204] 21대 390회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51204-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210823 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21039000151204-02,
+        nadat1:INS-AG-50742_51607-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039000151204" ;
+    rico:title "제390회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039100151246 a rico:Record ;
+    skos:prefLabel "[R100021039100151246] 21대 391회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51246-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210907 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21039100151246-02,
+        nadat1:INS-AG-50742_51607-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100151246" ;
+    rico:title "제391회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039100251265 a rico:Record ;
+    skos:prefLabel "[R100021039100251265] 21대 391회 2차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51265-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210910 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21039100251265-02,
+        nadat1:INS-AG-50742_51607-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100251265" ;
+    rico:title "제391회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:R100021039100351289 a rico:Record ;
+    skos:prefLabel "[R100021039100351289] 21대 391회 3차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51289-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210915 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21039100351289-02,
+        nadat1:INS-AG-50742_51607-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100351289" ;
+    rico:title "제391회국회 외교통일위원회회의록 제 3 호"@ko .
+
+nadat1:R100021039100451332 a rico:Record ;
+    skos:prefLabel "[R100021039100451332] 21대 391회 4차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51332-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-211006 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21039100451332-02,
+        nadat1:INS-AG-50742_51607-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100451332" ;
+    rico:title "제391회국회 외교통일위원회회의록 제 4 호"@ko .
+
+nadat1:R100021039100551459 a rico:Record ;
+    skos:prefLabel "[R100021039100551459] 21대 391회 5차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51459-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-211111 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21039100551459-02,
+        nadat1:INS-AG-50742_51607-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100551459" ;
+    rico:title "제391회국회 외교통일위원회회의록 제 5 호"@ko .
+
+nadat1:R100021039100651523 a rico:Record ;
+    skos:prefLabel "[R100021039100651523] 21대 391회 6차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51523-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-211119 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21039100651523-02,
+        nadat1:INS-AG-50742_51607-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100651523" ;
+    rico:title "제391회국회 외교통일위원회회의록 제 6 호"@ko .
+
+nadat1:R100021039100751607 a rico:Record ;
+    skos:prefLabel "[R100021039100751607] 21대 391회 7차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51607-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-211201 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21039100751607-02,
+        nadat1:INS-AG-50742_51607-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100751607" ;
+    rico:title "제391회국회 외교통일위원회회의록 제 7 호"@ko .
+
+nadat1:R100021039300151777 a rico:Record ;
+    skos:prefLabel "[R100021039300151777] 21대 393회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51777-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220225 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21039300151777-02,
+        nadat1:INS-AG-51777_52571-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039300151777" ;
+    rico:title "제393회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039400151786 a rico:Record ;
+    skos:prefLabel "[R100021039400151786] 21대 394회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51786-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220328 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21039400151786-02,
+        nadat1:INS-AG-51777_52571-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039400151786" ;
+    rico:title "제394회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039500151828 a rico:Record ;
+    skos:prefLabel "[R100021039500151828] 21대 395회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51828-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220425 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21039500151828-02,
+        nadat1:INS-AG-51777_52571-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039500151828" ;
+    rico:title "제395회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039600151853 a rico:Record ;
+    skos:prefLabel "[R100021039600151853] 21대 396회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51853-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220502 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21039600151853-02,
+        nadat1:INS-AG-51777_52571-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039600151853" ;
+    rico:title "제396회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039700151890 a rico:Record ;
+    skos:prefLabel "[R100021039700151890] 21대 397회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51890-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220512 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21039700151890-02,
+        nadat1:INS-AG-51777_52571-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039700151890" ;
+    rico:title "제397회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039700251908 a rico:Record ;
+    skos:prefLabel "[R100021039700251908] 21대 397회 2차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51908-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220517 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21039700251908-02,
+        nadat1:INS-AG-51777_52571-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039700251908" ;
+    rico:title "제397회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:R100021039800152017 a rico:Record ;
+    skos:prefLabel "[R100021039800152017] 21대 398회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52017-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220801 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21039800152017-02,
+        nadat1:INS-AG-51777_52571-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039800152017" ;
+    rico:title "제398회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039900152039 a rico:Record ;
+    skos:prefLabel "[R100021039900152039] 21대 399회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52039-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220818 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21039900152039-02,
+        nadat1:INS-AG-51777_52571-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039900152039" ;
+    rico:title "제399회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039900252040 a rico:Record ;
+    skos:prefLabel "[R100021039900252040] 21대 399회 2차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52040-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220819 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21039900252040-02,
+        nadat1:INS-AG-51777_52571-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039900252040" ;
+    rico:title "제399회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:R100021039900352092 a rico:Record ;
+    skos:prefLabel "[R100021039900352092] 21대 399회 3차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52092-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220830 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21039900352092-02,
+        nadat1:INS-AG-51777_52571-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039900352092" ;
+    rico:title "제399회국회 외교통일위원회회의록 제 3 호"@ko .
+
+nadat1:R100021040000152133 a rico:Record ;
+    skos:prefLabel "[R100021040000152133] 21대 400회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52133-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220916 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21040000152133-02,
+        nadat1:INS-AG-51777_52571-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000152133" ;
+    rico:title "제400회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040000252159 a rico:Record ;
+    skos:prefLabel "[R100021040000252159] 21대 400회 2차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52159-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220922 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21040000252159-02,
+        nadat1:INS-AG-51777_52571-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000252159" ;
+    rico:title "제400회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:R100021040000352273 a rico:Record ;
+    skos:prefLabel "[R100021040000352273] 21대 400회 3차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52273-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221031 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21040000352273-02,
+        nadat1:INS-AG-51777_52571-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000352273" ;
+    rico:title "제400회국회 외교통일위원회회의록 제 3 호"@ko .
+
+nadat1:R100021040000452314 a rico:Record ;
+    skos:prefLabel "[R100021040000452314] 21대 400회 4차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52314-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221107 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21040000452314-02,
+        nadat1:INS-AG-51777_52571-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000452314" ;
+    rico:title "제400회국회 외교통일위원회회의록 제 4 호"@ko .
+
+nadat1:R100021040000552571 a rico:Record ;
+    skos:prefLabel "[R100021040000552571] 21대 400회 5차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52571-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221205 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21040000552571-02,
+        nadat1:INS-AG-51777_52571-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000552571" ;
+    rico:title "제400회국회 외교통일위원회회의록 제 5 호"@ko .
+
+nadat1:R100021040200152654 a rico:Record ;
+    skos:prefLabel "[R100021040200152654] 21대 402회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52654-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230117 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21040200152654-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040200152654" ;
+    rico:title "제402회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040300152687 a rico:Record ;
+    skos:prefLabel "[R100021040300152687] 21대 403회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52687-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230214 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21040300152687-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040300152687" ;
+    rico:title "제403회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040300252699 a rico:Record ;
+    skos:prefLabel "[R100021040300252699] 21대 403회 2차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52699-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230215 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21040300252699-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040300252699" ;
+    rico:title "제403회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:R100021040300352714 a rico:Record ;
+    skos:prefLabel "[R100021040300352714] 21대 403회 3차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52714-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230217 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21040300352714-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040300352714" ;
+    rico:title "제403회국회 외교통일위원회회의록 제 3 호"@ko .
+
+nadat1:R100021040400152829 a rico:Record ;
+    skos:prefLabel "[R100021040400152829] 21대 404회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52829-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230313 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21040400152829-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040400152829" ;
+    rico:title "제404회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040500152865 a rico:Record ;
+    skos:prefLabel "[R100021040500152865] 21대 405회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52865-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230412 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21040500152865-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040500152865" ;
+    rico:title "제405회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040600152911 a rico:Record ;
+    skos:prefLabel "[R100021040600152911] 21대 406회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52911-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230509 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21040600152911-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040600152911" ;
+    rico:title "제406회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040600252956 a rico:Record ;
+    skos:prefLabel "[R100021040600252956] 21대 406회 2차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52956-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230524 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21040600252956-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040600252956" ;
+    rico:title "제406회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:R100021040800153072 a rico:Record ;
+    skos:prefLabel "[R100021040800153072] 21대 408회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53072-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230713 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21040800153072-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040800153072" ;
+    rico:title "제408회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040800253082 a rico:Record ;
+    skos:prefLabel "[R100021040800253082] 21대 408회 2차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53082-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230721 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21040800253082-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040800253082" ;
+    rico:title "제408회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:R100021040900153138 a rico:Record ;
+    skos:prefLabel "[R100021040900153138] 21대 409회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53138-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230823 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21040900153138-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040900153138" ;
+    rico:title "제409회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040900253167 a rico:Record ;
+    skos:prefLabel "[R100021040900253167] 21대 409회 2차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53167-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230831 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21040900253167-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040900253167" ;
+    rico:title "제409회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:R100021041000153191 a rico:Record ;
+    skos:prefLabel "[R100021041000153191] 21대 410회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53191-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230905 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21041000153191-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041000153191" ;
+    rico:title "제410회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021041000253264 a rico:Record ;
+    skos:prefLabel "[R100021041000253264] 21대 410회 2차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53264-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230921 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21041000253264-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041000253264" ;
+    rico:title "제410회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:R100021041000353293 a rico:Record ;
+    skos:prefLabel "[R100021041000353293] 21대 410회 3차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53293-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-231010 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21041000353293-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041000353293" ;
+    rico:title "제410회국회 외교통일위원회회의록 제 3 호"@ko .
+
+nadat1:R100021041000453298 a rico:Record ;
+    skos:prefLabel "[R100021041000453298] 21대 410회 4차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53298-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-231011 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21041000453298-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041000453298" ;
+    rico:title "제410회국회 외교통일위원회회의록 제 4 호"@ko .
+
+nadat1:R100021041000553409 a rico:Record ;
+    skos:prefLabel "[R100021041000553409] 21대 410회 5차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53409-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-231109 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21041000553409-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041000553409" ;
+    rico:title "제410회국회 외교통일위원회회의록 제 5 호"@ko .
+
+nadat1:R100021041000653461 a rico:Record ;
+    skos:prefLabel "[R100021041000653461] 21대 410회 6차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53461-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-231115 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21041000653461-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041000653461" ;
+    rico:title "제410회국회 외교통일위원회회의록 제 6 호"@ko .
+
+nadat1:R100021041000753527 a rico:Record ;
+    skos:prefLabel "[R100021041000753527] 21대 410회 7차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53527-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-231123 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21041000753527-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041000753527" ;
+    rico:title "제410회국회 외교통일위원회회의록 제 7 호"@ko .
+
+nadat1:R100021041000853576 a rico:Record ;
+    skos:prefLabel "[R100021041000853576] 21대 410회 8차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53576-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-231130 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21041000853576-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041000853576" ;
+    rico:title "제410회국회 외교통일위원회회의록 제 8 호"@ko .
+
+nadat1:R100021041000953637 a rico:Record ;
+    skos:prefLabel "[R100021041000953637] 21대 410회 9차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53637-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-231208 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21041000953637-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041000953637" ;
+    rico:title "제410회국회 외교통일위원회회의록 제 9 호"@ko .
+
+nadat1:R100021041100153739 a rico:Record ;
+    skos:prefLabel "[R100021041100153739] 21대 411회 1차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53739-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-231228 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21041100153739-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041100153739" ;
+    rico:title "제411회국회 외교통일위원회회의록 제 1 호"@ko .
+
+nadat1:R100021041100253758 a rico:Record ;
+    skos:prefLabel "[R100021041100253758] 21대 411회 2차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53758-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-240108 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21041100253758-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041100253758" ;
+    rico:title "제411회국회 외교통일위원회회의록 제 2 호"@ko .
+
+nadat1:R100021041100353765 a rico:Record ;
+    skos:prefLabel "[R100021041100353765] 21대 411회 3차 외교통일위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53765-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-240109 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AG-21041100353765-02,
+        nadat1:INS-AG-52654_53765-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041100353765" ;
+    rico:title "제411회국회 외교통일위원회회의록 제 3 호"@ko .
+
+nadat1:RS100021-AG a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG] 21대 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG" ;
+    rico:includesOrIncluded nadat1:RS100021-AG-0379,
+        nadat1:RS100021-AG-0380,
+        nadat1:RS100021-AG-0381,
+        nadat1:RS100021-AG-0382,
+        nadat1:RS100021-AG-0383,
+        nadat1:RS100021-AG-0384,
+        nadat1:RS100021-AG-0386,
+        nadat1:RS100021-AG-0387,
+        nadat1:RS100021-AG-0388,
+        nadat1:RS100021-AG-0389,
+        nadat1:RS100021-AG-0390,
+        nadat1:RS100021-AG-0391,
+        nadat1:RS100021-AG-0393,
+        nadat1:RS100021-AG-0394,
+        nadat1:RS100021-AG-0395,
+        nadat1:RS100021-AG-0396,
+        nadat1:RS100021-AG-0397,
+        nadat1:RS100021-AG-0398,
+        nadat1:RS100021-AG-0399,
+        nadat1:RS100021-AG-0400,
+        nadat1:RS100021-AG-0402,
+        nadat1:RS100021-AG-0403,
+        nadat1:RS100021-AG-0404,
+        nadat1:RS100021-AG-0405,
+        nadat1:RS100021-AG-0406,
+        nadat1:RS100021-AG-0408,
+        nadat1:RS100021-AG-0409,
+        nadat1:RS100021-AG-0410,
+        nadat1:RS100021-AG-0411 ;
+    rico:name "제21대국회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0379 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0379] 21대 379회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0379" ;
+    rico:includesOrIncluded nadat1:R100021037900150011,
+        nadat1:R100021037900250022 ;
+    rico:name "제21대국회 제379회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0380 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0380] 21대 380회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0380" ;
+    rico:includesOrIncluded nadat1:R100021038000150055,
+        nadat1:R100021038000250066,
+        nadat1:R100021038000350072,
+        nadat1:R100021038000450100 ;
+    rico:name "제21대국회 제380회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0381 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0381] 21대 381회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0381" ;
+    rico:includesOrIncluded nadat1:R100021038100150125,
+        nadat1:R100021038100250133 ;
+    rico:name "제21대국회 제381회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0382 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0382] 21대 382회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0382" ;
+    rico:includesOrIncluded nadat1:R100021038200150233,
+        nadat1:R100021038200250256,
+        nadat1:R100021038200350260,
+        nadat1:R100021038200450372,
+        nadat1:R100021038200550406,
+        nadat1:R100021038200650561,
+        nadat1:R100021038200750602 ;
+    rico:name "제21대국회 제382회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0383 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0383] 21대 383회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0383" ;
+    rico:includesOrIncluded nadat1:R100021038300150742 ;
+    rico:name "제21대국회 제383회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0384 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0384] 21대 384회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0384" ;
+    rico:includesOrIncluded nadat1:R100021038400150753,
+        nadat1:R100021038400250758,
+        nadat1:R100021038400350787,
+        nadat1:R100021038400450797,
+        nadat1:R100021038400550835 ;
+    rico:name "제21대국회 제384회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0386 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0386] 21대 386회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0386" ;
+    rico:includesOrIncluded nadat1:R100021038600150957 ;
+    rico:name "제21대국회 제386회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0387 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0387] 21대 387회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0387" ;
+    rico:includesOrIncluded nadat1:R100021038700151045 ;
+    rico:name "제21대국회 제387회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0388 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0388] 21대 388회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0388" ;
+    rico:includesOrIncluded nadat1:R100021038800151082,
+        nadat1:R100021038800251116 ;
+    rico:name "제21대국회 제388회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0389 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0389] 21대 389회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0389" ;
+    rico:includesOrIncluded nadat1:R100021038900151174 ;
+    rico:name "제21대국회 제389회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0390 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0390] 21대 390회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0390" ;
+    rico:includesOrIncluded nadat1:R100021039000151204 ;
+    rico:name "제21대국회 제390회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0391 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0391] 21대 391회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0391" ;
+    rico:includesOrIncluded nadat1:R100021039100151246,
+        nadat1:R100021039100251265,
+        nadat1:R100021039100351289,
+        nadat1:R100021039100451332,
+        nadat1:R100021039100551459,
+        nadat1:R100021039100651523,
+        nadat1:R100021039100751607 ;
+    rico:name "제21대국회 제391회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0393 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0393] 21대 393회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0393" ;
+    rico:includesOrIncluded nadat1:R100021039300151777 ;
+    rico:name "제21대국회 제393회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0394 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0394] 21대 394회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0394" ;
+    rico:includesOrIncluded nadat1:R100021039400151786 ;
+    rico:name "제21대국회 제394회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0395 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0395] 21대 395회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0395" ;
+    rico:includesOrIncluded nadat1:R100021039500151828 ;
+    rico:name "제21대국회 제395회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0396 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0396] 21대 396회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0396" ;
+    rico:includesOrIncluded nadat1:R100021039600151853 ;
+    rico:name "제21대국회 제396회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0397 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0397] 21대 397회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0397" ;
+    rico:includesOrIncluded nadat1:R100021039700151890,
+        nadat1:R100021039700251908 ;
+    rico:name "제21대국회 제397회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0398 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0398] 21대 398회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0398" ;
+    rico:includesOrIncluded nadat1:R100021039800152017 ;
+    rico:name "제21대국회 제398회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0399 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0399] 21대 399회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0399" ;
+    rico:includesOrIncluded nadat1:R100021039900152039,
+        nadat1:R100021039900252040,
+        nadat1:R100021039900352092 ;
+    rico:name "제21대국회 제399회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0400 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0400] 21대 400회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0400" ;
+    rico:includesOrIncluded nadat1:R100021040000152133,
+        nadat1:R100021040000252159,
+        nadat1:R100021040000352273,
+        nadat1:R100021040000452314,
+        nadat1:R100021040000552571 ;
+    rico:name "제21대국회 제400회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0402 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0402] 21대 402회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0402" ;
+    rico:includesOrIncluded nadat1:R100021040200152654 ;
+    rico:name "제21대국회 제402회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0403 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0403] 21대 403회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0403" ;
+    rico:includesOrIncluded nadat1:R100021040300152687,
+        nadat1:R100021040300252699,
+        nadat1:R100021040300352714 ;
+    rico:name "제21대국회 제403회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0404 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0404] 21대 404회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0404" ;
+    rico:includesOrIncluded nadat1:R100021040400152829 ;
+    rico:name "제21대국회 제404회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0405 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0405] 21대 405회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0405" ;
+    rico:includesOrIncluded nadat1:R100021040500152865 ;
+    rico:name "제21대국회 제405회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0406 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0406] 21대 406회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0406" ;
+    rico:includesOrIncluded nadat1:R100021040600152911,
+        nadat1:R100021040600252956 ;
+    rico:name "제21대국회 제406회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0408 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0408] 21대 408회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0408" ;
+    rico:includesOrIncluded nadat1:R100021040800153072,
+        nadat1:R100021040800253082 ;
+    rico:name "제21대국회 제408회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0409 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0409] 21대 409회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0409" ;
+    rico:includesOrIncluded nadat1:R100021040900153138,
+        nadat1:R100021040900253167 ;
+    rico:name "제21대국회 제409회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0410 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0410] 21대 410회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0410" ;
+    rico:includesOrIncluded nadat1:R100021041000153191,
+        nadat1:R100021041000253264,
+        nadat1:R100021041000353293,
+        nadat1:R100021041000453298,
+        nadat1:R100021041000553409,
+        nadat1:R100021041000653461,
+        nadat1:R100021041000753527,
+        nadat1:R100021041000853576,
+        nadat1:R100021041000953637 ;
+    rico:name "제21대국회 제410회 외교통일위원회 회의록"@ko .
+
+nadat1:RS100021-AG-0411 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AG-0411] 21대 411회 외교통일위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AG-0411" ;
+    rico:includesOrIncluded nadat1:R100021041100153739,
+        nadat1:R100021041100253758,
+        nadat1:R100021041100353765 ;
+    rico:name "제21대국회 제411회 외교통일위원회 회의록"@ko .
+
+nadat1:date-200629 rico:isDateOfOccurrenceOf nadat1:EV-M-50022 .
+
+nadat1:date-200714 rico:isDateOfOccurrenceOf nadat1:EV-M-50055 .
+
+nadat1:date-200723 rico:isDateOfOccurrenceOf nadat1:EV-M-50066 .
+
+nadat1:date-200724 rico:isDateOfOccurrenceOf nadat1:EV-M-50072 .
+
+nadat1:date-200803 rico:isDateOfOccurrenceOf nadat1:EV-M-50100 .
+
+nadat1:date-200825 rico:isDateOfOccurrenceOf nadat1:EV-M-50125 .
+
+nadat1:date-200831 rico:isDateOfOccurrenceOf nadat1:EV-M-50133 .
+
+nadat1:date-200922 rico:isDateOfOccurrenceOf nadat1:EV-M-50233 .
+
+nadat1:date-200925 a rico:Date ;
+    rico:expressedDate "2020년9월25일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-200925" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50256 ;
+    rico:name "date-200925" ;
+    rico:normalizedDateValue "2020-09-25"^^xsd:date .
+
+nadat1:date-200928 rico:isDateOfOccurrenceOf nadat1:EV-M-50260 .
+
+nadat1:date-201105 rico:isDateOfOccurrenceOf nadat1:EV-M-50372 .
+
+nadat1:date-201111 a rico:Date ;
+    rico:expressedDate "2020년11월11일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-201111" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50406 ;
+    rico:name "date-201111" ;
+    rico:normalizedDateValue "2020-11-11"^^xsd:date .
+
+nadat1:date-201126 rico:isDateOfOccurrenceOf nadat1:EV-M-50561 .
+
+nadat1:date-210205 rico:isDateOfOccurrenceOf nadat1:EV-M-50753 .
+
+nadat1:date-210208 rico:isDateOfOccurrenceOf nadat1:EV-M-50758 .
+
+nadat1:date-210218 rico:isDateOfOccurrenceOf nadat1:EV-M-50787 .
+
+nadat1:date-210222 rico:isDateOfOccurrenceOf nadat1:EV-M-50797 .
+
+nadat1:date-210225 rico:isDateOfOccurrenceOf nadat1:EV-M-50835 .
+
+nadat1:date-210420 rico:isDateOfOccurrenceOf nadat1:EV-M-50957 .
+
+nadat1:date-210528 a rico:Date ;
+    rico:expressedDate "2021년5월28일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210528" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51045 ;
+    rico:name "date-210528" ;
+    rico:normalizedDateValue "2021-05-28"^^xsd:date .
+
+nadat1:date-210622 rico:isDateOfOccurrenceOf nadat1:EV-M-51082 .
+
+nadat1:date-210629 rico:isDateOfOccurrenceOf nadat1:EV-M-51116 .
+
+nadat1:date-210812 a rico:Date ;
+    rico:expressedDate "2021년8월12일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210812" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51174 ;
+    rico:name "date-210812" ;
+    rico:normalizedDateValue "2021-08-12"^^xsd:date .
+
+nadat1:date-210823 rico:isDateOfOccurrenceOf nadat1:EV-M-51204 .
+
+nadat1:date-210907 rico:isDateOfOccurrenceOf nadat1:EV-M-51246 .
+
+nadat1:date-210910 a rico:Date ;
+    rico:expressedDate "2021년9월10일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210910" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51265 ;
+    rico:name "date-210910" ;
+    rico:normalizedDateValue "2021-09-10"^^xsd:date .
+
+nadat1:date-210915 rico:isDateOfOccurrenceOf nadat1:EV-M-51289 .
+
+nadat1:date-211006 rico:isDateOfOccurrenceOf nadat1:EV-M-51332 .
+
+nadat1:date-211111 rico:isDateOfOccurrenceOf nadat1:EV-M-51459 .
+
+nadat1:date-211119 a rico:Date ;
+    rico:expressedDate "2021년11월19일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-211119" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51523 ;
+    rico:name "date-211119" ;
+    rico:normalizedDateValue "2021-11-19"^^xsd:date .
+
+nadat1:date-220328 a rico:Date ;
+    rico:expressedDate "2022년3월28일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220328" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51786 ;
+    rico:name "date-220328" ;
+    rico:normalizedDateValue "2022-03-28"^^xsd:date .
+
+nadat1:date-220425 rico:isDateOfOccurrenceOf nadat1:EV-M-51828 .
+
+nadat1:date-220502 rico:isDateOfOccurrenceOf nadat1:EV-M-51853 .
+
+nadat1:date-220512 rico:isDateOfOccurrenceOf nadat1:EV-M-51890 .
+
+nadat1:date-220517 rico:isDateOfOccurrenceOf nadat1:EV-M-51908 .
+
+nadat1:date-220801 rico:isDateOfOccurrenceOf nadat1:EV-M-52017 .
+
+nadat1:date-220818 rico:isDateOfOccurrenceOf nadat1:EV-M-52039 .
+
+nadat1:date-220819 rico:isDateOfOccurrenceOf nadat1:EV-M-52040 .
+
+nadat1:date-220830 rico:isDateOfOccurrenceOf nadat1:EV-M-52092 .
+
+nadat1:date-220916 rico:isDateOfOccurrenceOf nadat1:EV-M-52133 .
+
+nadat1:date-220922 rico:isDateOfOccurrenceOf nadat1:EV-M-52159 .
+
+nadat1:date-221031 rico:isDateOfOccurrenceOf nadat1:EV-M-52273 .
+
+nadat1:date-221107 rico:isDateOfOccurrenceOf nadat1:EV-M-52314 .
+
+nadat1:date-230214 rico:isDateOfOccurrenceOf nadat1:EV-M-52687 .
+
+nadat1:date-230215 rico:isDateOfOccurrenceOf nadat1:EV-M-52699 .
+
+nadat1:date-230217 rico:isDateOfOccurrenceOf nadat1:EV-M-52714 .
+
+nadat1:date-230313 a rico:Date ;
+    rico:expressedDate "2023년3월13일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230313" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52829 ;
+    rico:name "date-230313" ;
+    rico:normalizedDateValue "2023-03-13"^^xsd:date .
+
+nadat1:date-230412 a rico:Date ;
+    rico:expressedDate "2023년4월12일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230412" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52865 ;
+    rico:name "date-230412" ;
+    rico:normalizedDateValue "2023-04-12"^^xsd:date .
+
+nadat1:date-230509 a rico:Date ;
+    rico:expressedDate "2023년5월9일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230509" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52911 ;
+    rico:name "date-230509" ;
+    rico:normalizedDateValue "2023-05-09"^^xsd:date .
+
+nadat1:date-230524 rico:isDateOfOccurrenceOf nadat1:EV-M-52956 .
+
+nadat1:date-230713 a rico:Date ;
+    rico:expressedDate "2023년7월13일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230713" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-53072 ;
+    rico:name "date-230713" ;
+    rico:normalizedDateValue "2023-07-13"^^xsd:date .
+
+nadat1:date-230721 a rico:Date ;
+    rico:expressedDate "2023년7월21일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230721" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-53082 ;
+    rico:name "date-230721" ;
+    rico:normalizedDateValue "2023-07-21"^^xsd:date .
+
+nadat1:date-230823 rico:isDateOfOccurrenceOf nadat1:EV-M-53138 .
+
+nadat1:date-230831 rico:isDateOfOccurrenceOf nadat1:EV-M-53167 .
+
+nadat1:date-230905 rico:isDateOfOccurrenceOf nadat1:EV-M-53191 .
+
+nadat1:date-230921 rico:isDateOfOccurrenceOf nadat1:EV-M-53264 .
+
+nadat1:date-231010 rico:isDateOfOccurrenceOf nadat1:EV-M-53293 .
+
+nadat1:date-231011 rico:isDateOfOccurrenceOf nadat1:EV-M-53298 .
+
+nadat1:date-231109 rico:isDateOfOccurrenceOf nadat1:EV-M-53409 .
+
+nadat1:date-231115 a rico:Date ;
+    rico:expressedDate "2023년11월15일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-231115" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-53461 ;
+    rico:name "date-231115" ;
+    rico:normalizedDateValue "2023-11-15"^^xsd:date .
+
+nadat1:date-231123 rico:isDateOfOccurrenceOf nadat1:EV-M-53527 .
+
+nadat1:date-231130 rico:isDateOfOccurrenceOf nadat1:EV-M-53576 .
+
+nadat1:date-231208 rico:isDateOfOccurrenceOf nadat1:EV-M-53637 .
+
+nadat1:date-231228 a rico:Date ;
+    rico:expressedDate "2023년12월28일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-231228" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-53739 ;
+    rico:name "date-231228" ;
+    rico:normalizedDateValue "2023-12-28"^^xsd:date .
+
+nadat1:date-240108 rico:isDateOfOccurrenceOf nadat1:EV-M-53758 .
+
+nadat1:EV-M-50011 a rico:Event ;
+    skos:prefLabel "[EV-M-50011] 제379회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-BM63269Y,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-PAO22428,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-ZA54991S,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-TMP-01247,
+        nadat2:PER-TMP-01248,
+        nadat2:PER-TMP-01249,
+        nadat2:PER-TMP-01250 ;
+    rico:identifier "EV-M-50011" ;
+    rico:name "제21대국회 제379회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-50022 a rico:Event ;
+    skos:prefLabel "[EV-M-50022] 제379회 제2차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0767470D,
+        nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-BM63269Y,
+        nadat2:PER-LM-PAO22428,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-TMP-00004,
+        nadat2:PER-TMP-00005,
+        nadat2:PER-TMP-00555,
+        nadat2:PER-TMP-01250,
+        nadat2:PER-TMP-01251 ;
+    rico:identifier "EV-M-50022" ;
+    rico:name "제21대국회 제379회 제2차 외교통일위원회"@ko .
+
+nadat1:EV-M-50055 a rico:Event ;
+    skos:prefLabel "[EV-M-50055] 제380회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PAO22428,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-X7I4680R,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZYP7962W ;
+    rico:identifier "EV-M-50055" ;
+    rico:name "제21대국회 제380회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-50066 a rico:Event ;
+    skos:prefLabel "[EV-M-50066] 제380회 제2차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0767470D,
+        nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-BM63269Y,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PAO22428,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-X7I4680R,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZA54991S,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-01247 ;
+    rico:identifier "EV-M-50066" ;
+    rico:name "제21대국회 제380회 제2차 외교통일위원회"@ko .
+
+nadat1:EV-M-50072 a rico:Event ;
+    skos:prefLabel "[EV-M-50072] 제380회 제3차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-PAO22428,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-ZYP7962W ;
+    rico:identifier "EV-M-50072" ;
+    rico:name "제21대국회 제380회 제3차 외교통일위원회"@ko .
+
+nadat1:EV-M-50100 a rico:Event ;
+    skos:prefLabel "[EV-M-50100] 제380회 제4차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-4019850M,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-BM63269Y,
+        nadat2:PER-LM-F5Y4026Q,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-PAO22428,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-X7I4680R,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZA54991S,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00555,
+        nadat2:PER-TMP-01247,
+        nadat2:PER-TMP-01252,
+        nadat2:PER-TMP-01253,
+        nadat2:PER-TMP-01254,
+        nadat2:PER-TMP-01255 ;
+    rico:identifier "EV-M-50100" ;
+    rico:name "제21대국회 제380회 제4차 외교통일위원회"@ko .
+
+nadat1:EV-M-50125 a rico:Event ;
+    skos:prefLabel "[EV-M-50125] 제381회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-BM63269Y,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PAO22428,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-X7I4680R,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZA54991S,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00004,
+        nadat2:PER-TMP-00030,
+        nadat2:PER-TMP-00555,
+        nadat2:PER-TMP-01123,
+        nadat2:PER-TMP-01247,
+        nadat2:PER-TMP-01250 ;
+    rico:identifier "EV-M-50125" ;
+    rico:name "제21대국회 제381회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-50133 a rico:Event ;
+    skos:prefLabel "[EV-M-50133] 제381회 제2차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-PAO22428,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-X7I4680R,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZA54991S,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00004,
+        nadat2:PER-TMP-01250 ;
+    rico:identifier "EV-M-50133" ;
+    rico:name "제21대국회 제381회 제2차 외교통일위원회"@ko .
+
+nadat1:EV-M-50233 a rico:Event ;
+    skos:prefLabel "[EV-M-50233] 제382회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-PAO22428,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-X7I4680R,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-01256 ;
+    rico:identifier "EV-M-50233" ;
+    rico:name "제21대국회 제382회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-50256 a rico:Event ;
+    skos:prefLabel "[EV-M-50256] 제382회 제2차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0767470D,
+        nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-BM63269Y,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-PAO22428,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZA54991S,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00004,
+        nadat2:PER-TMP-01247 ;
+    rico:identifier "EV-M-50256" ;
+    rico:name "제21대국회 제382회 제2차 외교통일위원회"@ko .
+
+nadat1:EV-M-50260 a rico:Event ;
+    skos:prefLabel "[EV-M-50260] 제382회 제3차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-BM63269Y,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-PAO22428,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-X7I4680R,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZA54991S,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00004,
+        nadat2:PER-TMP-00555,
+        nadat2:PER-TMP-01123,
+        nadat2:PER-TMP-01247 ;
+    rico:identifier "EV-M-50260" ;
+    rico:name "제21대국회 제382회 제3차 외교통일위원회"@ko .
+
+nadat1:EV-M-50372 a rico:Event ;
+    skos:prefLabel "[EV-M-50372] 제382회 제4차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3O66539X,
+        nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-BM63269Y,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PAO22428,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-X7I4680R,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZA54991S,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00004,
+        nadat2:PER-TMP-00005,
+        nadat2:PER-TMP-00030,
+        nadat2:PER-TMP-00555,
+        nadat2:PER-TMP-01123,
+        nadat2:PER-TMP-01247,
+        nadat2:PER-TMP-01250,
+        nadat2:PER-TMP-01257 ;
+    rico:identifier "EV-M-50372" ;
+    rico:name "제21대국회 제382회 제4차 외교통일위원회"@ko .
+
+nadat1:EV-M-50406 a rico:Event ;
+    skos:prefLabel "[EV-M-50406] 제382회 제5차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-PAO22428,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00030,
+        nadat2:PER-TMP-01250,
+        nadat2:PER-TMP-01258 ;
+    rico:identifier "EV-M-50406" ;
+    rico:name "제21대국회 제382회 제5차 외교통일위원회"@ko .
+
+nadat1:EV-M-50561 a rico:Event ;
+    skos:prefLabel "[EV-M-50561] 제382회 제6차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-PAO22428,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00555,
+        nadat2:PER-TMP-01123,
+        nadat2:PER-TMP-01256 ;
+    rico:identifier "EV-M-50561" ;
+    rico:name "제21대국회 제382회 제6차 외교통일위원회"@ko .
+
+nadat1:EV-M-50602 a rico:Event ;
+    skos:prefLabel "[EV-M-50602] 제382회 제7차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-BM63269Y,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-PAO22428,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-X7I4680R,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZA54991S,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00004,
+        nadat2:PER-TMP-01247 ;
+    rico:identifier "EV-M-50602" ;
+    rico:name "제21대국회 제382회 제7차 외교통일위원회"@ko .
+
+nadat1:EV-M-50742 a rico:Event ;
+    skos:prefLabel "[EV-M-50742] 제383회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-PAO22428,
+        nadat2:PER-LM-ZYP7962W ;
+    rico:identifier "EV-M-50742" ;
+    rico:name "제21대국회 제383회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-50753 a rico:Event ;
+    skos:prefLabel "[EV-M-50753] 제384회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0767470D,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PAO22428,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-X7I4680R,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZA54991S,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00026,
+        nadat2:PER-TMP-01247 ;
+    rico:identifier "EV-M-50753" ;
+    rico:name "제21대국회 제384회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-50758 a rico:Event ;
+    skos:prefLabel "[EV-M-50758] 제384회 제2차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-PAO22428,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-01247 ;
+    rico:identifier "EV-M-50758" ;
+    rico:name "제21대국회 제384회 제2차 외교통일위원회"@ko .
+
+nadat1:EV-M-50787 a rico:Event ;
+    skos:prefLabel "[EV-M-50787] 제384회 제3차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PAO22428,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-X7I4680R,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZA54991S,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00026,
+        nadat2:PER-TMP-00555,
+        nadat2:PER-TMP-01123,
+        nadat2:PER-TMP-01247,
+        nadat2:PER-TMP-01259 ;
+    rico:identifier "EV-M-50787" ;
+    rico:name "제21대국회 제384회 제3차 외교통일위원회"@ko .
+
+nadat1:EV-M-50797 a rico:Event ;
+    skos:prefLabel "[EV-M-50797] 제384회 제4차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-PAO22428,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-X7I4680R,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00026 ;
+    rico:identifier "EV-M-50797" ;
+    rico:name "제21대국회 제384회 제4차 외교통일위원회"@ko .
+
+nadat1:EV-M-50835 a rico:Event ;
+    skos:prefLabel "[EV-M-50835] 제384회 제5차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-PAO22428,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-TMP-01123 ;
+    rico:identifier "EV-M-50835" ;
+    rico:name "제21대국회 제384회 제5차 외교통일위원회"@ko .
+
+nadat1:EV-M-50957 a rico:Event ;
+    skos:prefLabel "[EV-M-50957] 제386회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZA54991S,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00026,
+        nadat2:PER-TMP-01247 ;
+    rico:identifier "EV-M-50957" ;
+    rico:name "제21대국회 제386회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-51045 a rico:Event ;
+    skos:prefLabel "[EV-M-51045] 제387회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00026,
+        nadat2:PER-TMP-01247 ;
+    rico:identifier "EV-M-51045" ;
+    rico:name "제21대국회 제387회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-51082 a rico:Event ;
+    skos:prefLabel "[EV-M-51082] 제388회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-CNZ51556,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZA54991S,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00030,
+        nadat2:PER-TMP-00555,
+        nadat2:PER-TMP-01123,
+        nadat2:PER-TMP-01247 ;
+    rico:identifier "EV-M-51082" ;
+    rico:name "제21대국회 제388회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-51116 a rico:Event ;
+    skos:prefLabel "[EV-M-51116] 제388회 제2차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00030 ;
+    rico:identifier "EV-M-51116" ;
+    rico:name "제21대국회 제388회 제2차 외교통일위원회"@ko .
+
+nadat1:EV-M-51174 a rico:Event ;
+    skos:prefLabel "[EV-M-51174] 제389회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-01260,
+        nadat2:PER-TMP-01261,
+        nadat2:PER-TMP-01262,
+        nadat2:PER-TMP-01263,
+        nadat2:PER-TMP-01264 ;
+    rico:identifier "EV-M-51174" ;
+    rico:name "제21대국회 제389회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-51204 a rico:Event ;
+    skos:prefLabel "[EV-M-51204] 제390회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00026,
+        nadat2:PER-TMP-01123,
+        nadat2:PER-TMP-01247 ;
+    rico:identifier "EV-M-51204" ;
+    rico:name "제21대국회 제390회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-51246 a rico:Event ;
+    skos:prefLabel "[EV-M-51246] 제391회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-4A067125,
+        nadat2:PER-LM-4X525582,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-8FC9697X,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00030,
+        nadat2:PER-TMP-00555,
+        nadat2:PER-TMP-01123,
+        nadat2:PER-TMP-01247,
+        nadat2:PER-TMP-01259 ;
+    rico:identifier "EV-M-51246" ;
+    rico:name "제21대국회 제391회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-51265 a rico:Event ;
+    skos:prefLabel "[EV-M-51265] 제391회 제2차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-4A067125,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00026,
+        nadat2:PER-TMP-01259 ;
+    rico:identifier "EV-M-51265" ;
+    rico:name "제21대국회 제391회 제2차 외교통일위원회"@ko .
+
+nadat1:EV-M-51289 a rico:Event ;
+    skos:prefLabel "[EV-M-51289] 제391회 제3차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-4A067125,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-ZYP7962W ;
+    rico:identifier "EV-M-51289" ;
+    rico:name "제21대국회 제391회 제3차 외교통일위원회"@ko .
+
+nadat1:EV-M-51332 a rico:Event ;
+    skos:prefLabel "[EV-M-51332] 제391회 제4차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-4A067125 ;
+    rico:identifier "EV-M-51332" ;
+    rico:name "제21대국회 제391회 제4차 외교통일위원회"@ko .
+
+nadat1:EV-M-51459 a rico:Event ;
+    skos:prefLabel "[EV-M-51459] 제391회 제5차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-4A067125,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-8FC9697X,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00026,
+        nadat2:PER-TMP-00555,
+        nadat2:PER-TMP-01123,
+        nadat2:PER-TMP-01259,
+        nadat2:PER-TMP-01265,
+        nadat2:PER-TMP-01266,
+        nadat2:PER-TMP-01267 ;
+    rico:identifier "EV-M-51459" ;
+    rico:name "제21대국회 제391회 제5차 외교통일위원회"@ko .
+
+nadat1:EV-M-51523 a rico:Event ;
+    skos:prefLabel "[EV-M-51523] 제391회 제6차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-4A067125,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-8FC9697X,
+        nadat2:PER-LM-KFS1358P,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-TMP-00026,
+        nadat2:PER-TMP-01259 ;
+    rico:identifier "EV-M-51523" ;
+    rico:name "제21대국회 제391회 제6차 외교통일위원회"@ko .
+
+nadat1:EV-M-51607 a rico:Event ;
+    skos:prefLabel "[EV-M-51607] 제391회 제7차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3O66539X,
+        nadat2:PER-LM-4A067125,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-TMP-00030,
+        nadat2:PER-TMP-01268 ;
+    rico:identifier "EV-M-51607" ;
+    rico:name "제21대국회 제391회 제7차 외교통일위원회"@ko .
+
+nadat1:EV-M-51777 a rico:Event ;
+    skos:prefLabel "[EV-M-51777] 제393회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-4A067125,
+        nadat2:PER-LM-8FC9697X,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00026,
+        nadat2:PER-TMP-01247 ;
+    rico:identifier "EV-M-51777" ;
+    rico:name "제21대국회 제393회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-51786 a rico:Event ;
+    skos:prefLabel "[EV-M-51786] 제394회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-4A067125,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-8FC9697X,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-MQU41854,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-X7I4680R,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00026 ;
+    rico:identifier "EV-M-51786" ;
+    rico:name "제21대국회 제394회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-51828 a rico:Event ;
+    skos:prefLabel "[EV-M-51828] 제395회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-4A067125,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-8FC9697X,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-TMP-01247 ;
+    rico:identifier "EV-M-51828" ;
+    rico:name "제21대국회 제395회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-51853 a rico:Event ;
+    skos:prefLabel "[EV-M-51853] 제396회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-8FC9697X,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-MQU41854,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-X7I4680R,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-01247 ;
+    rico:identifier "EV-M-51853" ;
+    rico:name "제21대국회 제396회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-51890 a rico:Event ;
+    skos:prefLabel "[EV-M-51890] 제397회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-8FC9697X,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-GDG1847Z,
+        nadat2:PER-LM-GP07421U,
+        nadat2:PER-LM-I434361W,
+        nadat2:PER-LM-LG63087O,
+        nadat2:PER-LM-MQU41854,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-X7I4680R,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-Y7K5946R,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-01247 ;
+    rico:identifier "EV-M-51890" ;
+    rico:name "제21대국회 제397회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-51908 a rico:Event ;
+    skos:prefLabel "[EV-M-51908] 제397회 제2차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-8FC9697X,
+        nadat2:PER-LM-LG63087O,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-QTW6852F,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-01123,
+        nadat2:PER-TMP-01269,
+        nadat2:PER-TMP-01270 ;
+    rico:identifier "EV-M-51908" ;
+    rico:name "제21대국회 제397회 제2차 외교통일위원회"@ko .
+
+nadat1:EV-M-52017 a rico:Event ;
+    skos:prefLabel "[EV-M-52017] 제398회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-16D7652C,
+        nadat2:PER-LM-4019850M,
+        nadat2:PER-LM-6YT83269,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-IN328264,
+        nadat2:PER-LM-LG63087O,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-WCD5518S,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZRF3039U,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-TMP-01257,
+        nadat2:PER-TMP-01265,
+        nadat2:PER-TMP-01269,
+        nadat2:PER-TMP-01271,
+        nadat2:PER-TMP-01272,
+        nadat2:PER-TMP-01273,
+        nadat2:PER-TMP-01274,
+        nadat2:PER-TMP-01275 ;
+    rico:identifier "EV-M-52017" ;
+    rico:name "제21대국회 제398회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-52039 a rico:Event ;
+    skos:prefLabel "[EV-M-52039] 제399회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-16D7652C,
+        nadat2:PER-LM-6YT83269,
+        nadat2:PER-LM-BLC8630L,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-IN328264,
+        nadat2:PER-LM-LG63087O,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-YOG1280B,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZRF3039U,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00098,
+        nadat2:PER-TMP-01065,
+        nadat2:PER-TMP-01257,
+        nadat2:PER-TMP-01269 ;
+    rico:identifier "EV-M-52039" ;
+    rico:name "제21대국회 제399회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-52040 a rico:Event ;
+    skos:prefLabel "[EV-M-52040] 제399회 제2차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-16D7652C,
+        nadat2:PER-LM-LG63087O,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-ZRF3039U,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-TMP-01269 ;
+    rico:identifier "EV-M-52040" ;
+    rico:name "제21대국회 제399회 제2차 외교통일위원회"@ko .
+
+nadat1:EV-M-52092 a rico:Event ;
+    skos:prefLabel "[EV-M-52092] 제399회 제3차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-16D7652C,
+        nadat2:PER-LM-4019850M,
+        nadat2:PER-LM-BLC8630L,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-ZRF3039U,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00996 ;
+    rico:identifier "EV-M-52092" ;
+    rico:name "제21대국회 제399회 제3차 외교통일위원회"@ko .
+
+nadat1:EV-M-52133 a rico:Event ;
+    skos:prefLabel "[EV-M-52133] 제400회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-16D7652C,
+        nadat2:PER-LM-4019850M,
+        nadat2:PER-LM-BLC8630L,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZRF3039U,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-TMP-00098 ;
+    rico:identifier "EV-M-52133" ;
+    rico:name "제21대국회 제400회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-52159 a rico:Event ;
+    skos:prefLabel "[EV-M-52159] 제400회 제2차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-16D7652C,
+        nadat2:PER-LM-4019850M,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZRF3039U,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00056 ;
+    rico:identifier "EV-M-52159" ;
+    rico:name "제21대국회 제400회 제2차 외교통일위원회"@ko .
+
+nadat1:EV-M-52273 a rico:Event ;
+    skos:prefLabel "[EV-M-52273] 제400회 제3차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-4019850M,
+        nadat2:PER-LM-6YT83269,
+        nadat2:PER-LM-BLC8630L,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-LG63087O,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-V0O5343U,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZRF3039U,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-TMP-00098,
+        nadat2:PER-TMP-01065,
+        nadat2:PER-TMP-01276 ;
+    rico:identifier "EV-M-52273" ;
+    rico:name "제21대국회 제400회 제3차 외교통일위원회"@ko .
+
+nadat1:EV-M-52314 a rico:Event ;
+    skos:prefLabel "[EV-M-52314] 제400회 제4차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-4019850M,
+        nadat2:PER-LM-6YT83269,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-IN328264,
+        nadat2:PER-LM-LG63087O,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZRF3039U,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00098,
+        nadat2:PER-TMP-01065,
+        nadat2:PER-TMP-01276 ;
+    rico:identifier "EV-M-52314" ;
+    rico:name "제21대국회 제400회 제4차 외교통일위원회"@ko .
+
+nadat1:EV-M-52571 a rico:Event ;
+    skos:prefLabel "[EV-M-52571] 제400회 제5차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-16D7652C,
+        nadat2:PER-LM-6YT83269,
+        nadat2:PER-LM-BLC8630L,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-LG63087O,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZRF3039U,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-TMP-00056,
+        nadat2:PER-TMP-01276 ;
+    rico:identifier "EV-M-52571" ;
+    rico:name "제21대국회 제400회 제5차 외교통일위원회"@ko .
+
+nadat1:EV-M-52654 a rico:Event ;
+    skos:prefLabel "[EV-M-52654] 제402회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-4019850M,
+        nadat2:PER-LM-6YT83269,
+        nadat2:PER-LM-BLC8630L,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-IN328264,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-V0O5343U,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZRF3039U,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00056,
+        nadat2:PER-TMP-00098,
+        nadat2:PER-TMP-00997,
+        nadat2:PER-TMP-01276,
+        nadat2:PER-TMP-01277 ;
+    rico:identifier "EV-M-52654" ;
+    rico:name "제21대국회 제402회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-52687 a rico:Event ;
+    skos:prefLabel "[EV-M-52687] 제403회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-P0F1530P ;
+    rico:identifier "EV-M-52687" ;
+    rico:name "제21대국회 제403회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-52699 a rico:Event ;
+    skos:prefLabel "[EV-M-52699] 제403회 제2차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-4019850M,
+        nadat2:PER-LM-BLC8630L,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-LG63087O,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00098,
+        nadat2:PER-TMP-01276,
+        nadat2:PER-TMP-01278 ;
+    rico:identifier "EV-M-52699" ;
+    rico:name "제21대국회 제403회 제2차 외교통일위원회"@ko .
+
+nadat1:EV-M-52714 a rico:Event ;
+    skos:prefLabel "[EV-M-52714] 제403회 제3차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6YT83269,
+        nadat2:PER-LM-LG63087O,
+        nadat2:PER-LM-MSY7784L,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-TMP-00996 ;
+    rico:identifier "EV-M-52714" ;
+    rico:name "제21대국회 제403회 제3차 외교통일위원회"@ko .
+
+nadat1:EV-M-52829 a rico:Event ;
+    skos:prefLabel "[EV-M-52829] 제404회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-16D7652C,
+        nadat2:PER-LM-4019850M,
+        nadat2:PER-LM-6YT83269,
+        nadat2:PER-LM-BLC8630L,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-IN328264,
+        nadat2:PER-LM-LG63087O,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-MSY7784L,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-V0O5343U,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00098,
+        nadat2:PER-TMP-00693,
+        nadat2:PER-TMP-01244,
+        nadat2:PER-TMP-01276,
+        nadat2:PER-TMP-01279 ;
+    rico:identifier "EV-M-52829" ;
+    rico:name "제21대국회 제404회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-52865 a rico:Event ;
+    skos:prefLabel "[EV-M-52865] 제405회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-MSY7784L,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-V0O5343U,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00098,
+        nadat2:PER-TMP-01278 ;
+    rico:identifier "EV-M-52865" ;
+    rico:name "제21대국회 제405회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-52911 a rico:Event ;
+    skos:prefLabel "[EV-M-52911] 제406회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-16D7652C,
+        nadat2:PER-LM-4019850M,
+        nadat2:PER-LM-6YT83269,
+        nadat2:PER-LM-BLC8630L,
+        nadat2:PER-LM-IN328264,
+        nadat2:PER-LM-LG63087O,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-MSY7784L,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-V0O5343U,
+        nadat2:PER-LM-YOG1280B,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00063,
+        nadat2:PER-TMP-00098,
+        nadat2:PER-TMP-01276,
+        nadat2:PER-TMP-01278 ;
+    rico:identifier "EV-M-52911" ;
+    rico:name "제21대국회 제406회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-52956 a rico:Event ;
+    skos:prefLabel "[EV-M-52956] 제406회 제2차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-16D7652C,
+        nadat2:PER-LM-4019850M,
+        nadat2:PER-LM-6YT83269,
+        nadat2:PER-LM-BLC8630L,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-LG63087O,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-MSY7784L,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-UQ282145,
+        nadat2:PER-LM-V0O5343U,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-01276 ;
+    rico:identifier "EV-M-52956" ;
+    rico:name "제21대국회 제406회 제2차 외교통일위원회"@ko .
+
+nadat1:EV-M-53072 a rico:Event ;
+    skos:prefLabel "[EV-M-53072] 제408회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-16D7652C,
+        nadat2:PER-LM-6YT83269,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-BLC8630L,
+        nadat2:PER-LM-BM63269Y,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-LG63087O,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-MSY7784L,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-V0O5343U,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-TMP-00063,
+        nadat2:PER-TMP-00078 ;
+    rico:identifier "EV-M-53072" ;
+    rico:name "제21대국회 제408회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-53082 a rico:Event ;
+    skos:prefLabel "[EV-M-53082] 제408회 제2차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-16D7652C,
+        nadat2:PER-LM-6YT83269,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-BLC8630L,
+        nadat2:PER-LM-BM63269Y,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-MSY7784L,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-V0O5343U,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-YOG1280B,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00633,
+        nadat2:PER-TMP-01280 ;
+    rico:identifier "EV-M-53082" ;
+    rico:name "제21대국회 제408회 제2차 외교통일위원회"@ko .
+
+nadat1:EV-M-53138 a rico:Event ;
+    skos:prefLabel "[EV-M-53138] 제409회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-16D7652C,
+        nadat2:PER-LM-6YT83269,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-BLC8630L,
+        nadat2:PER-LM-BM63269Y,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-IN328264,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-MSY7784L,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-V0O5343U,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00633,
+        nadat2:PER-TMP-01281 ;
+    rico:identifier "EV-M-53138" ;
+    rico:name "제21대국회 제409회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-53167 a rico:Event ;
+    skos:prefLabel "[EV-M-53167] 제409회 제2차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6YT83269,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-BM63269Y,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-01281 ;
+    rico:identifier "EV-M-53167" ;
+    rico:name "제21대국회 제409회 제2차 외교통일위원회"@ko .
+
+nadat1:EV-M-53191 a rico:Event ;
+    skos:prefLabel "[EV-M-53191] 제410회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-BM63269Y,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00078,
+        nadat2:PER-TMP-01276,
+        nadat2:PER-TMP-01281 ;
+    rico:identifier "EV-M-53191" ;
+    rico:name "제21대국회 제410회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-53264 a rico:Event ;
+    skos:prefLabel "[EV-M-53264] 제410회 제2차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6YT83269,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00063,
+        nadat2:PER-TMP-01282 ;
+    rico:identifier "EV-M-53264" ;
+    rico:name "제21대국회 제410회 제2차 외교통일위원회"@ko .
+
+nadat1:EV-M-53293 a rico:Event ;
+    skos:prefLabel "[EV-M-53293] 제410회 제3차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-P0F1530P ;
+    rico:identifier "EV-M-53293" ;
+    rico:name "제21대국회 제410회 제3차 외교통일위원회"@ko .
+
+nadat1:EV-M-53298 a rico:Event ;
+    skos:prefLabel "[EV-M-53298] 제410회 제4차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-P0F1530P ;
+    rico:identifier "EV-M-53298" ;
+    rico:name "제21대국회 제410회 제4차 외교통일위원회"@ko .
+
+nadat1:EV-M-53409 a rico:Event ;
+    skos:prefLabel "[EV-M-53409] 제410회 제5차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-16D7652C,
+        nadat2:PER-LM-6YT83269,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-BLC8630L,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00554,
+        nadat2:PER-TMP-01276,
+        nadat2:PER-TMP-01278,
+        nadat2:PER-TMP-01281,
+        nadat2:PER-TMP-01283,
+        nadat2:PER-TMP-01284 ;
+    rico:identifier "EV-M-53409" ;
+    rico:name "제21대국회 제410회 제5차 외교통일위원회"@ko .
+
+nadat1:EV-M-53461 a rico:Event ;
+    skos:prefLabel "[EV-M-53461] 제410회 제6차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-TMP-00063,
+        nadat2:PER-TMP-01276,
+        nadat2:PER-TMP-01281 ;
+    rico:identifier "EV-M-53461" ;
+    rico:name "제21대국회 제410회 제6차 외교통일위원회"@ko .
+
+nadat1:EV-M-53527 a rico:Event ;
+    skos:prefLabel "[EV-M-53527] 제410회 제7차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6YT83269,
+        nadat2:PER-LM-7BM2933Y,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-BLC8630L,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-MSY7784L,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00063 ;
+    rico:identifier "EV-M-53527" ;
+    rico:name "제21대국회 제410회 제7차 외교통일위원회"@ko .
+
+nadat1:EV-M-53576 a rico:Event ;
+    skos:prefLabel "[EV-M-53576] 제410회 제8차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6YT83269,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-BLC8630L,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-MSY7784L,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-ZKU88693 ;
+    rico:identifier "EV-M-53576" ;
+    rico:name "제21대국회 제410회 제8차 외교통일위원회"@ko .
+
+nadat1:EV-M-53637 a rico:Event ;
+    skos:prefLabel "[EV-M-53637] 제410회 제9차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6YT83269,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-TMP-00063,
+        nadat2:PER-TMP-00554 ;
+    rico:identifier "EV-M-53637" ;
+    rico:name "제21대국회 제410회 제9차 외교통일위원회"@ko .
+
+nadat1:EV-M-53739 a rico:Event ;
+    skos:prefLabel "[EV-M-53739] 제411회 제1차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-ZRF3039U ;
+    rico:identifier "EV-M-53739" ;
+    rico:name "제21대국회 제411회 제1차 외교통일위원회"@ko .
+
+nadat1:EV-M-53758 a rico:Event ;
+    skos:prefLabel "[EV-M-53758] 제411회 제2차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-0VU8517U,
+        nadat2:PER-LM-16D7652C,
+        nadat2:PER-LM-6YT83269,
+        nadat2:PER-LM-9JF4562W,
+        nadat2:PER-LM-BLC8630L,
+        nadat2:PER-LM-BM63269Y,
+        nadat2:PER-LM-I0S53762,
+        nadat2:PER-LM-IN328264,
+        nadat2:PER-LM-M0A1658U,
+        nadat2:PER-LM-NQR1206Q,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-PO64874I,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-UGH6481E,
+        nadat2:PER-LM-V0O5343U,
+        nadat2:PER-LM-XJC13432,
+        nadat2:PER-LM-YOG1280B,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-LM-ZYP7962W,
+        nadat2:PER-TMP-00079 ;
+    rico:identifier "EV-M-53758" ;
+    rico:name "제21대국회 제411회 제2차 외교통일위원회"@ko .
+
+nadat1:EV-M-53765 a rico:Event ;
+    skos:prefLabel "[EV-M-53765] 제411회 제3차 외교통일위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-P0F1530P ;
+    rico:identifier "EV-M-53765" ;
+    rico:name "제21대국회 제411회 제3차 외교통일위원회"@ko .
+
+nadat1:date-200616 rico:isDateOfOccurrenceOf nadat1:EV-M-50011 .
+
+nadat1:date-201202 rico:isDateOfOccurrenceOf nadat1:EV-M-50602 .
+
+nadat1:date-210127 rico:isDateOfOccurrenceOf nadat1:EV-M-50742 .
+
+nadat1:date-211201 rico:isDateOfOccurrenceOf nadat1:EV-M-51607 .
+
+nadat1:date-220225 rico:isDateOfOccurrenceOf nadat1:EV-M-51777 .
+
+nadat1:date-221205 a rico:Date ;
+    rico:expressedDate "2022년12월5일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-221205" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52571 ;
+    rico:name "date-221205" ;
+    rico:normalizedDateValue "2022-12-05"^^xsd:date .
+
+nadat1:date-230117 a rico:Date ;
+    rico:expressedDate "2023년1월17일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230117" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52654 ;
+    rico:name "date-230117" ;
+    rico:normalizedDateValue "2023-01-17"^^xsd:date .
+
+nadat1:date-240109 rico:isDateOfOccurrenceOf nadat1:EV-M-53765 .
+
+nadat1:INS-AG-50011_50602-01 a rico:Instantiation ;
+    dcterms:coverage "2020-06-16/2020-12-02" ;
+    skos:prefLabel "[INS-AG-50011_50602-01] 2020-2 외교통일위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-200616 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-201202 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-50011_50602-01" ;
+    rico:title "2020-2 외교통일위원회 보존회의록"@ko .
+
+nadat1:INS-AG-51777_52571-01 a rico:Instantiation ;
+    dcterms:coverage "2022-02-25/2022-12-05" ;
+    skos:prefLabel "[INS-AG-51777_52571-01] 2022 외교통일위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-220225 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-221205 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-51777_52571-01" ;
+    rico:title "2022 외교통일위원회 보존회의록"@ko .
+
+nadat1:INS-AG-50742_51607-01 a rico:Instantiation ;
+    dcterms:coverage "2021-01-27/2021-12-01" ;
+    skos:prefLabel "[INS-AG-50742_51607-01] 2021 외교통일위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-210127 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-211201 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-50742_51607-01" ;
+    rico:title "2021 외교통일위원회 보존회의록"@ko .
+
+nadat1:INS-AG-52654_53765-01 a rico:Instantiation ;
+    dcterms:coverage "2023-01-17/2024-01-09" ;
+    skos:prefLabel "[INS-AG-52654_53765-01] 2023 외교통일위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-230117 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-240109 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AG-52654_53765-01" ;
+    rico:title "2023 외교통일위원회 보존회의록"@ko .
+
+
+
+
+
+
+
