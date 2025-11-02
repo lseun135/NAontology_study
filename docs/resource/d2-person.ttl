@@ -33169,3 +33169,15 @@ nadat2:PER-TMP-01383 a foaf:Person ;
 	nam2:isInAStateOf nam2:Provisional .
 
 
+
+
+nadat2:PER-TMP-01384 a foaf:Person ;
+	rdfs:label "이은희"@ko ;
+	foaf:name "이은희"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01385 a foaf:Person ;
+	rdfs:label "김남우"@ko ;
+	foaf:name "김남우"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
