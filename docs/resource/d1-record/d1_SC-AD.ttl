@@ -29,3 +29,4581 @@
 
 
 
+
+
+
+nadat1:RS100021 rico:includesOrIncluded nadat1:RS100021-AD .
+
+nadat1:ACT-M-50013-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50013-002] 제379회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50013-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50013 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제379회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-50044-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50044-002] 제379회 제2차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50044-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50044 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제379회 제2차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-50073-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50073-002] 제380회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50073-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50073 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제380회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-50077-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50077-002] 제380회 제2차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50077-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50077 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제380회 제2차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-50104-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50104-002] 제380회 제3차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50104-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50104 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제380회 제3차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-50105-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50105-002] 제381회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50105-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50105 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제381회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-50107-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50107-002] 제381회 제2차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50107-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50107 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제381회 제2차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-50120-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50120-002] 제381회 제3차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50120-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50120 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제381회 제3차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-50144-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50144-002] 제382회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50144-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50144 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제382회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-50206-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50206-002] 제382회 제2차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50206-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50206 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제382회 제2차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-50225-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50225-002] 제382회 제3차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50225-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50225 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제382회 제3차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-50237-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50237-002] 제382회 제4차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50237-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50237 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제382회 제4차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-50288-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50288-002] 제382회 제5차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50288-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50288 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제382회 제5차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-50354-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50354-002] 제382회 제6차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50354-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50354 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제382회 제6차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-50382-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50382-002] 제382회 제7차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50382-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50382 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제382회 제7차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-50622-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50622-002] 제382회 제8차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50622-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50622 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제382회 제8차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-50769-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50769-002] 제384회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50769-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50769 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제384회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-50780-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50780-002] 제384회 제2차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50780-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50780 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제384회 제2차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-50815-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50815-002] 제384회 제3차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50815-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50815 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제384회 제3차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-50836-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50836-002] 제384회 제4차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50836-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50836 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제384회 제4차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-50916-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50916-002] 제385회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50916-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50916 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제385회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-50964-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50964-002] 제386회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50964-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50964 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제386회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-50993-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-50993-002] 제386회 제2차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-50993-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-50993 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제386회 제2차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-51061-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51061-002] 제388회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51061-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51061 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제388회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-51094-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51094-002] 제388회 제2차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51094-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51094 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제388회 제2차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-51103-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51103-002] 제388회 제3차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51103-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51103 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제388회 제3차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-51135-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51135-002] 제389회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51135-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51135 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제389회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-51152-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51152-002] 제389회 제2차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51152-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51152 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제389회 제2차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-51178-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51178-002] 제390회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51178-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51178 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제390회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-51193-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51193-002] 제390회 제2차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51193-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51193 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제390회 제2차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-51214-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51214-002] 제390회 제3차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51214-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51214 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제390회 제3차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-51288-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51288-002] 제391회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51288-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51288 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제391회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-51431-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51431-002] 제391회 제2차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51431-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51431 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제391회 제2차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-51466-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51466-002] 제391회 제3차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51466-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51466 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제391회 제3차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-51602-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51602-002] 제391회 제4차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51602-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51602 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제391회 제4차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-51654-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51654-002] 제391회 제5차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51654-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51654 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제391회 제5차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-51727-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51727-002] 제392회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51727-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51727 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제392회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-51745-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51745-002] 제393회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51745-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51745 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제393회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-51802-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51802-002] 제395회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51802-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51802 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제395회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-51814-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51814-002] 제395회 제2차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51814-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51814 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제395회 제2차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-51819-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51819-002] 제395회 제3차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51819-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51819 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제395회 제3차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-51855-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51855-002] 제396회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51855-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51855 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제396회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-51869-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51869-002] 제397회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51869-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51869 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제397회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-51913-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-51913-002] 제397회 제2차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-51913-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-51913 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제397회 제2차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-52016-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52016-002] 제398회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52016-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52016 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제398회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-52079-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52079-002] 제399회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52079-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52079 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제399회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-52104-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52104-002] 제400회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52104-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52104 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제400회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-52131-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52131-002] 제400회 제2차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52131-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52131 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제400회 제2차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-52175-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52175-002] 제400회 제3차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52175-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52175 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제400회 제3차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-52207-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52207-002] 제400회 제4차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52207-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52207 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제400회 제4차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-52222-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52222-002] 제400회 제5차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52222-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52222 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제400회 제5차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-52347-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52347-002] 제400회 제6차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52347-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52347 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제400회 제6차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-52437-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52437-002] 제400회 제7차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52437-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52437 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제400회 제7차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-52506-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52506-002] 제400회 제8차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52506-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52506 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제400회 제8차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-52550-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52550-002] 제400회 제9차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52550-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52550 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제400회 제9차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-52633-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52633-002] 제401회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52633-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52633 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제401회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-52698-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52698-002] 제403회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52698-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52698 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제403회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-52738-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52738-002] 제403회 제2차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52738-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52738 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제403회 제2차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-52745-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52745-002] 제403회 제3차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52745-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52745 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제403회 제3차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-52765-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52765-002] 제404회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52765-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52765 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제404회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-52803-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52803-002] 제404회 제2차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52803-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52803 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제404회 제2차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-52872-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52872-002] 제405회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52872-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52872 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제405회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-52941-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-52941-002] 제406회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-52941-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-52941 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제406회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-53009-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53009-002] 제407회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53009-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53009 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제407회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-53055-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53055-002] 제407회 제2차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53055-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53055 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제407회 제2차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-53130-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53130-002] 제409회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53130-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53130 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제409회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-53136-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53136-002] 제409회 제2차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53136-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53136 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제409회 제2차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-53254-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53254-002] 제410회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53254-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53254 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제410회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-53771-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53771-002] 제411회 제4차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53771-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53771 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제411회 제4차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-53801-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53801-002] 제413회 제1차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53801-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53801 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제413회 제1차 기획재정위원회 심의"@ko .
+
+nadat1:ACT-M-53809-002 a rico:Activity ;
+    skos:prefLabel "[ACT-M-53809-002] 제413회 제2차 기획재정위원회 심의"@ko ;
+    rico:hasActivityType nam1:LJCReviewAction ;
+    rico:identifier "ACT-M-53809-002" ;
+    rico:isOrWasPartOf nadat1:EV-M-53809 ;
+    rico:isOrWasPerformedBy nadat2:CMIT-AD ;
+    rico:name "제413회 제2차 기획재정위원회 심의"@ko .
+
+nadat1:INS-AD-21037900150013-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21037900150013-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21037900150013-02" ;
+    rico:title "제379회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21037900250044-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21037900250044-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21037900250044-02" ;
+    rico:title "제379회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AD-21038000150073-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038000150073-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038000150073-02" ;
+    rico:title "제380회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21038000250077-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038000250077-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038000250077-02" ;
+    rico:title "제380회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AD-21038000350104-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038000350104-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038000350104-02" ;
+    rico:title "제380회국회 기획재정위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AD-21038100150105-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038100150105-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038100150105-02" ;
+    rico:title "제381회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21038100250107-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038100250107-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038100250107-02" ;
+    rico:title "제381회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AD-21038100350120-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038100350120-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038100350120-02" ;
+    rico:title "제381회국회 기획재정위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AD-21038200150144-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038200150144-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038200150144-02" ;
+    rico:title "제382회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21038200250206-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038200250206-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038200250206-02" ;
+    rico:title "제382회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AD-21038200350225-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038200350225-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038200350225-02" ;
+    rico:title "제382회국회 기획재정위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AD-21038200450237-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038200450237-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038200450237-02" ;
+    rico:title "제382회국회 기획재정위원회회의록 제 4 호"@ko .
+
+nadat1:INS-AD-21038200550288-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038200550288-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038200550288-02" ;
+    rico:title "제382회국회 기획재정위원회회의록 제 5 호"@ko .
+
+nadat1:INS-AD-21038200650354-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038200650354-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038200650354-02" ;
+    rico:title "제382회국회 기획재정위원회회의록 제 6 호"@ko .
+
+nadat1:INS-AD-21038200750382-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038200750382-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038200750382-02" ;
+    rico:title "제382회국회 기획재정위원회회의록 제 7 호"@ko .
+
+nadat1:INS-AD-21038200850622-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038200850622-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038200850622-02" ;
+    rico:title "제382회국회 기획재정위원회회의록 제 8 호"@ko .
+
+nadat1:INS-AD-21038400150769-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038400150769-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038400150769-02" ;
+    rico:title "제384회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21038400250780-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038400250780-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038400250780-02" ;
+    rico:title "제384회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AD-21038400350815-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038400350815-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038400350815-02" ;
+    rico:title "제384회국회 기획재정위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AD-21038400450836-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038400450836-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038400450836-02" ;
+    rico:title "제384회국회 기획재정위원회회의록 제 4 호"@ko .
+
+nadat1:INS-AD-21038500150916-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038500150916-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038500150916-02" ;
+    rico:title "제385회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21038600150964-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038600150964-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038600150964-02" ;
+    rico:title "제386회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21038600250993-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038600250993-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038600250993-02" ;
+    rico:title "제386회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AD-21038800151061-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038800151061-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038800151061-02" ;
+    rico:title "제388회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21038800251094-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038800251094-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038800251094-02" ;
+    rico:title "제388회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AD-21038800351103-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038800351103-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038800351103-02" ;
+    rico:title "제388회국회 기획재정위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AD-21038900151135-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038900151135-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038900151135-02" ;
+    rico:title "제389회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21038900251152-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21038900251152-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21038900251152-02" ;
+    rico:title "제389회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AD-21039000151178-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21039000151178-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21039000151178-02" ;
+    rico:title "제390회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21039000251193-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21039000251193-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21039000251193-02" ;
+    rico:title "제390회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AD-21039000351214-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21039000351214-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21039000351214-02" ;
+    rico:title "제390회국회 기획재정위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AD-21039100151288-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21039100151288-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21039100151288-02" ;
+    rico:title "제391회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21039100251431-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21039100251431-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21039100251431-02" ;
+    rico:title "제391회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AD-21039100351466-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21039100351466-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21039100351466-02" ;
+    rico:title "제391회국회 기획재정위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AD-21039100451602-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21039100451602-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21039100451602-02" ;
+    rico:title "제391회국회 기획재정위원회회의록 제 4 호"@ko .
+
+nadat1:INS-AD-21039100551654-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21039100551654-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21039100551654-02" ;
+    rico:title "제391회국회 기획재정위원회회의록 제 5 호"@ko .
+
+nadat1:INS-AD-21039200151727-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21039200151727-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21039200151727-02" ;
+    rico:title "제392회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21039300151745-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21039300151745-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21039300151745-02" ;
+    rico:title "제393회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21039500151802-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21039500151802-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21039500151802-02" ;
+    rico:title "제395회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21039500251814-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21039500251814-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21039500251814-02" ;
+    rico:title "제395회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AD-21039500351819-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21039500351819-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21039500351819-02" ;
+    rico:title "제395회국회 기획재정위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AD-21039600151855-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21039600151855-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21039600151855-02" ;
+    rico:title "제396회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21039700151869-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21039700151869-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21039700151869-02" ;
+    rico:title "제397회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21039700251913-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21039700251913-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21039700251913-02" ;
+    rico:title "제397회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AD-21039800152016-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21039800152016-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21039800152016-02" ;
+    rico:title "제398회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21039900152079-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21039900152079-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21039900152079-02" ;
+    rico:title "제399회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21040000152104-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21040000152104-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21040000152104-02" ;
+    rico:title "제400회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21040000252131-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21040000252131-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21040000252131-02" ;
+    rico:title "제400회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AD-21040000352175-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21040000352175-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21040000352175-02" ;
+    rico:title "제400회국회 기획재정위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AD-21040000452207-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21040000452207-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21040000452207-02" ;
+    rico:title "제400회국회 기획재정위원회회의록 제 4 호"@ko .
+
+nadat1:INS-AD-21040000552222-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21040000552222-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21040000552222-02" ;
+    rico:title "제400회국회 기획재정위원회회의록 제 5 호"@ko .
+
+nadat1:INS-AD-21040000652347-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21040000652347-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21040000652347-02" ;
+    rico:title "제400회국회 기획재정위원회회의록 제 6 호"@ko .
+
+nadat1:INS-AD-21040000752437-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21040000752437-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21040000752437-02" ;
+    rico:title "제400회국회 기획재정위원회회의록 제 7 호"@ko .
+
+nadat1:INS-AD-21040000852506-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21040000852506-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21040000852506-02" ;
+    rico:title "제400회국회 기획재정위원회회의록 제 8 호"@ko .
+
+nadat1:INS-AD-21040000952550-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21040000952550-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21040000952550-02" ;
+    rico:title "제400회국회 기획재정위원회회의록 제 9 호"@ko .
+
+nadat1:INS-AD-21040100152633-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21040100152633-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21040100152633-02" ;
+    rico:title "제401회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21040300152698-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21040300152698-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21040300152698-02" ;
+    rico:title "제403회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21040300252738-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21040300252738-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21040300252738-02" ;
+    rico:title "제403회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AD-21040300352745-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21040300352745-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21040300352745-02" ;
+    rico:title "제403회국회 기획재정위원회회의록 제 3 호"@ko .
+
+nadat1:INS-AD-21040400152765-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21040400152765-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21040400152765-02" ;
+    rico:title "제404회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21040400252803-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21040400252803-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21040400252803-02" ;
+    rico:title "제404회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AD-21040500152872-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21040500152872-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21040500152872-02" ;
+    rico:title "제405회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21040600152941-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21040600152941-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21040600152941-02" ;
+    rico:title "제406회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21040700153009-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21040700153009-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21040700153009-02" ;
+    rico:title "제407회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21040700253055-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21040700253055-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21040700253055-02" ;
+    rico:title "제407회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AD-21040900153130-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21040900153130-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21040900153130-02" ;
+    rico:title "제409회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21040900253136-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21040900253136-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21040900253136-02" ;
+    rico:title "제409회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:INS-AD-21041000153254-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21041000153254-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21041000153254-02" ;
+    rico:title "제410회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21041100453771-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21041100453771-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21041100453771-02" ;
+    rico:title "제411회국회 기획재정위원회회의록 제 4 호"@ko .
+
+nadat1:INS-AD-21041300153801-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21041300153801-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21041300153801-02" ;
+    rico:title "제413회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:INS-AD-21041300253809-02 a rico:Instantiation ;
+    skos:prefLabel "[INS-AD-21041300253809-02] 기획재정위원회 전자회의록"@ko ;
+    rico:conditionsOfAccess "공개(대국민 열람 가능)"@ko ;
+    rico:conditionsOfUse "공공누리 제3유형 (출처표시 + 변경금지) 조건에 따라 자유롭게 이용이 가능합니다."@ko ;
+    rico:hasCarrierType nam1:DigitalFile ;
+    rico:hasOrHadManager nadat2:NAS-0002-0001 ;
+    rico:hasProductionTechniqueType nam1:DigitalCreation ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-21041300253809-02" ;
+    rico:title "제413회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:R100021037900150013 a rico:Record ;
+    skos:prefLabel "[R100021037900150013] 21대 379회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50013-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200617 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21037900150013-02,
+        nadat1:INS-AD-50013_50622-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021037900150013" ;
+    rico:title "제379회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021037900250044 a rico:Record ;
+    skos:prefLabel "[R100021037900250044] 21대 379회 2차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50044-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200629 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21037900250044-02,
+        nadat1:INS-AD-50013_50622-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021037900250044" ;
+    rico:title "제379회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:R100021038000150073 a rico:Record ;
+    skos:prefLabel "[R100021038000150073] 21대 380회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50073-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200727 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038000150073-02,
+        nadat1:INS-AD-50013_50622-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038000150073" ;
+    rico:title "제380회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038000250077 a rico:Record ;
+    skos:prefLabel "[R100021038000250077] 21대 380회 2차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50077-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200728 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038000250077-02,
+        nadat1:INS-AD-50013_50622-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038000250077" ;
+    rico:title "제380회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:R100021038000350104 a rico:Record ;
+    skos:prefLabel "[R100021038000350104] 21대 380회 3차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50104-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200813 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038000350104-02,
+        nadat1:INS-AD-50013_50622-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038000350104" ;
+    rico:title "제380회국회 기획재정위원회회의록 제 3 호"@ko .
+
+nadat1:R100021038100150105 a rico:Record ;
+    skos:prefLabel "[R100021038100150105] 21대 381회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50105-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200819 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038100150105-02,
+        nadat1:INS-AD-50013_50622-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038100150105" ;
+    rico:title "제381회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038100250107 a rico:Record ;
+    skos:prefLabel "[R100021038100250107] 21대 381회 2차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50107-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200820 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038100250107-02,
+        nadat1:INS-AD-50013_50622-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038100250107" ;
+    rico:title "제381회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:R100021038100350120 a rico:Record ;
+    skos:prefLabel "[R100021038100350120] 21대 381회 3차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50120-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200824 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038100350120-02,
+        nadat1:INS-AD-50013_50622-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038100350120" ;
+    rico:title "제381회국회 기획재정위원회회의록 제 3 호"@ko .
+
+nadat1:R100021038200150144 a rico:Record ;
+    skos:prefLabel "[R100021038200150144] 21대 382회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50144-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200901 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038200150144-02,
+        nadat1:INS-AD-50013_50622-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200150144" ;
+    rico:title "제382회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038200250206 a rico:Record ;
+    skos:prefLabel "[R100021038200250206] 21대 382회 2차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50206-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200916 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038200250206-02,
+        nadat1:INS-AD-50013_50622-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200250206" ;
+    rico:title "제382회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:R100021038200350225 a rico:Record ;
+    skos:prefLabel "[R100021038200350225] 21대 382회 3차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50225-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200921 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038200350225-02,
+        nadat1:INS-AD-50013_50622-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200350225" ;
+    rico:title "제382회국회 기획재정위원회회의록 제 3 호"@ko .
+
+nadat1:R100021038200450237 a rico:Record ;
+    skos:prefLabel "[R100021038200450237] 21대 382회 4차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50237-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-200923 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038200450237-02,
+        nadat1:INS-AD-50013_50622-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200450237" ;
+    rico:title "제382회국회 기획재정위원회회의록 제 4 호"@ko .
+
+nadat1:R100021038200550288 a rico:Record ;
+    skos:prefLabel "[R100021038200550288] 21대 382회 5차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50288-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201014 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038200550288-02,
+        nadat1:INS-AD-50013_50622-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200550288" ;
+    rico:title "제382회국회 기획재정위원회회의록 제 5 호"@ko .
+
+nadat1:R100021038200650354 a rico:Record ;
+    skos:prefLabel "[R100021038200650354] 21대 382회 6차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50354-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201103 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038200650354-02,
+        nadat1:INS-AD-50013_50622-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200650354" ;
+    rico:title "제382회국회 기획재정위원회회의록 제 6 호"@ko .
+
+nadat1:R100021038200750382 a rico:Record ;
+    skos:prefLabel "[R100021038200750382] 21대 382회 7차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50382-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201106 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038200750382-02,
+        nadat1:INS-AD-50013_50622-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200750382" ;
+    rico:title "제382회국회 기획재정위원회회의록 제 7 호"@ko .
+
+nadat1:R100021038200850622 a rico:Record ;
+    skos:prefLabel "[R100021038200850622] 21대 382회 8차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50622-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-201130 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038200850622-02,
+        nadat1:INS-AD-50013_50622-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038200850622" ;
+    rico:title "제382회국회 기획재정위원회회의록 제 8 호"@ko .
+
+nadat1:R100021038400150769 a rico:Record ;
+    skos:prefLabel "[R100021038400150769] 21대 384회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50769-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210216 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038400150769-02,
+        nadat1:INS-AD-50769_51654-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038400150769" ;
+    rico:title "제384회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038400250780 a rico:Record ;
+    skos:prefLabel "[R100021038400250780] 21대 384회 2차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50780-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210219 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038400250780-02,
+        nadat1:INS-AD-50769_51654-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038400250780" ;
+    rico:title "제384회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:R100021038400350815 a rico:Record ;
+    skos:prefLabel "[R100021038400350815] 21대 384회 3차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50815-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210223 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038400350815-02,
+        nadat1:INS-AD-50769_51654-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038400350815" ;
+    rico:title "제384회국회 기획재정위원회회의록 제 3 호"@ko .
+
+nadat1:R100021038400450836 a rico:Record ;
+    skos:prefLabel "[R100021038400450836] 21대 384회 4차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50836-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210225 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038400450836-02,
+        nadat1:INS-AD-50769_51654-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038400450836" ;
+    rico:title "제384회국회 기획재정위원회회의록 제 4 호"@ko .
+
+nadat1:R100021038500150916 a rico:Record ;
+    skos:prefLabel "[R100021038500150916] 21대 385회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50916-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210318 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038500150916-02,
+        nadat1:INS-AD-50769_51654-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038500150916" ;
+    rico:title "제385회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038600150964 a rico:Record ;
+    skos:prefLabel "[R100021038600150964] 21대 386회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50964-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210422 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038600150964-02,
+        nadat1:INS-AD-50769_51654-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038600150964" ;
+    rico:title "제386회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038600250993 a rico:Record ;
+    skos:prefLabel "[R100021038600250993] 21대 386회 2차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-50993-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210427 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038600250993-02,
+        nadat1:INS-AD-50769_51654-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038600250993" ;
+    rico:title "제386회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:R100021038800151061 a rico:Record ;
+    skos:prefLabel "[R100021038800151061] 21대 388회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51061-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210615 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038800151061-02,
+        nadat1:INS-AD-50769_51654-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038800151061" ;
+    rico:title "제388회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038800251094 a rico:Record ;
+    skos:prefLabel "[R100021038800251094] 21대 388회 2차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51094-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210623 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038800251094-02,
+        nadat1:INS-AD-50769_51654-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038800251094" ;
+    rico:title "제388회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:R100021038800351103 a rico:Record ;
+    skos:prefLabel "[R100021038800351103] 21대 388회 3차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51103-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210625 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038800351103-02,
+        nadat1:INS-AD-50769_51654-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038800351103" ;
+    rico:title "제388회국회 기획재정위원회회의록 제 3 호"@ko .
+
+nadat1:R100021038900151135 a rico:Record ;
+    skos:prefLabel "[R100021038900151135] 21대 389회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51135-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210713 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038900151135-02,
+        nadat1:INS-AD-50769_51654-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038900151135" ;
+    rico:title "제389회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021038900251152 a rico:Record ;
+    skos:prefLabel "[R100021038900251152] 21대 389회 2차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51152-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210716 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21038900251152-02,
+        nadat1:INS-AD-50769_51654-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021038900251152" ;
+    rico:title "제389회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:R100021039000151178 a rico:Record ;
+    skos:prefLabel "[R100021039000151178] 21대 390회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51178-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210817 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21039000151178-02,
+        nadat1:INS-AD-50769_51654-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039000151178" ;
+    rico:title "제390회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039000251193 a rico:Record ;
+    skos:prefLabel "[R100021039000251193] 21대 390회 2차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51193-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210819 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21039000251193-02,
+        nadat1:INS-AD-50769_51654-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039000251193" ;
+    rico:title "제390회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:R100021039000351214 a rico:Record ;
+    skos:prefLabel "[R100021039000351214] 21대 390회 3차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51214-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210825 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21039000351214-02,
+        nadat1:INS-AD-50769_51654-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039000351214" ;
+    rico:title "제390회국회 기획재정위원회회의록 제 3 호"@ko .
+
+nadat1:R100021039100151288 a rico:Record ;
+    skos:prefLabel "[R100021039100151288] 21대 391회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51288-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-210915 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21039100151288-02,
+        nadat1:INS-AD-50769_51654-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100151288" ;
+    rico:title "제391회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039100251431 a rico:Record ;
+    skos:prefLabel "[R100021039100251431] 21대 391회 2차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51431-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-211108 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21039100251431-02,
+        nadat1:INS-AD-50769_51654-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100251431" ;
+    rico:title "제391회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:R100021039100351466 a rico:Record ;
+    skos:prefLabel "[R100021039100351466] 21대 391회 3차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51466-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-211111 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21039100351466-02,
+        nadat1:INS-AD-50769_51654-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100351466" ;
+    rico:title "제391회국회 기획재정위원회회의록 제 3 호"@ko .
+
+nadat1:R100021039100451602 a rico:Record ;
+    skos:prefLabel "[R100021039100451602] 21대 391회 4차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51602-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-211130 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21039100451602-02,
+        nadat1:INS-AD-50769_51654-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100451602" ;
+    rico:title "제391회국회 기획재정위원회회의록 제 4 호"@ko .
+
+nadat1:R100021039100551654 a rico:Record ;
+    skos:prefLabel "[R100021039100551654] 21대 391회 5차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51654-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-211208 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21039100551654-02,
+        nadat1:INS-AD-50769_51654-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039100551654" ;
+    rico:title "제391회국회 기획재정위원회회의록 제 5 호"@ko .
+
+nadat1:R100021039200151727 a rico:Record ;
+    skos:prefLabel "[R100021039200151727] 21대 392회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51727-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220105 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21039200151727-02,
+        nadat1:INS-AD-51727_52633-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039200151727" ;
+    rico:title "제392회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039300151745 a rico:Record ;
+    skos:prefLabel "[R100021039300151745] 21대 393회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51745-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220204 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21039300151745-02,
+        nadat1:INS-AD-51727_52633-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039300151745" ;
+    rico:title "제393회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039500151802 a rico:Record ;
+    skos:prefLabel "[R100021039500151802] 21대 395회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51802-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220412 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21039500151802-02,
+        nadat1:INS-AD-51727_52633-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039500151802" ;
+    rico:title "제395회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039500251814 a rico:Record ;
+    skos:prefLabel "[R100021039500251814] 21대 395회 2차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51814-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220419 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21039500251814-02,
+        nadat1:INS-AD-51727_52633-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039500251814" ;
+    rico:title "제395회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:R100021039500351819 a rico:Record ;
+    skos:prefLabel "[R100021039500351819] 21대 395회 3차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51819-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220421 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21039500351819-02,
+        nadat1:INS-AD-51727_52633-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039500351819" ;
+    rico:title "제395회국회 기획재정위원회회의록 제 3 호"@ko .
+
+nadat1:R100021039600151855 a rico:Record ;
+    skos:prefLabel "[R100021039600151855] 21대 396회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51855-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220502 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21039600151855-02,
+        nadat1:INS-AD-51727_52633-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039600151855" ;
+    rico:title "제396회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039700151869 a rico:Record ;
+    skos:prefLabel "[R100021039700151869] 21대 397회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51869-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220503 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21039700151869-02,
+        nadat1:INS-AD-51727_52633-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039700151869" ;
+    rico:title "제397회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039700251913 a rico:Record ;
+    skos:prefLabel "[R100021039700251913] 21대 397회 2차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-51913-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220517 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21039700251913-02,
+        nadat1:INS-AD-51727_52633-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039700251913" ;
+    rico:title "제397회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:R100021039800152016 a rico:Record ;
+    skos:prefLabel "[R100021039800152016] 21대 398회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52016-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220801 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21039800152016-02,
+        nadat1:INS-AD-51727_52633-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039800152016" ;
+    rico:title "제398회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021039900152079 a rico:Record ;
+    skos:prefLabel "[R100021039900152079] 21대 399회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52079-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220824 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21039900152079-02,
+        nadat1:INS-AD-51727_52633-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021039900152079" ;
+    rico:title "제399회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040000152104 a rico:Record ;
+    skos:prefLabel "[R100021040000152104] 21대 400회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52104-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220901 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21040000152104-02,
+        nadat1:INS-AD-51727_52633-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000152104" ;
+    rico:title "제400회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040000252131 a rico:Record ;
+    skos:prefLabel "[R100021040000252131] 21대 400회 2차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52131-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220915 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21040000252131-02,
+        nadat1:INS-AD-51727_52633-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000252131" ;
+    rico:title "제400회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:R100021040000352175 a rico:Record ;
+    skos:prefLabel "[R100021040000352175] 21대 400회 3차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52175-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-220926 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21040000352175-02,
+        nadat1:INS-AD-51727_52633-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000352175" ;
+    rico:title "제400회국회 기획재정위원회회의록 제 3 호"@ko .
+
+nadat1:R100021040000452207 a rico:Record ;
+    skos:prefLabel "[R100021040000452207] 21대 400회 4차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52207-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221012 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21040000452207-02,
+        nadat1:INS-AD-51727_52633-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000452207" ;
+    rico:title "제400회국회 기획재정위원회회의록 제 4 호"@ko .
+
+nadat1:R100021040000552222 a rico:Record ;
+    skos:prefLabel "[R100021040000552222] 21대 400회 5차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52222-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221017 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21040000552222-02,
+        nadat1:INS-AD-51727_52633-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000552222" ;
+    rico:title "제400회국회 기획재정위원회회의록 제 5 호"@ko .
+
+nadat1:R100021040000652347 a rico:Record ;
+    skos:prefLabel "[R100021040000652347] 21대 400회 6차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52347-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221109 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21040000652347-02,
+        nadat1:INS-AD-51727_52633-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000652347" ;
+    rico:title "제400회국회 기획재정위원회회의록 제 6 호"@ko .
+
+nadat1:R100021040000752437 a rico:Record ;
+    skos:prefLabel "[R100021040000752437] 21대 400회 7차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52437-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221118 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21040000752437-02,
+        nadat1:INS-AD-51727_52633-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000752437" ;
+    rico:title "제400회국회 기획재정위원회회의록 제 7 호"@ko .
+
+nadat1:R100021040000852506 a rico:Record ;
+    skos:prefLabel "[R100021040000852506] 21대 400회 8차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52506-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221124 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21040000852506-02,
+        nadat1:INS-AD-51727_52633-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000852506" ;
+    rico:title "제400회국회 기획재정위원회회의록 제 8 호"@ko .
+
+nadat1:R100021040000952550 a rico:Record ;
+    skos:prefLabel "[R100021040000952550] 21대 400회 9차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52550-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221201 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21040000952550-02,
+        nadat1:INS-AD-51727_52633-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040000952550" ;
+    rico:title "제400회국회 기획재정위원회회의록 제 9 호"@ko .
+
+nadat1:R100021040100152633 a rico:Record ;
+    skos:prefLabel "[R100021040100152633] 21대 401회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52633-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-221226 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21040100152633-02,
+        nadat1:INS-AD-51727_52633-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040100152633" ;
+    rico:title "제401회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040300152698 a rico:Record ;
+    skos:prefLabel "[R100021040300152698] 21대 403회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52698-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230214 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21040300152698-02,
+        nadat1:INS-AD-52698_53254-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040300152698" ;
+    rico:title "제403회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040300252738 a rico:Record ;
+    skos:prefLabel "[R100021040300252738] 21대 403회 2차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52738-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230221 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21040300252738-02,
+        nadat1:INS-AD-52698_53254-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040300252738" ;
+    rico:title "제403회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:R100021040300352745 a rico:Record ;
+    skos:prefLabel "[R100021040300352745] 21대 403회 3차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52745-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230222 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21040300352745-02,
+        nadat1:INS-AD-52698_53254-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040300352745" ;
+    rico:title "제403회국회 기획재정위원회회의록 제 3 호"@ko .
+
+nadat1:R100021040400152765 a rico:Record ;
+    skos:prefLabel "[R100021040400152765] 21대 404회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52765-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230314 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21040400152765-02,
+        nadat1:INS-AD-52698_53254-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040400152765" ;
+    rico:title "제404회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040400252803 a rico:Record ;
+    skos:prefLabel "[R100021040400252803] 21대 404회 2차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52803-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230322 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21040400252803-02,
+        nadat1:INS-AD-52698_53254-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040400252803" ;
+    rico:title "제404회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:R100021040500152872 a rico:Record ;
+    skos:prefLabel "[R100021040500152872] 21대 405회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52872-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230417 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21040500152872-02,
+        nadat1:INS-AD-52698_53254-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040500152872" ;
+    rico:title "제405회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040600152941 a rico:Record ;
+    skos:prefLabel "[R100021040600152941] 21대 406회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-52941-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230522 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21040600152941-02,
+        nadat1:INS-AD-52698_53254-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040600152941" ;
+    rico:title "제406회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040700153009 a rico:Record ;
+    skos:prefLabel "[R100021040700153009] 21대 407회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53009-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230620 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21040700153009-02,
+        nadat1:INS-AD-52698_53254-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040700153009" ;
+    rico:title "제407회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040700253055 a rico:Record ;
+    skos:prefLabel "[R100021040700253055] 21대 407회 2차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53055-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230705 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21040700253055-02,
+        nadat1:INS-AD-52698_53254-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040700253055" ;
+    rico:title "제407회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:R100021040900153130 a rico:Record ;
+    skos:prefLabel "[R100021040900153130] 21대 409회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53130-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230822 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21040900153130-02,
+        nadat1:INS-AD-52698_53254-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040900153130" ;
+    rico:title "제409회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021040900253136 a rico:Record ;
+    skos:prefLabel "[R100021040900253136] 21대 409회 2차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53136-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230824 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21040900253136-02,
+        nadat1:INS-AD-52698_53254-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021040900253136" ;
+    rico:title "제409회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:R100021041000153254 a rico:Record ;
+    skos:prefLabel "[R100021041000153254] 21대 410회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53254-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-230921 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21041000153254-02,
+        nadat1:INS-AD-52698_53254-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041000153254" ;
+    rico:title "제410회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021041100453771 a rico:Record ;
+    skos:prefLabel "[R100021041100453771] 21대 411회 4차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53771-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-240108 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21041100453771-02,
+        nadat1:INS-AD-53771_53809-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041100453771" ;
+    rico:title "제411회국회 기획재정위원회회의록 제 4 호"@ko .
+
+nadat1:R100021041300153801 a rico:Record ;
+    skos:prefLabel "[R100021041300153801] 21대 413회 1차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53801-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-240219 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21041300153801-02,
+        nadat1:INS-AD-53771_53809-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041300153801" ;
+    rico:title "제413회국회 기획재정위원회회의록 제 1 호"@ko .
+
+nadat1:R100021041300253809 a rico:Record ;
+    skos:prefLabel "[R100021041300253809] 21대 413회 2차 기획재정위원회 회의록"@ko ;
+    rico:documents nadat1:ACT-M-53809-002 ;
+    rico:hasContentOfType nam1:text ;
+    rico:hasCreationDate nadat1:date-240223 ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasDocumentaryFormType nam1:Minutes ;
+    rico:hasOrHadInstantiation nadat1:INS-AD-21041300253809-02,
+        nadat1:INS-AD-53771_53809-01 ;
+    rico:hasOrHadLanguage nam1:lang-kor ;
+    rico:identifier "R100021041300253809" ;
+    rico:title "제413회국회 기획재정위원회회의록 제 2 호"@ko .
+
+nadat1:RS100021-AD a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD] 21대 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD" ;
+    rico:includesOrIncluded nadat1:RS100021-AD-0379,
+        nadat1:RS100021-AD-0380,
+        nadat1:RS100021-AD-0381,
+        nadat1:RS100021-AD-0382,
+        nadat1:RS100021-AD-0384,
+        nadat1:RS100021-AD-0385,
+        nadat1:RS100021-AD-0386,
+        nadat1:RS100021-AD-0388,
+        nadat1:RS100021-AD-0389,
+        nadat1:RS100021-AD-0390,
+        nadat1:RS100021-AD-0391,
+        nadat1:RS100021-AD-0392,
+        nadat1:RS100021-AD-0393,
+        nadat1:RS100021-AD-0395,
+        nadat1:RS100021-AD-0396,
+        nadat1:RS100021-AD-0397,
+        nadat1:RS100021-AD-0398,
+        nadat1:RS100021-AD-0399,
+        nadat1:RS100021-AD-0400,
+        nadat1:RS100021-AD-0401,
+        nadat1:RS100021-AD-0403,
+        nadat1:RS100021-AD-0404,
+        nadat1:RS100021-AD-0405,
+        nadat1:RS100021-AD-0406,
+        nadat1:RS100021-AD-0407,
+        nadat1:RS100021-AD-0409,
+        nadat1:RS100021-AD-0410,
+        nadat1:RS100021-AD-0411,
+        nadat1:RS100021-AD-0413 ;
+    rico:name "제21대국회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0379 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0379] 21대 379회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0379" ;
+    rico:includesOrIncluded nadat1:R100021037900150013,
+        nadat1:R100021037900250044 ;
+    rico:name "제21대국회 제379회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0380 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0380] 21대 380회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0380" ;
+    rico:includesOrIncluded nadat1:R100021038000150073,
+        nadat1:R100021038000250077,
+        nadat1:R100021038000350104 ;
+    rico:name "제21대국회 제380회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0381 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0381] 21대 381회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0381" ;
+    rico:includesOrIncluded nadat1:R100021038100150105,
+        nadat1:R100021038100250107,
+        nadat1:R100021038100350120 ;
+    rico:name "제21대국회 제381회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0382 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0382] 21대 382회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0382" ;
+    rico:includesOrIncluded nadat1:R100021038200150144,
+        nadat1:R100021038200250206,
+        nadat1:R100021038200350225,
+        nadat1:R100021038200450237,
+        nadat1:R100021038200550288,
+        nadat1:R100021038200650354,
+        nadat1:R100021038200750382,
+        nadat1:R100021038200850622 ;
+    rico:name "제21대국회 제382회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0384 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0384] 21대 384회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0384" ;
+    rico:includesOrIncluded nadat1:R100021038400150769,
+        nadat1:R100021038400250780,
+        nadat1:R100021038400350815,
+        nadat1:R100021038400450836 ;
+    rico:name "제21대국회 제384회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0385 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0385] 21대 385회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0385" ;
+    rico:includesOrIncluded nadat1:R100021038500150916 ;
+    rico:name "제21대국회 제385회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0386 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0386] 21대 386회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0386" ;
+    rico:includesOrIncluded nadat1:R100021038600150964,
+        nadat1:R100021038600250993 ;
+    rico:name "제21대국회 제386회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0388 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0388] 21대 388회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0388" ;
+    rico:includesOrIncluded nadat1:R100021038800151061,
+        nadat1:R100021038800251094,
+        nadat1:R100021038800351103 ;
+    rico:name "제21대국회 제388회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0389 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0389] 21대 389회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0389" ;
+    rico:includesOrIncluded nadat1:R100021038900151135,
+        nadat1:R100021038900251152 ;
+    rico:name "제21대국회 제389회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0390 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0390] 21대 390회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0390" ;
+    rico:includesOrIncluded nadat1:R100021039000151178,
+        nadat1:R100021039000251193,
+        nadat1:R100021039000351214 ;
+    rico:name "제21대국회 제390회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0391 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0391] 21대 391회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0391" ;
+    rico:includesOrIncluded nadat1:R100021039100151288,
+        nadat1:R100021039100251431,
+        nadat1:R100021039100351466,
+        nadat1:R100021039100451602,
+        nadat1:R100021039100551654 ;
+    rico:name "제21대국회 제391회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0392 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0392] 21대 392회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0392" ;
+    rico:includesOrIncluded nadat1:R100021039200151727 ;
+    rico:name "제21대국회 제392회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0393 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0393] 21대 393회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0393" ;
+    rico:includesOrIncluded nadat1:R100021039300151745 ;
+    rico:name "제21대국회 제393회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0395 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0395] 21대 395회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0395" ;
+    rico:includesOrIncluded nadat1:R100021039500151802,
+        nadat1:R100021039500251814,
+        nadat1:R100021039500351819 ;
+    rico:name "제21대국회 제395회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0396 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0396] 21대 396회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0396" ;
+    rico:includesOrIncluded nadat1:R100021039600151855 ;
+    rico:name "제21대국회 제396회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0397 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0397] 21대 397회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0397" ;
+    rico:includesOrIncluded nadat1:R100021039700151869,
+        nadat1:R100021039700251913 ;
+    rico:name "제21대국회 제397회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0398 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0398] 21대 398회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0398" ;
+    rico:includesOrIncluded nadat1:R100021039800152016 ;
+    rico:name "제21대국회 제398회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0399 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0399] 21대 399회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0399" ;
+    rico:includesOrIncluded nadat1:R100021039900152079 ;
+    rico:name "제21대국회 제399회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0400 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0400] 21대 400회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0400" ;
+    rico:includesOrIncluded nadat1:R100021040000152104,
+        nadat1:R100021040000252131,
+        nadat1:R100021040000352175,
+        nadat1:R100021040000452207,
+        nadat1:R100021040000552222,
+        nadat1:R100021040000652347,
+        nadat1:R100021040000752437,
+        nadat1:R100021040000852506,
+        nadat1:R100021040000952550 ;
+    rico:name "제21대국회 제400회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0401 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0401] 21대 401회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0401" ;
+    rico:includesOrIncluded nadat1:R100021040100152633 ;
+    rico:name "제21대국회 제401회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0403 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0403] 21대 403회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0403" ;
+    rico:includesOrIncluded nadat1:R100021040300152698,
+        nadat1:R100021040300252738,
+        nadat1:R100021040300352745 ;
+    rico:name "제21대국회 제403회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0404 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0404] 21대 404회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0404" ;
+    rico:includesOrIncluded nadat1:R100021040400152765,
+        nadat1:R100021040400252803 ;
+    rico:name "제21대국회 제404회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0405 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0405] 21대 405회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0405" ;
+    rico:includesOrIncluded nadat1:R100021040500152872 ;
+    rico:name "제21대국회 제405회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0406 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0406] 21대 406회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0406" ;
+    rico:includesOrIncluded nadat1:R100021040600152941 ;
+    rico:name "제21대국회 제406회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0407 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0407] 21대 407회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0407" ;
+    rico:includesOrIncluded nadat1:R100021040700153009,
+        nadat1:R100021040700253055 ;
+    rico:name "제21대국회 제407회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0409 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0409] 21대 409회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0409" ;
+    rico:includesOrIncluded nadat1:R100021040900153130,
+        nadat1:R100021040900253136 ;
+    rico:name "제21대국회 제409회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0410 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0410] 21대 410회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0410" ;
+    rico:includesOrIncluded nadat1:R100021041000153254 ;
+    rico:name "제21대국회 제410회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0411 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0411] 21대 411회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0411" ;
+    rico:includesOrIncluded nadat1:R100021041100453771 ;
+    rico:name "제21대국회 제411회 기획재정위원회 회의록"@ko .
+
+nadat1:RS100021-AD-0413 a rico:RecordSet ;
+    skos:prefLabel "[RS100021-AD-0413] 21대 413회 기획재정위원회 회의록"@ko ;
+    rico:classification "A" ;
+    rico:identifier "RS100021-AD-0413" ;
+    rico:includesOrIncluded nadat1:R100021041300153801,
+        nadat1:R100021041300253809 ;
+    rico:name "제21대국회 제413회 기획재정위원회 회의록"@ko .
+
+nadat1:date-200629 rico:isDateOfOccurrenceOf nadat1:EV-M-50044 .
+
+nadat1:date-200727 a rico:Date ;
+    rico:expressedDate "2020년7월27일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-200727" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50073 ;
+    rico:name "date-200727" ;
+    rico:normalizedDateValue "2020-07-27"^^xsd:date .
+
+nadat1:date-200728 rico:isDateOfOccurrenceOf nadat1:EV-M-50077 .
+
+nadat1:date-200813 a rico:Date ;
+    rico:expressedDate "2020년8월13일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-200813" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50104 ;
+    rico:name "date-200813" ;
+    rico:normalizedDateValue "2020-08-13"^^xsd:date .
+
+nadat1:date-200819 a rico:Date ;
+    rico:expressedDate "2020년8월19일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-200819" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50105 ;
+    rico:name "date-200819" ;
+    rico:normalizedDateValue "2020-08-19"^^xsd:date .
+
+nadat1:date-200820 a rico:Date ;
+    rico:expressedDate "2020년8월20일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-200820" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50107 ;
+    rico:name "date-200820" ;
+    rico:normalizedDateValue "2020-08-20"^^xsd:date .
+
+nadat1:date-200824 a rico:Date ;
+    rico:expressedDate "2020년8월24일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-200824" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50120 ;
+    rico:name "date-200824" ;
+    rico:normalizedDateValue "2020-08-24"^^xsd:date .
+
+nadat1:date-200901 rico:isDateOfOccurrenceOf nadat1:EV-M-50144 .
+
+nadat1:date-200916 rico:isDateOfOccurrenceOf nadat1:EV-M-50206 .
+
+nadat1:date-200921 a rico:Date ;
+    rico:expressedDate "2020년9월21일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-200921" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50225 ;
+    rico:name "date-200921" ;
+    rico:normalizedDateValue "2020-09-21"^^xsd:date .
+
+nadat1:date-200923 rico:isDateOfOccurrenceOf nadat1:EV-M-50237 .
+
+nadat1:date-201014 a rico:Date ;
+    rico:expressedDate "2020년10월14일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-201014" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50288 ;
+    rico:name "date-201014" ;
+    rico:normalizedDateValue "2020-10-14"^^xsd:date .
+
+nadat1:date-201103 rico:isDateOfOccurrenceOf nadat1:EV-M-50354 .
+
+nadat1:date-201106 rico:isDateOfOccurrenceOf nadat1:EV-M-50382 .
+
+nadat1:date-210219 rico:isDateOfOccurrenceOf nadat1:EV-M-50780 .
+
+nadat1:date-210223 rico:isDateOfOccurrenceOf nadat1:EV-M-50815 .
+
+nadat1:date-210225 a rico:Date ;
+    rico:expressedDate "2021년2월25일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210225" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50836 ;
+    rico:name "date-210225" ;
+    rico:normalizedDateValue "2021-02-25"^^xsd:date .
+
+nadat1:date-210318 a rico:Date ;
+    rico:expressedDate "2021년3월18일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210318" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50916 ;
+    rico:name "date-210318" ;
+    rico:normalizedDateValue "2021-03-18"^^xsd:date .
+
+nadat1:date-210422 rico:isDateOfOccurrenceOf nadat1:EV-M-50964 .
+
+nadat1:date-210427 rico:isDateOfOccurrenceOf nadat1:EV-M-50993 .
+
+nadat1:date-210615 a rico:Date ;
+    rico:expressedDate "2021년6월15일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210615" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51061 ;
+    rico:name "date-210615" ;
+    rico:normalizedDateValue "2021-06-15"^^xsd:date .
+
+nadat1:date-210623 rico:isDateOfOccurrenceOf nadat1:EV-M-51094 .
+
+nadat1:date-210625 a rico:Date ;
+    rico:expressedDate "2021년6월25일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210625" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51103 ;
+    rico:name "date-210625" ;
+    rico:normalizedDateValue "2021-06-25"^^xsd:date .
+
+nadat1:date-210713 rico:isDateOfOccurrenceOf nadat1:EV-M-51135 .
+
+nadat1:date-210716 a rico:Date ;
+    rico:expressedDate "2021년7월16일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210716" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51152 ;
+    rico:name "date-210716" ;
+    rico:normalizedDateValue "2021-07-16"^^xsd:date .
+
+nadat1:date-210817 rico:isDateOfOccurrenceOf nadat1:EV-M-51178 .
+
+nadat1:date-210819 rico:isDateOfOccurrenceOf nadat1:EV-M-51193 .
+
+nadat1:date-210825 a rico:Date ;
+    rico:expressedDate "2021년8월25일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-210825" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51214 ;
+    rico:name "date-210825" ;
+    rico:normalizedDateValue "2021-08-25"^^xsd:date .
+
+nadat1:date-210915 rico:isDateOfOccurrenceOf nadat1:EV-M-51288 .
+
+nadat1:date-211108 a rico:Date ;
+    rico:expressedDate "2021년11월8일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-211108" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51431 ;
+    rico:name "date-211108" ;
+    rico:normalizedDateValue "2021-11-08"^^xsd:date .
+
+nadat1:date-211111 rico:isDateOfOccurrenceOf nadat1:EV-M-51466 .
+
+nadat1:date-211130 a rico:Date ;
+    rico:expressedDate "2021년11월30일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-211130" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51602 ;
+    rico:name "date-211130" ;
+    rico:normalizedDateValue "2021-11-30"^^xsd:date .
+
+nadat1:date-220204 a rico:Date ;
+    rico:expressedDate "2022년2월4일(금)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220204" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51745 ;
+    rico:name "date-220204" ;
+    rico:normalizedDateValue "2022-02-04"^^xsd:date .
+
+nadat1:date-220412 a rico:Date ;
+    rico:expressedDate "2022년4월12일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220412" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51802 ;
+    rico:name "date-220412" ;
+    rico:normalizedDateValue "2022-04-12"^^xsd:date .
+
+nadat1:date-220419 a rico:Date ;
+    rico:expressedDate "2022년4월19일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220419" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51814 ;
+    rico:name "date-220419" ;
+    rico:normalizedDateValue "2022-04-19"^^xsd:date .
+
+nadat1:date-220421 a rico:Date ;
+    rico:expressedDate "2022년4월21일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220421" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-51819 ;
+    rico:name "date-220421" ;
+    rico:normalizedDateValue "2022-04-21"^^xsd:date .
+
+nadat1:date-220502 rico:isDateOfOccurrenceOf nadat1:EV-M-51855 .
+
+nadat1:date-220503 rico:isDateOfOccurrenceOf nadat1:EV-M-51869 .
+
+nadat1:date-220517 rico:isDateOfOccurrenceOf nadat1:EV-M-51913 .
+
+nadat1:date-220801 rico:isDateOfOccurrenceOf nadat1:EV-M-52016 .
+
+nadat1:date-220824 rico:isDateOfOccurrenceOf nadat1:EV-M-52079 .
+
+nadat1:date-220901 rico:isDateOfOccurrenceOf nadat1:EV-M-52104 .
+
+nadat1:date-220915 a rico:Date ;
+    rico:expressedDate "2022년9월15일(목)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220915" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52131 ;
+    rico:name "date-220915" ;
+    rico:normalizedDateValue "2022-09-15"^^xsd:date .
+
+nadat1:date-220926 a rico:Date ;
+    rico:expressedDate "2022년9월26일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-220926" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52175 ;
+    rico:name "date-220926" ;
+    rico:normalizedDateValue "2022-09-26"^^xsd:date .
+
+nadat1:date-221012 rico:isDateOfOccurrenceOf nadat1:EV-M-52207 .
+
+nadat1:date-221017 rico:isDateOfOccurrenceOf nadat1:EV-M-52222 .
+
+nadat1:date-221109 rico:isDateOfOccurrenceOf nadat1:EV-M-52347 .
+
+nadat1:date-221118 rico:isDateOfOccurrenceOf nadat1:EV-M-52437 .
+
+nadat1:date-221124 rico:isDateOfOccurrenceOf nadat1:EV-M-52506 .
+
+nadat1:date-221201 rico:isDateOfOccurrenceOf nadat1:EV-M-52550 .
+
+nadat1:date-230221 a rico:Date ;
+    rico:expressedDate "2023년2월21일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230221" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52738 ;
+    rico:name "date-230221" ;
+    rico:normalizedDateValue "2023-02-21"^^xsd:date .
+
+nadat1:date-230222 rico:isDateOfOccurrenceOf nadat1:EV-M-52745 .
+
+nadat1:date-230314 a rico:Date ;
+    rico:expressedDate "2023년3월14일(화)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230314" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52765 ;
+    rico:name "date-230314" ;
+    rico:normalizedDateValue "2023-03-14"^^xsd:date .
+
+nadat1:date-230322 a rico:Date ;
+    rico:expressedDate "2023년3월22일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230322" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52803 ;
+    rico:name "date-230322" ;
+    rico:normalizedDateValue "2023-03-22"^^xsd:date .
+
+nadat1:date-230417 a rico:Date ;
+    rico:expressedDate "2023년4월17일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230417" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52872 ;
+    rico:name "date-230417" ;
+    rico:normalizedDateValue "2023-04-17"^^xsd:date .
+
+nadat1:date-230522 a rico:Date ;
+    rico:expressedDate "2023년5월22일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230522" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52941 ;
+    rico:name "date-230522" ;
+    rico:normalizedDateValue "2023-05-22"^^xsd:date .
+
+nadat1:date-230620 rico:isDateOfOccurrenceOf nadat1:EV-M-53009 .
+
+nadat1:date-230705 a rico:Date ;
+    rico:expressedDate "2023년7월5일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-230705" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-53055 ;
+    rico:name "date-230705" ;
+    rico:normalizedDateValue "2023-07-05"^^xsd:date .
+
+nadat1:date-230822 rico:isDateOfOccurrenceOf nadat1:EV-M-53130 .
+
+nadat1:date-230824 rico:isDateOfOccurrenceOf nadat1:EV-M-53136 .
+
+nadat1:date-240219 rico:isDateOfOccurrenceOf nadat1:EV-M-53801 .
+
+nadat1:EV-M-50013 a rico:Event ;
+    skos:prefLabel "[EV-M-50013] 제379회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-4A067125,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-CI15627C,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-FRN1867O,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-O0G3169T,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-V429892C,
+        nadat2:PER-LM-WHV3448W,
+        nadat2:PER-LM-XBT9550Q,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-TMP-00002,
+        nadat2:PER-TMP-00420,
+        nadat2:PER-TMP-00580,
+        nadat2:PER-TMP-00581 ;
+    rico:identifier "EV-M-50013" ;
+    rico:name "제21대국회 제379회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-50044 a rico:Event ;
+    skos:prefLabel "[EV-M-50044] 제379회 제2차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-4A067125,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-CI15627C,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-FRN1867O,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-V429892C,
+        nadat2:PER-LM-WHV3448W,
+        nadat2:PER-LM-XBT9550Q,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-TMP-00002,
+        nadat2:PER-TMP-00525,
+        nadat2:PER-TMP-00581,
+        nadat2:PER-TMP-00582,
+        nadat2:PER-TMP-00583,
+        nadat2:PER-TMP-00584,
+        nadat2:PER-TMP-00585 ;
+    rico:identifier "EV-M-50044" ;
+    rico:name "제21대국회 제379회 제2차 기획재정위원회"@ko .
+
+nadat1:EV-M-50073 a rico:Event ;
+    skos:prefLabel "[EV-M-50073] 제380회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-O7R5461J ;
+    rico:identifier "EV-M-50073" ;
+    rico:name "제21대국회 제380회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-50077 a rico:Event ;
+    skos:prefLabel "[EV-M-50077] 제380회 제2차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-4A067125,
+        nadat2:PER-LM-6U243644,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-CI15627C,
+        nadat2:PER-LM-CT85313K,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-FRN1867O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-IUL4848V,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-MR210505,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-TVF3669B,
+        nadat2:PER-LM-V429892C,
+        nadat2:PER-LM-WHV3448W,
+        nadat2:PER-LM-XBT9550Q,
+        nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-TMP-00002 ;
+    rico:identifier "EV-M-50077" ;
+    rico:name "제21대국회 제380회 제2차 기획재정위원회"@ko .
+
+nadat1:EV-M-50104 a rico:Event ;
+    skos:prefLabel "[EV-M-50104] 제380회 제3차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-TVF3669B ;
+    rico:identifier "EV-M-50104" ;
+    rico:name "제21대국회 제380회 제3차 기획재정위원회"@ko .
+
+nadat1:EV-M-50105 a rico:Event ;
+    skos:prefLabel "[EV-M-50105] 제381회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-4A067125,
+        nadat2:PER-LM-6U243644,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-CI15627C,
+        nadat2:PER-LM-CT85313K,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-FRN1867O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-IUL4848V,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-MR210505,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-TVF3669B,
+        nadat2:PER-LM-V429892C,
+        nadat2:PER-LM-WHV3448W,
+        nadat2:PER-LM-XBT9550Q,
+        nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-TMP-00586 ;
+    rico:identifier "EV-M-50105" ;
+    rico:name "제21대국회 제381회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-50107 a rico:Event ;
+    skos:prefLabel "[EV-M-50107] 제381회 제2차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-4A067125,
+        nadat2:PER-LM-6U243644,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-CI15627C,
+        nadat2:PER-LM-CT85313K,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-FRN1867O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-IUL4848V,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-MR210505,
+        nadat2:PER-LM-O0G3169T,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-TVF3669B,
+        nadat2:PER-LM-V429892C,
+        nadat2:PER-LM-WHV3448W,
+        nadat2:PER-LM-XBT9550Q,
+        nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-TMP-00002,
+        nadat2:PER-TMP-00420,
+        nadat2:PER-TMP-00554,
+        nadat2:PER-TMP-00581,
+        nadat2:PER-TMP-00582,
+        nadat2:PER-TMP-00583,
+        nadat2:PER-TMP-00584,
+        nadat2:PER-TMP-00586,
+        nadat2:PER-TMP-00587 ;
+    rico:identifier "EV-M-50107" ;
+    rico:name "제21대국회 제381회 제2차 기획재정위원회"@ko .
+
+nadat1:EV-M-50120 a rico:Event ;
+    skos:prefLabel "[EV-M-50120] 제381회 제3차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-4A067125,
+        nadat2:PER-LM-6U243644,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-CI15627C,
+        nadat2:PER-LM-CT85313K,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-FRN1867O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-IUL4848V,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-MR210505,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-TVF3669B,
+        nadat2:PER-LM-WHV3448W,
+        nadat2:PER-LM-XBT9550Q,
+        nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-TMP-00070,
+        nadat2:PER-TMP-00588,
+        nadat2:PER-TMP-00589,
+        nadat2:PER-TMP-00590,
+        nadat2:PER-TMP-00591,
+        nadat2:PER-TMP-00592,
+        nadat2:PER-TMP-00593,
+        nadat2:PER-TMP-00594 ;
+    rico:identifier "EV-M-50120" ;
+    rico:name "제21대국회 제381회 제3차 기획재정위원회"@ko .
+
+nadat1:EV-M-50144 a rico:Event ;
+    skos:prefLabel "[EV-M-50144] 제382회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-CT85313K,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-TMP-00002,
+        nadat2:PER-TMP-00582,
+        nadat2:PER-TMP-00583,
+        nadat2:PER-TMP-00584,
+        nadat2:PER-TMP-00586 ;
+    rico:identifier "EV-M-50144" ;
+    rico:name "제21대국회 제382회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-50206 a rico:Event ;
+    skos:prefLabel "[EV-M-50206] 제382회 제2차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-CT85313K,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-O0G3169T,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-TMP-00002 ;
+    rico:identifier "EV-M-50206" ;
+    rico:name "제21대국회 제382회 제2차 기획재정위원회"@ko .
+
+nadat1:EV-M-50225 a rico:Event ;
+    skos:prefLabel "[EV-M-50225] 제382회 제3차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-CT85313K,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-MR210505,
+        nadat2:PER-LM-O0G3169T,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-TVF3669B,
+        nadat2:PER-TMP-00002,
+        nadat2:PER-TMP-00587 ;
+    rico:identifier "EV-M-50225" ;
+    rico:name "제21대국회 제382회 제3차 기획재정위원회"@ko .
+
+nadat1:EV-M-50237 a rico:Event ;
+    skos:prefLabel "[EV-M-50237] 제382회 제4차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-TVF3669B,
+        nadat2:PER-LM-WHV3448W,
+        nadat2:PER-LM-XBT9550Q ;
+    rico:identifier "EV-M-50237" ;
+    rico:name "제21대국회 제382회 제4차 기획재정위원회"@ko .
+
+nadat1:EV-M-50288 a rico:Event ;
+    skos:prefLabel "[EV-M-50288] 제382회 제5차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-O7R5461J ;
+    rico:identifier "EV-M-50288" ;
+    rico:name "제21대국회 제382회 제5차 기획재정위원회"@ko .
+
+nadat1:EV-M-50354 a rico:Event ;
+    skos:prefLabel "[EV-M-50354] 제382회 제6차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6RP89579,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-CI15627C,
+        nadat2:PER-LM-CT85313K,
+        nadat2:PER-LM-FRN1867O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-IUL4848V,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-MR210505,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-TVF3669B,
+        nadat2:PER-LM-WHV3448W,
+        nadat2:PER-TMP-00002,
+        nadat2:PER-TMP-00420,
+        nadat2:PER-TMP-00554,
+        nadat2:PER-TMP-00582,
+        nadat2:PER-TMP-00584,
+        nadat2:PER-TMP-00586,
+        nadat2:PER-TMP-00587 ;
+    rico:identifier "EV-M-50354" ;
+    rico:name "제21대국회 제382회 제6차 기획재정위원회"@ko .
+
+nadat1:EV-M-50382 a rico:Event ;
+    skos:prefLabel "[EV-M-50382] 제382회 제7차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6RP89579,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-CI15627C,
+        nadat2:PER-LM-CT85313K,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-LNR7932L,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-SE233396,
+        nadat2:PER-LM-TVF3669B,
+        nadat2:PER-LM-WJL30106,
+        nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-TMP-00002,
+        nadat2:PER-TMP-00581,
+        nadat2:PER-TMP-00582,
+        nadat2:PER-TMP-00584,
+        nadat2:PER-TMP-00586 ;
+    rico:identifier "EV-M-50382" ;
+    rico:name "제21대국회 제382회 제7차 기획재정위원회"@ko .
+
+nadat1:EV-M-50622 a rico:Event ;
+    skos:prefLabel "[EV-M-50622] 제382회 제8차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-B7R2742J,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-IUL4848V,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-TMP-00002 ;
+    rico:identifier "EV-M-50622" ;
+    rico:name "제21대국회 제382회 제8차 기획재정위원회"@ko .
+
+nadat1:EV-M-50769 a rico:Event ;
+    skos:prefLabel "[EV-M-50769] 제384회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6RP89579,
+        nadat2:PER-LM-6U243644,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-CI15627C,
+        nadat2:PER-LM-CT85313K,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-IUL4848V,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-MR210505,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-TVF3669B,
+        nadat2:PER-LM-XBT9550Q,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-TMP-00002,
+        nadat2:PER-TMP-00431,
+        nadat2:PER-TMP-00581,
+        nadat2:PER-TMP-00582,
+        nadat2:PER-TMP-00586,
+        nadat2:PER-TMP-00587,
+        nadat2:PER-TMP-00595,
+        nadat2:PER-TMP-00596 ;
+    rico:identifier "EV-M-50769" ;
+    rico:name "제21대국회 제384회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-50780 a rico:Event ;
+    skos:prefLabel "[EV-M-50780] 제384회 제2차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-TMP-00002 ;
+    rico:identifier "EV-M-50780" ;
+    rico:name "제21대국회 제384회 제2차 기획재정위원회"@ko .
+
+nadat1:EV-M-50815 a rico:Event ;
+    skos:prefLabel "[EV-M-50815] 제384회 제3차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6U243644,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-CT85313K,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-IUL4848V,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-MR210505,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-TVF3669B,
+        nadat2:PER-LM-V429892C,
+        nadat2:PER-LM-WHV3448W,
+        nadat2:PER-LM-XBT9550Q,
+        nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-TMP-00070,
+        nadat2:PER-TMP-00588,
+        nadat2:PER-TMP-00591,
+        nadat2:PER-TMP-00592,
+        nadat2:PER-TMP-00593,
+        nadat2:PER-TMP-00597,
+        nadat2:PER-TMP-00598 ;
+    rico:identifier "EV-M-50815" ;
+    rico:name "제21대국회 제384회 제3차 기획재정위원회"@ko .
+
+nadat1:EV-M-50836 a rico:Event ;
+    skos:prefLabel "[EV-M-50836] 제384회 제4차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6U243644,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-CT85313K,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-IUL4848V,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-MR210505,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-TVF3669B,
+        nadat2:PER-LM-WHV3448W,
+        nadat2:PER-TMP-00599,
+        nadat2:PER-TMP-00600,
+        nadat2:PER-TMP-00601,
+        nadat2:PER-TMP-00602,
+        nadat2:PER-TMP-00603 ;
+    rico:identifier "EV-M-50836" ;
+    rico:name "제21대국회 제384회 제4차 기획재정위원회"@ko .
+
+nadat1:EV-M-50916 a rico:Event ;
+    skos:prefLabel "[EV-M-50916] 제385회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6U243644,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-CT85313K,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-IUL4848V,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-MR210505,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-TVF3669B,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-TMP-00002,
+        nadat2:PER-TMP-00420,
+        nadat2:PER-TMP-00581,
+        nadat2:PER-TMP-00587 ;
+    rico:identifier "EV-M-50916" ;
+    rico:name "제21대국회 제385회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-50964 a rico:Event ;
+    skos:prefLabel "[EV-M-50964] 제386회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-TMP-00002 ;
+    rico:identifier "EV-M-50964" ;
+    rico:name "제21대국회 제386회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-50993 a rico:Event ;
+    skos:prefLabel "[EV-M-50993] 제386회 제2차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6U243644,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-CI15627C,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-MR210505,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-TMP-00604,
+        nadat2:PER-TMP-00605,
+        nadat2:PER-TMP-00606,
+        nadat2:PER-TMP-00607,
+        nadat2:PER-TMP-00608 ;
+    rico:identifier "EV-M-50993" ;
+    rico:name "제21대국회 제386회 제2차 기획재정위원회"@ko .
+
+nadat1:EV-M-51061 a rico:Event ;
+    skos:prefLabel "[EV-M-51061] 제388회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-6U243644,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-CT85313K,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-IUL4848V,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-WHV3448W,
+        nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-TMP-00609,
+        nadat2:PER-TMP-00610,
+        nadat2:PER-TMP-00611,
+        nadat2:PER-TMP-00612 ;
+    rico:identifier "EV-M-51061" ;
+    rico:name "제21대국회 제388회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-51094 a rico:Event ;
+    skos:prefLabel "[EV-M-51094] 제388회 제2차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-CT85313K,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-MR210505,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-TMP-00002 ;
+    rico:identifier "EV-M-51094" ;
+    rico:name "제21대국회 제388회 제2차 기획재정위원회"@ko .
+
+nadat1:EV-M-51103 a rico:Event ;
+    skos:prefLabel "[EV-M-51103] 제388회 제3차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-IUL4848V,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-TVF3669B,
+        nadat2:PER-LM-XBT9550Q,
+        nadat2:PER-TMP-00002 ;
+    rico:identifier "EV-M-51103" ;
+    rico:name "제21대국회 제388회 제3차 기획재정위원회"@ko .
+
+nadat1:EV-M-51135 a rico:Event ;
+    skos:prefLabel "[EV-M-51135] 제389회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-6U243644,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-TVF3669B,
+        nadat2:PER-LM-XBT9550Q,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-TMP-00002,
+        nadat2:PER-TMP-00580,
+        nadat2:PER-TMP-00587,
+        nadat2:PER-TMP-00613 ;
+    rico:identifier "EV-M-51135" ;
+    rico:name "제21대국회 제389회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-51152 a rico:Event ;
+    skos:prefLabel "[EV-M-51152] 제389회 제2차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-6U243644,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-RPN2293B,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-TMP-00002,
+        nadat2:PER-TMP-00588 ;
+    rico:identifier "EV-M-51152" ;
+    rico:name "제21대국회 제389회 제2차 기획재정위원회"@ko .
+
+nadat1:EV-M-51178 a rico:Event ;
+    skos:prefLabel "[EV-M-51178] 제390회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-6RP89579,
+        nadat2:PER-LM-6U243644,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-IUL4848V,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-MR210505,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-WHV3448W,
+        nadat2:PER-LM-XBT9550Q,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-TMP-00053,
+        nadat2:PER-TMP-00103,
+        nadat2:PER-TMP-00586,
+        nadat2:PER-TMP-00587,
+        nadat2:PER-TMP-00596,
+        nadat2:PER-TMP-00613 ;
+    rico:identifier "EV-M-51178" ;
+    rico:name "제21대국회 제390회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-51193 a rico:Event ;
+    skos:prefLabel "[EV-M-51193] 제390회 제2차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-6RP89579,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-TMP-00103,
+        nadat2:PER-TMP-00586,
+        nadat2:PER-TMP-00596,
+        nadat2:PER-TMP-00613 ;
+    rico:identifier "EV-M-51193" ;
+    rico:name "제21대국회 제390회 제2차 기획재정위원회"@ko .
+
+nadat1:EV-M-51214 a rico:Event ;
+    skos:prefLabel "[EV-M-51214] 제390회 제3차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-ZKU88693,
+        nadat2:PER-TMP-00053,
+        nadat2:PER-TMP-00580,
+        nadat2:PER-TMP-00613 ;
+    rico:identifier "EV-M-51214" ;
+    rico:name "제21대국회 제390회 제3차 기획재정위원회"@ko .
+
+nadat1:EV-M-51288 a rico:Event ;
+    skos:prefLabel "[EV-M-51288] 제391회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-NZF1659U,
+        nadat2:PER-LM-O7R5461J ;
+    rico:identifier "EV-M-51288" ;
+    rico:name "제21대국회 제391회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-51431 a rico:Event ;
+    skos:prefLabel "[EV-M-51431] 제391회 제2차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-6RP89579,
+        nadat2:PER-LM-6U243644,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-CI15627C,
+        nadat2:PER-LM-CT85313K,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-MR210505,
+        nadat2:PER-LM-NZF1659U,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-WHV3448W,
+        nadat2:PER-LM-XBT9550Q,
+        nadat2:PER-TMP-00002,
+        nadat2:PER-TMP-00053,
+        nadat2:PER-TMP-00103,
+        nadat2:PER-TMP-00580,
+        nadat2:PER-TMP-00586,
+        nadat2:PER-TMP-00587,
+        nadat2:PER-TMP-00596,
+        nadat2:PER-TMP-00613 ;
+    rico:identifier "EV-M-51431" ;
+    rico:name "제21대국회 제391회 제2차 기획재정위원회"@ko .
+
+nadat1:EV-M-51466 a rico:Event ;
+    skos:prefLabel "[EV-M-51466] 제391회 제3차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-6RP89579,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-CT85313K,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-V429892C,
+        nadat2:PER-TMP-00002,
+        nadat2:PER-TMP-00103,
+        nadat2:PER-TMP-00586,
+        nadat2:PER-TMP-00596 ;
+    rico:identifier "EV-M-51466" ;
+    rico:name "제21대국회 제391회 제3차 기획재정위원회"@ko .
+
+nadat1:EV-M-51602 a rico:Event ;
+    skos:prefLabel "[EV-M-51602] 제391회 제4차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-WHV3448W,
+        nadat2:PER-TMP-00002 ;
+    rico:identifier "EV-M-51602" ;
+    rico:name "제21대국회 제391회 제4차 기획재정위원회"@ko .
+
+nadat1:EV-M-51654 a rico:Event ;
+    skos:prefLabel "[EV-M-51654] 제391회 제5차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-6U243644,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-CT85313K,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-NZF1659U,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-WHV3448W ;
+    rico:identifier "EV-M-51654" ;
+    rico:name "제21대국회 제391회 제5차 기획재정위원회"@ko .
+
+nadat1:EV-M-51727 a rico:Event ;
+    skos:prefLabel "[EV-M-51727] 제392회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-TMP-00002 ;
+    rico:identifier "EV-M-51727" ;
+    rico:name "제21대국회 제392회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-51745 a rico:Event ;
+    skos:prefLabel "[EV-M-51745] 제393회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-CI15627C,
+        nadat2:PER-LM-CT85313K,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-WHV3448W,
+        nadat2:PER-LM-XBT9550Q,
+        nadat2:PER-TMP-00002,
+        nadat2:PER-TMP-00587 ;
+    rico:identifier "EV-M-51745" ;
+    rico:name "제21대국회 제393회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-51802 a rico:Event ;
+    skos:prefLabel "[EV-M-51802] 제395회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-CT85313K,
+        nadat2:PER-LM-IL74008M,
+        nadat2:PER-LM-O7R5461J ;
+    rico:identifier "EV-M-51802" ;
+    rico:name "제21대국회 제395회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-51814 a rico:Event ;
+    skos:prefLabel "[EV-M-51814] 제395회 제2차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8SV6917G,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-CI15627C,
+        nadat2:PER-LM-CT85313K,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GDG1847Z,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-IL74008M,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-MR210505,
+        nadat2:PER-LM-NZF1659U,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-V429892C,
+        nadat2:PER-LM-VG24001G,
+        nadat2:PER-LM-XBT9550Q,
+        nadat2:PER-TMP-00614 ;
+    rico:identifier "EV-M-51814" ;
+    rico:name "제21대국회 제395회 제2차 기획재정위원회"@ko .
+
+nadat1:EV-M-51819 a rico:Event ;
+    skos:prefLabel "[EV-M-51819] 제395회 제3차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-O7R5461J ;
+    rico:identifier "EV-M-51819" ;
+    rico:name "제21대국회 제395회 제3차 기획재정위원회"@ko .
+
+nadat1:EV-M-51855 a rico:Event ;
+    skos:prefLabel "[EV-M-51855] 제396회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-CI15627C,
+        nadat2:PER-LM-CT85313K,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-IL74008M,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-MR210505,
+        nadat2:PER-LM-NZF1659U,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-S824682L,
+        nadat2:PER-LM-V429892C,
+        nadat2:PER-LM-XBT9550Q,
+        nadat2:PER-TMP-00595,
+        nadat2:PER-TMP-00615 ;
+    rico:identifier "EV-M-51855" ;
+    rico:name "제21대국회 제396회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-51869 a rico:Event ;
+    skos:prefLabel "[EV-M-51869] 제397회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-O7R5461J ;
+    rico:identifier "EV-M-51869" ;
+    rico:name "제21대국회 제397회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-51913 a rico:Event ;
+    skos:prefLabel "[EV-M-51913] 제397회 제2차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-3ZR4438W,
+        nadat2:PER-LM-5765663F,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9L57027L,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-BM63269Y,
+        nadat2:PER-LM-CI15627C,
+        nadat2:PER-LM-CT85313K,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-IL74008M,
+        nadat2:PER-LM-L7T64271,
+        nadat2:PER-LM-LT72093S,
+        nadat2:PER-LM-O7R5461J,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-XBT9550Q,
+        nadat2:PER-TMP-00586,
+        nadat2:PER-TMP-00587,
+        nadat2:PER-TMP-00595,
+        nadat2:PER-TMP-00615,
+        nadat2:PER-TMP-00616,
+        nadat2:PER-TMP-00617,
+        nadat2:PER-TMP-00618 ;
+    rico:identifier "EV-M-51913" ;
+    rico:name "제21대국회 제397회 제2차 기획재정위원회"@ko .
+
+nadat1:EV-M-52016 a rico:Event ;
+    skos:prefLabel "[EV-M-52016] 제398회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-1Y73132H,
+        nadat2:PER-LM-2N793392,
+        nadat2:PER-LM-5KV96424,
+        nadat2:PER-LM-68P7228G,
+        nadat2:PER-LM-6EN68926,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8SV6917G,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-9VR65006,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-G1570880,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GX38539O,
+        nadat2:PER-LM-H5476989,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-KUO3574J,
+        nadat2:PER-LM-LBC8144B,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-TKJ4800F,
+        nadat2:PER-LM-UHB5553T,
+        nadat2:PER-LM-W4X85128,
+        nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-TMP-00595,
+        nadat2:PER-TMP-00614,
+        nadat2:PER-TMP-00615,
+        nadat2:PER-TMP-00616,
+        nadat2:PER-TMP-00619,
+        nadat2:PER-TMP-00620,
+        nadat2:PER-TMP-00621,
+        nadat2:PER-TMP-00622 ;
+    rico:identifier "EV-M-52016" ;
+    rico:name "제21대국회 제398회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-52079 a rico:Event ;
+    skos:prefLabel "[EV-M-52079] 제399회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1Y73132H,
+        nadat2:PER-LM-6EN68926,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-LBC8144B,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-W4X85128,
+        nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-TMP-00035,
+        nadat2:PER-TMP-00622 ;
+    rico:identifier "EV-M-52079" ;
+    rico:name "제21대국회 제399회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-52104 a rico:Event ;
+    skos:prefLabel "[EV-M-52104] 제400회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-1Y73132H,
+        nadat2:PER-LM-68P7228G,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-G1570880,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GX38539O,
+        nadat2:PER-LM-H5476989,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-KUO3574J,
+        nadat2:PER-LM-LBC8144B,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-TKJ4800F,
+        nadat2:PER-LM-UHB5553T,
+        nadat2:PER-LM-W4X85128,
+        nadat2:PER-TMP-00035,
+        nadat2:PER-TMP-00622 ;
+    rico:identifier "EV-M-52104" ;
+    rico:name "제21대국회 제400회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-52131 a rico:Event ;
+    skos:prefLabel "[EV-M-52131] 제400회 제2차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-1Y73132H,
+        nadat2:PER-LM-5KV96424,
+        nadat2:PER-LM-68P7228G,
+        nadat2:PER-LM-6EN68926,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-G1570880,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GX38539O,
+        nadat2:PER-LM-H5476989,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-KUO3574J,
+        nadat2:PER-LM-LBC8144B,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-TKJ4800F,
+        nadat2:PER-LM-UHB5553T,
+        nadat2:PER-LM-W4X85128,
+        nadat2:PER-TMP-00035,
+        nadat2:PER-TMP-00595,
+        nadat2:PER-TMP-00615,
+        nadat2:PER-TMP-00616,
+        nadat2:PER-TMP-00618,
+        nadat2:PER-TMP-00619,
+        nadat2:PER-TMP-00622,
+        nadat2:PER-TMP-00623 ;
+    rico:identifier "EV-M-52131" ;
+    rico:name "제21대국회 제400회 제2차 기획재정위원회"@ko .
+
+nadat1:EV-M-52175 a rico:Event ;
+    skos:prefLabel "[EV-M-52175] 제400회 제3차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-2N793392,
+        nadat2:PER-LM-5KV96424,
+        nadat2:PER-LM-68P7228G,
+        nadat2:PER-LM-6EN68926,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-9VR65006,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-G1570880,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GX38539O,
+        nadat2:PER-LM-H5476989,
+        nadat2:PER-LM-LBC8144B,
+        nadat2:PER-LM-P0F1530P,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-UHB5553T,
+        nadat2:PER-LM-W4X85128,
+        nadat2:PER-TMP-00595,
+        nadat2:PER-TMP-00598,
+        nadat2:PER-TMP-00614,
+        nadat2:PER-TMP-00615,
+        nadat2:PER-TMP-00619,
+        nadat2:PER-TMP-00621,
+        nadat2:PER-TMP-00624,
+        nadat2:PER-TMP-00625,
+        nadat2:PER-TMP-00626,
+        nadat2:PER-TMP-00627,
+        nadat2:PER-TMP-00628 ;
+    rico:identifier "EV-M-52175" ;
+    rico:name "제21대국회 제400회 제3차 기획재정위원회"@ko .
+
+nadat1:EV-M-52207 a rico:Event ;
+    skos:prefLabel "[EV-M-52207] 제400회 제4차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-W4X85128 ;
+    rico:identifier "EV-M-52207" ;
+    rico:name "제21대국회 제400회 제4차 기획재정위원회"@ko .
+
+nadat1:EV-M-52222 a rico:Event ;
+    skos:prefLabel "[EV-M-52222] 제400회 제5차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-W4X85128 ;
+    rico:identifier "EV-M-52222" ;
+    rico:name "제21대국회 제400회 제5차 기획재정위원회"@ko .
+
+nadat1:EV-M-52347 a rico:Event ;
+    skos:prefLabel "[EV-M-52347] 제400회 제6차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-1Y73132H,
+        nadat2:PER-LM-68P7228G,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-G1570880,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-H5476989,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-TKJ4800F,
+        nadat2:PER-LM-UHB5553T,
+        nadat2:PER-LM-W4X85128 ;
+    rico:identifier "EV-M-52347" ;
+    rico:name "제21대국회 제400회 제6차 기획재정위원회"@ko .
+
+nadat1:EV-M-52437 a rico:Event ;
+    skos:prefLabel "[EV-M-52437] 제400회 제7차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-1Y73132H,
+        nadat2:PER-LM-5KV96424,
+        nadat2:PER-LM-68P7228G,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-9VR65006,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-G1570880,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-KUO3574J,
+        nadat2:PER-LM-LBC8144B,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-TKJ4800F,
+        nadat2:PER-LM-W4X85128,
+        nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-TMP-00035,
+        nadat2:PER-TMP-00595,
+        nadat2:PER-TMP-00615,
+        nadat2:PER-TMP-00616,
+        nadat2:PER-TMP-00619,
+        nadat2:PER-TMP-00622,
+        nadat2:PER-TMP-00623 ;
+    rico:identifier "EV-M-52437" ;
+    rico:name "제21대국회 제400회 제7차 기획재정위원회"@ko .
+
+nadat1:EV-M-52506 a rico:Event ;
+    skos:prefLabel "[EV-M-52506] 제400회 제8차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-1Y73132H,
+        nadat2:PER-LM-5KV96424,
+        nadat2:PER-LM-68P7228G,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G1570880,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-LBC8144B,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-TKJ4800F,
+        nadat2:PER-LM-UHB5553T,
+        nadat2:PER-LM-W4X85128,
+        nadat2:PER-TMP-00595,
+        nadat2:PER-TMP-00615,
+        nadat2:PER-TMP-00616,
+        nadat2:PER-TMP-00622 ;
+    rico:identifier "EV-M-52506" ;
+    rico:name "제21대국회 제400회 제8차 기획재정위원회"@ko .
+
+nadat1:EV-M-52550 a rico:Event ;
+    skos:prefLabel "[EV-M-52550] 제400회 제9차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-5KV96424,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-OIA3741M,
+        nadat2:PER-LM-W4X85128,
+        nadat2:PER-TMP-00623 ;
+    rico:identifier "EV-M-52550" ;
+    rico:name "제21대국회 제400회 제9차 기획재정위원회"@ko .
+
+nadat1:EV-M-52633 a rico:Event ;
+    skos:prefLabel "[EV-M-52633] 제401회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-W4X85128,
+        nadat2:PER-TMP-00629 ;
+    rico:identifier "EV-M-52633" ;
+    rico:name "제21대국회 제401회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-52698 a rico:Event ;
+    skos:prefLabel "[EV-M-52698] 제403회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-9VR65006,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GE71932C,
+        nadat2:PER-LM-GX38539O,
+        nadat2:PER-LM-LBC8144B,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-TKJ4800F,
+        nadat2:PER-LM-W4X85128,
+        nadat2:PER-LM-WCD5518S,
+        nadat2:PER-TMP-00035,
+        nadat2:PER-TMP-00619,
+        nadat2:PER-TMP-00623 ;
+    rico:identifier "EV-M-52698" ;
+    rico:name "제21대국회 제403회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-52738 a rico:Event ;
+    skos:prefLabel "[EV-M-52738] 제403회 제2차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-1Y73132H,
+        nadat2:PER-LM-2N793392,
+        nadat2:PER-LM-5KV96424,
+        nadat2:PER-LM-68P7228G,
+        nadat2:PER-LM-6EN68926,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-9VR65006,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G1570880,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GX38539O,
+        nadat2:PER-LM-H5476989,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-KUO3574J,
+        nadat2:PER-LM-LBC8144B,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-TKJ4800F,
+        nadat2:PER-LM-W4X85128,
+        nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-TMP-00598,
+        nadat2:PER-TMP-00614,
+        nadat2:PER-TMP-00619,
+        nadat2:PER-TMP-00621,
+        nadat2:PER-TMP-00625,
+        nadat2:PER-TMP-00626,
+        nadat2:PER-TMP-00627,
+        nadat2:PER-TMP-00630,
+        nadat2:PER-TMP-00631,
+        nadat2:PER-TMP-00632,
+        nadat2:PER-TMP-00633,
+        nadat2:PER-TMP-00634 ;
+    rico:identifier "EV-M-52738" ;
+    rico:name "제21대국회 제403회 제2차 기획재정위원회"@ko .
+
+nadat1:EV-M-52745 a rico:Event ;
+    skos:prefLabel "[EV-M-52745] 제403회 제3차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-1Y73132H,
+        nadat2:PER-LM-2N793392,
+        nadat2:PER-LM-5KV96424,
+        nadat2:PER-LM-68P7228G,
+        nadat2:PER-LM-6EN68926,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-9VR65006,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-G1570880,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GX38539O,
+        nadat2:PER-LM-H5476989,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-KUO3574J,
+        nadat2:PER-LM-LBC8144B,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-TKJ4800F,
+        nadat2:PER-LM-UHB5553T,
+        nadat2:PER-LM-W4X85128,
+        nadat2:PER-TMP-00595,
+        nadat2:PER-TMP-00615,
+        nadat2:PER-TMP-00616,
+        nadat2:PER-TMP-00617,
+        nadat2:PER-TMP-00618,
+        nadat2:PER-TMP-00619,
+        nadat2:PER-TMP-00620,
+        nadat2:PER-TMP-00622 ;
+    rico:identifier "EV-M-52745" ;
+    rico:name "제21대국회 제403회 제3차 기획재정위원회"@ko .
+
+nadat1:EV-M-52765 a rico:Event ;
+    skos:prefLabel "[EV-M-52765] 제404회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-5KV96424,
+        nadat2:PER-LM-6EN68926,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-9VR65006,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GX38539O,
+        nadat2:PER-LM-KUO3574J,
+        nadat2:PER-LM-LBC8144B,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-UHB5553T,
+        nadat2:PER-LM-W4X85128,
+        nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-LM-ZYH1940A,
+        nadat2:PER-TMP-00619,
+        nadat2:PER-TMP-00635,
+        nadat2:PER-TMP-00636,
+        nadat2:PER-TMP-00637,
+        nadat2:PER-TMP-00638 ;
+    rico:identifier "EV-M-52765" ;
+    rico:name "제21대국회 제404회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-52803 a rico:Event ;
+    skos:prefLabel "[EV-M-52803] 제404회 제2차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-1Y73132H,
+        nadat2:PER-LM-2N793392,
+        nadat2:PER-LM-68P7228G,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-9VR65006,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-G1570880,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-H5476989,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-KUO3574J,
+        nadat2:PER-LM-LBC8144B,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-TKJ4800F,
+        nadat2:PER-LM-W4X85128,
+        nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-TMP-00619,
+        nadat2:PER-TMP-00639,
+        nadat2:PER-TMP-00640,
+        nadat2:PER-TMP-00641,
+        nadat2:PER-TMP-00642 ;
+    rico:identifier "EV-M-52803" ;
+    rico:name "제21대국회 제404회 제2차 기획재정위원회"@ko .
+
+nadat1:EV-M-52872 a rico:Event ;
+    skos:prefLabel "[EV-M-52872] 제405회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-1Y73132H,
+        nadat2:PER-LM-2N793392,
+        nadat2:PER-LM-5KV96424,
+        nadat2:PER-LM-68P7228G,
+        nadat2:PER-LM-6EN68926,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-9VR65006,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-G1570880,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GX38539O,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-KUO3574J,
+        nadat2:PER-LM-LBC8144B,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-TKJ4800F,
+        nadat2:PER-LM-UHB5553T,
+        nadat2:PER-TMP-00035,
+        nadat2:PER-TMP-00619,
+        nadat2:PER-TMP-00623 ;
+    rico:identifier "EV-M-52872" ;
+    rico:name "제21대국회 제405회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-52941 a rico:Event ;
+    skos:prefLabel "[EV-M-52941] 제406회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-1Y73132H,
+        nadat2:PER-LM-2N793392,
+        nadat2:PER-LM-5KV96424,
+        nadat2:PER-LM-68P7228G,
+        nadat2:PER-LM-6EN68926,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-9VR65006,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-G1570880,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GX38539O,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-KUO3574J,
+        nadat2:PER-LM-LBC8144B,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-TKJ4800F,
+        nadat2:PER-LM-UHB5553T,
+        nadat2:PER-LM-W4X85128,
+        nadat2:PER-TMP-00614,
+        nadat2:PER-TMP-00617,
+        nadat2:PER-TMP-00618,
+        nadat2:PER-TMP-00619,
+        nadat2:PER-TMP-00629,
+        nadat2:PER-TMP-00643 ;
+    rico:identifier "EV-M-52941" ;
+    rico:name "제21대국회 제406회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-53009 a rico:Event ;
+    skos:prefLabel "[EV-M-53009] 제407회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-6EN68926,
+        nadat2:PER-LM-9VR65006,
+        nadat2:PER-LM-GX38539O ;
+    rico:identifier "EV-M-53009" ;
+    rico:name "제21대국회 제407회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-53055 a rico:Event ;
+    skos:prefLabel "[EV-M-53055] 제407회 제2차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-1Y73132H,
+        nadat2:PER-LM-2N793392,
+        nadat2:PER-LM-5KV96424,
+        nadat2:PER-LM-5MD4184K,
+        nadat2:PER-LM-68P7228G,
+        nadat2:PER-LM-6EN68926,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-9VR65006,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GX38539O,
+        nadat2:PER-LM-K3W33496,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-KUO3574J,
+        nadat2:PER-LM-LBC8144B,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-TKJ4800F,
+        nadat2:PER-LM-UHB5553T,
+        nadat2:PER-LM-W4X85128,
+        nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-TMP-00035,
+        nadat2:PER-TMP-00595,
+        nadat2:PER-TMP-00616,
+        nadat2:PER-TMP-00619,
+        nadat2:PER-TMP-00622,
+        nadat2:PER-TMP-00623,
+        nadat2:PER-TMP-00644,
+        nadat2:PER-TMP-00645 ;
+    rico:identifier "EV-M-53055" ;
+    rico:name "제21대국회 제407회 제2차 기획재정위원회"@ko .
+
+nadat1:EV-M-53130 a rico:Event ;
+    skos:prefLabel "[EV-M-53130] 제409회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-1Y73132H,
+        nadat2:PER-LM-2N793392,
+        nadat2:PER-LM-5KV96424,
+        nadat2:PER-LM-68P7228G,
+        nadat2:PER-LM-6EN68926,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8SV6917G,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-9VR65006,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-G152611B,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GX38539O,
+        nadat2:PER-LM-H5476989,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-KUO3574J,
+        nadat2:PER-LM-LBC8144B,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-TKJ4800F,
+        nadat2:PER-LM-UHB5553T,
+        nadat2:PER-LM-W4X85128,
+        nadat2:PER-LM-Z6R3959C,
+        nadat2:PER-TMP-00035,
+        nadat2:PER-TMP-00614,
+        nadat2:PER-TMP-00618,
+        nadat2:PER-TMP-00619,
+        nadat2:PER-TMP-00622,
+        nadat2:PER-TMP-00645,
+        nadat2:PER-TMP-00646,
+        nadat2:PER-TMP-00647,
+        nadat2:PER-TMP-00648 ;
+    rico:identifier "EV-M-53130" ;
+    rico:name "제21대국회 제409회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-53136 a rico:Event ;
+    skos:prefLabel "[EV-M-53136] 제409회 제2차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-9VR65006,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GX38539O,
+        nadat2:PER-LM-LBC8144B,
+        nadat2:PER-LM-UHB5553T ;
+    rico:identifier "EV-M-53136" ;
+    rico:name "제21대국회 제409회 제2차 기획재정위원회"@ko .
+
+nadat1:EV-M-53254 a rico:Event ;
+    skos:prefLabel "[EV-M-53254] 제410회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1Y73132H ;
+    rico:identifier "EV-M-53254" ;
+    rico:name "제21대국회 제410회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-53771 a rico:Event ;
+    skos:prefLabel "[EV-M-53771] 제411회 제4차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1WE5693J,
+        nadat2:PER-LM-1Y73132H,
+        nadat2:PER-LM-2N793392,
+        nadat2:PER-LM-5KV96424,
+        nadat2:PER-LM-68P7228G,
+        nadat2:PER-LM-6EN68926,
+        nadat2:PER-LM-6V37131U,
+        nadat2:PER-LM-8SV6917G,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GX38539O,
+        nadat2:PER-LM-H5476989,
+        nadat2:PER-LM-KR14136C,
+        nadat2:PER-LM-KUO3574J,
+        nadat2:PER-LM-LBC8144B,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-TKJ4800F,
+        nadat2:PER-LM-UHB5553T,
+        nadat2:PER-LM-W4X85128,
+        nadat2:PER-TMP-00065,
+        nadat2:PER-TMP-00074,
+        nadat2:PER-TMP-00619 ;
+    rico:identifier "EV-M-53771" ;
+    rico:name "제21대국회 제411회 제4차 기획재정위원회"@ko .
+
+nadat1:EV-M-53801 a rico:Event ;
+    skos:prefLabel "[EV-M-53801] 제413회 제1차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1Y73132H,
+        nadat2:PER-LM-68P7228G,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-9V18755A,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GX38539O,
+        nadat2:PER-LM-KFS1358P,
+        nadat2:PER-LM-QKO6165V,
+        nadat2:PER-LM-QQP4727N,
+        nadat2:PER-LM-TKJ4800F,
+        nadat2:PER-LM-W4X85128,
+        nadat2:PER-TMP-00074,
+        nadat2:PER-TMP-00179,
+        nadat2:PER-TMP-00648 ;
+    rico:identifier "EV-M-53801" ;
+    rico:name "제21대국회 제413회 제1차 기획재정위원회"@ko .
+
+nadat1:EV-M-53809 a rico:Event ;
+    skos:prefLabel "[EV-M-53809] 제413회 제2차 기획재정위원회"@ko ;
+    rico:hasEventType nam1:StandingCommitteeMeeting ;
+    rico:hasOrHadParticipant nadat2:PER-LM-1Y73132H,
+        nadat2:PER-LM-68P7228G,
+        nadat2:PER-LM-8VY63414,
+        nadat2:PER-LM-D6U6678O,
+        nadat2:PER-LM-GAV6441G,
+        nadat2:PER-LM-GX38539O,
+        nadat2:PER-LM-KFS1358P,
+        nadat2:PER-LM-TKJ4800F,
+        nadat2:PER-LM-UHB5553T,
+        nadat2:PER-TMP-00074,
+        nadat2:PER-TMP-00646,
+        nadat2:PER-TMP-00648 ;
+    rico:identifier "EV-M-53809" ;
+    rico:name "제21대국회 제413회 제2차 기획재정위원회"@ko .
+
+nadat1:date-200617 a rico:Date ;
+    rico:expressedDate "2020년6월17일(수)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-200617" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-50013 ;
+    rico:name "date-200617" ;
+    rico:normalizedDateValue "2020-06-17"^^xsd:date .
+
+nadat1:date-201130 rico:isDateOfOccurrenceOf nadat1:EV-M-50622 .
+
+nadat1:date-210216 rico:isDateOfOccurrenceOf nadat1:EV-M-50769 .
+
+nadat1:date-211208 rico:isDateOfOccurrenceOf nadat1:EV-M-51654 .
+
+nadat1:date-220105 rico:isDateOfOccurrenceOf nadat1:EV-M-51727 .
+
+nadat1:date-221226 a rico:Date ;
+    rico:expressedDate "2022년12월26일(월)"@ko ;
+    rico:hasDateType nam1:singleDate ;
+    rico:identifier "date-221226" ;
+    rico:isDateOfOccurrenceOf nadat1:EV-M-52633 ;
+    rico:name "date-221226" ;
+    rico:normalizedDateValue "2022-12-26"^^xsd:date .
+
+nadat1:date-230214 rico:isDateOfOccurrenceOf nadat1:EV-M-52698 .
+
+nadat1:date-230921 rico:isDateOfOccurrenceOf nadat1:EV-M-53254 .
+
+nadat1:date-240108 rico:isDateOfOccurrenceOf nadat1:EV-M-53771 .
+
+nadat1:date-240223 rico:isDateOfOccurrenceOf nadat1:EV-M-53809 .
+
+nadat1:INS-AD-53771_53809-01 a rico:Instantiation ;
+    dcterms:coverage "2024-01-08/2024-02-23" ;
+    skos:prefLabel "[INS-AD-53771_53809-01] 2024-1 기획재정위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-240108 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-240223 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-53771_53809-01" ;
+    rico:title "2024-1 기획재정위원회 보존회의록"@ko .
+
+nadat1:INS-AD-52698_53254-01 a rico:Instantiation ;
+    dcterms:coverage "2023-02-14/2023-09-21" ;
+    skos:prefLabel "[INS-AD-52698_53254-01] 2023 기획재정위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-230214 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-230921 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-52698_53254-01" ;
+    rico:title "2023 기획재정위원회 보존회의록"@ko .
+
+nadat1:INS-AD-50013_50622-01 a rico:Instantiation ;
+    dcterms:coverage "2020-06-17/2020-11-30" ;
+    skos:prefLabel "[INS-AD-50013_50622-01] 2020-2 기획재정위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-200617 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-201130 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-50013_50622-01" ;
+    rico:title "2020-2 기획재정위원회 보존회의록"@ko .
+
+nadat1:INS-AD-50769_51654-01 a rico:Instantiation ;
+    dcterms:coverage "2021-02-16/2021-12-08" ;
+    skos:prefLabel "[INS-AD-50769_51654-01] 2021 기획재정위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-210216 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-211208 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-50769_51654-01" ;
+    rico:title "2021 기획재정위원회 보존회의록"@ko .
+
+nadat1:INS-AD-51727_52633-01 a rico:Instantiation ;
+    dcterms:coverage "2022-01-05/2022-12-26" ;
+    skos:prefLabel "[INS-AD-51727_52633-01] 2022 기획재정위원회 보존회의록"@ko ;
+    rico:conditionsOfAccess "제한(현직 국회의원만 열람 가능)"@ko ;
+    rico:hasBeginningDate nadat1:date-220105 ;
+    rico:hasCarrierType nam1:Paper ;
+    rico:hasCreator nadat2:NAS-0001-0001 ;
+    rico:hasEndDate nadat1:date-221226 ;
+    rico:hasOrHadHolder nadat2:NAArchives ;
+    rico:hasOrHadManager nadat2:NAArchives ;
+    rico:hasProductionTechniqueType nam1:Printing ;
+    rico:hasRepresentationType nam1:Text ;
+    rico:identifier "INS-AD-51727_52633-01" ;
+    rico:title "2022 기획재정위원회 보존회의록"@ko .
+
