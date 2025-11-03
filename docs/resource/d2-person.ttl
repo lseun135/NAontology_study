@@ -11817,15 +11817,48 @@ nadat2:MEM-NTT8182Q-14DPK a org:Membership ;
     org:organization nadat2:DemocraticPartyofKorea ;
     org:role nadat2:RL-PM .
 
-nadat2:MEM-NTT8182Q-21-CMITAO a org:Membership ;
+nadat2:MEM-NTT8182Q-100021-CMITAO a org:Membership ;
   org:member       nadat2:PER-LM-NTT8182Q ;
   org:organization nadat2:CMIT-AO ;
   org:role         nadat2:RL-CM ;
-  rdfs:label "김민기: 제21대 국토교통위원회 위원(2022-07-22~2024-05-29)"@ko ;
+  rdfs:label "김민기: 제21대 국토교통위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
     time:hasBeginning "2022-07-22"^^xsd:date ;
     time:hasEnd       "2024-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-NTT8182Q-100021-CMITAP-01 a org:Membership ;
+  org:member       nadat2:PER-LM-NTT8182Q ;
+  org:organization nadat2:CMIT-AP ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "김민기: 제21대 정보위원회 위원(2021.01.07 ~ 2022.05.29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2021-01-07"^^xsd:date ;
+    time:hasEnd       "2022-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-NTT8182Q-100021-CMITAP-02 a org:Membership ;
+  org:member       nadat2:PER-LM-NTT8182Q ;
+  org:organization nadat2:CMIT-AP ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "김민기: 제21대 정보위원회 위원(2022.07.22 ~ 2022.09.27)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-07-22"^^xsd:date ;
+    time:hasEnd       "2022-09-27"^^xsd:date
+  ] .
+
+nadat2:MEM-NTT8182Q-100021-CMITAH a org:Membership ;
+  org:member       nadat2:PER-LM-NTT8182Q ;
+  org:organization nadat2:CMIT-AH ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "김민기: 제21대 국방위원회 위원(2020.06.15 ~ 2022.05.29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-06-15"^^xsd:date ;
+    time:hasEnd       "2022-05-29"^^xsd:date
   ] .
 
 
