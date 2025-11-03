@@ -8440,6 +8440,29 @@ nadat2:MEM-GFF1986K-14DPK a org:Membership ;
     org:organization nadat2:DemocraticPartyofKorea ;
     org:role nadat2:RL-PM .
 
+nadat2:MEM-GFF1986K-100021-CMITAC a org:Membership ;
+  org:member       nadat2:PER-LM-GFF1986K ;
+  org:organization nadat2:CMIT-AC ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "김병욱: 제21대 정무위원회 위원(2020.06.15 ~ 2022.05.29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-06-15"^^xsd:date ;
+    time:hasEnd       "2022-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-GFF1986K-100021-CMITAO a org:Membership ;
+  org:member       nadat2:PER-LM-GFF1986K ;
+  org:organization nadat2:CMIT-AO ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "김병욱: 제21대 국토교통위원회 위원(2022.07.22 ~ 2024.05.29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-07-22"^^xsd:date ;
+    time:hasEnd       "2024-05-29"^^xsd:date
+  ] .
+
+
 nadat2:MEM-GKD32201-100021 a org:Membership ;
     rdfs:label "이용빈: 제21대 국회 membership"@ko ;
     dcterms:coverage "광주 광산구갑"@ko ;
