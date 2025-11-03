@@ -1612,6 +1612,40 @@ nadat2:MEM-14M56632-20UFP a org:Membership ;
     org:organization nadat2:UnitedFutureParty ;
     org:role nadat2:RL-PM .
 
+nadat2:MEM-14M56632-100021-CMITAI a org:Membership ;
+  org:member       nadat2:PER-LM-14M56632 ;
+  org:organization nadat2:CMIT-AI ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "강기윤: 제21대 행정안전위원회 위원(2020-06-29 ~ 2020-07-06)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-06-29"^^xsd:date ;
+    time:hasEnd       "2020-07-06"^^xsd:date
+  ] .
+
+nadat2:MEM-14M56632-100021-CMITAM-01 a org:Membership ;
+  org:member       nadat2:PER-LM-14M56632 ;
+  org:organization nadat2:CMIT-AM ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "강기윤: 제21대 보건복지위원회 위원(2020-07-06 ~ 2022-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-07-06"^^xsd:date ;
+    time:hasEnd       "2022-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-14M56632-100021-CMITAM-02 a org:Membership ;
+  org:member       nadat2:PER-LM-14M56632 ;
+  org:organization nadat2:CMIT-AM ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "강기윤: 제21대 보건복지위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-07-22"^^xsd:date ;
+    time:hasEnd       "2024-05-29"^^xsd:date
+  ] .
+
+
 nadat2:MEM-1599843H-100019 a org:Membership ;
     rdfs:label "이강후: 제19대 국회 membership"@ko ;
     dcterms:coverage "강원 원주시을"@ko ;
@@ -3930,6 +3964,40 @@ nadat2:MEM-6AU2417B-14DPK a org:Membership ;
     org:organization nadat2:DemocraticPartyofKorea ;
     org:role nadat2:RL-PM .
 
+nadat2:MEM-6AU2417B-100021-CMITAB-01 a org:Membership ;
+  org:member       nadat2:PER-LM-6AU2417B ;
+  org:organization nadat2:CMIT-AB ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "박주민: 제21대 법제사법위원회 위원(2020-06-15 ~ 2022-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-06-15"^^xsd:date ;
+    time:hasEnd       "2022-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-6AU2417B-100021-CMITAB-02 a org:Membership ;
+  org:member       nadat2:PER-LM-6AU2417B ;
+  org:organization nadat2:CMIT-AB ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "박주민: 제21대 법제사법위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-07-22"^^xsd:date ;
+    time:hasEnd       "2024-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-6AU2417B-100021-CMITAA a org:Membership ;
+  org:member       nadat2:PER-LM-6AU2417B ;
+  org:organization nadat2:CMIT-AA ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "박주민: 제21대 국회운영위원회 위원(2023-10-23 ~ 2024-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2023-10-23"^^xsd:date ;
+    time:hasEnd       "2024-05-29"^^xsd:date
+  ] .
+
+
 nadat2:MEM-6DG91769-100014 a org:Membership ;
     rdfs:label "원혜영: 제14대 국회 membership"@ko ;
     dcterms:coverage "경기 부천시중구을"@ko ;
@@ -4765,6 +4833,40 @@ nadat2:MEM-8FB1535Y-14DPK a org:Membership ;
     org:member nadat2:PER-LM-8FB1535Y ;
     org:organization nadat2:DemocraticPartyofKorea ;
     org:role nadat2:RL-PM .
+
+nadat2:MEM-8FB1535Y-100021-CMITAK-01 a org:Membership ;
+  org:member       nadat2:PER-LM-8FB1535Y ;
+  org:organization nadat2:CMIT-AK ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "어기구: 제21대 농림축산식품해양수산위원회 위원(2020-06-15 ~ 2022-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-06-15"^^xsd:date ;
+    time:hasEnd       "2022-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-8FB1535Y-100021-CMITAA a org:Membership ;
+  org:member       nadat2:PER-LM-8FB1535Y ;
+  org:organization nadat2:CMIT-AA ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "어기구: 제21대 국회운영위원회 위원(2021-04-29 ~ 2022-04-07)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2021-04-29"^^xsd:date ;
+    time:hasEnd       "2022-04-07"^^xsd:date
+  ] .
+
+nadat2:MEM-8FB1535Y-100021-CMITAK-02 a org:Membership ;
+  org:member       nadat2:PER-LM-8FB1535Y ;
+  org:organization nadat2:CMIT-AK ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "어기구: 제21대 농림축산식품해양수산위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-07-22"^^xsd:date ;
+    time:hasEnd       "2024-05-29"^^xsd:date
+  ] .
+
 
 nadat2:MEM-8FC9697X-100017 a org:Membership ;
     rdfs:label "유기홍: 제17대 국회 membership"@ko ;
@@ -6446,6 +6548,84 @@ nadat2:MEM-BT62420K-14DPK a org:Membership ;
     org:organization nadat2:DemocraticPartyofKorea ;
     org:role nadat2:RL-PM .
 
+nadat2:MEM-BT62420K-100021-CMITAF-01 a org:Membership ;
+  org:member       nadat2:PER-LM-BT62420K ;
+  org:organization nadat2:CMIT-AF ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "박찬대: 제21대 과학기술정보방송통신위원회 위원(2022-07-22 ~ 2023-08-09)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-07-22"^^xsd:date ;
+    time:hasEnd       "2023-08-09"^^xsd:date
+  ] .
+
+nadat2:MEM-BT62420K-100021-CMITAF-02 a org:Membership ;
+  org:member       nadat2:PER-LM-BT62420K ;
+  org:organization nadat2:CMIT-AF ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "박찬대: 제21대 과학기술정보방송통신위원회 위원(2023-08-23 ~ 2024-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2023-08-23"^^xsd:date ;
+    time:hasEnd       "2024-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-BT62420K-100021-CMITAE-01 a org:Membership ;
+  org:member       nadat2:PER-LM-BT62420K ;
+  org:organization nadat2:CMIT-AE ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "박찬대: 제21대 교육위원회 위원(2020-06-15 ~ 2021-10-18)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-06-15"^^xsd:date ;
+    time:hasEnd       "2021-10-18"^^xsd:date
+  ] .
+
+nadat2:MEM-BT62420K-100021-CMITAE-02 a org:Membership ;
+  org:member       nadat2:PER-LM-BT62420K ;
+  org:organization nadat2:CMIT-AE ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "박찬대: 제21대 교육위원회 위원(2021-10-20 ~ 2022-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2021-10-20"^^xsd:date ;
+    time:hasEnd       "2022-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-BT62420K-100021-CMITAE-03 a org:Membership ;
+  org:member       nadat2:PER-LM-BT62420K ;
+  org:organization nadat2:CMIT-AE ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "박찬대: 제21대 교육위원회 위원(2023-08-09 ~ 2023-08-23)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2023-08-09"^^xsd:date ;
+    time:hasEnd       "2023-08-23"^^xsd:date
+  ] .
+
+nadat2:MEM-BT62420K-100021-CMITAA a org:Membership ;
+  org:member       nadat2:PER-LM-BT62420K ;
+  org:organization nadat2:CMIT-AA ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "박찬대: 제21대 국회운영위원회 위원(2022-04-07 ~ 2022-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-04-07"^^xsd:date ;
+    time:hasEnd       "2022-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-BT62420K-100021-CMITAI a org:Membership ;
+  org:member       nadat2:PER-LM-BT62420K ;
+  org:organization nadat2:CMIT-AI ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "박찬대: 제21대 행정안전위원회 위원(2021-10-18 ~ 2021-10-20)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2021-10-18"^^xsd:date ;
+    time:hasEnd       "2021-10-20"^^xsd:date
+  ] .
+
+
 nadat2:MEM-BTP28870-100020 a org:Membership ;
     rdfs:label "이훈: 제20대 국회 membership"@ko ;
     dcterms:coverage "서울 금천구"@ko ;
@@ -7113,6 +7293,18 @@ nadat2:MEM-DAN6731C-20UFP a org:Membership ;
     org:organization nadat2:UnitedFutureParty ;
     org:role nadat2:RL-PM .
 
+nadat2:MEM-DAN6731C-100021-CMITAF a org:Membership ;
+  org:member       nadat2:PER-LM-DAN6731C ;
+  org:organization nadat2:CMIT-AF ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "박성중: 제21대 과학기술정보방송통신위원회 위원(2020-06-29 ~ 2022-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-06-29"^^xsd:date ;
+    time:hasEnd       "2022-05-29"^^xsd:date
+  ] .
+
+
 nadat2:MEM-DAV7257X-100021 a org:Membership ;
     rdfs:label "이원택: 제21대 국회 membership"@ko ;
     dcterms:coverage "전북 김제시부안군"@ko ;
@@ -7769,6 +7961,51 @@ nadat2:MEM-EH27538E-20PPP a org:Membership ;
     org:organization nadat2:PeoplePowerParty ;
     org:role nadat2:RL-PM .
 
+nadat2:MEM-EH27538E-100021-CMITAN-01 a org:Membership ;
+  org:member       nadat2:PER-LM-EH27538E ;
+  org:organization nadat2:CMIT-AN ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "임이자: 제21대 환경노동위원회 위원(2020-06-29 ~ 2022-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-06-29"^^xsd:date ;
+    time:hasEnd       "2022-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-EH27538E-100021-CMITAN-02 a org:Membership ;
+  org:member       nadat2:PER-LM-EH27538E ;
+  org:organization nadat2:CMIT-AN ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "임이자: 제21대 환경노동위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-07-22"^^xsd:date ;
+    time:hasEnd       "2024-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-EH27538E-100021-CMITAA a org:Membership ;
+  org:member       nadat2:PER-LM-EH27538E ;
+  org:organization nadat2:CMIT-AA ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "임이자: 제21대 국회운영위원회 위원(2021-06-08 ~ 2022-03-24)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2021-06-08"^^xsd:date ;
+    time:hasEnd       "2022-03-24"^^xsd:date
+  ] .
+
+nadat2:MEM-EH27538E-100021-CMITAQ a org:Membership ;
+  org:member       nadat2:PER-LM-EH27538E ;
+  org:organization nadat2:CMIT-AQ ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "임이자: 제21대 여성가족위원회 위원(2020-06-29 ~ 2020-07-06)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-06-29"^^xsd:date ;
+    time:hasEnd       "2020-07-06"^^xsd:date
+  ] .
+
+
 nadat2:MEM-EI023764-100015 a org:Membership ;
     rdfs:label "남경필: 제15대 국회 membership"@ko ;
     dcterms:coverage "경기도 수원시팔달구"@ko ;
@@ -7934,6 +8171,40 @@ nadat2:MEM-EVH1507C-20PPP a org:Membership ;
     org:member nadat2:PER-LM-EVH1507C ;
     org:organization nadat2:PeoplePowerParty ;
     org:role nadat2:RL-PM .
+
+nadat2:MEM-EVH1507C-100021-CMITAC a org:Membership ;
+  org:member       nadat2:PER-LM-EVH1507C ;
+  org:organization nadat2:CMIT-AC ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "이헌승: 제21대 정무위원회 위원(2020-06-29 ~ 2020-07-06)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-06-29"^^xsd:date ;
+    time:hasEnd       "2020-07-06"^^xsd:date
+  ] .
+
+nadat2:MEM-EVH1507C-100021-CMITAO a org:Membership ;
+  org:member       nadat2:PER-LM-EVH1507C ;
+  org:organization nadat2:CMIT-AO ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "이헌승: 제21대 국토교통위원회 위원(2020-07-06 ~ 2022-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-07-06"^^xsd:date ;
+    time:hasEnd       "2022-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-EVH1507C-100021-CMITAH a org:Membership ;
+  org:member       nadat2:PER-LM-EVH1507C ;
+  org:organization nadat2:CMIT-AH ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "이헌승: 제21대 국방위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-07-22"^^xsd:date ;
+    time:hasEnd       "2024-05-29"^^xsd:date
+  ] .
+
 
 nadat2:MEM-EX94352K-100020 a org:Membership ;
     rdfs:label "표창원: 제20대 국회 membership"@ko ;
@@ -9049,6 +9320,29 @@ nadat2:MEM-GX38539O-14DPK a org:Membership ;
     org:organization nadat2:DemocraticPartyofKorea ;
     org:role nadat2:RL-PM .
 
+nadat2:MEM-GX38539O-100021-CMITAC a org:Membership ;
+  org:member       nadat2:PER-LM-GX38539O ;
+  org:organization nadat2:CMIT-AC ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "유동수: 제21대 정무위원회 위원(2020-06-15 ~ 2022-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-06-15"^^xsd:date ;
+    time:hasEnd       "2022-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-GX38539O-100021-CMITAD a org:Membership ;
+  org:member       nadat2:PER-LM-GX38539O ;
+  org:organization nadat2:CMIT-AD ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "유동수: 제21대 기획재정위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-07-22"^^xsd:date ;
+    time:hasEnd       "2024-05-29"^^xsd:date
+  ] .
+
+
 nadat2:MEM-GXT11570-100020 a org:Membership ;
     rdfs:label "김성수: 제20대 국회 membership"@ko ;
     dcterms:coverage "비례대표"@ko ;
@@ -9268,6 +9562,40 @@ nadat2:MEM-HSS7466Y-14DPK a org:Membership ;
     org:member nadat2:PER-LM-HSS7466Y ;
     org:organization nadat2:DemocraticPartyofKorea ;
     org:role nadat2:RL-PM .
+
+nadat2:MEM-HSS7466Y-100021-CMITAB a org:Membership ;
+  org:member       nadat2:PER-LM-HSS7466Y ;
+  org:organization nadat2:CMIT-AB ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "백혜련: 제21대 법제사법위원회 위원(2020-06-15 ~ 2021-05-20)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-06-15"^^xsd:date ;
+    time:hasEnd       "2021-05-20"^^xsd:date
+  ] .
+
+nadat2:MEM-HSS7466Y-100021-CMITAI a org:Membership ;
+  org:member       nadat2:PER-LM-HSS7466Y ;
+  org:organization nadat2:CMIT-AI ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "백혜련: 제21대 행정안전위원회 위원(2021-05-20 ~ 2022-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2021-05-20"^^xsd:date ;
+    time:hasEnd       "2022-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-HSS7466Y-100021-CMITAC a org:Membership ;
+  org:member       nadat2:PER-LM-HSS7466Y ;
+  org:organization nadat2:CMIT-AC ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "백혜련: 제21대 정무위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-07-22"^^xsd:date ;
+    time:hasEnd       "2024-05-29"^^xsd:date
+  ] .
+
 
 nadat2:MEM-HSW1214Q-100019 a org:Membership ;
     rdfs:label "이종배: 제19대 국회 membership"@ko ;
@@ -10975,6 +11303,95 @@ nadat2:MEM-LJK4960Z-20PPP a org:Membership ;
     org:organization nadat2:PeoplePowerParty ;
     org:role nadat2:RL-PM .
 
+nadat2:MEM-LJK4960Z-100021-CMITAB-01 a org:Membership ;
+  org:member       nadat2:PER-LM-LJK4960Z ;
+  org:organization nadat2:CMIT-AB ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "정점식: 제21대 법제사법위원회 위원(2022-07-22 ~ 2024-05-16)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-07-22"^^xsd:date ;
+    time:hasEnd       "2024-05-16"^^xsd:date
+  ] .
+
+nadat2:MEM-LJK4960Z-100021-CMITAO a org:Membership ;
+  org:member       nadat2:PER-LM-LJK4960Z ;
+  org:organization nadat2:CMIT-AO ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "정점식: 제21대 국토교통위원회 위원(2024-05-16 ~ 2024-05-21)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2024-05-16"^^xsd:date ;
+    time:hasEnd       "2024-05-21"^^xsd:date
+  ] .
+
+nadat2:MEM-LJK4960Z-100021-CMITAB-02 a org:Membership ;
+  org:member       nadat2:PER-LM-LJK4960Z ;
+  org:organization nadat2:CMIT-AB ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "정점식: 제21대 법제사법위원회 위원(2024-05-21 ~ 2024-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2024-05-21"^^xsd:date ;
+    time:hasEnd       "2024-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-LJK4960Z-100021-CMITAP a org:Membership ;
+  org:member       nadat2:PER-LM-LJK4960Z ;
+  org:organization nadat2:CMIT-AP ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "정점식: 제21대 정보위원회 위원(2023-02-15 ~ 2024-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2023-02-15"^^xsd:date ;
+    time:hasEnd       "2024-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-LJK4960Z-100021-CMITAA a org:Membership ;
+  org:member       nadat2:PER-LM-LJK4960Z ;
+  org:organization nadat2:CMIT-AA ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "정점식: 제21대 국회운영위원회 위원(2020-08-20 ~ 2021-06-08)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-08-20"^^xsd:date ;
+    time:hasEnd       "2021-06-08"^^xsd:date
+  ] .
+
+nadat2:MEM-LJK4960Z-100021-CMITAQ a org:Membership ;
+  org:member       nadat2:PER-LM-LJK4960Z ;
+  org:organization nadat2:CMIT-AQ ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "정점식: 제21대 여성가족위원회 위원(2020-07-06 ~ 2020-08-31)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-07-06"^^xsd:date ;
+    time:hasEnd       "2020-08-31"^^xsd:date
+  ] .
+
+nadat2:MEM-LJK4960Z-100021-CMITAK a org:Membership ;
+  org:member       nadat2:PER-LM-LJK4960Z ;
+  org:organization nadat2:CMIT-AK ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "정점식: 제21대 농림축산식품해양수산위원회 위원(2020-07-06 ~ 2022-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-07-06"^^xsd:date ;
+    time:hasEnd       "2022-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-LJK4960Z-100021-CMITAC a org:Membership ;
+  org:member       nadat2:PER-LM-LJK4960Z ;
+  org:organization nadat2:CMIT-AC ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "정점식: 제21대 정무위원회 위원(2020-06-29 ~ 2020-07-06)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-06-29"^^xsd:date ;
+    time:hasEnd       "2020-07-06"^^xsd:date
+  ] .
+
+
 nadat2:MEM-LM13674V-100021 a org:Membership ;
     rdfs:label "송재호: 제21대 국회 membership"@ko ;
     dcterms:coverage "제주 제주시갑"@ko ;
@@ -11032,6 +11449,29 @@ nadat2:MEM-LPB30152-14DPK a org:Membership ;
     org:member nadat2:PER-LM-LPB30152 ;
     org:organization nadat2:DemocraticPartyofKorea ;
     org:role nadat2:RL-PM .
+
+nadat2:MEM-LPB30152-100021-CMITAK a org:Membership ;
+  org:member       nadat2:PER-LM-LPB30152 ;
+  org:organization nadat2:CMIT-AK ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "최인호: 제21대 농림축산식품해양수산위원회 위원(2020-06-15 ~ 2022-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-06-15"^^xsd:date ;
+    time:hasEnd       "2022-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-LPB30152-100021-CMITAO a org:Membership ;
+  org:member       nadat2:PER-LM-LPB30152 ;
+  org:organization nadat2:CMIT-AO ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "최인호: 제21대 국토교통위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-07-22"^^xsd:date ;
+    time:hasEnd       "2024-05-29"^^xsd:date
+  ] .
+
 
 nadat2:MEM-LQW3652K-100021 a org:Membership ;
     rdfs:label "김웅: 제21대 국회 membership"@ko ;
@@ -11342,6 +11782,41 @@ nadat2:MEM-M7O7878U-14DPK a org:Membership ;
     org:member nadat2:PER-LM-M7O7878U ;
     org:organization nadat2:DemocraticPartyofKorea ;
     org:role nadat2:RL-PM .
+
+nadat2:MEM-M7O7878U-100021-CMITAL a org:Membership ;
+  org:member       nadat2:PER-LM-M7O7878U ;
+  org:organization nadat2:CMIT-AL ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "신정훈: 제21대 산업통상자원중소벤처기업위원회 위원(2020-06-15 ~ 2022-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-06-15"^^xsd:date ;
+    time:hasEnd       "2022-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-M7O7878U-100021-CMITAA a org:Membership ;
+  org:member       nadat2:PER-LM-M7O7878U ;
+  org:organization nadat2:CMIT-AA ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "신정훈: 제21대 국회운영위원회 위원(2022-04-07 ~ 2022-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-04-07"^^xsd:date ;
+    time:hasEnd       "2022-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-M7O7878U-100021-CMITAK a org:Membership ;
+  org:member       nadat2:PER-LM-M7O7878U ;
+  org:organization nadat2:CMIT-AK ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "신정훈: 제21대 농림축산식품해양수산위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-07-22"^^xsd:date ;
+    time:hasEnd       "2024-05-29"^^xsd:date
+  ] .
+
+
 
 nadat2:MEM-M7T9712V-100021 a org:Membership ;
     rdfs:label "최승재: 제21대 국회 membership"@ko ;
@@ -13773,6 +14248,29 @@ nadat2:MEM-RD42006Y-14DPK a org:Membership ;
     org:organization nadat2:DemocraticPartyofKorea ;
     org:role nadat2:RL-PM .
 
+nadat2:MEM-RD42006Y-100021-CMITAL a org:Membership ;
+  org:member       nadat2:PER-LM-RD42006Y ;
+  org:organization nadat2:CMIT-AL ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "송갑석: 제21대 산업통상자원중소벤처기업위원회 위원(2020-06-15 ~ 2022-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-06-15"^^xsd:date ;
+    time:hasEnd       "2022-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-RD42006Y-100021-CMITAH a org:Membership ;
+  org:member       nadat2:PER-LM-RD42006Y ;
+  org:organization nadat2:CMIT-AH ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "송갑석: 제21대 국방위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-07-22"^^xsd:date ;
+    time:hasEnd       "2024-05-29"^^xsd:date
+  ] .
+
+
 nadat2:MEM-RH454994-100020 a org:Membership ;
     rdfs:label "권미혁: 제20대 국회 membership"@ko ;
     dcterms:coverage "비례대표"@ko ;
@@ -14487,6 +14985,29 @@ nadat2:MEM-SU53086M-12JTP a org:Membership ;
     org:organization nadat2:JusticeParty ;
     org:role nadat2:RL-PM .
 
+nadat2:MEM-SU53086M-100021-CMITAO-01 a org:Membership ;
+  org:member       nadat2:PER-LM-SU53086M ;
+  org:organization nadat2:CMIT-AO ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "심상정: 제21대 국토교통위원회 위원(2020-06-15 ~ 2022-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-06-15"^^xsd:date ;
+    time:hasEnd       "2022-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-SU53086M-100021-CMITAO-02 a org:Membership ;
+  org:member       nadat2:PER-LM-SU53086M ;
+  org:organization nadat2:CMIT-AO ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "심상정: 제21대 국토교통위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-07-22"^^xsd:date ;
+    time:hasEnd       "2024-05-29"^^xsd:date
+  ] .
+
+
 nadat2:MEM-SVH30067-100017 a org:Membership ;
     rdfs:label "오제세: 제17대 국회 membership"@ko ;
     dcterms:coverage "충청북도 청주시흥덕구"@ko ;
@@ -14574,6 +15095,18 @@ nadat2:MEM-SZ51175J-12JTP a org:Membership ;
     org:member nadat2:PER-LM-SZ51175J ;
     org:organization nadat2:JusticeParty ;
     org:role nadat2:RL-PM .
+
+nadat2:MEM-SZ51175J-100021-CMITAJ a org:Membership ;
+  org:member       nadat2:PER-LM-SZ51175J ;
+  org:organization nadat2:CMIT-AJ ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "이자스민: 제21대 문화체육관광위원회 위원(2024-01-31 ~ 2024-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2024-01-31"^^xsd:date ;
+    time:hasEnd       "2024-05-29"^^xsd:date
+  ] .
+
 
 nadat2:MEM-T2K9554I-100015 a org:Membership ;
     rdfs:label "홍문종: 제15대 국회 membership"@ko ;
@@ -15813,6 +16346,29 @@ nadat2:MEM-VHK3402G-20PPP a org:Membership ;
     org:organization nadat2:PeoplePowerParty ;
     org:role nadat2:RL-PM .
 
+nadat2:MEM-VHK3402G-100021-CMITAL a org:Membership ;
+  org:member       nadat2:PER-LM-VHK3402G ;
+  org:organization nadat2:CMIT-AL ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "정우택: 제21대 산업통상자원중소벤처기업위원회 위원(2022-03-16 ~ 2022-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-03-16"^^xsd:date ;
+    time:hasEnd       "2022-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-VHK3402G-100021-CMITAI a org:Membership ;
+  org:member       nadat2:PER-LM-VHK3402G ;
+  org:organization nadat2:CMIT-AI ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "정우택: 제21대 행정안전위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-07-22"^^xsd:date ;
+    time:hasEnd       "2024-05-29"^^xsd:date
+  ] .
+
+
 nadat2:MEM-VNF2868Z-100018 a org:Membership ;
     rdfs:label "조원진: 제18대 국회 membership"@ko ;
     dcterms:coverage "대구 달서구병"@ko ;
@@ -16022,6 +16578,52 @@ nadat2:MEM-W4X85128-20PPP a org:Membership ;
     org:member nadat2:PER-LM-W4X85128 ;
     org:organization nadat2:PeoplePowerParty ;
     org:role nadat2:RL-PM .
+
+nadat2:MEM-W4X85128-100021-CMITAF a org:Membership ;
+  org:member       nadat2:PER-LM-W4X85128 ;
+  org:organization nadat2:CMIT-AF ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "박대출: 제21대 과학기술정보방송통신위원회 위원(2020-06-29 ~ 2021-08-25)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-06-29"^^xsd:date ;
+    time:hasEnd       "2021-08-25"^^xsd:date
+  ] .
+
+nadat2:MEM-W4X85128-100021-CMITAN a org:Membership ;
+  org:member       nadat2:PER-LM-W4X85128 ;
+  org:organization nadat2:CMIT-AN ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "박대출: 제21대 환경노동위원회 위원(2021-08-25 ~ 2022-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2021-08-25"^^xsd:date ;
+    time:hasEnd       "2022-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-W4X85128-100021-CMITAA a org:Membership ;
+  org:member       nadat2:PER-LM-W4X85128 ;
+  org:organization nadat2:CMIT-AA ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "박대출: 제21대 국회운영위원회 위원(2020-07-06 ~ 2020-11-11)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-07-06"^^xsd:date ;
+    time:hasEnd       "2020-11-11"^^xsd:date
+  ] .
+
+nadat2:MEM-W4X85128-100021-CMITAD a org:Membership ;
+  org:member       nadat2:PER-LM-W4X85128 ;
+  org:organization nadat2:CMIT-AD ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "박대출: 제21대 기획재정위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-07-22"^^xsd:date ;
+    time:hasEnd       "2024-05-29"^^xsd:date
+  ] .
+
+
 
 nadat2:MEM-WAL2715Z-100019 a org:Membership ;
     rdfs:label "박창식: 제19대 국회 membership"@ko ;
@@ -17101,6 +17703,18 @@ nadat2:MEM-YOG1280B-20PPP a org:Membership ;
     org:organization nadat2:PeoplePowerParty ;
     org:role nadat2:RL-PM .
 
+nadat2:MEM-YOG1280B-100021-CMITAG a org:Membership ;
+  org:member       nadat2:PER-LM-YOG1280B ;
+  org:organization nadat2:CMIT-AG ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "안철수: 제21대 외교통일위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-07-22"^^xsd:date ;
+    time:hasEnd       "2024-05-29"^^xsd:date
+  ] .
+
+
 nadat2:MEM-YS38221N-100019 a org:Membership ;
     rdfs:label "최민희: 제19대 국회 membership"@ko ;
     dcterms:coverage "비례대표"@ko ;
@@ -17398,6 +18012,40 @@ nadat2:MEM-ZDR63255-14DPK a org:Membership ;
     org:member nadat2:PER-LM-ZDR63255 ;
     org:organization nadat2:DemocraticPartyofKorea ;
     org:role nadat2:RL-PM .
+
+nadat2:MEM-ZDR63255-100021-CMITAO a org:Membership ;
+  org:member       nadat2:PER-LM-ZDR63255 ;
+  org:organization nadat2:CMIT-AO ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "소병훈: 제21대 국토교통위원회 위원(2020-06-15 ~ 2022-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2020-06-15"^^xsd:date ;
+    time:hasEnd       "2022-05-29"^^xsd:date
+  ] .
+
+nadat2:MEM-ZDR63255-100021-CMITAA a org:Membership ;
+  org:member       nadat2:PER-LM-ZDR63255 ;
+  org:organization nadat2:CMIT-AA ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "소병훈: 제21대 국회운영위원회 위원(2022-04-29 ~ 2022-05-16)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-04-29"^^xsd:date ;
+    time:hasEnd       "2022-05-16"^^xsd:date
+  ] .
+
+nadat2:MEM-ZDR63255-100021-CMITAK a org:Membership ;
+  org:member       nadat2:PER-LM-ZDR63255 ;
+  org:organization nadat2:CMIT-AK ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "소병훈: 제21대 농림축산식품해양수산위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-07-22"^^xsd:date ;
+    time:hasEnd       "2024-05-29"^^xsd:date
+  ] .
+
 
 nadat2:MEM-ZGA4092Y-100019 a org:Membership ;
     rdfs:label "정용기: 제19대 국회 membership"@ko ;
