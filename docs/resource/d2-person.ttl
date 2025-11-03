@@ -15902,7 +15902,7 @@ nadat2:MEM-X1K3667J-14DPK a org:Membership ;
     org:organization nadat2:DemocraticPartyofKorea ;
     org:role nadat2:RL-PM .
 
-nadat2:MEM-X1K3667J-21-CMITAI a org:Membership ;
+nadat2:MEM-X1K3667J-100021-CMITAI a org:Membership ;
   org:member       nadat2:PER-LM-X1K3667J ;
   org:organization nadat2:CMIT-AI ;
   org:role         nadat2:RL-CM ;
