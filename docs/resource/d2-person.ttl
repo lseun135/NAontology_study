@@ -20,6 +20,7 @@
 @prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
 @prefix schema: <https://schema.org/> .
 @prefix skos: <https://www.w3.org/2004/02/skos/core#> .
+@prefix time: <http://www.w3.org/2006/time#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
