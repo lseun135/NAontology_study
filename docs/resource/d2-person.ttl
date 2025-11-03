@@ -15902,6 +15902,19 @@ nadat2:MEM-X1K3667J-14DPK a org:Membership ;
     org:organization nadat2:DemocraticPartyofKorea ;
     org:role nadat2:RL-PM .
 
+nadat2:MEM-X1K3667J-21-CMITAI a org:Membership ;
+  org:member       nadat2:PER-LM-X1K3667J ;
+  org:organization nadat2:CMIT-AI ;
+  org:role         nadat2:RL-CM ;
+  rdfs:label "김교흥: 제21대 행정안전위원회 위원(2022-07-22~2024-05-29)"@ko ;
+  org:memberDuring [
+    a time:Interval ;
+    time:hasBeginning "2022-07-22"^^xsd:date ;
+    time:hasEnd       "2024-05-29"^^xsd:date
+  ] .
+
+
+
 nadat2:MEM-X3170462-100021 a org:Membership ;
     rdfs:label "박성민: 제21대 국회 membership"@ko ;
     dcterms:coverage "울산 중구"@ko ;
