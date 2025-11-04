@@ -1342,7 +1342,7 @@ nadat2:MEM-0PK7354M-14DPK a org:Membership ;
     org:organization nadat2:DemocraticPartyofKorea ;
     org:role nadat2:RL-PM .
 
-nadat2:MEM-0R68099X-100021 a org:Membership ;
+nadat2:MEM--100021 a org:Membership ;
     rdfs:label "이수진: 제21대 국회 membership"@ko ;
     dcterms:coverage "비례대표"@ko ;
     org:memberDuring nadat2:LegSession-21 ;
@@ -20976,8 +20976,7 @@ nadat2:PER-LM-CNZ51556 a nam2:Legislator ;
 nadat2:PER-LM-D4L60530 a nam2:Legislator ;
     rdfs:label "이수진"@ko ;
     dcterms:description "초선(제21대)"@ko ;
-    dcterms:identifier "0R68099X",
-        "D4L60530" ;
+    dcterms:identifier "D4L60530" ;
     bio:biography "2022.10 ~ 2024.02 더불어민주당 서울시당 여성위원장 2021.06 ~ 2022.07 더불어민주당 인권위원회 위원장 2021.06 ~ 2022.07 민주연구원 부원장 2021.05 ~ 2022.05 제21대 국회 전반기 법제사법위원회 위원 2021.05 ~ 2022.04 제21대 국회 전반기 운영위원회 위원 2021.04 ~ 2022.03 더불어민주당 원내부대표 2020.09 ~ 2021.06 더불어민주당 젠더폭력신고상담센터 센터장 2020.07 ~ 2021.08 제21대 국회 전반기 여성가족위원회 위원 2020.07 ~ 2021.05 제21대 국회 전반기 산업통상자원중소벤처기업위원회 위원 2020.05 ~ 제21대 국회의원 (서울 동작구을/더불어민주당) 2019.02 ~ 2020.01 수원지방법원 부장판사 2017.02 ~ 2019.02 대전지방법원 부장판사 2015.02 ~ 2017.02 대법원 재판연구관 2011.02 ~ 2014.02 서울남부지방법원 판사 2009.02 ~ 2011.02 서울중앙지방법원 판사 2002.02 제31기 사법연수원 수료 1998. 제40회 사법시험 합격" ;
     foaf:gender "female" ;
     foaf:name "LEE SUJIN"@en,
