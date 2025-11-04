@@ -32586,3 +32586,475 @@ nadat2:PER-TMP-00850 a foaf:Person ;
 	foaf:name "김원모"@ko ;
 	rdfs:comment "수석전문위원"@ko ;
 	nam2:isInAStateOf nam2:Provisional .
+
+
+
+
+
+nadat2:PER-TMP-00851 a foaf:Person ;
+	rdfs:label "강도태"@ko ;
+	foaf:name "강도태"@ko ;
+	rdfs:comment "보건복지부기획조정실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00852 a foaf:Person ;
+	rdfs:label "이의경"@ko ;
+	foaf:name "이의경"@ko ;
+	rdfs:comment "식품의약품안전처장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00853 a foaf:Person ;
+	rdfs:label "권준욱"@ko ;
+	foaf:name "권준욱"@ko ;
+	rdfs:comment "질병관리본부국립보건연구원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00854 a foaf:Person ;
+	rdfs:label "박종희"@ko ;
+	foaf:name "박종희"@ko ;
+	rdfs:comment "수석전문위원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00855 a foaf:Person ;
+	rdfs:label "홍형선"@ko ;
+	foaf:name "홍형선"@ko ;
+	rdfs:comment "수석전문위원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00856 a foaf:Person ;
+	rdfs:label "박정배"@ko ;
+	foaf:name "박정배"@ko ;
+	rdfs:comment "국민연금공단이사장직무대행"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00857 a foaf:Person ;
+	rdfs:label "김선민"@ko ;
+	foaf:name "김선민"@ko ;
+	rdfs:comment "건강보험심사평가원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00858 a foaf:Person ;
+	rdfs:label "김강립"@ko ;
+	foaf:name "김강립"@ko ;
+	rdfs:comment "보건복지부차관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00859 a foaf:Person ;
+	rdfs:label "신항진"@ko ;
+	foaf:name "신항진"@ko ;
+	rdfs:comment "전문위원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00860 a foaf:Person ;
+	rdfs:label "남기창"@ko ;
+	foaf:name "남기창"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00861 a foaf:Person ;
+	rdfs:label "신영기"@ko ;
+	foaf:name "신영기"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00862 a foaf:Person ;
+	rdfs:label "장인진"@ko ;
+	foaf:name "장인진"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00863 a foaf:Person ;
+	rdfs:label "최남경"@ko ;
+	foaf:name "최남경"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00864 a foaf:Person ;
+	rdfs:label "김영옥"@ko ;
+	foaf:name "김영옥"@ko ;
+	rdfs:comment "식품의약품안전처의약품안전국장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00865 a foaf:Person ;
+	rdfs:label "나성웅"@ko ;
+	foaf:name "나성웅"@ko ;
+	rdfs:comment "질병관리청차장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00866 a foaf:Person ;
+	rdfs:label "박인석"@ko ;
+	foaf:name "박인석"@ko ;
+	rdfs:comment "보건복지부사회복지정책실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00867 a foaf:Person ;
+	rdfs:label "박준채"@ko ;
+	foaf:name "박준채"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00868 a foaf:Person ;
+	rdfs:label "신창환"@ko ;
+	foaf:name "신창환"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00869 a foaf:Person ;
+	rdfs:label "양난주"@ko ;
+	foaf:name "양난주"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00870 a foaf:Person ;
+	rdfs:label "허준수"@ko ;
+	foaf:name "허준수"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00871 a foaf:Person ;
+	rdfs:label "이민원"@ko ;
+	foaf:name "이민원"@ko ;
+	rdfs:comment "보건복지부사회서비스정책관직무대리"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00872 a foaf:Person ;
+	rdfs:label "김용진"@ko ;
+	foaf:name "김용진"@ko ;
+	rdfs:comment "국민연금공단이사장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00873 a foaf:Person ;
+	rdfs:label "정순임"@ko ;
+	foaf:name "정순임"@ko ;
+	rdfs:comment "전문위원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00874 a foaf:Person ;
+	rdfs:label "강주성"@ko ;
+	foaf:name "강주성"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00875 a foaf:Person ;
+	rdfs:label "김승연"@ko ;
+	foaf:name "김승연"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00876 a foaf:Person ;
+	rdfs:label "신영석"@ko ;
+	foaf:name "신영석"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00877 a foaf:Person ;
+	rdfs:label "홍승진"@ko ;
+	foaf:name "홍승진"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00878 a foaf:Person ;
+	rdfs:label "이창준"@ko ;
+	foaf:name "이창준"@ko ;
+	rdfs:comment "보건복지부보건의료정책관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00879 a foaf:Person ;
+	rdfs:label "김헌주"@ko ;
+	foaf:name "김헌주"@ko ;
+	rdfs:comment "질병관리청차장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00880 a foaf:Person ;
+	rdfs:label "김신애"@ko ;
+	foaf:name "김신애"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00881 a foaf:Person ;
+	rdfs:label "박대성"@ko ;
+	foaf:name "박대성"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00882 a foaf:Person ;
+	rdfs:label "염민섭"@ko ;
+	foaf:name "염민섭"@ko ;
+	rdfs:comment "보건복지부장애인정책국장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00883 a foaf:Person ;
+	rdfs:label "류근혁"@ko ;
+	foaf:name "류근혁"@ko ;
+	rdfs:comment "보건복지부제2차관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00884 a foaf:Person ;
+	rdfs:label "정호영"@ko ;
+	foaf:name "정호영"@ko ;
+	rdfs:comment "보건복지부장관후보자"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00885 a foaf:Person ;
+	rdfs:label "감신"@ko ;
+	foaf:name "감신"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00886 a foaf:Person ;
+	rdfs:label "김건엽"@ko ;
+	foaf:name "김건엽"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00887 a foaf:Person ;
+	rdfs:label "김문규"@ko ;
+	foaf:name "김문규"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00888 a foaf:Person ;
+	rdfs:label "김용림"@ko ;
+	foaf:name "김용림"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00889 a foaf:Person ;
+	rdfs:label "민우기"@ko ;
+	foaf:name "민우기"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00890 a foaf:Person ;
+	rdfs:label "박지영"@ko ;
+	foaf:name "박지영"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00891 a foaf:Person ;
+	rdfs:label "박태인"@ko ;
+	foaf:name "박태인"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00892 a foaf:Person ;
+	rdfs:label "이동식"@ko ;
+	foaf:name "이동식"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00893 a foaf:Person ;
+	rdfs:label "이유철"@ko ;
+	foaf:name "이유철"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00894 a foaf:Person ;
+	rdfs:label "이재태"@ko ;
+	foaf:name "이재태"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00895 a foaf:Person ;
+	rdfs:label "임상규"@ko ;
+	foaf:name "임상규"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00896 a foaf:Person ;
+	rdfs:label "최연희"@ko ;
+	foaf:name "최연희"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00897 a foaf:Person ;
+	rdfs:label "백경란"@ko ;
+	foaf:name "백경란"@ko ;
+	rdfs:comment "질병관리청장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00898 a foaf:Person ;
+	rdfs:label "고득영"@ko ;
+	foaf:name "고득영"@ko ;
+	rdfs:comment "보건복지부기획조정실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00899 a foaf:Person ;
+	rdfs:label "오유경"@ko ;
+	foaf:name "오유경"@ko ;
+	rdfs:comment "식품의약품안전처장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00900 a foaf:Person ;
+	rdfs:label "진선희"@ko ;
+	foaf:name "진선희"@ko ;
+	rdfs:comment "수석전문위원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00901 a foaf:Person ;
+	rdfs:label "정용건"@ko ;
+	foaf:name "정용건"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00902 a foaf:Person ;
+	rdfs:label "전병왕"@ko ;
+	foaf:name "전병왕"@ko ;
+	rdfs:comment "보건복지부사회복지정책실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00903 a foaf:Person ;
+	rdfs:label "김윤"@ko ;
+	foaf:name "김윤"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00904 a foaf:Person ;
+	rdfs:label "나영명"@ko ;
+	foaf:name "나영명"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00905 a foaf:Person ;
+	rdfs:label "우봉식"@ko ;
+	foaf:name "우봉식"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00906 a foaf:Person ;
+	rdfs:label "박향"@ko ;
+	foaf:name "박향"@ko ;
+	rdfs:comment "보건복지부공공보건정책관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00907 a foaf:Person ;
+	rdfs:label "지영미"@ko ;
+	foaf:name "지영미"@ko ;
+	rdfs:comment "질병관리청장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00908 a foaf:Person ;
+	rdfs:label "석재은"@ko ;
+	foaf:name "석재은"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00909 a foaf:Person ;
+	rdfs:label "신권철"@ko ;
+	foaf:name "신권철"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00910 a foaf:Person ;
+	rdfs:label "유애정"@ko ;
+	foaf:name "유애정"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00911 a foaf:Person ;
+	rdfs:label "홍선미"@ko ;
+	foaf:name "홍선미"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00912 a foaf:Person ;
+	rdfs:label "이윤신"@ko ;
+	foaf:name "이윤신"@ko ;
+	rdfs:comment "보건복지부노인정책관직무대리"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00913 a foaf:Person ;
+	rdfs:label "방석배"@ko ;
+	foaf:name "방석배"@ko ;
+	rdfs:comment "보건복지부통합돌봄추진단장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00914 a foaf:Person ;
+	rdfs:label "권오상"@ko ;
+	foaf:name "권오상"@ko ;
+	rdfs:comment "식품의약품안전처차장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00915 a foaf:Person ;
+	rdfs:label "현재룡"@ko ;
+	foaf:name "현재룡"@ko ;
+	rdfs:comment "국민건강보험공단이사장직무대리"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00916 a foaf:Person ;
+	rdfs:label "김태현"@ko ;
+	foaf:name "김태현"@ko ;
+	rdfs:comment "국민연금공단이사장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00917 a foaf:Person ;
+	rdfs:label "강중구"@ko ;
+	foaf:name "강중구"@ko ;
+	rdfs:comment "건강보험심사평가원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00918 a foaf:Person ;
+	rdfs:label "오수석"@ko ;
+	foaf:name "오수석"@ko ;
+	rdfs:comment "건강보험심사평가원기획상임이사"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00919 a foaf:Person ;
+	rdfs:label "이선심"@ko ;
+	foaf:name "이선심"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00920 a foaf:Person ;
+	rdfs:label "팽동환"@ko ;
+	foaf:name "팽동환"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00921 a foaf:Person ;
+	rdfs:label "황종열"@ko ;
+	foaf:name "황종열"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00922 a foaf:Person ;
+	rdfs:label "김도윤"@ko ;
+	foaf:name "김도윤"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00923 a foaf:Person ;
+	rdfs:label "박미애"@ko ;
+	foaf:name "박미애"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00924 a foaf:Person ;
+	rdfs:label "윤일향"@ko ;
+	foaf:name "윤일향"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00925 a foaf:Person ;
+	rdfs:label "이순재"@ko ;
+	foaf:name "이순재"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00926 a foaf:Person ;
+	rdfs:label "임보란"@ko ;
+	foaf:name "임보란"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00927 a foaf:Person ;
+	rdfs:label "이시형"@ko ;
+	foaf:name "이시형"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00928 a foaf:Person ;
+	rdfs:label "진영주"@ko ;
+	foaf:name "진영주"@ko ;
+	rdfs:comment "보건복지부건강정책국장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
