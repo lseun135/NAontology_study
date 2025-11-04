@@ -9888,7 +9888,7 @@ nadat1:EV-M-51975 a rico:Event ;
         nadat2:PER-LM-YOG1280B,
         nadat2:PER-LM-YTA7297R,
         nadat2:PER-TMP-00033,
-        nadat2:PER-TMP-00047 ;
+        nadat2:PER-LM-0W194007 ;
     rico:identifier "EV-M-51975" ;
     rico:name "제21대국회 제398회 제1차 국회본회의"@ko .
 
@@ -9961,7 +9961,7 @@ nadat1:EV-M-51986 a rico:Event ;
         nadat2:PER-TMP-00036,
         nadat2:PER-TMP-00038,
         nadat2:PER-TMP-00039,
-        nadat2:PER-TMP-00047 ;
+        nadat2:PER-LM-0W194007 ;
     rico:identifier "EV-M-51986" ;
     rico:name "제21대국회 제398회 제5차 국회본회의"@ko .
 
@@ -9988,7 +9988,7 @@ nadat1:EV-M-51989 a rico:Event ;
         nadat2:PER-TMP-00037,
         nadat2:PER-TMP-00042,
         nadat2:PER-TMP-00045,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00048 ;
     rico:identifier "EV-M-51989" ;
     rico:name "제21대국회 제398회 제6차 국회본회의"@ko .
@@ -10016,7 +10016,7 @@ nadat1:EV-M-51995 a rico:Event ;
         nadat2:PER-TMP-00036,
         nadat2:PER-TMP-00038,
         nadat2:PER-TMP-00040,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00049,
         nadat2:PER-TMP-00050 ;
     rico:identifier "EV-M-51995" ;
@@ -10095,7 +10095,7 @@ nadat1:EV-M-52135 a rico:Event ;
         nadat2:PER-LM-TKJ4800F,
         nadat2:PER-TMP-00036,
         nadat2:PER-TMP-00038,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00053 ;
     rico:identifier "EV-M-52135" ;
     rico:name "제21대국회 제400회 제3차 국회본회의"@ko .
@@ -10119,7 +10119,7 @@ nadat1:EV-M-52139 a rico:Event ;
         nadat2:PER-LM-XJC13432,
         nadat2:PER-TMP-00036,
         nadat2:PER-TMP-00039,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00054 ;
     rico:identifier "EV-M-52139" ;
     rico:name "제21대국회 제400회 제4차 국회본회의"@ko .
@@ -10144,7 +10144,7 @@ nadat1:EV-M-52147 a rico:Event ;
         nadat2:PER-TMP-00036,
         nadat2:PER-TMP-00041,
         nadat2:PER-TMP-00045,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00048,
         nadat2:PER-TMP-00055,
         nadat2:PER-TMP-00056 ;
@@ -10173,7 +10173,7 @@ nadat1:EV-M-52156 a rico:Event ;
         nadat2:PER-TMP-00040,
         nadat2:PER-TMP-00043,
         nadat2:PER-TMP-00044,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00050 ;
     rico:identifier "EV-M-52156" ;
     rico:name "제21대국회 제400회 제6차 국회본회의"@ko .
@@ -10275,7 +10275,7 @@ nadat1:EV-M-52334 a rico:Event ;
         nadat2:PER-LM-VHK3402G,
         nadat2:PER-LM-VRY5522V,
         nadat2:PER-LM-W1Q6753M,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00051,
         nadat2:PER-TMP-00057,
         nadat2:PER-TMP-00058 ;
@@ -10338,7 +10338,7 @@ nadat1:EV-M-52588 a rico:Event ;
         nadat2:PER-LM-X1K3667J,
         nadat2:PER-LM-XJC13432,
         nadat2:PER-LM-ZDP5704Q,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00051 ;
     rico:identifier "EV-M-52588" ;
     rico:name "제21대국회 제400회 제14차 국회본회의"@ko .
@@ -10433,7 +10433,7 @@ nadat1:EV-M-52637 a rico:Event ;
         nadat2:PER-LM-X1K3667J,
         nadat2:PER-LM-Z7Y7827F,
         nadat2:PER-TMP-00038,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00051 ;
     rico:identifier "EV-M-52637" ;
     rico:name "제21대국회 제401회 제4차 국회본회의"@ko .
@@ -10471,7 +10471,7 @@ nadat1:EV-M-52659 a rico:Event ;
         nadat2:PER-LM-V0O5343U,
         nadat2:PER-LM-VG24001G,
         nadat2:PER-LM-Y7K5946R,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00051 ;
     rico:identifier "EV-M-52659" ;
     rico:name "제21대국회 제402회 제1차 국회본회의"@ko .
@@ -10518,7 +10518,7 @@ nadat1:EV-M-52669 a rico:Event ;
         nadat2:PER-TMP-00036,
         nadat2:PER-TMP-00038,
         nadat2:PER-TMP-00039,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00051 ;
     rico:identifier "EV-M-52669" ;
     rico:name "제21대국회 제403회 제2차 국회본회의"@ko .
@@ -10545,7 +10545,7 @@ nadat1:EV-M-52671 a rico:Event ;
         nadat2:PER-TMP-00041,
         nadat2:PER-TMP-00042,
         nadat2:PER-TMP-00045,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00059 ;
     rico:identifier "EV-M-52671" ;
     rico:name "제21대국회 제403회 제3차 국회본회의"@ko .
@@ -10575,7 +10575,7 @@ nadat1:EV-M-52672 a rico:Event ;
         nadat2:PER-TMP-00036,
         nadat2:PER-TMP-00038,
         nadat2:PER-TMP-00044,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00051,
         nadat2:PER-TMP-00058 ;
     rico:identifier "EV-M-52672" ;
@@ -10608,7 +10608,7 @@ nadat1:EV-M-52743 a rico:Event ;
         nadat2:PER-LM-P0F1530P,
         nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-W1Q6753M,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00051 ;
     rico:identifier "EV-M-52743" ;
     rico:name "제21대국회 제403회 제7차 국회본회의"@ko .
@@ -10641,7 +10641,7 @@ nadat1:EV-M-52751 a rico:Event ;
         nadat2:PER-LM-VHK3402G,
         nadat2:PER-LM-WMG57662,
         nadat2:PER-TMP-00038,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00051 ;
     rico:identifier "EV-M-52751" ;
     rico:name "제21대국회 제403회 제8차 국회본회의"@ko .
@@ -10673,7 +10673,7 @@ nadat1:EV-M-52800 a rico:Event ;
         nadat2:PER-LM-XSP20229,
         nadat2:PER-LM-ZDR63255,
         nadat2:PER-LM-ZYP7962W,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00051 ;
     rico:identifier "EV-M-52800" ;
     rico:name "제21대국회 제404회 제1차 국회본회의"@ko .
@@ -10703,7 +10703,7 @@ nadat1:EV-M-52823 a rico:Event ;
         nadat2:PER-LM-WCD5518S,
         nadat2:PER-LM-XA42275R,
         nadat2:PER-TMP-00038,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00051 ;
     rico:identifier "EV-M-52823" ;
     rico:name "제21대국회 제404회 제2차 국회본회의"@ko .
@@ -10732,7 +10732,7 @@ nadat1:EV-M-52838 a rico:Event ;
         nadat2:PER-TMP-00036,
         nadat2:PER-TMP-00038,
         nadat2:PER-TMP-00039,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00053,
         nadat2:PER-TMP-00054 ;
     rico:identifier "EV-M-52838" ;
@@ -10761,7 +10761,7 @@ nadat1:EV-M-52843 a rico:Event ;
         nadat2:PER-TMP-00041,
         nadat2:PER-TMP-00045,
         nadat2:PER-TMP-00046,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00048 ;
     rico:identifier "EV-M-52843" ;
     rico:name "제21대국회 제405회 제2차 국회본회의"@ko .
@@ -10786,7 +10786,7 @@ nadat1:EV-M-52845 a rico:Event ;
         nadat2:PER-TMP-00036,
         nadat2:PER-TMP-00038,
         nadat2:PER-TMP-00044,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00057,
         nadat2:PER-TMP-00058 ;
     rico:identifier "EV-M-52845" ;
@@ -10812,7 +10812,7 @@ nadat1:EV-M-52863 a rico:Event ;
         nadat2:PER-LM-RQQ3807K,
         nadat2:PER-LM-TRE2429O,
         nadat2:PER-LM-ZRF3039U,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00051 ;
     rico:identifier "EV-M-52863" ;
     rico:name "제21대국회 제405회 제4차 국회본회의"@ko .
@@ -10856,7 +10856,7 @@ nadat1:EV-M-52897 a rico:Event ;
         nadat2:PER-LM-WMG57662,
         nadat2:PER-LM-X1K3667J,
         nadat2:PER-LM-ZYP7962W,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00051 ;
     rico:identifier "EV-M-52897" ;
     rico:name "제21대국회 제405회 제5차 국회본회의"@ko .
@@ -10899,7 +10899,7 @@ nadat1:EV-M-52945 a rico:Event ;
         nadat2:PER-LM-X1K3667J,
         nadat2:PER-LM-XSP20229,
         nadat2:PER-LM-YTA7297R,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00051 ;
     rico:identifier "EV-M-52945" ;
     rico:name "제21대국회 제406회 제1차 국회본회의"@ko .
@@ -11095,7 +11095,7 @@ nadat1:EV-M-53046 a rico:Event ;
         nadat2:PER-LM-W1Q6753M,
         nadat2:PER-LM-WMG57662,
         nadat2:PER-LM-ZDR63255,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00051 ;
     rico:identifier "EV-M-53046" ;
     rico:name "제21대국회 제407회 제7차 국회본회의"@ko .
@@ -11117,7 +11117,7 @@ nadat1:EV-M-53077 a rico:Event ;
         nadat2:PER-LM-Q9H5708M,
         nadat2:PER-LM-SVH3899R,
         nadat2:PER-LM-TST4507I,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00051 ;
     rico:identifier "EV-M-53077" ;
     rico:name "제21대국회 제408회 제1차 국회본회의"@ko .
@@ -11144,7 +11144,7 @@ nadat1:EV-M-53084 a rico:Event ;
         nadat2:PER-LM-VHK3402G,
         nadat2:PER-LM-WCD5518S,
         nadat2:PER-LM-XJC13432,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00051 ;
     rico:identifier "EV-M-53084" ;
     rico:name "제21대국회 제408회 제2차 국회본회의"@ko .
@@ -11220,7 +11220,7 @@ nadat1:EV-M-53184 a rico:Event ;
         nadat2:PER-LM-ZYH1940A,
         nadat2:PER-TMP-00036,
         nadat2:PER-TMP-00038,
-        nadat2:PER-TMP-00047 ;
+        nadat2:PER-LM-0W194007 ;
     rico:identifier "EV-M-53184" ;
     rico:name "제21대국회 제410회 제2차 국회본회의"@ko .
 
@@ -11244,7 +11244,7 @@ nadat1:EV-M-53194 a rico:Event ;
         nadat2:PER-LM-ZKU88693,
         nadat2:PER-TMP-00036,
         nadat2:PER-TMP-00039,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00061,
         nadat2:PER-TMP-00062 ;
     rico:identifier "EV-M-53194" ;
@@ -11269,7 +11269,7 @@ nadat1:EV-M-53201 a rico:Event ;
         nadat2:PER-TMP-00036,
         nadat2:PER-TMP-00045,
         nadat2:PER-TMP-00046,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00063,
         nadat2:PER-TMP-00064 ;
     rico:identifier "EV-M-53201" ;
@@ -11296,7 +11296,7 @@ nadat1:EV-M-53206 a rico:Event ;
         nadat2:PER-TMP-00036,
         nadat2:PER-TMP-00038,
         nadat2:PER-TMP-00043,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00057,
         nadat2:PER-TMP-00058,
         nadat2:PER-TMP-00065 ;
@@ -11369,7 +11369,7 @@ nadat1:EV-M-53287 a rico:Event ;
         nadat2:PER-LM-WMG57662,
         nadat2:PER-LM-WVU2479T,
         nadat2:PER-LM-ZA54991S,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00051 ;
     rico:identifier "EV-M-53287" ;
     rico:name "제21대국회 제410회 제9차 국회본회의"@ko .
@@ -11380,7 +11380,7 @@ nadat1:EV-M-53341 a rico:Event ;
     rico:hasEventType nam1:PlenarySession ;
     rico:hasOrHadParticipant nadat2:PER-LM-Q9H5708M,
         nadat2:PER-TMP-00035,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00066 ;
     rico:identifier "EV-M-53341" ;
     rico:name "제21대국회 제410회 제10차 국회본회의"@ko .
@@ -11469,7 +11469,7 @@ nadat1:EV-M-53628 a rico:Event ;
         nadat2:PER-LM-XJC13432,
         nadat2:PER-LM-XPP2564T,
         nadat2:PER-TMP-00044,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00051,
         nadat2:PER-TMP-00069,
         nadat2:PER-TMP-00070 ;
@@ -11504,7 +11504,7 @@ nadat1:EV-M-53696 a rico:Event ;
         nadat2:PER-LM-VRY5522V,
         nadat2:PER-LM-XJC13432,
         nadat2:PER-LM-YTA7297R,
-        nadat2:PER-TMP-00047,
+        nadat2:PER-LM-0W194007,
         nadat2:PER-TMP-00051,
         nadat2:PER-TMP-00071 ;
     rico:identifier "EV-M-53696" ;
