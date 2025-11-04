@@ -33905,3 +33905,239 @@ nadat2:PER-TMP-01068 a foaf:Person ;
 	rdfs:comment "여성가족부장관직무대행"@ko ;
 	nam2:isInAStateOf nam2:Provisional .
 
+
+
+nadat2:PER-TMP-01069 a foaf:Person ;
+	rdfs:label "조세영"@ko ;
+	foaf:name "조세영"@ko ;
+	rdfs:comment "외교부제1차관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01070 a foaf:Person ;
+	rdfs:label "김연철"@ko ;
+	foaf:name "김연철"@ko ;
+	rdfs:comment "통일부장관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01071 a foaf:Person ;
+	rdfs:label "이승환"@ko ;
+	foaf:name "이승환"@ko ;
+	rdfs:comment "민주평화통일자문회의사무처장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01072 a foaf:Person ;
+	rdfs:label "권기원"@ko ;
+	foaf:name "권기원"@ko ;
+	rdfs:comment "수석전문위원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01073 a foaf:Person ;
+	rdfs:label "전수미"@ko ;
+	foaf:name "전수미"@ko ;
+	rdfs:comment "변호사"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01074 a foaf:Person ;
+	rdfs:label "신희석"@ko ;
+	foaf:name "신희석"@ko ;
+	rdfs:comment "전환기정의워킹그룹법률분석관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01075 a foaf:Person ;
+	rdfs:label "임영선"@ko ;
+	foaf:name "임영선"@ko ;
+	rdfs:comment "이북9도민정착위원회사무총장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01076 a foaf:Person ;
+	rdfs:label "이민복"@ko ;
+	foaf:name "이민복"@ko ;
+	rdfs:comment "북한동포직접돕기운동대북풍선단장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01077 a foaf:Person ;
+	rdfs:label "이태호"@ko ;
+	foaf:name "이태호"@ko ;
+	rdfs:comment "외교부제2차관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01078 a foaf:Person ;
+	rdfs:label "정인호"@ko ;
+	foaf:name "정인호"@ko ;
+	rdfs:comment "북한이탈주민지원재단이사장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01079 a foaf:Person ;
+	rdfs:label "김완중"@ko ;
+	foaf:name "김완중"@ko ;
+	rdfs:comment "외교부기획조정실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01080 a foaf:Person ;
+	rdfs:label "배기찬"@ko ;
+	foaf:name "배기찬"@ko ;
+	rdfs:comment "민주평화통일자문회의사무처장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01081 a foaf:Person ;
+	rdfs:label "문장렬"@ko ;
+	foaf:name "문장렬"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01082 a foaf:Person ;
+	rdfs:label "박기학"@ko ;
+	foaf:name "박기학"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01083 a foaf:Person ;
+	rdfs:label "박원곤"@ko ;
+	foaf:name "박원곤"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01084 a foaf:Person ;
+	rdfs:label "우정엽"@ko ;
+	foaf:name "우정엽"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01085 a foaf:Person ;
+	rdfs:label "이성호"@ko ;
+	foaf:name "이성호"@ko ;
+	rdfs:comment "외교부한미방위비분담협상TF정부부대표"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01086 a foaf:Person ;
+	rdfs:label "이근"@ko ;
+	foaf:name "이근"@ko ;
+	rdfs:comment "한국국제교류재단이사장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01087 a foaf:Person ;
+	rdfs:label "정광일"@ko ;
+	foaf:name "정광일"@ko ;
+	rdfs:comment "재외동포재단사업이사"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01088 a foaf:Person ;
+	rdfs:label "이미연"@ko ;
+	foaf:name "이미연"@ko ;
+	rdfs:comment "외교부양자경제외교국장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01089 a foaf:Person ;
+	rdfs:label "전윤종"@ko ;
+	foaf:name "전윤종"@ko ;
+	rdfs:comment "산업통상자원부통상교섭실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01090 a foaf:Person ;
+	rdfs:label "김창수"@ko ;
+	foaf:name "김창수"@ko ;
+	rdfs:comment "민주평화통일자문회의사무처장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01091 a foaf:Person ;
+	rdfs:label "오명호"@ko ;
+	foaf:name "오명호"@ko ;
+	rdfs:comment "전문위원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01092 a foaf:Person ;
+	rdfs:label "손혁상"@ko ;
+	foaf:name "손혁상"@ko ;
+	rdfs:comment "한국국제협력단이사장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01093 a foaf:Person ;
+	rdfs:label "이영근"@ko ;
+	foaf:name "이영근"@ko ;
+	rdfs:comment "재외동포재단기획이사"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01094 a foaf:Person ;
+	rdfs:label "여운기"@ko ;
+	foaf:name "여운기"@ko ;
+	rdfs:comment "한․아프리카재단이사장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01095 a foaf:Person ;
+	rdfs:label "이종철"@ko ;
+	foaf:name "이종철"@ko ;
+	rdfs:comment "남북교류협력지원협회장직무대행"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01096 a foaf:Person ;
+	rdfs:label "유정현"@ko ;
+	foaf:name "유정현"@ko ;
+	rdfs:comment "외교부의전장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01097 a foaf:Person ;
+	rdfs:label "이도훈"@ko ;
+	foaf:name "이도훈"@ko ;
+	rdfs:comment "외교부제2차관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01098 a foaf:Person ;
+	rdfs:label "석동현"@ko ;
+	foaf:name "석동현"@ko ;
+	rdfs:comment "민주평화통일자문회의사무처장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01099 a foaf:Person ;
+	rdfs:label "정낙근"@ko ;
+	foaf:name "정낙근"@ko ;
+	rdfs:comment "남북교류협력지원협회장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01100 a foaf:Person ;
+	rdfs:label "김기웅"@ko ;
+	foaf:name "김기웅"@ko ;
+	rdfs:comment "통일부차관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01101 a foaf:Person ;
+	rdfs:label "정홍진"@ko ;
+	foaf:name "정홍진"@ko ;
+	rdfs:comment "전문위원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01102 a foaf:Person ;
+	rdfs:label "양금덕"@ko ;
+	foaf:name "양금덕"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01103 a foaf:Person ;
+	rdfs:label "김시운"@ko ;
+	foaf:name "김시운"@ko ;
+	rdfs:comment "통일부북한정보공개센터장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01104 a foaf:Person ;
+	rdfs:label "이기철"@ko ;
+	foaf:name "이기철"@ko ;
+	rdfs:comment "재외동포청장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01105 a foaf:Person ;
+	rdfs:label "윤현수"@ko ;
+	foaf:name "윤현수"@ko ;
+	rdfs:comment "외교부기후환경과학외교국장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01106 a foaf:Person ;
+	rdfs:label "김건"@ko ;
+	foaf:name "김건"@ko ;
+	rdfs:comment "외교부한반도평화교섭본부장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-01107 a foaf:Person ;
+	rdfs:label "조구래"@ko ;
+	foaf:name "조구래"@ko ;
+	rdfs:comment "외교부기획조정실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
