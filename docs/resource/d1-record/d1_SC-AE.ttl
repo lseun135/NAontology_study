@@ -3802,7 +3802,7 @@ nadat1:EV-M-51556 a rico:Event ;
     rico:hasOrHadParticipant nadat2:PER-LM-5CO4531H,
         nadat2:PER-LM-BT62420K,
         nadat2:PER-LM-Z6R3959C,
-        nadat2:PER-TMP-00244 ;
+        nadat2:PER-LM-0W194007 ;
     rico:identifier "EV-M-51556" ;
     rico:name "제21대국회 제391회 제5차 교육위원회"@ko .
 
@@ -3842,7 +3842,7 @@ nadat1:EV-M-51693 a rico:Event ;
         nadat2:PER-LM-P2N50879,
         nadat2:PER-LM-Z6R3959C,
         nadat2:PER-LM-ZA54991S,
-        nadat2:PER-TMP-00244 ;
+        nadat2:PER-LM-0W194007 ;
     rico:identifier "EV-M-51693" ;
     rico:name "제21대국회 제392회 제1차 교육위원회"@ko .
 
