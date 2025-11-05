@@ -129,14 +129,14 @@ nadat2:Period-240530-280529 rdf:type owl:NamedIndividual ,
 ## Institution
 
 nadat2:NationalAssembly rdf:type org:FormalOrganization ;
-                rdfs:seeAlso <https://www.assembly.go.kr> ;
+                schema:url <https://www.assembly.go.kr> ;
 				rdfs:label "국회"@ko ;
                 skos:altLabel "국회"@ko ;
                 skos:prefLabel "대한민국 국회"@ko .
 
 nadat2:NABudgetOffice rdf:type nam2:Institution ;
                 org:subOrganizationOf nadat2:NationalAssembly ;
-                rdfs:seeAlso <https://www.nabo.go.kr> ;
+                schema:url <https://www.nabo.go.kr> ;
 				rdfs:label "국회예산정책처"@ko ;
                 skos:altLabel "NABO"@en ;
                 skos:prefLabel "National Assembly Budget Office"@en ,
@@ -144,13 +144,13 @@ nadat2:NABudgetOffice rdf:type nam2:Institution ;
 
 nadat2:NALibrary rdf:type nam2:Institution ;
                 org:subOrganizationOf nadat2:NationalAssembly ;
-                rdfs:seeAlso <https://www.nanet.go.kr> ;
+                schema:url <https://www.nanet.go.kr> ;
 				rdfs:label "국회도서관"@ko ;
                 skos:prefLabel "National Assembly Library"@en , "국회도서관"@ko .
 
 nadat2:NAArchives rdf:type org:OrganizationalUnit ;
                 org:unitOf nadat2:NALibrary ;
-                rdfs:seeAlso <https://archives.nanet.go.kr> ;
+                schema:url <https://archives.nanet.go.kr> ;
 				rdfs:label "국회기록보존소"@ko ;
                 skos:altLabel "NAA"@en ;
                 skos:prefLabel "National Assembly Archives"@en ,
@@ -158,7 +158,7 @@ nadat2:NAArchives rdf:type org:OrganizationalUnit ;
 
 nadat2:NAResearchService rdf:type nam2:Institution ;
                 org:subOrganizationOf nadat2:NationalAssembly ;
-                rdfs:seeAlso <https://www.nars.go.kr> ;
+                schema:url <https://www.nars.go.kr> ;
 				rdfs:label "국회입법조사처"@ko ;
                 skos:altLabel "NARS"@en ;
                 skos:prefLabel "National Assembly Research Service"@en ,
@@ -166,7 +166,7 @@ nadat2:NAResearchService rdf:type nam2:Institution ;
 
 nadat2:NASecretariat rdf:type nam2:Institution ;
                 org:subOrganizationOf nadat2:NationalAssembly ;
-                rdfs:seeAlso <https://nas.na.go.kr> ;
+                schema:url <https://nas.na.go.kr> ;
 				rdfs:label "국회사무처"@ko ;
                 skos:prefLabel "National Assembly Secretariat"@en ,
                                "국회사무처"@ko .
@@ -199,7 +199,7 @@ nadat2:NAS0002-0001 a org:OrganizationalUnit ;
 
 nadat2:BasicIncomeParty rdf:type nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/16867da3-e0f7-5eda-94b3-7e3f0c50e698"^^rdfs:Literal ;
-                rdfs:seeAlso <https://www.basicincomeparty.kr> ;
+                schema:url <https://www.basicincomeparty.kr> ;
 				schema:foundingDate "2020-01-19"^^xsd:date ;
                 skos:altLabel "BIP"@en ;
                 skos:prefLabel "Basic Income Party"@en ,
@@ -207,7 +207,7 @@ nadat2:BasicIncomeParty rdf:type nam2:Party ;
 
 nadat2:DemocraticPartyofKorea rdf:type nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/a99b2275-dfed-5fbe-bcd6-e4932ed0d463"^^rdfs:Literal ;
-                rdfs:seeAlso <https://theminjoo.kr> ;
+                schema:url <https://theminjoo.kr> ;
 				schema:foundingDate "2014-03-26"^^xsd:date ;
                 skos:altLabel "DPK"@en ;
                 skos:prefLabel "Democratic Party of Korea"@en ,
@@ -222,7 +222,7 @@ nadat2:PlatformParty rdf:type nam2:Party ;
 
 nadat2:PeoplePowerParty rdf:type nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/0f2e881a-d760-55a9-afa8-c3fe5954593d"^^rdfs:Literal ;
-				rdfs:seeAlso <https://www.peoplepowerparty.kr> ;
+				schema:url <https://www.peoplepowerparty.kr> ;
 				schema:foundingDate "2020-02-17"^^xsd:date ;
 				nam2:formerName "미래통합당"@ko , "United Future Party"@en ;
                 skos:altLabel "PPP"@en ;
@@ -247,7 +247,7 @@ nadat2:FutureKoreaParty rdf:type nam2:Party ;
 
 nadat2:ProgressiveParty rdf:type nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/37347254-194d-595f-b8ea-7ca26e8db0eb"^^rdfs:Literal ;
-                rdfs:seeAlso <https://jinboparty.com> ;
+                schema:url <https://jinboparty.com> ;
 				schema:foundingDate "2017-10-15"^^xsd:date ;
 				nam2:formerName "민중당"@ko ;
                 skos:altLabel "PP"@en ;
@@ -256,7 +256,7 @@ nadat2:ProgressiveParty rdf:type nam2:Party ;
 
 nadat2:JusticeParty rdf:type nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/c1bc40b4-ae14-54a5-8326-65e9696b1de9"^^rdfs:Literal ;
-                rdfs:seeAlso <https://www.justice21.org> ;
+                schema:url <https://www.justice21.org> ;
 				schema:foundingDate "2012-10-21"^^xsd:date ;
 				nam2:formerName "진보정의당"@ko, "녹색정의당"@ko ;
                 skos:altLabel "JP"@en ;
@@ -265,7 +265,7 @@ nadat2:JusticeParty rdf:type nam2:Party ;
 
 nadat2:RebuildingKoreaParty rdf:type nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/76440f8c-9249-5bc7-aa9e-ff1f294750c8"^^rdfs:Literal ;
-                rdfs:seeAlso <https://rebuildingkoreaparty.kr> ;
+                schema:url <https://rebuildingkoreaparty.kr> ;
 				schema:foundingDate "2024-03-07"^^xsd:date ;
                 skos:altLabel "RKP"@en ;
                 skos:prefLabel "Rebuilding Korea Party"@en ,
@@ -273,7 +273,7 @@ nadat2:RebuildingKoreaParty rdf:type nam2:Party ;
 
 nadat2:ReformParty rdf:type nam2:Party ;
                 dcterms:identifier "ocd-organization/country:kr/f69532b6-26e7-5560-88e2-ed222e2b048d"^^rdfs:Literal ;
-                rdfs:seeAlso <https://www.reformparty.kr> ;
+                schema:url <https://www.reformparty.kr> ;
 				schema:foundingDate "2024-01-25"^^xsd:date ;
                 skos:altLabel "RP"@en ;
                 skos:prefLabel "Reform Party"@en ,
