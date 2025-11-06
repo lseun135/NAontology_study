@@ -27454,7 +27454,21 @@ nadat2:PER-LM-4Y54669I a nam2:Legislator ;
     nam2:lunarBirthText "1943-04-03"^^xsd:date ;
     schema:image <https://www.assembly.go.kr/static/portal/img/openassm/4Y54669I.jpg> .
 
-
+nadat2:PER-LM-VZA76236 a nam2:Legislator ;
+    rdfs:label "박선원"@ko ;
+    dcterms:description "초선(제22대)"@ko ;
+    dcterms:identifier "VZA76236" ;
+    bio:biography "■ 일반사항 ○ 1963년 전남 나주 출생(60세) ○ 전남 나주 영산포상업고등학교 졸업(1982) ○ 연세대학교 경영학과(82학번) ○ 연세대학교 국제학대학원 동아시아학 석사(1995) ○ 영국 워릭대학교(The University of Warwick) 국제학 박사(2000) ■ 주요 경력 ○ 연세대학교 국제학연구소 전문연구원(&rsquo;00) ○ 참여정부 청와대 국가안전보장회의 사무처 전략기획실 행정관(&rsquo;03~&rsquo;05) ○ 노무현대통령 국가안보실 통일외교안보전략 비서관(&rsquo;06~&rsquo;08) ○ 인천광역시 국제협력&middot;투자유치특별보좌관(&rsquo;12) ○ 문재인 대통령후보자선거대책위원회 안보상황단 부단장(&rsquo;17) ○ 중국 駐 상하이 대한민국 총영사(&rsquo;17~&rsquo;18) ○ 국가정보원장 외교안보특별보좌관(&rsquo;18~&rsquo;20) ○ 국가정보원 기획조정실장(&rsquo;20~&rsquo;21) ○ 국가정보원 제1차장(&rsquo;21~&rsquo;22) ○ 국회의장 경제외교자문위원(&rsquo;23) ○ 연세대학교 국제학연구소 연구교수 ○ 연세대학교 통일연구원 연구교수 ○ 브루킹스연구소 비지팅펠로우 ○ 김대중 정부 정무보좌 자문위원 ○ 더불어민주당 4호 영입인재(&rsquo;23)" ;
+    foaf:gender "male" ;
+    foaf:name "PARK SUNWON"@en,
+        "박선원"@ko,
+        "朴善源"@ko-Hani ;
+    nam2:calendarType "solar"^^xsd:token ;
+    schema:birthDate "1963-01-14"^^xsd:date ;
+	schema:email "qkrsw20@naver.com" ;
+    schema:image <https://www.assembly.go.kr/static/portal/img/openassm/new/107f88df05484eaeaf4fdcbb158b1221.png> ;
+    schema:telephone "02-784-3740" ;
+	schema:url <https://blog.naver.com/qkrsw20> .
 
 
 
