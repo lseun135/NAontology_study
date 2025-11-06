@@ -999,10 +999,10 @@ def convert(csv_path, out_path, tmp_people_out_path,
 
         # === 보존본 Instantiation(-01) ===
         ins1_id = f"INS-{BRANCH}-{m_start}_{m_end}-01"
+        ins1 = URIRef(NADAT1[ins1_id])  # 항상 정의
         preclaim(ins1_id, "inst")
         if ins1_id not in seen["inst"]:
             seen["inst"].add(ins1_id)
-            ins1 = URIRef(NADAT1[ins1_id])
             g.add((ins1, RDF.type, RICO.Instantiation))
             add_lit(g, ins1, RICO.identifier, ins1_id)
 
@@ -1026,8 +1026,13 @@ def convert(csv_path, out_path, tmp_people_out_path,
         g.add((ins1, RICO.hasEndDate,       end_node))
         add_lit(g, ins1, DCTERMS.coverage, f"{ymd_to_iso(sy, sm, sd)}/{ymd_to_iso(ey, em, ed)}")
 
+        # ---- (1) 연도별 RecordSet → 보존본(-01) 연결 ----
+        g.add((rs_year, RICO.hasOrHadInstantiation, ins1))
+
+        # ---- (2) 각 Record → 보존본(-01) 연결 ----
         for r_local in grouped_records:
-            g.add((URIRef(NADAT1[r_local]), RICO.hasOrHadInstantiation, URIRef(NADAT1[ins1_id])))
+            r_ref = URIRef(NADAT1[r_local])
+            g.add((r_ref, RICO.hasOrHadInstantiation, ins1))
 
         print(f"[info] archival bundle created: {ins1_id} (sessions={sorted(sessions)}, records={len(grouped_records)})")
 
