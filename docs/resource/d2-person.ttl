@@ -1342,7 +1342,7 @@ nadat2:MEM-0PK7354M-14DPK a org:Membership ;
     org:organization nadat2:DemocraticPartyofKorea ;
     org:role nadat2:RL-PM .
 
-nadat2:MEM--100021 a org:Membership ;
+nadat2:MEM-0R68099X-100021 a org:Membership ;
     rdfs:label "이수진: 제21대 국회 membership"@ko ;
     dcterms:coverage "비례대표"@ko ;
     org:memberDuring nadat2:LegSession-21 ;
