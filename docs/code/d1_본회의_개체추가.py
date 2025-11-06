@@ -812,7 +812,7 @@ def convert(csv_path, out_path, tmp_people_out_path,
         if has_member_id:
             member_total += 1
 
-    # ===== 연도별(회기 시작연도 기준) 보존회의록 Instantiation(-01) 생성 =====
+    # ===== 연도별(회기 시작연도 기준) 관련 개체 생성 =====
     year_to_sessions: DefaultDict[int, List[int]] = defaultdict(list)
     for sess, info in session_info.items():
         start_y_from_session = parse_session_start_year_from_normalized(g_master_for_dates, sess)
@@ -857,7 +857,7 @@ def convert(csv_path, out_path, tmp_people_out_path,
 
         # === 연(반기) 보존집합 RecordSet 생성 ===
         year_key = start_year  # 시작연 기준(연도)
-        rs_year_id = f"RS1000{generation}{'-'+BRANCH if BRANCH else ''}-{year_key}"
+        rs_year_id = f"RS1000{generation}{'-'+BRANCH if BRANCH else ''}-Y{year_key}"
     
         # 연도별 통일 명명
         year_name_ko = f"제{generation}대국회 {COMMITTEE_LABEL_KO} 회의록 ({year_key})"
