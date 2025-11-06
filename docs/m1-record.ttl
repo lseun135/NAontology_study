@@ -25,7 +25,7 @@
 
 
 
-@base    <https://lseun135.github.io/NAontology_study/m1-record> .
+@base    <https://lseun135.github.io/NAontology_study/m1-record#> .
 
 
 <https://lseun135.github.io/NAontology_study/m1-record.ttl> a owl:Ontology ;
