@@ -27816,7 +27816,7 @@ nadat2:PER-TMP-00057 a foaf:Person ;
 	rdfs:label "이기일"@ko ;
 	foaf:name "이기일"@ko ;
 	rdfs:comment "보건복지부장관직무대행"@ko ;
-	owl:sameAs PER-TMP-00050 ;
+	owl:sameAs nadat2:PER-TMP-00050 ;
 	nam2:isInAStateOf nam2:Provisional .
 
 nadat2:PER-TMP-00058 a foaf:Person ;
@@ -27841,7 +27841,7 @@ nadat2:PER-TMP-00061 a foaf:Person ;
 	rdfs:label "한창섭"@ko ;
 	foaf:name "한창섭"@ko ;
 	rdfs:comment "행정안전부장관직무대행"@ko ;
-	owl:sameAs PER-TMP-00053 ;
+	owl:sameAs nadat2:PER-TMP-00053 ;
 	nam2:isInAStateOf nam2:Provisional .
 
 nadat2:PER-TMP-00062 a foaf:Person ;
@@ -28408,7 +28408,7 @@ nadat2:PER-TMP-00153 a foaf:Person ;
 	rdfs:label "윤종진"@ko ;
 	foaf:name "윤종진"@ko ;
 	rdfs:comment "국가보훈처차장"@ko ;
-	owl:sameAs PER-TMP-00150 ;
+	owl:sameAs nadat2:PER-TMP-00150 ;
 	nam2:isInAStateOf nam2:Provisional .
 
 nadat2:PER-TMP-00154 a foaf:Person ;
@@ -32065,7 +32065,7 @@ nadat2:PER-TMP-00758 a foaf:Person ;
 	rdfs:label "윤종진"@ko ;
 	foaf:name "윤종진"@ko ;
 	rdfs:comment "행정안전부안전정책실장"@ko ;
-	owl:sameAs PER-TMP-00150 ;
+	owl:sameAs nadat2:PER-TMP-00150 ;
 	nam2:isInAStateOf nam2:Provisional .
 
 nadat2:PER-TMP-00759 a foaf:Person ;
@@ -32210,7 +32210,7 @@ nadat2:PER-TMP-00782 a foaf:Person ;
 	rdfs:label "박찬진"@ko ;
 	foaf:name "박찬진"@ko ;
 	rdfs:comment "중앙선거관리위원회사무총장직무대행"@ko ;
-	owl:sameAs PER-TMP-00745 ;
+	owl:sameAs nadat2:PER-TMP-00745 ;
 	nam2:isInAStateOf nam2:Provisional .
 
 nadat2:PER-TMP-00783 a foaf:Person ;
@@ -32296,7 +32296,7 @@ nadat2:PER-TMP-00796 a foaf:Person ;
 	rdfs:label "박찬진"@ko ;
 	foaf:name "박찬진"@ko ;
 	rdfs:comment "중앙선거관리위원회사무총장"@ko ;
-	owl:sameAs PER-TMP-00745 ;
+	owl:sameAs nadat2:PER-TMP-00745 ;
 	nam2:isInAStateOf nam2:Provisional .
 
 nadat2:PER-TMP-00797 a foaf:Person ;
@@ -32364,7 +32364,7 @@ nadat2:PER-TMP-00807 a foaf:Person ;
 	rdfs:label "한창섭"@ko ;
 	foaf:name "한창섭"@ko ;
 	rdfs:comment "행정안전부장관직무대행"@ko ;
-	owl:sameAs PER-TMP-00053 ;
+	owl:sameAs nadat2:PER-TMP-00053 ;
 	nam2:isInAStateOf nam2:Provisional .
 
 nadat2:PER-TMP-00808 a foaf:Person ;
@@ -34799,7 +34799,7 @@ nadat2:PER-TMP-01210 a foaf:Person ;
 	rdfs:label "이기일"@ko ;
 	foaf:name "이기일"@ko ;
 	rdfs:comment "보건복지부제2차관"@ko ;
-	owl:sameAs PER-TMP-00050 ;
+	owl:sameAs nadat2:PER-TMP-00050 ;
 	nam2:isInAStateOf nam2:Provisional .
 
 nadat2:PER-TMP-01211 a foaf:Person ;
@@ -34878,7 +34878,7 @@ nadat2:PER-TMP-01223 a foaf:Person ;
 	rdfs:label "이기일"@ko ;
 	foaf:name "이기일"@ko ;
 	rdfs:comment "보건복지부제1차관"@ko ;
-	owl:sameAs PER-TMP-00050 ;
+	owl:sameAs nadat2:PER-TMP-00050 ;
 	nam2:isInAStateOf nam2:Provisional .
 
 nadat2:PER-TMP-01224 a foaf:Person ;
