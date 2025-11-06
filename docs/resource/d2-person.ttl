@@ -32312,6 +32312,7 @@ nadat2:PER-TMP-00801 a foaf:Person ;
 	rdfs:label "남화영"@ko ;
 	foaf:name "남화영"@ko ;
 	rdfs:comment "소방청장직무대리"@ko ;
+	owl:sameAs nadat2:PER-TMP-00770 ;
 	nam2:isInAStateOf nam2:Provisional .
 
 nadat2:PER-TMP-00802 a foaf:Person ;
@@ -32433,6 +32434,7 @@ nadat2:PER-TMP-00821 a foaf:Person ;
 	rdfs:label "남화영"@ko ;
 	foaf:name "남화영"@ko ;
 	rdfs:comment "소방청장"@ko ;
+	owl:sameAs nadat2:PER-TMP-00770 ;
 	nam2:isInAStateOf nam2:Provisional .
 
 nadat2:PER-TMP-00822 a foaf:Person ;
