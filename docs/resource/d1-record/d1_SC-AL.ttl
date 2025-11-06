@@ -24,7 +24,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
-@base <https://lseun135.github.io/NAontology_study/resource/d1-record> .
+@base <https://lseun135.github.io/NAontology_study/resource/d1-record#> .
 
 
 
