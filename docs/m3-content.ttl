@@ -23,7 +23,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
-@base    <https://lseun135.github.io/NAontology_study/m3-content> .
+@base    <https://lseun135.github.io/NAontology_study/m3-content#> .
 
 
 <https://lseun135.github.io/NAontology_study/m3-content.ttl> rdf:type owl:Ontology ;
