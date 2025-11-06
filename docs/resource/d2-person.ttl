@@ -31799,3 +31799,685 @@ nadat2:PER-TMP-00717 a foaf:Person ;
 	rdfs:comment "해병대사령관겸서북도서방위사령관"@ko ;
 	nam2:isInAStateOf nam2:Provisional .
 
+
+
+
+
+nadat2:PER-TMP-00718 a foaf:Person ;
+	rdfs:label "황서종"@ko ;
+	foaf:name "황서종"@ko ;
+	rdfs:comment "인사혁신처장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00719 a foaf:Person ;
+	rdfs:label "박영수"@ko ;
+	foaf:name "박영수"@ko ;
+	rdfs:comment "중앙선거관리위원회사무총장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00720 a foaf:Person ;
+	rdfs:label "민갑룡"@ko ;
+	foaf:name "민갑룡"@ko ;
+	rdfs:comment "경찰청장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00721 a foaf:Person ;
+	rdfs:label "정문호"@ko ;
+	foaf:name "정문호"@ko ;
+	rdfs:comment "소방청장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00722 a foaf:Person ;
+	rdfs:label "조의섭"@ko ;
+	foaf:name "조의섭"@ko ;
+	rdfs:comment "수석전문위원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00723 a foaf:Person ;
+	rdfs:label "김창룡"@ko ;
+	foaf:name "김창룡"@ko ;
+	rdfs:comment "경찰청장후보자"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00724 a foaf:Person ;
+	rdfs:label "김광남"@ko ;
+	foaf:name "김광남"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00725 a foaf:Person ;
+	rdfs:label "김득중"@ko ;
+	foaf:name "김득중"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00726 a foaf:Person ;
+	rdfs:label "박찬영"@ko ;
+	foaf:name "박찬영"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00727 a foaf:Person ;
+	rdfs:label "여준기"@ko ;
+	foaf:name "여준기"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00728 a foaf:Person ;
+	rdfs:label "김우태"@ko ;
+	foaf:name "김우태"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00729 a foaf:Person ;
+	rdfs:label "김창룡"@ko ;
+	foaf:name "김창룡"@ko ;
+	rdfs:comment "경찰청장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00730 a foaf:Person ;
+	rdfs:label "송민헌"@ko ;
+	foaf:name "송민헌"@ko ;
+	rdfs:comment "경찰청차장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00731 a foaf:Person ;
+	rdfs:label "장지원"@ko ;
+	foaf:name "장지원"@ko ;
+	rdfs:comment "전문위원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00732 a foaf:Person ;
+	rdfs:label "이재영"@ko ;
+	foaf:name "이재영"@ko ;
+	rdfs:comment "행정안전부차관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00733 a foaf:Person ;
+	rdfs:label "노정희"@ko ;
+	foaf:name "노정희"@ko ;
+	rdfs:comment "중앙선거관리위원회위원후보자"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00734 a foaf:Person ;
+	rdfs:label "김세환"@ko ;
+	foaf:name "김세환"@ko ;
+	rdfs:comment "중앙선거관리위원회사무총장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00735 a foaf:Person ;
+	rdfs:label "신열우"@ko ;
+	foaf:name "신열우"@ko ;
+	rdfs:comment "소방청장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00736 a foaf:Person ;
+	rdfs:label "고규창"@ko ;
+	foaf:name "고규창"@ko ;
+	rdfs:comment "행정안전부기획조정실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00737 a foaf:Person ;
+	rdfs:label "이재관"@ko ;
+	foaf:name "이재관"@ko ;
+	rdfs:comment "행정안전부지방자치분권실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00738 a foaf:Person ;
+	rdfs:label "박희봉"@ko ;
+	foaf:name "박희봉"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00739 a foaf:Person ;
+	rdfs:label "이재호"@ko ;
+	foaf:name "이재호"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00740 a foaf:Person ;
+	rdfs:label "장인봉"@ko ;
+	foaf:name "장인봉"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00741 a foaf:Person ;
+	rdfs:label "류임철"@ko ;
+	foaf:name "류임철"@ko ;
+	rdfs:comment "행정안전부자치분권정책관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00742 a foaf:Person ;
+	rdfs:label "주철희"@ko ;
+	foaf:name "주철희"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00743 a foaf:Person ;
+	rdfs:label "최현주"@ko ;
+	foaf:name "최현주"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00744 a foaf:Person ;
+	rdfs:label "서승우"@ko ;
+	foaf:name "서승우"@ko ;
+	rdfs:comment "행정안전부지방행정정책관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00745 a foaf:Person ;
+	rdfs:label "박찬진"@ko ;
+	foaf:name "박찬진"@ko ;
+	rdfs:comment "중앙선거관리위원회사무차장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00746 a foaf:Person ;
+	rdfs:label "조주은"@ko ;
+	foaf:name "조주은"@ko ;
+	rdfs:comment "경찰청여성청소년안전기획관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00747 a foaf:Person ;
+	rdfs:label "최재용"@ko ;
+	foaf:name "최재용"@ko ;
+	rdfs:comment "인사혁신처기획조정관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00748 a foaf:Person ;
+	rdfs:label "최승렬"@ko ;
+	foaf:name "최승렬"@ko ;
+	rdfs:comment "경찰청국가수사본부장직무대리겸수사국장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00749 a foaf:Person ;
+	rdfs:label "박순영"@ko ;
+	foaf:name "박순영"@ko ;
+	rdfs:comment "중앙선거관리위원회위원후보자"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00750 a foaf:Person ;
+	rdfs:label "박진경"@ko ;
+	foaf:name "박진경"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00751 a foaf:Person ;
+	rdfs:label "차미숙"@ko ;
+	foaf:name "차미숙"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00752 a foaf:Person ;
+	rdfs:label "김남철"@ko ;
+	foaf:name "김남철"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00753 a foaf:Person ;
+	rdfs:label "이국운"@ko ;
+	foaf:name "이국운"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00754 a foaf:Person ;
+	rdfs:label "강보영"@ko ;
+	foaf:name "강보영"@ko ;
+	rdfs:comment "재경대구경북시도민회장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00755 a foaf:Person ;
+	rdfs:label "이범석"@ko ;
+	foaf:name "이범석"@ko ;
+	rdfs:comment "행정안전부지역발전정책관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00756 a foaf:Person ;
+	rdfs:label "방기성"@ko ;
+	foaf:name "방기성"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00757 a foaf:Person ;
+	rdfs:label "심술진"@ko ;
+	foaf:name "심술진"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00758 a foaf:Person ;
+	rdfs:label "윤종진"@ko ;
+	foaf:name "윤종진"@ko ;
+	rdfs:comment "행정안전부안전정책실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00759 a foaf:Person ;
+	rdfs:label "서보람"@ko ;
+	foaf:name "서보람"@ko ;
+	rdfs:comment "행정안전부공공데이터정책관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00760 a foaf:Person ;
+	rdfs:label "최승렬"@ko ;
+	foaf:name "최승렬"@ko ;
+	rdfs:comment "경찰청수사국장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00761 a foaf:Person ;
+	rdfs:label "이영상"@ko ;
+	foaf:name "이영상"@ko ;
+	rdfs:comment "경찰청형사국장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00762 a foaf:Person ;
+	rdfs:label "장정우"@ko ;
+	foaf:name "장정우"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00763 a foaf:Person ;
+	rdfs:label "이상윤"@ko ;
+	foaf:name "이상윤"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00764 a foaf:Person ;
+	rdfs:label "최환용"@ko ;
+	foaf:name "최환용"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00765 a foaf:Person ;
+	rdfs:label "김우호"@ko ;
+	foaf:name "김우호"@ko ;
+	rdfs:comment "인사혁신처장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00766 a foaf:Person ;
+	rdfs:label "박규찬"@ko ;
+	foaf:name "박규찬"@ko ;
+	rdfs:comment "전문위원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00767 a foaf:Person ;
+	rdfs:label "정근식"@ko ;
+	foaf:name "정근식"@ko ;
+	rdfs:comment "진실․화해를위한과거사정리위원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00768 a foaf:Person ;
+	rdfs:label "오고산"@ko ;
+	foaf:name "오고산"@ko ;
+	rdfs:comment "행정안전부비상대비정책국장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00769 a foaf:Person ;
+	rdfs:label "이우종"@ko ;
+	foaf:name "이우종"@ko ;
+	rdfs:comment "행정안전부지방세정책관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00770 a foaf:Person ;
+	rdfs:label "남화영"@ko ;
+	foaf:name "남화영"@ko ;
+	rdfs:comment "소방청차장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00771 a foaf:Person ;
+	rdfs:label "이흥교"@ko ;
+	foaf:name "이흥교"@ko ;
+	rdfs:comment "소방청장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00772 a foaf:Person ;
+	rdfs:label "김학관"@ko ;
+	foaf:name "김학관"@ko ;
+	rdfs:comment "경찰청기획조정관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00773 a foaf:Person ;
+	rdfs:label "박용식"@ko ;
+	foaf:name "박용식"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00774 a foaf:Person ;
+	rdfs:label "금창호"@ko ;
+	foaf:name "금창호"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00775 a foaf:Person ;
+	rdfs:label "임상규"@ko ;
+	foaf:name "임상규"@ko ;
+	rdfs:comment "행정안전부자치분권정책관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00776 a foaf:Person ;
+	rdfs:label "진교훈"@ko ;
+	foaf:name "진교훈"@ko ;
+	rdfs:comment "경찰청차장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00777 a foaf:Person ;
+	rdfs:label "정은섭"@ko ;
+	foaf:name "정은섭"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00778 a foaf:Person ;
+	rdfs:label "김인수"@ko ;
+	foaf:name "김인수"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00779 a foaf:Person ;
+	rdfs:label "김태응"@ko ;
+	foaf:name "김태응"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00780 a foaf:Person ;
+	rdfs:label "김필곤"@ko ;
+	foaf:name "김필곤"@ko ;
+	rdfs:comment "중앙선거관리위원회위원후보자"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00781 a foaf:Person ;
+	rdfs:label "노태악"@ko ;
+	foaf:name "노태악"@ko ;
+	rdfs:comment "중앙선거관리위원회위원후보자"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00782 a foaf:Person ;
+	rdfs:label "박찬진"@ko ;
+	foaf:name "박찬진"@ko ;
+	rdfs:comment "중앙선거관리위원회사무총장직무대행"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00783 a foaf:Person ;
+	rdfs:label "김승호"@ko ;
+	foaf:name "김승호"@ko ;
+	rdfs:comment "인사혁신처장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00784 a foaf:Person ;
+	rdfs:label "최문순"@ko ;
+	foaf:name "최문순"@ko ;
+	rdfs:comment "강원도지사"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00785 a foaf:Person ;
+	rdfs:label "윤희근"@ko ;
+	foaf:name "윤희근"@ko ;
+	rdfs:comment "경찰청장후보자"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00786 a foaf:Person ;
+	rdfs:label "민관기"@ko ;
+	foaf:name "민관기"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00787 a foaf:Person ;
+	rdfs:label "김태규"@ko ;
+	foaf:name "김태규"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00788 a foaf:Person ;
+	rdfs:label "이웅혁"@ko ;
+	foaf:name "이웅혁"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00789 a foaf:Person ;
+	rdfs:label "김호철"@ko ;
+	foaf:name "김호철"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00790 a foaf:Person ;
+	rdfs:label "하병필"@ko ;
+	foaf:name "하병필"@ko ;
+	rdfs:comment "행정안전부기획조정실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00791 a foaf:Person ;
+	rdfs:label "윤희근"@ko ;
+	foaf:name "윤희근"@ko ;
+	rdfs:comment "경찰청장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00792 a foaf:Person ;
+	rdfs:label "김준영"@ko ;
+	foaf:name "김준영"@ko ;
+	rdfs:comment "경찰청기획조정관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00793 a foaf:Person ;
+	rdfs:label "김순호"@ko ;
+	foaf:name "김순호"@ko ;
+	rdfs:comment "행정안전부경찰국장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00794 a foaf:Person ;
+	rdfs:label "류삼영"@ko ;
+	foaf:name "류삼영"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00795 a foaf:Person ;
+	rdfs:label "조지호"@ko ;
+	foaf:name "조지호"@ko ;
+	rdfs:comment "경찰청공공안녕정보국장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00796 a foaf:Person ;
+	rdfs:label "박찬진"@ko ;
+	foaf:name "박찬진"@ko ;
+	rdfs:comment "중앙선거관리위원회사무총장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00797 a foaf:Person ;
+	rdfs:label "윤병일"@ko ;
+	foaf:name "윤병일"@ko ;
+	rdfs:comment "행정안전부과거사관련업무지원단장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00798 a foaf:Person ;
+	rdfs:label "우종수"@ko ;
+	foaf:name "우종수"@ko ;
+	rdfs:comment "경찰청차장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00799 a foaf:Person ;
+	rdfs:label "유상조"@ko ;
+	foaf:name "유상조"@ko ;
+	rdfs:comment "수석전문위원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00800 a foaf:Person ;
+	rdfs:label "신문근"@ko ;
+	foaf:name "신문근"@ko ;
+	rdfs:comment "전문위원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00801 a foaf:Person ;
+	rdfs:label "남화영"@ko ;
+	foaf:name "남화영"@ko ;
+	rdfs:comment "소방청장직무대리"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00802 a foaf:Person ;
+	rdfs:label "박희영"@ko ;
+	foaf:name "박희영"@ko ;
+	rdfs:comment "서울특별시용산구청장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00803 a foaf:Person ;
+	rdfs:label "오세훈"@ko ;
+	foaf:name "오세훈"@ko ;
+	rdfs:comment "서울특별시장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00804 a foaf:Person ;
+	rdfs:label "김성호"@ko ;
+	foaf:name "김성호"@ko ;
+	rdfs:comment "행정안전부재난안전관리본부장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00805 a foaf:Person ;
+	rdfs:label "이임재"@ko ;
+	foaf:name "이임재"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00806 a foaf:Person ;
+	rdfs:label "류미진"@ko ;
+	foaf:name "류미진"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00807 a foaf:Person ;
+	rdfs:label "한창섭"@ko ;
+	foaf:name "한창섭"@ko ;
+	rdfs:comment "행정안전부장관직무대행"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00808 a foaf:Person ;
+	rdfs:label "배덕곤"@ko ;
+	foaf:name "배덕곤"@ko ;
+	rdfs:comment "소방청기획조정관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00809 a foaf:Person ;
+	rdfs:label "김문배"@ko ;
+	foaf:name "김문배"@ko ;
+	rdfs:comment "중앙선거관리위원회기획조정실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00810 a foaf:Person ;
+	rdfs:label "김광동"@ko ;
+	foaf:name "김광동"@ko ;
+	rdfs:comment "진실․화해를위한과거사정리위원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00811 a foaf:Person ;
+	rdfs:label "송상교"@ko ;
+	foaf:name "송상교"@ko ;
+	rdfs:comment "진실․화해를위한과거사정리위원회사무처장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00812 a foaf:Person ;
+	rdfs:label "이정민"@ko ;
+	foaf:name "이정민"@ko ;
+	rdfs:comment "인사혁신처기획조정관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00813 a foaf:Person ;
+	rdfs:label "조지호"@ko ;
+	foaf:name "조지호"@ko ;
+	rdfs:comment "경찰청차장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00814 a foaf:Person ;
+	rdfs:label "심규선"@ko ;
+	foaf:name "심규선"@ko ;
+	rdfs:comment "일제강제동원피해자지원재단이사장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00815 a foaf:Person ;
+	rdfs:label "김수환"@ko ;
+	foaf:name "김수환"@ko ;
+	rdfs:comment "경찰청공공안녕정보국장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00816 a foaf:Person ;
+	rdfs:label "김병우"@ko ;
+	foaf:name "김병우"@ko ;
+	rdfs:comment "경찰청수사기획조정관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00817 a foaf:Person ;
+	rdfs:label "정선용"@ko ;
+	foaf:name "정선용"@ko ;
+	rdfs:comment "행정안전부정부혁신조직실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00818 a foaf:Person ;
+	rdfs:label "한창훈"@ko ;
+	foaf:name "한창훈"@ko ;
+	rdfs:comment "경찰청안보수사국장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00819 a foaf:Person ;
+	rdfs:label "오동호"@ko ;
+	foaf:name "오동호"@ko ;
+	rdfs:comment "한국섬진흥원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00820 a foaf:Person ;
+	rdfs:label "김지현"@ko ;
+	foaf:name "김지현"@ko ;
+	rdfs:comment "중앙선거관리위원회기획재정과장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00821 a foaf:Person ;
+	rdfs:label "남화영"@ko ;
+	foaf:name "남화영"@ko ;
+	rdfs:comment "소방청장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00822 a foaf:Person ;
+	rdfs:label "송봉섭"@ko ;
+	foaf:name "송봉섭"@ko ;
+	rdfs:comment "중앙선거관리위원회사무차장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00823 a foaf:Person ;
+	rdfs:label "유소영"@ko ;
+	foaf:name "유소영"@ko ;
+	rdfs:comment "중앙선거관리위원회정보화정책과장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00824 a foaf:Person ;
+	rdfs:label "박세진"@ko ;
+	foaf:name "박세진"@ko ;
+	rdfs:comment "중앙선거관리위원회감사관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00825 a foaf:Person ;
+	rdfs:label "허철훈"@ko ;
+	foaf:name "허철훈"@ko ;
+	rdfs:comment "중앙선거관리위원회사무총장직무대행"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00826 a foaf:Person ;
+	rdfs:label "이원영"@ko ;
+	foaf:name "이원영"@ko ;
+	rdfs:comment "민주화운동기념사업회상임이사"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00827 a foaf:Person ;
+	rdfs:label "김남근"@ko ;
+	foaf:name "김남근"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00828 a foaf:Person ;
+	rdfs:label "오동석"@ko ;
+	foaf:name "오동석"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00829 a foaf:Person ;
+	rdfs:label "김용빈"@ko ;
+	foaf:name "김용빈"@ko ;
+	rdfs:comment "중앙선거관리위원회사무총장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00830 a foaf:Person ;
+	rdfs:label "우철문"@ko ;
+	foaf:name "우철문"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
