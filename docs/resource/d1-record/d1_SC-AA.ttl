@@ -24,18 +24,10 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
-@base <https://lseun135.github.io/NAontology_study/resource/d1-record> .
+@base <https://lseun135.github.io/NAontology_study/resource/d1-record#> .
 
 
 
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix nadat1: <https://lseun135.github.io/NAontology_study/resource/d1-record#> .
-@prefix nadat2: <https://lseun135.github.io/NAontology_study/resource/d2-person#> .
-@prefix nam1: <https://lseun135.github.io/NAontology_study/m1-record#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 nadat1:RS100021 rico:includesOrIncluded nadat1:RS100021-AA .
 
