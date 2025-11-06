@@ -29486,3 +29486,854 @@ nadat2:PER-TMP-00334 a foaf:Person ;
 	nam2:isInAStateOf nam2:Provisional .
 
 
+
+
+
+nadat2:PER-TMP-00335 a foaf:Person ;
+	rdfs:label "이승재"@ko ;
+	foaf:name "이승재"@ko ;
+	rdfs:comment "수석전문위원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00336 a foaf:Person ;
+	rdfs:label "설세훈"@ko ;
+	foaf:name "설세훈"@ko ;
+	rdfs:comment "교육부대학학술정책관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00337 a foaf:Person ;
+	rdfs:label "오석환"@ko ;
+	foaf:name "오석환"@ko ;
+	rdfs:comment "교육부교육복지정책국장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00338 a foaf:Person ;
+	rdfs:label "조광"@ko ;
+	foaf:name "조광"@ko ;
+	rdfs:comment "국사편찬위원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00339 a foaf:Person ;
+	rdfs:label "김은숙"@ko ;
+	foaf:name "김은숙"@ko ;
+	rdfs:comment "국립특수교육원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00340 a foaf:Person ;
+	rdfs:label "김원찬"@ko ;
+	foaf:name "김원찬"@ko ;
+	rdfs:comment "중앙교육연수원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00341 a foaf:Person ;
+	rdfs:label "서유미"@ko ;
+	foaf:name "서유미"@ko ;
+	rdfs:comment "교원소청심사위원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00342 a foaf:Person ;
+	rdfs:label "김영곤"@ko ;
+	foaf:name "김영곤"@ko ;
+	rdfs:comment "국립국제교육원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00343 a foaf:Person ;
+	rdfs:label "최은옥"@ko ;
+	foaf:name "최은옥"@ko ;
+	rdfs:comment "교육부고등교육정책실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00344 a foaf:Person ;
+	rdfs:label "주명현"@ko ;
+	foaf:name "주명현"@ko ;
+	rdfs:comment "사립학교교직원연금공단이사장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00345 a foaf:Person ;
+	rdfs:label "이정우"@ko ;
+	foaf:name "이정우"@ko ;
+	rdfs:comment "한국장학재단이사장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00346 a foaf:Person ;
+	rdfs:label "신승운"@ko ;
+	foaf:name "신승운"@ko ;
+	rdfs:comment "한국고전번역원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00347 a foaf:Person ;
+	rdfs:label "김도형"@ko ;
+	foaf:name "김도형"@ko ;
+	rdfs:comment "동북아역사재단이사장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00348 a foaf:Person ;
+	rdfs:label "안병욱"@ko ;
+	foaf:name "안병욱"@ko ;
+	rdfs:comment "한국학중앙연구원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00349 a foaf:Person ;
+	rdfs:label "지병문"@ko ;
+	foaf:name "지병문"@ko ;
+	rdfs:comment "한국사학진흥재단이사장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00350 a foaf:Person ;
+	rdfs:label "윤여각"@ko ;
+	foaf:name "윤여각"@ko ;
+	rdfs:comment "국가평생교육진흥원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00351 a foaf:Person ;
+	rdfs:label "김광호"@ko ;
+	foaf:name "김광호"@ko ;
+	rdfs:comment "유네스코한국위원회사무총장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00352 a foaf:Person ;
+	rdfs:label "이진석"@ko ;
+	foaf:name "이진석"@ko ;
+	rdfs:comment "한국교직원공제회이사장직무대행"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00353 a foaf:Person ;
+	rdfs:label "김인철"@ko ;
+	foaf:name "김인철"@ko ;
+	rdfs:comment "한국대학교육협의회장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00354 a foaf:Person ;
+	rdfs:label "남성희"@ko ;
+	foaf:name "남성희"@ko ;
+	rdfs:comment "한국전문대학교육협의회장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00355 a foaf:Person ;
+	rdfs:label "정종철"@ko ;
+	foaf:name "정종철"@ko ;
+	rdfs:comment "교육부기획조정실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00356 a foaf:Person ;
+	rdfs:label "신익현"@ko ;
+	foaf:name "신익현"@ko ;
+	rdfs:comment "교육부고등교육정책관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00357 a foaf:Person ;
+	rdfs:label "황홍규"@ko ;
+	foaf:name "황홍규"@ko ;
+	rdfs:comment "한국대학교육협의회사무총장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00358 a foaf:Person ;
+	rdfs:label "박백범"@ko ;
+	foaf:name "박백범"@ko ;
+	rdfs:comment "교육부차관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00359 a foaf:Person ;
+	rdfs:label "박현수"@ko ;
+	foaf:name "박현수"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00360 a foaf:Person ;
+	rdfs:label "이종태"@ko ;
+	foaf:name "이종태"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00361 a foaf:Person ;
+	rdfs:label "태영철"@ko ;
+	foaf:name "태영철"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00362 a foaf:Person ;
+	rdfs:label "전진석"@ko ;
+	foaf:name "전진석"@ko ;
+	rdfs:comment "교육부학생지원국장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00363 a foaf:Person ;
+	rdfs:label "임은희"@ko ;
+	foaf:name "임은희"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00364 a foaf:Person ;
+	rdfs:label "이덕난"@ko ;
+	foaf:name "이덕난"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00365 a foaf:Person ;
+	rdfs:label "임재홍"@ko ;
+	foaf:name "임재홍"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00366 a foaf:Person ;
+	rdfs:label "황홍규"@ko ;
+	foaf:name "황홍규"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00367 a foaf:Person ;
+	rdfs:label "구연희"@ko ;
+	foaf:name "구연희"@ko ;
+	rdfs:comment "교육부평생미래교육국장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00368 a foaf:Person ;
+	rdfs:label "이병욱"@ko ;
+	foaf:name "이병욱"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00369 a foaf:Person ;
+	rdfs:label "박남기"@ko ;
+	foaf:name "박남기"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00370 a foaf:Person ;
+	rdfs:label "최교진"@ko ;
+	foaf:name "최교진"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00371 a foaf:Person ;
+	rdfs:label "구본창"@ko ;
+	foaf:name "구본창"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00372 a foaf:Person ;
+	rdfs:label "박인재"@ko ;
+	foaf:name "박인재"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00373 a foaf:Person ;
+	rdfs:label "김태은"@ko ;
+	foaf:name "김태은"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00374 a foaf:Person ;
+	rdfs:label "이영호"@ko ;
+	foaf:name "이영호"@ko ;
+	rdfs:comment "동북아역사재단이사장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00375 a foaf:Person ;
+	rdfs:label "안병우"@ko ;
+	foaf:name "안병우"@ko ;
+	rdfs:comment "한국학중앙연구원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00376 a foaf:Person ;
+	rdfs:label "김상곤"@ko ;
+	foaf:name "김상곤"@ko ;
+	rdfs:comment "한국교직원공제회이사장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00377 a foaf:Person ;
+	rdfs:label "정종철"@ko ;
+	foaf:name "정종철"@ko ;
+	rdfs:comment "교육부차관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00378 a foaf:Person ;
+	rdfs:label "김용"@ko ;
+	foaf:name "김용"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00379 a foaf:Person ;
+	rdfs:label "김경회"@ko ;
+	foaf:name "김경회"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00380 a foaf:Person ;
+	rdfs:label "홍창남"@ko ;
+	foaf:name "홍창남"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00381 a foaf:Person ;
+	rdfs:label "안선회"@ko ;
+	foaf:name "안선회"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00382 a foaf:Person ;
+	rdfs:label "이광호"@ko ;
+	foaf:name "이광호"@ko ;
+	rdfs:comment "국가교육회의기획단장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00383 a foaf:Person ;
+	rdfs:label "오세희"@ko ;
+	foaf:name "오세희"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00384 a foaf:Person ;
+	rdfs:label "박정현"@ko ;
+	foaf:name "박정현"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00385 a foaf:Person ;
+	rdfs:label "조은순"@ko ;
+	foaf:name "조은순"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00386 a foaf:Person ;
+	rdfs:label "임재환"@ko ;
+	foaf:name "임재환"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00387 a foaf:Person ;
+	rdfs:label "김문희"@ko ;
+	foaf:name "김문희"@ko ;
+	rdfs:comment "교육부기획조정실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00388 a foaf:Person ;
+	rdfs:label "윤여송"@ko ;
+	foaf:name "윤여송"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00389 a foaf:Person ;
+	rdfs:label "최일"@ko ;
+	foaf:name "최일"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00390 a foaf:Person ;
+	rdfs:label "정대화"@ko ;
+	foaf:name "정대화"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00391 a foaf:Person ;
+	rdfs:label "오홍식"@ko ;
+	foaf:name "오홍식"@ko ;
+	rdfs:comment "전국국공립대학교수회연합회상임회장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00392 a foaf:Person ;
+	rdfs:label "양성렬"@ko ;
+	foaf:name "양성렬"@ko ;
+	rdfs:comment "한국사립대학교수회연합회이사장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00393 a foaf:Person ;
+	rdfs:label "우동기"@ko ;
+	foaf:name "우동기"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00394 a foaf:Person ;
+	rdfs:label "반상진"@ko ;
+	foaf:name "반상진"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00395 a foaf:Person ;
+	rdfs:label "장제국"@ko ;
+	foaf:name "장제국"@ko ;
+	rdfs:comment "한국사립대학총장협의회장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00396 a foaf:Person ;
+	rdfs:label "김수갑"@ko ;
+	foaf:name "김수갑"@ko ;
+	rdfs:comment "전국국공립대학총장협의회장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00397 a foaf:Person ;
+	rdfs:label "최병욱"@ko ;
+	foaf:name "최병욱"@ko ;
+	rdfs:comment "국가중심국공립대학교총장협의회장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00398 a foaf:Person ;
+	rdfs:label "이호행"@ko ;
+	foaf:name "이호행"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00399 a foaf:Person ;
+	rdfs:label "김철완"@ko ;
+	foaf:name "김철완"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00400 a foaf:Person ;
+	rdfs:label "한상희"@ko ;
+	foaf:name "한상희"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00401 a foaf:Person ;
+	rdfs:label "이상경"@ko ;
+	foaf:name "이상경"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00402 a foaf:Person ;
+	rdfs:label "홍민식"@ko ;
+	foaf:name "홍민식"@ko ;
+	rdfs:comment "교육부대학학술정책관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00403 a foaf:Person ;
+	rdfs:label "김두연"@ko ;
+	foaf:name "김두연"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00404 a foaf:Person ;
+	rdfs:label "김수구"@ko ;
+	foaf:name "김수구"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00405 a foaf:Person ;
+	rdfs:label "김연수"@ko ;
+	foaf:name "김연수"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00406 a foaf:Person ;
+	rdfs:label "조현구"@ko ;
+	foaf:name "조현구"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00407 a foaf:Person ;
+	rdfs:label "장상윤"@ko ;
+	foaf:name "장상윤"@ko ;
+	rdfs:comment "교육부장관직무대행"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00408 a foaf:Person ;
+	rdfs:label "이한우"@ko ;
+	foaf:name "이한우"@ko ;
+	rdfs:comment "국립특수교육원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00409 a foaf:Person ;
+	rdfs:label "홍민식"@ko ;
+	foaf:name "홍민식"@ko ;
+	rdfs:comment "중앙교육연수원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00410 a foaf:Person ;
+	rdfs:label "설세훈"@ko ;
+	foaf:name "설세훈"@ko ;
+	rdfs:comment "교원소청심사위원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00411 a foaf:Person ;
+	rdfs:label "오석환"@ko ;
+	foaf:name "오석환"@ko ;
+	rdfs:comment "교육부기획조정실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00412 a foaf:Person ;
+	rdfs:label "김일수"@ko ;
+	foaf:name "김일수"@ko ;
+	rdfs:comment "교육부고등교육정책실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00413 a foaf:Person ;
+	rdfs:label "김정연"@ko ;
+	foaf:name "김정연"@ko ;
+	rdfs:comment "교육부정책기획관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00414 a foaf:Person ;
+	rdfs:label "나주범"@ko ;
+	foaf:name "나주범"@ko ;
+	rdfs:comment "교육부차관보"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00415 a foaf:Person ;
+	rdfs:label "최은희"@ko ;
+	foaf:name "최은희"@ko ;
+	rdfs:comment "교육부고등교육정책관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00416 a foaf:Person ;
+	rdfs:label "신문규"@ko ;
+	foaf:name "신문규"@ko ;
+	rdfs:comment "교육부대학학술정책관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00417 a foaf:Person ;
+	rdfs:label "권성연"@ko ;
+	foaf:name "권성연"@ko ;
+	rdfs:comment "교원소청심사위원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00418 a foaf:Person ;
+	rdfs:label "이창훈"@ko ;
+	foaf:name "이창훈"@ko ;
+	rdfs:comment "교육부규제개혁법무담당관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00419 a foaf:Person ;
+	rdfs:label "채수근"@ko ;
+	foaf:name "채수근"@ko ;
+	rdfs:comment "수석전문위원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00420 a foaf:Person ;
+	rdfs:label "성현주"@ko ;
+	foaf:name "성현주"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00421 a foaf:Person ;
+	rdfs:label "신경철"@ko ;
+	foaf:name "신경철"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00422 a foaf:Person ;
+	rdfs:label "조정실"@ko ;
+	foaf:name "조정실"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00423 a foaf:Person ;
+	rdfs:label "황선희"@ko ;
+	foaf:name "황선희"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00424 a foaf:Person ;
+	rdfs:label "정원숙"@ko ;
+	foaf:name "정원숙"@ko ;
+	rdfs:comment "교육부반부패청렴담당관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00425 a foaf:Person ;
+	rdfs:label "오승걸"@ko ;
+	foaf:name "오승걸"@ko ;
+	rdfs:comment "교육부학교혁신지원실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00426 a foaf:Person ;
+	rdfs:label "장상윤"@ko ;
+	foaf:name "장상윤"@ko ;
+	rdfs:comment "교육부차관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00427 a foaf:Person ;
+	rdfs:label "이배용"@ko ;
+	foaf:name "이배용"@ko ;
+	rdfs:comment "국가교육위원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00428 a foaf:Person ;
+	rdfs:label "장홍재"@ko ;
+	foaf:name "장홍재"@ko ;
+	rdfs:comment "교육부학교교육지원관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00429 a foaf:Person ;
+	rdfs:label "박종훈"@ko ;
+	foaf:name "박종훈"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00430 a foaf:Person ;
+	rdfs:label "임희성"@ko ;
+	foaf:name "임희성"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00431 a foaf:Person ;
+	rdfs:label "하연섭"@ko ;
+	foaf:name "하연섭"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00432 a foaf:Person ;
+	rdfs:label "신문규"@ko ;
+	foaf:name "신문규"@ko ;
+	rdfs:comment "교육부기획조정실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00433 a foaf:Person ;
+	rdfs:label "정대화"@ko ;
+	foaf:name "정대화"@ko ;
+	rdfs:comment "국가교육위원회상임위원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00434 a foaf:Person ;
+	rdfs:label "이해숙"@ko ;
+	foaf:name "이해숙"@ko ;
+	rdfs:comment "교육부대학규제혁신국장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00435 a foaf:Person ;
+	rdfs:label "서유미"@ko ;
+	foaf:name "서유미"@ko ;
+	rdfs:comment "한국교육학술정보원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00436 a foaf:Person ;
+	rdfs:label "김태훈"@ko ;
+	foaf:name "김태훈"@ko ;
+	rdfs:comment "교육부교육복지돌봄지원관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00437 a foaf:Person ;
+	rdfs:label "홍원화"@ko ;
+	foaf:name "홍원화"@ko ;
+	rdfs:comment "한국대학교육협의회장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00438 a foaf:Person ;
+	rdfs:label "김인걸"@ko ;
+	foaf:name "김인걸"@ko ;
+	rdfs:comment "국사편찬위원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00439 a foaf:Person ;
+	rdfs:label "김태준"@ko ;
+	foaf:name "김태준"@ko ;
+	rdfs:comment "국가교육위원회상임위원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00440 a foaf:Person ;
+	rdfs:label "임태희"@ko ;
+	foaf:name "임태희"@ko ;
+	rdfs:comment "경기도교육감"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00441 a foaf:Person ;
+	rdfs:label "고은정"@ko ;
+	foaf:name "고은정"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00442 a foaf:Person ;
+	rdfs:label "한만위"@ko ;
+	foaf:name "한만위"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00443 a foaf:Person ;
+	rdfs:label "오승걸"@ko ;
+	foaf:name "오승걸"@ko ;
+	rdfs:comment "교육부책임교육정책실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00444 a foaf:Person ;
+	rdfs:label "고영종"@ko ;
+	foaf:name "고영종"@ko ;
+	rdfs:comment "교육부책임교육지원관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00445 a foaf:Person ;
+	rdfs:label "천명선"@ko ;
+	foaf:name "천명선"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00446 a foaf:Person ;
+	rdfs:label "한아름"@ko ;
+	foaf:name "한아름"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00447 a foaf:Person ;
+	rdfs:label "추경원"@ko ;
+	foaf:name "추경원"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00448 a foaf:Person ;
+	rdfs:label "오성근"@ko ;
+	foaf:name "오성근"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00449 a foaf:Person ;
+	rdfs:label "김정규"@ko ;
+	foaf:name "김정규"@ko ;
+	rdfs:comment "행정실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00450 a foaf:Person ;
+	rdfs:label "김성규"@ko ;
+	foaf:name "김성규"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00451 a foaf:Person ;
+	rdfs:label "송개동"@ko ;
+	foaf:name "송개동"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00452 a foaf:Person ;
+	rdfs:label "정진주"@ko ;
+	foaf:name "정진주"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00453 a foaf:Person ;
+	rdfs:label "최관영"@ko ;
+	foaf:name "최관영"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00454 a foaf:Person ;
+	rdfs:label "한만위"@ko ;
+	foaf:name "한만위"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00455 a foaf:Person ;
+	rdfs:label "하화주"@ko ;
+	foaf:name "하화주"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00456 a foaf:Person ;
+	rdfs:label "고은정"@ko ;
+	foaf:name "고은정"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00457 a foaf:Person ;
+	rdfs:label "박가현"@ko ;
+	foaf:name "박가현"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00458 a foaf:Person ;
+	rdfs:label "신동훈"@ko ;
+	foaf:name "신동훈"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00459 a foaf:Person ;
+	rdfs:label "전경능"@ko ;
+	foaf:name "전경능"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00460 a foaf:Person ;
+	rdfs:label "이유진"@ko ;
+	foaf:name "이유진"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00461 a foaf:Person ;
+	rdfs:label "신선경"@ko ;
+	foaf:name "신선경"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00462 a foaf:Person ;
+	rdfs:label "천명선"@ko ;
+	foaf:name "천명선"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00463 a foaf:Person ;
+	rdfs:label "손동빈"@ko ;
+	foaf:name "손동빈"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00464 a foaf:Person ;
+	rdfs:label "고영종"@ko ;
+	foaf:name "고영종"@ko ;
+	rdfs:comment "증인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00465 a foaf:Person ;
+	rdfs:label "김기룡"@ko ;
+	foaf:name "김기룡"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00466 a foaf:Person ;
+	rdfs:label "신민선"@ko ;
+	foaf:name "신민선"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00467 a foaf:Person ;
+	rdfs:label "천성호"@ko ;
+	foaf:name "천성호"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00468 a foaf:Person ;
+	rdfs:label "최창익"@ko ;
+	foaf:name "최창익"@ko ;
+	rdfs:comment "교육부평생직업교육정책관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00469 a foaf:Person ;
+	rdfs:label "전윤구"@ko ;
+	foaf:name "전윤구"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00470 a foaf:Person ;
+	rdfs:label "이영찬"@ko ;
+	foaf:name "이영찬"@ko ;
+	rdfs:comment "교육부디지털교육기획관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00471 a foaf:Person ;
+	rdfs:label "조희연"@ko ;
+	foaf:name "조희연"@ko ;
+	rdfs:comment "서울특별시교육감"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00472 a foaf:Person ;
+	rdfs:label "함혜성"@ko ;
+	foaf:name "함혜성"@ko ;
+	rdfs:comment "서울특별시강남서초교육지원청교육장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00473 a foaf:Person ;
+	rdfs:label "홍덕률"@ko ;
+	foaf:name "홍덕률"@ko ;
+	rdfs:comment "한국사학진흥재단이사장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00474 a foaf:Person ;
+	rdfs:label "이상진"@ko ;
+	foaf:name "이상진"@ko ;
+	rdfs:comment "교육부영유아교육․보육통합추진단장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00475 a foaf:Person ;
+	rdfs:label "오석환"@ko ;
+	foaf:name "오석환"@ko ;
+	rdfs:comment "교육부차관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+
+
