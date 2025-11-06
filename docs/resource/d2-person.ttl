@@ -27826,6 +27826,7 @@ nadat2:PER-TMP-00061 a foaf:Person ;
 	rdfs:label "한창섭"@ko ;
 	foaf:name "한창섭"@ko ;
 	rdfs:comment "행정안전부장관직무대행"@ko ;
+	owl:sameAs PER-TMP-00053 ;
 	nam2:isInAStateOf nam2:Provisional .
 
 nadat2:PER-TMP-00062 a foaf:Person ;
@@ -32342,6 +32343,7 @@ nadat2:PER-TMP-00807 a foaf:Person ;
 	rdfs:label "한창섭"@ko ;
 	foaf:name "한창섭"@ko ;
 	rdfs:comment "행정안전부장관직무대행"@ko ;
+	owl:sameAs PER-TMP-00053 ;
 	nam2:isInAStateOf nam2:Provisional .
 
 nadat2:PER-TMP-00808 a foaf:Person ;
