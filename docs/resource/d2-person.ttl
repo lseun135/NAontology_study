@@ -27903,7 +27903,7 @@ nadat2:PER-TMP-00073 a foaf:Person ;
 nadat2:PER-TMP-00074 a foaf:Person ;
 	rdfs:label "최상목"@ko ;
 	foaf:name "최상목"@ko ;
-	rdfs:comment "부총리겸기획재정부장관"@ko ;
+	rdfs:comment "부총리겸기획재정부장관, 대통령비서실경제수석비서관"@ko ;
 	nam2:isInAStateOf nam2:Provisional .
 
 nadat2:PER-TMP-00075 a foaf:Person ;
