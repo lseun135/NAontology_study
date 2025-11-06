@@ -15,7 +15,7 @@ BRANCH: Optional[str]             = None
 COMMITTEE_IRI: Optional[str]      = None
 
 # ====== 경로/입력 ======
-CSV_PATH       = r"D:/연구/국회회의록/병합/251025_정보위_병합.csv"         # 상임위 CSV
+CSV_PATH       = r"D:/연구/국회회의록/병합/251025_법사위_병합.csv"         # 상임위 CSV
 OUT_TTL        = r"D:/연구/국회회의록/251105_SC/d1-record_SC-{}.ttl"      # 출력 TTL(d1) (자동 치환됨)
 PEOPLE_TTL     = r"https://lseun135.github.io/NAontology_study/resource/d2-person.ttl"
 OUT_TMP_PEOPLE = r"D:/연구/국회회의록/251105_SC/tmp_person_SC_{}.ttl"     # 임시 Person TTL (자동 치환됨)
@@ -755,7 +755,7 @@ def convert(csv_path, out_path, tmp_people_out_path,
             add_lit(g, act, RDFS.label,     act_lab, lang="ko")
             add_lit(g, act, RICO.name, act_lab.split("]", 1)[-1].strip(), lang="ko")
 
-            add_res(g, act, RICO.hasActivityType, str(NAM1["CommitteeReviewAction"]))
+            add_res(g, act, RICO.hasActivityType, str(NAM1["LJCReviewAction"]))
             add_res(g, act, RICO.isOrWasPartOf, str(NADAT1[ev_id]))
             add_res(g, act, RICO.isOrWasPerformedBy, COMMITTEE_IRI)
         act = URIRef(NADAT1[act_id])
