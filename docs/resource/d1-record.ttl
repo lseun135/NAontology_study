@@ -59,9 +59,6 @@ nadat1:RS100021 a rico:RecordSet ;
     rico:name "제21대"@ko .
 
 
-
-nadat1:RS100021 rico:includesOrIncluded nadat1:RS100021-PLEN .
-
 nadat1:ACT-M-50024-002 a rico:Activity ;
     rdfs:label "[ACT-M-50024-002] 제379회 제1차 국회본회의 심의"@ko ;
     skos:prefLabel "[ACT-M-50024-002] 제379회 제1차 국회본회의 심의"@ko ;
