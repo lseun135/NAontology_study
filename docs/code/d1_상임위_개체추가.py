@@ -15,7 +15,7 @@ BRANCH: Optional[str]             = None
 COMMITTEE_IRI: Optional[str]      = None
 
 # ====== 경로/입력 ======
-CSV_PATH       = r"D:/연구/국회회의록/병합/251025_국운위_병합.csv"         # 상임위 CSV
+CSV_PATH       = r"D:/연구/국회회의록/병합/251025_정보위_병합.csv"         # 상임위 CSV
 OUT_TTL        = r"D:/연구/국회회의록/251105_SC/d1-record_SC-{}.ttl"      # 출력 TTL(d1) (자동 치환됨)
 PEOPLE_TTL     = r"https://lseun135.github.io/NAontology_study/resource/d2-person.ttl"
 OUT_TMP_PEOPLE = r"D:/연구/국회회의록/251105_SC/tmp_person_SC_{}.ttl"     # 임시 Person TTL (자동 치환됨)
@@ -377,7 +377,7 @@ ROLE_SUFFIX_RE = re.compile(
     r"(?:[가-힣A-Za-z0-9·\-]*비서관)|수석비서관|비서관|"
     r"관장|"
     r"담당관|지원관|교육장|후보자|임명예정자|"
-    r"관리관|예산관|보건복지관|대변인|"
+    r"관리관|감사관|예산관|보건복지관|대변인|"
     r"사령관|부사령관|참모장|부장|"
     r"대표이사|"
     r"총재|부총재|부총재보|은행장|심의관|"
