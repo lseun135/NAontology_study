@@ -31608,6 +31608,7 @@ nadat2:PER-TMP-00685 a foaf:Person ;
 	rdfs:label "정상화"@ko ;
 	foaf:name "정상화"@ko ;
 	rdfs:comment "공군참모총장"@ko ;
+	owl:sameAs nadat2:PER-TMP-00652 ;
 	nam2:isInAStateOf nam2:Provisional .
 
 nadat2:PER-TMP-00686 a foaf:Person ;
