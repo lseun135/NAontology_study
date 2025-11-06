@@ -32195,6 +32195,7 @@ nadat2:PER-TMP-00782 a foaf:Person ;
 	rdfs:label "박찬진"@ko ;
 	foaf:name "박찬진"@ko ;
 	rdfs:comment "중앙선거관리위원회사무총장직무대행"@ko ;
+	owl:sameAs PER-TMP-00745 ;
 	nam2:isInAStateOf nam2:Provisional .
 
 nadat2:PER-TMP-00783 a foaf:Person ;
@@ -32280,6 +32281,7 @@ nadat2:PER-TMP-00796 a foaf:Person ;
 	rdfs:label "박찬진"@ko ;
 	foaf:name "박찬진"@ko ;
 	rdfs:comment "중앙선거관리위원회사무총장"@ko ;
+	owl:sameAs PER-TMP-00745 ;
 	nam2:isInAStateOf nam2:Provisional .
 
 nadat2:PER-TMP-00797 a foaf:Person ;
