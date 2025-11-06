@@ -28236,9 +28236,9 @@ nadat2:PER-TMP-00127 a foaf:Person ;
 nadat2:PER-TMP-00128 a foaf:Person ;
 	rdfs:label "박상철"@ko ;
 	foaf:name "박상철"@ko ;
-	rdfs:comment "국회입법조사처장"@ko ;
-	owl:sameAs nadat2:PER-TMP-00127
-	nam2:isInAStateOf nam2:Provisional .
+	rdfs:comment "국회입법조사처장"@ko ; 
+	nam2:isInAStateOf nam2:Provisional ;
+	owl:sameAs nadat2:PER-TMP-00127 .
 
 nadat2:PER-TMP-00129 a foaf:Person ;
 	rdfs:label "남규선"@ko ;
