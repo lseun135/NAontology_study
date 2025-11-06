@@ -30337,3 +30337,618 @@ nadat2:PER-TMP-00475 a foaf:Person ;
 
 
 
+
+
+nadat2:PER-TMP-00476 a foaf:Person ;
+	rdfs:label "전성배"@ko ;
+	foaf:name "전성배"@ko ;
+	rdfs:comment "과학기술정보통신부기획조정실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00477 a foaf:Person ;
+	rdfs:label "엄재식"@ko ;
+	foaf:name "엄재식"@ko ;
+	rdfs:comment "원자력안전위원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00478 a foaf:Person ;
+	rdfs:label "최시억"@ko ;
+	foaf:name "최시억"@ko ;
+	rdfs:comment "수석전문위원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00479 a foaf:Person ;
+	rdfs:label "한성구"@ko ;
+	foaf:name "한성구"@ko ;
+	rdfs:comment "전문위원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00480 a foaf:Person ;
+	rdfs:label "정병선"@ko ;
+	foaf:name "정병선"@ko ;
+	rdfs:comment "과학기술정보통신부제1차관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00481 a foaf:Person ;
+	rdfs:label "장석영"@ko ;
+	foaf:name "장석영"@ko ;
+	rdfs:comment "과학기술정보통신부제2차관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00482 a foaf:Person ;
+	rdfs:label "최성호"@ko ;
+	foaf:name "최성호"@ko ;
+	rdfs:comment "방송통신위원회사무처장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00483 a foaf:Person ;
+	rdfs:label "장보현"@ko ;
+	foaf:name "장보현"@ko ;
+	rdfs:comment "원자력안전위원회사무처장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00484 a foaf:Person ;
+	rdfs:label "박종석"@ko ;
+	foaf:name "박종석"@ko ;
+	rdfs:comment "우정사업본부장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00485 a foaf:Person ;
+	rdfs:label "양한열"@ko ;
+	foaf:name "양한열"@ko ;
+	rdfs:comment "방송통신위원회방송정책국장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00486 a foaf:Person ;
+	rdfs:label "강상현"@ko ;
+	foaf:name "강상현"@ko ;
+	rdfs:comment "방송통신심의위원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00487 a foaf:Person ;
+	rdfs:label "박정용"@ko ;
+	foaf:name "박정용"@ko ;
+	rdfs:comment "입법조사관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00488 a foaf:Person ;
+	rdfs:label "양승동"@ko ;
+	foaf:name "양승동"@ko ;
+	rdfs:comment "한국방송공사사장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00489 a foaf:Person ;
+	rdfs:label "김명중"@ko ;
+	foaf:name "김명중"@ko ;
+	rdfs:comment "한국교육방송공사사장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00490 a foaf:Person ;
+	rdfs:label "조기열"@ko ;
+	foaf:name "조기열"@ko ;
+	rdfs:comment "수석전문위원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00491 a foaf:Person ;
+	rdfs:label "김현규"@ko ;
+	foaf:name "김현규"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00492 a foaf:Person ;
+	rdfs:label "이병태"@ko ;
+	foaf:name "이병태"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00493 a foaf:Person ;
+	rdfs:label "정종채"@ko ;
+	foaf:name "정종채"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00494 a foaf:Person ;
+	rdfs:label "조동현"@ko ;
+	foaf:name "조동현"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00495 a foaf:Person ;
+	rdfs:label "김상돈"@ko ;
+	foaf:name "김상돈"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00496 a foaf:Person ;
+	rdfs:label "김준모"@ko ;
+	foaf:name "김준모"@ko ;
+	rdfs:comment "과학기술정보통신부디지털신산업제도과장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00497 a foaf:Person ;
+	rdfs:label "이태희"@ko ;
+	foaf:name "이태희"@ko ;
+	rdfs:comment "과학기술정보통신부기획조정실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00498 a foaf:Person ;
+	rdfs:label "김동준"@ko ;
+	foaf:name "김동준"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00499 a foaf:Person ;
+	rdfs:label "천영식"@ko ;
+	foaf:name "천영식"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00500 a foaf:Person ;
+	rdfs:label "최영묵"@ko ;
+	foaf:name "최영묵"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00501 a foaf:Person ;
+	rdfs:label "황근"@ko ;
+	foaf:name "황근"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00502 a foaf:Person ;
+	rdfs:label "강용성"@ko ;
+	foaf:name "강용성"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00503 a foaf:Person ;
+	rdfs:label "고환경"@ko ;
+	foaf:name "고환경"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00504 a foaf:Person ;
+	rdfs:label "김진욱"@ko ;
+	foaf:name "김진욱"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00505 a foaf:Person ;
+	rdfs:label "최인선"@ko ;
+	foaf:name "최인선"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00506 a foaf:Person ;
+	rdfs:label "용홍택"@ko ;
+	foaf:name "용홍택"@ko ;
+	rdfs:comment "과학기술정보통신부제1차관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00507 a foaf:Person ;
+	rdfs:label "조경식"@ko ;
+	foaf:name "조경식"@ko ;
+	rdfs:comment "과학기술정보통신부제2차관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00508 a foaf:Person ;
+	rdfs:label "이수영"@ko ;
+	foaf:name "이수영"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00509 a foaf:Person ;
+	rdfs:label "최경진"@ko ;
+	foaf:name "최경진"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00510 a foaf:Person ;
+	rdfs:label "김동원"@ko ;
+	foaf:name "김동원"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00511 a foaf:Person ;
+	rdfs:label "최재호"@ko ;
+	foaf:name "최재호"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00512 a foaf:Person ;
+	rdfs:label "이경수"@ko ;
+	foaf:name "이경수"@ko ;
+	rdfs:comment "과학기술정보통신부과학기술혁신본부장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00513 a foaf:Person ;
+	rdfs:label "김재신"@ko ;
+	foaf:name "김재신"@ko ;
+	rdfs:comment "공정거래위원회부위원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00514 a foaf:Person ;
+	rdfs:label "강국현"@ko ;
+	foaf:name "강국현"@ko ;
+	rdfs:comment "주식회사KTCustomer부문장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00515 a foaf:Person ;
+	rdfs:label "서창석"@ko ;
+	foaf:name "서창석"@ko ;
+	rdfs:comment "주식회사KT네트워크혁신TF장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00516 a foaf:Person ;
+	rdfs:label "김의철"@ko ;
+	foaf:name "김의철"@ko ;
+	rdfs:comment "한국방송공사사장후보자"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00517 a foaf:Person ;
+	rdfs:label "곽노성"@ko ;
+	foaf:name "곽노성"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00518 a foaf:Person ;
+	rdfs:label "손병호"@ko ;
+	foaf:name "손병호"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00519 a foaf:Person ;
+	rdfs:label "허원석"@ko ;
+	foaf:name "허원석"@ko ;
+	rdfs:comment "과학기술정보통신부소프트웨어정책관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00520 a foaf:Person ;
+	rdfs:label "정희권"@ko ;
+	foaf:name "정희권"@ko ;
+	rdfs:comment "과학기술정보통신부과학기술정책국장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00521 a foaf:Person ;
+	rdfs:label "안형환"@ko ;
+	foaf:name "안형환"@ko ;
+	rdfs:comment "방송통신위원회부위원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00522 a foaf:Person ;
+	rdfs:label "강인규"@ko ;
+	foaf:name "강인규"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00523 a foaf:Person ;
+	rdfs:label "박태서"@ko ;
+	foaf:name "박태서"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00524 a foaf:Person ;
+	rdfs:label "최성율"@ko ;
+	foaf:name "최성율"@ko ;
+	rdfs:comment "참고인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00525 a foaf:Person ;
+	rdfs:label "주영창"@ko ;
+	foaf:name "주영창"@ko ;
+	rdfs:comment "과학기술정보통신부과학기술혁신본부장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00526 a foaf:Person ;
+	rdfs:label "류광준"@ko ;
+	foaf:name "류광준"@ko ;
+	rdfs:comment "과학기술정보통신부기획조정실장직무대리"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00527 a foaf:Person ;
+	rdfs:label "손명선"@ko ;
+	foaf:name "손명선"@ko ;
+	rdfs:comment "원자력안전위원회사무처장직무대리"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00528 a foaf:Person ;
+	rdfs:label "박윤규"@ko ;
+	foaf:name "박윤규"@ko ;
+	rdfs:comment "과학기술정보통신부제2차관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00529 a foaf:Person ;
+	rdfs:label "임승철"@ko ;
+	foaf:name "임승철"@ko ;
+	rdfs:comment "원자력안전위원회사무처장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00530 a foaf:Person ;
+	rdfs:label "김의철"@ko ;
+	foaf:name "김의철"@ko ;
+	rdfs:comment "한국방송공사사장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00531 a foaf:Person ;
+	rdfs:label "김유열"@ko ;
+	foaf:name "김유열"@ko ;
+	rdfs:comment "한국교육방송공사사장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00532 a foaf:Person ;
+	rdfs:label "김건오"@ko ;
+	foaf:name "김건오"@ko ;
+	rdfs:comment "수석전문위원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00533 a foaf:Person ;
+	rdfs:label "이지민"@ko ;
+	foaf:name "이지민"@ko ;
+	rdfs:comment "전문위원"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00534 a foaf:Person ;
+	rdfs:label "박경신"@ko ;
+	foaf:name "박경신"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00535 a foaf:Person ;
+	rdfs:label "윤상필"@ko ;
+	foaf:name "윤상필"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00536 a foaf:Person ;
+	rdfs:label "최성진"@ko ;
+	foaf:name "최성진"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00537 a foaf:Person ;
+	rdfs:label "홍진배"@ko ;
+	foaf:name "홍진배"@ko ;
+	rdfs:comment "과학기술정보통신부네트워크정책실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00538 a foaf:Person ;
+	rdfs:label "김재철"@ko ;
+	foaf:name "김재철"@ko ;
+	rdfs:comment "방송통신위원회이용자정책국장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00539 a foaf:Person ;
+	rdfs:label "손승현"@ko ;
+	foaf:name "손승현"@ko ;
+	rdfs:comment "우정사업본부장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00540 a foaf:Person ;
+	rdfs:label "이창윤"@ko ;
+	foaf:name "이창윤"@ko ;
+	rdfs:comment "과학기술정보통신부연구개발정책실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00541 a foaf:Person ;
+	rdfs:label "권현준"@ko ;
+	foaf:name "권현준"@ko ;
+	rdfs:comment "과학기술정보통신부거대공공연구정책관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00542 a foaf:Person ;
+	rdfs:label "류광준"@ko ;
+	foaf:name "류광준"@ko ;
+	rdfs:comment "과학기술정보통신부기획조정실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00543 a foaf:Person ;
+	rdfs:label "박형일"@ko ;
+	foaf:name "박형일"@ko ;
+	rdfs:comment "㈜LG유플러스부사장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00544 a foaf:Person ;
+	rdfs:label "이원태"@ko ;
+	foaf:name "이원태"@ko ;
+	rdfs:comment "한국인터넷진흥원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00545 a foaf:Person ;
+	rdfs:label "김상언"@ko ;
+	foaf:name "김상언"@ko ;
+	rdfs:comment "㈜LG유플러스자문법무2팀장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00546 a foaf:Person ;
+	rdfs:label "심영섭"@ko ;
+	foaf:name "심영섭"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00547 a foaf:Person ;
+	rdfs:label "주재원"@ko ;
+	foaf:name "주재원"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00548 a foaf:Person ;
+	rdfs:label "김경희"@ko ;
+	foaf:name "김경희"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00549 a foaf:Person ;
+	rdfs:label "안정호"@ko ;
+	foaf:name "안정호"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00550 a foaf:Person ;
+	rdfs:label "김영관"@ko ;
+	foaf:name "김영관"@ko ;
+	rdfs:comment "방송통신위원회방송정책국장직무대리"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00551 a foaf:Person ;
+	rdfs:label "정필운"@ko ;
+	foaf:name "정필운"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00552 a foaf:Person ;
+	rdfs:label "황용석"@ko ;
+	foaf:name "황용석"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00553 a foaf:Person ;
+	rdfs:label "이아영"@ko ;
+	foaf:name "이아영"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00554 a foaf:Person ;
+	rdfs:label "신용우"@ko ;
+	foaf:name "신용우"@ko ;
+	rdfs:comment "진술인"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00555 a foaf:Person ;
+	rdfs:label "송상훈"@ko ;
+	foaf:name "송상훈"@ko ;
+	rdfs:comment "과학기술정보통신부정보통신정책관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00556 a foaf:Person ;
+	rdfs:label "주한규"@ko ;
+	foaf:name "주한규"@ko ;
+	rdfs:comment "한국원자력연구원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00557 a foaf:Person ;
+	rdfs:label "김영관"@ko ;
+	foaf:name "김영관"@ko ;
+	rdfs:comment "방송통신위원회방송기반국장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00558 a foaf:Person ;
+	rdfs:label "김석철"@ko ;
+	foaf:name "김석철"@ko ;
+	rdfs:comment "한국원자력안전기술원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00559 a foaf:Person ;
+	rdfs:label "김효재"@ko ;
+	foaf:name "김효재"@ko ;
+	rdfs:comment "방송통신위원장직무대행"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00560 a foaf:Person ;
+	rdfs:label "조성은"@ko ;
+	foaf:name "조성은"@ko ;
+	rdfs:comment "방송통신위원회사무처장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00561 a foaf:Person ;
+	rdfs:label "정연주"@ko ;
+	foaf:name "정연주"@ko ;
+	rdfs:comment "방송통신심의위원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00562 a foaf:Person ;
+	rdfs:label "김진석"@ko ;
+	foaf:name "김진석"@ko ;
+	rdfs:comment "방송통신심의위원회사무총장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00563 a foaf:Person ;
+	rdfs:label "김보현"@ko ;
+	foaf:name "김보현"@ko ;
+	rdfs:comment "과학기술정보통신부우주항공청설립추진단장직무대리"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00564 a foaf:Person ;
+	rdfs:label "박인환"@ko ;
+	foaf:name "박인환"@ko ;
+	rdfs:comment "우정사업본부장직무대리"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00565 a foaf:Person ;
+	rdfs:label "박영득"@ko ;
+	foaf:name "박영득"@ko ;
+	rdfs:comment "한국천문연구원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00566 a foaf:Person ;
+	rdfs:label "이상률"@ko ;
+	foaf:name "이상률"@ko ;
+	rdfs:comment "한국항공우주연구원장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00567 a foaf:Person ;
+	rdfs:label "박동식"@ko ;
+	foaf:name "박동식"@ko ;
+	rdfs:comment "사천시장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00568 a foaf:Person ;
+	rdfs:label "강구영"@ko ;
+	foaf:name "강구영"@ko ;
+	rdfs:comment "한국항공우주산업진흥협회장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00569 a foaf:Person ;
+	rdfs:label "손재일"@ko ;
+	foaf:name "손재일"@ko ;
+	rdfs:comment "한국우주기술진흥협회장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00570 a foaf:Person ;
+	rdfs:label "배중섭"@ko ;
+	foaf:name "배중섭"@ko ;
+	rdfs:comment "방송통신위원회기획조정관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00571 a foaf:Person ;
+	rdfs:label "여주학"@ko ;
+	foaf:name "여주학"@ko ;
+	rdfs:comment "행정관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00572 a foaf:Person ;
+	rdfs:label "최정배"@ko ;
+	foaf:name "최정배"@ko ;
+	rdfs:comment "행정실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00573 a foaf:Person ;
+	rdfs:label "구혁채"@ko ;
+	foaf:name "구혁채"@ko ;
+	rdfs:comment "과학기술정보통신부기획조정실장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00574 a foaf:Person ;
+	rdfs:label "손명선"@ko ;
+	foaf:name "손명선"@ko ;
+	rdfs:comment "원자력안전위원회기획조정관"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00575 a foaf:Person ;
+	rdfs:label "손화종"@ko ;
+	foaf:name "손화종"@ko ;
+	rdfs:comment "원자력안전위원회차세대원자로안전과장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00576 a foaf:Person ;
+	rdfs:label "박민"@ko ;
+	foaf:name "박민"@ko ;
+	rdfs:comment "한국방송공사사장후보자"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+nadat2:PER-TMP-00577 a foaf:Person ;
+	rdfs:label "이재형"@ko ;
+	foaf:name "이재형"@ko ;
+	rdfs:comment "과학기술정보통신부우주항공청설립추진단장"@ko ;
+	nam2:isInAStateOf nam2:Provisional .
+
+
