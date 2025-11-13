@@ -30,7 +30,7 @@
 
 <https://lseun135.github.io/NAontology_study/m2-person.ttl> rdf:type owl:Ontology ;
                 owl:imports <http://www.w3.org/2004/02/skos/core> ,
-                            <http://www.w3.org/ns/org> .
+                            <http://www.w3.org/ns/org>, <http://xmlns.com/foaf/0.1>  .
 
 #    Class
 foaf:Agent rdf:type owl:Class ;
