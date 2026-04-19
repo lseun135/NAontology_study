@@ -24,11 +24,11 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
-@base <https://lseun135.github.io/NAontology_study/resource/d1-record_old#> .
+@base <https://lseun135.github.io/NAontology_study/resource/old/d1-record_old#> .
 
 
 
-<https://lseun135.github.io/NAontology_study/resource/d1-record_old.ttl> rdf:type owl:Ontology ;
+<https://lseun135.github.io/NAontology_study/resource/old/d1-record_old.ttl> rdf:type owl:Ontology ;
                 owl:imports <https://lseun135.github.io/NAontology_study/m1-record.ttl> ,
                         <https://lseun135.github.io/NAontology_study/resource/d2-person.ttl> ,
                         <https://lseun135.github.io/NAontology_study/resource/old/d1_SC-AA_old.ttl> ,
