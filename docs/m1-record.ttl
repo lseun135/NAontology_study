@@ -35,11 +35,22 @@
 # Class
 ## A 분류체계: 국회 회의록·의안기록물
 nam1:A rdf:type rico:RecordSet ;
-       rico:includesOrIncluded nam1:A-SRG21 ;
+       rico:includesOrIncluded nam1:A-MIN , nam1:A-BIL ;
        rico:classification "A" ;
        rico:generalDescription "국회 대수(代數)별로 생산되는 회의록·의안기록물"@ko ;
        rico:name "국회 회의록·의안기록물"@ko ;
        rdfs:label "[A] 국회 회의록·의안기록물"@ko .
+
+nam1:A-MIN a rico:RecordSet ;
+    rico:name "회의록"@ko ;
+    rico:identifier "A-MIN" ;
+    rdfs:label "[A-MIN] 회의록"@ko ;
+    rico:includesOrIncluded nam1:A-MIN-021 .
+
+nam1:A-BIL a rico:RecordSet ;
+    rico:name "의안기록물"@ko ;
+    rico:identifier "A-BIL" ;
+    rdfs:label "[A-BIL] 의안기록물"@ko .
 
 
 ## B 분류체계: 생산·이관기록물
@@ -49,15 +60,24 @@ nam1:B rdf:type rico:RecordSet ;
        rico:name "생산·이관기록물"@ko ;
        rdfs:label "[B] 생산·이관기록물"@ko .
 
+
 ## C 분류체계: 수집기록물
 nam1:C rdf:type rico:RecordSet ;
-       rico:includesOrIncluded nam1:C-SRG01 ,
-                               nam1:C-SRG02 ;
+       rico:includesOrIncluded nam1:C-PER , nam1:C-ORG ;
        rico:classification "C" ;
        rico:generalDescription "개인(의원), 단체(정당) 등으로부터 수집한 기록물"@ko ;
        rico:name "수집기록물"@ko ;
        rdfs:label "[C] 수집기록물"@ko .
 
+nam1:C-PER a rico:RecordSet ;
+    rico:name "개인(의원) 수집기록물"@ko ;
+    rico:identifier "C-PER" ;
+    rdfs:label "[C-PER] 개인(의원) 수집기록물"@ko .
+
+nam1:C-ORG a rico:RecordSet ;
+    rico:name "단체(정당) 수집기록물"@ko ;
+    rico:identifier "C-ORG" ;
+    rdfs:label "[C-ORG] 단체(정당) 수집기록물"@ko .
 
 
 ## foaf:Person ⊑ rico:Person ⊑ rico:Agent ⊑ foaf:Agent
