@@ -33,6 +33,33 @@
 
 
 # Class
+## A 분류체계: 국회 회의록·의안기록물
+nam1:A rdf:type rico:RecordSet ;
+       rico:includesOrIncluded nam1:A-SRG21 ;
+       rico:classification "A" ;
+       rico:generalDescription "국회 대수(代數)별로 생산되는 회의록·의안기록물"@ko ;
+       rico:name "국회 회의록·의안기록물"@ko ;
+       rdfs:label "[A] 국회 회의록·의안기록물"@ko .
+
+
+## B 분류체계: 생산·이관기록물
+nam1:B rdf:type rico:RecordSet ;
+       rico:classification "B" ;
+       rico:generalDescription "연도별 국회 조직(소속기관 등) 생산 기록물"@ko ;
+       rico:name "생산·이관기록물"@ko ;
+       rdfs:label "[B] 생산·이관기록물"@ko .
+
+## C 분류체계: 수집기록물
+nam1:C rdf:type rico:RecordSet ;
+       rico:includesOrIncluded nam1:C-SRG01 ,
+                               nam1:C-SRG02 ;
+       rico:classification "C" ;
+       rico:generalDescription "개인(의원), 단체(정당) 등으로부터 수집한 기록물"@ko ;
+       rico:name "수집기록물"@ko ;
+       rdfs:label "[C] 수집기록물"@ko .
+
+
+
 ## foaf:Person ⊑ rico:Person ⊑ rico:Agent ⊑ foaf:Agent
 rico:Agent rdfs:subClassOf foaf:Agent ; 
         rdfs:comment "이 모델에서는 rico:Agent를 foaf:Agent의 하위 개념으로 해석한다.(FOAF는 일반적 행위자, RiC는 기록관리 맥락에 영향을 주는 행위자)"@ko .
@@ -49,12 +76,8 @@ org:FormalOrganization  rdfs:subClassOf rico:CorporateBody ;
 org:OrganizationalUnit  rdfs:subClassOf rico:CorporateBody ;
   rdfs:comment "nadat2에서 OrganizationalUnit으로 선언된 개체는 nadat1에서 rico:CorporateBody로 본다."@ko .
 
-
-
 rico:hasOrHadMember rdfs:seeAlso org:hasMember ;
         rdfs:comment "m1(record)에서 기록 참여자 관계를 표현하며, m2(person)의 조직적 구성 관계(org:hasMember)와 연동됨."@ko .
-
-
 
 
 ### 내용 단위 연결 속성 (RecordResource → ContentUnit)
@@ -71,6 +94,11 @@ dcterms:subject a owl:ObjectProperty ;
         owl:propertyChainAxiom ( rico:documents nam3:hasAgendaItem ) .
 
 [ owl:inverseOf nam1:hasContentUnit ] rdfs:subPropertyOf dcterms:source .
+
+
+
+
+
 
 
 # individuals
@@ -200,16 +228,6 @@ nam1:Law a rico:DocumentaryFormType, skos:Concept ;
         skos:prefLabel "법률안"@ko , "Law"@en .
 
 
-
-## ContentType
-nam1:contentTypeScheme a skos:ConceptScheme ;
-                skos:prefLabel "Content Type (local controlled list)"@en , "콘텐츠 유형 (내부 통제어휘)"@ko .
-
-nam1:text a rico:ContentType, skos:Concept ;
-                skos:prefLabel "text"@en , "텍스트"@ko ;
-                skos:inScheme nam1:contentTypeScheme .
-
-
 ## CarrierTypeScheme
 nam1:CarrierTypeScheme a skos:ConceptScheme ;
   skos:prefLabel "Carrier Type Vocabulary"@en ;
@@ -227,6 +245,27 @@ nam1:Paper a rico:CarrierType, skos:Concept ;
   skos:prefLabel "Paper"@en ;
   skos:prefLabel "종이"@ko .
 
+### ProductionTechniqueTypeScheme
+nam1:ProductionTechniqueTypeScheme a skos:ConceptScheme ;
+  skos:prefLabel "Production Technique Type Vocabulary"@en ;
+  skos:prefLabel "제작 기법 유형 통제어"@ko ;
+  dcterms:description "최소 제작기법 통제어 (인쇄·전자적 생성·녹화)"@ko ;
+  dcterms:created "2025-10-23"^^xsd:date .
+
+nam1:Printing a rico:ProductionTechniqueType, skos:Concept ;
+  skos:inScheme nam1:ProductionTechniqueTypeScheme ;
+  skos:prefLabel "Printing"@en ;
+  skos:prefLabel "인쇄"@ko .
+
+nam1:DigitalCreation a rico:ProductionTechniqueType, skos:Concept ;
+  skos:inScheme nam1:ProductionTechniqueTypeScheme ;
+  skos:prefLabel "Digital creation"@en ;
+  skos:prefLabel "전자적 생성"@ko .
+
+nam1:Recording a rico:ProductionTechniqueType, skos:Concept ;
+  skos:inScheme nam1:ProductionTechniqueTypeScheme ;
+  skos:prefLabel "Recording"@en ;
+  skos:prefLabel "녹화"@ko .
 
 
 ### RepresentationTypeScheme
@@ -255,86 +294,6 @@ nam1:Video a rico:RepresentationType, skos:Concept ;
   skos:inScheme nam1:RepresentationTypeScheme ;
   skos:prefLabel "Video"@en ;
   skos:prefLabel "비디오"@ko .
-
-
-
-### ProductionTechniqueTypeScheme
-nam1:ProductionTechniqueTypeScheme a skos:ConceptScheme ;
-  skos:prefLabel "Production Technique Type Vocabulary"@en ;
-  skos:prefLabel "제작 기법 유형 통제어"@ko ;
-  dcterms:description "최소 제작기법 통제어 (인쇄·전자적 생성·녹화)"@ko ;
-  dcterms:created "2025-10-23"^^xsd:date .
-
-nam1:Printing a rico:ProductionTechniqueType, skos:Concept ;
-  skos:inScheme nam1:ProductionTechniqueTypeScheme ;
-  skos:prefLabel "Printing"@en ;
-  skos:prefLabel "인쇄"@ko .
-
-nam1:DigitalCreation a rico:ProductionTechniqueType, skos:Concept ;
-  skos:inScheme nam1:ProductionTechniqueTypeScheme ;
-  skos:prefLabel "Digital creation"@en ;
-  skos:prefLabel "전자적 생성"@ko .
-
-nam1:Recording a rico:ProductionTechniqueType, skos:Concept ;
-  skos:inScheme nam1:ProductionTechniqueTypeScheme ;
-  skos:prefLabel "Recording"@en ;
-  skos:prefLabel "녹화"@ko .
-
-
-
-
-nam1:legalStatusScheme a skos:ConceptScheme ;
-                skos:prefLabel "Legal Status controlled list"@en , "법적지위 통제어휘"@ko .
-
-nam1:public a rico:LegalStatus, skos:Concept ;
-                skos:prefLabel "public record"@en, "공공기록"@ko ;
-                skos:inScheme nam1:legalStatusScheme .
-
-
-
-## 언어
-nam1:languageTypeScheme a skos:ConceptScheme ;
-                skos:prefLabel "language Type"@en , "언어 유형"@ko .
-
-nam1:lang-kor a rico:LanguageType, skos:Concept ;
-                skos:prefLabel "Korean"@en , "한국어"@ko ;
-                skos:notation "kor" ;
-                skos:exactMatch <http://id.loc.gov/vocabulary/iso639-2/kor> ;
-                skos:inScheme nam1:languageTypeScheme .
-
-
-
-## A 분류체계: 국회 회의록·의안기록물
-
-nam1:A rdf:type rico:RecordSet ;
-       rico:includesOrIncluded nam1:A-SRG21 ;
-       rico:classification "A" ;
-       rico:generalDescription "국회 대수(代數)별로 생산되는 회의록·의안기록물"@ko ;
-       rico:name "국회 회의록·의안기록물"@ko ;
-       rdfs:label "[A] 국회 회의록·의안기록물"@ko .
-
-
-## B 분류체계: 생산·이관기록물
-
-nam1:B rdf:type rico:RecordSet ;
-       rico:classification "B" ;
-       rico:generalDescription "연도별 국회 조직(소속기관 등) 생산 기록물"@ko ;
-       rico:name "생산·이관기록물"@ko ;
-       rdfs:label "[B] 생산·이관기록물"@ko .
-
-
-
-## C 분류체계: 수집기록물
-
-nam1:C rdf:type rico:RecordSet ;
-       rico:includesOrIncluded nam1:C-SRG01 ,
-                               nam1:C-SRG02 ;
-       rico:classification "C" ;
-       rico:generalDescription "개인(의원), 단체(정당) 등으로부터 수집한 기록물"@ko ;
-       rico:name "수집기록물"@ko ;
-       rdfs:label "[C] 수집기록물"@ko .
-
-
 
 
 ## DateType
@@ -386,6 +345,9 @@ nam1:lang-kor a rico:LanguageType, skos:Concept ;
                 skos:notation "kor" ;
                 skos:exactMatch <http://id.loc.gov/vocabulary/iso639-2/kor> ;
                 skos:inScheme nam1:languageTypeScheme .
+
+
+
 
 
 ## rico:hasEventType
