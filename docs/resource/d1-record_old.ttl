@@ -24,30 +24,30 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
-@base <https://lseun135.github.io/NAontology_study/resource/d1-record#> .
+@base <https://lseun135.github.io/NAontology_study/resource/d1-record_old#> .
 
 
 
-<https://lseun135.github.io/NAontology_study/resource/d1-record.ttl> rdf:type owl:Ontology ;
+<https://lseun135.github.io/NAontology_study/resource/d1-record_old.ttl> rdf:type owl:Ontology ;
                 owl:imports <https://lseun135.github.io/NAontology_study/m1-record.ttl> ,
                         <https://lseun135.github.io/NAontology_study/resource/d2-person.ttl> ,
-                        <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_SC-AA.ttl> ,
-                        <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_SC-AB.ttl> ,
-                        <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_SC-AC.ttl> ,
-                        <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_SC-AD.ttl> ,
-                        <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_SC-AE.ttl> ,
-                        <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_SC-AF.ttl> ,
-                        <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_SC-AG.ttl> ,
-                        <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_SC-AH.ttl> ,
-                        <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_SC-AI.ttl> ,
-                        <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_SC-AJ.ttl> ,
-                        <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_SC-AK.ttl> ,
-                        <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_SC-AL.ttl> ,
-                        <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_SC-AM.ttl> ,
-                        <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_SC-AN.ttl> ,
-                        <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_SC-AO.ttl> ,
-                        <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_SC-AP.ttl> ,
-                        <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_SC-AQ.ttl> .
+                        <https://lseun135.github.io/NAontology_study/resource/old/d1_SC-AA_old.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/old/d1_SC-AB_old.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/old/d1_SC-AC_old.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/old/d1_SC-AD_old.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/old/d1_SC-AE_old.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/old/d1_SC-AF_old.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/old/d1_SC-AG_old.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/old/d1_SC-AH_old.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/old/d1_SC-AI_old.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/old/d1_SC-AJ_old.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/old/d1_SC-AK_old.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/old/d1_SC-AL_old.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/old/d1_SC-AM_old.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/old/d1_SC-AN_old.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/old/d1_SC-AO_old.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/old/d1_SC-AP_old.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/old/d1_SC-AQ_old.ttl> .
 
 
 
