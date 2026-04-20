@@ -165,6 +165,7 @@ nam1:AdministrativeRule a rico:RuleType, skos:Concept ;
   skos:inScheme nam1:RuleTypeScheme ;
   skos:broader nam1:LegalNorm ;
   skos:notation "AdministrativeRule" ;
+  skos:altLabel "행정규칙"@ko ;
   skos:prefLabel "행정규칙(훈령·예규·고시·공고·지시·규정 등)"@ko .
 
 nam1:NationalInstitutionRule a rico:RuleType, skos:Concept ;
