@@ -140,6 +140,7 @@ nam1:Standard a rico:RuleType, skos:Concept ;
   skos:topConceptOf nam1:RuleTypeScheme ;
   skos:notation "Standard" ;
   skos:prefLabel "표준"@ko ;
+  skos:note "국가기술표준원의 표준의 영역에 따른 분류를 근거로 하위계층을 구성함."@ko ;
   skos:scopeNote "국제·국가·부처·업계 등 기술/전문 표준"@ko .
 
 nam1:Policy a rico:RuleType, skos:Concept ;
@@ -174,6 +175,13 @@ nam1:NationalInstitutionRule a rico:RuleType, skos:Concept ;
   skos:notation "NationalInstitutionRule" ;
   skos:prefLabel "국가기관 규칙(국회규칙 등)"@ko .
 
+nam1:Treaty a rico:RuleType, skos:Concept ;
+  skos:inScheme nam1:RuleTypeScheme ;
+  skos:broader nam1:LegalNorm ;
+  skos:notation "Treaty" ;
+  skos:note "헌법 제6조 제1항을 근거로 구성함."@ko ;
+  skos:prefLabel "조약"@ko .
+
 ### 법령 하위 세분
 nam1:Constitution a rico:RuleType, skos:Concept ;
   skos:inScheme nam1:RuleTypeScheme ;
@@ -186,12 +194,6 @@ nam1:Act a rico:RuleType, skos:Concept ;
   skos:broader nam1:Legislation ;
   skos:notation "Act" ;
   skos:prefLabel "법률"@ko .
-
-nam1:Treaty a rico:RuleType, skos:Concept ;
-  skos:inScheme nam1:RuleTypeScheme ;
-  skos:broader nam1:Legislation ;
-  skos:notation "Treaty" ;
-  skos:prefLabel "조약"@ko .
 
 nam1:SubordinateLegislation a rico:RuleType, skos:Concept ;
   skos:inScheme nam1:RuleTypeScheme ;
@@ -227,22 +229,22 @@ nam1:InternationalStandard a rico:RuleType, skos:Concept ;
   skos:inScheme nam1:RuleTypeScheme ;
   skos:broader nam1:Standard ;
   skos:notation "InternationalStandard" ;
-  skos:prefLabel "국제 표준"@ko ;
+  skos:prefLabel "국제표준"@ko ;
   skos:altLabel "ISO 표준"@ko, "국제표준화기구 표준"@ko ;
-  skos:scopeNote "ISO(국제표준화기구)·IEC·ITU 등 국제 협의체가 제정한 비구속적 합의 표준. 각국이 자국 표준으로 채택할 수 있음"@ko .
+  skos:scopeNote "ISO(국제표준화기구)·IEC·ITU 등 국제 협의체가 제정한 비구속적 합의 표준. 각국이 자국 표준으로 채택할 수 있음 (「국가표준기본법」 제3조 제2호)"@ko .
 
-nam1:JurisdictionalStandard a rico:RuleType, skos:Concept ;
+nam1:NationalStandard a rico:RuleType, skos:Concept ;
   skos:inScheme nam1:RuleTypeScheme ;
   skos:broader nam1:Standard ;
-  skos:notation "JurisdictionalStandard" ;
-  skos:prefLabel "관할 표준"@ko ;
+  skos:notation "NationalStandard" ;
+  skos:prefLabel "국가표준"@ko ;
   skos:scopeNote "국가·정부·공공기관 등 법적 관할권을 가진 기관이 제정한 공식 표준(예: KS, JIS, FIPS 등)"@ko .
 
 nam1:ProfessionalStandard a rico:RuleType, skos:Concept ;
   skos:inScheme nam1:RuleTypeScheme ;
   skos:broader nam1:Standard ;
   skos:notation "ProfessionalStandard" ;
-  skos:prefLabel "전문 표준"@ko ;
+  skos:prefLabel "전문표준"@ko ;
   skos:scopeNote "전문 단체나 학회·산업협회 등에서 합의로 제정한 자율적 표준(예: IEEE, W3C, IETF 등)"@ko .
 
 
