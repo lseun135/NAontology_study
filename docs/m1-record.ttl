@@ -133,7 +133,10 @@ nam1:LegalNorm a rico:RuleType, skos:Concept ;
   skos:topConceptOf nam1:RuleTypeScheme ;
   skos:notation "LegalNorm" ;
   skos:prefLabel "법적 규범"@ko ;
-  skos:scopeNote "법률·명령·자치법규·행정규칙·기관규칙 등 법령체계 기반 규범"@ko .
+  skos:scopeNote "법률·명령·자치법규·행정규칙·기관규칙 등 법령체계 기반 규범"@ko ;
+  skos:note "LegalNorm 계층은 대한민국 헌법(제6조 제1항, 제75조, 제95조), 
+「법령 등 공포에 관한 법률」 제10조(법령 번호 부여 대상으로서 법률·대통령령·총리령·부령 열거), 
+「법제업무 운영규정」(행정규칙: 훈령·예규·고시 등)에 근거하여 구성함."@ko .
 
 nam1:Standard a rico:RuleType, skos:Concept ;
   skos:inScheme nam1:RuleTypeScheme ;
@@ -147,13 +150,15 @@ nam1:Policy a rico:RuleType, skos:Concept ;
   skos:inScheme nam1:RuleTypeScheme ;
   skos:topConceptOf nam1:RuleTypeScheme ;
   skos:notation "Policy" ;
-  skos:prefLabel "정책"@ko .
+  skos:prefLabel "정책"@ko ;
+  skos:note "법적 구속력의 유무와 제정 주체에 따라 구분한 로컬 통제어휘"@ko .
 
 nam1:SocialNorm a rico:RuleType, skos:Concept ;
   skos:inScheme nam1:RuleTypeScheme ;
   skos:topConceptOf nam1:RuleTypeScheme ;
   skos:notation "SocialNorm" ;
-  skos:prefLabel "사회적 규범"@ko .
+  skos:prefLabel "사회적 규범"@ko ;
+  skos:note "법적 구속력의 유무와 제정 주체에 따라 구분한 로컬 통제어휘"@ko .
 
 ### LegalNorm 하위
 nam1:Legislation a rico:RuleType, skos:Concept ;
