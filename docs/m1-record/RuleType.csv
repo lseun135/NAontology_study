@@ -1,0 +1,19 @@
+URI (prefixed name),유형 (rdf:type),상위분류(skos:broader),하위분류,명칭(skos:prefLabel),유사어 (skos:altLabel),기술 (skos:scopeNote),비고 (skos:note)
+nam1:RuleTypeScheme,skos:ConceptScheme,.,.,규칙 유형 통제어,,,rico:RuleType 값들을 관리하는 SKOS 스키마
+nam1:LegalNorm,rico:RuleType | skos:Concept,.,nam1:Legislation | nam1:AdministrativeRule | nam1:NationalInstitutionRule | nam1:Treaty,법적 규범,,법률·명령·자치법규·행정규칙·기관규칙 등 법령체계 기반 규범,"LegalNorm 계층은 대한민국 헌법(제6조 제1항, 제75조, 제95조), 「법령 등 공포에 관한 법률」 제10조(법령 번호 부여 대상으로서 법률·대통령령·총리령·부령 열거), 「법제업무 운영규정」(행정규칙: 훈령·예규·고시 등)에 근거하여 구성함."
+nam1:Standard,rico:RuleType | skos:Concept,.,nam1:InternationalStandard | nam1:NationalStandard | nam1:ProfessionalStandard,표준,,국제·국가·부처·업계 등 기술/전문 표준,국가기술표준원의 표준의 영역에 따른 분류를 근거로 하위계층을 구성함.
+nam1:Policy,rico:RuleType | skos:Concept,.,,정책,,,법적 구속력의 유무와 제정 주체에 따라 구분한 로컬 통제어휘
+nam1:SocialNorm,rico:RuleType | skos:Concept,.,,사회적 규범,,,법적 구속력의 유무와 제정 주체에 따라 구분한 로컬 통제어휘
+nam1:Legislation,rico:RuleType | skos:Concept,nam1:LegalNorm,nam1:Constitution | nam1:Act | nam1:SubordinateLegislation,법령,,,
+nam1:AdministrativeRule,rico:RuleType | skos:Concept,nam1:LegalNorm,,행정규칙(훈령·예규·고시·공고·지시·규정 등),행정규칙 | 훈령 | 예규 | 고시 | 공고 | 지시 | 규정,,
+nam1:NationalInstitutionRule,rico:RuleType | skos:Concept,nam1:LegalNorm,,국가기관 규칙(국회규칙 등),,,
+nam1:Treaty,rico:RuleType | skos:Concept,nam1:LegalNorm,,조약,,,헌법 제6조 제1항을 근거로 구성함.
+nam1:Constitution,rico:RuleType | skos:Concept,nam1:Legislation,,헌법,,,
+nam1:Act,rico:RuleType | skos:Concept,nam1:Legislation,,법률,,,
+nam1:SubordinateLegislation,rico:RuleType | skos:Concept,nam1:Legislation,nam1:PresidentialDecree | nam1:PrimeMinisterialOrdinance | nam1:MinisterialOrdinance,하위법령(시행령·시행규칙 등),,,
+nam1:PresidentialDecree,rico:RuleType | skos:Concept,nam1:SubordinateLegislation,,대통령령(시행령),시행령 | 대통령령,,
+nam1:PrimeMinisterialOrdinance,rico:RuleType | skos:Concept,nam1:SubordinateLegislation,,총리령(시행규칙),시행규칙 | 총리령,동일 표기 ‘시행규칙’이 부령과 중복될 수 있어 발령주체(총리/각 부 장관)로 구분,
+nam1:MinisterialOrdinance,rico:RuleType | skos:Concept,nam1:SubordinateLegislation,,부령(시행규칙),시행규칙 | 부령,동일 표기 ‘시행규칙’이 부령과 중복될 수 있어 발령주체(총리/각 부 장관)로 구분,
+nam1:InternationalStandard,rico:RuleType | skos:Concept,nam1:Standard,,국제표준,ISO 표준 | 국제표준화기구 표준,ISO(국제표준화기구)·IEC·ITU 등 국제 협의체가 제정한 비구속적 합의 표준. 각국이 자국 표준으로 채택할 수 있음 (「국가표준기본법」 제3조 제2호),
+nam1:NationalStandard,rico:RuleType | skos:Concept,nam1:Standard,,국가표준,,"각국의 국가 표준화기구 또는 정부기관이 제정한 공식 표준 (예: KS, JIS, FIPS 등). 「국가표준기본법」 제3조 제1호의 ""국가표준"" 개념에 대응",
+nam1:ProfessionalStandard,rico:RuleType | skos:Concept,nam1:Standard,,전문표준,,"전문 단체·학회·산업협회 등에서 합의로 제정한 자율적 표준 (예: IEEE, W3C, IETF 등).",
