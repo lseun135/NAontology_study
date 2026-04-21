@@ -1,4 +1,4 @@
-﻿URI (prefixed name),유형 (rdf:type),상위분류(skos:broader),하위분류(skos:narrower),명칭(skos:prefLabel),유사어 (skos:altLabel),기술 (skos:scopeNote),"비고 (skos:editorialNote, dcterms:description)"
+﻿URI(prefixed name),유형(rdf:type),상위분류(skos:broader),하위분류(skos:narrower),명칭(skos:prefLabel),유사어(skos:altLabel),기술(skos:scopeNote),"비고(skos:editorialNote, dcterms:description)"
 nam1:DocumentaryFormTypeScheme,skos:ConceptScheme,.,.,외형적형식 및 장르 유형 통제어,.,,rico:DocumentaryFormType 값을 관리하는 SKOS 스키마
 nam1:Minutes,rico:DocumentaryFormType | skos:Concept,,,회의록,,,
 nam1:Bill,rico:DocumentaryFormType | skos:Concept,,,의안,,,
