@@ -1,0 +1,5 @@
+﻿URI(prefixed name),유형(rdf:type),상위분류(skos:broader),하위분류(skos:narrower),명칭(skos:prefLabel),유사어(skos:altLabel),기술(skos:scopeNote),"비고(skos:editorialNote, dcterms:description)"
+nam1:ProductionTechniqueTypeScheme,skos:ConceptScheme,.,.,제작 기법 유형 통제어,.,.,최소 제작기법 통제어 (인쇄·전자적 생성·녹화)
+nam1:Printing,rico:ProductionTechniqueType | skos:Concept,,,인쇄,,,
+nam1:DigitalCreation,rico:ProductionTechniqueType | skos:Concept,,,전자적 생성,,,
+nam1:Recording,rico:ProductionTechniqueType | skos:Concept,,,녹화,,,
