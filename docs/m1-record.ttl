@@ -124,14 +124,15 @@ dcterms:subject a owl:ObjectProperty ;
 # individuals
 ## RuleType
 nam1:RuleTypeScheme a skos:ConceptScheme ;
+        skos:hasTopConcept nam1:LegalNorm, nam1:Standard, nam1:Policy, nam1:SocialNorm ;  
         skos:prefLabel "규칙 유형 통제어"@ko, "Rule Type Controlled Vocabulary"@en ;
-        skos:editorialNote "rico:RuleType 값들을 관리하는 SKOS 스키마"@ko .
+        dcterms:description "rico:RuleType 값들을 관리하는 SKOS 스키마"@ko .
 
 nam1:LegalNorm a rico:RuleType, skos:Concept ;
         skos:inScheme nam1:RuleTypeScheme ;
         skos:topConceptOf nam1:RuleTypeScheme ;
         skos:prefLabel "법적 규범"@ko ;
-        skos:scopeNote "법률·명령·자치법규·행정규칙·기관규칙 등 법령체계 기반 규범"@ko ;
+        skos:scopeNote "법률·명령·자치법규·행정규칙·기관규칙 등을 포함하는 법령체계 기반 규범"@ko ;
         skos:editorialNote "LegalNorm 계층은 대한민국 헌법(제6조 제1항, 제75조, 제95조), 
 「법령 등 공포에 관한 법률」 제10조(법령 번호 부여 대상으로서 법률·대통령령·총리령·부령 열거), 
 「법제업무 운영규정」(행정규칙: 훈령·예규·고시 등)에 근거하여 구성함."@ko .
@@ -240,7 +241,7 @@ nam1:ProfessionalStandard a rico:RuleType, skos:Concept ;
 ## DocumentaryFormType
 nam1:DocumentaryFormTypeScheme a skos:ConceptScheme ;
         skos:prefLabel "외형적형식 및 장르 유형 통제어"@ko , "DocumentaryFormType Controlled Vocabulary"@en ;
-        skos:editorialNote "rico:DocumentaryFormType 값을 관리하는 SKOS 스키마"@ko .
+        dcterms:description "rico:DocumentaryFormType 값을 관리하는 SKOS 스키마"@ko .
 
 nam1:Minutes a rico:DocumentaryFormType, skos:Concept ;
         skos:inScheme nam1:DocumentaryFormTypeScheme ;
