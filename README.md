@@ -34,6 +34,16 @@ ICA-EGAD에서 제공한 [RiC-O components csv](https://github.com/ICA-EGAD/RiC-
 
 <br/>
 
+## 어휘집
+SKOS 바탕으로 구성 (해당 모듈 폴더에 위치)
+- annotation property 결정 방식
+  - ConceptScheme의 일반 설명 → `dcterms:description`
+  - Concept의 적용 범위·사용 기준 설명 → `skos:scopeNote`
+  - 설계 근거·편집 메모 → `skos:editorialNote`
+  - 공식 정의가 확인된 경우에만 → `skos:definition`
+
+<br/>
+
 # NameSpace
 * 자체 온톨로지
   | prefix | IRI |
