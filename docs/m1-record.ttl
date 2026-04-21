@@ -315,30 +315,33 @@ nam1:Video a rico:RepresentationType, skos:Concept ;
 
 ## DateType
 nam1:dateTypeScheme a skos:ConceptScheme ;
-                skos:prefLabel "Date Type"@en , "날짜 유형"@ko .
+    skos:prefLabel "Date Type"@en , "날짜 유형"@ko .
 
 nam1:singleDate a rico:DateType, skos:Concept ;
-                skos:prefLabel "Single Date"@en, "단일 날짜"@ko ;
-                skos:inScheme nam1:dateTypeScheme .
+    skos:prefLabel "Single Date"@en, "단일 날짜"@ko ;
+    skos:inScheme nam1:dateTypeScheme ;
+    skos:scopeNote "특정 시점을 나타내는 하나의 날짜."@ko .
 
 nam1:dateRange a rico:DateType, skos:Concept ;
-                skos:prefLabel "Date Range"@en, "날짜 범위"@ko ;
-                skos:inScheme nam1:dateTypeScheme ; 
-                skos:scopeNote "A date that represents a continuous interval with a beginning and an end."@en, "시작과 끝이 있는 연속 구간을 나타내는 날짜."@ko .
+    skos:prefLabel "Date Range"@en, "날짜 범위"@ko ;
+    skos:inScheme nam1:dateTypeScheme ; 
+    skos:scopeNote "시작과 끝이 있는 연속 구간을 나타내는 날짜."@ko .
 
 nam1:dateSet a rico:DateType, skos:Concept ;
-                skos:prefLabel "Date Set"@en, "날짜 집합"@ko ;
-                skos:inScheme nam1:dateTypeScheme .
+    skos:prefLabel "Date Set"@en, "날짜 집합"@ko ;
+    skos:inScheme nam1:dateTypeScheme ;
+    skos:scopeNote "연속적이지 않은 둘 이상의 날짜로 구성된 집합."@ko .
 
 nam1:year a rico:DateType, skos:Concept ;
-                skos:prefLabel "Year"@en, "연도"@ko ;
-                skos:inScheme nam1:dateTypeScheme .
+    skos:prefLabel "Year"@en, "연도"@ko ;
+    skos:inScheme nam1:dateTypeScheme ;
+    skos:scopeNote "연도 단위로만 특정된 날짜."@ko .
 
 
 
 ## ContentType
 nam1:contentTypeScheme a skos:ConceptScheme ;
-                skos:prefLabel "Content Type (local controlled list)"@en , "콘텐츠 유형 (내부 통제어휘)"@ko .
+                skos:prefLabel "Content Type controlled list)"@en , "콘텐츠 유형 통제어휘"@ko .
 
 nam1:text a rico:ContentType, skos:Concept ;
                 skos:prefLabel "text"@en , "텍스트"@ko ;
