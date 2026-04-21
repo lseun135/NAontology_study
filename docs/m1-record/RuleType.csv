@@ -1,5 +1,5 @@
 ﻿URI(prefixed name),유형(rdf:type),상위분류(skos:broader),하위분류(skos:narrower),명칭(skos:prefLabel),유사어(skos:altLabel),기술(skos:scopeNote),"비고(skos:editorialNote, dcterms:description)"
-nam1:RuleTypeScheme,skos:ConceptScheme,.,.,규칙 유형 통제어,,,rico:RuleType 값들을 관리하는 SKOS 스키마
+nam1:RuleTypeScheme,skos:ConceptScheme,.,.,규칙 유형 통제어,,,행위자(Agent)의 존재·활동·책임을 규율하는 규칙(Rule)의 유형을 기술하기 위한 개념체계
 nam1:LegalNorm,rico:RuleType | skos:Concept,.,nam1:Legislation | nam1:AdministrativeRule | nam1:NationalInstitutionRule | nam1:Treaty,법적 규범,,법률·명령·자치법규·행정규칙·기관규칙 등 법령체계 기반 규범,"LegalNorm 계층은 대한민국 헌법(제6조 제1항, 제75조, 제95조), 「법령 등 공포에 관한 법률」 제10조(법령 번호 부여 대상으로서 법률·대통령령·총리령·부령 열거), 「법제업무 운영규정」(행정규칙: 훈령·예규·고시 등)에 근거하여 구성함."
 nam1:Standard,rico:RuleType | skos:Concept,.,nam1:InternationalStandard | nam1:NationalStandard | nam1:ProfessionalStandard,표준,,국제·국가·부처·업계 등 기술/전문 표준,국가기술표준원의 표준의 영역에 따른 분류를 근거로 하위계층을 구성함.
 nam1:Policy,rico:RuleType | skos:Concept,.,,정책,,,법적 구속력의 유무와 제정 주체에 따라 구분한 로컬 통제어
