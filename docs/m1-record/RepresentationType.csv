@@ -1,0 +1,6 @@
+﻿URI(prefixed name),유형(rdf:type),상위분류(skos:broader),하위분류(skos:narrower),명칭(skos:prefLabel),유사어(skos:altLabel),기술(skos:scopeNote),"비고(skos:editorialNote, dcterms:description)"
+nam1:RepresentationTypeScheme,skos:ConceptScheme,.,.,표현 유형 통제어,.,,정보의 감각적 표현방식에 대한 최소 통제어
+nam1:Text,rico:RepresentationType | skos:Concept,,,텍스트,,,
+nam1:Image,rico:RepresentationType | skos:Concept,,,이미지,,,
+nam1:Audio,rico:RepresentationType | skos:Concept,,,오디오,,,
+nam1:Video,rico:RepresentationType | skos:Concept,,,비디오,,,
