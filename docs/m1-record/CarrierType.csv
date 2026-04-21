@@ -1,4 +1,4 @@
 ﻿URI(prefixed name),유형(rdf:type),상위분류(skos:broader),하위분류(skos:narrower),명칭(skos:prefLabel),유사어(skos:altLabel),기술(skos:scopeNote),"비고(skos:editorialNote, dcterms:description)"
-nam1:CarrierTypeScheme,skos:ConceptScheme,.,.,매체 유형 통제어,.,.,기록 자원의 사본/구현(instantiation)이 존재하는 물리적 매체의 유형을 기술하기 위한 개념체계
+nam1:CarrierTypeScheme,skos:ConceptScheme,.,.,매체 유형 통제어,.,.,사본/구현(instantiation)이 존재하는 물리적 매체의 유형을 기술하기 위한 개념체계
 nam1:DigitalFile,rico:CarrierType | skos:Concept,,,디지털파일,,,
 nam1:Paper,rico:CarrierType | skos:Concept,,,종이,,,
