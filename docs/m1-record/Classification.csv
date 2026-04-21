@@ -1,4 +1,4 @@
-﻿URI (prefixed name),유형 (rdf:type),상위분류,하위분류,명칭 (rico:name),기술 (rico:generalDescription)
+﻿URI(prefixed name),유형(rdf:type),상위분류,하위분류,명칭(rico:name),기술(rico:generalDescription)
 nam1:A,rico:RecordSet,.,A-MIN | A-BIL,국회 회의록·의안기록물,국회 대수(代數)별로 생산되는 회의록·의안기록물
 nam1:B,rico:RecordSet,.,,생산·이관기록물,연도별 국회 조직(소속기관 등) 생산 기록물
 nam1:C,rico:RecordSet,.,C-PER | C-ORG,수집기록물,"개인(의원), 단체(정당) 등으로부터 수집한 기록물"
