@@ -126,7 +126,7 @@ dcterms:subject a owl:ObjectProperty ;
 nam1:RuleTypeScheme a skos:ConceptScheme ;
     skos:hasTopConcept nam1:LegalNorm, nam1:Standard, nam1:Policy, nam1:SocialNorm ;  
     skos:prefLabel "규칙 유형 통제어"@ko, "Rule Type Controlled Vocabulary"@en ;
-    dcterms:description "rico:RuleType 값들을 관리하는 SKOS 스키마"@ko .
+    dcterms:description "행위자의 존재·활동·책임을 규율하는 규칙의 유형을 기술하기 위한 개념체계"@ko .
 
 nam1:LegalNorm a rico:RuleType, skos:Concept ;
     skos:inScheme nam1:RuleTypeScheme ;
@@ -148,13 +148,13 @@ nam1:Policy a rico:RuleType, skos:Concept ;
     skos:inScheme nam1:RuleTypeScheme ;
     skos:topConceptOf nam1:RuleTypeScheme ;
     skos:prefLabel "정책"@ko ;
-    skos:editorialNote "법적 구속력의 유무와 제정 주체에 따라 구분한 로컬 통제어휘"@ko .
+    skos:editorialNote "법적 구속력의 유무와 제정 주체에 따라 구분한 로컬 통제어"@ko .
 
 nam1:SocialNorm a rico:RuleType, skos:Concept ;
     skos:inScheme nam1:RuleTypeScheme ;
     skos:topConceptOf nam1:RuleTypeScheme ;
     skos:prefLabel "사회적 규범"@ko ;
-    skos:editorialNote "법적 구속력의 유무와 제정 주체에 따라 구분한 로컬 통제어휘"@ko .
+    skos:editorialNote "법적 구속력의 유무와 제정 주체에 따라 구분한 로컬 통제어"@ko .
 
 ### LegalNorm 하위
 nam1:Legislation a rico:RuleType, skos:Concept ;
@@ -253,13 +253,13 @@ nam1:Bill a rico:DocumentaryFormType, skos:Concept ;
 
 nam1:Law a rico:DocumentaryFormType, skos:Concept ;
     skos:inScheme nam1:DocumentaryFormTypeScheme ;
-    skos:prefLabel "법률안"@ko , "Law"@en .
+    skos:prefLabel "법률"@ko , "Law"@en .
 
 
 ## CarrierType
 nam1:CarrierTypeScheme a skos:ConceptScheme ;
     skos:prefLabel "매체 유형 통제어"@ko, "Carrier Type Vocabulary"@en ;
-    dcterms:description "리소스 구현 매체 유형의 최소 통제어"@ko ;
+    dcterms:description "기록 자원의 사본(또는 구현)이 존재하는 물리적 매체의 유형을 기술하기 위한 통제어휘"@ko ;
     dcterms:created "2025-10-23"^^xsd:date .
 
 nam1:DigitalFile a rico:CarrierType, skos:Concept ;
@@ -290,32 +290,27 @@ nam1:Recording a rico:ProductionTechniqueType, skos:Concept ;
     skos:prefLabel "녹화"@ko, "Recording"@en .
 
 
-### RepresentationTypeScheme
+### RepresentationType
 nam1:RepresentationTypeScheme a skos:ConceptScheme ;
-  skos:prefLabel "Representation Type Vocabulary"@en ;
-  skos:prefLabel "표현 유형 통제어"@ko ;
-  dcterms:description "정보의 감각적 표현방식에 대한 최소 통제어"@ko ;
-  dcterms:created "2025-10-23"^^xsd:date .
+    skos:prefLabel "표현 유형 통제어"@ko, "Representation Type Vocabulary"@en ;
+    dcterms:description "정보의 감각적 표현방식에 대한 최소 통제어"@ko ;
+    dcterms:created "2025-10-23"^^xsd:date .
 
 nam1:Text a rico:RepresentationType, skos:Concept ;
-  skos:inScheme nam1:RepresentationTypeScheme ;
-  skos:prefLabel "Text"@en ;
-  skos:prefLabel "텍스트"@ko .
+    skos:inScheme nam1:RepresentationTypeScheme ;
+    skos:prefLabel "텍스트"@ko, "Text"@en .
 
 nam1:Image a rico:RepresentationType, skos:Concept ;
-  skos:inScheme nam1:RepresentationTypeScheme ;
-  skos:prefLabel "Image"@en ;
-  skos:prefLabel "이미지"@ko .
+    skos:inScheme nam1:RepresentationTypeScheme ;
+    skos:prefLabel "이미지"@ko, "Image"@en .
 
 nam1:Audio a rico:RepresentationType, skos:Concept ;
-  skos:inScheme nam1:RepresentationTypeScheme ;
-  skos:prefLabel "Audio"@en ;
-  skos:prefLabel "오디오"@ko .
+    skos:inScheme nam1:RepresentationTypeScheme ;
+    skos:prefLabel "오디오"@ko, "Audio"@en .
 
 nam1:Video a rico:RepresentationType, skos:Concept ;
-  skos:inScheme nam1:RepresentationTypeScheme ;
-  skos:prefLabel "Video"@en ;
-  skos:prefLabel "비디오"@ko .
+    skos:inScheme nam1:RepresentationTypeScheme ;
+    skos:prefLabel "비디오"@ko, "Video"@en .
 
 
 ## DateType
@@ -329,7 +324,7 @@ nam1:singleDate a rico:DateType, skos:Concept ;
 nam1:dateRange a rico:DateType, skos:Concept ;
                 skos:prefLabel "Date Range"@en, "날짜 범위"@ko ;
                 skos:inScheme nam1:dateTypeScheme ; 
-                skos:definition "A date that represents a continuous interval with a beginning and an end."@en, "시작과 끝이 있는 연속 구간을 나타내는 날짜."@ko .
+                skos:scopeNote "A date that represents a continuous interval with a beginning and an end."@en, "시작과 끝이 있는 연속 구간을 나타내는 날짜."@ko .
 
 nam1:dateSet a rico:DateType, skos:Concept ;
                 skos:prefLabel "Date Set"@en, "날짜 집합"@ko ;
