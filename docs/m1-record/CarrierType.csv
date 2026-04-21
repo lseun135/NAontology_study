@@ -1,0 +1,4 @@
+﻿URI(prefixed name),유형(rdf:type),상위분류(skos:broader),하위분류(skos:narrower),명칭(skos:prefLabel),유사어(skos:altLabel),기술(skos:scopeNote),"비고(skos:editorialNote, dcterms:description)"
+nam1:CarrierTypeScheme,skos:ConceptScheme,.,.,매체 유형 통제어,.,.,리소스 구현 매체 유형의 최소 통제어
+nam1:DigitalFile,rico:CarrierType | skos:Concept,,,디지털파일,,,
+nam1:Paper,rico:CarrierType | skos:Concept,,,종이,,,
