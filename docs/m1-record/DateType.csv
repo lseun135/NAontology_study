@@ -1,6 +1,6 @@
 ﻿URI(prefixed name),유형(rdf:type),상위분류(skos:broader),하위분류(skos:narrower),명칭(skos:prefLabel),유사어(skos:altLabel),기술(skos:scopeNote),"비고(skos:editorialNote, dcterms:description)"
 nam1:DateTypeScheme,skos:ConceptScheme,.,.,날짜 유형,.,.,
-nam1:singleDate,rico:DateType | skos:Concept,,,단일 날짜,,특정 시점을 나타내는 하나의 날짜,
-nam1:dateRange,rico:DateType | skos:Concept,,,날짜 범위,,시작과 끝이 있는 연속 구간을 나타내는 날짜,
-nam1:dateSet,rico:DateType | skos:Concept,,,날짜 집합,,연속적이지 않은 둘 이상의 날짜로 구성된 집합,
-nam1:year,rico:DateType | skos:Concept,,,연도,,연 단위로만 특정된 날짜,
+nam1:SingleDate,rico:DateType | skos:Concept,,,단일 날짜,,특정 시점을 나타내는 하나의 날짜,
+nam1:DateRange,rico:DateType | skos:Concept,,,날짜 범위,,시작과 끝이 있는 연속 구간을 나타내는 날짜,
+nam1:DateSet,rico:DateType | skos:Concept,,,날짜 집합,,연속적이지 않은 둘 이상의 날짜로 구성된 집합,
+nam1:Year,rico:DateType | skos:Concept,,,연도,,연 단위로만 특정된 날짜,
