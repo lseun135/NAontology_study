@@ -290,49 +290,110 @@ nam1:Recording a rico:ProductionTechniqueType, skos:Concept ;
     skos:prefLabel "녹화"@ko, "Recording"@en .
 
 
-### RepresentationType
+## RepresentationType
 nam1:RepresentationTypeScheme a skos:ConceptScheme ;
         skos:prefLabel "표현 유형 통제어"@ko, "Representation Type Controlled Vocabulary"@en ;
         dcterms:description "사본·유형(instantiation)의 콘텐츠 유형을 기록하는 방식의 유형을 기술하기 위한 개념체계"@ko ;
         dcterms:created "2025-10-23"^^xsd:date .
 
-nam1:Text a rico:RepresentationType, skos:Concept ;
+### 상위 개념
+nam1:Textual a rico:RepresentationType, skos:Concept ;
         skos:inScheme nam1:RepresentationTypeScheme ;
-        skos:prefLabel "텍스트"@ko, "Text"@en .
+        skos:topConceptOf nam1:RepresentationTypeScheme ;
+        skos:prefLabel "문자 기반"@ko, "Textual"@en ;
+        skos:scopeNote "문자로 기록된 방식. 물리적 문자 기록과 전자적 문자 기록을 모두 포함"@ko .
 
-nam1:Image a rico:RepresentationType, skos:Concept ;
-        skos:inScheme nam1:RepresentationTypeScheme ;
-        skos:prefLabel "이미지"@ko, "Image"@en .
-
-nam1:Audio a rico:RepresentationType, skos:Concept ;
-        skos:inScheme nam1:RepresentationTypeScheme ;
-        skos:prefLabel "오디오"@ko, "Audio"@en .
+nam1:Visual a rico:RepresentationType, skos:Concept ;
+    skos:inScheme nam1:RepresentationTypeScheme ;
+    skos:topConceptOf nam1:RepresentationTypeScheme ;
+    skos:prefLabel "시각"@ko, "Visual"@en ;
+    skos:scopeNote "정지 이미지로 기록된 방식. 스케치·사진 등 포함. 동영상(Video)과 구분됨"@ko .
 
 nam1:Video a rico:RepresentationType, skos:Concept ;
-        skos:inScheme nam1:RepresentationTypeScheme ;
-        skos:prefLabel "비디오"@ko, "Video"@en .
+    skos:inScheme nam1:RepresentationTypeScheme ;
+    skos:topConceptOf nam1:RepresentationTypeScheme ;
+    skos:prefLabel "영상"@ko, "Video"@en ;
+    skos:scopeNote "연속 동영상으로 기록된 방식"@ko .
+
+nam1:Audio a rico:RepresentationType, skos:Concept ;
+    skos:inScheme nam1:RepresentationTypeScheme ;
+    skos:topConceptOf nam1:RepresentationTypeScheme ;
+    skos:prefLabel "음향"@ko, "Audio"@en ;
+    skos:scopeNote "음향으로 기록된 방식"@ko .
+
+### Textual 하위
+nam1:AnalogueTextual a rico:RepresentationType, skos:Concept ;
+    skos:inScheme nam1:RepresentationTypeScheme ;
+    skos:broader nam1:Textual ;
+    skos:prefLabel "아날로그 문자 기반"@ko, "Analogue Textual"@en ;
+    skos:scopeNote "필사·인쇄 등 물리적 문자 기록 방식"@ko .
+
+nam1:DigitalTextual a rico:RepresentationType, skos:Concept ;
+    skos:inScheme nam1:RepresentationTypeScheme ;
+    skos:broader nam1:Textual ;
+    skos:prefLabel "디지털 문자 기반"@ko, "Digital Textual"@en ;
+    skos:scopeNote "전자적으로 생성·저장된 문자 기록 방식. 재생 기기 필요"@ko .
+
+### Visual 하위
+nam1:AnalogueVisual a rico:RepresentationType, skos:Concept ;
+    skos:inScheme nam1:RepresentationTypeScheme ;
+    skos:broader nam1:Visual ;
+    skos:prefLabel "아날로그 시각"@ko, "Analogue Visual"@en ;
+    skos:scopeNote "스케치·인화 사진 등 물리적 정지 이미지 기록 방식"@ko .
+
+nam1:DigitalVisual a rico:RepresentationType, skos:Concept ;
+    skos:inScheme nam1:RepresentationTypeScheme ;
+    skos:broader nam1:Visual ;
+    skos:prefLabel "디지털 시각"@ko, "Digital Visual"@en ;
+    skos:scopeNote "디지털 방식으로 생성·저장된 정지 이미지 기록 방식. 재생 기기 필요"@ko .
+
+### Video 하위
+nam1:AnalogueVideo a rico:RepresentationType, skos:Concept ;
+    skos:inScheme nam1:RepresentationTypeScheme ;
+    skos:broader nam1:Video ;
+    skos:prefLabel "아날로그 영상"@ko, "Analogue Video"@en ;
+    skos:scopeNote "VHS·필름 등 아날로그 동영상 기록 방식. 재생 기기 필요"@ko .
+
+nam1:DigitalVideo a rico:RepresentationType, skos:Concept ;
+    skos:inScheme nam1:RepresentationTypeScheme ;
+    skos:broader nam1:Video ;
+    skos:prefLabel "디지털 영상"@ko, "Digital Video"@en ;
+    skos:scopeNote "디지털 방식으로 생성·저장된 동영상 기록 방식. 재생 기기 필요"@ko .
+
+### Audio 하위
+nam1:AnalogueAudio a rico:RepresentationType, skos:Concept ;
+    skos:inScheme nam1:RepresentationTypeScheme ;
+    skos:broader nam1:Audio ;
+    skos:prefLabel "아날로그 음향"@ko, "Analogue Audio"@en ;
+    skos:scopeNote "LP·카세트테이프 등 아날로그 음향 기록 방식. 재생 기기 필요"@ko .
+
+nam1:DigitalAudio a rico:RepresentationType, skos:Concept ;
+    skos:inScheme nam1:RepresentationTypeScheme ;
+    skos:broader nam1:Audio ;
+    skos:prefLabel "디지털 음향"@ko, "Digital Audio"@en ;
+    skos:scopeNote "디지털 방식으로 생성·저장된 음향 기록 방식. 재생 기기 필요"@ko .
 
 
 ## DateType
 nam1:DateTypeScheme a skos:ConceptScheme ;
         skos:prefLabel "날짜 유형 통제어"@ko, "Date Type Controlled Vocabulary"@en .
 
-nam1:singleDate a rico:DateType, skos:Concept ;
+nam1:SingleDate a rico:DateType, skos:Concept ;
         skos:prefLabel "단일 날짜"@ko, "Single Date"@en ;
         skos:inScheme nam1:DateTypeScheme ;
         skos:scopeNote "특정 시점을 나타내는 하나의 날짜"@ko .
 
-nam1:dateRange a rico:DateType, skos:Concept ;
+nam1:DateRange a rico:DateType, skos:Concept ;
         skos:prefLabel "날짜 범위"@ko, "Date Range"@en ;
         skos:inScheme nam1:DateTypeScheme ; 
         skos:scopeNote "시작과 끝이 있는 연속 구간을 나타내는 날짜"@ko .
 
-nam1:dateSet a rico:DateType, skos:Concept ;
+nam1:DateSet a rico:DateType, skos:Concept ;
         skos:prefLabel "날짜 집합"@ko, "Date Set"@en ;
         skos:inScheme nam1:DateTypeScheme ;
         skos:scopeNote "연속적이지 않은 둘 이상의 날짜로 구성된 집합"@ko .
 
-nam1:year a rico:DateType, skos:Concept ;
+nam1:Year a rico:DateType, skos:Concept ;
         skos:prefLabel "연도"@ko, "Year"@en ;
         skos:inScheme nam1:DateTypeScheme ;
         skos:scopeNote "연 단위로만 특정된 날짜"@ko .
@@ -344,8 +405,8 @@ nam1:ContentTypeScheme a skos:ConceptScheme ;
         skos:prefLabel "콘텐츠 유형 통제어"@ko, "Content Type Controlled Vocabulary"@en ;
         dcterms:description "기록(Record) 또는 기록 부분(RecordPart)의 정보가 표현되어 전달되는 형식의 유형을 기술하기 위한 개념체계"@ko .
 
-nam1:text a rico:ContentType, skos:Concept ;
-        skos:prefLabel "텍스트"@ko, "text"@en ;
+nam1:Text a rico:ContentType, skos:Concept ;
+        skos:prefLabel "텍스트"@ko, "Text"@en ;
         skos:inScheme nam1:ContentTypeScheme .
 
 
