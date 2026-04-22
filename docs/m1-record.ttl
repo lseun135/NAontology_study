@@ -423,11 +423,13 @@ nam1:RecordedSpokenWord a rico:ContentType, skos:Concept ;
 
 ## LegalStatus
 nam1:LegalStatusScheme a skos:ConceptScheme ;
-                skos:prefLabel "Legal Status Controlled Vocabulary"@en , "법적지위 통제어"@ko .
+    skos:prefLabel "법적 지위 통제어"@ko, "Legal Status Controlled Vocabulary"@en ;
+    dcterms:description "법에 의해 규정된 기록 자원 또는 행위자의 법적 지위를 기술하기 위한 개념체계"@ko .
 
-nam1:public a rico:LegalStatus, skos:Concept ;
-                skos:prefLabel "public record"@en, "공공기록"@ko ;
-                skos:inScheme nam1:LegalStatusScheme .
+nam1:PublicRecord a rico:LegalStatus, skos:Concept ;
+    skos:prefLabel "공공기록물"@ko, "Public records"@en ;
+    skos:topConceptOf nam1:LegalStatusScheme ;
+    skos:inScheme nam1:LegalStatusScheme .
 
 
 ## LanguageType
