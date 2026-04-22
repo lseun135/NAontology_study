@@ -1,0 +1,3 @@
+﻿URI(prefixed name),유형(rdf:type),상위분류(skos:broader),하위분류(skos:narrower),명칭(skos:prefLabel),유사어(skos:altLabel),기술(skos:scopeNote),"비고(skos:editorialNote, dcterms:description)"
+nam1:LanguageScheme,skos:ConceptScheme,.,.,언어 통제어,.,.,기록 자원(RecordResource)에 표현되거나 행위자(Agent)가 사용하는 자연어를 기술하기 위한 개념체계
+nam1:lang-kor,"rico:Language, skos:Concept",.,,한국어,,,
