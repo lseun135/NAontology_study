@@ -432,7 +432,7 @@ nam1:PublicRecord a rico:LegalStatus, skos:Concept ;
     skos:inScheme nam1:LegalStatusScheme .
 
 
-## LanguageType
+## Language
 nam1:LanguageScheme a skos:ConceptScheme ;
     skos:prefLabel "언어 통제어"@ko, "Language Controlled Vocabulary"@en ;
     dcterms:description "기록 자원(RecordResource)에 표현되거나 행위자(Agent)가 사용하는 자연어를 기술하기 위한 개념체계"@ko ;
