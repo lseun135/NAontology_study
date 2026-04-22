@@ -451,11 +451,14 @@ nam1:lang-kor a rico:Language, skos:Concept ;
 
 ## rico:EventType
 nam1:NAeventTypeScheme rdf:type skos:ConceptScheme ;
-        skos:prefLabel "National Assembly Event Types"@en , "국회 사건 유형 통제어"@ko .
+        skos:prefLabel "국회 사건 유형 통제어"@ko, "NationalAssembly Event Types Controlled Vocabulary"@en ;
+        skos:hasTopConcept nam1:Proceeding ;
+        dcterms:description "국회에서 발생하는 사건(Event)의 유형을 기술하기 위한 개념체계. 본 논문에선 회의에 한정."@ko
 
 nam1:Proceeding rdf:type rico:EventType , skos:Concept ;
-                skos:inScheme  nam1:NAeventTypeScheme ;
-                skos:prefLabel "회의"@ko, "Proceeding"@en .
+        skos:inScheme  nam1:NAeventTypeScheme ;
+        skos:topConceptOf nam1:NAeventTypeScheme ;
+        skos:prefLabel "회의"@ko, "Proceeding"@en .
 
 nam1:PlenarySession rdf:type rico:EventType , skos:Concept ;
                 skos:inScheme nam1:NAeventTypeScheme ;
@@ -463,32 +466,35 @@ nam1:PlenarySession rdf:type rico:EventType , skos:Concept ;
                 skos:prefLabel "본회의"@ko , "Plenary session"@en ; 
                 skos:altLabel  "국회 본회의"@ko .
 
-nam1:SubCommitteeMeeting rdf:type rico:EventType , skos:Concept ;
-                skos:inScheme nam1:NAeventTypeScheme ;
-                skos:broader  nam1:StandingCommitteeMeeting , nam1:SpecialCommitteeMeeting ;
-                skos:prefLabel "소위원회 회의"@ko , "Subcommittee meeting"@en .
-
 nam1:StandingCommitteeMeeting rdf:type rico:EventType , skos:Concept ;
-                skos:inScheme nam1:NAeventTypeScheme ;
-                skos:broader  nam1:Proceeding ;
-                skos:narrower nam1:SubCommitteeMeeting ;
-                skos:prefLabel "상임위원회 회의"@ko , "Standing committee meeting"@en .
+        skos:inScheme nam1:NAeventTypeScheme ;
+        skos:broader  nam1:Proceeding ;
+        skos:narrower nam1:StandingSubCommitteeMeeting ;
+        skos:prefLabel "상임위원회 회의"@ko , "Standing committee meeting"@en .
 
 nam1:SpecialCommitteeMeeting rdf:type rico:EventType , skos:Concept ;
                 skos:inScheme nam1:NAeventTypeScheme ;
                 skos:broader nam1:Proceeding ;
-                skos:narrower nam1:SubCommitteeMeeting ;
+                skos:narrower nam1:SpecialSubCommitteeMeeting ;
                 skos:prefLabel "특별위원회 회의"@ko , "Special committee meeting"@en .
 
+nam1:StandingSubCommitteeMeeting rdf:type rico:EventType , skos:Concept ;
+        skos:inScheme nam1:NAeventTypeScheme ; 
+        skos:broader  nam1:StandingCommitteeMeeting ;
+        skos:prefLabel "상임위-소위원회 회의"@ko , "Subcommittee meeting"@en .
 
+nam1:SpecialSubCommitteeMeeting rdf:type rico:EventType , skos:Concept ;
+        skos:inScheme nam1:NAeventTypeScheme ; 
+        skos:broader  nam1:SpecialCommitteeMeeting ;
+        skos:prefLabel "특별위-소위원회 회의"@ko , "Subcommittee meeting"@en .
 
 
 
 # National Assembly Activity Types (Phase + Action)
 nam1:NAactivityTypeScheme a skos:ConceptScheme ;
-  skos:prefLabel "National Assembly Activity Types"@en ,
-                 "국회 활동 유형"@ko ;
-  dcterms:description "국회의 활동. 본 연구에선 회의 절차(Phase/Action) 분류 스킴"@ko .
+        skos:prefLabel "국회 활동 유형 통제어"@ko, "NationalAssembly Activity Type Controlled Vocabulary"@en ;
+        skos:hasTopConcept nam1:ProcedurePhase, nam1:ProcedureAction ;
+        dcterms:description "국회의 활동(Activity). 본 연구에선 회의 절차(Phase/Action)를 기술하기 위한 개념체계. 패싯분류 방식을 바탕으로 행위(Action)와 단계(Phase)를 조합하여 활동을 분류함"@ko .
 
 ## Top concepts
 nam1:ProcedurePhase  a rico:ActivityType, skos:Concept ;
