@@ -240,7 +240,7 @@ nam1:ProfessionalStandard a rico:RuleType, skos:Concept ;
 
 ## DocumentaryFormType
 nam1:DocumentaryFormTypeScheme a skos:ConceptScheme ;
-    skos:prefLabel "기록 양식 유형 통제어"@ko , "DocumentaryFormType Controlled Vocabulary"@en ;
+    skos:prefLabel "기록 양식 유형 통제어"@ko , "Documentary Form Type Controlled Vocabulary"@en ;
     dcterms:description "기록(Record) 또는 기록 부분(RecordPart)의 외재적·내재적 요소에 따른 기록 양식 유형을 기술하기 위한 개념체계"@ko .
 
 nam1:Minutes a rico:DocumentaryFormType, skos:Concept ;
@@ -258,7 +258,7 @@ nam1:Law a rico:DocumentaryFormType, skos:Concept ;
 
 ## CarrierType
 nam1:CarrierTypeScheme a skos:ConceptScheme ;
-    skos:prefLabel "매체 유형 통제어"@ko, "CarrierType Vocabulary"@en ;
+    skos:prefLabel "매체 유형 통제어"@ko, "Carrier Type Controlled Vocabulary"@en ;
     dcterms:description "사본·구현(instantiation)이 존재하는 물리적 매체의 유형을 기술하기 위한 개념체계"@ko ;
     dcterms:created "2025-10-23"^^xsd:date .
 
@@ -273,7 +273,7 @@ nam1:Paper a rico:CarrierType, skos:Concept ;
 
 ### ProductionTechniqueType
 nam1:ProductionTechniqueTypeScheme a skos:ConceptScheme ;
-    skos:prefLabel "제작기법 유형 통제어"@ko, "ProductionTechniqueType Vocabulary"@en ;
+    skos:prefLabel "제작기법 유형 통제어"@ko, "Production Technique Type Controlled Vocabulary"@en ;
     dcterms:description "사본·구현(instantiation)에 정보를 표현하는 데 사용된 기법의 유형을 기술하기 위한 개념체계"@ko ;
     dcterms:created "2025-10-23"^^xsd:date .
 
@@ -292,88 +292,89 @@ nam1:Recording a rico:ProductionTechniqueType, skos:Concept ;
 
 ### RepresentationType
 nam1:RepresentationTypeScheme a skos:ConceptScheme ;
-    skos:prefLabel "표현 유형 통제어"@ko, "Representation Type Vocabulary"@en ;
-    dcterms:description "사본·유형(instantiation)의 콘텐츠 유형을 기록하는 방식의 유형을 기술하기 위한 개념체계"@ko ;
-    dcterms:created "2025-10-23"^^xsd:date .
+        skos:prefLabel "표현 유형 통제어"@ko, "Representation Type Controlled Vocabulary"@en ;
+        dcterms:description "사본·유형(instantiation)의 콘텐츠 유형을 기록하는 방식의 유형을 기술하기 위한 개념체계"@ko ;
+        dcterms:created "2025-10-23"^^xsd:date .
 
 nam1:Text a rico:RepresentationType, skos:Concept ;
-    skos:inScheme nam1:RepresentationTypeScheme ;
-    skos:prefLabel "텍스트"@ko, "Text"@en .
+        skos:inScheme nam1:RepresentationTypeScheme ;
+        skos:prefLabel "텍스트"@ko, "Text"@en .
 
 nam1:Image a rico:RepresentationType, skos:Concept ;
-    skos:inScheme nam1:RepresentationTypeScheme ;
-    skos:prefLabel "이미지"@ko, "Image"@en .
+        skos:inScheme nam1:RepresentationTypeScheme ;
+        skos:prefLabel "이미지"@ko, "Image"@en .
 
 nam1:Audio a rico:RepresentationType, skos:Concept ;
-    skos:inScheme nam1:RepresentationTypeScheme ;
-    skos:prefLabel "오디오"@ko, "Audio"@en .
+        skos:inScheme nam1:RepresentationTypeScheme ;
+        skos:prefLabel "오디오"@ko, "Audio"@en .
 
 nam1:Video a rico:RepresentationType, skos:Concept ;
-    skos:inScheme nam1:RepresentationTypeScheme ;
-    skos:prefLabel "비디오"@ko, "Video"@en .
+        skos:inScheme nam1:RepresentationTypeScheme ;
+        skos:prefLabel "비디오"@ko, "Video"@en .
 
 
 ## DateType
-nam1:dateTypeScheme a skos:ConceptScheme ;
-    skos:prefLabel "Date Type"@en , "날짜 유형"@ko .
+nam1:DateTypeScheme a skos:ConceptScheme ;
+        skos:prefLabel "날짜 유형 통제어"@ko, "Date Type Controlled Vocabulary"@en .
 
 nam1:singleDate a rico:DateType, skos:Concept ;
-    skos:prefLabel "Single Date"@en, "단일 날짜"@ko ;
-    skos:inScheme nam1:dateTypeScheme ;
-    skos:scopeNote "특정 시점을 나타내는 하나의 날짜."@ko .
+        skos:prefLabel "단일 날짜"@ko, "Single Date"@en ;
+        skos:inScheme nam1:DateTypeScheme ;
+        skos:scopeNote "특정 시점을 나타내는 하나의 날짜"@ko .
 
 nam1:dateRange a rico:DateType, skos:Concept ;
-    skos:prefLabel "Date Range"@en, "날짜 범위"@ko ;
-    skos:inScheme nam1:dateTypeScheme ; 
-    skos:scopeNote "시작과 끝이 있는 연속 구간을 나타내는 날짜."@ko .
+        skos:prefLabel "날짜 범위"@ko, "Date Range"@en ;
+        skos:inScheme nam1:DateTypeScheme ; 
+        skos:scopeNote "시작과 끝이 있는 연속 구간을 나타내는 날짜"@ko .
 
 nam1:dateSet a rico:DateType, skos:Concept ;
-    skos:prefLabel "Date Set"@en, "날짜 집합"@ko ;
-    skos:inScheme nam1:dateTypeScheme ;
-    skos:scopeNote "연속적이지 않은 둘 이상의 날짜로 구성된 집합."@ko .
+        skos:prefLabel "날짜 집합"@ko, "Date Set"@en ;
+        skos:inScheme nam1:DateTypeScheme ;
+        skos:scopeNote "연속적이지 않은 둘 이상의 날짜로 구성된 집합"@ko .
 
 nam1:year a rico:DateType, skos:Concept ;
-    skos:prefLabel "Year"@en, "연도"@ko ;
-    skos:inScheme nam1:dateTypeScheme ;
-    skos:scopeNote "연도 단위로만 특정된 날짜."@ko .
+        skos:prefLabel "연도"@ko, "Year"@en ;
+        skos:inScheme nam1:DateTypeScheme ;
+        skos:scopeNote "연 단위로만 특정된 날짜"@ko .
 
 
 
 ## ContentType
-nam1:contentTypeScheme a skos:ConceptScheme ;
-                skos:prefLabel "Content Type controlled list)"@en , "콘텐츠 유형 통제어휘"@ko .
+nam1:ContentTypeScheme a skos:ConceptScheme ;
+        skos:prefLabel "콘텐츠 유형 통제어"@ko, "Content Type Controlled Vocabulary"@en ;
+        dcterms:description "기록(Record) 또는 기록 부분(RecordPart)의 정보가 표현되어 전달되는 형식의 유형을 기술하기 위한 개념체계"@ko .
 
 nam1:text a rico:ContentType, skos:Concept ;
-                skos:prefLabel "text"@en , "텍스트"@ko ;
-                skos:inScheme nam1:contentTypeScheme .
+        skos:prefLabel "텍스트"@ko, "text"@en ;
+        skos:inScheme nam1:ContentTypeScheme .
 
 
 ## LegalStatus
-nam1:legalStatusScheme a skos:ConceptScheme ;
-                skos:prefLabel "Legal Status controlled list"@en , "법적지위 통제어휘"@ko .
+nam1:LegalStatusScheme a skos:ConceptScheme ;
+                skos:prefLabel "Legal Status Controlled Vocabulary"@en , "법적지위 통제어"@ko .
 
 nam1:public a rico:LegalStatus, skos:Concept ;
                 skos:prefLabel "public record"@en, "공공기록"@ko ;
-                skos:inScheme nam1:legalStatusScheme .
+                skos:inScheme nam1:LegalStatusScheme .
 
 
 ## LanguageType
-nam1:languageTypeScheme a skos:ConceptScheme ;
-                skos:prefLabel "language Type"@en , "언어 유형"@ko .
+nam1:LanguageTypeScheme a skos:ConceptScheme ;
+                skos:prefLabel "Language Type Controlled Vocabulary"@en , "언어 유형 통제어"@ko .
 
 nam1:lang-kor a rico:LanguageType, skos:Concept ;
                 skos:prefLabel "Korean"@en , "한국어"@ko ;
                 skos:notation "kor" ;
                 skos:exactMatch <http://id.loc.gov/vocabulary/iso639-2/kor> ;
-                skos:inScheme nam1:languageTypeScheme .
+                skos:inScheme nam1:LanguageTypeScheme .
 
 
 
 
 
-## rico:hasEventType
+## rico:EventType
 nam1:NAeventTypeScheme rdf:type skos:ConceptScheme ;
-        skos:prefLabel "National Assembly Event Types"@en , "국회 사건 유형"@ko .
+        skos:prefLabel "National Assembly Event Types"@en , "국회 사건 유형 통제어"@ko .
 
 nam1:Proceeding rdf:type rico:EventType , skos:Concept ;
                 skos:inScheme  nam1:NAeventTypeScheme ;
