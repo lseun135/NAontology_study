@@ -433,14 +433,17 @@ nam1:PublicRecord a rico:LegalStatus, skos:Concept ;
 
 
 ## LanguageType
-nam1:LanguageTypeScheme a skos:ConceptScheme ;
-                skos:prefLabel "Language Type Controlled Vocabulary"@en , "언어 유형 통제어"@ko .
+nam1:LanguageScheme a skos:ConceptScheme ;
+    skos:prefLabel "언어 통제어"@ko, "Language Controlled Vocabulary"@en ;
+    dcterms:description "기록 자원(RecordResource)에 표현되거나 행위자(Agent)가 사용하는 자연어를 기술하기 위한 개념체계"@ko ;
+    skos:hasTopConcept nam1:lang-kor .
 
-nam1:lang-kor a rico:LanguageType, skos:Concept ;
-                skos:prefLabel "Korean"@en , "한국어"@ko ;
-                skos:notation "kor" ;
-                skos:exactMatch <http://id.loc.gov/vocabulary/iso639-2/kor> ;
-                skos:inScheme nam1:LanguageTypeScheme .
+nam1:lang-kor a rico:Language, skos:Concept ;
+    skos:prefLabel "한국어"@ko, "Korean"@en ;
+    skos:notation "kor" ;
+    skos:topConceptOf nam1:LanguageScheme ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/iso639-2/kor> ;
+    skos:inScheme nam1:LanguageScheme .
 
 
 
