@@ -406,8 +406,19 @@ nam1:ContentTypeScheme a skos:ConceptScheme ;
         dcterms:description "기록(Record) 또는 기록 부분(RecordPart)의 정보가 표현되어 전달되는 형식의 유형을 기술하기 위한 개념체계"@ko .
 
 nam1:Text a rico:ContentType, skos:Concept ;
-        skos:prefLabel "텍스트"@ko, "Text"@en ;
-        skos:inScheme nam1:ContentTypeScheme .
+        skos:inScheme nam1:ContentTypeScheme ;
+        skos:topConceptOf nam1:ContentTypeScheme ;
+        skos:prefLabel "텍스트"@ko, "Text"@en .
+
+nam1:StillImage a rico:ContentType, skos:Concept ;
+        skos:inScheme nam1:ContentTypeScheme ;
+        skos:topConceptOf nam1:ContentTypeScheme ;
+        skos:prefLabel "정지 이미지"@ko, "Still Image"@en .
+
+nam1:RecordedSpokenWord a rico:ContentType, skos:Concept ;
+        skos:inScheme nam1:ContentTypeScheme ;
+        skos:topConceptOf nam1:ContentTypeScheme ;
+        skos:prefLabel "녹음 음성"@ko, "Recorded Spoken Word"@en .
 
 
 ## LegalStatus
