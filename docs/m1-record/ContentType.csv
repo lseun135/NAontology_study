@@ -1,5 +1,5 @@
 ﻿URI(prefixed name),유형(rdf:type),상위분류(skos:broader),하위분류(skos:narrower),명칭(skos:prefLabel),유사어(skos:altLabel),기술(skos:scopeNote),"비고(skos:editorialNote, dcterms:description)"
 nam1:ContentTypeScheme,skos:ConceptScheme,.,.,콘텐츠 유형 통제어,.,.,기록(Record) 또는 기록 부분(RecordPart)의 정보가 표현되어 전달되는 형식의 유형을 기술하기 위한 개념체계
-nam1:Text,"rico:ContentType, skos:Concept",.,,텍스트,,,
-nam1:StillImage,"rico:ContentType, skos:Concept",.,,정지 이미지,,,
-nam1:RecordedSpokenWord,"rico:ContentType, skos:Concept",.,,녹음 음성,,,
+nam1:Text,rico:ContentType | skos:Concept,.,,텍스트,,,
+nam1:StillImage,rico:ContentType | skos:Concept,.,,정지 이미지,,,
+nam1:RecordedSpokenWord,rico:ContentType | skos:Concept,.,,녹음 음성,,,
