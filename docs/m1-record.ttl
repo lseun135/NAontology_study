@@ -453,7 +453,7 @@ nam1:lang-kor a rico:Language, skos:Concept ;
 nam1:EventTypeScheme rdf:type skos:ConceptScheme ;
         skos:prefLabel "국회 사건 유형 통제어"@ko, "NationalAssembly Event Types Controlled Vocabulary"@en ;
         skos:hasTopConcept nam1:Proceeding ;
-        dcterms:description "국회에서 발생하는 사건(Event)의 유형을 기술하기 위한 개념체계. 본 논문에선 회의에 한정."@ko
+        dcterms:description "국회에서 발생하는 사건(Event)의 유형을 기술하기 위한 개념체계. 본 논문에선 회의에 한정."@ko .
 
 nam1:Proceeding rdf:type rico:EventType , skos:Concept ;
         skos:inScheme  nam1:EventTypeScheme ;
@@ -494,7 +494,7 @@ nam1:SpecialSubCommitteeMeeting rdf:type rico:EventType , skos:Concept ;
 nam1:ActivityTypeScheme a skos:ConceptScheme ;
         skos:prefLabel "국회 활동 유형 통제어"@ko, "NationalAssembly Activity Type Controlled Vocabulary"@en ;
         skos:hasTopConcept nam1:ProcedurePhase, nam1:ProcedureAction ;
-        dcterms:description "국회의 활동(Activity). 본 연구에선 회의 절차(Phase/Action)를 기술하기 위한 개념체계. 패싯분류 방식을 바탕으로 행위(Action)와 단계(Phase)를 조합하여 활동을 분류함"@ko .
+        dcterms:description "국회의 활동(Activity). 본 연구에선 회의 절차(Phase/Action)를 기술하기 위한 개념체계. 패싯분류 방식으로 행위(Action)와 단계(Phase)를 조합하여 분류함"@ko .
 
 ## Top concepts
 nam1:ProcedurePhase  a rico:ActivityType, skos:Concept ;
@@ -509,6 +509,12 @@ nam1:ProcedureAction a rico:ActivityType, skos:Concept ;
 
 
 ### Phase 계열
+nam1:InitiationPhase a rico:ActivityType, skos:Concept ;
+    skos:inScheme nam1:ActivityTypeScheme ;
+    skos:broader  nam1:ProcedurePhase ;
+    skos:prefLabel "입안 단계"@ko , "Initiation phase"@en ;
+    skos:scopeNote "법률안 발의·제출부터 소관 위원회 회부 이전까지의 단계."@ko .  
+
 nam1:CommitteePhase a rico:ActivityType, skos:Concept ;
   skos:inScheme nam1:ActivityTypeScheme ;
   skos:broader  nam1:ProcedurePhase ;
@@ -594,6 +600,16 @@ nam1:AdjournmentAction a rico:ActivityType, skos:Concept ;
   skos:notation "adjournment" ;
   rdfs:comment "회의 종료 행위로, 별도 기록물은 생성되지 않는다."@ko .
 
+
+### 입안(Action)
+nam1:BillSubmissionAction a rico:ActivityType, skos:Concept ;
+        skos:inScheme nam1:ActivityTypeScheme ;
+        skos:broader  nam1:ProcedureAction , nam1:InitiationPhase ;
+        skos:prefLabel "법안 발의·제출"@ko , "Bill submission"@en ;
+        skos:notation "init_bill_submission" ;
+        rdfs:comment "의원 발의(국회법 제79조), 정부 제출, 위원회안 제출을 포함. 제안이유서·비용추계서 등 의안 제출 문서가 생성된다."@ko .
+
+
 ### 위원회(Action)
 nam1:CommitteeReferralAction a rico:ActivityType, skos:Concept ;
   skos:inScheme nam1:ActivityTypeScheme ;
@@ -608,6 +624,12 @@ nam1:CommitteeAgendaPlacementAction a rico:ActivityType, skos:Concept ;
   skos:prefLabel "상임위 상정"@ko , "Committee agenda placement"@en ;
   skos:notation "committee_agenda_placement" ;
   rdfs:comment "의사 행위로서 별도 기록물은 생성되지 않는다."@ko .
+
+nam1:LegislativeNoticeAction  a rico:ActivityType, skos:Concept ;
+        skos:inScheme nam1:ActivityTypeScheme ;
+        skos:broader  nam1:ProcedureAction , nam1:CommitteePhase ;
+        skos:prefLabel "입법예고"@ko , "Legislative notice"@en ;
+        skos:notation "committee_legislative_notice" ; # 국회법 제82조의2
 
 nam1:CommitteeReviewAction a rico:ActivityType, skos:Concept ;
   skos:inScheme nam1:ActivityTypeScheme ;
@@ -626,7 +648,6 @@ nam1:LJCReferralAction a rico:ActivityType, skos:Concept ;
   skos:altLabel  "체계·자구심사 회부"@ko ;
   skos:notation  "ljc_referral" ;
   rdfs:comment "의안을 법제사법위원회로 회부하는 행위. 일반적 회부(CommitteeReferralAction)의 특수화이며, 별도 회의(Event) 없이도 발생할 수 있다."@ko .
-
 
 nam1:LJCAgendaPlacementAction a rico:ActivityType, skos:Concept ;
   skos:inScheme nam1:ActivityTypeScheme ;
