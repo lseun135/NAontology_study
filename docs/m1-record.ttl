@@ -124,176 +124,176 @@ dcterms:subject a owl:ObjectProperty ;
 # individuals
 ## RuleType
 nam1:RuleTypeScheme a skos:ConceptScheme ;
-    skos:hasTopConcept nam1:LegalNorm, nam1:Standard, nam1:Policy, nam1:SocialNorm ;  
-    skos:prefLabel "규칙 유형 통제어"@ko, "Rule Type Controlled Vocabulary"@en ;
-    dcterms:description "행위자의 존재·활동·책임을 규율하는 규칙의 유형을 기술하기 위한 개념체계"@ko .
+        skos:hasTopConcept nam1:LegalNorm, nam1:Standard, nam1:Policy, nam1:SocialNorm ;  
+        skos:prefLabel "규칙 유형 통제어"@ko, "Rule Type Controlled Vocabulary"@en ;
+        dcterms:description "행위자의 존재·활동·책임을 규율하는 규칙의 유형을 기술하기 위한 개념체계"@ko .
 
 nam1:LegalNorm a rico:RuleType, skos:Concept ;
-    skos:inScheme nam1:RuleTypeScheme ;
-    skos:topConceptOf nam1:RuleTypeScheme ;
-    skos:prefLabel "법적 규범"@ko ;
-    skos:scopeNote "법률·명령·자치법규·행정규칙·기관규칙 등을 포함하는 법령체계 기반 규범"@ko ;
-    skos:editorialNote "LegalNorm 계층은 대한민국 헌법(제6조 제1항, 제75조, 제95조), 
+        skos:inScheme nam1:RuleTypeScheme ;
+        skos:topConceptOf nam1:RuleTypeScheme ;
+        skos:prefLabel "법적 규범"@ko ;
+        skos:scopeNote "법률·명령·자치법규·행정규칙·기관규칙 등을 포함하는 법령체계 기반 규범"@ko ;
+        skos:editorialNote "LegalNorm 계층은 대한민국 헌법(제6조 제1항, 제75조, 제95조), 
 「법령 등 공포에 관한 법률」 제10조(법령 번호 부여 대상으로서 법률·대통령령·총리령·부령 열거), 
 「법제업무 운영규정」(행정규칙: 훈령·예규·고시 등)에 근거하여 구성함."@ko .
 
 nam1:Standard a rico:RuleType, skos:Concept ;
-    skos:inScheme nam1:RuleTypeScheme ;
-    skos:topConceptOf nam1:RuleTypeScheme ;
-    skos:prefLabel "표준"@ko ;
-    skos:scopeNote "국제·국가·부처·업계 등 기술/전문 표준"@ko ;
-    skos:editorialNote "국가기술표준원의 표준의 영역에 따른 분류를 근거로 하위계층을 구성함."@ko .
+        skos:inScheme nam1:RuleTypeScheme ;
+        skos:topConceptOf nam1:RuleTypeScheme ;
+        skos:prefLabel "표준"@ko ;
+        skos:scopeNote "국제·국가·부처·업계 등 기술/전문 표준"@ko ;
+        skos:editorialNote "국가기술표준원의 표준의 영역에 따른 분류를 근거로 하위계층을 구성함."@ko .
 
 nam1:Policy a rico:RuleType, skos:Concept ;
-    skos:inScheme nam1:RuleTypeScheme ;
-    skos:topConceptOf nam1:RuleTypeScheme ;
-    skos:prefLabel "정책"@ko ;
-    skos:editorialNote "법적 구속력의 유무와 제정 주체에 따라 구분한 로컬 통제어"@ko .
+        skos:inScheme nam1:RuleTypeScheme ;
+        skos:topConceptOf nam1:RuleTypeScheme ;
+        skos:prefLabel "정책"@ko ;
+        skos:editorialNote "법적 구속력의 유무와 제정 주체에 따라 구분한 로컬 통제어."@ko .
 
 nam1:SocialNorm a rico:RuleType, skos:Concept ;
-    skos:inScheme nam1:RuleTypeScheme ;
-    skos:topConceptOf nam1:RuleTypeScheme ;
-    skos:prefLabel "사회적 규범"@ko ;
-    skos:editorialNote "법적 구속력의 유무와 제정 주체에 따라 구분한 로컬 통제어"@ko .
+        skos:inScheme nam1:RuleTypeScheme ;
+        skos:topConceptOf nam1:RuleTypeScheme ;
+        skos:prefLabel "사회적 규범"@ko ;
+        skos:editorialNote "법적 구속력의 유무와 제정 주체에 따라 구분한 로컬 통제어."@ko .
 
 ### LegalNorm 하위
 nam1:Legislation a rico:RuleType, skos:Concept ;
-    skos:inScheme nam1:RuleTypeScheme ;
-    skos:broader nam1:LegalNorm ;
-    skos:prefLabel "법령"@ko .
+        skos:inScheme nam1:RuleTypeScheme ;
+        skos:broader nam1:LegalNorm ;
+        skos:prefLabel "법령"@ko .
 
 nam1:AdministrativeRule a rico:RuleType, skos:Concept ;
-    skos:inScheme nam1:RuleTypeScheme ;
-    skos:broader nam1:LegalNorm ;
-    skos:altLabel "행정규칙"@ko ;
-    skos:prefLabel "행정규칙(훈령·예규·고시·공고·지시·규정 등)"@ko .
+        skos:inScheme nam1:RuleTypeScheme ;
+        skos:broader nam1:LegalNorm ;
+        skos:altLabel "행정규칙"@ko ;
+        skos:prefLabel "행정규칙(훈령·예규·고시·공고·지시·규정 등)"@ko .
 
 nam1:NationalInstitutionRule a rico:RuleType, skos:Concept ;
-    skos:inScheme nam1:RuleTypeScheme ;
-    skos:broader nam1:LegalNorm ;
-    skos:prefLabel "국가기관 규칙(국회규칙 등)"@ko .
+        skos:inScheme nam1:RuleTypeScheme ;
+        skos:broader nam1:LegalNorm ;
+        skos:prefLabel "국가기관 규칙(국회규칙 등)"@ko .
 
 nam1:Treaty a rico:RuleType, skos:Concept ;
-    skos:inScheme nam1:RuleTypeScheme ;
-    skos:broader nam1:LegalNorm ;
-    skos:editorialNote "헌법 제6조 제1항을 근거로 구성함."@ko ;
-    skos:prefLabel "조약"@ko .
+        skos:inScheme nam1:RuleTypeScheme ;
+        skos:broader nam1:LegalNorm ;
+        skos:editorialNote "헌법 제6조 제1항을 근거로 구성함."@ko ;
+        skos:prefLabel "조약"@ko .
 
 ### 법령 하위 세분
 nam1:Constitution a rico:RuleType, skos:Concept ;
-    skos:inScheme nam1:RuleTypeScheme ;
-    skos:broader nam1:Legislation ;
-    skos:prefLabel "헌법"@ko .
+        skos:inScheme nam1:RuleTypeScheme ;
+        skos:broader nam1:Legislation ;
+        skos:prefLabel "헌법"@ko .
 
 nam1:Act a rico:RuleType, skos:Concept ;
-    skos:inScheme nam1:RuleTypeScheme ;
-    skos:broader nam1:Legislation ;
-    skos:prefLabel "법률"@ko .
+        skos:inScheme nam1:RuleTypeScheme ;
+        skos:broader nam1:Legislation ;
+        skos:prefLabel "법률"@ko .
 
 nam1:SubordinateLegislation a rico:RuleType, skos:Concept ;
-    skos:inScheme nam1:RuleTypeScheme ;
-    skos:broader nam1:Legislation ;
-    skos:prefLabel "하위법령(시행령·시행규칙 등)"@ko .
+        skos:inScheme nam1:RuleTypeScheme ;
+        skos:broader nam1:Legislation ;
+        skos:prefLabel "하위법령(시행령·시행규칙 등)"@ko .
 
 nam1:PresidentialDecree a rico:RuleType, skos:Concept ;
-    skos:inScheme nam1:RuleTypeScheme ;
-    skos:broader nam1:SubordinateLegislation ;
-    skos:prefLabel "대통령령(시행령)"@ko ;
-    skos:altLabel "시행령"@ko, "대통령령"@ko .
+        skos:inScheme nam1:RuleTypeScheme ;
+        skos:broader nam1:SubordinateLegislation ;
+        skos:prefLabel "대통령령(시행령)"@ko ;
+        skos:altLabel "시행령"@ko, "대통령령"@ko .
 
 nam1:PrimeMinisterialOrdinance a rico:RuleType, skos:Concept ;
-    skos:inScheme nam1:RuleTypeScheme ;
-    skos:broader nam1:SubordinateLegislation ;
-    skos:prefLabel "총리령(시행규칙)"@ko ;
-    skos:altLabel "시행규칙"@ko, "총리령"@ko ;
-    skos:scopeNote "동일 표기 ‘시행규칙’이 부령과 중복될 수 있어 발령주체(총리/각 부 장관)로 구분"@ko .
+        skos:inScheme nam1:RuleTypeScheme ;
+        skos:broader nam1:SubordinateLegislation ;
+        skos:prefLabel "총리령(시행규칙)"@ko ;
+        skos:altLabel "시행규칙"@ko, "총리령"@ko ;
+        skos:scopeNote "동일 표기 ‘시행규칙’이 부령과 중복될 수 있어 발령주체(총리/각 부 장관)로 구분."@ko .
 
 nam1:MinisterialOrdinance a rico:RuleType, skos:Concept ;
-    skos:inScheme nam1:RuleTypeScheme ;
-    skos:broader nam1:SubordinateLegislation ;
-    skos:prefLabel "부령(시행규칙)"@ko ;
-    skos:altLabel "시행규칙"@ko, "부령"@ko ;
-    skos:scopeNote "동일 표기 ‘시행규칙’이 총리령과 중복될 수 있어 발령주체(각 부 장관)로 구분"@ko .
+        skos:inScheme nam1:RuleTypeScheme ;
+        skos:broader nam1:SubordinateLegislation ;
+        skos:prefLabel "부령(시행규칙)"@ko ;
+        skos:altLabel "시행규칙"@ko, "부령"@ko ;
+        skos:scopeNote "동일 표기 ‘시행규칙’이 총리령과 중복될 수 있어 발령주체(총리/각 부 장관)로 구분."@ko .
 
 ### 표준(Standard) 하위
 nam1:InternationalStandard a rico:RuleType, skos:Concept ;
-    skos:inScheme nam1:RuleTypeScheme ;
-    skos:broader nam1:Standard ;
-    skos:prefLabel "국제표준"@ko ;
-    skos:altLabel "ISO 표준"@ko, "국제표준화기구 표준"@ko ;
-    skos:scopeNote "ISO(국제표준화기구)·IEC·ITU 등 국제 협의체가 제정한 비구속적 합의 표준. 각국이 자국 표준으로 채택할 수 있음 (「국가표준기본법」 제3조 제2호)"@ko .
+        skos:inScheme nam1:RuleTypeScheme ;
+        skos:broader nam1:Standard ;
+        skos:prefLabel "국제표준"@ko ;
+        skos:altLabel "ISO 표준"@ko, "국제표준화기구 표준"@ko ;
+        skos:scopeNote "ISO(국제표준화기구)·IEC·ITU 등 국제 협의체가 제정한 비구속적 합의 표준. 각국이 자국 표준으로 채택할 수 있음 (「국가표준기본법」 제3조 제2호)"@ko .
 
 nam1:NationalStandard a rico:RuleType, skos:Concept ;
-    skos:inScheme nam1:RuleTypeScheme ;
-    skos:broader nam1:Standard ;
-    skos:prefLabel "국가표준"@ko ;
-    skos:scopeNote "국가·정부·공공기관 등 법적 관할권을 가진 기관이 제정한 공식 표준(예: KS, JIS, FIPS 등)"@ko .
+        skos:inScheme nam1:RuleTypeScheme ;
+        skos:broader nam1:Standard ;
+        skos:prefLabel "국가표준"@ko ;
+        skos:scopeNote "국가·정부·공공기관 등 법적 관할권을 가진 기관이 제정한 공식 표준(예: KS, JIS, FIPS 등)"@ko .
 
 nam1:ProfessionalStandard a rico:RuleType, skos:Concept ;
-    skos:inScheme nam1:RuleTypeScheme ;
-    skos:broader nam1:Standard ;
-    skos:prefLabel "전문표준"@ko ;
-    skos:scopeNote "전문 단체나 학회·산업협회 등에서 합의로 제정한 자율적 표준(예: IEEE, W3C, IETF 등)"@ko .
+        skos:inScheme nam1:RuleTypeScheme ;
+        skos:broader nam1:Standard ;
+        skos:prefLabel "전문표준"@ko ;
+        skos:scopeNote "전문 단체나 학회·산업협회 등에서 합의로 제정한 자율적 표준(예: IEEE, W3C, IETF 등)"@ko .
 
 
 
 
 ## DocumentaryFormType
 nam1:DocumentaryFormTypeScheme a skos:ConceptScheme ;
-    skos:prefLabel "기록 양식 유형 통제어"@ko , "Documentary Form Type Controlled Vocabulary"@en ;
-    dcterms:description "기록(Record) 또는 기록 부분(RecordPart)의 외재적·내재적 요소에 따른 기록 양식 유형을 기술하기 위한 개념체계"@ko .
+        skos:prefLabel "기록 양식 유형 통제어"@ko , "Documentary Form Type Controlled Vocabulary"@en ;
+        dcterms:description "기록(Record) 또는 기록 부분(RecordPart)의 외재적·내재적 요소에 따른 기록 양식 유형을 기술하기 위한 개념체계"@ko .
 
 nam1:Minutes a rico:DocumentaryFormType, skos:Concept ;
-    skos:inScheme nam1:DocumentaryFormTypeScheme ;
-    skos:prefLabel "회의록"@ko , "Minutes"@en .
+        skos:inScheme nam1:DocumentaryFormTypeScheme ;
+        skos:prefLabel "회의록"@ko , "Minutes"@en .
 
 nam1:Bill a rico:DocumentaryFormType, skos:Concept ;
-    skos:inScheme nam1:DocumentaryFormTypeScheme ;
-    skos:prefLabel "의안"@ko , "Bill"@en .
+        skos:inScheme nam1:DocumentaryFormTypeScheme ;
+        skos:prefLabel "의안"@ko , "Bill"@en .
 
 nam1:Law a rico:DocumentaryFormType, skos:Concept ;
-    skos:inScheme nam1:DocumentaryFormTypeScheme ;
-    skos:prefLabel "법률"@ko , "Law"@en .
+        skos:inScheme nam1:DocumentaryFormTypeScheme ;
+        skos:prefLabel "법률"@ko , "Law"@en .
 
 
 ## CarrierType
 nam1:CarrierTypeScheme a skos:ConceptScheme ;
-    skos:prefLabel "매체 유형 통제어"@ko, "Carrier Type Controlled Vocabulary"@en ;
-    dcterms:description "사본·구현(instantiation)이 존재하는 물리적 매체의 유형을 기술하기 위한 개념체계"@ko ;
-    dcterms:created "2025-10-23"^^xsd:date .
+        skos:prefLabel "매체 유형 통제어"@ko, "Carrier Type Controlled Vocabulary"@en ;
+        dcterms:description "사본·구현(instantiation)이 존재하는 물리적 매체의 유형을 기술하기 위한 개념체계"@ko ;
+        dcterms:created "2025-10-23"^^xsd:date .
 
 nam1:DigitalFile a rico:CarrierType, skos:Concept ;
-    skos:inScheme nam1:CarrierTypeScheme ;
-    skos:prefLabel "디지털파일"@ko, "Digital File"@en .
+        skos:inScheme nam1:CarrierTypeScheme ;
+        skos:prefLabel "디지털파일"@ko, "Digital file"@en .
 
 nam1:Paper a rico:CarrierType, skos:Concept ;
-    skos:inScheme nam1:CarrierTypeScheme ;
-    skos:prefLabel "종이"@ko, "Paper"@en .
+        skos:inScheme nam1:CarrierTypeScheme ;
+        skos:prefLabel "종이"@ko, "Paper"@en .
 
 
 ### ProductionTechniqueType
 nam1:ProductionTechniqueTypeScheme a skos:ConceptScheme ;
-    skos:prefLabel "제작기법 유형 통제어"@ko, "Production Technique Type Controlled Vocabulary"@en ;
-    dcterms:description "사본·구현(instantiation)에 정보를 표현하는 데 사용된 기법의 유형을 기술하기 위한 개념체계"@ko ;
-    dcterms:created "2025-10-23"^^xsd:date .
+        skos:prefLabel "제작기법 유형 통제어"@ko, "Production Technique Type Controlled Vocabulary"@en ;
+        dcterms:description "사본·구현(instantiation)에 정보를 표현하는 데 사용된 기법의 유형을 기술하기 위한 개념체계"@ko ;
+        dcterms:created "2025-10-23"^^xsd:date .
 
 nam1:Printing a rico:ProductionTechniqueType, skos:Concept ;
-    skos:inScheme nam1:ProductionTechniqueTypeScheme ;
-    skos:prefLabel "인쇄"@ko, "Printing"@en .
+        skos:inScheme nam1:ProductionTechniqueTypeScheme ;
+        skos:prefLabel "인쇄"@ko, "Printing"@en .
 
 nam1:DigitalCreation a rico:ProductionTechniqueType, skos:Concept ;
-    skos:inScheme nam1:ProductionTechniqueTypeScheme ;
-    skos:prefLabel "전자적 생성"@ko, "Digital creation"@en .
+        skos:inScheme nam1:ProductionTechniqueTypeScheme ;
+        skos:prefLabel "전자적 생성"@ko, "Digital creation"@en .
 
 nam1:Recording a rico:ProductionTechniqueType, skos:Concept ;
-    skos:inScheme nam1:ProductionTechniqueTypeScheme ;
-    skos:prefLabel "녹화"@ko, "Recording"@en .
+        skos:inScheme nam1:ProductionTechniqueTypeScheme ;
+        skos:prefLabel "녹화"@ko, "Recording"@en .
 
 
 ## RepresentationType
 nam1:RepresentationTypeScheme a skos:ConceptScheme ;
         skos:prefLabel "표현 유형 통제어"@ko, "Representation Type Controlled Vocabulary"@en ;
-        dcterms:description "사본·유형(instantiation)의 콘텐츠 유형을 기록하는 방식의 유형을 기술하기 위한 개념체계"@ko ;
+        dcterms:description "사본·유형(instantiation)의 콘텐츠 유형을 기록하는 방식의 유형을 기술하기 위한 개념체계."@ko ;
         dcterms:created "2025-10-23"^^xsd:date .
 
 ### 상위 개념
@@ -301,77 +301,77 @@ nam1:Textual a rico:RepresentationType, skos:Concept ;
         skos:inScheme nam1:RepresentationTypeScheme ;
         skos:topConceptOf nam1:RepresentationTypeScheme ;
         skos:prefLabel "문자 기반"@ko, "Textual"@en ;
-        skos:scopeNote "문자로 기록된 방식. 물리적 문자 기록과 전자적 문자 기록을 모두 포함"@ko .
+        skos:scopeNote "문자로 기록된 방식. 물리적 문자 기록과 전자적 문자 기록을 모두 포함."@ko .
 
 nam1:Visual a rico:RepresentationType, skos:Concept ;
-    skos:inScheme nam1:RepresentationTypeScheme ;
-    skos:topConceptOf nam1:RepresentationTypeScheme ;
-    skos:prefLabel "시각"@ko, "Visual"@en ;
-    skos:scopeNote "정지 이미지로 기록된 방식. 스케치·사진 등 포함. 동영상(Video)과 구분됨"@ko .
+        skos:inScheme nam1:RepresentationTypeScheme ;
+        skos:topConceptOf nam1:RepresentationTypeScheme ;
+        skos:prefLabel "시각"@ko, "Visual"@en ;
+        skos:scopeNote "정지 이미지로 기록된 방식. 스케치·사진 등 포함. 동영상(Video)과 구분됨."@ko .
 
 nam1:Video a rico:RepresentationType, skos:Concept ;
-    skos:inScheme nam1:RepresentationTypeScheme ;
-    skos:topConceptOf nam1:RepresentationTypeScheme ;
-    skos:prefLabel "영상"@ko, "Video"@en ;
-    skos:scopeNote "연속 동영상으로 기록된 방식"@ko .
+        skos:inScheme nam1:RepresentationTypeScheme ;
+        skos:topConceptOf nam1:RepresentationTypeScheme ;
+        skos:prefLabel "영상"@ko, "Video"@en ;
+        skos:scopeNote "연속 동영상으로 기록된 방식."@ko .
 
 nam1:Audio a rico:RepresentationType, skos:Concept ;
-    skos:inScheme nam1:RepresentationTypeScheme ;
-    skos:topConceptOf nam1:RepresentationTypeScheme ;
-    skos:prefLabel "음향"@ko, "Audio"@en ;
-    skos:scopeNote "음향으로 기록된 방식"@ko .
+        skos:inScheme nam1:RepresentationTypeScheme ;
+        skos:topConceptOf nam1:RepresentationTypeScheme ;
+        skos:prefLabel "음향"@ko, "Audio"@en ;
+        skos:scopeNote "음향으로 기록된 방식."@ko .
 
 ### Textual 하위
 nam1:AnalogueTextual a rico:RepresentationType, skos:Concept ;
-    skos:inScheme nam1:RepresentationTypeScheme ;
-    skos:broader nam1:Textual ;
-    skos:prefLabel "아날로그 문자 기반"@ko, "Analogue Textual"@en ;
-    skos:scopeNote "필사·인쇄 등 물리적 문자 기록 방식"@ko .
+        skos:inScheme nam1:RepresentationTypeScheme ;
+        skos:broader nam1:Textual ;
+        skos:prefLabel "아날로그 문자 기반"@ko, "Analogue textual"@en ;
+        skos:scopeNote "필사·인쇄 등 물리적 문자 기록 방식."@ko .
 
 nam1:DigitalTextual a rico:RepresentationType, skos:Concept ;
-    skos:inScheme nam1:RepresentationTypeScheme ;
-    skos:broader nam1:Textual ;
-    skos:prefLabel "디지털 문자 기반"@ko, "Digital Textual"@en ;
-    skos:scopeNote "전자적으로 생성·저장된 문자 기록 방식. 재생 기기 필요"@ko .
+        skos:inScheme nam1:RepresentationTypeScheme ;
+        skos:broader nam1:Textual ;
+        skos:prefLabel "디지털 문자 기반"@ko, "Digital textual"@en ;
+        skos:scopeNote "전자적으로 생성·저장된 문자 기록 방식. 재생 기기 필요."@ko .
 
 ### Visual 하위
 nam1:AnalogueVisual a rico:RepresentationType, skos:Concept ;
-    skos:inScheme nam1:RepresentationTypeScheme ;
-    skos:broader nam1:Visual ;
-    skos:prefLabel "아날로그 시각"@ko, "Analogue Visual"@en ;
-    skos:scopeNote "스케치·인화 사진 등 물리적 정지 이미지 기록 방식"@ko .
+        skos:inScheme nam1:RepresentationTypeScheme ;
+        skos:broader nam1:Visual ;
+        skos:prefLabel "아날로그 시각"@ko, "Analogue visual"@en ;
+        skos:scopeNote "스케치·인화 사진 등 물리적 정지 이미지 기록 방식."@ko .
 
 nam1:DigitalVisual a rico:RepresentationType, skos:Concept ;
-    skos:inScheme nam1:RepresentationTypeScheme ;
-    skos:broader nam1:Visual ;
-    skos:prefLabel "디지털 시각"@ko, "Digital Visual"@en ;
-    skos:scopeNote "디지털 방식으로 생성·저장된 정지 이미지 기록 방식. 재생 기기 필요"@ko .
+        skos:inScheme nam1:RepresentationTypeScheme ;
+        skos:broader nam1:Visual ;
+        skos:prefLabel "디지털 시각"@ko, "Digital visual"@en ;
+        skos:scopeNote "디지털 방식으로 생성·저장된 정지 이미지 기록 방식. 재생 기기 필요."@ko .
 
 ### Video 하위
 nam1:AnalogueVideo a rico:RepresentationType, skos:Concept ;
-    skos:inScheme nam1:RepresentationTypeScheme ;
-    skos:broader nam1:Video ;
-    skos:prefLabel "아날로그 영상"@ko, "Analogue Video"@en ;
-    skos:scopeNote "VHS·필름 등 아날로그 동영상 기록 방식. 재생 기기 필요"@ko .
+        skos:inScheme nam1:RepresentationTypeScheme ;
+        skos:broader nam1:Video ;
+        skos:prefLabel "아날로그 영상"@ko, "Analogue video"@en ;
+        skos:scopeNote "VHS·필름 등 아날로그 동영상 기록 방식. 재생 기기 필요."@ko .
 
 nam1:DigitalVideo a rico:RepresentationType, skos:Concept ;
-    skos:inScheme nam1:RepresentationTypeScheme ;
-    skos:broader nam1:Video ;
-    skos:prefLabel "디지털 영상"@ko, "Digital Video"@en ;
-    skos:scopeNote "디지털 방식으로 생성·저장된 동영상 기록 방식. 재생 기기 필요"@ko .
+        skos:inScheme nam1:RepresentationTypeScheme ;
+        skos:broader nam1:Video ;
+        skos:prefLabel "디지털 영상"@ko, "Digital video"@en ;
+        skos:scopeNote "디지털 방식으로 생성·저장된 동영상 기록 방식. 재생 기기 필요."@ko .
 
 ### Audio 하위
 nam1:AnalogueAudio a rico:RepresentationType, skos:Concept ;
-    skos:inScheme nam1:RepresentationTypeScheme ;
-    skos:broader nam1:Audio ;
-    skos:prefLabel "아날로그 음향"@ko, "Analogue Audio"@en ;
-    skos:scopeNote "LP·카세트테이프 등 아날로그 음향 기록 방식. 재생 기기 필요"@ko .
+        skos:inScheme nam1:RepresentationTypeScheme ;
+        skos:broader nam1:Audio ;
+        skos:prefLabel "아날로그 음향"@ko, "Analogue audio"@en ;
+        skos:scopeNote "LP·카세트테이프 등 아날로그 음향 기록 방식. 재생 기기 필요."@ko .
 
 nam1:DigitalAudio a rico:RepresentationType, skos:Concept ;
-    skos:inScheme nam1:RepresentationTypeScheme ;
-    skos:broader nam1:Audio ;
-    skos:prefLabel "디지털 음향"@ko, "Digital Audio"@en ;
-    skos:scopeNote "디지털 방식으로 생성·저장된 음향 기록 방식. 재생 기기 필요"@ko .
+        skos:inScheme nam1:RepresentationTypeScheme ;
+        skos:broader nam1:Audio ;
+        skos:prefLabel "디지털 음향"@ko, "Digital audio"@en ;
+        skos:scopeNote "디지털 방식으로 생성·저장된 음향 기록 방식. 재생 기기 필요."@ko .
 
 
 ## DateType
@@ -379,24 +379,24 @@ nam1:DateTypeScheme a skos:ConceptScheme ;
         skos:prefLabel "날짜 유형 통제어"@ko, "Date Type Controlled Vocabulary"@en .
 
 nam1:SingleDate a rico:DateType, skos:Concept ;
-        skos:prefLabel "단일 날짜"@ko, "Single Date"@en ;
+        skos:prefLabel "단일 날짜"@ko, "Single date"@en ;
         skos:inScheme nam1:DateTypeScheme ;
-        skos:scopeNote "특정 시점을 나타내는 하나의 날짜"@ko .
+        skos:scopeNote "특정 시점을 나타내는 하나의 날짜."@ko .
 
 nam1:DateRange a rico:DateType, skos:Concept ;
-        skos:prefLabel "날짜 범위"@ko, "Date Range"@en ;
+        skos:prefLabel "날짜 범위"@ko, "Date range"@en ;
         skos:inScheme nam1:DateTypeScheme ; 
-        skos:scopeNote "시작과 끝이 있는 연속 구간을 나타내는 날짜"@ko .
+        skos:scopeNote "시작과 끝이 있는 연속 구간을 나타내는 날짜."@ko .
 
 nam1:DateSet a rico:DateType, skos:Concept ;
-        skos:prefLabel "날짜 집합"@ko, "Date Set"@en ;
+        skos:prefLabel "날짜 집합"@ko, "Date set"@en ;
         skos:inScheme nam1:DateTypeScheme ;
-        skos:scopeNote "연속적이지 않은 둘 이상의 날짜로 구성된 집합"@ko .
+        skos:scopeNote "연속적이지 않은 둘 이상의 날짜로 구성된 집합."@ko .
 
 nam1:Year a rico:DateType, skos:Concept ;
         skos:prefLabel "연도"@ko, "Year"@en ;
         skos:inScheme nam1:DateTypeScheme ;
-        skos:scopeNote "연 단위로만 특정된 날짜"@ko .
+        skos:scopeNote "연 단위로만 특정된 날짜."@ko .
 
 
 
@@ -413,12 +413,12 @@ nam1:Text a rico:ContentType, skos:Concept ;
 nam1:StillImage a rico:ContentType, skos:Concept ;
         skos:inScheme nam1:ContentTypeScheme ;
         skos:topConceptOf nam1:ContentTypeScheme ;
-        skos:prefLabel "정지 이미지"@ko, "Still Image"@en .
+        skos:prefLabel "정지 이미지"@ko, "Still image"@en .
 
 nam1:RecordedSpokenWord a rico:ContentType, skos:Concept ;
         skos:inScheme nam1:ContentTypeScheme ;
         skos:topConceptOf nam1:ContentTypeScheme ;
-        skos:prefLabel "녹음 음성"@ko, "Recorded Spoken Word"@en .
+        skos:prefLabel "녹음 음성"@ko, "Recorded spoken word"@en .
 
 
 ## LegalStatus
@@ -427,23 +427,23 @@ nam1:LegalStatusScheme a skos:ConceptScheme ;
     dcterms:description "법에 의해 규정된 기록 자원 또는 행위자의 법적 지위를 기술하기 위한 개념체계"@ko .
 
 nam1:PublicRecord a rico:LegalStatus, skos:Concept ;
-    skos:prefLabel "공공기록물"@ko, "Public records"@en ;
-    skos:topConceptOf nam1:LegalStatusScheme ;
-    skos:inScheme nam1:LegalStatusScheme .
+        skos:prefLabel "공공기록물"@ko, "Public records"@en ;
+        skos:topConceptOf nam1:LegalStatusScheme ;
+        skos:inScheme nam1:LegalStatusScheme .
 
 
 ## Language
 nam1:LanguageScheme a skos:ConceptScheme ;
-    skos:prefLabel "언어 통제어"@ko, "Language Controlled Vocabulary"@en ;
-    dcterms:description "기록 자원(RecordResource)에 표현되거나 행위자(Agent)가 사용하는 자연어를 기술하기 위한 개념체계"@ko ;
-    skos:hasTopConcept nam1:lang-kor .
+        skos:prefLabel "언어 통제어"@ko, "Language Controlled Vocabulary"@en ;
+        dcterms:description "기록 자원(RecordResource)에 표현되거나 행위자(Agent)가 사용하는 자연어를 기술하기 위한 개념체계"@ko ;
+        skos:hasTopConcept nam1:lang-kor .
 
 nam1:lang-kor a rico:Language, skos:Concept ;
-    skos:prefLabel "한국어"@ko, "Korean"@en ;
-    skos:notation "kor" ;
-    skos:topConceptOf nam1:LanguageScheme ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/iso639-2/kor> ;
-    skos:inScheme nam1:LanguageScheme .
+        skos:prefLabel "한국어"@ko, "Korean"@en ;
+        skos:notation "kor" ;
+        skos:topConceptOf nam1:LanguageScheme ;
+        skos:exactMatch <http://id.loc.gov/vocabulary/iso639-2/kor> ;
+        skos:inScheme nam1:LanguageScheme .
 
 
 
@@ -473,10 +473,10 @@ nam1:StandingCommitteeMeeting rdf:type rico:EventType , skos:Concept ;
         skos:prefLabel "상임위원회 회의"@ko , "Standing committee meeting"@en .
 
 nam1:SpecialCommitteeMeeting rdf:type rico:EventType , skos:Concept ;
-                skos:inScheme nam1:EventTypeScheme ;
-                skos:broader nam1:Proceeding ;
-                skos:narrower nam1:SpecialSubCommitteeMeeting ;
-                skos:prefLabel "특별위원회 회의"@ko , "Special committee meeting"@en .
+        skos:inScheme nam1:EventTypeScheme ;
+        skos:broader nam1:Proceeding ;
+        skos:narrower nam1:SpecialSubCommitteeMeeting ;
+        skos:prefLabel "특별위원회 회의"@ko , "Special committee meeting"@en .
 
 nam1:StandingSubCommitteeMeeting rdf:type rico:EventType , skos:Concept ;
         skos:inScheme nam1:EventTypeScheme ; 
@@ -678,42 +678,42 @@ nam1:PlenaryDeliberationAction a rico:ActivityType, skos:Concept ;
 
 #### 사후(정부 이송·공포)
 nam1:GovernmentTransmittalAction a rico:ActivityType, skos:Concept ;
-  skos:inScheme nam1:ActivityTypeScheme ;
-  skos:broader  nam1:ProcedureAction , nam1:PostPassagePhase ;
-  skos:prefLabel "정부 이송"@ko , "Government transmittal"@en ;
-  skos:notation "government_transmittal" .
+        skos:inScheme nam1:ActivityTypeScheme ;
+        skos:broader  nam1:ProcedureAction , nam1:PostPassagePhase ;
+        skos:prefLabel "정부 이송"@ko , "Government transmittal"@en ;
+        skos:notation "government_transmittal" .
 
 nam1:PromulgationAction a rico:ActivityType, skos:Concept ;
-  skos:inScheme nam1:ActivityTypeScheme ;
-  skos:broader  nam1:ProcedureAction , nam1:PostPassagePhase ;
-  skos:prefLabel "공포"@ko , "Promulgation"@en ;
-  skos:notation "promulgation" .
+        skos:inScheme nam1:ActivityTypeScheme ;
+        skos:broader  nam1:ProcedureAction , nam1:PostPassagePhase ;
+        skos:prefLabel "공포"@ko , "Promulgation"@en ;
+        skos:notation "promulgation" .
 
 #### 재의 절차(거부권)
 nam1:ReconsiderationRequestAction a rico:ActivityType, skos:Concept ;
-  skos:inScheme nam1:ActivityTypeScheme ;
-  skos:broader  nam1:ProcedureAction , nam1:ReconsiderationPhase ;
-  skos:prefLabel "재의요구(거부권)"@ko , "Reconsideration request"@en ;
-  skos:notation "reconsideration_request" .
+        skos:inScheme nam1:ActivityTypeScheme ;
+        skos:broader  nam1:ProcedureAction , nam1:ReconsiderationPhase ;
+        skos:prefLabel "재의요구(거부권)"@ko , "Reconsideration request"@en ;
+        skos:notation "reconsideration_request" .
 
 nam1:ReconsiderationVoteAction a rico:ActivityType, skos:Concept ;
-  skos:inScheme nam1:ActivityTypeScheme ;
-  skos:broader  nam1:ProcedureAction , nam1:ReconsiderationPhase ;
-  skos:prefLabel "재의 표결"@ko , "Reconsideration vote"@en ;
-  skos:notation "reconsideration_vote" .
+        skos:inScheme nam1:ActivityTypeScheme ;
+        skos:broader  nam1:ProcedureAction , nam1:ReconsiderationPhase ;
+        skos:prefLabel "재의 표결"@ko , "Reconsideration vote"@en ;
+        skos:notation "reconsideration_vote" .
 
 nam1:VetoOverrideAction a rico:ActivityType, skos:Concept ;
-  skos:inScheme nam1:ActivityTypeScheme ;
-  skos:broader  nam1:ProcedureAction , nam1:ReconsiderationPhase ;
-  skos:prefLabel "재의 가결"@ko , "Veto override"@en ;
-  skos:notation "veto_override" .
+        skos:inScheme nam1:ActivityTypeScheme ;
+        skos:broader  nam1:ProcedureAction , nam1:ReconsiderationPhase ;
+        skos:prefLabel "재의 가결"@ko , "Veto override"@en ;
+        skos:notation "veto_override" .
 
 
 #### 특수 흐름
 nam1:AlternativeBillSubmissionAction a rico:ActivityType, skos:Concept ;
-  skos:inScheme nam1:ActivityTypeScheme ;
-  skos:broader  nam1:ProcedureAction , nam1:CommitteePhase ;
-  skos:prefLabel "대안 발의"@ko , "Alternative bill submission"@en ;
-  skos:notation "alternative_bill_submission" .
+        skos:inScheme nam1:ActivityTypeScheme ;
+        skos:broader  nam1:ProcedureAction , nam1:CommitteePhase ;
+        skos:prefLabel "대안 발의"@ko , "Alternative bill submission"@en ;
+        skos:notation "alternative_bill_submission" .
 
 
