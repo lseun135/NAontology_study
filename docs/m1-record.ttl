@@ -524,7 +524,7 @@ nam1:CommitteePhase a rico:ActivityType, skos:Concept ;
 nam1:LJCPhase a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
         skos:broader  nam1:ProcedurePhase ;
-        skos:prefLabel "법제사법위원회 단계"@ko , "Legislation & Judiciary Committee phase"@en ;
+        skos:prefLabel "법제사법위원회 단계"@ko , "Legislation and judiciary committee phase"@en ;
         skos:scopeNote "법제사법위원회에서 체계·자구 심사가 수행되는 단계. 상임위원회 심사 이후 본회의 상정 이전의 절차를 포함."@ko .
 
 nam1:PlenaryPhase a rico:ActivityType, skos:Concept ;
@@ -536,184 +536,74 @@ nam1:PlenaryPhase a rico:ActivityType, skos:Concept ;
 nam1:PostPassagePhase a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
         skos:broader  nam1:ProcedurePhase ;
-        skos:prefLabel "사후 단계(정부·공포)"@ko , "Post-passage phase"@en .
-
-nam1:ReconsiderationPhase a rico:ActivityType, skos:Concept ;
-        skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedurePhase ;
-        skos:prefLabel "재의 절차"@ko , "Reconsideration phase"@en .
+        skos:prefLabel "사후 단계(정부·공포)"@ko , "Post-passage phase"@en ;
+        skos:scopeNote "본회의 가결 이후 정부 이송, 대통령 서명 및 공포까지의 절차를 포함. 
+국회 절차 종료 이후 행정부에서 이루어지는 단계."@ko
 
 
 ### Action 계열
-#### 공통/기본
-nam1:OpeningAction a rico:ActivityType, skos:Concept ;
+nam1:PriorAnnouncement a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction ;
-        skos:prefLabel "개의"@ko , "Opening"@en ;
-        skos:notation "opening" .
+        skos:broader nam1:ProcedureAction ;
+        skos:prefLabel "입법예고"@ko , "Prior Announcement of Legislation"@en ;
+        skos:scopeNote "위원회 Phase에서만 발생. 회부 이후 상정 이전에 위원장이 법률안의 입법 취지와 주요 내용을 공개하여 국민 의견을 수렴하는 행위."@ko .
 
-nam1:AgendaReportAction a rico:ActivityType, skos:Concept ;
+nam1:Referral a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction ;
-        skos:prefLabel "의사일정 보고"@ko , "Agenda report"@en ;
-        skos:notation "agenda_report" .
+        skos:broader nam1:ProcedureAction ;
+        skos:prefLabel "회부"@ko , "Referral"@en ;
+        skos:scopeNote "위원회 Phase 및 법사위 Phase에서 발생. 국회의장이 법률안을 소관 위원회에 배정하거나, 소관 위원회 심사를 마친 법률안을 법사위에 넘기는 행위."@ko .
 
-nam1:AgendaPlacementAction a rico:ActivityType, skos:Concept ;
+nam1:Presentation a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction ;
-        skos:prefLabel "안건 상정"@ko , "Agenda placement"@en ;
-        skos:notation "agenda_placement" ;
-        skos:scopeNote "안건을 공식적으로 심의 대상에 포함시키는 행위. 이후 심의나 표결이 이루어지기 위한 전제 절차."@ko .
+        skos:broader nam1:ProcedureAction ;
+        skos:prefLabel "상정"@ko , "Presentation"@en ;
+        skos:scopeNote "위원회, 법사위, 본회의 Phase에서 발생. 해당 회의체에서 법률안을 의사일정에 올려 심의를 개시하는 행위."@ko .
 
-nam1:BillPresentationAction a rico:ActivityType, skos:Concept ;
+nam1:Report a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction ;
-        skos:prefLabel "제안설명"@ko , "Bill presentation"@en ;
-        skos:notation "bill_presentation" .
+        skos:broader nam1:ProcedureAction ;
+        skos:prefLabel "보고"@ko , "Report"@en ;
+        skos:scopeNote "법률안 심의 과정에서 이루어지는 보고 행위의 상위 개념. 발생 주체와 Phase에 따라 전문위원 검토보고와 심사보고로 구분."@ko .
 
-nam1:DeliberationAction a rico:ActivityType, skos:Concept ;
+nam1:StaffReport a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction ;
-        skos:prefLabel "심의"@ko , "Deliberation"@en ;
-        skos:altLabel "질의·토론"@ko , "Discussion"@en ;
-        skos:notation "deliberation" .
+        skos:broader nam1:Report ;
+        skos:prefLabel "전문위원 검토보고"@ko , "Report on Examination by Deputy Chief of Staff"@en ;
+        skos:scopeNote "위원회 및 법사위 Phase에서 발생. 전문위원이 법률안의 내용과 문제점을 검토하여 위원회에 보고하는 행위."@ko .
 
-nam1:VotingAction a rico:ActivityType, skos:Concept ;
+nam1:ChairReport a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction ;
-        skos:prefLabel "표결"@ko , "Voting"@en ;
-        skos:notation "voting" .
+        skos:broader nam1:Report ;
+        skos:prefLabel "심사보고"@ko , "Report on Committee Examination"@en ;
+        skos:scopeNote "본회의 Phase에서 발생. 소관위원회 위원장이 본회의에서 위원회 심사 경과와 결과를 보고하는 행위."@ko .
 
-nam1:ReportingAction a rico:ActivityType, skos:Concept ;
+nam1:InterpellationAndDebate a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction ;
-        skos:prefLabel "보고"@ko , "Reporting"@en ;
-        skos:notation "reporting" ;
-        skos:scopeNote "위원회 또는 기관이 심사 결과나 검토 내용을 공식적으로 보고하는 행위. 이후 본회의 심의의 기초가 되는 정보를 제공함."@ko .
+        skos:broader nam1:ProcedureAction ;
+        skos:prefLabel "질의 및 토론"@ko , "Interpellation and Debate"@en ;
+        skos:scopeNote "법률안 심의 과정에서 이루어지는 질의·답변 및 토론 행위의 상위 개념. 하위에 질의, 대체토론, 찬반토론이 있다."@ko .
 
-nam1:AdjournmentAction a rico:ActivityType, skos:Concept ;
+nam1:Interpellation a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction ;
-        skos:prefLabel "산회"@ko , "Adjournment"@en ;
-        skos:notation "adjournment" ;
-        skos:scopeNote "회의 종료를 나타내는 절차 행위."@ko .
+        skos:broader nam1:InterpellationAndDebate ;
+        skos:prefLabel "질의"@ko , "Interpellation"@en ;
+        skos:scopeNote "본회의 Phase에서 발생. 심사보고 이후 법률안에 대해 질문하고 답변을 듣는 행위."@ko .
 
-
-### 입안(Action)
-nam1:BillSubmissionAction a rico:ActivityType, skos:Concept ;
+nam1:GeneralDiscussion a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction , nam1:InitiationPhase ;
-        skos:prefLabel "법안 발의·제출"@ko , "Bill submission"@en ;
-        skos:notation "init_bill_submission" ;
-        skos:scopeNote "의원 발의, 정부 제출, 위원회안 제출 등을 포함."@ko .
+        skos:broader nam1:InterpellationAndDebate ;
+        skos:prefLabel "대체토론"@ko , "General Discussion"@en ;
+        skos:scopeNote "위원회 및 법사위 Phase에서 발생. 법률안 전체에 대한 문제점과 타당성을 논의하는 일반적 토론으로, 발의자에 대한 질의·답변을 포함."@ko .
 
-
-### 위원회(Action)
-nam1:CommitteeReferralAction a rico:ActivityType, skos:Concept ;
+nam1:ProConDebate a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction , nam1:CommitteePhase ;
-        skos:prefLabel "상임위 회부"@ko , "Committee referral"@en ;
-        skos:notation "committee_referral" ;
-        skos:scopeNote "안건을 소관 상임위원회로 배분하는 절차 행위. 이후 위원회 단계의 심사가 개시되기 위한 전제 절차."@ko .
+        skos:broader nam1:InterpellationAndDebate ;
+        skos:prefLabel "찬반토론"@ko , "Arguments for and against"@en ;
+        skos:scopeNote "위원회, 법사위, 본회의 Phase에서 발생. 표결 전 법률안에 대한 찬성 및 반대 의견을 표명하는 행위."@ko .
 
-nam1:CommitteeAgendaPlacementAction a rico:ActivityType, skos:Concept ;
+nam1:Vote a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction , nam1:CommitteePhase ;
-        skos:prefLabel "상임위 상정"@ko , "Committee agenda placement"@en ;
-        skos:notation "committee_agenda_placement" .
-
-nam1:LegislativeNoticeAction  a rico:ActivityType, skos:Concept ;
-        skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction , nam1:CommitteePhase ;
-        skos:prefLabel "입법예고"@ko , "Legislative notice"@en ;
-        skos:notation "committee_legislative_notice" ; 
-        # 국회법 제82조의2
-
-nam1:CommitteeReviewAction a rico:ActivityType, skos:Concept ;
-        skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction , nam1:CommitteePhase ;
-        skos:prefLabel "상임위 심사"@ko , "Committee review"@en ;
-        skos:notation "committee_review" ;
-        skos:scopeNote "상임위원회에서 안건의 내용과 적합성을 검토·심사하는 행위. 법률안에 대한 수정, 대안 제시, 심사 결과 도출 등을 포함할 수 있음"@ko .
-
-
-
-#### 법제사법위원회(Action)
-nam1:LJCReferralAction a rico:ActivityType, skos:Concept ;
-        skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction , nam1:LJCPhase , nam1:CommitteeReferralAction ;
-        skos:prefLabel "법제사법위원회 회부"@ko , "LJC referral"@en ;
-        skos:altLabel  "체계·자구심사 회부"@ko ;
-        skos:notation  "ljc_referral" ;
-        skos:scopeNote "법제사법위원회로의 회부를 나타내는 절차 행위."@ko ;
-        skos:editorialNote "CommitteeReferralAction의 특수화로 모델링하였으며, 별도 회의(Event) 없이도 발생 가능한 행위로 보았다."@ko .
-
-nam1:LJCAgendaPlacementAction a rico:ActivityType, skos:Concept ;
-        skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction , nam1:LJCPhase ;
-        skos:prefLabel "법제사법위원회 상정"@ko , "LJC agenda placement"@en ;
-        skos:notation "ljc_agenda_placement" .
-
-nam1:LJCReviewAction a rico:ActivityType, skos:Concept ;
-        skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction , nam1:LJCPhase ;
-        skos:prefLabel "법제사법위원회 심사(체계·자구)"@ko , "LJC review"@en ;
-        skos:notation "ljc_review" ;
-        skos:scopeNote "법제사법위원회에서 법률안의 체계와 자구를 중심으로 검토하는 심사 행위. 법적 형식과 정합성 검토에 초점."@ko .
-
-
-#### 본회의(Action)
-nam1:PlenaryAgendaPlacementAction a rico:ActivityType, skos:Concept ;
-        skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction , nam1:PlenaryPhase ;
-        skos:prefLabel "본회의 상정"@ko , "Plenary agenda placement"@en ;
-        skos:notation "plenary_agenda_placement" .
-
-nam1:PlenaryDeliberationAction a rico:ActivityType, skos:Concept ;
-        skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction , nam1:PlenaryPhase ;
-        skos:prefLabel "본회의 심의"@ko , "Plenary deliberation"@en ;
-        skos:notation "plenary_deliberation" .
-
-
-#### 사후(정부 이송·공포)
-nam1:GovernmentTransmittalAction a rico:ActivityType, skos:Concept ;
-        skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction , nam1:PostPassagePhase ;
-        skos:prefLabel "정부 이송"@ko , "Government transmittal"@en ;
-        skos:notation "government_transmittal" .
-
-nam1:PromulgationAction a rico:ActivityType, skos:Concept ;
-        skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction , nam1:PostPassagePhase ;
-        skos:prefLabel "공포"@ko , "Promulgation"@en ;
-        skos:notation "promulgation" .
-
-#### 재의 절차(거부권)
-nam1:ReconsiderationRequestAction a rico:ActivityType, skos:Concept ;
-        skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction , nam1:ReconsiderationPhase ;
-        skos:prefLabel "재의요구(거부권)"@ko , "Reconsideration request"@en ;
-        skos:notation "reconsideration_request" .
-
-nam1:ReconsiderationVoteAction a rico:ActivityType, skos:Concept ;
-        skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction , nam1:ReconsiderationPhase ;
-        skos:prefLabel "재의 표결"@ko , "Reconsideration vote"@en ;
-        skos:notation "reconsideration_vote" .
-
-nam1:VetoOverrideAction a rico:ActivityType, skos:Concept ;
-        skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction , nam1:ReconsiderationPhase ;
-        skos:prefLabel "재의 가결"@ko , "Veto override"@en ;
-        skos:notation "veto_override" .
-
-
-#### 특수 흐름
-nam1:AlternativeBillSubmissionAction a rico:ActivityType, skos:Concept ;
-        skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader  nam1:ProcedureAction , nam1:CommitteePhase ;
-        skos:prefLabel "대안 발의"@ko , "Alternative bill submission"@en ;
-        skos:notation "alternative_bill_submission" .
-
-
+        skos:broader nam1:ProcedureAction ;
+        skos:prefLabel "표결"@ko , "Vote"@en ;
+        skos:scopeNote "위원회, 법사위, 본회의 Phase에서 발생. 법률안에 대한 최종 가부를 결정하는 행위. 재의 표결은 본회의 Phase의 별도 경로로 처리되나 동일한 Action으로 분류."@ko .
