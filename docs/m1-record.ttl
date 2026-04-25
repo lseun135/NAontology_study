@@ -578,7 +578,7 @@ nam1:ChairReport a rico:ActivityType, skos:Concept ;
         skos:prefLabel "심사보고"@ko , "Report on Committee Examination"@en ;
         skos:scopeNote "본회의 Phase에서 발생. 소관위원회 위원장이 본회의에서 위원회 심사 경과와 결과를 보고하는 행위."@ko .
 
-nam1:InterpellationAndDebate a rico:ActivityType, skos:Concept ;
+nam1:InterpellationDebate a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
         skos:broader nam1:ProcedureAction ;
         skos:prefLabel "질의 및 토론"@ko , "Interpellation and Debate"@en ;
@@ -586,19 +586,19 @@ nam1:InterpellationAndDebate a rico:ActivityType, skos:Concept ;
 
 nam1:Interpellation a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader nam1:InterpellationAndDebate ;
+        skos:broader nam1:InterpellationDebate ;
         skos:prefLabel "질의"@ko , "Interpellation"@en ;
         skos:scopeNote "본회의 Phase에서 발생. 심사보고 이후 법률안에 대해 질문하고 답변을 듣는 행위."@ko .
 
 nam1:GeneralDiscussion a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader nam1:InterpellationAndDebate ;
+        skos:broader nam1:InterpellationDebate ;
         skos:prefLabel "대체토론"@ko , "General Discussion"@en ;
         skos:scopeNote "위원회 및 법사위 Phase에서 발생. 법률안 전체에 대한 문제점과 타당성을 논의하는 일반적 토론으로, 발의자에 대한 질의·답변을 포함."@ko .
 
 nam1:ProConDebate a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
-        skos:broader nam1:InterpellationAndDebate ;
+        skos:broader nam1:InterpellationDebate ;
         skos:prefLabel "찬반토론"@ko , "Arguments for and against"@en ;
         skos:scopeNote "위원회, 법사위, 본회의 Phase에서 발생. 표결 전 법률안에 대한 찬성 및 반대 의견을 표명하는 행위."@ko .
 
