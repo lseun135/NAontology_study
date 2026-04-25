@@ -538,7 +538,7 @@ nam1:PostPassagePhase a rico:ActivityType, skos:Concept ;
         skos:broader  nam1:ProcedurePhase ;
         skos:prefLabel "사후 단계(정부·공포)"@ko , "Post-passage phase"@en ;
         skos:scopeNote "본회의 가결 이후 정부 이송, 대통령 서명 및 공포까지의 절차를 포함. 
-국회 절차 종료 이후 행정부에서 이루어지는 단계."@ko
+국회 절차 종료 이후 행정부에서 이루어지는 단계."@ko .
 
 
 ### Action 계열
