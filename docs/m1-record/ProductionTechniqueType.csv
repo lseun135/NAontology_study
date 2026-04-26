@@ -1,5 +1,5 @@
 ﻿URI(prefixed name),유형(rdf:type),상위분류(skos:broader),하위분류(skos:narrower),명칭(skos:prefLabel),유사어(skos:altLabel),기술(skos:scopeNote),"비고(skos:editorialNote, dcterms:description)"
-nam1:ProductionTechniqueTypeScheme,skos:ConceptScheme,.,.,제작기법 유형 통제어,.,.,사본·구현(instantiation)에 정보를 표현하는 데 사용된 기법의 유형을 기술하기 위한 개념체계
-nam1:Printing,rico:ProductionTechniqueType | skos:Concept,,,인쇄,,,
-nam1:DigitalCreation,rico:ProductionTechniqueType | skos:Concept,,,전자적 생성,,,
-nam1:Recording,rico:ProductionTechniqueType | skos:Concept,,,녹화,,,
+nam1:ProductionTechniqueTypeScheme,skos:ConceptScheme,.,.,제작기법 유형 통제어,.,.,사본·구현(instantiation)에 정보를 표현하는 데 사용된 기법의 유형을 기술하기 위한 개념체계.
+nam1:Printing,rico:ProductionTechniqueType; skos:Concept,,,인쇄,,,
+nam1:DigitalCreation,rico:ProductionTechniqueType; skos:Concept,,,전자적 생성,,,
+nam1:Recording,rico:ProductionTechniqueType; skos:Concept,,,녹화,,,
