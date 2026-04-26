@@ -147,7 +147,7 @@ nam3:eligibleMemberCount a owl:DatatypeProperty ;
 
 
 
-nam3:DiscourseActScheme a skos:ConceptScheme ;
+nam3:DiscourseActScheme a skos:ConceptScheme ;  # 본 연구에선 사용하지 않음
   skos:prefLabel "의회 담화의 의사소통 전략 스키마"@ko ,
                  "Communicative Strategies in Parliamentary Discourse (Scheme)"@en ;
   skos:altLabel "담화행위 분류"@ko ;
