@@ -519,7 +519,7 @@ nam1:CommitteePhase a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
         skos:broader  nam1:ProcedurePhase ;
         skos:prefLabel "위원회 단계"@ko , "Committee phase"@en ; 
-        skos:scopeNote "법률안이 소관 상임위원회에 회부된 이후, 위원회에서의 심사와 관련된 절차를 포함"@ko .
+        skos:scopeNote "법률안이 소관 상임위원회에 회부된 이후, 위원회에서의 심사와 관련된 절차를 포함."@ko .
 
 nam1:LJCPhase a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
@@ -531,7 +531,7 @@ nam1:PlenaryPhase a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
         skos:broader  nam1:ProcedurePhase ;
         skos:prefLabel "본회의 단계"@ko , "Plenary phase"@en ;
-        skos:scopeNote "본회의에서 안건이 상정되어 심의·표결되는 절차를 포함"@ko .
+        skos:scopeNote "본회의에서 안건이 상정되어 심의·표결되는 절차를 포함."@ko .
 
 nam1:PostPassagePhase a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
@@ -546,64 +546,64 @@ nam1:PriorAnnouncement a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
         skos:broader nam1:ProcedureAction ;
         skos:prefLabel "입법예고"@ko , "Prior Announcement of Legislation"@en ;
-        skos:scopeNote "위원회 Phase에서만 발생. 회부 이후 상정 이전에 위원장이 법률안의 입법 취지와 주요 내용을 공개하여 국민 의견을 수렴하는 행위."@ko .
+        skos:scopeNote "위원회 단계에서만 발생. 회부 이후 상정 이전에 위원장이 법률안의 입법 취지와 주요 내용을 공개하여 국민 의견을 수렴하는 행위."@ko .
 
 nam1:Referral a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
         skos:broader nam1:ProcedureAction ;
         skos:prefLabel "회부"@ko , "Referral"@en ;
-        skos:scopeNote "위원회 Phase 및 법사위 Phase에서 발생. 국회의장이 법률안을 소관 위원회에 배정하거나, 소관 위원회 심사를 마친 법률안을 법사위에 넘기는 행위."@ko .
+        skos:scopeNote "위원회 및 법사위 단계에서 발생. 국회의장이 법률안을 소관 위원회에 배정하거나, 소관 위원회 심사를 마친 법률안을 법사위에 넘기는 행위."@ko .
 
 nam1:Presentation a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
         skos:broader nam1:ProcedureAction ;
         skos:prefLabel "상정"@ko , "Presentation"@en ;
-        skos:scopeNote "위원회, 법사위, 본회의 Phase에서 발생. 해당 회의체에서 법률안을 의사일정에 올려 심의를 개시하는 행위."@ko .
+        skos:scopeNote "위원회, 법사위, 본회의 단계에서 발생. 해당 회의체에서 법률안을 의사일정에 올려 심의를 개시하는 행위."@ko .
 
 nam1:Report a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
         skos:broader nam1:ProcedureAction ;
         skos:prefLabel "보고"@ko , "Report"@en ;
-        skos:scopeNote "법률안 심의 과정에서 이루어지는 보고 행위의 상위 개념. 발생 주체와 Phase에 따라 전문위원 검토보고와 심사보고로 구분."@ko .
+        skos:scopeNote "법률안 심의 과정에서 이루어지는 보고 행위의 상위 개념. 발생 주체와 단계에 따라 전문위원 검토보고와 심사보고로 구분."@ko .
 
 nam1:StaffReport a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
         skos:broader nam1:Report ;
         skos:prefLabel "전문위원 검토보고"@ko , "Report on Examination by Deputy Chief of Staff"@en ;
-        skos:scopeNote "위원회 및 법사위 Phase에서 발생. 전문위원이 법률안의 내용과 문제점을 검토하여 위원회에 보고하는 행위."@ko .
+        skos:scopeNote "위원회 및 법사위 단계에서 발생. 전문위원이 법률안의 내용과 문제점을 검토하여 위원회에 보고하는 행위."@ko .
 
 nam1:ChairReport a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
         skos:broader nam1:Report ;
         skos:prefLabel "심사보고"@ko , "Report on Committee Examination"@en ;
-        skos:scopeNote "본회의 Phase에서 발생. 소관위원회 위원장이 본회의에서 위원회 심사 경과와 결과를 보고하는 행위."@ko .
+        skos:scopeNote "본회의 단계에서 발생. 소관위원회 위원장이 본회의에서 위원회 심사 경과와 결과를 보고하는 행위."@ko .
 
 nam1:InterpellationDebate a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
         skos:broader nam1:ProcedureAction ;
         skos:prefLabel "질의 및 토론"@ko , "Interpellation and Debate"@en ;
-        skos:scopeNote "법률안 심의 과정에서 이루어지는 질의·답변 및 토론 행위의 상위 개념. 하위에 질의, 대체토론, 찬반토론이 있다."@ko .
+        skos:scopeNote "법률안 심의 과정에서 이루어지는 질의·답변 및 토론 행위의 상위 개념. 질의, 대체토론, 찬반토론으로 구분."@ko .
 
 nam1:Interpellation a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
         skos:broader nam1:InterpellationDebate ;
         skos:prefLabel "질의"@ko , "Interpellation"@en ;
-        skos:scopeNote "본회의 Phase에서 발생. 심사보고 이후 법률안에 대해 질문하고 답변을 듣는 행위."@ko .
+        skos:scopeNote "본회의 단계에서 발생. 심사보고 이후 법률안에 대해 질문하고 답변을 듣는 행위."@ko .
 
 nam1:GeneralDiscussion a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
         skos:broader nam1:InterpellationDebate ;
         skos:prefLabel "대체토론"@ko , "General Discussion"@en ;
-        skos:scopeNote "위원회 및 법사위 Phase에서 발생. 법률안 전체에 대한 문제점과 타당성을 논의하는 일반적 토론으로, 발의자에 대한 질의·답변을 포함."@ko .
+        skos:scopeNote "위원회 및 법사위 단계에서 발생. 법률안 전체에 대한 문제점과 타당성을 논의하는 일반적 토론으로, 발의자에 대한 질의·답변을 포함."@ko .
 
 nam1:ProConDebate a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
         skos:broader nam1:InterpellationDebate ;
         skos:prefLabel "찬반토론"@ko , "Arguments for and against"@en ;
-        skos:scopeNote "위원회, 법사위, 본회의 Phase에서 발생. 표결 전 법률안에 대한 찬성 및 반대 의견을 표명하는 행위."@ko .
+        skos:scopeNote "위원회, 법사위, 본회의 단계에서 발생. 표결 전 법률안에 대한 찬성 및 반대 의견을 표명하는 행위."@ko .
 
 nam1:Vote a rico:ActivityType, skos:Concept ;
         skos:inScheme nam1:ActivityTypeScheme ;
         skos:broader nam1:ProcedureAction ;
         skos:prefLabel "표결"@ko , "Vote"@en ;
-        skos:scopeNote "위원회, 법사위, 본회의 Phase에서 발생. 법률안에 대한 최종 가부를 결정하는 행위. 재의 표결은 본회의 Phase의 별도 경로로 처리되나 동일한 Action으로 분류."@ko .
+        skos:scopeNote "위원회, 법사위, 본회의 단계에서 발생. 법률안에 대한 최종 가부를 결정하는 행위. 재의 표결은 본회의 단계의 별도 경로로 처리되나 동일한 행위로 분류."@ko .
