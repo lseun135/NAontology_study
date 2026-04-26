@@ -1,3 +1,3 @@
 ﻿URI(prefixed name),유형(rdf:type),상위분류(skos:broader),하위분류(skos:narrower),명칭(skos:prefLabel),유사어(skos:altLabel),기술(skos:scopeNote),"비고(skos:editorialNote, dcterms:description)"
-nam1:LegalStatusScheme,skos:ConceptScheme,.,.,법적 지위 통제어,.,.,법에 의해 규정된 기록 자원 또는 행위자의 법적 지위를 기술하기 위한 개념체계
-nam1:PublicRecord,rico:LegalStatus | skos:Concept,.,,공공기록물,,,
+nam1:LegalStatusScheme,skos:ConceptScheme,.,.,법적 지위 통제어,.,.,법에 의해 규정된 기록 자원 또는 행위자의 법적 지위를 기술하기 위한 개념체계.
+nam1:PublicRecord,rico:LegalStatus; skos:Concept,.,,공공기록물,,,
