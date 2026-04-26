@@ -1,5 +1,5 @@
 ﻿URI(prefixed name),유형(rdf:type),상위분류(skos:broader),하위분류(skos:narrower),명칭(skos:prefLabel),유사어(skos:altLabel),기술(skos:scopeNote),"비고(skos:editorialNote, dcterms:description)"
-nam1:DocumentaryFormTypeScheme,skos:ConceptScheme,.,.,기록양식 유형 통제어,.,,기록(Record) 또는 기록 부분(RecordPart)의 외재적·내재적 요소에 따른 기록양식 유형을 기술하기 위한 개념체계
-nam1:Minutes,rico:DocumentaryFormType | skos:Concept,,,회의록,,,
-nam1:Bill,rico:DocumentaryFormType | skos:Concept,,,의안,,,
-nam1:Law,rico:DocumentaryFormType | skos:Concept,,,법률,,,
+nam1:DocumentaryFormTypeScheme,skos:ConceptScheme,.,.,기록양식 유형 통제어,.,,기록(Record) 또는 기록 부분(RecordPart)의 외재적·내재적 요소에 따른 기록양식 유형을 기술하기 위한 개념체계.
+nam1:Minutes,rico:DocumentaryFormType; skos:Concept,,,회의록,,,
+nam1:Bill,rico:DocumentaryFormType; skos:Concept,,,의안,,,
+nam1:Law,rico:DocumentaryFormType; skos:Concept,,,법률,,,
