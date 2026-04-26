@@ -1,8 +1,8 @@
 ﻿URI(prefixed name),유형(rdf:type),상위분류(skos:broader),하위분류(skos:narrower),명칭(skos:prefLabel),유사어(skos:altLabel),기술(skos:scopeNote),"비고(skos:editorialNote, dcterms:description)"
-nam1:EventTypeScheme,skos:ConceptScheme,.,.,국회 사건 유형 통제어,.,.,국회에서 발생하는 사건(Event)의 유형을 기술하기 위한 개념체계. 본 논문에선 회의에 한정
-nam1:Proceeding,rico:EventType | skos:Concept,.,nam1:PlenarySession | nam1:StandingCommitteeMeeting | nam1:SpecialCommitteeMeeting,회의,,,
-nam1:PlenarySession,rico:EventType | skos:Concept,nam1:Proceeding,,본회의,국회 본회의,,
-nam1:StandingCommitteeMeeting,rico:EventType | skos:Concept,nam1:Proceeding,nam1:StandingSubCommitteeMeeting,상임위원회 회의,,,
-nam1:SpecialCommitteeMeeting,rico:EventType | skos:Concept,nam1:Proceeding,nam1:SpecialSubCommitteeMeeting,특별위원회 회의,,,
-nam1:StandingSubCommitteeMeeting,rico:EventType | skos:Concept,nam1:StandingCommitteeMeeting,,상임위-소위원회 회의,,,
-nam1:SpecialSubCommitteeMeeting,rico:EventType | skos:Concept,nam1:SpecialCommitteeMeeting,,특별위-소위원회 회의,,,
+nam1:EventTypeScheme,skos:ConceptScheme,.,.,국회 사건 유형 통제어,.,.,국회에서 발생하는 사건(Event)의 유형을 기술하기 위한 개념체계. 본 논문에선 회의에 한정.
+nam1:Proceeding,rico:EventType; skos:Concept,.,nam1:PlenarySession; nam1:StandingCommitteeMeeting; nam1:SpecialCommitteeMeeting,회의,,,
+nam1:PlenarySession,rico:EventType; skos:Concept,nam1:Proceeding,,본회의,국회 본회의,,
+nam1:StandingCommitteeMeeting,rico:EventType; skos:Concept,nam1:Proceeding,nam1:StandingSubCommitteeMeeting,상임위원회 회의,,,
+nam1:SpecialCommitteeMeeting,rico:EventType; skos:Concept,nam1:Proceeding,nam1:SpecialSubCommitteeMeeting,특별위원회 회의,,,
+nam1:StandingSubCommitteeMeeting,rico:EventType; skos:Concept,nam1:StandingCommitteeMeeting,,상임위-소위원회 회의,,,
+nam1:SpecialSubCommitteeMeeting,rico:EventType; skos:Concept,nam1:SpecialCommitteeMeeting,,특별위-소위원회 회의,,,
