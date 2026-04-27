@@ -1049,8 +1049,8 @@ nadat2:MEM-04T3751T-100021-CMITAM-01 a org:Membership ;
   rdfs:label "남인순: 제21대 보건복지위원회 위원(2020-06-15 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-04T3751T-100021-CMITAM-02 a org:Membership ;
@@ -1060,8 +1060,8 @@ nadat2:MEM-04T3751T-100021-CMITAM-02 a org:Membership ;
   rdfs:label "남인순: 제21대 보건복지위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 
@@ -1382,8 +1382,8 @@ nadat2:MEM-0R68099X-100021-CMITAN-01 a org:Membership ;
   rdfs:label "이수진: 제21대 환경노동위원회 위원(2020-06-15 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-0R68099X-100021-CMITAQ a org:Membership ;
@@ -1393,8 +1393,8 @@ nadat2:MEM-0R68099X-100021-CMITAQ a org:Membership ;
   rdfs:label "이수진: 제21대 여성가족위원회 위원(2020-06-15 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-0R68099X-100021-CMITAA-01 a org:Membership ;
@@ -1404,8 +1404,8 @@ nadat2:MEM-0R68099X-100021-CMITAA-01 a org:Membership ;
   rdfs:label "이수진: 제21대 국회운영위원회 위원(2021-04-29 ~ 2022-04-07)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2021-04-29"^^xsd:date ;
-    time:hasEnd       "2022-04-07"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2021-04-29"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-04-07"^^xsd:date ]
   ] .
 
 nadat2:MEM-0R68099X-100021-CMITAN-02 a org:Membership ;
@@ -1415,8 +1415,8 @@ nadat2:MEM-0R68099X-100021-CMITAN-02 a org:Membership ;
   rdfs:label "이수진: 제21대 환경노동위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-0R68099X-100021-CMITAA-02 a org:Membership ;
@@ -1426,8 +1426,8 @@ nadat2:MEM-0R68099X-100021-CMITAA-02 a org:Membership ;
   rdfs:label "이수진: 제21대 국회운영위원회 위원(2022-07-22 ~ 2023-05-10)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2023-05-10"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2023-05-10"^^xsd:date ]
   ] .
 
 
@@ -1514,8 +1514,8 @@ nadat2:MEM-0W194007-100021-CMITAG a org:Membership ;
   rdfs:label "김영주: 제21대 외교통일위원회 위원(2020.06.15 ~ 2021.11.19)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2021-11-19"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2021-11-19"^^xsd:date ]
   ] .
 
 nadat2:MEM-0W194007-100021-CMITAE a org:Membership ;
@@ -1525,8 +1525,8 @@ nadat2:MEM-0W194007-100021-CMITAE a org:Membership ;
   rdfs:label "김영주: 제21대 교육위원회 위원(2021.11.19 ~ 2021.12.22)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2021-11-19"^^xsd:date ;
-    time:hasEnd       "2021-12-22"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2021-11-19"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2021-12-22"^^xsd:date ]
   ] .
 
 nadat2:MEM-0W194007-100021-CMITAG a org:Membership ;
@@ -1536,8 +1536,8 @@ nadat2:MEM-0W194007-100021-CMITAG a org:Membership ;
   rdfs:label "김영주: 제21대 외교통일위원회 위원(2021.12.22 ~ 2022.05.29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2021-12-22"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2021-12-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-0W194007-100021-CMITAF a org:Membership ;
@@ -1547,8 +1547,8 @@ nadat2:MEM-0W194007-100021-CMITAF a org:Membership ;
   rdfs:label "김영주: 제21대 과학기술정보방송통신위원회 위원(2022.07.22 ~ 2023.06.14)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2023-06-14"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2023-06-14"^^xsd:date ]
   ] .
 
 nadat2:MEM-0W194007-100021-CMITAM a org:Membership ;
@@ -1558,8 +1558,8 @@ nadat2:MEM-0W194007-100021-CMITAM a org:Membership ;
   rdfs:label "김영주: 제21대 보건복지위원회 위원(2023.06.14 ~ 2024.05.29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2023-06-14"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2023-06-14"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-0WL9321T-100021 a org:Membership ;
@@ -1677,8 +1677,8 @@ nadat2:MEM-14M56632-100021-CMITAI a org:Membership ;
   rdfs:label "강기윤: 제21대 행정안전위원회 위원(2020-06-29 ~ 2020-07-06)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-29"^^xsd:date ;
-    time:hasEnd       "2020-07-06"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-29"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2020-07-06"^^xsd:date ]
   ] .
 
 nadat2:MEM-14M56632-100021-CMITAM-01 a org:Membership ;
@@ -1688,8 +1688,8 @@ nadat2:MEM-14M56632-100021-CMITAM-01 a org:Membership ;
   rdfs:label "강기윤: 제21대 보건복지위원회 위원(2020-07-06 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-07-06"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-07-06"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-14M56632-100021-CMITAM-02 a org:Membership ;
@@ -1699,8 +1699,8 @@ nadat2:MEM-14M56632-100021-CMITAM-02 a org:Membership ;
   rdfs:label "강기윤: 제21대 보건복지위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 
@@ -1977,8 +1977,8 @@ nadat2:MEM-1WE5693J-100021-CMITAP-01 a org:Membership ;
   rdfs:label "김태년: 제21대 정보위원회 위원(2020-06-15 ~ 2021-04-27)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2021-04-27"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2021-04-27"^^xsd:date ]
   ] .
 
 nadat2:MEM-1WE5693J-100021-CMITAP-02 a org:Membership ;
@@ -1988,8 +1988,8 @@ nadat2:MEM-1WE5693J-100021-CMITAP-02 a org:Membership ;
   rdfs:label "김태년: 제21대 정보위원회 위원(2024-01-10 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2024-01-10"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2024-01-10"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-1WE5693J-100021-CMITAD-01 a org:Membership ;
@@ -1999,8 +1999,8 @@ nadat2:MEM-1WE5693J-100021-CMITAD-01 a org:Membership ;
   rdfs:label "김태년: 제21대 기획재정위원회 위원(2021-09-01 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2021-09-01"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2021-09-01"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-1WE5693J-100021-CMITAD-02 a org:Membership ;
@@ -2010,8 +2010,8 @@ nadat2:MEM-1WE5693J-100021-CMITAD-02 a org:Membership ;
   rdfs:label "김태년: 제21대 기획재정위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-1WE5693J-100021-CMITAG a org:Membership ;
@@ -2021,8 +2021,8 @@ nadat2:MEM-1WE5693J-100021-CMITAG a org:Membership ;
   rdfs:label "김태년: 제21대 외교통일위원회 위원(2020-06-15 ~ 2021-09-01)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2021-09-01"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2021-09-01"^^xsd:date ]
   ] .
 
 nadat2:MEM-1WE5693J-100021-CMITAA a org:Membership ;
@@ -2032,8 +2032,8 @@ nadat2:MEM-1WE5693J-100021-CMITAA a org:Membership ;
   rdfs:label "김태년: 제21대 국회운영위원회 위원(2020-06-15 ~ 2021-07-28)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2021-07-28"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2021-07-28"^^xsd:date ]
   ] .
 
 
@@ -2122,8 +2122,8 @@ nadat2:MEM-1Y73132H-100021-CMITAF a org:Membership ;
   rdfs:label "김상훈: 제21대 과학기술정보방송통신위원회 위원(2020.06.29 ~ 2020.07.06)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-29"^^xsd:date ;
-    time:hasEnd       "2020-07-06"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-29"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2020-07-06"^^xsd:date ]
   ] .
 
 nadat2:MEM-1Y73132H-100021-CMITAO a org:Membership ;
@@ -2133,8 +2133,8 @@ nadat2:MEM-1Y73132H-100021-CMITAO a org:Membership ;
   rdfs:label "김상훈: 제21대 국토교통위원회 위원(2020.07.06 ~ 2022.05.29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-07-06"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-07-06"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-1Y73132H-100021-CMITAD a org:Membership ;
@@ -2144,8 +2144,8 @@ nadat2:MEM-1Y73132H-100021-CMITAD a org:Membership ;
   rdfs:label "김상훈: 제21대 기획재정위원회 위원(2022.07.22 ~ 2024.05.29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-1Y73132H-100021-CMITAA a org:Membership ;
@@ -2155,8 +2155,8 @@ nadat2:MEM-1Y73132H-100021-CMITAA a org:Membership ;
   rdfs:label "김상훈: 제21대 국회운영위원회 위원(2023.03.24 ~ 2023.08.30)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2023-03-24"^^xsd:date ;
-    time:hasEnd       "2023-08-30"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2023-03-24"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2023-08-30"^^xsd:date ]
   ] .
 
 nadat2:MEM-1ZF7922T-100015 a org:Membership ;
@@ -4029,8 +4029,8 @@ nadat2:MEM-6AU2417B-100021-CMITAB-01 a org:Membership ;
   rdfs:label "박주민: 제21대 법제사법위원회 위원(2020-06-15 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-6AU2417B-100021-CMITAB-02 a org:Membership ;
@@ -4040,8 +4040,8 @@ nadat2:MEM-6AU2417B-100021-CMITAB-02 a org:Membership ;
   rdfs:label "박주민: 제21대 법제사법위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-6AU2417B-100021-CMITAA a org:Membership ;
@@ -4051,8 +4051,8 @@ nadat2:MEM-6AU2417B-100021-CMITAA a org:Membership ;
   rdfs:label "박주민: 제21대 국회운영위원회 위원(2023-10-23 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2023-10-23"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2023-10-23"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 
@@ -4899,8 +4899,8 @@ nadat2:MEM-8FB1535Y-100021-CMITAK-01 a org:Membership ;
   rdfs:label "어기구: 제21대 농림축산식품해양수산위원회 위원(2020-06-15 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-8FB1535Y-100021-CMITAA a org:Membership ;
@@ -4910,8 +4910,8 @@ nadat2:MEM-8FB1535Y-100021-CMITAA a org:Membership ;
   rdfs:label "어기구: 제21대 국회운영위원회 위원(2021-04-29 ~ 2022-04-07)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2021-04-29"^^xsd:date ;
-    time:hasEnd       "2022-04-07"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2021-04-29"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-04-07"^^xsd:date ]
   ] .
 
 nadat2:MEM-8FB1535Y-100021-CMITAK-02 a org:Membership ;
@@ -4921,8 +4921,8 @@ nadat2:MEM-8FB1535Y-100021-CMITAK-02 a org:Membership ;
   rdfs:label "어기구: 제21대 농림축산식품해양수산위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 
@@ -5256,8 +5256,8 @@ nadat2:MEM-8VY63414-100021-CMITAD-01 a org:Membership ;
   rdfs:label "류성걸: 제21대 기획재정위원회 위원(2020-06-15 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-8VY63414-100021-CMITAD-02 a org:Membership ;
@@ -5267,8 +5267,8 @@ nadat2:MEM-8VY63414-100021-CMITAD-02 a org:Membership ;
   rdfs:label "류성걸: 제21대 기획재정위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 
@@ -5622,8 +5622,8 @@ nadat2:MEM-9LD2641Q-100021-CMITAL-01 a org:Membership ;
   rdfs:label "김정호: 제21대 산업통상자원중소벤처기업위원회 위원(2020-06-15 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-9LD2641Q-100021-CMITAL-02 a org:Membership ;
@@ -5633,8 +5633,8 @@ nadat2:MEM-9LD2641Q-100021-CMITAL-02 a org:Membership ;
   rdfs:label "김정호: 제21대 산업통상자원중소벤처기업위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-9LD2641Q-100021-CMITAA a org:Membership ;
@@ -5644,8 +5644,8 @@ nadat2:MEM-9LD2641Q-100021-CMITAA a org:Membership ;
   rdfs:label "김정호: 제21대 국회운영위원회 위원(2022-04-07 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-04-07"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-04-07"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 
@@ -6613,8 +6613,8 @@ nadat2:MEM-BT62420K-100021-CMITAF-01 a org:Membership ;
   rdfs:label "박찬대: 제21대 과학기술정보방송통신위원회 위원(2022-07-22 ~ 2023-08-09)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2023-08-09"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2023-08-09"^^xsd:date ]
   ] .
 
 nadat2:MEM-BT62420K-100021-CMITAF-02 a org:Membership ;
@@ -6624,8 +6624,8 @@ nadat2:MEM-BT62420K-100021-CMITAF-02 a org:Membership ;
   rdfs:label "박찬대: 제21대 과학기술정보방송통신위원회 위원(2023-08-23 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2023-08-23"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2023-08-23"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-BT62420K-100021-CMITAE-01 a org:Membership ;
@@ -6635,8 +6635,8 @@ nadat2:MEM-BT62420K-100021-CMITAE-01 a org:Membership ;
   rdfs:label "박찬대: 제21대 교육위원회 위원(2020-06-15 ~ 2021-10-18)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2021-10-18"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2021-10-18"^^xsd:date ]
   ] .
 
 nadat2:MEM-BT62420K-100021-CMITAE-02 a org:Membership ;
@@ -6646,8 +6646,8 @@ nadat2:MEM-BT62420K-100021-CMITAE-02 a org:Membership ;
   rdfs:label "박찬대: 제21대 교육위원회 위원(2021-10-20 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2021-10-20"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2021-10-20"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-BT62420K-100021-CMITAE-03 a org:Membership ;
@@ -6657,8 +6657,8 @@ nadat2:MEM-BT62420K-100021-CMITAE-03 a org:Membership ;
   rdfs:label "박찬대: 제21대 교육위원회 위원(2023-08-09 ~ 2023-08-23)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2023-08-09"^^xsd:date ;
-    time:hasEnd       "2023-08-23"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2023-08-09"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2023-08-23"^^xsd:date ]
   ] .
 
 nadat2:MEM-BT62420K-100021-CMITAA a org:Membership ;
@@ -6668,8 +6668,8 @@ nadat2:MEM-BT62420K-100021-CMITAA a org:Membership ;
   rdfs:label "박찬대: 제21대 국회운영위원회 위원(2022-04-07 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-04-07"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-04-07"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-BT62420K-100021-CMITAI a org:Membership ;
@@ -6679,8 +6679,8 @@ nadat2:MEM-BT62420K-100021-CMITAI a org:Membership ;
   rdfs:label "박찬대: 제21대 행정안전위원회 위원(2021-10-18 ~ 2021-10-20)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2021-10-18"^^xsd:date ;
-    time:hasEnd       "2021-10-20"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2021-10-18"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2021-10-20"^^xsd:date ]
   ] .
 
 
@@ -7272,8 +7272,8 @@ nadat2:MEM-D4L60530-100021-CMITAL a org:Membership ;
   rdfs:label "이수진: 제21대 산업통상자원중소벤처기업위원회 위원(2020-06-15 ~ 2021-05-17)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2021-05-17"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2021-05-17"^^xsd:date ]
   ] .
 
 nadat2:MEM-D4L60530-100021-CMITAQ a org:Membership ;
@@ -7283,8 +7283,8 @@ nadat2:MEM-D4L60530-100021-CMITAQ a org:Membership ;
   rdfs:label "이수진: 제21대 여성가족위원회 위원(2020-06-15 ~ 2021-08-17)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2021-08-17"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2021-08-17"^^xsd:date ]
   ] .
 
 nadat2:MEM-D4L60530-100021-CMITAA a org:Membership ;
@@ -7294,8 +7294,8 @@ nadat2:MEM-D4L60530-100021-CMITAA a org:Membership ;
   rdfs:label "이수진: 제21대 국회운영위원회 위원(2021-04-29 ~ 2022-04-07)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2021-04-29"^^xsd:date ;
-    time:hasEnd       "2022-04-07"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2021-04-29"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-04-07"^^xsd:date ]
   ] .
 
 nadat2:MEM-D4L60530-100021-CMITAB-01 a org:Membership ;
@@ -7305,8 +7305,8 @@ nadat2:MEM-D4L60530-100021-CMITAB-01 a org:Membership ;
   rdfs:label "이수진: 제21대 법제사법위원회 위원(2021-05-17 ~ 2021-08-24)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2021-05-17"^^xsd:date ;
-    time:hasEnd       "2021-08-24"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2021-05-17"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2021-08-24"^^xsd:date ]
   ] .
 
 nadat2:MEM-D4L60530-100021-CMITAJ a org:Membership ;
@@ -7316,8 +7316,8 @@ nadat2:MEM-D4L60530-100021-CMITAJ a org:Membership ;
   rdfs:label "이수진: 제21대 문화체육관광위원회 위원(2021-08-24 ~ 2021-08-27)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2021-08-24"^^xsd:date ;
-    time:hasEnd       "2021-08-27"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2021-08-24"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2021-08-27"^^xsd:date ]
   ] .
 
 nadat2:MEM-D4L60530-100021-CMITAB-02 a org:Membership ;
@@ -7327,8 +7327,8 @@ nadat2:MEM-D4L60530-100021-CMITAB-02 a org:Membership ;
   rdfs:label "이수진: 제21대 법제사법위원회 위원(2021-08-27 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2021-08-27"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2021-08-27"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-D4L60530-100021-CMITAD a org:Membership ;
@@ -7338,8 +7338,8 @@ nadat2:MEM-D4L60530-100021-CMITAD a org:Membership ;
   rdfs:label "이수진: 제21대 기획재정위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 
@@ -7438,8 +7438,8 @@ nadat2:MEM-DAN6731C-100021-CMITAF a org:Membership ;
   rdfs:label "박성중: 제21대 과학기술정보방송통신위원회 위원(2020-06-29 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-29"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-29"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 
@@ -7821,8 +7821,8 @@ nadat2:MEM-E1J8836Y-100021-CMITAO-02 a org:Membership ;
   rdfs:label "김정재: 제21대 국토교통위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-E1J8836Y-100021-CMITAA-02 a org:Membership ;
@@ -7832,8 +7832,8 @@ nadat2:MEM-E1J8836Y-100021-CMITAA-02 a org:Membership ;
   rdfs:label "김정재: 제21대 국회운영위원회 위원(2021-06-08 ~ 2022-05-06)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2021-06-08"^^xsd:date ;
-    time:hasEnd       "2022-05-06"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2021-06-08"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-06"^^xsd:date ]
   ] .
 
 nadat2:MEM-E1J8836Y-100021-CMITAL a org:Membership ;
@@ -7843,8 +7843,8 @@ nadat2:MEM-E1J8836Y-100021-CMITAL a org:Membership ;
   rdfs:label "김정재: 제21대 산업통상자원중소벤처기업위원회 위원(2020-07-06 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-07-06"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-07-06"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-E1J8836Y-100021-CMITAA-01 a org:Membership ;
@@ -7854,8 +7854,8 @@ nadat2:MEM-E1J8836Y-100021-CMITAA-01 a org:Membership ;
   rdfs:label "김정재: 제21대 국회운영위원회 위원(2020-07-06 ~ 2020-11-11)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-07-06"^^xsd:date ;
-    time:hasEnd       "2020-11-11"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-07-06"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2020-11-11"^^xsd:date ]
   ] .
 
 nadat2:MEM-E1J8836Y-100021-CMITAQ a org:Membership ;
@@ -7865,8 +7865,8 @@ nadat2:MEM-E1J8836Y-100021-CMITAQ a org:Membership ;
   rdfs:label "김정재: 제21대 여성가족위원회 위원(2020-07-06 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-07-06"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-07-06"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-E1J8836Y-100021-CMITAO-01 a org:Membership ;
@@ -7876,8 +7876,8 @@ nadat2:MEM-E1J8836Y-100021-CMITAO-01 a org:Membership ;
   rdfs:label "김정재: 제21대 국토교통위원회 위원(2020-06-29 ~ 2020-07-06)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-29"^^xsd:date ;
-    time:hasEnd       "2020-07-06"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-29"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2020-07-06"^^xsd:date ]
   ] .
 
 
@@ -8106,8 +8106,8 @@ nadat2:MEM-EH27538E-100021-CMITAN-01 a org:Membership ;
   rdfs:label "임이자: 제21대 환경노동위원회 위원(2020-06-29 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-29"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-29"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-EH27538E-100021-CMITAN-02 a org:Membership ;
@@ -8117,8 +8117,8 @@ nadat2:MEM-EH27538E-100021-CMITAN-02 a org:Membership ;
   rdfs:label "임이자: 제21대 환경노동위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-EH27538E-100021-CMITAA a org:Membership ;
@@ -8128,8 +8128,8 @@ nadat2:MEM-EH27538E-100021-CMITAA a org:Membership ;
   rdfs:label "임이자: 제21대 국회운영위원회 위원(2021-06-08 ~ 2022-03-24)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2021-06-08"^^xsd:date ;
-    time:hasEnd       "2022-03-24"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2021-06-08"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-03-24"^^xsd:date ]
   ] .
 
 nadat2:MEM-EH27538E-100021-CMITAQ a org:Membership ;
@@ -8139,8 +8139,8 @@ nadat2:MEM-EH27538E-100021-CMITAQ a org:Membership ;
   rdfs:label "임이자: 제21대 여성가족위원회 위원(2020-06-29 ~ 2020-07-06)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-29"^^xsd:date ;
-    time:hasEnd       "2020-07-06"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-29"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2020-07-06"^^xsd:date ]
   ] .
 
 
@@ -8317,8 +8317,8 @@ nadat2:MEM-EVH1507C-100021-CMITAC a org:Membership ;
   rdfs:label "이헌승: 제21대 정무위원회 위원(2020-06-29 ~ 2020-07-06)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-29"^^xsd:date ;
-    time:hasEnd       "2020-07-06"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-29"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2020-07-06"^^xsd:date ]
   ] .
 
 nadat2:MEM-EVH1507C-100021-CMITAO a org:Membership ;
@@ -8328,8 +8328,8 @@ nadat2:MEM-EVH1507C-100021-CMITAO a org:Membership ;
   rdfs:label "이헌승: 제21대 국토교통위원회 위원(2020-07-06 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-07-06"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-07-06"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-EVH1507C-100021-CMITAH a org:Membership ;
@@ -8339,8 +8339,8 @@ nadat2:MEM-EVH1507C-100021-CMITAH a org:Membership ;
   rdfs:label "이헌승: 제21대 국방위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 
@@ -8425,8 +8425,8 @@ nadat2:MEM-F5U2979W-100021-CMITAO-01 a org:Membership ;
   rdfs:label "김학용: 제21대 국토교통위원회 위원(2022-03-16 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-03-16"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-03-16"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-F5U2979W-100021-CMITAO-02 a org:Membership ;
@@ -8436,8 +8436,8 @@ nadat2:MEM-F5U2979W-100021-CMITAO-02 a org:Membership ;
   rdfs:label "김학용: 제21대 국토교통위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 
@@ -9193,8 +9193,8 @@ nadat2:MEM-GFF1986K-100021-CMITAC a org:Membership ;
   rdfs:label "김병욱: 제21대 정무위원회 위원(2020.06.15 ~ 2022.05.29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-GFF1986K-100021-CMITAO a org:Membership ;
@@ -9204,8 +9204,8 @@ nadat2:MEM-GFF1986K-100021-CMITAO a org:Membership ;
   rdfs:label "김병욱: 제21대 국토교통위원회 위원(2022.07.22 ~ 2024.05.29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 
@@ -9465,8 +9465,8 @@ nadat2:MEM-GX38539O-100021-CMITAC a org:Membership ;
   rdfs:label "유동수: 제21대 정무위원회 위원(2020-06-15 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-GX38539O-100021-CMITAD a org:Membership ;
@@ -9476,8 +9476,8 @@ nadat2:MEM-GX38539O-100021-CMITAD a org:Membership ;
   rdfs:label "유동수: 제21대 기획재정위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 
@@ -9708,8 +9708,8 @@ nadat2:MEM-HSS7466Y-100021-CMITAB a org:Membership ;
   rdfs:label "백혜련: 제21대 법제사법위원회 위원(2020-06-15 ~ 2021-05-20)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2021-05-20"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2021-05-20"^^xsd:date ]
   ] .
 
 nadat2:MEM-HSS7466Y-100021-CMITAI a org:Membership ;
@@ -9719,8 +9719,8 @@ nadat2:MEM-HSS7466Y-100021-CMITAI a org:Membership ;
   rdfs:label "백혜련: 제21대 행정안전위원회 위원(2021-05-20 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2021-05-20"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2021-05-20"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-HSS7466Y-100021-CMITAC a org:Membership ;
@@ -9730,8 +9730,8 @@ nadat2:MEM-HSS7466Y-100021-CMITAC a org:Membership ;
   rdfs:label "백혜련: 제21대 정무위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 
@@ -11088,8 +11088,8 @@ nadat2:MEM-L2I9861C-100021-CMITAI a org:Membership ;
   rdfs:label "강대식: 제21대 행정안전위원회 위원(2020-06-29 ~ 2020-07-06)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-29"^^xsd:date ;
-    time:hasEnd       "2020-07-06"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-29"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2020-07-06"^^xsd:date ]
   ] .
 
 nadat2:MEM-L2I9861C-100021-CMITAH a org:Membership ;
@@ -11099,8 +11099,8 @@ nadat2:MEM-L2I9861C-100021-CMITAH a org:Membership ;
   rdfs:label "강대식: 제21대 국방위원회 위원(2020-07-06 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-07-06"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-07-06"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-L2I9861C-100021-CMITAO a org:Membership ;
@@ -11110,8 +11110,8 @@ nadat2:MEM-L2I9861C-100021-CMITAO a org:Membership ;
   rdfs:label "강대식: 제21대 국토교통위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 
@@ -11255,8 +11255,8 @@ nadat2:MEM-LBC8144B-100021-CMITAD a org:Membership ;
   rdfs:label "김영선: 제21대 기획재정위원회 위원(2022.07.22 ~ 2024.05.29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-LCJ77278-100017 a org:Membership ;
@@ -11483,8 +11483,8 @@ nadat2:MEM-LJK4960Z-100021-CMITAB-01 a org:Membership ;
   rdfs:label "정점식: 제21대 법제사법위원회 위원(2022-07-22 ~ 2024-05-16)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-16"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-16"^^xsd:date ]
   ] .
 
 nadat2:MEM-LJK4960Z-100021-CMITAO a org:Membership ;
@@ -11494,8 +11494,8 @@ nadat2:MEM-LJK4960Z-100021-CMITAO a org:Membership ;
   rdfs:label "정점식: 제21대 국토교통위원회 위원(2024-05-16 ~ 2024-05-21)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2024-05-16"^^xsd:date ;
-    time:hasEnd       "2024-05-21"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2024-05-16"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-21"^^xsd:date ]
   ] .
 
 nadat2:MEM-LJK4960Z-100021-CMITAB-02 a org:Membership ;
@@ -11505,8 +11505,8 @@ nadat2:MEM-LJK4960Z-100021-CMITAB-02 a org:Membership ;
   rdfs:label "정점식: 제21대 법제사법위원회 위원(2024-05-21 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2024-05-21"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2024-05-21"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-LJK4960Z-100021-CMITAP a org:Membership ;
@@ -11516,8 +11516,8 @@ nadat2:MEM-LJK4960Z-100021-CMITAP a org:Membership ;
   rdfs:label "정점식: 제21대 정보위원회 위원(2023-02-15 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2023-02-15"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2023-02-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-LJK4960Z-100021-CMITAA a org:Membership ;
@@ -11527,8 +11527,8 @@ nadat2:MEM-LJK4960Z-100021-CMITAA a org:Membership ;
   rdfs:label "정점식: 제21대 국회운영위원회 위원(2020-08-20 ~ 2021-06-08)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-08-20"^^xsd:date ;
-    time:hasEnd       "2021-06-08"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-08-20"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2021-06-08"^^xsd:date ]
   ] .
 
 nadat2:MEM-LJK4960Z-100021-CMITAQ a org:Membership ;
@@ -11538,8 +11538,8 @@ nadat2:MEM-LJK4960Z-100021-CMITAQ a org:Membership ;
   rdfs:label "정점식: 제21대 여성가족위원회 위원(2020-07-06 ~ 2020-08-31)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-07-06"^^xsd:date ;
-    time:hasEnd       "2020-08-31"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-07-06"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2020-08-31"^^xsd:date ]
   ] .
 
 nadat2:MEM-LJK4960Z-100021-CMITAK a org:Membership ;
@@ -11549,8 +11549,8 @@ nadat2:MEM-LJK4960Z-100021-CMITAK a org:Membership ;
   rdfs:label "정점식: 제21대 농림축산식품해양수산위원회 위원(2020-07-06 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-07-06"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-07-06"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-LJK4960Z-100021-CMITAC a org:Membership ;
@@ -11560,8 +11560,8 @@ nadat2:MEM-LJK4960Z-100021-CMITAC a org:Membership ;
   rdfs:label "정점식: 제21대 정무위원회 위원(2020-06-29 ~ 2020-07-06)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-29"^^xsd:date ;
-    time:hasEnd       "2020-07-06"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-29"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2020-07-06"^^xsd:date ]
   ] .
 
 
@@ -11630,8 +11630,8 @@ nadat2:MEM-LPB30152-100021-CMITAK a org:Membership ;
   rdfs:label "최인호: 제21대 농림축산식품해양수산위원회 위원(2020-06-15 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-LPB30152-100021-CMITAO a org:Membership ;
@@ -11641,8 +11641,8 @@ nadat2:MEM-LPB30152-100021-CMITAO a org:Membership ;
   rdfs:label "최인호: 제21대 국토교통위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 
@@ -11818,8 +11818,8 @@ nadat2:MEM-M2Q9024I-100021-CMITAC a org:Membership ;
   rdfs:label "김종민: 제21대 정무위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-M2Q9024I-100021-CMITAB-01 a org:Membership ;
@@ -11829,8 +11829,8 @@ nadat2:MEM-M2Q9024I-100021-CMITAB-01 a org:Membership ;
   rdfs:label "김종민: 제21대 법제사법위원회 위원(2020-06-15 ~ 2022-04-18)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2022-04-18"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-04-18"^^xsd:date ]
   ] .
 
 nadat2:MEM-M2Q9024I-100021-CMITAH a org:Membership ;
@@ -11840,8 +11840,8 @@ nadat2:MEM-M2Q9024I-100021-CMITAH a org:Membership ;
   rdfs:label "김종민: 제21대 국방위원회 위원(2022-04-18 ~ 2022-04-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-04-18"^^xsd:date ;
-    time:hasEnd       "2022-04-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-04-18"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-04-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-M2Q9024I-100021-CMITAB-02 a org:Membership ;
@@ -11851,8 +11851,8 @@ nadat2:MEM-M2Q9024I-100021-CMITAB-02 a org:Membership ;
   rdfs:label "김종민: 제21대 법제사법위원회 위원(2022-04-29 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-04-29"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-04-29"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 
@@ -11963,8 +11963,8 @@ nadat2:MEM-M7O7878U-100021-CMITAL a org:Membership ;
   rdfs:label "신정훈: 제21대 산업통상자원중소벤처기업위원회 위원(2020-06-15 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-M7O7878U-100021-CMITAA a org:Membership ;
@@ -11974,8 +11974,8 @@ nadat2:MEM-M7O7878U-100021-CMITAA a org:Membership ;
   rdfs:label "신정훈: 제21대 국회운영위원회 위원(2022-04-07 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-04-07"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-04-07"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-M7O7878U-100021-CMITAK a org:Membership ;
@@ -11985,8 +11985,8 @@ nadat2:MEM-M7O7878U-100021-CMITAK a org:Membership ;
   rdfs:label "신정훈: 제21대 농림축산식품해양수산위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 
@@ -12888,8 +12888,8 @@ nadat2:MEM-NTT8182Q-100021-CMITAO a org:Membership ;
   rdfs:label "김민기: 제21대 국토교통위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-NTT8182Q-100021-CMITAP-01 a org:Membership ;
@@ -12899,8 +12899,8 @@ nadat2:MEM-NTT8182Q-100021-CMITAP-01 a org:Membership ;
   rdfs:label "김민기: 제21대 정보위원회 위원(2021.01.07 ~ 2022.05.29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2021-01-07"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2021-01-07"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-NTT8182Q-100021-CMITAP-02 a org:Membership ;
@@ -12910,8 +12910,8 @@ nadat2:MEM-NTT8182Q-100021-CMITAP-02 a org:Membership ;
   rdfs:label "김민기: 제21대 정보위원회 위원(2022.07.22 ~ 2022.09.27)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2022-09-27"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-09-27"^^xsd:date ]
   ] .
 
 nadat2:MEM-NTT8182Q-100021-CMITAH a org:Membership ;
@@ -12921,8 +12921,8 @@ nadat2:MEM-NTT8182Q-100021-CMITAH a org:Membership ;
   rdfs:label "김민기: 제21대 국방위원회 위원(2020.06.15 ~ 2022.05.29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 
@@ -13083,8 +13083,8 @@ nadat2:MEM-O6D8329R-100021-CMITAH a org:Membership ;
   rdfs:label "민홍철: 제21대 국방위원회 위원(2020-06-15 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-O6D8329R-100021-CMITAO a org:Membership ;
@@ -13094,8 +13094,8 @@ nadat2:MEM-O6D8329R-100021-CMITAO a org:Membership ;
   rdfs:label "민홍철: 제21대 국토교통위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 
@@ -14428,8 +14428,8 @@ nadat2:MEM-RD42006Y-100021-CMITAL a org:Membership ;
   rdfs:label "송갑석: 제21대 산업통상자원중소벤처기업위원회 위원(2020-06-15 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-RD42006Y-100021-CMITAH a org:Membership ;
@@ -14439,8 +14439,8 @@ nadat2:MEM-RD42006Y-100021-CMITAH a org:Membership ;
   rdfs:label "송갑석: 제21대 국방위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 
@@ -15165,8 +15165,8 @@ nadat2:MEM-SU53086M-100021-CMITAO-01 a org:Membership ;
   rdfs:label "심상정: 제21대 국토교통위원회 위원(2020-06-15 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-SU53086M-100021-CMITAO-02 a org:Membership ;
@@ -15176,8 +15176,8 @@ nadat2:MEM-SU53086M-100021-CMITAO-02 a org:Membership ;
   rdfs:label "심상정: 제21대 국토교통위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 
@@ -15276,8 +15276,8 @@ nadat2:MEM-SZ51175J-100021-CMITAJ a org:Membership ;
   rdfs:label "이자스민: 제21대 문화체육관광위원회 위원(2024-01-31 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2024-01-31"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2024-01-31"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 
@@ -16526,8 +16526,8 @@ nadat2:MEM-VHK3402G-100021-CMITAL a org:Membership ;
   rdfs:label "정우택: 제21대 산업통상자원중소벤처기업위원회 위원(2022-03-16 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-03-16"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-03-16"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-VHK3402G-100021-CMITAI a org:Membership ;
@@ -16537,8 +16537,8 @@ nadat2:MEM-VHK3402G-100021-CMITAI a org:Membership ;
   rdfs:label "정우택: 제21대 행정안전위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 
@@ -16759,8 +16759,8 @@ nadat2:MEM-W4X85128-100021-CMITAF a org:Membership ;
   rdfs:label "박대출: 제21대 과학기술정보방송통신위원회 위원(2020-06-29 ~ 2021-08-25)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-29"^^xsd:date ;
-    time:hasEnd       "2021-08-25"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-29"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2021-08-25"^^xsd:date ]
   ] .
 
 nadat2:MEM-W4X85128-100021-CMITAN a org:Membership ;
@@ -16770,8 +16770,8 @@ nadat2:MEM-W4X85128-100021-CMITAN a org:Membership ;
   rdfs:label "박대출: 제21대 환경노동위원회 위원(2021-08-25 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2021-08-25"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2021-08-25"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-W4X85128-100021-CMITAA a org:Membership ;
@@ -16781,8 +16781,8 @@ nadat2:MEM-W4X85128-100021-CMITAA a org:Membership ;
   rdfs:label "박대출: 제21대 국회운영위원회 위원(2020-07-06 ~ 2020-11-11)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-07-06"^^xsd:date ;
-    time:hasEnd       "2020-11-11"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-07-06"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2020-11-11"^^xsd:date ]
   ] .
 
 nadat2:MEM-W4X85128-100021-CMITAD a org:Membership ;
@@ -16792,8 +16792,8 @@ nadat2:MEM-W4X85128-100021-CMITAD a org:Membership ;
   rdfs:label "박대출: 제21대 기획재정위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 
@@ -17168,8 +17168,8 @@ nadat2:MEM-X1K3667J-100021-CMITAI a org:Membership ;
   rdfs:label "김교흥: 제21대 행정안전위원회 위원(2022-07-22~2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 
@@ -17883,8 +17883,8 @@ nadat2:MEM-YOG1280B-100021-CMITAG a org:Membership ;
   rdfs:label "안철수: 제21대 외교통일위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 
@@ -18193,8 +18193,8 @@ nadat2:MEM-ZDR63255-100021-CMITAO a org:Membership ;
   rdfs:label "소병훈: 제21대 국토교통위원회 위원(2020-06-15 ~ 2022-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2020-06-15"^^xsd:date ;
-    time:hasEnd       "2022-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2020-06-15"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-29"^^xsd:date ]
   ] .
 
 nadat2:MEM-ZDR63255-100021-CMITAA a org:Membership ;
@@ -18204,8 +18204,8 @@ nadat2:MEM-ZDR63255-100021-CMITAA a org:Membership ;
   rdfs:label "소병훈: 제21대 국회운영위원회 위원(2022-04-29 ~ 2022-05-16)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-04-29"^^xsd:date ;
-    time:hasEnd       "2022-05-16"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-04-29"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2022-05-16"^^xsd:date ]
   ] .
 
 nadat2:MEM-ZDR63255-100021-CMITAK a org:Membership ;
@@ -18215,8 +18215,8 @@ nadat2:MEM-ZDR63255-100021-CMITAK a org:Membership ;
   rdfs:label "소병훈: 제21대 농림축산식품해양수산위원회 위원(2022-07-22 ~ 2024-05-29)"@ko ;
   org:memberDuring [
     a time:Interval ;
-    time:hasBeginning "2022-07-22"^^xsd:date ;
-    time:hasEnd       "2024-05-29"^^xsd:date
+    time:hasBeginning [ a time:Instant ; time:inXSDDate "2022-07-22"^^xsd:date ] ;
+    time:hasEnd [ a time:Instant ; time:inXSDDate "2024-05-29"^^xsd:date ]
   ] .
 
 
