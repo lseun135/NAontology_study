@@ -96,33 +96,30 @@ nadat2:Period-120530-160529 rdf:type owl:NamedIndividual ,
 
 
 nadat2:LegSession-20 a owl:NamedIndividual ;
-			dcterms:temporal nadat2:Period-160530-200529 ;
-    			rdfs:label "제20대 입법회기"@ko .
+	dcterms:temporal nadat2:Period-160530-200529 ;
+	rdfs:label "제20대 입법회기"@ko .
 
-nadat2:Period-160530-200529 rdf:type owl:NamedIndividual ,
-                                   dcterms:PeriodOfTime ;
-                          schema:startDate "2016-05-30"^^xsd:date ;
-			  schema:endDate "2020-05-29"^^xsd:date .
+nadat2:Period-160530-200529 rdf:type owl:NamedIndividual , dcterms:PeriodOfTime ;
+	schema:startDate "2016-05-30"^^xsd:date ;
+	schema:endDate "2020-05-29"^^xsd:date .
 
 
 nadat2:LegSession-21 rdf:type owl:NamedIndividual ;
                 dcterms:temporal nadat2:Period-200530-240529 ;
                 rdfs:label "제21대 입법회기"@ko .
 
-nadat2:Period-200530-240529 rdf:type owl:NamedIndividual ,
-                                   dcterms:PeriodOfTime ;
+nadat2:Period-200530-240529 rdf:type owl:NamedIndividual , dcterms:PeriodOfTime ;
                           schema:endDate "2024-05-29"^^xsd:date ;
                           schema:startDate "2020-05-30"^^xsd:date .
 
 
 nadat2:LegSession-22 a owl:NamedIndividual ;
-		dcterms:temporal nadat2:Period-240530-280529 ;
-		rdfs:label "제22대 입법회기"@ko .
+	dcterms:temporal nadat2:Period-240530-280529 ;
+	rdfs:label "제22대 입법회기"@ko .
 
-nadat2:Period-240530-280529 rdf:type owl:NamedIndividual ,
-                                   dcterms:PeriodOfTime ;
-                          schema:startDate "2024-05-30"^^xsd:date ;
-			  schema:endDate "2028-05-29"^^xsd:date .
+nadat2:Period-240530-280529 rdf:type owl:NamedIndividual , dcterms:PeriodOfTime ;
+	schema:startDate "2024-05-30"^^xsd:date ;
+	schema:endDate "2028-05-29"^^xsd:date .
 
 
 
@@ -130,46 +127,62 @@ nadat2:Period-240530-280529 rdf:type owl:NamedIndividual ,
 
 nadat2:NationalAssembly rdf:type org:FormalOrganization ;
                 schema:url <https://www.assembly.go.kr> ;
-				rdfs:label "국회"@ko ;
+		rdfs:label "국회"@ko ;
                 skos:altLabel "국회"@ko ;
                 skos:prefLabel "대한민국 국회"@ko .
 
 nadat2:NABudgetOffice rdf:type nam2:Institution ;
                 org:subOrganizationOf nadat2:NationalAssembly ;
                 schema:url <https://www.nabo.go.kr> ;
-				rdfs:label "국회예산정책처"@ko ;
+		rdfs:label "국회예산정책처"@ko ;
                 skos:altLabel "NABO"@en ;
-                skos:prefLabel "National Assembly Budget Office"@en ,
-                               "국회예산정책처"@ko .
+                skos:prefLabel "National Assembly Budget Office"@en , "국회예산정책처"@ko .
 
 nadat2:NALibrary rdf:type nam2:Institution ;
                 org:subOrganizationOf nadat2:NationalAssembly ;
                 schema:url <https://www.nanet.go.kr> ;
-				rdfs:label "국회도서관"@ko ;
+		rdfs:label "국회도서관"@ko ;
                 skos:prefLabel "National Assembly Library"@en , "국회도서관"@ko .
 
 nadat2:NAArchives rdf:type org:OrganizationalUnit ;
-                org:unitOf nadat2:NALibrary ;
-                schema:url <https://archives.nanet.go.kr> ;
-				rdfs:label "국회기록보존소"@ko ;
-                skos:altLabel "NAA"@en ;
-                skos:prefLabel "National Assembly Archives"@en ,
-                               "국회기록보존소"@ko .
+	org:unitOf nadat2:NALibrary ;
+	schema:url <https://archives.nanet.go.kr> ;
+	rdfs:label "국회기록보존소"@ko ;
+	skos:altLabel "NAA"@en ;
+	skos:prefLabel "National Assembly Archives"@en , "국회기록보존소"@ko ;
+	owl:deprecated "true"^^xsd:boolean ;
+	skos:historyNote "2026-01-12 국회기록원법 시행으로 국회기록원(nadat2:NARA)로 개편"@ko ;
+	org:changedBy nadat2:CE_Archives2NARA .
+
+nadat2:NARA rdf:type nam2:Institution ;
+	org:subOrganizationOf nadat2:NationalAssembly ;
+	schema:url <https://www.nara.go.kr> ;
+	rdfs:label "국회기록원"@ko ;
+	skos:prefLabel "National Assembly Records and Archives"@en , "국회기록원"@ko ;
+	skos:altLabel "NARA"@en ;
+	skos:historyNote "2026-01-12 국회기록보존소(nadat2:NAArchives)에서 독립 설립"@ko ;
+	org:resultedFrom nadat2:CE_Archives2NARA . 
+
+nadat2:CE_Archives2NARA rdf:type org:ChangeEvent ;
+	rdfs:label "국회기록보존소의 국회기록원 독립"@ko ;
+	prov:startedAtTime "2026-01-12T00:00:00"^^xsd:dateTime ;
+	org:originalOrganization nadat2:NAArchives ;
+	org:resultingOrganization nadat2:NARA ;
+	skos:note "근거법령: 국회기록원법(2025.11.11 제정, 2026.01.12 시행), 국회법 제22조의4(2025.09.28 개정). 국회도서관 하부조직에서 국회의장 소속 차관급 독립기관으로 격상."@ko .
 
 nadat2:NAResearchService rdf:type nam2:Institution ;
-                org:subOrganizationOf nadat2:NationalAssembly ;
-                schema:url <https://www.nars.go.kr> ;
-				rdfs:label "국회입법조사처"@ko ;
-                skos:altLabel "NARS"@en ;
-                skos:prefLabel "National Assembly Research Service"@en ,
-                               "국회입법조사처"@ko .
+	org:subOrganizationOf nadat2:NationalAssembly ;
+	schema:url <https://www.nars.go.kr> ;
+	rdfs:label "국회입법조사처"@ko ;
+	skos:altLabel "NARS"@en ;
+	skos:prefLabel "National Assembly Research Service"@en , "국회입법조사처"@ko .
 
 nadat2:NASecretariat rdf:type nam2:Institution ;
-                org:subOrganizationOf nadat2:NationalAssembly ;
-                schema:url <https://nas.na.go.kr> ;
-				rdfs:label "국회사무처"@ko ;
-                skos:prefLabel "National Assembly Secretariat"@en ,
-                               "국회사무처"@ko .
+	org:subOrganizationOf nadat2:NationalAssembly ;
+	schema:url <https://nas.na.go.kr> ;
+	rdfs:label "국회사무처"@ko ;
+	skos:prefLabel "National Assembly Secretariat"@en , "국회사무처"@ko .
+
 
 ### 의사국 (사무처 산하)
 nadat2:NAS0001 a org:OrganizationalUnit ;
@@ -198,136 +211,124 @@ nadat2:NAS0002-0001 a org:OrganizationalUnit ;
 ## Party
 
 nadat2:BasicIncomeParty rdf:type nam2:Party ;
-                dcterms:identifier "ocd-organization/country:kr/16867da3-e0f7-5eda-94b3-7e3f0c50e698"^^rdfs:Literal ;
-                schema:url <https://www.basicincomeparty.kr> ;
-				schema:foundingDate "2020-01-19"^^xsd:date ;
-                skos:altLabel "BIP"@en ;
-                skos:prefLabel "Basic Income Party"@en ,
-                               "기본소득당"@ko .
+        dcterms:identifier "ocd-organization/country:kr/16867da3-e0f7-5eda-94b3-7e3f0c50e698"^^rdfs:Literal ;
+        schema:url <https://www.basicincomeparty.kr> ;
+	schema:foundingDate "2020-01-19"^^xsd:date ;
+        skos:altLabel "BIP"@en ;
+        skos:prefLabel "Basic Income Party"@en , "기본소득당"@ko .
 
 nadat2:DemocraticPartyofKorea rdf:type nam2:Party ;
-                dcterms:identifier "ocd-organization/country:kr/a99b2275-dfed-5fbe-bcd6-e4932ed0d463"^^rdfs:Literal ;
-                schema:url <https://theminjoo.kr> ;
-				schema:foundingDate "2014-03-26"^^xsd:date ;
-                skos:altLabel "DPK"@en ;
-                skos:prefLabel "Democratic Party of Korea"@en ,
-                               "더불어민주당"@ko .
+        dcterms:identifier "ocd-organization/country:kr/a99b2275-dfed-5fbe-bcd6-e4932ed0d463"^^rdfs:Literal ;
+        schema:url <https://theminjoo.kr> ;
+	schema:foundingDate "2014-03-26"^^xsd:date ;
+        skos:altLabel "DPK"@en ;
+        skos:prefLabel "Democratic Party of Korea"@en , "더불어민주당"@ko .
 
 nadat2:PlatformParty rdf:type nam2:Party ;
-                dcterms:identifier "ocd-organization/country:kr/21cfba29-a1af-5ff9-84b3-6f7d5f44b609"^^rdfs:Literal ;
-				schema:foundingDate "2020-03-08"^^xsd:date ;
-				schema:dissolutionDate "2020-05-13"^^xsd:date ;
-                skos:prefLabel "Platform Party"@en ,
-                               "더불어시민당"@ko .
+        dcterms:identifier "ocd-organization/country:kr/21cfba29-a1af-5ff9-84b3-6f7d5f44b609"^^rdfs:Literal ;
+	schema:foundingDate "2020-03-08"^^xsd:date ;
+	schema:dissolutionDate "2020-05-13"^^xsd:date ;
+        skos:prefLabel "Platform Party"@en , "더불어시민당"@ko .
 
 nadat2:PeoplePowerParty rdf:type nam2:Party ;
-                dcterms:identifier "ocd-organization/country:kr/0f2e881a-d760-55a9-afa8-c3fe5954593d"^^rdfs:Literal ;
-				schema:url <https://www.peoplepowerparty.kr> ;
-				schema:foundingDate "2020-02-17"^^xsd:date ;
-				nam2:formerName "미래통합당"@ko , "United Future Party"@en ;
-                skos:altLabel "PPP"@en ;
-                skos:prefLabel "People Power Party"@en , "국민의힘"@ko ;
-				owl:sameAs nadat2:UnitedFutureParty .
+	dcterms:identifier "ocd-organization/country:kr/0f2e881a-d760-55a9-afa8-c3fe5954593d"^^rdfs:Literal ;
+	schema:url <https://www.peoplepowerparty.kr> ;
+	schema:foundingDate "2020-02-17"^^xsd:date ;
+	nam2:formerName "미래통합당"@ko , "United Future Party"@en ;
+	skos:altLabel "PPP"@en ;
+	skos:prefLabel "People Power Party"@en , "국민의힘"@ko ;
+	owl:sameAs nadat2:UnitedFutureParty .
 
 nadat2:UnitedFutureParty rdf:type nam2:Party ;
-                dcterms:identifier "ocd-organization/country:kr/546d8457-acd6-5ed1-bdfe-e2f378f9c0c2"^^rdfs:Literal ;
-				schema:foundingDate "2020-02-17"^^xsd:date ;
-				schema:dissolutionDate "2020-09-02"^^xsd:date ;
-                skos:altLabel "UFP"@en ;
-                skos:prefLabel "United Future Party"@en , "미래통합당"@ko ;
-				owl:sameAs nadat2:PeoplePowerParty .
+	dcterms:identifier "ocd-organization/country:kr/546d8457-acd6-5ed1-bdfe-e2f378f9c0c2"^^rdfs:Literal ;
+	schema:foundingDate "2020-02-17"^^xsd:date ;
+	schema:dissolutionDate "2020-09-02"^^xsd:date ;
+        skos:altLabel "UFP"@en ;
+        skos:prefLabel "United Future Party"@en , "미래통합당"@ko ;
+	owl:sameAs nadat2:PeoplePowerParty .
 
 nadat2:FutureKoreaParty rdf:type nam2:Party ;
-                dcterms:identifier "ocd-organization/country:kr/9a3ab546-2819-5d25-b7c6-957a531dcf80"^^rdfs:Literal ;
-				schema:foundingDate "2020-02-05"^^xsd:date ;
-				schema:dissolutionDate "2020-05-29"^^xsd:date ;
-                skos:altLabel "FKP"@en ;
-                skos:prefLabel "Future Korea Party"@en ,
-                               "미래한국당"@ko .
+	dcterms:identifier "ocd-organization/country:kr/9a3ab546-2819-5d25-b7c6-957a531dcf80"^^rdfs:Literal ;
+	schema:foundingDate "2020-02-05"^^xsd:date ;
+	schema:dissolutionDate "2020-05-29"^^xsd:date ;
+        skos:altLabel "FKP"@en ;
+        skos:prefLabel "Future Korea Party"@en , "미래한국당"@ko .
 
 nadat2:ProgressiveParty rdf:type nam2:Party ;
-                dcterms:identifier "ocd-organization/country:kr/37347254-194d-595f-b8ea-7ca26e8db0eb"^^rdfs:Literal ;
-                schema:url <https://jinboparty.com> ;
-				schema:foundingDate "2017-10-15"^^xsd:date ;
-				nam2:formerName "민중당"@ko ;
-                skos:altLabel "PP"@en ;
-                skos:prefLabel "Progressive Party"@en ,
-                               "진보당"@ko .
+        dcterms:identifier "ocd-organization/country:kr/37347254-194d-595f-b8ea-7ca26e8db0eb"^^rdfs:Literal ;
+        schema:url <https://jinboparty.com> ;
+	schema:foundingDate "2017-10-15"^^xsd:date ;
+	nam2:formerName "민중당"@ko ;
+        skos:altLabel "PP"@en ;
+        skos:prefLabel "Progressive Party"@en , "진보당"@ko .
 
 nadat2:JusticeParty rdf:type nam2:Party ;
-                dcterms:identifier "ocd-organization/country:kr/c1bc40b4-ae14-54a5-8326-65e9696b1de9"^^rdfs:Literal ;
-                schema:url <https://www.justice21.org> ;
-				schema:foundingDate "2012-10-21"^^xsd:date ;
-				nam2:formerName "진보정의당"@ko, "녹색정의당"@ko ;
-                skos:altLabel "JP"@en ;
-                skos:prefLabel "Justice Party"@en ,
-                               "정의당"@ko .
+	dcterms:identifier "ocd-organization/country:kr/c1bc40b4-ae14-54a5-8326-65e9696b1de9"^^rdfs:Literal ;
+        schema:url <https://www.justice21.org> ;
+	schema:foundingDate "2012-10-21"^^xsd:date ;
+	nam2:formerName "진보정의당"@ko, "녹색정의당"@ko ;
+        skos:altLabel "JP"@en ;
+        skos:prefLabel "Justice Party"@en , "정의당"@ko .
 
 nadat2:RebuildingKoreaParty rdf:type nam2:Party ;
-                dcterms:identifier "ocd-organization/country:kr/76440f8c-9249-5bc7-aa9e-ff1f294750c8"^^rdfs:Literal ;
-                schema:url <https://rebuildingkoreaparty.kr> ;
-				schema:foundingDate "2024-03-07"^^xsd:date ;
-                skos:altLabel "RKP"@en ;
-                skos:prefLabel "Rebuilding Korea Party"@en ,
-                               "조국혁신당"@ko .
+        dcterms:identifier "ocd-organization/country:kr/76440f8c-9249-5bc7-aa9e-ff1f294750c8"^^rdfs:Literal ;
+        schema:url <https://rebuildingkoreaparty.kr> ;
+	schema:foundingDate "2024-03-07"^^xsd:date ;
+        skos:altLabel "RKP"@en ;
+        skos:prefLabel "Rebuilding Korea Party"@en , "조국혁신당"@ko .
 
 nadat2:ReformParty rdf:type nam2:Party ;
-                dcterms:identifier "ocd-organization/country:kr/f69532b6-26e7-5560-88e2-ed222e2b048d"^^rdfs:Literal ;
-                schema:url <https://www.reformparty.kr> ;
-				schema:foundingDate "2024-01-25"^^xsd:date ;
-                skos:altLabel "RP"@en ;
-                skos:prefLabel "Reform Party"@en ,
-                               "개혁신당"@ko .
+        dcterms:identifier "ocd-organization/country:kr/f69532b6-26e7-5560-88e2-ed222e2b048d"^^rdfs:Literal ;
+        schema:url <https://www.reformparty.kr> ;
+	schema:foundingDate "2024-01-25"^^xsd:date ;
+        skos:altLabel "RP"@en ;
+        skos:prefLabel "Reform Party"@en , "개혁신당"@ko .
 
 nadat2:PeoplesParty rdf:type nam2:Party ;
-                dcterms:identifier "ocd-organization/country:kr/a3ed0eaf-b574-5c31-8f6f-b4592e3d9ea6"^^rdfs:Literal ;
-				schema:foundingDate "2020-02-23"^^xsd:date ;
-				schema:dissolutionDate "2022-05-03"^^xsd:date ;
-                skos:prefLabel "The People's Party"@en ,
-                               "국민의당"@ko .
+        dcterms:identifier "ocd-organization/country:kr/a3ed0eaf-b574-5c31-8f6f-b4592e3d9ea6"^^rdfs:Literal ;
+	schema:foundingDate "2020-02-23"^^xsd:date ;
+	schema:dissolutionDate "2022-05-03"^^xsd:date ;
+        skos:prefLabel "The People's Party"@en , "국민의당"@ko .
 
 nadat2:OpenDemocraticParty rdf:type nam2:Party ;
-                dcterms:identifier "ocd-organization/country:kr/0f2458e3-7a5b-570b-9e3f-16f2d50ea7f3"^^rdfs:Literal ;
-				schema:foundingDate "2020-03-08"^^xsd:date ;
-				schema:dissolutionDate "2022-01-18"^^xsd:date ;
-                skos:prefLabel "Open Democratic Party"@en ,
-                               "열린민주당"@ko .
+        dcterms:identifier "ocd-organization/country:kr/0f2458e3-7a5b-570b-9e3f-16f2d50ea7f3"^^rdfs:Literal ;
+	schema:foundingDate "2020-03-08"^^xsd:date ;
+	schema:dissolutionDate "2022-01-18"^^xsd:date ;
+        skos:prefLabel "Open Democratic Party"@en , "열린민주당"@ko .
 
 
 
 ## Committee
 
 nadat2:CMIT-AA a nam2:StandingCommittee ;
-    skos:prefLabel "국회운영위원회"@ko, "House Steering Committee"@en ;
+	skos:prefLabel "국회운영위원회"@ko, "House Steering Committee"@en ;
 	rdfs:label "국회운영위원회"@ko, "House Steering Committee"@en ;
-    org:identifier "CMIT-AA" ;
-    org:unitOf nadat2:NationalAssembly .
+	org:identifier "CMIT-AA" ;
+	org:unitOf nadat2:NationalAssembly .
 
 nadat2:CMIT-AA-A a nam2:SubCommittee ;
-    dcterms:temporal nadat2:LegSession-21 ;
-    skos:prefLabel "국회운영개선소위원회"@ko ;
-    org:identifier "CMIT-AA-A" ;
-    org:unitOf nadat2:CMIT-AA .
+	dcterms:temporal nadat2:LegSession-21 ;
+	skos:prefLabel "국회운영개선소위원회"@ko ;
+	org:identifier "CMIT-AA-A" ;
+	org:unitOf nadat2:CMIT-AA .
 
 nadat2:CMIT-AA-B a nam2:SubCommittee ;
-    dcterms:temporal nadat2:LegSession-21 ;
-    skos:prefLabel "예산결산심사소위원회"@ko ;
-    org:identifier "CMIT-AA-B" ;
-    org:unitOf nadat2:CMIT-AA .
+	dcterms:temporal nadat2:LegSession-21 ;
+	skos:prefLabel "예산결산심사소위원회"@ko ;
+	org:identifier "CMIT-AA-B" ;
+	org:unitOf nadat2:CMIT-AA .
 
 nadat2:CMIT-AA-C a nam2:SubCommittee ;
-    dcterms:temporal nadat2:LegSession-21 ;
-    skos:prefLabel "청원심사소위원회"@ko ;
-    org:identifier "CMIT-AA-C" ;
-    org:unitOf nadat2:CMIT-AA .
-
-
+	dcterms:temporal nadat2:LegSession-21 ;
+	skos:prefLabel "청원심사소위원회"@ko ;
+	org:identifier "CMIT-AA-C" ;
+	org:unitOf nadat2:CMIT-AA .
 
 nadat2:CMIT-AB a nam2:StandingCommittee ;
-    skos:prefLabel "법제사법위원회"@ko, "Legislation and Judiciary Committee"@en ;
-    rdfs:label "법제사법위원회"@ko, "Legislation and Judiciary Committee"@en ;
-    org:identifier "CMIT-AB" ;
-    org:unitOf nadat2:NationalAssembly .
+	skos:prefLabel "법제사법위원회"@ko, "Legislation and Judiciary Committee"@en ;
+	rdfs:label "법제사법위원회"@ko, "Legislation and Judiciary Committee"@en ;
+	org:identifier "CMIT-AB" ;
+	org:unitOf nadat2:NationalAssembly .
 
 nadat2:CMIT-AB-A a nam2:SubCommittee ;
     dcterms:temporal nadat2:LegSession-21 ;
