@@ -45,7 +45,7 @@ nam1:A-MIN a rico:RecordSet ;
     rico:name "회의록"@ko ;
     rico:identifier "A-MIN" ;
     rdfs:label "[A-MIN] 회의록"@ko ;
-    rico:includesOrIncluded nam1:A-MIN-021 .
+    rico:includesOrIncluded nadat1:RS100021 .
 
 nam1:A-BIL a rico:RecordSet ;
     rico:name "의안기록물"@ko ;
