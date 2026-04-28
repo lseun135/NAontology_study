@@ -49,3 +49,149 @@
                         <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_CM-AO.ttl> ,
                         <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_CM-AP.ttl> ,
                         <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_CM-AQ.ttl> .
+
+
+
+nadat1:RS100021 a rico:RecordSet ;
+        rdfs:label "[RS100021] 21대"@ko ;
+        skos:prefLabel "[RS100021] 21대"@ko ;
+        rico:identifier "RS100021" ;
+        rico:name "제21대"@ko ;
+        rico:classification "A" ;
+        rico:hasOrHadAllMembersWithCreationDate nadat1:date-d021 ;
+        rico:hasOrHadSomeMembersWithDocumentaryFormType nam1:Minutes ;
+        rico:includesOrIncluded nadat1:RS100021-PLEN .
+
+nadat1:RS100021-PLEN a rico:RecordSet ;
+        rdfs:label "[RS100021-PLEN] 제21대 국회본회의 회의록"@ko ;
+        skos:prefLabel "[RS100021-PLEN] 제21대 국회본회의 회의록"@ko ;
+        rico:identifier "RS100021-PLEN" ;
+        rico:name "제21대 국회본회의 회의록" ;
+        rico:classification "A" ;
+        rico:includesOrIncluded nadat1:RS100021-PLEN-0409 .
+
+nadat1:RS100021-PLEN-0409 a rico:RecordSet ;
+        rdfs:label "[RS100021-PLEN-0409] 21대 409회 국회본회의 회의록"@ko ;
+        skos:prefLabel "[RS100021-PLEN-0409] 21대 409회 국회본회의 회의록"@ko ;
+        rico:identifier "RS100021-PLEN-0409" ;
+        rico:name "제21대국회 제409회 국회본회의 회의록"@ko ;
+        rico:classification "A" ;
+        rico:hasOrHadAllMembersWithCreationDate nadat1:date-s0409 ;
+        rico:includesOrIncluded nadat1:R100021040900147588 .
+
+nadat1:R100021040900147588 a rico:Record ;
+        rdfs:label "[R100021040900147588] 제21대국회 제409회(임시회) 제1차 국회본회의회의록"@ko ;
+        skos:prefLabel "[R100021040900147588] 제21대국회 제409회(임시회) 제1차 국회본회의회의록"@ko ;
+        rico:identifier "R100021040900147588" ;
+        rico:title "제409회 국회(임시회) 국회본회의회의록 제1호"@ko ;
+        rico:hasCreationDate nadat1:date-20230824 ;
+        rico:hasDocumentaryFormType nam1:Minutes ;
+        rico:hasContentOfType nam1:Text ;
+        rico:hasOrHadLanguage nam1:lang-kor ;
+        rico:hasOrHadLegalStatus nam1:PublicRecord ;
+        rico:documents nadat1:ACT-M47588-ID ;
+        rico:hasOrHadInstantiation nadat1:INS-PLEN-DE-040900147588, nadat1:INS-PLEN-XM-040900147588 .
+        
+nadat1:R100021040900147588-APP01 a rico:RecordPart ;
+        rdfs:label "[47588-APP01] 금융정책 수립 관련 정보에 관한 서면질문"@ko ;
+        skos:prefLabel "[47588-APP01] 금융정책 수립 관련 정보에 관한 서면질문"@ko ;
+        rico:name "1. 금융정책 수립 관련 정보에 관한 서면질문"@ko ;
+        rico:identifier "R100021040900147588-APP01" ;
+        rico:hasDocumentaryFormType nam1:AppendixType06 ;
+        rico:hasContentOfType nam1:Text ;
+        rico:hasOrHadLegalStatus nam1:PublicRecord ;
+        rico:isOrWasConstituentOf nadat1:R100021040900147588 .
+
+nadat1:R100021040900147588-APP02 a rico:RecordPart ;
+        rdfs:label "[47588-APP02] 재해복구시스템에 관한 서면질문"@ko ;
+        skos:prefLabel "[47588-APP02] 재해복구시스템에 관한 서면질문"@ko ;
+        rico:name "2. 재해복구시스템에 관한 서면질문"@ko ;
+        rico:identifier "R100021040900147588-APP02" ;
+        rico:hasDocumentaryFormType nam1:AppendixType06 ;
+        rico:hasContentOfType nam1:Text ;
+        rico:hasOrHadLegalStatus nam1:PublicRecord ;
+        rico:isOrWasConstituentOf nadat1:R100021040900147588 .
+
+nadat1:R100021040900147588-APP03 a rico:RecordPart ;
+        rdfs:label "[47588-APP03] 재해복구시스템에 관한 서면질문"@ko ;
+        skos:prefLabel "[47588-APP03] 재해복구시스템에 관한 서면질문"@ko ;
+        rico:name "3. 재해복구시스템에 관한 서면질문"@ko ;
+        rico:identifier "R100021040900147588-APP03" ;
+        rico:hasDocumentaryFormType nam1:AppendixType06 ;
+        rico:hasContentOfType nam1:Text ;
+        rico:hasOrHadLegalStatus nam1:PublicRecord ;
+        rico:isOrWasConstituentOf nadat1:R100021040900147588 .
+
+nadat1:R100021040900147588-APP04 a rico:RecordPart ;
+        rdfs:label "[47588-APP04] 재해복구시스템에 관한 서면질문"@ko ;
+        skos:prefLabel "[47588-APP04] 재해복구시스템에 관한 서면질문"@ko ;
+        rico:name "4. 행정안전부에 관한 서면질문"@ko ;
+        rico:identifier "R100021040900147588-APP04" ;
+        rico:hasDocumentaryFormType nam1:AppendixType06 ;
+        rico:hasContentOfType nam1:Text ;
+        rico:hasOrHadLegalStatus nam1:PublicRecord ;
+        rico:isOrWasConstituentOf nadat1:R100021040900147588 .
+
+nadat1:R100021040900147588-APP05 a rico:RecordPart ;
+        rdfs:label "[47588-APP05] 외교부에 관한 서면질문 및 답변서"@ko ;
+        skos:prefLabel "[47588-APP05] 외교부에 관한 서면질문 및 답변서"@ko ;
+        rico:name "5. 외교부에 관한 서면질문 및 답변서"@ko ;
+        rico:identifier "R100021040900147588-APP05" ;
+        rico:hasDocumentaryFormType nam1:AppendixType06 ;
+        rico:hasContentOfType nam1:Text ;
+        rico:hasOrHadLegalStatus nam1:PublicRecord ;
+        rico:isOrWasConstituentOf nadat1:R100021040900147588 .
+
+nadat1:R100021040900147588-APP06 a rico:RecordPart ;
+        rdfs:label "[47588-APP06] 법제처에 관한 서면질문"@ko ;
+        skos:prefLabel "[47588-APP06] 법제처에 관한 서면질문"@ko ;
+        rico:name "6. 법제처에 관한 서면질문"@ko ;
+        rico:identifier "R100021040900147588-APP06" ;
+        rico:hasDocumentaryFormType nam1:AppendixType06 ;
+        rico:hasContentOfType nam1:Text ;
+        rico:hasOrHadLegalStatus nam1:PublicRecord ;
+        rico:isOrWasConstituentOf nadat1:R100021040900147588 .
+
+nadat1:EV-M47588 a rico:Event ;
+        rdfs:label "[EV-M47588] 제409회 제1차 국회본회의"@ko ;
+        skos:prefLabel "[EV-M47588] 제409회 제1차 국회본회의"@ko ;
+        rico:identifier "EV-M47588" ;
+        rico:name "제21대국회 제409회 제1차 국회본회의"@ko ;
+        rico:hasEventType nam1:PlenarySession ;
+        rico:hasOrHadParticipant nadat2:PER-LM-0PK7354M,nadat2:PER-LM-0WL9321T,
+nadat2:PER-LM-2UD1340H,nadat2:PER-LM-40S1959J,nadat2:PER-LM-4U29186R,nadat2:PER-LM-6FS10566,
+nadat2:PER-LM-6MO8786S,nadat2:PER-LM-B7D7534L,nadat2:PER-LM-E9R4507P,nadat2:PER-LM-GE71932C,
+nadat2:PER-LM-HKJ99607,nadat2:PER-LM-I0S53762,nadat2:PER-LM-K5F2023J,nadat2:PER-LM-N9X9673B,
+nadat2:PER-LM-O6D8329R,nadat2:PER-LM-PFG2137X,nadat2:PER-LM-Q9H5708M,nadat2:PER-LM-S9U45255,
+nadat2:PER-LM-SQ36001H,nadat2:PER-LM-VHK3402G,nadat2:PER-LM-XEF29171,nadat2:PER-TMP-00051 .
+
+nadat1:ACT-M47588-ID a rico:Activity ;
+        rdfs:label "[ACT-M47588-ID] 제409회 제1차 국회본회의 질의 및 토론"@ko ;
+        skos:prefLabel "[ACT-M47588-ID] 제409회 제1차 국회본회의 질의 및 토론"@ko ;
+        rico:identifier "ACT-M47588-ID" ;
+        rico:isOrWasPerformedBy nadat2:NationalAssembly ;
+        rico:name "제409회 제1차 국회본회의 질의 및 토론"@ko ;
+        rico:hasActivityType nam1:PlenaryPhase, nam1:InterpellationDebate ;
+        rico:isOrWasPartOf nadat1:EV-M47588 .
+
+nadat1:INS-PLEN-DE-040900147588 a rico:Instantiation ;
+        rdfs:label "[INS-PLEN-DE-040900147588] 국회본회의 전자회의록"@ko ;
+        skos:prefLabel "[INS-PLEN-DE-040900147588] 국회본회의 전자회의록"@ko ;
+        rico:identifier "INS-PLEN-DE-040900147588" ;
+        rico:hasRepresentationType nam1:DigitalTextual ;
+        rico:hasProductionTechniqueType nam1:DigitalCreation ;
+        rico:hasCarrierType nam1:DigitalFile .
+
+
+nadat1:INS-PLEN-XM-040900147588 a rico:Instantiation ;
+        rdfs:label "[INS-PLEN-XM-040900147588] 국회본회의 영상회의록"@ko ;
+        skos:prefLabel "[INS-PLEN-XM-040900147588] 국회본회의 전자회의록"@ko ;
+        rico:name "제409회 국회(임시회) 제01차 본회의"@ko ;
+        rico:identifier "INS-PLEN-XM-040900147588" ;
+        rico:hasRepresentationType nam1:DigitalVideo ;
+        rico:hasProductionTechniqueType nam1:Recording ;
+        rico:hasCarrierType nam1:DigitalFile .
+
+
+
+
