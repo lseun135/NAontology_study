@@ -158,6 +158,8 @@ nadat1:EV-M47588 a rico:Event ;
         rico:identifier "EV-M47588" ;
         rico:name "제21대국회 제409회 제1차 국회본회의"@ko ;
         rico:hasEventType nam1:PlenarySession ;
+        rico:hasBeginningDate "2023-08-24T14:37:00"^^xsd:dateTime ;
+        rico:hasEndDate "2023-08-24T16:18:00"^^xsd:dateTime ;
         rico:hasOrHadParticipant nadat2:PER-LM-0PK7354M,nadat2:PER-LM-0WL9321T,
 nadat2:PER-LM-2UD1340H,nadat2:PER-LM-40S1959J,nadat2:PER-LM-4U29186R,nadat2:PER-LM-6FS10566,
 nadat2:PER-LM-6MO8786S,nadat2:PER-LM-B7D7534L,nadat2:PER-LM-E9R4507P,nadat2:PER-LM-GE71932C,
@@ -191,7 +193,8 @@ nadat1:INS-PLEN-XM-040900147588 a rico:Instantiation ;
         rico:identifier "INS-PLEN-XM-040900147588" ;
         rico:hasRepresentationType nam1:DigitalVideo ;
         rico:hasProductionTechniqueType nam1:Recording ;
-        rico:hasCarrierType nam1:DigitalFile .
+        rico:hasCarrierType nam1:DigitalFile ;
+        schema:url "https://w3.assembly.go.kr/main/player.do?menu=1&mc=10&ct1=21&ct2=409&ct3=01&wv=1"^^xsd:anyURI .
 
 
 
