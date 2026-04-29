@@ -123,8 +123,8 @@ nadat1:R100021040900147588-APP03 a rico:RecordPart ;
         rico:isOrWasConstituentOf nadat1:R100021040900147588 .
 
 nadat1:R100021040900147588-APP04 a rico:RecordPart ;
-        rdfs:label "[47588-APP04] 재해복구시스템에 관한 서면질문"@ko ;
-        skos:prefLabel "[47588-APP04] 재해복구시스템에 관한 서면질문"@ko ;
+        rdfs:label "[47588-APP04] 행정안전부에 관한 서면질문"@ko ;
+        skos:prefLabel "[47588-APP04] 행정안전부에 관한 서면질문"@ko ;
         rico:name "4. 행정안전부에 관한 서면질문"@ko ;
         rico:identifier "R100021040900147588-APP04" ;
         rico:hasDocumentaryFormType nam1:AppendixType06 ;
@@ -178,6 +178,7 @@ nadat1:INS-PLEN-DE-040900147588 a rico:Instantiation ;
         rdfs:label "[INS-PLEN-DE-040900147588] 국회본회의 전자회의록"@ko ;
         skos:prefLabel "[INS-PLEN-DE-040900147588] 국회본회의 전자회의록"@ko ;
         rico:identifier "INS-PLEN-DE-040900147588" ;
+        rico:name "제409회 국회(임시회) 국회본회의회의록 제1호"@ko ;
         rico:hasRepresentationType nam1:DigitalTextual ;
         rico:hasProductionTechniqueType nam1:DigitalCreation ;
         rico:hasCarrierType nam1:DigitalFile .
@@ -185,7 +186,7 @@ nadat1:INS-PLEN-DE-040900147588 a rico:Instantiation ;
 
 nadat1:INS-PLEN-XM-040900147588 a rico:Instantiation ;
         rdfs:label "[INS-PLEN-XM-040900147588] 국회본회의 영상회의록"@ko ;
-        skos:prefLabel "[INS-PLEN-XM-040900147588] 국회본회의 전자회의록"@ko ;
+        skos:prefLabel "[INS-PLEN-XM-040900147588] 국회본회의 영상회의록"@ko ;
         rico:name "제409회 국회(임시회) 제01차 본회의"@ko ;
         rico:identifier "INS-PLEN-XM-040900147588" ;
         rico:hasRepresentationType nam1:DigitalVideo ;
