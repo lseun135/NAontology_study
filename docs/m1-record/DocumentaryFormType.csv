@@ -3,3 +3,4 @@ nam1:DocumentaryFormTypeScheme,skos:ConceptScheme,.,.,기록양식 유형 통제
 nam1:Minutes,rico:DocumentaryFormType; skos:Concept,,,회의록,,,
 nam1:Bill,rico:DocumentaryFormType; skos:Concept,,,의안,,,
 nam1:Law,rico:DocumentaryFormType; skos:Concept,,,법률,,,
+nam1:AppendixType01,rico:DocumentaryFormType; skos:Concept,,,전문위원 검토보고서,,국회법 제42조제4항. 국회회의록작성편람(2020) 국회회의록 발간⋅보존 등에 관한 규정 제3조 2항에 따름., 
