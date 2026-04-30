@@ -257,39 +257,41 @@ nam1:Law a rico:DocumentaryFormType, skos:Concept ;
 
 
 nam1:AppendixType01 a skos:Concept ;
-    skos:inScheme nam1:DocumentaryFormTypeScheme ;
-    skos:prefLabel "전문위원 검토보고서"@ko, "Staff Examination Report"@en ;
-    skos:scopeNote "국회법 제42조제4항"@ko .
+        skos:inScheme nam1:DocumentaryFormTypeScheme ;
+        skos:prefLabel "전문위원 검토보고서"@ko, "Staff Examination Report"@en ;
+        skos:editorialNote "국회법 제42조제4항. 국회회의록작성편람(2020) 국회회의록 발간⋅보존 등에 관한 규정 제3조 2항에 따름."@ko .
 
 nam1:AppendixType02 a skos:Concept ;
-    skos:inScheme nam1:DocumentaryFormTypeScheme ;
-    skos:prefLabel "서면질의서·답변서"@ko, "Written Question and Response"@en ;
-    skos:scopeNote "국회법 제69조제1항제11호. 위원회 회의에 해당"@ko .
+        skos:inScheme nam1:DocumentaryFormTypeScheme ;
+        skos:prefLabel "서면질의서·답변서"@ko, "Written Question and Response"@en ;
+        skos:scopeNote "위원회 회의에 해당"@ko ;
+        skos:editorialNote "국회법 제69조제1항제11호. 국회회의록작성편람(2020) 국회회의록 발간⋅보존 등에 관한 규정 제3조 2항에 따름."@ko.
 
 nam1:AppendixType03 a skos:Concept ;
-    skos:inScheme nam1:DocumentaryFormTypeScheme ;
-    skos:prefLabel "위원회 보고서"@ko, "Committee Examination Report"@en ;
-    skos:scopeNote "국회법 제115조제1항제11호"@ko .
+        skos:inScheme nam1:DocumentaryFormTypeScheme ;
+        skos:prefLabel "위원회 보고서"@ko, "Committee Examination Report"@en ;
+        skos:editorialNote "국회법 제115조제1항제11호. 국회회의록작성편람(2020) 국회회의록 발간⋅보존 등에 관한 규정 제3조 2항에 따름."@ko .
 
 nam1:AppendixType04 a skos:Concept ;
-    skos:inScheme nam1:DocumentaryFormTypeScheme ;
-    skos:prefLabel "청원처리결과보고서 및 국감·조사결과처리보고서"@ko, "Petition and National Audit Results Report"@en ;
-    skos:scopeNote "국회법 제115조제1항제17호 및 제18호"@ko .
+        skos:inScheme nam1:DocumentaryFormTypeScheme ;
+        kos:prefLabel "청원처리결과보고서 및 국감·조사결과처리보고서"@ko, "Petition and National Audit Results Report"@en ;
+        skos:editorialNote "국회법 제115조제1항제17호 및 제18호. 국회회의록작성편람(2020) 국회회의록 발간⋅보존 등에 관한 규정 제3조 2항에 따름."@ko .
 
 nam1:AppendixType05 a skos:Concept ;
-    skos:inScheme nam1:DocumentaryFormTypeScheme ;
-    skos:prefLabel "발언 참고문서"@ko, "Speech Reference Document"@en ;
-    skos:scopeNote "국회법 제116조"@ko .
+        skos:inScheme nam1:DocumentaryFormTypeScheme ;
+        skos:prefLabel "발언 참고문서"@ko, "Speech Reference Document"@en ;
+        skos:editorialNote "국회법 제116조. 국회회의록작성편람(2020) 국회회의록 발간⋅보존 등에 관한 규정 제3조 2항에 따름."@ko .
 
 nam1:AppendixType06 a skos:Concept ;
-    skos:inScheme nam1:DocumentaryFormTypeScheme ;
-    skos:prefLabel "서면질문서·답변서"@ko, "Written Interpellation to Government"@en ;
-    skos:scopeNote "국회법 제122조제4항. 본회의에 해당."@ko .
+        skos:inScheme nam1:DocumentaryFormTypeScheme ;
+        skos:prefLabel "서면질문서·답변서"@ko, "Written Interpellation to Government"@en ;
+        skos:scopeNote "본회의에 해당."@ko ;
+        skos:editorialNote "국회법 제122조제4항. 국회회의록작성편람(2020) 국회회의록 발간⋅보존 등에 관한 규정 제3조 2항에 따름."@ko .
 
 nam1:AppendixType07 a skos:Concept ;
-    skos:inScheme nam1:DocumentaryFormTypeScheme ;
-    skos:prefLabel "기타 참고자료"@ko, "Supplementary Reference Material"@en ;
-    skos:scopeNote "국회회의록 발간·보존 등에 관한 규정 제3조제2항제7호"@ko .
+        skos:inScheme nam1:DocumentaryFormTypeScheme ;
+        skos:prefLabel "기타 참고자료"@ko, "Supplementary Reference Material"@en ;
+        skos:editorialNote "국회회의록 발간·보존 등에 관한 규정 제3조제2항제7호."@ko .
 
 
 ## CarrierType
