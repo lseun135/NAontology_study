@@ -1,4 +1,4 @@
-@prefix sdat1: <https://lseun135.github.io/NAontology_study/resource/d1-record-sample5#> .
+@prefix sdat1: <https://lseun135.github.io/NAontology_study/resource/old/d1-record-sample5_old#> .
 
 @prefix nam1: <https://lseun135.github.io/NAontology_study/m1-record#> .
 @prefix nam2: <https://lseun135.github.io/NAontology_study/m2-person#> .
@@ -23,11 +23,11 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-@base <https://lseun135.github.io/NAontology_study/resource/old/d1-record-sample5> .
+@base <https://lseun135.github.io/NAontology_study/resource/old/d1-record-sample5_old> .
 
 
 
-<https://lseun135.github.io/NAontology_study/resource/old/d1-record-sample5.ttl> rdf:type owl:Ontology ;
+<https://lseun135.github.io/NAontology_study/resource/old/d1-record-sample5_old.ttl> rdf:type owl:Ontology ;
         owl:imports <https://lseun135.github.io/NAontology_study/m1-record.ttl> ,
                     <https://lseun135.github.io/NAontology_study/resource/d2-person.ttl> ;
         rdfs:comment "제21대 국회 회의록 중 가장 최근 5 차수의 본회의를 중심으로 구축한 샘플 온톨로지"@ko .
