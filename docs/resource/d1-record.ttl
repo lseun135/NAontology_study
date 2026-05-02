@@ -29,9 +29,10 @@
 
 
 <https://lseun135.github.io/NAontology_study/resource/d1-record.ttl> rdf:type owl:Ontology ;
-                owl:imports <https://lseun135.github.io/NAontology_study/m1-record.ttl> ,
+        owl:imports <https://lseun135.github.io/NAontology_study/m1-record.ttl> ,
                         <https://lseun135.github.io/NAontology_study/resource/d2-person.ttl> ,
                         <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_date.ttl> ,
+                        <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_bill.ttl> ,
                         <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_CM-AA.ttl> ,
                         <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_CM-AB.ttl> ,
                         <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_CM-AC.ttl> ,
