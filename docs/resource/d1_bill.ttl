@@ -1,0 +1,50 @@
+@prefix nam1:   <https://lseun135.github.io/NAontology_study/m1-record#> .
+@prefix nadat1: <https://lseun135.github.io/NAontology_study/resource/d1-record#> .
+@prefix rico:   <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+@base <https://lseun135.github.io/NAontology_study/resource/d1-record> .
+
+
+### 참고: https://open.assembly.go.kr/portal/data/service/selectAPIServicePage.do/OOWY4R001216HX11536
+
+nadat1:R100021-BL2124003-230824-001 a rico:Record ;
+        rdfs:label "[R100021-BL2124003-001] 제409회국회(임시회) 회기결정의 건(의장)"@ko ;
+        skos:prefLabel "[R100021-BL2124003-230824-001] 제409회국회(임시회) 회기결정의 건(의장)"@ko ;
+        rico:identifier "R100021-BL2124003-001" ;
+        rico:title "제409회국회(임시회) 회기결정의 건"@ko ;
+        rico:hasCreationDate nadat1:date-20230824 ;
+        rico:hasDocumentaryFormType nam1:Bill ;
+        rico:hasContentOfType nam1:Text ;
+        rico:hasOrHadLanguage nam1:lang-kor ;
+        rico:hasOrHadLegalStatus nam1:PublicRecord ;
+        rico:documents nadat1:ACT-M47588-ID ;
+        rico:hasOrHadInstantiation .
+
+nadat1:R100021-BL2124003-230824-002 a rico:Record ;
+        rdfs:label "[R100021-BL2124003-230824-002] 제409회국회(임시회) 회기결정의 건에 대한 수정안"@ko ;
+        skos:prefLabel "[R100021-BL2124003-230824-002] 제409회국회(임시회) 회기결정의 건에 대한 수정안"@ko ;
+        rico:identifier "R100021-BL2124003-230824-002" ;
+        rico:title "제409회국회(임시회) 회기결정의 건에 대한 수정안"@ko ;
+        rico:hasCreationDate nadat1:date-20230824 ;
+        rico:hasDocumentaryFormType nam1:Bill ;
+        rico:hasContentOfType nam1:Text ;
+        rico:hasOrHadLanguage nam1:lang-kor ;
+        rico:hasOrHadLegalStatus nam1:PublicRecord ;
+        rico:documents nadat1:ACT-M47588-ID ;
+        rico:hasOrHadInstantiation .
+
+
+## 의안ID: PRC_U2A1Z0W8W2P6O1X5H1R1L0G6I9V3S9 / 의안번호: 2112358
+nadat1:R100021-BL2112358-210901 a rico:Record ;
+        rdfs:label "[R100021-BL2124003-210901] 도시하천유역 침수피해방지대책법안"@ko ;
+        skos:prefLabel "[R100021-BL2124003-210901] 도시하천유역 침수피해방지대책법안"@ko ;
+        rico:identifier "R100021-BL2124003-210901" ;
+        rico:title "도시하천유역 침수피해방지대책법안"@ko ;
+        rico:hasCreationDate nadat1:date-20210901 ;
+        rico:hasDocumentaryFormType nam1:Bill ;
+        rico:hasContentOfType nam1:Text ;
+        rico:hasOrHadLanguage nam1:lang-kor ;
+        rico:hasOrHadLegalStatus nam1:PublicRecord ;
+        rico:documents nadat1:ACT-M47588-ID ;
+        rico:hasOrHadInstantiation .
