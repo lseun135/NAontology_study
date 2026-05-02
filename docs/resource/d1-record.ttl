@@ -158,8 +158,8 @@ nadat1:EV-M47588 a rico:Event ;
         rico:identifier "EV-M47588" ;
         rico:name "제21대국회 제409회 제1차 국회본회의"@ko ;
         rico:hasEventType nam1:PlenarySession ;
-        rico:hasBeginningDate "2023-08-24T14:37:00"^^xsd:dateTime ;
-        rico:hasEndDate "2023-08-24T16:18:00"^^xsd:dateTime ;
+        rico:beginningDate "2023-08-24T14:37:00"^^xsd:dateTime ;
+        rico:endDate "2023-08-24T16:18:00"^^xsd:dateTime ;
         rico:hasOrHadParticipant nadat2:PER-LM-14M56632, nadat2:PER-LM-L2I9861C, nadat2:PER-LM-8P37634C, 
 nadat2:PER-LM-GX22581L, nadat2:PER-LM-P2N50879, nadat2:PER-LM-60490713, nadat2:PER-LM-MNZ4401T, nadat2:PER-LM-6FS10566, 
 nadat2:PER-LM-WMG57662, nadat2:PER-LM-5KV96424, nadat2:PER-LM-TRE2429O, nadat2:PER-LM-WCD5518S, nadat2:PER-LM-4XG1439M, 
