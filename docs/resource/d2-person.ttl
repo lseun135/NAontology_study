@@ -10067,7 +10067,7 @@ nadat2:MEM-IH436704-100020 a org:Membership ;
     org:role nadat2:RL-LM .
 
 nadat2:MEM-IL74008M-100021 a org:Membership ;
-    rdfs:label "박성준: 제21대 국회 membership"@ko ;
+    rdfs:label "박성중: 제21대 국회 membership"@ko ;
     dcterms:coverage "서울 중구성동구을"@ko ;
     org:memberDuring nadat2:LegSession-21 ;
     org:member nadat2:PER-LM-IL74008M ;
@@ -10075,7 +10075,7 @@ nadat2:MEM-IL74008M-100021 a org:Membership ;
     org:role nadat2:RL-LM .
 
 nadat2:MEM-IL74008M-100022 a org:Membership ;
-    rdfs:label "박성준: 제22대 국회 membership"@ko ;
+    rdfs:label "박성중: 제22대 국회 membership"@ko ;
     dcterms:coverage "서울 중구성동구을"@ko ;
     org:memberDuring nadat2:LegSession-22 ;
     org:member nadat2:PER-LM-IL74008M ;
@@ -10093,7 +10093,7 @@ nadat2:MEM-IL74008M-100022 a org:Membership ;
     schema:address "서울특별시 영등포구 의사당대로 1, 의원회관 816호" .
 
 nadat2:MEM-IL74008M-14DPK a org:Membership ;
-    rdfs:label "박성준: 정당 membership"@ko ;
+    rdfs:label "박성중: 정당 membership"@ko ;
     org:member nadat2:PER-LM-IL74008M ;
     org:organization nadat2:DemocraticPartyofKorea ;
     org:role nadat2:RL-PM .
@@ -23722,7 +23722,7 @@ nadat2:PER-LM-I5I2468R a nam2:Legislator ;
     schema:url <https://blog.naver.com/gisang2020> .
 
 nadat2:PER-LM-IL74008M a nam2:Legislator ;
-    rdfs:label "박성준"@ko ;
+    rdfs:label "박성중"@ko ;
     dcterms:description "재선(제21대, 제22대)"@ko ;
     dcterms:identifier "IL74008M" ;
     bio:biography "■학력 -한국외국어대학교 정치외교학과 정치학사 -충남대학교대학원 정치외교학과 정치학석사 -성균관대학교대학원 정치외교학과 정치학박사 ■주요경력 -제21&middot;22대 국회의원 (중구성동구을) -더불어민주당 원내수석부대표 -국회 운영위원회 간사 -국회 교육위원회 위원 (전)더불어민주당 수석대변인 (전)더불어민주당 대변인 (전)더불어민주당 원내대변인 (전)국회 국방위원회 위원 (전)국회 운영위원회 위원 (전)국회 법제사법위원회 위원 (전)국회 기획재정위원회 위원 (전)국회 정무위원회 위원 (전)JTBC 아나운서팀 팀장 (전)KBS 아나운서" ;
