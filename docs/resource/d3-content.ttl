@@ -1,0 +1,53 @@
+@prefix nam1: <https://lseun135.github.io/NAontology_study/m1-record#> .
+@prefix nam2: <https://lseun135.github.io/NAontology_study/m2-person#> .
+@prefix nam3: <https://lseun135.github.io/NAontology_study/m3-content#> .
+@prefix nadat1: <https://lseun135.github.io/NAontology_study/resource/d1-record#> .
+@prefix nadat2: <https://lseun135.github.io/NAontology_study/resource/d2-person#> .
+@prefix nadat3: <https://lseun135.github.io/NAontology_study/resource/d3-content#> .
+
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix opengov: <http://www.w3.org/ns/opengov#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@base    <https://lseun135.github.io/NAontology_study/resource/d3-content> .
+
+
+<https://lseun135.github.io/NAontology_study/resource/d3-content.ttl> rdf:type owl:Ontology ;
+        owl:imports <https://lseun135.github.io/NAontology_study/m3-content.ttl>,
+                    <https://lseun135.github.io/NAontology_study/resource/d1-record.ttl> .
+
+
+nadat3:AGD-M47588-001 a nam3:AgendaItem ;
+        dcterms:isPartOf nadat1:ACT-M47588-ID ;
+        dcterms:source nadat1:R100021040900147588 ;
+        dcterms:title "1. 제409회국회(임시회) 회기결정의 건(의장 제의)(의안번호 2124003)"@ko ;
+        skos:prefLabel "[AGD-M47588-001] 1. 제409회국회(임시회) 회기결정의 건(의장 제의)(의안번호 2124003)"@ko .
+
+nadat3:AGD-M47588-002 a nam3:AgendaItem ;
+        dcterms:isPartOf nadat1:ACT-M47588-ID ;
+        dcterms:source nadat1:R100021040900147588 ;
+        dcterms:title "2. 도시하천유역 침수피해방지대책법안(노웅래 의원 대표발의)(의안번호 2112358)"@ko ;
+        skos:prefLabel "[AGD-M47588-002] 2. 도시하천유역 침수피해방지대책법안(노웅래 의원 대표발의)(의안번호 2112358)"@ko .
+
+nadat3:AGD-M47588-003 a nam3:AgendaItem ;
+        dcterms:isPartOf nadat1:ACT-M47588-ID ;
+        dcterms:source nadat1:R100021040900147588 ;
+        dcterms:title "3. 실내공기질 관리법 일부개정법률안(지성호 의원 대표발의)(의안번호 2118889)"@ko ;
+        skos:prefLabel "[AGD-M47588-003] 3. 실내공기질 관리법 일부개정법률안(지성호 의원 대표발의)(의안번호 2118889)"@ko .
+
+nadat3:AGD-M47588-004 a nam3:AgendaItem ;
+        dcterms:isPartOf nadat1:ACT-M47588-ID ;
+        dcterms:source nadat1:R100021040900147588 ;
+        dcterms:title "4. 폐기물처리시설 설치촉진 및 주변지역지원 등에 관한 법률 일부개정법률안(대안)(환경노동위원장 제출)(의안번호 2123991)"@ko ;
+        skos:prefLabel "[AGD-M47588-004] 4. 폐기물처리시설 설치촉진 및 주변지역지원 등에 관한 법률 일부개정법률안(대안)(환경노동위원장 제출)(의안번호 2123991)"@ko .
