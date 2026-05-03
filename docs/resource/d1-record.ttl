@@ -107,65 +107,16 @@ nadat1:R100021041400148063 a rico:Record ;
         rico:hasOrHadInstantiation INS-PLEN-DE-041400148063, nadat1:INS-PLEN-XM-041400148063 .
 
         
-nadat1:R100021040900147588-APP01 a rico:RecordPart ;
-        rdfs:label "[47588-APP01] 금융정책 수립 관련 정보에 관한 서면질문"@ko ;
-        skos:prefLabel "[47588-APP01] 금융정책 수립 관련 정보에 관한 서면질문"@ko ;
-        rico:name "1. 금융정책 수립 관련 정보에 관한 서면질문"@ko ;
-        rico:identifier "R100021040900147588-APP01" ;
+nadat1:R100021041400148063-APP01 a rico:RecordPart ;
+        rdfs:label "[48063-APP01] 전세사기피해 지원 관련 후속 대책에 관한 서면질문"@ko ;
+        skos:prefLabel "[48063-APP01] 전세사기피해 지원 관련 후속 대책에 관한 서면질문"@ko ;
+        rico:name "1.전세사기피해 지원 관련 후속 대책에 관한 서면질문"@ko ;
+        rico:identifier "R100021041400148063-APP01" ;
         rico:hasDocumentaryFormType nam1:AppendixType06 ;
         rico:hasContentOfType nam1:Text ;
         rico:hasOrHadLegalStatus nam1:PublicRecord ;
-        rico:isOrWasConstituentOf nadat1:R100021040900147588 .
+        rico:isOrWasConstituentOf nadat1:R100021041400148063 .
 
-nadat1:R100021040900147588-APP02 a rico:RecordPart ;
-        rdfs:label "[47588-APP02] 재해복구시스템에 관한 서면질문"@ko ;
-        skos:prefLabel "[47588-APP02] 재해복구시스템에 관한 서면질문"@ko ;
-        rico:name "2. 재해복구시스템에 관한 서면질문"@ko ;
-        rico:identifier "R100021040900147588-APP02" ;
-        rico:hasDocumentaryFormType nam1:AppendixType06 ;
-        rico:hasContentOfType nam1:Text ;
-        rico:hasOrHadLegalStatus nam1:PublicRecord ;
-        rico:isOrWasConstituentOf nadat1:R100021040900147588 .
-
-nadat1:R100021040900147588-APP03 a rico:RecordPart ;
-        rdfs:label "[47588-APP03] 재해복구시스템에 관한 서면질문"@ko ;
-        skos:prefLabel "[47588-APP03] 재해복구시스템에 관한 서면질문"@ko ;
-        rico:name "3. 재해복구시스템에 관한 서면질문"@ko ;
-        rico:identifier "R100021040900147588-APP03" ;
-        rico:hasDocumentaryFormType nam1:AppendixType06 ;
-        rico:hasContentOfType nam1:Text ;
-        rico:hasOrHadLegalStatus nam1:PublicRecord ;
-        rico:isOrWasConstituentOf nadat1:R100021040900147588 .
-
-nadat1:R100021040900147588-APP04 a rico:RecordPart ;
-        rdfs:label "[47588-APP04] 행정안전부에 관한 서면질문"@ko ;
-        skos:prefLabel "[47588-APP04] 행정안전부에 관한 서면질문"@ko ;
-        rico:name "4. 행정안전부에 관한 서면질문"@ko ;
-        rico:identifier "R100021040900147588-APP04" ;
-        rico:hasDocumentaryFormType nam1:AppendixType06 ;
-        rico:hasContentOfType nam1:Text ;
-        rico:hasOrHadLegalStatus nam1:PublicRecord ;
-        rico:isOrWasConstituentOf nadat1:R100021040900147588 .
-
-nadat1:R100021040900147588-APP05 a rico:RecordPart ;
-        rdfs:label "[47588-APP05] 외교부에 관한 서면질문 및 답변서"@ko ;
-        skos:prefLabel "[47588-APP05] 외교부에 관한 서면질문 및 답변서"@ko ;
-        rico:name "5. 외교부에 관한 서면질문 및 답변서"@ko ;
-        rico:identifier "R100021040900147588-APP05" ;
-        rico:hasDocumentaryFormType nam1:AppendixType06 ;
-        rico:hasContentOfType nam1:Text ;
-        rico:hasOrHadLegalStatus nam1:PublicRecord ;
-        rico:isOrWasConstituentOf nadat1:R100021040900147588 .
-
-nadat1:R100021040900147588-APP06 a rico:RecordPart ;
-        rdfs:label "[47588-APP06] 법제처에 관한 서면질문"@ko ;
-        skos:prefLabel "[47588-APP06] 법제처에 관한 서면질문"@ko ;
-        rico:name "6. 법제처에 관한 서면질문"@ko ;
-        rico:identifier "R100021040900147588-APP06" ;
-        rico:hasDocumentaryFormType nam1:AppendixType06 ;
-        rico:hasContentOfType nam1:Text ;
-        rico:hasOrHadLegalStatus nam1:PublicRecord ;
-        rico:isOrWasConstituentOf nadat1:R100021040900147588 .
 
 nadat1:EV-CF053844 a rico:Event ;
         rdfs:label "[EV-CF053844] 제414회 제2차 국회본회의"@ko ;
