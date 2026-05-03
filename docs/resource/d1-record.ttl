@@ -69,7 +69,7 @@ nadat1:RS100021-PLEN a rico:RecordSet ;
         rico:identifier "RS100021-PLEN" ;
         rico:name "제21대 국회본회의 회의록" ;
         rico:classification "A" ;
-        rico:includesOrIncluded nadat1:RS100021-PLEN-0409 .
+        rico:includesOrIncluded nadat1:RS100021-PLEN-0414 .
 
 nadat1:RS100021-PLEN-0414 a rico:RecordSet ;
         rdfs:label "[RS100021-PLEN-0414] 21대 414회 국회본회의 회의록"@ko ;
@@ -78,7 +78,7 @@ nadat1:RS100021-PLEN-0414 a rico:RecordSet ;
         rico:name "제21대국회 제414회 국회본회의 회의록"@ko ;
         rico:classification "A" ;
         rico:hasOrHadAllMembersWithCreationDate nadat1:date-s0414 ;
-        rico:includesOrIncluded nadat1:R100021041400248064 .
+        rico:includesOrIncluded nadat1:R100021041400148063, nadat1:R100021041400248064 .
 
 nadat1:R100021041400248064 a rico:Record ;
         rdfs:label "[R100021041400248064] 제21대국회 제414회(임시회) 제2차 국회본회의회의록"@ko ;
@@ -104,7 +104,7 @@ nadat1:R100021041400148063 a rico:Record ;
         rico:hasOrHadLanguage nam1:lang-kor ;
         rico:hasOrHadLegalStatus nam1:PublicRecord ;
         rico:documents nadat1:ACT-CF053832-ID ;
-        rico:hasOrHadInstantiation INS-PLEN-DE-041400148063, nadat1:INS-PLEN-XM-041400148063 .
+        rico:hasOrHadInstantiation nadat1:INS-PLEN-DE-041400148063, nadat1:INS-PLEN-XM-041400148063 .
 
         
 nadat1:R100021041400148063-APP01 a rico:RecordPart ;
