@@ -24,6 +24,9 @@
 
 
 <https://lseun135.github.io/NAontology_study/resource/d3-content.ttl> rdf:type owl:Ontology ;
+        dcterms:title "NAontology: Content Data"@en ;
+        dcterms:creator "이세은"@ko, "Lee SeEun"@en ;
+        owl:versionInfo "1.0" ;
         owl:imports <https://lseun135.github.io/NAontology_study/m3-content.ttl>,
                     <https://lseun135.github.io/NAontology_study/resource/d1-record.ttl> .
 
