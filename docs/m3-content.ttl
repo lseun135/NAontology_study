@@ -27,7 +27,10 @@
 
 
 <https://lseun135.github.io/NAontology_study/m3-content.ttl> rdf:type owl:Ontology ;
-                owl:imports <https://schema.org/version/latest/schemaorg-current-https.ttl> .
+        dcterms:title "NAontology: Content Module"@en ;
+        dcterms:creator "이세은"@ko, "Lee SeEun"@en ;
+        owl:versionInfo "1.0" ;
+        owl:imports <https://schema.org/version/latest/schemaorg-current-https.ttl> .
 
 
 
