@@ -29,6 +29,9 @@
 
 
 <https://lseun135.github.io/NAontology_study/resource/d1-record.ttl> rdf:type owl:Ontology ;
+        dcterms:title "NAontology: Record Data"@en ;
+        dcterms:creator "이세은"@ko, "Lee SeEun"@en ;
+        owl:versionInfo "1.0" ;
         owl:imports <https://lseun135.github.io/NAontology_study/m1-record.ttl> ,
                         <https://lseun135.github.io/NAontology_study/resource/d2-person.ttl> ,
                         <https://lseun135.github.io/NAontology_study/resource/d1-record/d1_date.ttl> ,
