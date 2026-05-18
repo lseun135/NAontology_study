@@ -30,7 +30,10 @@
 
 
 <https://lseun135.github.io/NAontology_study/resource/d2-person.ttl> rdf:type owl:Ontology ;
-                owl:imports <https://lseun135.github.io/NAontology_study/m2-person.ttl> .
+        dcterms:title "NAontology: Person Data"@en ;
+        dcterms:creator "이세은"@ko, "Lee SeEun"@en ;
+	owl:versionInfo "1.0" ;
+        owl:imports <https://lseun135.github.io/NAontology_study/m2-person.ttl> .
 
 
 
