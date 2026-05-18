@@ -29,8 +29,11 @@
 
 
 <https://lseun135.github.io/NAontology_study/m2-person.ttl> rdf:type owl:Ontology ;
-                owl:imports <http://www.w3.org/2004/02/skos/core> ,
-                            <http://www.w3.org/ns/org>, <http://xmlns.com/foaf/0.1/> .
+        dcterms:title "NAontology: Person Module"@en ;
+        dcterms:creator "이세은"@ko, "Lee SeEun"@en ;
+        owl:versionInfo "1.0" ;
+        owl:imports <http://www.w3.org/2004/02/skos/core> ,
+                <http://www.w3.org/ns/org>, <http://xmlns.com/foaf/0.1/> .
 
 #    Class
 foaf:Agent rdf:type owl:Class ;
