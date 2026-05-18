@@ -29,6 +29,9 @@
 
 
 <https://lseun135.github.io/NAontology_study/m1-record> a owl:Ontology ;
+        dcterms:title "NAontology: Record Module"@en ;
+        dcterms:creator "이세은"@ko, "Lee SeEun"@en ;
+        owl:versionInfo "1.0" ;
         owl:imports <https://www.ica.org/standards/RiC/ontology/1.1> .
 
 
